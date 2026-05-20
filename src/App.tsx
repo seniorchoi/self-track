@@ -55,7 +55,7 @@ const fmtH = (m: number) => {
 const toMin = (hhmm: string) => {
   const [h, mm] = hhmm.split(':').map(Number); return h * 60 + mm
 }
-const isUrl = (v?: string) => !!v && (v.startsWith('http://') || v.startsWith('https://'))
+const isUrl = (v?: string | null): v is string => !!v && (v.startsWith('http://') || v.startsWith('https://'))
 const dateAddDays = (iso: string, days: number) => {
   const d = new Date(iso + 'T00:00:00Z'); d.setUTCDate(d.getUTCDate() + days)
   return d.toISOString().slice(0, 10)
