@@ -719,10 +719,12 @@ const DAILY_ROWS: DailyRow[] = [
   { hhmm: '13:03', project: 'mbtioracle',  what: 'growth experiment shipped' },
   { hhmm: '20:07', project: 'mbtioracle',  what: 'evening metrics report' },
   { hhmm: '20:07', project: 'simple-rizz', what: 'evening TikTok idea' },
+  { hhmm: '22:00', project: 'selftrack',   what: 'daily summary → Telegram' },
   { hhmm: '23:00', project: 'selftrack',   what: 'tweet today’s timeline' },
   { hhmm: '23:30', project: 'selftrack',   what: 'ROI roll-up (time ↔ $)' },
 ]
 const WEEKLY_ROWS: WeeklyRow[] = [
+  { weekday: 'Sun', hhmm: '14:00', project: 'selftrack',  what: 'weekly recap → Telegram' },
   { weekday: 'Thu', hhmm: '20:00', project: 'personal',   what: 'movie download', warn: 'recent runs failing' },
   { weekday: 'Sun', hhmm: '21:30', project: 'mbtioracle', what: 'weekly strategy review' },
 ]
