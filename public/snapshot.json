@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-05-20T18:25:00+09:00",
+  "generatedAt": "2026-05-20T19:00:00+09:00",
   "days": [
     {
       "date": "2026-05-20",
-      "tracked_min": 135,
+      "tracked_min": 180,
       "by_category": {
-        "Productivity": 120,
+        "Productivity": 165,
         "Leisure": 15
       },
       "by_project": {
-        "SelfTrack build": 105,
+        "SelfTrack build": 165,
         "leisure": 15
       },
       "blocks": [
@@ -78,17 +78,25 @@
         },
         {
           "start": "18:00",
-          "end": "18:15",
-          "min": 15,
+          "end": "19:00",
+          "min": 60,
           "category": "Productivity",
           "activity": "working on SelfTrack",
           "project": "SelfTrack build",
           "screen_summary": "OpenClaw chat discussing SelfTrack dashboard sheet/dummy-row updates and image cell formatting.",
           "webcam": "present",
           "captures": [
-            {"start": "18:00", "image": "https://i.imgur.com/65NPwed.jpeg", "summary": "OpenClaw chat discussing SelfTrack dashboard sheet/dummy-row updates and image cell formatting.", "sensitive": false}
+            {"start": "18:00", "image": "https://i.imgur.com/65NPwed.jpeg", "summary": "OpenClaw chat discussing SelfTrack dashboard sheet/dummy-row updates and image cell formatting.", "sensitive": false},
+            {"start": "18:15", "image": "https://i.imgur.com/nlnEAHc.jpeg", "summary": "Google Sheets viewing the SelfTrack Daily Activity Log tab with today's rows.", "sensitive": false},
+            {"start": "18:30", "image": "https://i.imgur.com/NfX9sp0.png", "summary": "OpenClaw chat refining SelfTrack cron schedule and analyze-hourly behavior.", "sensitive": false},
+            {"start": "18:45", "image": "https://i.imgur.com/5qs24AM.jpeg", "summary": "OpenClaw chat reviewing the X post and Vercel timeline URL test.", "sensitive": false}
           ],
-          "images": ["https://i.imgur.com/65NPwed.jpeg"],
+          "images": [
+            "https://i.imgur.com/65NPwed.jpeg",
+            "https://i.imgur.com/nlnEAHc.jpeg",
+            "https://i.imgur.com/NfX9sp0.png",
+            "https://i.imgur.com/5qs24AM.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
