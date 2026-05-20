@@ -110,7 +110,7 @@ function CategoryPie({ totalsTitle, total24h, by_category, tracked_min }: {
 
   return (
     <div className="flex flex-col md:flex-row gap-6 items-center">
-      <svg width={260} height={260} viewBox="0 0 260 260">
+      <svg viewBox="0 0 260 260" className="w-full max-w-[260px] h-auto flex-shrink-0">
         {arcs}
         <circle cx={cx} cy={cy} r={50} fill="#faf9f6" />
         <text x={cx} y={cy - 4} textAnchor="middle" className="font-serif" style={{ fontSize: 22 }}>{fmtH(tracked_min)}</text>
@@ -156,7 +156,7 @@ function ChronoClock({ day }: { day: Day }) {
   return (
     <div className="flex flex-col lg:flex-row gap-6 items-start">
       <div className="relative">
-        <svg width={360} height={360} viewBox="0 0 360 360">
+        <svg viewBox="0 0 360 360" className="w-full max-w-[360px] h-auto">
           {/* faint background ring */}
           <circle cx={cx} cy={cy} r={rOuter} fill="#ece8db" />
           <circle cx={cx} cy={cy} r={rInner} fill="#faf9f6" />
@@ -281,7 +281,7 @@ function Timeline({ day }: { day: Day }) {
         const sensitive = b.image && b.image.includes('🔒')
         const hasImage = isUrl(b.image)
         return (
-          <li key={i} className="grid grid-cols-[80px_1fr] gap-4 items-start">
+          <li key={i} className="grid grid-cols-[56px_1fr] sm:grid-cols-[80px_1fr] gap-2 sm:gap-4 items-start">
             <div className="font-mono text-xs text-gray-500 pt-1 tabular-nums">{b.start}<br/>↓<br/>{b.end}</div>
             <div className="border border-[var(--line)] rounded-lg p-3 bg-white">
               <div className="flex items-center gap-2 mb-1">
@@ -320,23 +320,23 @@ function Shell({ children }: { children: React.ReactNode }) {
 
   return (
     <div className="min-h-screen">
-      <header className="border-b border-[var(--line)] px-6 py-5">
-        <div className="max-w-5xl mx-auto flex items-baseline justify-between">
+      <header className="border-b border-[var(--line)] px-4 sm:px-6 py-4 sm:py-5">
+        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-3">
           <div>
-            <Link to="/" className="font-serif text-3xl hover:no-underline">Life of Choi</Link>
+            <Link to="/" className="font-serif text-2xl sm:text-3xl hover:no-underline">Life of Sun</Link>
             <p className="text-xs text-gray-500 mt-1">Generated {snap.generatedAt ? new Date(snap.generatedAt).toLocaleString() : '—'}</p>
           </div>
-          <nav className="flex gap-1 text-sm">
+          <nav className="flex gap-1 text-sm overflow-x-auto -mx-1 px-1">
             {tabs.map(t => (
               <Link key={t.key} to={t.path}
-                className={'px-3 py-1.5 rounded ' + (activeKey === t.key ? 'bg-[var(--ink)] text-white' : 'text-gray-600 hover:bg-gray-100')}>
+                className={'px-3 py-1.5 rounded whitespace-nowrap flex-shrink-0 ' + (activeKey === t.key ? 'bg-[var(--ink)] text-white' : 'text-gray-600 hover:bg-gray-100')}>
                 {t.label}
               </Link>
             ))}
           </nav>
         </div>
       </header>
-      <main className="max-w-5xl mx-auto px-6 py-6 space-y-6">{children}</main>
+      <main className="max-w-5xl mx-auto px-4 sm:px-6 py-5 sm:py-6 space-y-5 sm:space-y-6">{children}</main>
     </div>
   )
 }
@@ -384,7 +384,7 @@ function PieRoute() {
           <DateNav date={iso} baseTo={d => `/pie/day/${d}`} />
           <RangeSwitcher current={r} date={iso} />
         </div>
-        <section className="bg-white border border-[var(--line)] rounded-xl p-6">
+        <section className="bg-white border border-[var(--line)] rounded-xl p-4 sm:p-6">
           <h2 className="font-serif text-xl mb-4">Activities across the day</h2>
           <CategoryPie totalsTitle="tracked / 24h" total24h by_category={day.by_category} tracked_min={day.tracked_min} />
           {Object.keys(day.by_project).length > 0 && <TopProjects byProject={day.by_project} />}
@@ -400,7 +400,7 @@ function PieRoute() {
         <DateNav date={iso} baseTo={d => `/pie/${r}/${d}`} />
         <RangeSwitcher current={r} date={iso} />
       </div>
-      <section className="bg-white border border-[var(--line)] rounded-xl p-6">
+      <section className="bg-white border border-[var(--line)] rounded-xl p-4 sm:p-6">
         <h2 className="font-serif text-xl mb-1">Activities — last {label}</h2>
         <p className="text-xs text-gray-500 mb-4">Window: {agg.start} → {agg.end} · {agg.daysWithData}/{agg.days} days with data</p>
         <CategoryPie totalsTitle={'tracked / ' + label} total24h={false} by_category={agg.by_category} tracked_min={agg.tracked_min} />
@@ -455,7 +455,7 @@ function ByDayRoute() {
               : 'bg-white border-[var(--line)] text-gray-600 hover:bg-gray-100')}>{o}</button>
         ))}
       </div>
-      <section className="bg-white border border-[var(--line)] rounded-xl p-6">
+      <section className="bg-white border border-[var(--line)] rounded-xl p-4 sm:p-6">
         <h2 className="font-serif text-xl mb-4">Last {snap.days.length} day{snap.days.length === 1 ? '' : 's'} — category mix</h2>
         <ByDayBars days={snap.days} orientation={orient} />
         <div className="mt-5 flex flex-wrap gap-3 text-xs">
@@ -499,7 +499,7 @@ function ChronoRoute() {
     <Shell>
       <DateNav date={iso} baseTo={d => `/chrono/${d}`} />
       {day ? (
-        <section className="bg-white border border-[var(--line)] rounded-xl p-6">
+        <section className="bg-white border border-[var(--line)] rounded-xl p-4 sm:p-6">
           <h2 className="font-serif text-xl mb-4">Chronological clock — {iso}</h2>
           <ChronoClock day={day} />
         </section>
