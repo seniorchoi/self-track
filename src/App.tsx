@@ -65,7 +65,7 @@ const dateAddDays = (iso: string, days: number) => {
 function useSnapshot() {
   const [snap, setSnap] = useState<Snapshot | null>(null)
   useEffect(() => {
-    fetch('/snapshot.json').then(r => r.json()).then(setSnap).catch(() => setSnap({ generatedAt: '', days: [] }))
+    fetch('/snapshot.json?t=' + Date.now(), { cache: 'no-store' }).then(r => r.json()).then(setSnap).catch(() => setSnap({ generatedAt: '', days: [] }))
   }, [])
   return snap
 }
