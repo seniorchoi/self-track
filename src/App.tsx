@@ -5,7 +5,12 @@ import { BrowserRouter, Routes, Route, Link, useNavigate, useParams, Navigate, u
 type Block = {
   start: string; end: string; min: number
   category: string; activity: string; project: string
-  screen_summary?: string; webcam?: string; image?: string; notes?: string
+  screen_summary?: string; webcam?: string
+  image?: string                    // legacy (v0.2): single representative image
+  images?: string[]                 // v0.3: per-capture image strip (one per 15-min capture)
+  sensitive?: boolean
+  sensitive_count?: number
+  notes?: string
 }
 type Day = {
   date: string
@@ -139,6 +144,8 @@ function CategoryPie({ totalsTitle, total24h, by_category, tracked_min }: {
 // ── ChronoClock — clock-style 24h ring positioned by time-of-day ──────
 function ChronoClock({ day }: { day: Day }) {
   const [hover, setHover] = useState<Block | null>(null)
+  const [pinned, setPinned] = useState<Block | null>(null)
+  const active = pinned ?? hover
   const cx = 180, cy = 180, rOuter = 150, rInner = 80
   const tau = 2 * Math.PI
 
@@ -183,11 +190,12 @@ function ChronoClock({ day }: { day: Day }) {
               <path key={i}
                 d={arcPath(sm, em)}
                 fill={colorFor(b.category)}
-                opacity={hover && hover !== b ? 0.45 : 0.95}
-                stroke="#faf9f6" strokeWidth={1.5}
+                opacity={active && active !== b ? 0.4 : 0.95}
+                stroke={pinned === b ? '#0d0d0d' : '#faf9f6'} strokeWidth={pinned === b ? 2.5 : 1.5}
                 style={{ cursor: 'pointer' }}
                 onMouseEnter={() => setHover(b)}
-                onMouseLeave={() => setHover(null)} />
+                onMouseLeave={() => setHover(null)}
+                onClick={() => setPinned(p => p === b ? null : b)} />
             )
           })}
           {/* center label */}
@@ -196,30 +204,31 @@ function ChronoClock({ day }: { day: Day }) {
         </svg>
       </div>
       <div className="flex-1 min-w-0">
-        {hover ? (
+        {active ? (
           <div className="bg-white border border-[var(--line)] rounded-lg p-4">
-            <div className="flex items-center gap-2 mb-1">
-              <span className="inline-block w-2 h-2 rounded-full" style={{ background: colorFor(hover.category) }} />
-              <span className="text-xs uppercase tracking-wide text-gray-500">{hover.category}</span>
+            <div className="flex items-center gap-2 mb-1 flex-wrap">
+              <span className="inline-block w-2 h-2 rounded-full" style={{ background: colorFor(active.category) }} />
+              <span className="text-xs uppercase tracking-wide text-gray-500">{active.category}</span>
               <span className="text-xs text-gray-400">·</span>
-              <span className="text-xs text-gray-500 font-mono">{hover.start}–{hover.end}</span>
+              <span className="text-xs text-gray-500 font-mono">{active.start}–{active.end}</span>
               <span className="text-xs text-gray-400">·</span>
-              <span className="text-xs text-gray-500">{fmtH(hover.min)}</span>
-              {hover.project && hover.project !== '(unclassified)' && (
-                <><span className="text-xs text-gray-400">·</span><span className="text-xs font-semibold">{hover.project}</span></>
+              <span className="text-xs text-gray-500">{fmtH(active.min)}</span>
+              {active.project && active.project !== '(unclassified)' && (
+                <><span className="text-xs text-gray-400">·</span><span className="text-xs font-semibold">{active.project}</span></>
               )}
+              {pinned && <button onClick={() => setPinned(null)} className="ml-auto text-xs text-gray-400 hover:text-gray-600">unpin</button>}
             </div>
-            <div className="font-serif text-lg leading-snug">{hover.activity}</div>
-            {hover.screen_summary && <div className="text-sm text-gray-600 mt-1">{hover.screen_summary}</div>}
-            {isUrl(hover.image) && (
-              <img src={hover.image} alt="" loading="lazy" className="mt-3 rounded border border-[var(--line)] w-full max-w-md" />
-            )}
-            {hover.image && hover.image.includes('🔒') && (
-              <div className="mt-3 text-xs text-gray-500 italic">🔒 image withheld (sensitive content)</div>
-            )}
+            <div className="font-serif text-lg leading-snug">{active.activity}</div>
+            {active.screen_summary && <div className="text-sm text-gray-600 mt-1">{active.screen_summary}</div>}
+            {(() => {
+              const imgs = blockImages(active)
+              if (imgs.length > 0) return <ImageStrip imgs={imgs} />
+              if (active.sensitive || active.image?.includes('🔒')) return <div className="mt-3 text-xs text-gray-500 italic">🔒 image withheld (sensitive content)</div>
+              return null
+            })()}
           </div>
         ) : (
-          <div className="text-sm text-gray-500 italic">Hover any arc to see what you were doing then (and the captured screen).</div>
+          <div className="text-sm text-gray-500 italic">Hover any arc to preview; click to pin (so you can scroll the image strip).</div>
         )}
       </div>
     </div>
@@ -273,33 +282,61 @@ function ByDayBars({ days, orientation }: { days: Day[]; orientation: 'horizonta
   )
 }
 
-// ── Timeline (existing) ───────────────────────────────────────────────
+// ── Timeline ─────────────────────────────────────────────────────────
+function blockImages(b: Block): string[] {
+  if (b.images && b.images.length) return b.images.filter(isUrl)
+  if (isUrl(b.image)) return [b.image as string]
+  return []
+}
 function Timeline({ day }: { day: Day }) {
   return (
     <ol className="space-y-3">
       {day.blocks.map((b, i) => {
-        const sensitive = b.image && b.image.includes('🔒')
-        const hasImage = isUrl(b.image)
+        const imgs = blockImages(b)
+        const fullySensitive = b.sensitive === true || (!imgs.length && (b.image?.includes('🔒') ?? false))
+        const partialSensitive = !!b.sensitive_count && imgs.length > 0
         return (
           <li key={i} className="grid grid-cols-[56px_1fr] sm:grid-cols-[80px_1fr] gap-2 sm:gap-4 items-start">
             <div className="font-mono text-xs text-gray-500 pt-1 tabular-nums">{b.start}<br/>↓<br/>{b.end}</div>
             <div className="border border-[var(--line)] rounded-lg p-3 bg-white">
-              <div className="flex items-center gap-2 mb-1">
+              <div className="flex items-center gap-2 mb-1 flex-wrap">
                 <span className="inline-block w-2 h-2 rounded-full" style={{ background: colorFor(b.category) }} />
                 <span className="text-xs uppercase tracking-wide text-gray-500">{b.category}</span>
                 <span className="text-xs text-gray-400">·</span>
                 <span className="text-xs text-gray-500">{fmtH(b.min)}</span>
                 {b.project && b.project !== '(unclassified)' && (<><span className="text-xs text-gray-400">·</span><span className="text-xs font-semibold">{b.project}</span></>)}
+                {imgs.length > 1 && (<><span className="text-xs text-gray-400">·</span><span className="text-xs text-gray-500">{imgs.length} captures</span></>)}
               </div>
               <div className="font-serif text-lg leading-snug">{b.activity}</div>
               {b.screen_summary && <div className="text-sm text-gray-600 mt-1">{b.screen_summary}</div>}
-              {hasImage && <img src={b.image} alt="" loading="lazy" className="mt-3 rounded border border-[var(--line)] max-w-md w-full" />}
-              {sensitive && <div className="mt-3 text-xs text-gray-500 italic">🔒 image withheld (sensitive content)</div>}
+              {imgs.length > 0 && <ImageStrip imgs={imgs} />}
+              {fullySensitive && <div className="mt-3 text-xs text-gray-500 italic">🔒 image withheld (sensitive content)</div>}
+              {partialSensitive && <div className="mt-2 text-xs text-gray-500 italic">🔒 {b.sensitive_count} sensitive capture(s) withheld</div>}
             </div>
           </li>
         )
       })}
     </ol>
+  )
+}
+
+function ImageStrip({ imgs }: { imgs: string[] }) {
+  const [active, setActive] = useState(0)
+  if (imgs.length === 1) {
+    return <img src={imgs[0]} alt="" loading="lazy" className="mt-3 rounded border border-[var(--line)] max-w-md w-full" />
+  }
+  return (
+    <div className="mt-3 space-y-2">
+      <img src={imgs[active]} alt="" loading="lazy" className="rounded border border-[var(--line)] max-w-md w-full" />
+      <div className="flex gap-2 overflow-x-auto pb-1">
+        {imgs.map((u, i) => (
+          <button key={i} type="button" onClick={() => setActive(i)}
+            className={'flex-shrink-0 rounded border-2 ' + (i === active ? 'border-[var(--ink)]' : 'border-transparent opacity-70 hover:opacity-100')}>
+            <img src={u} alt="" loading="lazy" className="h-14 w-auto rounded" />
+          </button>
+        ))}
+      </div>
+    </div>
   )
 }
 
