@@ -1,14 +1,16 @@
 {
-  "generatedAt": "2026-05-20T17:53:00+09:00",
+  "generatedAt": "2026-05-20T18:25:00+09:00",
   "days": [
     {
       "date": "2026-05-20",
-      "tracked_min": 105,
+      "tracked_min": 135,
       "by_category": {
-        "Productivity": 105
+        "Productivity": 120,
+        "Leisure": 15
       },
       "by_project": {
-        "SelfTrack build": 105
+        "SelfTrack build": 105,
+        "leisure": 15
       },
       "blocks": [
         {
@@ -21,12 +23,7 @@
           "screen_summary": "Pixabay free sound effects page showing computer mouse click sounds for download.",
           "webcam": "present",
           "captures": [
-            {
-              "start": "15:58",
-              "image": "https://i.imgur.com/3y7nVn1.jpeg",
-              "summary": "Pixabay free sound effects page showing computer mouse click sounds for download.",
-              "sensitive": false
-            }
+            {"start": "15:58", "image": "https://i.imgur.com/3y7nVn1.jpeg", "summary": "Pixabay free sound effects page showing computer mouse click sounds for download.", "sensitive": false}
           ],
           "images": ["https://i.imgur.com/3y7nVn1.jpeg"],
           "sensitive_count": 0,
@@ -43,42 +40,12 @@
           "screen_summary": "OpenClaw chat thread discussing SelfTrack capture loop, watcher fixes, and posture-alert behavior.",
           "webcam": "present",
           "captures": [
-            {
-              "start": "16:15",
-              "image": "https://i.imgur.com/Ob4YaSP.jpeg",
-              "summary": "OpenClaw chat thread discussing SelfTrack capture loop, watcher fixes, and posture-alert behavior.",
-              "sensitive": false
-            },
-            {
-              "start": "16:30",
-              "image": "https://i.imgur.com/8li81FN.jpeg",
-              "summary": "OpenClaw chat showing SelfTrack capture/labeling spec and sheet schema discussion.",
-              "sensitive": false
-            },
-            {
-              "start": "16:45",
-              "image": "https://i.imgur.com/5lJGXFb.jpeg",
-              "summary": "OpenClaw chat refining SelfTrack dashboard/dummy-data spec for Sheet1 and Daily Summary tabs.",
-              "sensitive": false
-            },
-            {
-              "start": "17:00",
-              "image": "https://i.imgur.com/ybibpDA.jpeg",
-              "summary": "SelfTrack activity dashboard page rendering today's blocks with thumbnails.",
-              "sensitive": false
-            },
-            {
-              "start": "17:15",
-              "image": "https://i.imgur.com/7n2HTd8.jpeg",
-              "summary": "OpenClaw chat discussing SelfTrack timeline rendering and dashboard layout improvements.",
-              "sensitive": false
-            },
-            {
-              "start": "17:30",
-              "image": "https://i.imgur.com/yx8tkDu.jpeg",
-              "summary": "OpenClaw chat discussing SelfTrack backfill flow and per-capture row architecture.",
-              "sensitive": false
-            }
+            {"start": "16:15", "image": "https://i.imgur.com/Ob4YaSP.jpeg", "summary": "OpenClaw chat thread discussing SelfTrack capture loop, watcher fixes, and posture-alert behavior.", "sensitive": false},
+            {"start": "16:30", "image": "https://i.imgur.com/8li81FN.jpeg", "summary": "OpenClaw chat showing SelfTrack capture/labeling spec and sheet schema discussion.", "sensitive": false},
+            {"start": "16:45", "image": "https://i.imgur.com/5lJGXFb.jpeg", "summary": "OpenClaw chat refining SelfTrack dashboard/dummy-data spec for Sheet1 and Daily Summary tabs.", "sensitive": false},
+            {"start": "17:00", "image": "https://i.imgur.com/ybibpDA.jpeg", "summary": "SelfTrack activity dashboard page rendering today's blocks with thumbnails.", "sensitive": false},
+            {"start": "17:15", "image": "https://i.imgur.com/7n2HTd8.jpeg", "summary": "OpenClaw chat discussing SelfTrack timeline rendering and dashboard layout improvements.", "sensitive": false},
+            {"start": "17:30", "image": "https://i.imgur.com/yx8tkDu.jpeg", "summary": "OpenClaw chat discussing SelfTrack backfill flow and per-capture row architecture.", "sensitive": false}
           ],
           "images": [
             "https://i.imgur.com/Ob4YaSP.jpeg",
@@ -88,6 +55,40 @@
             "https://i.imgur.com/7n2HTd8.jpeg",
             "https://i.imgur.com/yx8tkDu.jpeg"
           ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "17:45",
+          "end": "18:00",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "browsing X (Twitter)",
+          "project": "leisure",
+          "screen_summary": "X (Twitter) For You feed with a watch video post and trending sidebar.",
+          "webcam": "present",
+          "captures": [
+            {"start": "17:45", "image": "https://i.imgur.com/mRZY38S.jpeg", "summary": "X (Twitter) For You feed with a watch video post and trending sidebar.", "sensitive": false}
+          ],
+          "images": ["https://i.imgur.com/mRZY38S.jpeg"],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "18:00",
+          "end": "18:15",
+          "min": 15,
+          "category": "Productivity",
+          "activity": "working on SelfTrack",
+          "project": "SelfTrack build",
+          "screen_summary": "OpenClaw chat discussing SelfTrack dashboard sheet/dummy-row updates and image cell formatting.",
+          "webcam": "present",
+          "captures": [
+            {"start": "18:00", "image": "https://i.imgur.com/65NPwed.jpeg", "summary": "OpenClaw chat discussing SelfTrack dashboard sheet/dummy-row updates and image cell formatting.", "sensitive": false}
+          ],
+          "images": ["https://i.imgur.com/65NPwed.jpeg"],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
