@@ -348,10 +348,10 @@ function Shell({ children }: { children: React.ReactNode }) {
 
   const latest = snap.days.length ? snap.days[snap.days.length - 1].date : new Date().toISOString().slice(0, 10)
   const tabs = [
-    { key: 'pie',      label: '24h pie',  path: `/pie/day/${latest}` },
-    { key: 'byday',    label: 'By day',   path: '/byday' },
     { key: 'timeline', label: 'Timeline', path: `/timeline/${latest}` },
     { key: 'chrono',   label: 'Chrono',   path: `/chrono/${latest}` },
+    { key: 'pie',      label: '24h pie',  path: `/pie/day/${latest}` },
+    { key: 'byday',    label: 'By day',   path: '/byday' },
   ]
   const activeKey = loc.pathname.split('/')[1] || 'pie'
 
@@ -549,7 +549,7 @@ function HomeRedirect() {
   const snap = useSnapshot()
   if (!snap) return null
   const latest = snap.days.length ? snap.days[snap.days.length - 1].date : new Date().toISOString().slice(0, 10)
-  return <Navigate to={`/pie/day/${latest}`} replace />
+  return <Navigate to={`/timeline/${latest}`} replace />
 }
 
 export default function App() {
