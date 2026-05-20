@@ -693,38 +693,74 @@ function ChronoRoute() {
   )
 }
 
-// ── Crons (static snapshot — not auto-refreshed) ─────────────────────
-const CRON_JOBS: Array<{
-  name: string; schedule: string; nextWordy: string; where: 'Windows' | 'Gateway'; what: string
-}> = [
-  { name: 'capture.ps1',                    schedule: 'every 15 min (continuous)',     nextWordy: ':00 :15 :30 :45 of every hour', where: 'Windows', what: 'Snaps the primary monitor + 1 webcam frame to C:\\SelfTrack\\<date>\\HHMM_*.{png,jpg}. Pauses if a PAUSE file is present.' },
-  { name: 'watcher.ps1',                    schedule: 'polls every 5 s (continuous)',  nextWordy: 'continuous',                     where: 'Windows', what: 'Watches posture-alert.json; shows bottom-right toast + plays alert.mp3 on bad-posture verdicts.' },
-  { name: 'selftrack-analyze-hourly',       schedule: 'every hour at :55 KST',         nextWordy: 'HH:55 every hour',               where: 'Gateway', what: 'Labels new captures (vision), uploads composites, appends per-capture rows to the Sheet, drains the backfill queue, sleep-autofill on mornings.' },
-  { name: 'selftrack-dashboard-refresh-hourly', schedule: 'every hour at :00 KST',     nextWordy: 'HH:00 every hour',               where: 'Gateway', what: 'Reads the Sheet → rebuilds public/snapshot.json → commits + pushes to GitHub → Vercel auto-redeploys this site.' },
-  { name: 'selftrack-posture',              schedule: ':03 / :18 / :33 / :48 KST',     nextWordy: 'every 15 min, offset +3',         where: 'Gateway', what: 'Judges the latest webcam frame. If slouching/leaning, writes posture-alert.json (watcher consumes it).' },
-  { name: 'selftrack-roi-daily',            schedule: '23:30 KST daily',               nextWordy: 'once a day at 23:30',            where: 'Gateway', what: 'Joins today’s time spend ↔ revenue (Stripe+Lemon Squeezy) ↔ commits ↔ TikTok views into the ROI tab.' },
-  { name: 'selftrack-x-daily-23',           schedule: '23:00 KST daily',               nextWordy: 'once a day at 23:00',            where: 'Gateway', what: 'Posts a link to today’s timeline on X (@sun_choi8). Rotating templates by day-of-month.' },
+// ── Crons (static snapshot of every background loop in Sun's world) ──
+type CronCadence = 'continuous' | 'daily' | 'weekly'
+type CronProject = 'selftrack' | 'mbtioracle' | 'simple-rizz' | 'personal' | 'system'
+const PROJECT_LABEL: Record<CronProject, string> = {
+  selftrack: 'SelfTrack', mbtioracle: 'MBTI Oracle', 'simple-rizz': 'Simple Rizz',
+  personal: 'Personal', system: 'System',
+}
+const PROJECT_COLOR: Record<CronProject, string> = {
+  selftrack: '#1f3b2a', mbtioracle: '#7a5cbf', 'simple-rizz': '#d4a14a',
+  personal: '#4b8b9b', system: '#6b7280',
+}
+const CRON_JOBS: Array<{ name: string; when: string; cadence: CronCadence; project: CronProject; what: string }> = [
+  // Continuous / multi-times-per-hour
+  { name: 'capture.ps1 (Windows)',          when: 'every 15 min on the :00/:15/:30/:45', cadence: 'continuous', project: 'selftrack', what: 'Snaps a screenshot of Sun’s primary monitor + one webcam frame and drops them on disk. The raw fuel everything else runs on.' },
+  { name: 'watcher.ps1 (Windows)',          when: 'continuously, polling every 5 s',     cadence: 'continuous', project: 'selftrack', what: 'Watches for a posture-alert file; when one appears, shows a bottom-right toast on Sun’s screen and plays alert.mp3.' },
+  { name: 'selftrack-posture',              when: 'every 15 min (:03 / :18 / :33 / :48)', cadence: 'continuous', project: 'selftrack', what: 'Looks at the latest webcam frame and decides if Sun is slouching or leaning. If yes, triggers the desktop toast + alert sound.' },
+  { name: 'selftrack-analyze-hourly',       when: 'every hour at :55',                   cadence: 'continuous', project: 'selftrack', what: 'Labels the past hour of captures (what was Sun doing?), writes one row per 15-min slot into the Google Sheet, fills in sleep gaps, applies any manual backfills.' },
+  { name: 'selftrack-dashboard-refresh-hourly', when: 'every hour on the :00',           cadence: 'continuous', project: 'selftrack', what: 'Rebuilds this dashboard’s data file from the Sheet and pushes it to the site, so what you see here stays current.' },
+
+  // Daily
+  { name: 'simple-rizz-idea-9am',           when: 'daily at 9:03 am',                    cadence: 'daily',      project: 'simple-rizz', what: 'Generates one fresh TikTok video idea for Simple Rizz, logs it to the pipeline sheet, refreshes Apify view/like stats on past posts, and Telegrams the idea to Sun.' },
+  { name: 'mbtioracle-content-daily',       when: 'daily at 12:00 pm',                   cadence: 'daily',      project: 'mbtioracle',  what: 'Produces a full Instagram slideshow Reel for MBTI Oracle (script, slides, video, audio) and auto-schedules it to IG via Publora every other day.' },
+  { name: 'mbtioracle-exec-1pm',            when: 'daily at 1:03 pm',                    cadence: 'daily',      project: 'mbtioracle',  what: 'Ships one new growth experiment for the MBTI Oracle site — code change, pricing tweak, content move — then commits and deploys.' },
+  { name: 'mbtioracle-report-9pm',          when: 'daily at 8:07 pm',                    cadence: 'daily',      project: 'mbtioracle',  what: 'Evening MBTI Oracle report: pulls visitors, revenue (Stripe + Lemon Squeezy), reconciles experiments, fires the email drip, then Telegrams Sun a summary + tomorrow’s plan.' },
+  { name: 'simple-rizz-idea-8pm',           when: 'daily at 8:07 pm',                    cadence: 'daily',      project: 'simple-rizz', what: 'Evening Simple Rizz drop: a second TikTok idea for the day (different angle from the morning one), logged + Telegrammed.' },
+  { name: 'selftrack-x-daily-23',           when: 'daily at 11:00 pm',                   cadence: 'daily',      project: 'selftrack',   what: 'Posts a tweet from @sun_choi8 linking to today’s public Life-of-Sun timeline page.' },
+  { name: 'selftrack-roi-daily',            when: 'daily at 11:30 pm',                   cadence: 'daily',      project: 'selftrack',   what: 'Appends today’s ROI row — joins how Sun spent the hours against revenue, commits, and TikTok views — so the time ↔ money picture is visible.' },
+
+  // Weekly
+  { name: 'mbtioracle-strategy-weekly',     when: 'Sundays at 9:30 pm',                  cadence: 'weekly',     project: 'mbtioracle',  what: 'Sunday zoom-out: scores active bets, scans Reddit + the web for MBTI-adjacent trends, queues 3–5 big-bet experiments for the week, sends Sun a strategy brief.' },
+  { name: 'Thursday Movie Night',           when: 'Thursdays at 8:00 pm',                cadence: 'weekly',     project: 'personal',    what: 'Picks a movie or show matching Sun’s taste (RT >80%, sci-fi/prestige, no Korean cinema) and downloads it. ⚠️ Note: the last few runs failed with a CLI timeout — worth a look.' },
 ]
 
 function CronsRoute() {
+  const groups: { title: string; subtitle: string; rows: typeof CRON_JOBS }[] = [
+    { title: 'Continuous',  subtitle: 'fires multiple times per hour, all day',  rows: CRON_JOBS.filter(j => j.cadence === 'continuous') },
+    { title: 'Daily',       subtitle: 'fires once per day',                       rows: CRON_JOBS.filter(j => j.cadence === 'daily') },
+    { title: 'Weekly',      subtitle: 'fires once per week',                      rows: CRON_JOBS.filter(j => j.cadence === 'weekly') },
+  ]
   return (
     <Shell>
       <section className="bg-white border border-[var(--line)] rounded-xl p-4 sm:p-6">
-        <h2 className="font-serif text-xl mb-1">Crons & background loops</h2>
-        <p className="text-xs text-gray-500 mb-5">Static snapshot of what runs in the background to keep this dashboard alive. Not auto-refreshed — edit by redeploying the site.</p>
-        <ol className="space-y-3">
-          {CRON_JOBS.map(j => (
-            <li key={j.name} className="border border-[var(--line)] rounded-lg p-4 bg-[var(--bg)]">
-              <div className="flex items-start gap-2 flex-wrap mb-1">
-                <span className={'text-[10px] uppercase tracking-wide px-1.5 py-0.5 rounded ' + (j.where === 'Windows' ? 'bg-[#4b8b9b] text-white' : 'bg-[#1f3b2a] text-white')}>{j.where}</span>
-                <span className="font-mono text-sm font-semibold">{j.name}</span>
+        <h2 className="font-serif text-xl mb-1">Background loops running for Sun</h2>
+        <p className="text-xs text-gray-500 mb-5">A simple visual of every cron/automation currently humming in the background. All times Asia/Seoul (KST). Static snapshot — updates when the site is redeployed.</p>
+        <div className="space-y-6">
+          {groups.map(g => (
+            <div key={g.title}>
+              <div className="flex items-baseline gap-2 mb-2 border-b border-[var(--line)] pb-1">
+                <h3 className="font-serif text-lg">{g.title}</h3>
+                <span className="text-xs text-gray-500">{g.subtitle}</span>
+                <span className="ml-auto text-xs text-gray-400 tabular-nums">{g.rows.length}</span>
               </div>
-              <div className="text-xs text-gray-500 font-mono">{j.schedule}</div>
-              <div className="text-sm text-gray-700 mt-2">{j.what}</div>
-            </li>
+              <ol className="space-y-3">
+                {g.rows.map(j => (
+                  <li key={j.name} className="border border-[var(--line)] rounded-lg p-3 sm:p-4 bg-[var(--bg)]">
+                    <div className="flex items-start gap-2 flex-wrap mb-1">
+                      <span className="text-[10px] uppercase tracking-wide px-1.5 py-0.5 rounded text-white" style={{ background: PROJECT_COLOR[j.project] }}>{PROJECT_LABEL[j.project]}</span>
+                      <span className="font-mono text-sm font-semibold leading-tight">{j.name}</span>
+                    </div>
+                    <div className="text-xs text-gray-500 font-mono">{j.when}</div>
+                    <div className="text-sm text-gray-700 mt-2">{j.what}</div>
+                  </li>
+                ))}
+              </ol>
+            </div>
           ))}
-        </ol>
-        <p className="text-[11px] text-gray-400 mt-5">Gateway = OpenClaw cron jobs running in the background. Windows = local PowerShell loops auto-launched on login via Startup-folder .vbs.</p>
+        </div>
+        <p className="text-[11px] text-gray-400 mt-6">Source of truth: OpenClaw cron registry + Sun’s local Windows PowerShell loops. This card is hand-curated — if a job is added/removed in OpenClaw, this page won’t auto-update.</p>
       </section>
     </Shell>
   )
