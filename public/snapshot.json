@@ -1,42 +1,33 @@
 {
-  "generatedAt": "2026-05-20T20:00:00+09:00",
+  "generatedAt": "2026-05-20T21:00:00+09:00",
   "days": [
     {
       "date": "2026-05-20",
-      "tracked_min": 240,
+      "tracked_min": 300,
       "by_category": {
         "Productivity": 210,
-        "Leisure": 30
+        "Leisure": 75,
+        "AFK/Idle": 15
       },
       "by_project": {
         "SelfTrack build": 210,
-        "leisure": 30
+        "leisure": 90
       },
       "blocks": [
         {
-          "start": "15:58",
-          "end": "16:13",
-          "min": 15,
-          "category": "Productivity",
-          "activity": "browsing Pixabay sound effects",
-          "project": "SelfTrack build",
+          "start": "15:58", "end": "16:13", "min": 15,
+          "category": "Productivity", "activity": "browsing Pixabay sound effects", "project": "SelfTrack build",
           "screen_summary": "Pixabay free sound effects page showing computer mouse click sounds for download.",
           "webcam": "present",
           "captures": [
             {"start": "15:58", "image": "https://i.imgur.com/3y7nVn1.jpeg", "summary": "Pixabay free sound effects page showing computer mouse click sounds for download.", "sensitive": false}
           ],
           "images": ["https://i.imgur.com/3y7nVn1.jpeg"],
-          "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "sensitive_count": 0, "sensitive": false, "notes": ""
         },
         {
-          "start": "16:15",
-          "end": "17:45",
-          "min": 90,
-          "category": "Productivity",
-          "activity": "working on SelfTrack",
-          "project": "SelfTrack build",
+          "start": "16:15", "end": "17:45", "min": 90,
+          "category": "Productivity", "activity": "working on SelfTrack", "project": "SelfTrack build",
           "screen_summary": "OpenClaw chat thread discussing SelfTrack capture loop, watcher fixes, and posture-alert behavior.",
           "webcam": "present",
           "captures": [
@@ -47,42 +38,21 @@
             {"start": "17:15", "image": "https://i.imgur.com/7n2HTd8.jpeg", "summary": "OpenClaw chat discussing SelfTrack timeline rendering and dashboard layout improvements.", "sensitive": false},
             {"start": "17:30", "image": "https://i.imgur.com/yx8tkDu.jpeg", "summary": "OpenClaw chat discussing SelfTrack backfill flow and per-capture row architecture.", "sensitive": false}
           ],
-          "images": [
-            "https://i.imgur.com/Ob4YaSP.jpeg",
-            "https://i.imgur.com/8li81FN.jpeg",
-            "https://i.imgur.com/5lJGXFb.jpeg",
-            "https://i.imgur.com/ybibpDA.jpeg",
-            "https://i.imgur.com/7n2HTd8.jpeg",
-            "https://i.imgur.com/yx8tkDu.jpeg"
-          ],
-          "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "images": ["https://i.imgur.com/Ob4YaSP.jpeg","https://i.imgur.com/8li81FN.jpeg","https://i.imgur.com/5lJGXFb.jpeg","https://i.imgur.com/ybibpDA.jpeg","https://i.imgur.com/7n2HTd8.jpeg","https://i.imgur.com/yx8tkDu.jpeg"],
+          "sensitive_count": 0, "sensitive": false, "notes": ""
         },
         {
-          "start": "17:45",
-          "end": "18:00",
-          "min": 15,
-          "category": "Leisure",
-          "activity": "browsing X (Twitter)",
-          "project": "leisure",
+          "start": "17:45", "end": "18:00", "min": 15,
+          "category": "Leisure", "activity": "browsing X (Twitter)", "project": "leisure",
           "screen_summary": "X (Twitter) For You feed with a watch video post and trending sidebar.",
           "webcam": "present",
-          "captures": [
-            {"start": "17:45", "image": "https://i.imgur.com/mRZY38S.jpeg", "summary": "X (Twitter) For You feed with a watch video post and trending sidebar.", "sensitive": false}
-          ],
+          "captures": [{"start": "17:45", "image": "https://i.imgur.com/mRZY38S.jpeg", "summary": "X (Twitter) For You feed with a watch video post and trending sidebar.", "sensitive": false}],
           "images": ["https://i.imgur.com/mRZY38S.jpeg"],
-          "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "sensitive_count": 0, "sensitive": false, "notes": ""
         },
         {
-          "start": "18:00",
-          "end": "19:45",
-          "min": 105,
-          "category": "Productivity",
-          "activity": "working on SelfTrack",
-          "project": "SelfTrack build",
+          "start": "18:00", "end": "19:45", "min": 105,
+          "category": "Productivity", "activity": "working on SelfTrack", "project": "SelfTrack build",
           "screen_summary": "OpenClaw chat discussing SelfTrack dashboard sheet/dummy-row updates and image cell formatting.",
           "webcam": "present",
           "captures": [
@@ -94,35 +64,47 @@
             {"start": "19:15", "image": "https://i.imgur.com/h2ZSyPh.jpeg", "summary": "OpenClaw chat planning SelfTrack dashboard language selector and Flash endpoint for header.", "sensitive": false},
             {"start": "19:30", "image": "https://i.imgur.com/FcFb9TO.jpeg", "summary": "OpenClaw chat detailing SelfTrack dashboard backend and category-badge color implementation.", "sensitive": false}
           ],
-          "images": [
-            "https://i.imgur.com/65NPwed.jpeg",
-            "https://i.imgur.com/nlnEAHc.jpeg",
-            "https://i.imgur.com/NfX9sp0.png",
-            "https://i.imgur.com/5qs24AM.jpeg",
-            "https://i.imgur.com/xJlU0lp.jpeg",
-            "https://i.imgur.com/h2ZSyPh.jpeg",
-            "https://i.imgur.com/FcFb9TO.jpeg"
-          ],
-          "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "images": ["https://i.imgur.com/65NPwed.jpeg","https://i.imgur.com/nlnEAHc.jpeg","https://i.imgur.com/NfX9sp0.png","https://i.imgur.com/5qs24AM.jpeg","https://i.imgur.com/xJlU0lp.jpeg","https://i.imgur.com/h2ZSyPh.jpeg","https://i.imgur.com/FcFb9TO.jpeg"],
+          "sensitive_count": 0, "sensitive": false, "notes": ""
         },
         {
-          "start": "19:45",
-          "end": "20:00",
-          "min": 15,
-          "category": "Leisure",
-          "activity": "playing a fantasy game",
-          "project": "leisure",
+          "start": "19:45", "end": "20:00", "min": 15,
+          "category": "Leisure", "activity": "playing a fantasy game", "project": "leisure",
           "screen_summary": "Fantasy game loading/title screen showing an armored warrior with axe in a snowy landscape under a stormy sky.",
           "webcam": "present",
-          "captures": [
-            {"start": "19:45", "image": "https://i.imgur.com/VhlG1pl.jpeg", "summary": "Fantasy game loading/title screen showing an armored warrior with axe in a snowy landscape under a stormy sky.", "sensitive": false}
-          ],
+          "captures": [{"start": "19:45", "image": "https://i.imgur.com/VhlG1pl.jpeg", "summary": "Fantasy game loading/title screen showing an armored warrior with axe in a snowy landscape under a stormy sky.", "sensitive": false}],
           "images": ["https://i.imgur.com/VhlG1pl.jpeg"],
-          "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "sensitive_count": 0, "sensitive": false, "notes": ""
+        },
+        {
+          "start": "20:00", "end": "20:15", "min": 15,
+          "category": "Leisure", "activity": "researching games to download", "project": "leisure",
+          "screen_summary": "OpenClaw chat discussing PC specs and which Total War / strategy games to download to play.",
+          "webcam": "present",
+          "captures": [{"start": "20:00", "image": "https://i.imgur.com/qBPiOWm.jpeg", "summary": "OpenClaw chat discussing PC specs and which Total War / strategy games to download to play.", "sensitive": false}],
+          "images": ["https://i.imgur.com/qBPiOWm.jpeg"],
+          "sensitive_count": 0, "sensitive": false, "notes": ""
+        },
+        {
+          "start": "20:15", "end": "20:30", "min": 15,
+          "category": "AFK/Idle", "activity": "screen off / loading", "project": "leisure",
+          "screen_summary": "Black screen — display off or a game loading screen with no rendered content.",
+          "webcam": "away",
+          "captures": [{"start": "20:15", "image": "https://i.imgur.com/91y0skV.jpeg", "summary": "Black screen — display off or a game loading screen with no rendered content.", "sensitive": false}],
+          "images": ["https://i.imgur.com/91y0skV.jpeg"],
+          "sensitive_count": 0, "sensitive": false, "notes": ""
+        },
+        {
+          "start": "20:30", "end": "21:00", "min": 30,
+          "category": "Leisure", "activity": "playing Total War", "project": "leisure",
+          "screen_summary": "Total War battle tutorial screen with friendly and enemy units lined up on a snowy battlefield.",
+          "webcam": "present",
+          "captures": [
+            {"start": "20:30", "image": "https://i.imgur.com/H9UIqN8.jpeg", "summary": "Total War battle tutorial screen with friendly and enemy units lined up on a snowy battlefield.", "sensitive": false},
+            {"start": "20:45", "image": "https://i.imgur.com/8qe9W5O.jpeg", "summary": "Total War mid-battle scene with Empire spear infantry engaging enemy forces on snowy terrain.", "sensitive": false}
+          ],
+          "images": ["https://i.imgur.com/H9UIqN8.jpeg","https://i.imgur.com/8qe9W5O.jpeg"],
+          "sensitive_count": 0, "sensitive": false, "notes": ""
         }
       ]
     }
