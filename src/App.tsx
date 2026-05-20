@@ -499,6 +499,7 @@ function Shell({ children }: { children: React.ReactNode }) {
     { key: 'chrono',   label: 'Chrono',   path: `/chrono/${latest}` },
     { key: 'pie',      label: '24h pie',  path: `/pie/day/${latest}` },
     { key: 'byday',    label: 'By day',   path: '/byday' },
+    { key: 'crons',    label: 'Crons',    path: '/crons' },
   ]
   const activeKey = loc.pathname.split('/')[1] || 'pie'
 
@@ -692,6 +693,43 @@ function ChronoRoute() {
   )
 }
 
+// ── Crons (static snapshot — not auto-refreshed) ─────────────────────
+const CRON_JOBS: Array<{
+  name: string; schedule: string; nextWordy: string; where: 'Windows' | 'Gateway'; what: string
+}> = [
+  { name: 'capture.ps1',                    schedule: 'every 15 min (continuous)',     nextWordy: ':00 :15 :30 :45 of every hour', where: 'Windows', what: 'Snaps the primary monitor + 1 webcam frame to C:\\SelfTrack\\<date>\\HHMM_*.{png,jpg}. Pauses if a PAUSE file is present.' },
+  { name: 'watcher.ps1',                    schedule: 'polls every 5 s (continuous)',  nextWordy: 'continuous',                     where: 'Windows', what: 'Watches posture-alert.json; shows bottom-right toast + plays alert.mp3 on bad-posture verdicts.' },
+  { name: 'selftrack-analyze-hourly',       schedule: 'every hour at :55 KST',         nextWordy: 'HH:55 every hour',               where: 'Gateway', what: 'Labels new captures (vision), uploads composites, appends per-capture rows to the Sheet, drains the backfill queue, sleep-autofill on mornings.' },
+  { name: 'selftrack-dashboard-refresh-hourly', schedule: 'every hour at :00 KST',     nextWordy: 'HH:00 every hour',               where: 'Gateway', what: 'Reads the Sheet → rebuilds public/snapshot.json → commits + pushes to GitHub → Vercel auto-redeploys this site.' },
+  { name: 'selftrack-posture',              schedule: ':03 / :18 / :33 / :48 KST',     nextWordy: 'every 15 min, offset +3',         where: 'Gateway', what: 'Judges the latest webcam frame. If slouching/leaning, writes posture-alert.json (watcher consumes it).' },
+  { name: 'selftrack-roi-daily',            schedule: '23:30 KST daily',               nextWordy: 'once a day at 23:30',            where: 'Gateway', what: 'Joins today’s time spend ↔ revenue (Stripe+Lemon Squeezy) ↔ commits ↔ TikTok views into the ROI tab.' },
+  { name: 'selftrack-x-daily-23',           schedule: '23:00 KST daily',               nextWordy: 'once a day at 23:00',            where: 'Gateway', what: 'Posts a link to today’s timeline on X (@sun_choi8). Rotating templates by day-of-month.' },
+]
+
+function CronsRoute() {
+  return (
+    <Shell>
+      <section className="bg-white border border-[var(--line)] rounded-xl p-4 sm:p-6">
+        <h2 className="font-serif text-xl mb-1">Crons & background loops</h2>
+        <p className="text-xs text-gray-500 mb-5">Static snapshot of what runs in the background to keep this dashboard alive. Not auto-refreshed — edit by redeploying the site.</p>
+        <ol className="space-y-3">
+          {CRON_JOBS.map(j => (
+            <li key={j.name} className="border border-[var(--line)] rounded-lg p-4 bg-[var(--bg)]">
+              <div className="flex items-start gap-2 flex-wrap mb-1">
+                <span className={'text-[10px] uppercase tracking-wide px-1.5 py-0.5 rounded ' + (j.where === 'Windows' ? 'bg-[#4b8b9b] text-white' : 'bg-[#1f3b2a] text-white')}>{j.where}</span>
+                <span className="font-mono text-sm font-semibold">{j.name}</span>
+              </div>
+              <div className="text-xs text-gray-500 font-mono">{j.schedule}</div>
+              <div className="text-sm text-gray-700 mt-2">{j.what}</div>
+            </li>
+          ))}
+        </ol>
+        <p className="text-[11px] text-gray-400 mt-5">Gateway = OpenClaw cron jobs running in the background. Windows = local PowerShell loops auto-launched on login via Startup-folder .vbs.</p>
+      </section>
+    </Shell>
+  )
+}
+
 function HomeRedirect() {
   const snap = useSnapshot()
   if (!snap) return null
@@ -712,6 +750,7 @@ export default function App() {
         <Route path="/timeline" element={<TimelineRoute />} />
         <Route path="/chrono/:date" element={<ChronoRoute />} />
         <Route path="/chrono" element={<ChronoRoute />} />
+        <Route path="/crons" element={<CronsRoute />} />
         <Route path="*" element={<HomeRedirect />} />
       </Routes>
     </BrowserRouter>
