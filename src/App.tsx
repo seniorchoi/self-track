@@ -1,5 +1,76 @@
-import { useEffect, useMemo, useState } from 'react'
+import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react'
 import { BrowserRouter, Routes, Route, Link, useNavigate, useParams, Navigate, useLocation } from 'react-router-dom'
+
+// ── i18n (translate-on-demand via mbtioracle.com/selftrack/translate) ──
+type Lang = 'en' | 'ko' | 'zh' | 'es' | 'fr' | 'de' | 'pt'
+const LANG_LABEL: Record<Lang, string> = { en: 'EN · English', ko: 'KO · 한국어', zh: 'ZH · 中文', es: 'ES · Español', fr: 'FR · Français', de: 'DE · Deutsch', pt: 'PT · Português' }
+const LANG_FLAG:  Record<Lang, string> = { en: '🇺🇸', ko: '🇰🇷', zh: '🇨🇳', es: '🇪🇸', fr: '🇫🇷', de: '🇩🇪', pt: '🇵🇹' }
+const I18nCtx = createContext<{ lang: Lang; setLang: (l: Lang) => void; t: (s: string) => string }>({ lang: 'en', setLang: () => {}, t: (s) => s })
+function useT() { return useContext(I18nCtx).t }
+
+function I18nProvider({ children }: { children: React.ReactNode }) {
+  const [lang, setLangState] = useState<Lang>(() => (localStorage.getItem('lifeofsun.lang') as Lang) || 'en')
+  const [cache, setCache] = useState<Record<string, string>>(() => {
+    try { return JSON.parse(localStorage.getItem('lifeofsun.tr.' + (localStorage.getItem('lifeofsun.lang') || 'en')) || '{}') } catch { return {} }
+  })
+  const pendingRef = useRef<Set<string>>(new Set())
+  const flushTimerRef = useRef<number | null>(null)
+
+  const setLang = useCallback((l: Lang) => {
+    localStorage.setItem('lifeofsun.lang', l)
+    setLangState(l)
+    try { setCache(JSON.parse(localStorage.getItem('lifeofsun.tr.' + l) || '{}')) } catch { setCache({}) }
+  }, [])
+
+  const flush = useCallback(async () => {
+    const cur = lang
+    if (cur === 'en') { pendingRef.current.clear(); return }
+    const batch = Array.from(pendingRef.current).filter(s => !(s in cache)).slice(0, 200)
+    pendingRef.current.clear()
+    if (!batch.length) return
+    try {
+      const r = await fetch('https://www.mbtioracle.com/selftrack/translate', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ lang: cur, texts: batch }),
+      })
+      const j = await r.json()
+      if (!Array.isArray(j.translations)) return
+      const next: Record<string, string> = {}
+      batch.forEach((src, i) => { next[src] = j.translations[i] || src })
+      setCache(prev => {
+        const merged = { ...prev, ...next }
+        try { localStorage.setItem('lifeofsun.tr.' + cur, JSON.stringify(merged)) } catch {}
+        return merged
+      })
+    } catch {}
+  }, [lang, cache])
+
+  const t = useCallback((src: string): string => {
+    if (!src) return src
+    if (lang === 'en') return src
+    if (src in cache) return cache[src]
+    // queue for next batch
+    pendingRef.current.add(src)
+    if (flushTimerRef.current == null) {
+      flushTimerRef.current = window.setTimeout(() => { flushTimerRef.current = null; flush() }, 150)
+    }
+    return src  // fall back to English until translation lands
+  }, [lang, cache, flush])
+
+  return <I18nCtx.Provider value={{ lang, setLang, t }}>{children}</I18nCtx.Provider>
+}
+
+function LangSwitcher() {
+  const { lang, setLang } = useContext(I18nCtx)
+  return (
+    <select value={lang} onChange={e => setLang(e.target.value as Lang)} title="Language"
+      className="text-xs border border-[var(--line)] rounded px-2 py-1 bg-white font-mono">
+      {(Object.keys(LANG_LABEL) as Lang[]).map(l => (
+        <option key={l} value={l}>{LANG_FLAG[l]} {LANG_LABEL[l]}</option>
+      ))}
+    </select>
+  )
+}
 
 // ── Types ──────────────────────────────────────────────────────────────
 type Capture = { start?: string; image?: string | null; summary?: string; sensitive?: boolean }
@@ -418,6 +489,7 @@ function blockImages(b: Block): string[] {
   return blockCaptures(b).map(c => c.image).filter(isUrl) as string[]
 }
 function Timeline({ day }: { day: Day }) {
+  const t = useT()
   return (
     <ol className="space-y-3">
       {day.blocks.map((b, i) => {
@@ -430,20 +502,20 @@ function Timeline({ day }: { day: Day }) {
             <div className="border border-[var(--line)] rounded-lg p-3 bg-white">
               <div className="flex items-center gap-2 mb-1 flex-wrap">
                 <span className="inline-block w-2 h-2 rounded-full" style={{ background: colorFor(b.category) }} />
-                <span className="text-xs uppercase tracking-wide text-gray-500">{b.category}</span>
+                <span className="text-xs uppercase tracking-wide text-gray-500">{t(b.category)}</span>
                 <span className="text-xs text-gray-400">·</span>
                 <span className="text-xs text-gray-500">{fmtH(b.min)}</span>
-                {b.project && b.project !== '(unclassified)' && (<><span className="text-xs text-gray-400">·</span><span className="text-xs font-semibold">{b.project}</span></>)}
-                {caps.length > 1 && (<><span className="text-xs text-gray-400">·</span><span className="text-xs text-gray-500">{caps.length} captures</span></>)}
+                {b.project && b.project !== '(unclassified)' && (<><span className="text-xs text-gray-400">·</span><span className="text-xs font-semibold">{t(b.project)}</span></>)}
+                {caps.length > 1 && (<><span className="text-xs text-gray-400">·</span><span className="text-xs text-gray-500">{caps.length} {t('captures')}</span></>)}
               </div>
-              <div className="font-serif text-lg leading-snug">{b.activity}</div>
+              <div className="font-serif text-lg leading-snug">{t(b.activity)}</div>
               {caps.length > 0 ? (
                 <ImageStrip captures={caps} fallbackSummary={b.screen_summary} />
               ) : (
-                b.screen_summary && <div className="text-sm text-gray-600 mt-1">{b.screen_summary}</div>
+                b.screen_summary && <div className="text-sm text-gray-600 mt-1">{t(b.screen_summary)}</div>
               )}
-              {fullySensitive && <div className="mt-3 text-xs text-gray-500 italic">🔒 image withheld (sensitive content)</div>}
-              {partialSensitive && <div className="mt-2 text-xs text-gray-500 italic">🔒 {b.sensitive_count} sensitive capture(s) withheld</div>}
+              {fullySensitive && <div className="mt-3 text-xs text-gray-500 italic">🔒 {t('image withheld (sensitive content)')}</div>}
+              {partialSensitive && <div className="mt-2 text-xs text-gray-500 italic">🔒 {b.sensitive_count} {t('sensitive capture(s) withheld')}</div>}
             </div>
           </li>
         )
@@ -453,6 +525,7 @@ function Timeline({ day }: { day: Day }) {
 }
 
 function ImageStrip({ captures, fallbackSummary }: { captures: Capture[]; fallbackSummary?: string }) {
+  const t = useT()
   const [active, setActive] = useState(0)
   const a = captures[Math.min(active, captures.length - 1)]
   const url = a.image && isUrl(a.image) ? a.image : null
@@ -462,10 +535,10 @@ function ImageStrip({ captures, fallbackSummary }: { captures: Capture[]; fallba
       {url ? (
         <img src={url} alt="" loading="lazy" className="rounded border border-[var(--line)] max-w-md w-full" />
       ) : (
-        <div className="rounded border border-dashed border-[var(--line)] bg-gray-50 px-3 py-6 text-xs text-gray-500 italic max-w-md">🔒 image withheld for this capture</div>
+        <div className="rounded border border-dashed border-[var(--line)] bg-gray-50 px-3 py-6 text-xs text-gray-500 italic max-w-md">🔒 {t('image withheld for this capture')}</div>
       )}
-      {subtext && <div className="text-sm text-gray-700">{subtext}</div>}
-      {a.start && <div className="text-[11px] text-gray-400 font-mono">capture @ {a.start}</div>}
+      {subtext && <div className="text-sm text-gray-700">{t(subtext)}</div>}
+      {a.start && <div className="text-[11px] text-gray-400 font-mono">{t('capture @')} {a.start}</div>}
       {captures.length > 1 && (
         <div className="flex gap-2 overflow-x-auto pb-1">
           {captures.map((c, i) => {
@@ -491,34 +564,38 @@ function ImageStrip({ captures, fallbackSummary }: { captures: Capture[]; fallba
 function Shell({ children }: { children: React.ReactNode }) {
   const snap = useSnapshot()
   const loc = useLocation()
-  if (!snap) return <div className="p-8 text-gray-500">Loading…</div>
+  const t = useT()
+  if (!snap) return <div className="p-8 text-gray-500">{t('Loading…')}</div>
 
   const latest = snap.days.length ? snap.days[snap.days.length - 1].date : new Date().toISOString().slice(0, 10)
   const tabs = [
-    { key: 'timeline', label: 'Timeline', path: `/timeline/${latest}` },
-    { key: 'chrono',   label: 'Chrono',   path: `/chrono/${latest}` },
-    { key: 'pie',      label: '24h pie',  path: `/pie/day/${latest}` },
-    { key: 'byday',    label: 'By day',   path: '/byday' },
-    { key: 'crons',    label: 'Crons',    path: '/crons' },
+    { key: 'timeline', label: t('Timeline'), path: `/timeline/${latest}` },
+    { key: 'chrono',   label: t('Chrono'),   path: `/chrono/${latest}` },
+    { key: 'pie',      label: t('24h pie'),  path: `/pie/day/${latest}` },
+    { key: 'byday',    label: t('By day'),   path: '/byday' },
+    { key: 'crons',    label: t('Crons'),    path: '/crons' },
   ]
   const activeKey = loc.pathname.split('/')[1] || 'pie'
 
   return (
     <div className="min-h-screen">
       <header className="border-b border-[var(--line)] px-4 sm:px-6 py-4 sm:py-5">
-        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-3">
+        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
           <div>
             <Link to="/" className="font-serif text-2xl sm:text-3xl hover:no-underline">Life of Sun</Link>
-            <p className="text-xs text-gray-500 mt-1">Generated {snap.generatedAt ? new Date(snap.generatedAt).toLocaleString() : '—'}</p>
+            <p className="text-xs text-gray-500 mt-1">{t('Generated')} {snap.generatedAt ? new Date(snap.generatedAt).toLocaleString() : '—'}</p>
           </div>
-          <nav className="flex gap-1 text-sm overflow-x-auto -mx-1 px-1">
-            {tabs.map(t => (
-              <Link key={t.key} to={t.path}
-                className={'px-3 py-1.5 rounded whitespace-nowrap flex-shrink-0 ' + (activeKey === t.key ? 'bg-[var(--ink)] text-white' : 'text-gray-600 hover:bg-gray-100')}>
-                {t.label}
-              </Link>
-            ))}
-          </nav>
+          <div className="flex flex-col sm:items-end gap-2">
+            <div className="flex justify-end"><LangSwitcher /></div>
+            <nav className="flex gap-1 text-sm overflow-x-auto -mx-1 px-1">
+              {tabs.map(tb => (
+                <Link key={tb.key} to={tb.path}
+                  className={'px-3 py-1.5 rounded whitespace-nowrap flex-shrink-0 ' + (activeKey === tb.key ? 'bg-[var(--ink)] text-white' : 'text-gray-600 hover:bg-gray-100')}>
+                  {tb.label}
+                </Link>
+              ))}
+            </nav>
+          </div>
         </div>
       </header>
       <main className="max-w-5xl mx-auto px-4 sm:px-6 py-5 sm:py-6 space-y-5 sm:space-y-6">{children}</main>
@@ -562,7 +639,7 @@ function PieRoute() {
 
   if (r === 'day') {
     const day = snap.days.find(d => d.date === iso)
-    if (!day) return <p className="text-gray-500">No data for {iso}.</p>
+    if (!day) return <TWrap><p className="text-gray-500"><Tx>No data for</Tx> {iso}.</p></TWrap>
     return (
       <Shell>
         <div className="flex flex-wrap items-center gap-3">
@@ -570,7 +647,7 @@ function PieRoute() {
           <RangeSwitcher current={r} date={iso} />
         </div>
         <section className="bg-white border border-[var(--line)] rounded-xl p-4 sm:p-6">
-          <h2 className="font-serif text-xl mb-4">Activities across the day</h2>
+          <h2 className="font-serif text-xl mb-4"><Tx>Activities across the day</Tx></h2>
           <CategoryPie totalsTitle="tracked / 24h" total24h by_category={day.by_category} tracked_min={day.tracked_min} />
           {Object.keys(day.by_project).length > 0 && <TopProjects byProject={day.by_project} />}
         </section>
@@ -586,14 +663,18 @@ function PieRoute() {
         <RangeSwitcher current={r} date={iso} />
       </div>
       <section className="bg-white border border-[var(--line)] rounded-xl p-4 sm:p-6">
-        <h2 className="font-serif text-xl mb-1">Activities — last {label}</h2>
-        <p className="text-xs text-gray-500 mb-4">Window: {agg.start} → {agg.end} · {agg.daysWithData}/{agg.days} days with data</p>
+        <h2 className="font-serif text-xl mb-1"><Tx>Activities — last</Tx> <Tx>{label}</Tx></h2>
+        <p className="text-xs text-gray-500 mb-4"><Tx>Window:</Tx> {agg.start} → {agg.end} · {agg.daysWithData}/{agg.days} <Tx>days with data</Tx></p>
         <CategoryPie totalsTitle={'tracked / ' + label} total24h={false} by_category={agg.by_category} tracked_min={agg.tracked_min} />
         {Object.keys(agg.by_project).length > 0 && <TopProjects byProject={agg.by_project} />}
       </section>
     </Shell>
   )
 }
+
+// Tiny helper components to make wrapping verbose strings cleaner.
+function Tx({ children }: { children: string }) { const t = useT(); return <>{t(children)}</> }
+function TWrap({ children }: { children: React.ReactNode }) { return <Shell>{children}</Shell> }
 
 function RangeSwitcher({ current, date }: { current: Range; date: string }) {
   const opts: Range[] = ['day', 'week', 'month', 'year']
@@ -611,13 +692,14 @@ function RangeSwitcher({ current, date }: { current: Range; date: string }) {
 }
 
 function TopProjects({ byProject }: { byProject: Record<string, number> }) {
+  const t = useT()
   return (
     <div className="mt-6">
-      <div className="text-xs uppercase tracking-wide text-gray-500 mb-2">Top projects</div>
+      <div className="text-xs uppercase tracking-wide text-gray-500 mb-2">{t('Top projects')}</div>
       <ul className="text-sm space-y-1">
         {Object.entries(byProject).sort((a,b) => b[1] - a[1]).slice(0, 8).map(([p, m]) => (
           <li key={p} className="flex justify-between border-b border-dashed border-[var(--line)] py-1">
-            <span>{p}</span><span className="tabular-nums text-gray-500">{fmtH(m)}</span>
+            <span>{t(p)}</span><span className="tabular-nums text-gray-500">{fmtH(m)}</span>
           </li>
         ))}
       </ul>
@@ -627,26 +709,27 @@ function TopProjects({ byProject }: { byProject: Record<string, number> }) {
 
 function ByDayRoute() {
   const snap = useSnapshot()
+  const t = useT()
   const [orient, setOrient] = useState<'horizontal' | 'vertical'>('horizontal')
   if (!snap) return null
   return (
     <Shell>
       <div className="flex items-center gap-2 text-sm">
-        <span className="text-gray-500">Bars:</span>
+        <span className="text-gray-500">{t('Bars:')}</span>
         {(['horizontal', 'vertical'] as const).map(o => (
           <button key={o} onClick={() => setOrient(o)}
             className={'px-3 py-1 rounded border ' + (orient === o
               ? 'bg-[var(--ink)] text-white border-[var(--ink)]'
-              : 'bg-white border-[var(--line)] text-gray-600 hover:bg-gray-100')}>{o}</button>
+              : 'bg-white border-[var(--line)] text-gray-600 hover:bg-gray-100')}>{t(o)}</button>
         ))}
       </div>
       <section className="bg-white border border-[var(--line)] rounded-xl p-4 sm:p-6">
-        <h2 className="font-serif text-xl mb-4">Last {snap.days.length} day{snap.days.length === 1 ? '' : 's'} — category mix</h2>
+        <h2 className="font-serif text-xl mb-4">{t('Last')} {snap.days.length} {t(snap.days.length === 1 ? 'day' : 'days')} — {t('category mix')}</h2>
         <ByDayBars days={snap.days} orientation={orient} />
         <div className="mt-5 flex flex-wrap gap-3 text-xs">
           {CAT_ORDER.map(c => (
             <span key={c} className="inline-flex items-center gap-1">
-              <span className="w-3 h-3 rounded-sm" style={{ background: colorFor(c) }} />{c}
+              <span className="w-3 h-3 rounded-sm" style={{ background: colorFor(c) }} />{t(c)}
             </span>
           ))}
         </div>
@@ -658,6 +741,7 @@ function ByDayRoute() {
 function TimelineRoute() {
   const { date } = useParams<{ date?: string }>()
   const snap = useSnapshot()
+  const t = useT()
   if (!snap) return null
   const iso = parseDateParam(date) || (snap.days.length ? snap.days[snap.days.length - 1].date : new Date().toISOString().slice(0, 10))
   const day = snap.days.find(d => d.date === iso)
@@ -666,10 +750,10 @@ function TimelineRoute() {
       <DateNav date={iso} baseTo={d => `/timeline/${d}`} />
       {day ? (
         <section>
-          <h2 className="font-serif text-xl mb-4">Timeline — {iso}</h2>
+          <h2 className="font-serif text-xl mb-4">{t('Timeline')} — {iso}</h2>
           <Timeline day={day} />
         </section>
-      ) : <p className="text-gray-500">No data for {iso}.</p>}
+      ) : <p className="text-gray-500">{t('No data for')} {iso}.</p>}
     </Shell>
   )
 }
@@ -677,6 +761,7 @@ function TimelineRoute() {
 function ChronoRoute() {
   const { date } = useParams<{ date?: string }>()
   const snap = useSnapshot()
+  const t = useT()
   if (!snap) return null
   const iso = parseDateParam(date) || (snap.days.length ? snap.days[snap.days.length - 1].date : new Date().toISOString().slice(0, 10))
   const day = snap.days.find(d => d.date === iso)
@@ -685,7 +770,7 @@ function ChronoRoute() {
       <DateNav date={iso} baseTo={d => `/chrono/${d}`} />
       {day ? (
         <section className="bg-white border border-[var(--line)] rounded-xl p-4 sm:p-6">
-          <h2 className="font-serif text-xl mb-4">Chronological clock — {iso}</h2>
+          <h2 className="font-serif text-xl mb-4">{t('Chronological clock')} — {iso}</h2>
           <ChronoClock day={day} />
         </section>
       ) : <p className="text-gray-500">No data for {iso}.</p>}
@@ -734,24 +819,25 @@ const fmt12 = (hhmm: string) => {
 const toMins = (hhmm: string) => { const [h, m] = hhmm.split(':').map(Number); return h * 60 + m }
 
 function CronsRoute() {
+  const t = useT()
   const daily = DAILY_ROWS.slice().sort((a, b) => toMins(a.hhmm) - toMins(b.hhmm))
   return (
     <Shell>
       <section className="bg-white border border-[var(--line)] rounded-xl p-4 sm:p-6 space-y-8">
         <header>
-          <h2 className="font-serif text-xl mb-1">What’s running for Sun</h2>
-          <p className="text-xs text-gray-500">All times Asia/Seoul (KST).</p>
+          <h2 className="font-serif text-xl mb-1">{t('What’s running for Sun')}</h2>
+          <p className="text-xs text-gray-500">{t('All times Asia/Seoul (KST).')}</p>
         </header>
 
         {/* CONTINUOUS — interval on left */}
         <div>
-          <div className="text-[11px] uppercase tracking-wider text-gray-500 mb-2">Always on</div>
+          <div className="text-[11px] uppercase tracking-wider text-gray-500 mb-2">{t('Always on')}</div>
           <ul className="divide-y divide-[var(--line)] border-y border-[var(--line)]">
             {CONTINUOUS_ROWS.map((r, i) => (
               <li key={i} className="py-2.5 flex items-center gap-3">
-                <div className="w-24 sm:w-28 flex-shrink-0 text-xs sm:text-sm text-gray-500 font-mono">{r.interval}</div>
+                <div className="w-24 sm:w-28 flex-shrink-0 text-xs sm:text-sm text-gray-500 font-mono">{t(r.interval)}</div>
                 <span className="text-[10px] uppercase tracking-wide px-1.5 py-0.5 rounded text-white flex-shrink-0" style={{ background: PROJECT_COLOR[r.project] }}>{PROJECT_LABEL[r.project]}</span>
-                <span className="text-sm">{r.what}</span>
+                <span className="text-sm">{t(r.what)}</span>
               </li>
             ))}
           </ul>
@@ -759,7 +845,7 @@ function CronsRoute() {
 
         {/* DAILY — vertical timeline */}
         <div>
-          <div className="text-[11px] uppercase tracking-wider text-gray-500 mb-2">Once per day</div>
+          <div className="text-[11px] uppercase tracking-wider text-gray-500 mb-2">{t('Once per day')}</div>
           <ol className="relative pl-3">
             <span className="absolute left-[88px] sm:left-[110px] top-1 bottom-1 w-px bg-[var(--line)]" />
             {daily.map((r, i) => (
@@ -767,7 +853,7 @@ function CronsRoute() {
                 <div className="w-20 sm:w-24 flex-shrink-0 text-xs sm:text-sm text-gray-500 font-mono text-right tabular-nums">{fmt12(r.hhmm)}</div>
                 <span className="relative z-10 w-3 h-3 rounded-full ring-2 ring-white flex-shrink-0" style={{ background: PROJECT_COLOR[r.project] }} />
                 <span className="text-[10px] uppercase tracking-wide px-1.5 py-0.5 rounded text-white flex-shrink-0" style={{ background: PROJECT_COLOR[r.project] }}>{PROJECT_LABEL[r.project]}</span>
-                <span className="text-sm">{r.what}</span>
+                <span className="text-sm">{t(r.what)}</span>
               </li>
             ))}
           </ol>
@@ -775,14 +861,14 @@ function CronsRoute() {
 
         {/* WEEKLY — day on left */}
         <div>
-          <div className="text-[11px] uppercase tracking-wider text-gray-500 mb-2">Once per week</div>
+          <div className="text-[11px] uppercase tracking-wider text-gray-500 mb-2">{t('Once per week')}</div>
           <ul className="divide-y divide-[var(--line)] border-y border-[var(--line)]">
             {WEEKLY_ROWS.map((r, i) => (
               <li key={i} className="py-2.5 flex items-center gap-3 flex-wrap">
-                <div className="w-24 sm:w-28 flex-shrink-0 text-xs sm:text-sm text-gray-500 font-mono"><span className="font-semibold text-gray-700">{r.weekday}</span> {fmt12(r.hhmm)}</div>
+                <div className="w-24 sm:w-28 flex-shrink-0 text-xs sm:text-sm text-gray-500 font-mono"><span className="font-semibold text-gray-700">{t(r.weekday)}</span> {fmt12(r.hhmm)}</div>
                 <span className="text-[10px] uppercase tracking-wide px-1.5 py-0.5 rounded text-white flex-shrink-0" style={{ background: PROJECT_COLOR[r.project] }}>{PROJECT_LABEL[r.project]}</span>
-                <span className="text-sm">{r.what}</span>
-                {r.warn && <span className="text-xs text-amber-700">⚠ {r.warn}</span>}
+                <span className="text-sm">{t(r.what)}</span>
+                {r.warn && <span className="text-xs text-amber-700">⚠ {t(r.warn)}</span>}
               </li>
             ))}
           </ul>
@@ -802,6 +888,7 @@ function HomeRedirect() {
 export default function App() {
   return (
     <BrowserRouter>
+      <I18nProvider>
       <Routes>
         <Route path="/" element={<HomeRedirect />} />
         <Route path="/pie/:range/:date" element={<PieRoute />} />
@@ -815,6 +902,7 @@ export default function App() {
         <Route path="/crons" element={<CronsRoute />} />
         <Route path="*" element={<HomeRedirect />} />
       </Routes>
+      </I18nProvider>
     </BrowserRouter>
   )
 }
