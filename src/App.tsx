@@ -2,12 +2,14 @@ import { useEffect, useMemo, useState } from 'react'
 import { BrowserRouter, Routes, Route, Link, useNavigate, useParams, Navigate, useLocation } from 'react-router-dom'
 
 // ── Types ──────────────────────────────────────────────────────────────
+type Capture = { start?: string; image?: string | null; summary?: string; sensitive?: boolean }
 type Block = {
   start: string; end: string; min: number
   category: string; activity: string; project: string
   screen_summary?: string; webcam?: string
   image?: string                    // legacy (v0.2): single representative image
-  images?: string[]                 // v0.3: per-capture image strip (one per 15-min capture)
+  images?: string[]                 // v0.3: per-capture URL list
+  captures?: Capture[]              // v0.4: per-capture detail (image + summary + time)
   sensitive?: boolean
   sensitive_count?: number
   notes?: string
@@ -219,10 +221,10 @@ function ChronoClock({ day }: { day: Day }) {
               {pinned && <button onClick={() => setPinned(null)} className="ml-auto text-xs text-gray-400 hover:text-gray-600">unpin</button>}
             </div>
             <div className="font-serif text-lg leading-snug">{active.activity}</div>
-            {active.screen_summary && <div className="text-sm text-gray-600 mt-1">{active.screen_summary}</div>}
             {(() => {
-              const imgs = blockImages(active)
-              if (imgs.length > 0) return <ImageStrip imgs={imgs} />
+              const caps = blockCaptures(active)
+              if (caps.length > 0) return <ImageStrip captures={caps} fallbackSummary={active.screen_summary} />
+              if (active.screen_summary) return <div className="text-sm text-gray-600 mt-1">{active.screen_summary}</div>
               if (active.sensitive || active.image?.includes('🔒')) return <div className="mt-3 text-xs text-gray-500 italic">🔒 image withheld (sensitive content)</div>
               return null
             })()}
@@ -283,18 +285,23 @@ function ByDayBars({ days, orientation }: { days: Day[]; orientation: 'horizonta
 }
 
 // ── Timeline ─────────────────────────────────────────────────────────
-function blockImages(b: Block): string[] {
-  if (b.images && b.images.length) return b.images.filter(isUrl)
-  if (isUrl(b.image)) return [b.image as string]
+function blockCaptures(b: Block): Capture[] {
+  // Prefer v0.4 captures[]; fall back to images[]; finally fall back to a single legacy image.
+  if (b.captures && b.captures.length) return b.captures.filter(c => isUrl(c.image || undefined) || c.sensitive)
+  if (b.images && b.images.length) return b.images.filter(isUrl).map(u => ({ image: u, summary: b.screen_summary }))
+  if (isUrl(b.image)) return [{ image: b.image, summary: b.screen_summary }]
   return []
+}
+function blockImages(b: Block): string[] {
+  return blockCaptures(b).map(c => c.image).filter(isUrl) as string[]
 }
 function Timeline({ day }: { day: Day }) {
   return (
     <ol className="space-y-3">
       {day.blocks.map((b, i) => {
-        const imgs = blockImages(b)
-        const fullySensitive = b.sensitive === true || (!imgs.length && (b.image?.includes('🔒') ?? false))
-        const partialSensitive = !!b.sensitive_count && imgs.length > 0
+        const caps = blockCaptures(b)
+        const fullySensitive = b.sensitive === true || (caps.length === 0 && (b.image?.includes('🔒') ?? false))
+        const partialSensitive = !!b.sensitive_count && caps.some(c => isUrl(c.image || undefined))
         return (
           <li key={i} className="grid grid-cols-[56px_1fr] sm:grid-cols-[80px_1fr] gap-2 sm:gap-4 items-start">
             <div className="font-mono text-xs text-gray-500 pt-1 tabular-nums">{b.start}<br/>↓<br/>{b.end}</div>
@@ -305,11 +312,14 @@ function Timeline({ day }: { day: Day }) {
                 <span className="text-xs text-gray-400">·</span>
                 <span className="text-xs text-gray-500">{fmtH(b.min)}</span>
                 {b.project && b.project !== '(unclassified)' && (<><span className="text-xs text-gray-400">·</span><span className="text-xs font-semibold">{b.project}</span></>)}
-                {imgs.length > 1 && (<><span className="text-xs text-gray-400">·</span><span className="text-xs text-gray-500">{imgs.length} captures</span></>)}
+                {caps.length > 1 && (<><span className="text-xs text-gray-400">·</span><span className="text-xs text-gray-500">{caps.length} captures</span></>)}
               </div>
               <div className="font-serif text-lg leading-snug">{b.activity}</div>
-              {b.screen_summary && <div className="text-sm text-gray-600 mt-1">{b.screen_summary}</div>}
-              {imgs.length > 0 && <ImageStrip imgs={imgs} />}
+              {caps.length > 0 ? (
+                <ImageStrip captures={caps} fallbackSummary={b.screen_summary} />
+              ) : (
+                b.screen_summary && <div className="text-sm text-gray-600 mt-1">{b.screen_summary}</div>
+              )}
               {fullySensitive && <div className="mt-3 text-xs text-gray-500 italic">🔒 image withheld (sensitive content)</div>}
               {partialSensitive && <div className="mt-2 text-xs text-gray-500 italic">🔒 {b.sensitive_count} sensitive capture(s) withheld</div>}
             </div>
@@ -320,22 +330,37 @@ function Timeline({ day }: { day: Day }) {
   )
 }
 
-function ImageStrip({ imgs }: { imgs: string[] }) {
+function ImageStrip({ captures, fallbackSummary }: { captures: Capture[]; fallbackSummary?: string }) {
   const [active, setActive] = useState(0)
-  if (imgs.length === 1) {
-    return <img src={imgs[0]} alt="" loading="lazy" className="mt-3 rounded border border-[var(--line)] max-w-md w-full" />
-  }
+  const a = captures[Math.min(active, captures.length - 1)]
+  const url = a.image && isUrl(a.image) ? a.image : null
+  const subtext = a.summary || fallbackSummary
   return (
     <div className="mt-3 space-y-2">
-      <img src={imgs[active]} alt="" loading="lazy" className="rounded border border-[var(--line)] max-w-md w-full" />
-      <div className="flex gap-2 overflow-x-auto pb-1">
-        {imgs.map((u, i) => (
-          <button key={i} type="button" onClick={() => setActive(i)}
-            className={'flex-shrink-0 rounded border-2 ' + (i === active ? 'border-[var(--ink)]' : 'border-transparent opacity-70 hover:opacity-100')}>
-            <img src={u} alt="" loading="lazy" className="h-14 w-auto rounded" />
-          </button>
-        ))}
-      </div>
+      {url ? (
+        <img src={url} alt="" loading="lazy" className="rounded border border-[var(--line)] max-w-md w-full" />
+      ) : (
+        <div className="rounded border border-dashed border-[var(--line)] bg-gray-50 px-3 py-6 text-xs text-gray-500 italic max-w-md">🔒 image withheld for this capture</div>
+      )}
+      {subtext && <div className="text-sm text-gray-700">{subtext}</div>}
+      {a.start && <div className="text-[11px] text-gray-400 font-mono">capture @ {a.start}</div>}
+      {captures.length > 1 && (
+        <div className="flex gap-2 overflow-x-auto pb-1">
+          {captures.map((c, i) => {
+            const tUrl = c.image && isUrl(c.image) ? c.image : null
+            return (
+              <button key={i} type="button" onClick={() => setActive(i)} title={c.start}
+                className={'flex-shrink-0 rounded border-2 ' + (i === active ? 'border-[var(--ink)]' : 'border-transparent opacity-70 hover:opacity-100')}>
+                {tUrl ? (
+                  <img src={tUrl} alt="" loading="lazy" className="h-14 w-auto rounded" />
+                ) : (
+                  <div className="h-14 w-20 rounded bg-gray-100 text-[10px] flex items-center justify-center text-gray-500">🔒</div>
+                )}
+              </button>
+            )
+          })}
+        </div>
+      )}
     </div>
   )
 }
