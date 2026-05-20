@@ -147,9 +147,32 @@ function CategoryPie({ totalsTitle, total24h, by_category, tracked_min }: {
 function ChronoClock({ day }: { day: Day }) {
   const [hover, setHover] = useState<Block | null>(null)
   const [pinned, setPinned] = useState<Block | null>(null)
+  const [backfillGap, setBackfillGap] = useState<{ start: string; end: string } | null>(null)
   const active = pinned ?? hover
   const cx = 180, cy = 180, rOuter = 150, rInner = 80
   const tau = 2 * Math.PI
+
+  // Compute untracked gaps (the inverse of the day's blocks across 00:00–24:00).
+  const gaps = useMemo(() => {
+    const segs = day.blocks
+      .map(b => {
+        const sm = toMin(b.start)
+        let em = b.end === '00:00' ? 1440 : toMin(b.end)
+        if (em <= sm) em = Math.min(1440, sm + b.min)
+        return [sm, em] as [number, number]
+      })
+      .sort((a, b) => a[0] - b[0])
+    const out: [number, number][] = []
+    let cursor = 0
+    for (const [s, e] of segs) {
+      if (s > cursor) out.push([cursor, s])
+      cursor = Math.max(cursor, e)
+    }
+    if (cursor < 1440) out.push([cursor, 1440])
+    // Filter out trivially small gaps (< 15 min) since they aren't backfillable slots.
+    return out.filter(([s, e]) => e - s >= 15)
+  }, [day.blocks])
+  const minToHHMM = (m: number) => `${String(Math.floor(m / 60) % 24).padStart(2, '0')}:${String(m % 60).padStart(2, '0')}`
 
   function arcPath(startMin: number, endMin: number) {
     const a0 = (startMin / 1440) * tau - Math.PI / 2
@@ -182,6 +205,18 @@ function ChronoClock({ day }: { day: Day }) {
             const r1 = rOuter, r2 = rOuter - (h % 6 === 0 ? 8 : 4)
             return <line key={h} x1={cx + r1*Math.cos(a)} y1={cy + r1*Math.sin(a)} x2={cx + r2*Math.cos(a)} y2={cy + r2*Math.sin(a)} stroke="#cbc6b6" strokeWidth={1} />
           })}
+          {/* empty/untracked gaps — clickable to open backfill modal */}
+          {gaps.map(([s, e], i) => (
+            <path key={'gap-' + i}
+              d={arcPath(s, Math.min(e, 1439.99))}
+              fill="#d6d2c2"
+              opacity={0.35}
+              stroke="#faf9f6" strokeWidth={1}
+              style={{ cursor: 'pointer' }}
+              onClick={() => setBackfillGap({ start: minToHHMM(s), end: minToHHMM(e === 1440 ? 1440 : e) })}>
+              <title>{`untracked ${minToHHMM(s)}–${minToHHMM(e === 1440 ? 1440 : e)} — click to backfill`}</title>
+            </path>
+          ))}
           {/* blocks */}
           {day.blocks.map((b, i) => {
             const sm = toMin(b.start)
@@ -230,9 +265,96 @@ function ChronoClock({ day }: { day: Day }) {
             })()}
           </div>
         ) : (
-          <div className="text-sm text-gray-500 italic">Hover any arc to preview; click to pin (so you can scroll the image strip).</div>
+          <div className="text-sm text-gray-500 italic">Hover any arc to preview; click to pin. Faded gaps = untracked time — click one to backfill what you were doing.</div>
         )}
       </div>
+      {backfillGap && (
+        <BackfillModal date={day.date} initial={backfillGap} onClose={() => setBackfillGap(null)} />
+      )}
+    </div>
+  )
+}
+
+// ── Backfill modal — POSTs to MBTI Oracle backend's selftrack queue ───
+function BackfillModal({ date, initial, onClose }: { date: string; initial: { start: string; end: string }; onClose: () => void }) {
+  const [pin, setPin] = useState('')
+  const [start, setStart] = useState(initial.start)
+  const [end, setEnd] = useState(initial.end)
+  const [category, setCategory] = useState<string>('Leisure')
+  const [activity, setActivity] = useState('')
+  const [project, setProject] = useState('')
+  const [summary, setSummary] = useState('')
+  const [status, setStatus] = useState<'idle' | 'sending' | 'ok' | 'err'>('idle')
+  const [err, setErr] = useState<string>('')
+
+  async function submit(e: React.FormEvent) {
+    e.preventDefault()
+    setStatus('sending'); setErr('')
+    try {
+      const r = await fetch('https://www.mbtioracle.com/selftrack/backfill', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ pin, date, start, end, category, activity, project, summary }),
+      })
+      const j = await r.json().catch(() => ({}))
+      if (!r.ok) { setErr(j.error || 'request failed'); setStatus('err'); return }
+      setStatus('ok')
+      setTimeout(onClose, 1200)
+    } catch (e: any) { setErr(e.message || 'network error'); setStatus('err') }
+  }
+
+  return (
+    <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50 p-4" onClick={onClose}>
+      <form onClick={e => e.stopPropagation()} onSubmit={submit}
+        className="bg-white rounded-xl shadow-xl w-full max-w-md p-5 space-y-3">
+        <div className="flex items-baseline justify-between">
+          <h3 className="font-serif text-xl">Backfill untracked time</h3>
+          <button type="button" onClick={onClose} className="text-gray-400 hover:text-gray-600 text-xl leading-none">×</button>
+        </div>
+        <div className="text-xs text-gray-500">{date}</div>
+        <div className="grid grid-cols-2 gap-2">
+          <label className="text-xs text-gray-600">Start
+            <input type="time" value={start} onChange={e => setStart(e.target.value)} step={900} required
+              className="mt-1 w-full border border-[var(--line)] rounded px-2 py-1 text-sm" />
+          </label>
+          <label className="text-xs text-gray-600">End
+            <input type="time" value={end} onChange={e => setEnd(e.target.value)} step={900} required
+              className="mt-1 w-full border border-[var(--line)] rounded px-2 py-1 text-sm" />
+          </label>
+        </div>
+        <label className="text-xs text-gray-600 block">Category
+          <select value={category} onChange={e => setCategory(e.target.value)}
+            className="mt-1 w-full border border-[var(--line)] rounded px-2 py-1 text-sm">
+            {CAT_ORDER.map(c => <option key={c} value={c}>{c}</option>)}
+          </select>
+        </label>
+        <label className="text-xs text-gray-600 block">What were you doing? (activity)
+          <input type="text" value={activity} onChange={e => setActivity(e.target.value)} required
+            placeholder="e.g. errands, sleeping, gym, watching The Boys"
+            className="mt-1 w-full border border-[var(--line)] rounded px-2 py-1 text-sm" />
+        </label>
+        <label className="text-xs text-gray-600 block">Project umbrella (optional)
+          <input type="text" value={project} onChange={e => setProject(e.target.value)}
+            placeholder="e.g. MBTI Oracle dev, personal admin"
+            className="mt-1 w-full border border-[var(--line)] rounded px-2 py-1 text-sm" />
+        </label>
+        <label className="text-xs text-gray-600 block">Notes / summary (optional)
+          <textarea value={summary} onChange={e => setSummary(e.target.value)} rows={2}
+            className="mt-1 w-full border border-[var(--line)] rounded px-2 py-1 text-sm" />
+        </label>
+        <label className="text-xs text-gray-600 block">4-digit PIN
+          <input type="password" inputMode="numeric" pattern="[0-9]{4}" value={pin} onChange={e => setPin(e.target.value)} required maxLength={4}
+            className="mt-1 w-full border border-[var(--line)] rounded px-2 py-1 text-sm tracking-widest" />
+        </label>
+        {status === 'ok' && <div className="text-xs text-green-700">Queued! Will appear on the sheet at the next :12 cron run.</div>}
+        {status === 'err' && <div className="text-xs text-red-700">{err}</div>}
+        <div className="flex gap-2 pt-1">
+          <button type="button" onClick={onClose} className="flex-1 px-3 py-2 text-sm border border-[var(--line)] rounded">Cancel</button>
+          <button type="submit" disabled={status === 'sending'} className="flex-1 px-3 py-2 text-sm rounded bg-[var(--ink)] text-white disabled:opacity-50">
+            {status === 'sending' ? 'Sending…' : 'Queue backfill'}
+          </button>
+        </div>
+      </form>
     </div>
   )
 }
