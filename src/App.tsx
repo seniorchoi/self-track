@@ -208,21 +208,39 @@ export default function App() {
 
       <main className="max-w-5xl mx-auto px-6 py-6 space-y-6">
         {/* Date picker — relevant for pie + timeline */}
-        {view !== 'byday' && day && (
-          <div className="flex items-center gap-2 text-sm">
-            <span className="text-gray-500">Day:</span>
-            <select
-              value={day.date}
-              onChange={e => setActiveDate(e.target.value)}
-              className="border border-[var(--line)] rounded px-2 py-1 bg-white">
-              {snap.days.slice().reverse().map(d => (
-                <option key={d.date} value={d.date}>{d.date}</option>
-              ))}
-            </select>
-            <span className="text-gray-400">·</span>
-            <span className="text-gray-600">{fmtH(day.tracked_min)} tracked</span>
-          </div>
-        )}
+        {view !== 'byday' && day && (() => {
+          const idx = snap.days.findIndex(d => d.date === day.date)
+          const prev = idx > 0 ? snap.days[idx - 1] : null
+          const next = idx >= 0 && idx < snap.days.length - 1 ? snap.days[idx + 1] : null
+          const navBtn = (label: string, target: Day | null, title: string) => (
+            <button
+              type="button"
+              onClick={() => target && setActiveDate(target.date)}
+              disabled={!target}
+              title={target ? `${title}: ${target.date}` : `no ${title}`}
+              className={'w-7 h-7 inline-flex items-center justify-center rounded border border-[var(--line)] bg-white ' +
+                (target ? 'hover:bg-gray-100' : 'opacity-30 cursor-not-allowed')}>
+              {label}
+            </button>
+          )
+          return (
+            <div className="flex items-center gap-2 text-sm">
+              <span className="text-gray-500">Day:</span>
+              {navBtn('◀', prev, 'previous day')}
+              <select
+                value={day.date}
+                onChange={e => setActiveDate(e.target.value)}
+                className="border border-[var(--line)] rounded px-2 py-1 bg-white">
+                {snap.days.slice().reverse().map(d => (
+                  <option key={d.date} value={d.date}>{d.date}</option>
+                ))}
+              </select>
+              {navBtn('▶', next, 'next day')}
+              <span className="text-gray-400">·</span>
+              <span className="text-gray-600">{fmtH(day.tracked_min)} tracked</span>
+            </div>
+          )
+        })()}
 
         {view === 'today' && day && (
           <section className="bg-white border border-[var(--line)] rounded-xl p-6">
