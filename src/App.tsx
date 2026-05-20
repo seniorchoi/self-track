@@ -698,147 +698,97 @@ type CronProject = 'selftrack' | 'mbtioracle' | 'simple-rizz' | 'personal'
 const PROJECT_COLOR: Record<CronProject, string> = {
   selftrack: '#1f3b2a', mbtioracle: '#7a5cbf', 'simple-rizz': '#d4a14a', personal: '#4b8b9b',
 }
-// Per-row layout: minutes-since-midnight for the day-rail, short title, optional weekday.
-type CronRow = { hhmm?: string; mins?: number; weekday?: 'Mon' | 'Tue' | 'Wed' | 'Thu' | 'Fri' | 'Sat' | 'Sun'; project: CronProject; title: string; sub: string; warn?: string }
-const CONTINUOUS_ROWS: CronRow[] = [
-  { project: 'selftrack', title: 'Capture',          sub: 'screenshot + webcam every 15 min' },
-  { project: 'selftrack', title: 'Posture check',    sub: 'webcam verdict every 15 min — toast + sound if slouching' },
-  { project: 'selftrack', title: 'Watcher',          sub: 'always-on listener for posture alerts' },
-  { project: 'selftrack', title: 'Analyze captures', sub: 'every hour at :55 — labels the last hour into the Sheet' },
-  { project: 'selftrack', title: 'Dashboard refresh',sub: 'every hour at :00 — pushes the latest data to this site' },
+const PROJECT_LABEL: Record<CronProject, string> = {
+  selftrack: 'SelfTrack', mbtioracle: 'MBTI Oracle', 'simple-rizz': 'Simple Rizz', personal: 'Personal',
+}
+
+type ContinuousRow = { interval: string; project: CronProject; what: string }
+type DailyRow      = { hhmm: string;     project: CronProject; what: string }
+type WeeklyRow     = { weekday: 'Mon' | 'Tue' | 'Wed' | 'Thu' | 'Fri' | 'Sat' | 'Sun'; hhmm: string; project: CronProject; what: string; warn?: string }
+
+const CONTINUOUS_ROWS: ContinuousRow[] = [
+  { interval: 'every 5 sec',  project: 'selftrack',   what: 'posture alert watcher' },
+  { interval: 'every 15 min', project: 'selftrack',   what: 'screen + webcam capture' },
+  { interval: 'every 15 min', project: 'selftrack',   what: 'posture check' },
+  { interval: 'every hour',   project: 'selftrack',   what: 'label captures into sheet' },
+  { interval: 'every hour',   project: 'selftrack',   what: 'refresh this site' },
 ]
-function toMins(hhmm: string) { const [h, m] = hhmm.split(':').map(Number); return h * 60 + m }
-const DAILY_ROWS: CronRow[] = [
-  { hhmm: '09:03', project: 'simple-rizz', title: 'Simple Rizz · morning idea', sub: 'fresh TikTok hook + Apify refresh + Telegram' },
-  { hhmm: '12:00', project: 'mbtioracle',  title: 'MBTI Oracle · content drop', sub: 'IG slideshow Reel built + scheduled via Publora' },
-  { hhmm: '13:03', project: 'mbtioracle',  title: 'MBTI Oracle · exec experiment', sub: 'ships one growth experiment, commits + deploys' },
-  { hhmm: '20:07', project: 'mbtioracle',  title: 'MBTI Oracle · evening report',  sub: 'metrics + revenue + drip + Telegram summary' },
-  { hhmm: '20:07', project: 'simple-rizz', title: 'Simple Rizz · evening idea',    sub: 'second TikTok angle for the day' },
-  { hhmm: '23:00', project: 'selftrack',   title: 'SelfTrack · X post',            sub: 'tweets the day’s timeline link from @sun_choi8' },
-  { hhmm: '23:30', project: 'selftrack',   title: 'SelfTrack · ROI roll-up',       sub: 'joins today’s hours ↔ revenue ↔ commits ↔ views' },
-].map(r => ({ ...r, mins: toMins(r.hhmm) }))
-const WEEKLY_ROWS: CronRow[] = [
-  { weekday: 'Thu', hhmm: '20:00', project: 'personal',   title: 'Movie night',                sub: 'auto-picks + downloads a movie (RT >80%, sci-fi/prestige)', warn: 'last 3 runs failed — CLI timeout' },
-  { weekday: 'Sun', hhmm: '21:30', project: 'mbtioracle', title: 'MBTI Oracle · weekly strategy', sub: 'reviews bets, scans trends, queues next week’s experiments' },
+const DAILY_ROWS: DailyRow[] = [
+  { hhmm: '09:03', project: 'simple-rizz', what: 'morning TikTok idea' },
+  { hhmm: '12:00', project: 'mbtioracle',  what: 'Instagram Reel posted' },
+  { hhmm: '13:03', project: 'mbtioracle',  what: 'growth experiment shipped' },
+  { hhmm: '20:07', project: 'mbtioracle',  what: 'evening metrics report' },
+  { hhmm: '20:07', project: 'simple-rizz', what: 'evening TikTok idea' },
+  { hhmm: '23:00', project: 'selftrack',   what: 'tweet today’s timeline' },
+  { hhmm: '23:30', project: 'selftrack',   what: 'ROI roll-up (time ↔ $)' },
+]
+const WEEKLY_ROWS: WeeklyRow[] = [
+  { weekday: 'Thu', hhmm: '20:00', project: 'personal',   what: 'movie download', warn: 'recent runs failing' },
+  { weekday: 'Sun', hhmm: '21:30', project: 'mbtioracle', what: 'weekly strategy review' },
 ]
 const fmt12 = (hhmm: string) => {
   const [h, m] = hhmm.split(':').map(Number)
   const period = h >= 12 ? 'PM' : 'AM'; const h12 = (h % 12) || 12
   return `${h12}:${String(m).padStart(2, '0')} ${period}`
 }
+const toMins = (hhmm: string) => { const [h, m] = hhmm.split(':').map(Number); return h * 60 + m }
 
 function CronsRoute() {
+  const daily = DAILY_ROWS.slice().sort((a, b) => toMins(a.hhmm) - toMins(b.hhmm))
   return (
     <Shell>
-      <section className="bg-white border border-[var(--line)] rounded-xl p-4 sm:p-6 space-y-7">
+      <section className="bg-white border border-[var(--line)] rounded-xl p-4 sm:p-6 space-y-8">
         <header>
           <h2 className="font-serif text-xl mb-1">What’s running for Sun</h2>
-          <p className="text-xs text-gray-500">Every background loop, at a glance. All times KST.</p>
+          <p className="text-xs text-gray-500">All times Asia/Seoul (KST).</p>
         </header>
 
-        {/* 24-HOUR RAIL */}
-        <div>
-          <div className="text-[11px] uppercase tracking-wider text-gray-500 mb-2">Today, hour by hour</div>
-          <DayRail rows={DAILY_ROWS} />
-        </div>
-
-        {/* ALWAYS ON */}
+        {/* CONTINUOUS — interval on left */}
         <div>
           <div className="text-[11px] uppercase tracking-wider text-gray-500 mb-2">Always on</div>
           <ul className="divide-y divide-[var(--line)] border-y border-[var(--line)]">
-            {CONTINUOUS_ROWS.map(r => <CronLine key={r.title} row={r} timeLabel="continuous" />)}
-          </ul>
-        </div>
-
-        {/* DAILY LIST */}
-        <div>
-          <div className="text-[11px] uppercase tracking-wider text-gray-500 mb-2">Once per day</div>
-          <ul className="divide-y divide-[var(--line)] border-y border-[var(--line)]">
-            {DAILY_ROWS.slice().sort((a, b) => (a.mins! - b.mins!)).map(r => (
-              <CronLine key={r.title + r.hhmm} row={r} timeLabel={fmt12(r.hhmm!)} />
+            {CONTINUOUS_ROWS.map((r, i) => (
+              <li key={i} className="py-2.5 flex items-center gap-3">
+                <div className="w-24 sm:w-28 flex-shrink-0 text-xs sm:text-sm text-gray-500 font-mono">{r.interval}</div>
+                <span className="text-[10px] uppercase tracking-wide px-1.5 py-0.5 rounded text-white flex-shrink-0" style={{ background: PROJECT_COLOR[r.project] }}>{PROJECT_LABEL[r.project]}</span>
+                <span className="text-sm">{r.what}</span>
+              </li>
             ))}
           </ul>
         </div>
 
-        {/* WEEKLY LIST */}
+        {/* DAILY — vertical timeline */}
+        <div>
+          <div className="text-[11px] uppercase tracking-wider text-gray-500 mb-2">Once per day</div>
+          <ol className="relative pl-3">
+            <span className="absolute left-[88px] sm:left-[110px] top-1 bottom-1 w-px bg-[var(--line)]" />
+            {daily.map((r, i) => (
+              <li key={i} className="relative flex items-center gap-3 py-2.5">
+                <div className="w-20 sm:w-24 flex-shrink-0 text-xs sm:text-sm text-gray-500 font-mono text-right tabular-nums">{fmt12(r.hhmm)}</div>
+                <span className="relative z-10 w-3 h-3 rounded-full ring-2 ring-white flex-shrink-0" style={{ background: PROJECT_COLOR[r.project] }} />
+                <span className="text-[10px] uppercase tracking-wide px-1.5 py-0.5 rounded text-white flex-shrink-0" style={{ background: PROJECT_COLOR[r.project] }}>{PROJECT_LABEL[r.project]}</span>
+                <span className="text-sm">{r.what}</span>
+              </li>
+            ))}
+          </ol>
+        </div>
+
+        {/* WEEKLY — day on left */}
         <div>
           <div className="text-[11px] uppercase tracking-wider text-gray-500 mb-2">Once per week</div>
           <ul className="divide-y divide-[var(--line)] border-y border-[var(--line)]">
-            {WEEKLY_ROWS.map(r => <CronLine key={r.title} row={r} timeLabel={`${r.weekday} ${fmt12(r.hhmm!)}`} />)}
+            {WEEKLY_ROWS.map((r, i) => (
+              <li key={i} className="py-2.5 flex items-center gap-3 flex-wrap">
+                <div className="w-24 sm:w-28 flex-shrink-0 text-xs sm:text-sm text-gray-500 font-mono"><span className="font-semibold text-gray-700">{r.weekday}</span> {fmt12(r.hhmm)}</div>
+                <span className="text-[10px] uppercase tracking-wide px-1.5 py-0.5 rounded text-white flex-shrink-0" style={{ background: PROJECT_COLOR[r.project] }}>{PROJECT_LABEL[r.project]}</span>
+                <span className="text-sm">{r.what}</span>
+                {r.warn && <span className="text-xs text-amber-700">⚠ {r.warn}</span>}
+              </li>
+            ))}
           </ul>
         </div>
-
-        <p className="text-[11px] text-gray-400">Static snapshot — re-curated whenever a cron is added or removed. Project tags: <span className="inline-flex items-center gap-1"><span className="inline-block w-2 h-2 rounded-full" style={{ background: PROJECT_COLOR.selftrack }} />SelfTrack</span> · <span className="inline-flex items-center gap-1"><span className="inline-block w-2 h-2 rounded-full" style={{ background: PROJECT_COLOR.mbtioracle }} />MBTI Oracle</span> · <span className="inline-flex items-center gap-1"><span className="inline-block w-2 h-2 rounded-full" style={{ background: PROJECT_COLOR['simple-rizz'] }} />Simple Rizz</span> · <span className="inline-flex items-center gap-1"><span className="inline-block w-2 h-2 rounded-full" style={{ background: PROJECT_COLOR.personal }} />Personal</span></p>
       </section>
     </Shell>
-  )
-}
-
-function CronLine({ row, timeLabel }: { row: CronRow; timeLabel: string }) {
-  return (
-    <li className="py-2 flex items-start gap-3">
-      <span className="mt-1.5 inline-block w-2 h-2 rounded-full flex-shrink-0" style={{ background: PROJECT_COLOR[row.project] }} />
-      <div className="w-24 sm:w-32 flex-shrink-0 text-xs sm:text-sm text-gray-500 font-mono tabular-nums pt-0.5">{timeLabel}</div>
-      <div className="flex-1 min-w-0">
-        <div className="text-sm font-medium leading-tight">{row.title}</div>
-        <div className="text-xs text-gray-500 mt-0.5">{row.sub}</div>
-        {row.warn && <div className="text-xs text-amber-700 mt-0.5">⚠ {row.warn}</div>}
-      </div>
-    </li>
-  )
-}
-
-function DayRail({ rows }: { rows: CronRow[] }) {
-  // SVG: 720 wide × variable tall. Hours 0-24 mapped to x=40..680.
-  const W = 720, X0 = 40, X1 = 680
-  const xFor = (m: number) => X0 + (m / 1440) * (X1 - X0)
-
-  // Cluster rows that are within 30 px so labels don't overlap. Each cluster shows the time + a stacked label list.
-  const sorted = rows.slice().sort((a, b) => a.mins! - b.mins!)
-  const clusters: { x: number; rows: CronRow[] }[] = []
-  for (const r of sorted) {
-    const x = xFor(r.mins!)
-    const last = clusters[clusters.length - 1]
-    if (last && Math.abs(x - last.x) < 30) last.rows.push(r)
-    else clusters.push({ x, rows: [r] })
-  }
-  const labelH = 14
-  const maxStack = Math.max(1, ...clusters.map(c => c.rows.length))
-  const H = 70 + maxStack * labelH
-
-  return (
-    <div className="overflow-x-auto -mx-1 px-1">
-      <svg viewBox={`0 0 ${W} ${H}`} className="w-full min-w-[640px] max-w-full h-auto">
-        {/* base line */}
-        <line x1={X0} y1={36} x2={X1} y2={36} stroke="#cbc6b6" strokeWidth={1} />
-        {/* hour ticks */}
-        {Array.from({ length: 25 }, (_, h) => {
-          const x = xFor(h * 60)
-          const major = h % 3 === 0
-          return (
-            <g key={h}>
-              <line x1={x} y1={36} x2={x} y2={major ? 28 : 32} stroke="#9ca3af" strokeWidth={1} />
-              {major && <text x={x} y={20} textAnchor="middle" style={{ fontSize: 11, fill: '#6b7280' }}>{h === 24 ? '24' : String(h).padStart(2, '0')}</text>}
-            </g>
-          )
-        })}
-        {/* cluster dots + stacked labels */}
-        {clusters.map((c, i) => (
-          <g key={i}>
-            <line x1={c.x} y1={36} x2={c.x} y2={50} stroke="#0d0d0d" strokeWidth={1.5} />
-            {/* time label */}
-            <text x={c.x} y={64} textAnchor="middle" className="font-mono" style={{ fontSize: 11, fill: '#0d0d0d' }}>{fmt12(c.rows[0].hhmm!)}</text>
-            {/* stacked event labels */}
-            {c.rows.map((r, k) => (
-              <g key={k}>
-                <circle cx={c.x - 60} cy={78 + k * labelH} r={3.5} fill={PROJECT_COLOR[r.project]} />
-                <text x={c.x - 52} y={82 + k * labelH} style={{ fontSize: 11, fill: '#374151' }}>{r.title}</text>
-              </g>
-            ))}
-          </g>
-        ))}
-      </svg>
-    </div>
   )
 }
 
