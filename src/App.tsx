@@ -151,7 +151,7 @@ function CategoryPie({ totalsTitle, total24h, by_category, tracked_min }: {
 }
 
 // ── ChronoClock — clock-style 24h ring positioned by time-of-day ──────
-function ChronoClock({ day }: { day: Day }) {
+function ChronoClock({ day, summary }: { day: Day; summary?: DailySummary | null }) {
   const [hover, setHover] = useState<Block | null>(null)
   const [pinned, setPinned] = useState<Block | null>(null)
   const [backfillGap, setBackfillGap] = useState<{ start: string; end: string } | null>(null)
@@ -193,9 +193,9 @@ function ChronoClock({ day }: { day: Day }) {
   }
 
   return (
-    <div className="flex flex-col gap-4 items-stretch">
-      <div className="relative">
-        <svg viewBox="0 0 360 360" className="w-full max-w-[360px] h-auto mx-auto">
+    <div className="flex flex-col lg:flex-row gap-6 items-start">
+      <div className="relative flex-shrink-0">
+        <svg viewBox="0 0 360 360" className="w-full max-w-[360px] h-auto">
           {/* faint background ring */}
           <circle cx={cx} cy={cy} r={rOuter} fill="#ece8db" />
           <circle cx={cx} cy={cy} r={rInner} fill="#faf9f6" />
@@ -247,7 +247,7 @@ function ChronoClock({ day }: { day: Day }) {
           <text x={cx} y={cy + 18} textAnchor="middle" style={{ fontSize: 11, fill: '#6b7280' }}>{fmtH(day.tracked_min)} tracked</text>
         </svg>
       </div>
-      <div className="flex-1 min-w-0">
+      <div className="flex-1 min-w-0 space-y-4">
         {active ? (
           <div className="bg-white border border-[var(--line)] rounded-lg p-4">
             <div className="flex items-center gap-2 mb-1 flex-wrap">
@@ -274,10 +274,42 @@ function ChronoClock({ day }: { day: Day }) {
         ) : (
           <div className="text-sm text-gray-500 italic">Hover any arc to preview; click to pin. Faded gaps = untracked time — click one to backfill what you were doing.</div>
         )}
+
+        {/* AI takeaway under the hover-detail panel */}
+        <ClockSideSummary date={day.date} summary={summary} />
       </div>
       {backfillGap && (
         <BackfillModal date={day.date} initial={backfillGap} onClose={() => setBackfillGap(null)} />
       )}
+    </div>
+  )
+}
+
+function ClockSideSummary({ date, summary }: { date: string; summary?: DailySummary | null }) {
+  const [editingNote, setEditingNote] = useState(false)
+  return (
+    <div className="border-t border-[var(--line)] pt-4 space-y-3">
+      <div>
+        <div className="text-[11px] uppercase tracking-wider text-gray-500 mb-1">AI takeaway</div>
+        {summary?.takeaway ? (
+          <p className="font-serif text-base leading-snug">{summary.takeaway}</p>
+        ) : (
+          <p className="text-xs text-gray-400 italic">Generated at end of day (≥23:00 KST).</p>
+        )}
+      </div>
+      <div>
+        <div className="flex items-baseline justify-between mb-1">
+          <div className="text-[11px] uppercase tracking-wider text-gray-500">Note from Sun</div>
+          {!editingNote && <button onClick={() => setEditingNote(true)} className="text-xs text-gray-500 hover:text-gray-800 underline">{summary?.note ? 'edit' : 'add'}</button>}
+        </div>
+        {editingNote ? (
+          <NoteEditor date={date} initial={summary?.note || ''} onClose={() => setEditingNote(false)} />
+        ) : summary?.note ? (
+          <p className="font-serif text-base leading-snug text-gray-700 whitespace-pre-wrap">"{summary.note}"</p>
+        ) : (
+          <p className="text-xs text-gray-400 italic">no note yet — add a short reflection (max 500 chars).</p>
+        )}
+      </div>
     </div>
   )
 }
@@ -693,68 +725,10 @@ function ChronoRoute() {
       {day ? (
         <section className="bg-white border border-[var(--line)] rounded-xl p-4 sm:p-6">
           <h2 className="font-serif text-xl mb-4">Chronological clock — {iso}</h2>
-          <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,400px)_1fr] gap-6 items-start">
-            <div><ChronoClock day={day} /></div>
-            <DailySummaryPanel date={iso} summary={day.dailySummary} day={day} />
-          </div>
+          <ChronoClock day={day} summary={day.dailySummary} />
         </section>
       ) : <p className="text-gray-500">No data for {iso}.</p>}
     </Shell>
-  )
-}
-
-function DailySummaryPanel({ date, summary, day }: { date: string; summary?: DailySummary | null; day: Day }) {
-  const [editingNote, setEditingNote] = useState(false)
-  const isToday = date === new Date().toISOString().slice(0, 10)
-  return (
-    <section className="bg-white border border-[var(--line)] rounded-xl p-4 sm:p-6 space-y-4">
-      <div className="flex items-baseline justify-between flex-wrap gap-2">
-        <h2 className="font-serif text-xl">Day summary — {date}</h2>
-        {!summary && <span className="text-xs text-gray-500 italic">{isToday ? 'Generated at end of day (≥23:00 KST)' : 'No summary on file for this day yet'}</span>}
-      </div>
-
-      {summary?.takeaway && (
-        <div>
-          <div className="text-[11px] uppercase tracking-wider text-gray-500 mb-1">AI takeaway</div>
-          <p className="font-serif text-base leading-snug">{summary.takeaway}</p>
-        </div>
-      )}
-
-      {summary?.top_activities && (
-        <div>
-          <div className="text-[11px] uppercase tracking-wider text-gray-500 mb-1">Top 3 activities</div>
-          <p className="text-sm text-gray-700">{summary.top_activities}</p>
-        </div>
-      )}
-
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
-        {CAT_ORDER.map(c => {
-          const m = day.by_category[c] || 0
-          if (!m) return null
-          return (
-            <div key={c} className="flex items-center gap-2 text-xs">
-              <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ background: colorFor(c) }} />
-              <span className="text-gray-500 flex-1 truncate">{c}</span>
-              <span className="font-mono tabular-nums">{fmtH(m)}</span>
-            </div>
-          )
-        })}
-      </div>
-
-      <div className="border-t border-[var(--line)] pt-3">
-        <div className="flex items-baseline justify-between mb-1">
-          <div className="text-[11px] uppercase tracking-wider text-gray-500">Note from Sun</div>
-          {!editingNote && <button onClick={() => setEditingNote(true)} className="text-xs text-gray-500 hover:text-gray-800 underline">{summary?.note ? 'edit' : 'add'}</button>}
-        </div>
-        {editingNote ? (
-          <NoteEditor date={date} initial={summary?.note || ''} onClose={() => setEditingNote(false)} />
-        ) : summary?.note ? (
-          <p className="font-serif text-base leading-snug text-gray-700 whitespace-pre-wrap">"{summary.note}"</p>
-        ) : (
-          <p className="text-xs text-gray-400 italic">no note yet — add a short reflection for this day (max 500 chars).</p>
-        )}
-      </div>
-    </section>
   )
 }
 
