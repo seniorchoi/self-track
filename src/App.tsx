@@ -694,75 +694,151 @@ function ChronoRoute() {
 }
 
 // ── Crons (static snapshot of every background loop in Sun's world) ──
-type CronCadence = 'continuous' | 'daily' | 'weekly'
-type CronProject = 'selftrack' | 'mbtioracle' | 'simple-rizz' | 'personal' | 'system'
-const PROJECT_LABEL: Record<CronProject, string> = {
-  selftrack: 'SelfTrack', mbtioracle: 'MBTI Oracle', 'simple-rizz': 'Simple Rizz',
-  personal: 'Personal', system: 'System',
-}
+type CronProject = 'selftrack' | 'mbtioracle' | 'simple-rizz' | 'personal'
 const PROJECT_COLOR: Record<CronProject, string> = {
-  selftrack: '#1f3b2a', mbtioracle: '#7a5cbf', 'simple-rizz': '#d4a14a',
-  personal: '#4b8b9b', system: '#6b7280',
+  selftrack: '#1f3b2a', mbtioracle: '#7a5cbf', 'simple-rizz': '#d4a14a', personal: '#4b8b9b',
 }
-const CRON_JOBS: Array<{ name: string; when: string; cadence: CronCadence; project: CronProject; what: string }> = [
-  // Continuous / multi-times-per-hour
-  { name: 'capture.ps1 (Windows)',          when: 'every 15 min on the :00/:15/:30/:45', cadence: 'continuous', project: 'selftrack', what: 'Snaps a screenshot of Sun’s primary monitor + one webcam frame and drops them on disk. The raw fuel everything else runs on.' },
-  { name: 'watcher.ps1 (Windows)',          when: 'continuously, polling every 5 s',     cadence: 'continuous', project: 'selftrack', what: 'Watches for a posture-alert file; when one appears, shows a bottom-right toast on Sun’s screen and plays alert.mp3.' },
-  { name: 'selftrack-posture',              when: 'every 15 min (:03 / :18 / :33 / :48)', cadence: 'continuous', project: 'selftrack', what: 'Looks at the latest webcam frame and decides if Sun is slouching or leaning. If yes, triggers the desktop toast + alert sound.' },
-  { name: 'selftrack-analyze-hourly',       when: 'every hour at :55',                   cadence: 'continuous', project: 'selftrack', what: 'Labels the past hour of captures (what was Sun doing?), writes one row per 15-min slot into the Google Sheet, fills in sleep gaps, applies any manual backfills.' },
-  { name: 'selftrack-dashboard-refresh-hourly', when: 'every hour on the :00',           cadence: 'continuous', project: 'selftrack', what: 'Rebuilds this dashboard’s data file from the Sheet and pushes it to the site, so what you see here stays current.' },
-
-  // Daily
-  { name: 'simple-rizz-idea-9am',           when: 'daily at 9:03 am',                    cadence: 'daily',      project: 'simple-rizz', what: 'Generates one fresh TikTok video idea for Simple Rizz, logs it to the pipeline sheet, refreshes Apify view/like stats on past posts, and Telegrams the idea to Sun.' },
-  { name: 'mbtioracle-content-daily',       when: 'daily at 12:00 pm',                   cadence: 'daily',      project: 'mbtioracle',  what: 'Produces a full Instagram slideshow Reel for MBTI Oracle (script, slides, video, audio) and auto-schedules it to IG via Publora every other day.' },
-  { name: 'mbtioracle-exec-1pm',            when: 'daily at 1:03 pm',                    cadence: 'daily',      project: 'mbtioracle',  what: 'Ships one new growth experiment for the MBTI Oracle site — code change, pricing tweak, content move — then commits and deploys.' },
-  { name: 'mbtioracle-report-9pm',          when: 'daily at 8:07 pm',                    cadence: 'daily',      project: 'mbtioracle',  what: 'Evening MBTI Oracle report: pulls visitors, revenue (Stripe + Lemon Squeezy), reconciles experiments, fires the email drip, then Telegrams Sun a summary + tomorrow’s plan.' },
-  { name: 'simple-rizz-idea-8pm',           when: 'daily at 8:07 pm',                    cadence: 'daily',      project: 'simple-rizz', what: 'Evening Simple Rizz drop: a second TikTok idea for the day (different angle from the morning one), logged + Telegrammed.' },
-  { name: 'selftrack-x-daily-23',           when: 'daily at 11:00 pm',                   cadence: 'daily',      project: 'selftrack',   what: 'Posts a tweet from @sun_choi8 linking to today’s public Life-of-Sun timeline page.' },
-  { name: 'selftrack-roi-daily',            when: 'daily at 11:30 pm',                   cadence: 'daily',      project: 'selftrack',   what: 'Appends today’s ROI row — joins how Sun spent the hours against revenue, commits, and TikTok views — so the time ↔ money picture is visible.' },
-
-  // Weekly
-  { name: 'mbtioracle-strategy-weekly',     when: 'Sundays at 9:30 pm',                  cadence: 'weekly',     project: 'mbtioracle',  what: 'Sunday zoom-out: scores active bets, scans Reddit + the web for MBTI-adjacent trends, queues 3–5 big-bet experiments for the week, sends Sun a strategy brief.' },
-  { name: 'Thursday Movie Night',           when: 'Thursdays at 8:00 pm',                cadence: 'weekly',     project: 'personal',    what: 'Picks a movie or show matching Sun’s taste (RT >80%, sci-fi/prestige, no Korean cinema) and downloads it. ⚠️ Note: the last few runs failed with a CLI timeout — worth a look.' },
+// Per-row layout: minutes-since-midnight for the day-rail, short title, optional weekday.
+type CronRow = { hhmm?: string; mins?: number; weekday?: 'Mon' | 'Tue' | 'Wed' | 'Thu' | 'Fri' | 'Sat' | 'Sun'; project: CronProject; title: string; sub: string; warn?: string }
+const CONTINUOUS_ROWS: CronRow[] = [
+  { project: 'selftrack', title: 'Capture',          sub: 'screenshot + webcam every 15 min' },
+  { project: 'selftrack', title: 'Posture check',    sub: 'webcam verdict every 15 min — toast + sound if slouching' },
+  { project: 'selftrack', title: 'Watcher',          sub: 'always-on listener for posture alerts' },
+  { project: 'selftrack', title: 'Analyze captures', sub: 'every hour at :55 — labels the last hour into the Sheet' },
+  { project: 'selftrack', title: 'Dashboard refresh',sub: 'every hour at :00 — pushes the latest data to this site' },
 ]
+function toMins(hhmm: string) { const [h, m] = hhmm.split(':').map(Number); return h * 60 + m }
+const DAILY_ROWS: CronRow[] = [
+  { hhmm: '09:03', project: 'simple-rizz', title: 'Simple Rizz · morning idea', sub: 'fresh TikTok hook + Apify refresh + Telegram' },
+  { hhmm: '12:00', project: 'mbtioracle',  title: 'MBTI Oracle · content drop', sub: 'IG slideshow Reel built + scheduled via Publora' },
+  { hhmm: '13:03', project: 'mbtioracle',  title: 'MBTI Oracle · exec experiment', sub: 'ships one growth experiment, commits + deploys' },
+  { hhmm: '20:07', project: 'mbtioracle',  title: 'MBTI Oracle · evening report',  sub: 'metrics + revenue + drip + Telegram summary' },
+  { hhmm: '20:07', project: 'simple-rizz', title: 'Simple Rizz · evening idea',    sub: 'second TikTok angle for the day' },
+  { hhmm: '23:00', project: 'selftrack',   title: 'SelfTrack · X post',            sub: 'tweets the day’s timeline link from @sun_choi8' },
+  { hhmm: '23:30', project: 'selftrack',   title: 'SelfTrack · ROI roll-up',       sub: 'joins today’s hours ↔ revenue ↔ commits ↔ views' },
+].map(r => ({ ...r, mins: toMins(r.hhmm) }))
+const WEEKLY_ROWS: CronRow[] = [
+  { weekday: 'Thu', hhmm: '20:00', project: 'personal',   title: 'Movie night',                sub: 'auto-picks + downloads a movie (RT >80%, sci-fi/prestige)', warn: 'last 3 runs failed — CLI timeout' },
+  { weekday: 'Sun', hhmm: '21:30', project: 'mbtioracle', title: 'MBTI Oracle · weekly strategy', sub: 'reviews bets, scans trends, queues next week’s experiments' },
+]
+const fmt12 = (hhmm: string) => {
+  const [h, m] = hhmm.split(':').map(Number)
+  const period = h >= 12 ? 'PM' : 'AM'; const h12 = (h % 12) || 12
+  return `${h12}:${String(m).padStart(2, '0')} ${period}`
+}
 
 function CronsRoute() {
-  const groups: { title: string; subtitle: string; rows: typeof CRON_JOBS }[] = [
-    { title: 'Continuous',  subtitle: 'fires multiple times per hour, all day',  rows: CRON_JOBS.filter(j => j.cadence === 'continuous') },
-    { title: 'Daily',       subtitle: 'fires once per day',                       rows: CRON_JOBS.filter(j => j.cadence === 'daily') },
-    { title: 'Weekly',      subtitle: 'fires once per week',                      rows: CRON_JOBS.filter(j => j.cadence === 'weekly') },
-  ]
   return (
     <Shell>
-      <section className="bg-white border border-[var(--line)] rounded-xl p-4 sm:p-6">
-        <h2 className="font-serif text-xl mb-1">Background loops running for Sun</h2>
-        <p className="text-xs text-gray-500 mb-5">A simple visual of every cron/automation currently humming in the background. All times Asia/Seoul (KST). Static snapshot — updates when the site is redeployed.</p>
-        <div className="space-y-6">
-          {groups.map(g => (
-            <div key={g.title}>
-              <div className="flex items-baseline gap-2 mb-2 border-b border-[var(--line)] pb-1">
-                <h3 className="font-serif text-lg">{g.title}</h3>
-                <span className="text-xs text-gray-500">{g.subtitle}</span>
-                <span className="ml-auto text-xs text-gray-400 tabular-nums">{g.rows.length}</span>
-              </div>
-              <ol className="space-y-3">
-                {g.rows.map(j => (
-                  <li key={j.name} className="border border-[var(--line)] rounded-lg p-3 sm:p-4 bg-[var(--bg)]">
-                    <div className="flex items-start gap-2 flex-wrap mb-1">
-                      <span className="text-[10px] uppercase tracking-wide px-1.5 py-0.5 rounded text-white" style={{ background: PROJECT_COLOR[j.project] }}>{PROJECT_LABEL[j.project]}</span>
-                      <span className="font-mono text-sm font-semibold leading-tight">{j.name}</span>
-                    </div>
-                    <div className="text-xs text-gray-500 font-mono">{j.when}</div>
-                    <div className="text-sm text-gray-700 mt-2">{j.what}</div>
-                  </li>
-                ))}
-              </ol>
-            </div>
-          ))}
+      <section className="bg-white border border-[var(--line)] rounded-xl p-4 sm:p-6 space-y-7">
+        <header>
+          <h2 className="font-serif text-xl mb-1">What’s running for Sun</h2>
+          <p className="text-xs text-gray-500">Every background loop, at a glance. All times KST.</p>
+        </header>
+
+        {/* 24-HOUR RAIL */}
+        <div>
+          <div className="text-[11px] uppercase tracking-wider text-gray-500 mb-2">Today, hour by hour</div>
+          <DayRail rows={DAILY_ROWS} />
         </div>
-        <p className="text-[11px] text-gray-400 mt-6">Source of truth: OpenClaw cron registry + Sun’s local Windows PowerShell loops. This card is hand-curated — if a job is added/removed in OpenClaw, this page won’t auto-update.</p>
+
+        {/* ALWAYS ON */}
+        <div>
+          <div className="text-[11px] uppercase tracking-wider text-gray-500 mb-2">Always on</div>
+          <ul className="divide-y divide-[var(--line)] border-y border-[var(--line)]">
+            {CONTINUOUS_ROWS.map(r => <CronLine key={r.title} row={r} timeLabel="continuous" />)}
+          </ul>
+        </div>
+
+        {/* DAILY LIST */}
+        <div>
+          <div className="text-[11px] uppercase tracking-wider text-gray-500 mb-2">Once per day</div>
+          <ul className="divide-y divide-[var(--line)] border-y border-[var(--line)]">
+            {DAILY_ROWS.slice().sort((a, b) => (a.mins! - b.mins!)).map(r => (
+              <CronLine key={r.title + r.hhmm} row={r} timeLabel={fmt12(r.hhmm!)} />
+            ))}
+          </ul>
+        </div>
+
+        {/* WEEKLY LIST */}
+        <div>
+          <div className="text-[11px] uppercase tracking-wider text-gray-500 mb-2">Once per week</div>
+          <ul className="divide-y divide-[var(--line)] border-y border-[var(--line)]">
+            {WEEKLY_ROWS.map(r => <CronLine key={r.title} row={r} timeLabel={`${r.weekday} ${fmt12(r.hhmm!)}`} />)}
+          </ul>
+        </div>
+
+        <p className="text-[11px] text-gray-400">Static snapshot — re-curated whenever a cron is added or removed. Project tags: <span className="inline-flex items-center gap-1"><span className="inline-block w-2 h-2 rounded-full" style={{ background: PROJECT_COLOR.selftrack }} />SelfTrack</span> · <span className="inline-flex items-center gap-1"><span className="inline-block w-2 h-2 rounded-full" style={{ background: PROJECT_COLOR.mbtioracle }} />MBTI Oracle</span> · <span className="inline-flex items-center gap-1"><span className="inline-block w-2 h-2 rounded-full" style={{ background: PROJECT_COLOR['simple-rizz'] }} />Simple Rizz</span> · <span className="inline-flex items-center gap-1"><span className="inline-block w-2 h-2 rounded-full" style={{ background: PROJECT_COLOR.personal }} />Personal</span></p>
       </section>
     </Shell>
+  )
+}
+
+function CronLine({ row, timeLabel }: { row: CronRow; timeLabel: string }) {
+  return (
+    <li className="py-2 flex items-start gap-3">
+      <span className="mt-1.5 inline-block w-2 h-2 rounded-full flex-shrink-0" style={{ background: PROJECT_COLOR[row.project] }} />
+      <div className="w-24 sm:w-32 flex-shrink-0 text-xs sm:text-sm text-gray-500 font-mono tabular-nums pt-0.5">{timeLabel}</div>
+      <div className="flex-1 min-w-0">
+        <div className="text-sm font-medium leading-tight">{row.title}</div>
+        <div className="text-xs text-gray-500 mt-0.5">{row.sub}</div>
+        {row.warn && <div className="text-xs text-amber-700 mt-0.5">⚠ {row.warn}</div>}
+      </div>
+    </li>
+  )
+}
+
+function DayRail({ rows }: { rows: CronRow[] }) {
+  // SVG: 720 wide × variable tall. Hours 0-24 mapped to x=40..680.
+  const W = 720, X0 = 40, X1 = 680
+  const xFor = (m: number) => X0 + (m / 1440) * (X1 - X0)
+
+  // Cluster rows that are within 30 px so labels don't overlap. Each cluster shows the time + a stacked label list.
+  const sorted = rows.slice().sort((a, b) => a.mins! - b.mins!)
+  const clusters: { x: number; rows: CronRow[] }[] = []
+  for (const r of sorted) {
+    const x = xFor(r.mins!)
+    const last = clusters[clusters.length - 1]
+    if (last && Math.abs(x - last.x) < 30) last.rows.push(r)
+    else clusters.push({ x, rows: [r] })
+  }
+  const labelH = 14
+  const maxStack = Math.max(1, ...clusters.map(c => c.rows.length))
+  const H = 70 + maxStack * labelH
+
+  return (
+    <div className="overflow-x-auto -mx-1 px-1">
+      <svg viewBox={`0 0 ${W} ${H}`} className="w-full min-w-[640px] max-w-full h-auto">
+        {/* base line */}
+        <line x1={X0} y1={36} x2={X1} y2={36} stroke="#cbc6b6" strokeWidth={1} />
+        {/* hour ticks */}
+        {Array.from({ length: 25 }, (_, h) => {
+          const x = xFor(h * 60)
+          const major = h % 3 === 0
+          return (
+            <g key={h}>
+              <line x1={x} y1={36} x2={x} y2={major ? 28 : 32} stroke="#9ca3af" strokeWidth={1} />
+              {major && <text x={x} y={20} textAnchor="middle" style={{ fontSize: 11, fill: '#6b7280' }}>{h === 24 ? '24' : String(h).padStart(2, '0')}</text>}
+            </g>
+          )
+        })}
+        {/* cluster dots + stacked labels */}
+        {clusters.map((c, i) => (
+          <g key={i}>
+            <line x1={c.x} y1={36} x2={c.x} y2={50} stroke="#0d0d0d" strokeWidth={1.5} />
+            {/* time label */}
+            <text x={c.x} y={64} textAnchor="middle" className="font-mono" style={{ fontSize: 11, fill: '#0d0d0d' }}>{fmt12(c.rows[0].hhmm!)}</text>
+            {/* stacked event labels */}
+            {c.rows.map((r, k) => (
+              <g key={k}>
+                <circle cx={c.x - 60} cy={78 + k * labelH} r={3.5} fill={PROJECT_COLOR[r.project]} />
+                <text x={c.x - 52} y={82 + k * labelH} style={{ fontSize: 11, fill: '#374151' }}>{r.title}</text>
+              </g>
+            ))}
+          </g>
+        ))}
+      </svg>
+    </div>
   )
 }
 
