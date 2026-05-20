@@ -1,155 +1,14 @@
 {
-  "generatedAt": "2026-05-20T16:44:24+09:00",
+  "generatedAt": "2026-05-20T17:29:00+09:00",
   "days": [
     {
-      "date": "2026-05-19",
-      "tracked_min": 870,
-      "by_category": {
-        "Communications": 60,
-        "Productivity": 450,
-        "Leisure": 270,
-        "Admin/Errands": 30,
-        "AFK/Idle": 60
-      },
-      "by_project": {
-        "personal admin": 150,
-        "MBTI Oracle dev": 90,
-        "leisure": 270,
-        "QRizz marketing": 120,
-        "QRizz dev": 120,
-        "SelfTrack build": 120
-      },
-      "blocks": [
-        {
-          "start": "09:30",
-          "end": "10:30",
-          "min": 60,
-          "category": "Communications",
-          "activity": "Telegram morning catch-up + Discord pings",
-          "project": "personal admin",
-          "screen_summary": "Telegram desktop with several DMs open; Discord in background.",
-          "webcam": "present",
-          "image": "https://i.imgur.com/JBOw9MI.jpeg",
-          "notes": "[dummy]"
-        },
-        {
-          "start": "10:30",
-          "end": "12:00",
-          "min": 90,
-          "category": "Productivity",
-          "activity": "MBTI Oracle dev — fixing share-card button",
-          "project": "MBTI Oracle dev",
-          "screen_summary": "VSCode showing guesser.html + _guesser_result.html; terminal running gunicorn.",
-          "webcam": "present",
-          "image": "https://i.imgur.com/GmvK68H.jpeg",
-          "notes": "[dummy]"
-        },
-        {
-          "start": "12:00",
-          "end": "13:00",
-          "min": 60,
-          "category": "Leisure",
-          "activity": "lunch + YouTube videos",
-          "project": "leisure",
-          "screen_summary": "YouTube watching tech commentary; eating at desk.",
-          "webcam": "present",
-          "image": "https://i.imgur.com/JBOw9MI.jpeg",
-          "notes": "[dummy]"
-        },
-        {
-          "start": "13:00",
-          "end": "15:00",
-          "min": 120,
-          "category": "Productivity",
-          "activity": "QRizz marketing — TikTok content plan",
-          "project": "QRizz marketing",
-          "screen_summary": "Notion doc with content calendar; TikTok analytics open in second tab.",
-          "webcam": "present",
-          "image": "https://i.imgur.com/GmvK68H.jpeg",
-          "notes": "[dummy]"
-        },
-        {
-          "start": "15:00",
-          "end": "15:30",
-          "min": 30,
-          "category": "Admin/Errands",
-          "activity": "banking + paying bills",
-          "project": "personal admin",
-          "screen_summary": "Bank web portal; receipts in another tab.",
-          "webcam": "present",
-          "image": "🔒 sensitive (image withheld)",
-          "notes": "[dummy] withheld: banking pages visible"
-        },
-        {
-          "start": "15:30",
-          "end": "17:30",
-          "min": 120,
-          "category": "Productivity",
-          "activity": "QRizz dev — backend work",
-          "project": "QRizz dev",
-          "screen_summary": "VSCode with FastAPI app; logs streaming in terminal.",
-          "webcam": "present",
-          "image": "https://i.imgur.com/GmvK68H.jpeg",
-          "notes": "[dummy]"
-        },
-        {
-          "start": "17:30",
-          "end": "18:30",
-          "min": 60,
-          "category": "Leisure",
-          "activity": "browsing Reddit r/mbti",
-          "project": "leisure",
-          "screen_summary": "Reddit front page on r/mbti; multiple threads open.",
-          "webcam": "present",
-          "image": "https://i.imgur.com/JBOw9MI.jpeg",
-          "notes": "[dummy]"
-        },
-        {
-          "start": "18:30",
-          "end": "19:30",
-          "min": 60,
-          "category": "AFK/Idle",
-          "activity": "workout + dinner",
-          "project": "personal admin",
-          "screen_summary": "Empty desk; screen locked.",
-          "webcam": "away",
-          "image": "https://i.imgur.com/JBOw9MI.jpeg",
-          "notes": "[dummy]"
-        },
-        {
-          "start": "19:30",
-          "end": "22:00",
-          "min": 150,
-          "category": "Leisure",
-          "activity": "watching The Boys S4",
-          "project": "leisure",
-          "screen_summary": "Amazon Prime Video full-screen, The Boys episode.",
-          "webcam": "present",
-          "image": "https://i.imgur.com/JBOw9MI.jpeg",
-          "notes": "[dummy]"
-        },
-        {
-          "start": "22:00",
-          "end": "00:00",
-          "min": 120,
-          "category": "Productivity",
-          "activity": "SelfTrack build — capture script",
-          "project": "SelfTrack build",
-          "screen_summary": "PowerShell ISE + ffmpeg docs + Sheets in browser.",
-          "webcam": "present",
-          "image": "https://i.imgur.com/GmvK68H.jpeg",
-          "notes": "[dummy]"
-        }
-      ]
-    },
-    {
       "date": "2026-05-20",
-      "tracked_min": 30,
+      "tracked_min": 90,
       "by_category": {
-        "Productivity": 30
+        "Productivity": 90
       },
       "by_project": {
-        "SelfTrack build": 30
+        "SelfTrack build": 90
       },
       "blocks": [
         {
@@ -162,18 +21,20 @@
           "screen_summary": "Pixabay free sound effects page showing computer mouse click sounds for download.",
           "webcam": "present",
           "image": "https://i.imgur.com/JBOw9MI.jpeg",
+          "sensitive": false,
           "notes": "open block"
         },
         {
           "start": "16:15",
-          "end": "16:30",
-          "min": 15,
+          "end": "17:30",
+          "min": 75,
           "category": "Productivity",
           "activity": "working on SelfTrack",
           "project": "SelfTrack build",
           "screen_summary": "OpenClaw chat thread discussing SelfTrack capture loop, watcher fixes, and posture-alert behavior.",
           "webcam": "away",
           "image": "https://i.imgur.com/GmvK68H.jpeg",
+          "sensitive": false,
           "notes": "open block"
         }
       ]
