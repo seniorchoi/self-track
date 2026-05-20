@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-05-20T17:29:00+09:00",
+  "generatedAt": "2026-05-20T17:43:00+09:00",
   "days": [
     {
       "date": "2026-05-20",
-      "tracked_min": 90,
+      "tracked_min": 105,
       "by_category": {
-        "Productivity": 90
+        "Productivity": 105
       },
       "by_project": {
-        "SelfTrack build": 90
+        "SelfTrack build": 105
       },
       "blocks": [
         {
@@ -20,22 +20,31 @@
           "project": "SelfTrack build",
           "screen_summary": "Pixabay free sound effects page showing computer mouse click sounds for download.",
           "webcam": "present",
-          "image": "https://i.imgur.com/JBOw9MI.jpeg",
+          "images": ["https://i.imgur.com/3y7nVn1.jpeg"],
+          "sensitive_count": 0,
           "sensitive": false,
-          "notes": "open block"
+          "notes": ""
         },
         {
           "start": "16:15",
-          "end": "17:30",
-          "min": 75,
+          "end": "17:45",
+          "min": 90,
           "category": "Productivity",
           "activity": "working on SelfTrack",
           "project": "SelfTrack build",
           "screen_summary": "OpenClaw chat thread discussing SelfTrack capture loop, watcher fixes, and posture-alert behavior.",
-          "webcam": "away",
-          "image": "https://i.imgur.com/GmvK68H.jpeg",
+          "webcam": "present",
+          "images": [
+            "https://i.imgur.com/Ob4YaSP.jpeg",
+            "https://i.imgur.com/8li81FN.jpeg",
+            "https://i.imgur.com/5lJGXFb.jpeg",
+            "https://i.imgur.com/ybibpDA.jpeg",
+            "https://i.imgur.com/7n2HTd8.jpeg",
+            "https://i.imgur.com/yx8tkDu.jpeg"
+          ],
+          "sensitive_count": 0,
           "sensitive": false,
-          "notes": "open block"
+          "notes": ""
         }
       ]
     }
