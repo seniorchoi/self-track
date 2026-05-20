@@ -323,7 +323,7 @@ function Shell({ children }: { children: React.ReactNode }) {
       <header className="border-b border-[var(--line)] px-6 py-5">
         <div className="max-w-5xl mx-auto flex items-baseline justify-between">
           <div>
-            <Link to="/" className="font-serif text-3xl hover:no-underline">SelfTrack</Link>
+            <Link to="/" className="font-serif text-3xl hover:no-underline">Life of Choi</Link>
             <p className="text-xs text-gray-500 mt-1">Generated {snap.generatedAt ? new Date(snap.generatedAt).toLocaleString() : '—'}</p>
           </div>
           <nav className="flex gap-1 text-sm">
