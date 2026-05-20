@@ -14,12 +14,19 @@ type Block = {
   sensitive_count?: number
   notes?: string
 }
+type DailySummary = {
+  top_activities?: string
+  takeaway?: string
+  first_last?: string
+  note?: string
+}
 type Day = {
   date: string
   tracked_min: number
   by_category: Record<string, number>
   by_project:  Record<string, number>
   blocks: Block[]
+  dailySummary?: DailySummary | null
 }
 type Snapshot = { generatedAt: string; days: Day[] }
 
@@ -684,12 +691,113 @@ function ChronoRoute() {
     <Shell>
       <DateNav date={iso} baseTo={d => `/chrono/${d}`} />
       {day ? (
-        <section className="bg-white border border-[var(--line)] rounded-xl p-4 sm:p-6">
-          <h2 className="font-serif text-xl mb-4">Chronological clock — {iso}</h2>
-          <ChronoClock day={day} />
-        </section>
+        <>
+          <section className="bg-white border border-[var(--line)] rounded-xl p-4 sm:p-6">
+            <h2 className="font-serif text-xl mb-4">Chronological clock — {iso}</h2>
+            <ChronoClock day={day} />
+          </section>
+          <DailySummaryPanel date={iso} summary={day.dailySummary} day={day} />
+        </>
       ) : <p className="text-gray-500">No data for {iso}.</p>}
     </Shell>
+  )
+}
+
+function DailySummaryPanel({ date, summary, day }: { date: string; summary?: DailySummary | null; day: Day }) {
+  const [editingNote, setEditingNote] = useState(false)
+  const isToday = date === new Date().toISOString().slice(0, 10)
+  return (
+    <section className="bg-white border border-[var(--line)] rounded-xl p-4 sm:p-6 space-y-4">
+      <div className="flex items-baseline justify-between flex-wrap gap-2">
+        <h2 className="font-serif text-xl">Day summary — {date}</h2>
+        {!summary && <span className="text-xs text-gray-500 italic">{isToday ? 'Generated at end of day (≥23:00 KST)' : 'No summary on file for this day yet'}</span>}
+      </div>
+
+      {summary?.takeaway && (
+        <div>
+          <div className="text-[11px] uppercase tracking-wider text-gray-500 mb-1">AI takeaway</div>
+          <p className="font-serif text-base leading-snug">{summary.takeaway}</p>
+        </div>
+      )}
+
+      {summary?.top_activities && (
+        <div>
+          <div className="text-[11px] uppercase tracking-wider text-gray-500 mb-1">Top 3 activities</div>
+          <p className="text-sm text-gray-700">{summary.top_activities}</p>
+        </div>
+      )}
+
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+        {CAT_ORDER.map(c => {
+          const m = day.by_category[c] || 0
+          if (!m) return null
+          return (
+            <div key={c} className="flex items-center gap-2 text-xs">
+              <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ background: colorFor(c) }} />
+              <span className="text-gray-500 flex-1 truncate">{c}</span>
+              <span className="font-mono tabular-nums">{fmtH(m)}</span>
+            </div>
+          )
+        })}
+      </div>
+
+      <div className="border-t border-[var(--line)] pt-3">
+        <div className="flex items-baseline justify-between mb-1">
+          <div className="text-[11px] uppercase tracking-wider text-gray-500">Note from Sun</div>
+          {!editingNote && <button onClick={() => setEditingNote(true)} className="text-xs text-gray-500 hover:text-gray-800 underline">{summary?.note ? 'edit' : 'add'}</button>}
+        </div>
+        {editingNote ? (
+          <NoteEditor date={date} initial={summary?.note || ''} onClose={() => setEditingNote(false)} />
+        ) : summary?.note ? (
+          <p className="font-serif text-base leading-snug text-gray-700 whitespace-pre-wrap">"{summary.note}"</p>
+        ) : (
+          <p className="text-xs text-gray-400 italic">no note yet — add a short reflection for this day (max 500 chars).</p>
+        )}
+      </div>
+    </section>
+  )
+}
+
+function NoteEditor({ date, initial, onClose }: { date: string; initial: string; onClose: () => void }) {
+  const [note, setNote] = useState(initial)
+  const [pin, setPin] = useState('')
+  const [status, setStatus] = useState<'idle' | 'sending' | 'ok' | 'err'>('idle')
+  const [err, setErr] = useState('')
+
+  async function save(e: React.FormEvent) {
+    e.preventDefault()
+    setStatus('sending'); setErr('')
+    try {
+      const r = await fetch('https://www.mbtioracle.com/selftrack/note', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ pin, date, note }),
+      })
+      const j = await r.json().catch(() => ({}))
+      if (!r.ok) { setErr(j.error || 'request failed'); setStatus('err'); return }
+      setStatus('ok')
+      setTimeout(onClose, 900)
+    } catch (e: any) { setErr(e.message || 'network error'); setStatus('err') }
+  }
+
+  return (
+    <form onSubmit={save} className="space-y-2">
+      <textarea value={note} onChange={e => setNote(e.target.value.slice(0, 500))} rows={3}
+        placeholder="A short thought, win, or honest reflection for the day…"
+        className="w-full border border-[var(--line)] rounded px-2 py-2 text-sm leading-snug font-serif" />
+      <div className="flex items-center gap-2 flex-wrap">
+        <input type="password" inputMode="numeric" pattern="[0-9]{4}" value={pin} onChange={e => setPin(e.target.value)} required maxLength={4}
+          placeholder="4-digit PIN"
+          className="w-28 border border-[var(--line)] rounded px-2 py-1 text-sm tracking-widest" />
+        <span className="text-[11px] text-gray-400 tabular-nums">{note.length}/500</span>
+        <span className="flex-1" />
+        <button type="button" onClick={onClose} className="px-3 py-1 text-xs border border-[var(--line)] rounded">Cancel</button>
+        <button type="submit" disabled={status === 'sending' || !note.trim() || pin.length !== 4} className="px-3 py-1 text-xs rounded bg-[var(--ink)] text-white disabled:opacity-40">
+          {status === 'sending' ? 'Saving…' : 'Save'}
+        </button>
+      </div>
+      {status === 'ok' && <div className="text-xs text-green-700">Queued. Will appear at the next :55 cron.</div>}
+      {status === 'err' && <div className="text-xs text-red-700">{err}</div>}
+    </form>
   )
 }
 
