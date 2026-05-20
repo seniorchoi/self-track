@@ -260,7 +260,21 @@ function ChronoClock({ day, summary }: { day: Day; summary?: DailySummary | null
               {active.project && active.project !== '(unclassified)' && (
                 <><span className="text-xs text-gray-400">·</span><span className="text-xs font-semibold">{active.project}</span></>
               )}
-              {pinned && <button onClick={() => setPinned(null)} className="ml-auto text-xs text-gray-400 hover:text-gray-600">unpin</button>}
+              {pinned && (() => {
+                const sorted = day.blocks.slice().sort((a, b) => toMin(a.start) - toMin(b.start))
+                const idx = sorted.indexOf(pinned)
+                const prev = idx > 0 ? sorted[idx - 1] : null
+                const next = idx >= 0 && idx < sorted.length - 1 ? sorted[idx + 1] : null
+                return (
+                  <span className="ml-auto inline-flex items-center gap-1">
+                    <button type="button" disabled={!prev} onClick={() => prev && setPinned(prev)} title={prev ? `← ${prev.start} ${prev.activity}` : 'no earlier block'}
+                      className={'w-6 h-6 inline-flex items-center justify-center rounded border border-[var(--line)] ' + (prev ? 'hover:bg-gray-100' : 'opacity-30 cursor-not-allowed')}>◀</button>
+                    <button type="button" disabled={!next} onClick={() => next && setPinned(next)} title={next ? `→ ${next.start} ${next.activity}` : 'no later block'}
+                      className={'w-6 h-6 inline-flex items-center justify-center rounded border border-[var(--line)] ' + (next ? 'hover:bg-gray-100' : 'opacity-30 cursor-not-allowed')}>▶</button>
+                    <button onClick={() => setPinned(null)} className="text-xs text-gray-400 hover:text-gray-600 ml-1">unpin</button>
+                  </span>
+                )
+              })()}
             </div>
             <div className="font-serif text-lg leading-snug">{active.activity}</div>
             {(() => {
@@ -287,12 +301,24 @@ function ChronoClock({ day, summary }: { day: Day; summary?: DailySummary | null
 
 function ClockSideSummary({ date, summary }: { date: string; summary?: DailySummary | null }) {
   const [editingNote, setEditingNote] = useState(false)
+  // Split takeaway into bullets — supports lines starting with '• ', '- ', or '* ', or just newline-separated.
+  const bullets = (summary?.takeaway || '')
+    .split(/\r?\n/)
+    .map(l => l.replace(/^\s*[•\-*]\s*/, '').trim())
+    .filter(Boolean)
   return (
     <div className="border-t border-[var(--line)] pt-4 space-y-3">
       <div>
         <div className="text-[11px] uppercase tracking-wider text-gray-500 mb-1">AI takeaway</div>
-        {summary?.takeaway ? (
-          <p className="font-serif text-base leading-snug">{summary.takeaway}</p>
+        {bullets.length ? (
+          <ul className="space-y-1.5">
+            {bullets.map((b, i) => (
+              <li key={i} className="flex gap-2 text-sm leading-snug">
+                <span className="text-gray-400 select-none">•</span>
+                <span className="font-serif">{b}</span>
+              </li>
+            ))}
+          </ul>
         ) : (
           <p className="text-xs text-gray-400 italic">Generated at end of day (≥23:00 KST).</p>
         )}
