@@ -193,9 +193,9 @@ function ChronoClock({ day }: { day: Day }) {
   }
 
   return (
-    <div className="flex flex-col lg:flex-row gap-6 items-start">
+    <div className="flex flex-col gap-4 items-stretch">
       <div className="relative">
-        <svg viewBox="0 0 360 360" className="w-full max-w-[360px] h-auto">
+        <svg viewBox="0 0 360 360" className="w-full max-w-[360px] h-auto mx-auto">
           {/* faint background ring */}
           <circle cx={cx} cy={cy} r={rOuter} fill="#ece8db" />
           <circle cx={cx} cy={cy} r={rInner} fill="#faf9f6" />
@@ -691,13 +691,13 @@ function ChronoRoute() {
     <Shell>
       <DateNav date={iso} baseTo={d => `/chrono/${d}`} />
       {day ? (
-        <>
-          <section className="bg-white border border-[var(--line)] rounded-xl p-4 sm:p-6">
-            <h2 className="font-serif text-xl mb-4">Chronological clock — {iso}</h2>
-            <ChronoClock day={day} />
-          </section>
-          <DailySummaryPanel date={iso} summary={day.dailySummary} day={day} />
-        </>
+        <section className="bg-white border border-[var(--line)] rounded-xl p-4 sm:p-6">
+          <h2 className="font-serif text-xl mb-4">Chronological clock — {iso}</h2>
+          <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,400px)_1fr] gap-6 items-start">
+            <div><ChronoClock day={day} /></div>
+            <DailySummaryPanel date={iso} summary={day.dailySummary} day={day} />
+          </div>
+        </section>
       ) : <p className="text-gray-500">No data for {iso}.</p>}
     </Shell>
   )
