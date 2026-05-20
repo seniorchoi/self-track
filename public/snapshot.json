@@ -1,17 +1,21 @@
 {
-  "generatedAt": "2026-05-20T23:18:39.883+09:00",
+  "generatedAt": "2026-05-21T18:01:50+09:00",
   "days": [
     {
       "date": "2026-05-20",
-      "tracked_min": 435,
+      "tracked_min": 480,
       "by_category": {
-        "Productivity": 225,
-        "Leisure": 135,
+        "Productivity": 255,
+        "Communications": 0,
+        "Meetings": 0,
+        "Leisure": 150,
+        "Learning": 30,
+        "Admin/Errands": 0,
         "AFK/Idle": 45,
-        "Learning": 30
+        "Other": 0
       },
       "by_project": {
-        "SelfTrack build": 210,
+        "SelfTrack build": 255,
         "leisure": 150,
         "MBTI Oracle": 15,
         "learning": 30,
@@ -26,7 +30,6 @@
           "activity": "browsing Pixabay sound effects",
           "project": "SelfTrack build",
           "screen_summary": "Pixabay free sound effects page showing computer mouse click sounds for download.",
-          "webcam": "present",
           "captures": [
             {
               "start": "15:58",
@@ -39,8 +42,9 @@
             "https://i.imgur.com/3y7nVn1.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "present",
+          "sensitive": false
         },
         {
           "start": "16:15",
@@ -50,7 +54,6 @@
           "activity": "working on SelfTrack",
           "project": "SelfTrack build",
           "screen_summary": "OpenClaw chat thread discussing SelfTrack capture loop, watcher fixes, and posture-alert behavior.",
-          "webcam": "present",
           "captures": [
             {
               "start": "16:15",
@@ -98,8 +101,9 @@
             "https://i.imgur.com/yx8tkDu.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "present",
+          "sensitive": false
         },
         {
           "start": "17:45",
@@ -109,7 +113,6 @@
           "activity": "browsing X (Twitter)",
           "project": "leisure",
           "screen_summary": "X (Twitter) For You feed with a watch video post and trending sidebar.",
-          "webcam": "present",
           "captures": [
             {
               "start": "17:45",
@@ -122,8 +125,9 @@
             "https://i.imgur.com/mRZY38S.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "present",
+          "sensitive": false
         },
         {
           "start": "18:00",
@@ -133,7 +137,6 @@
           "activity": "working on SelfTrack",
           "project": "SelfTrack build",
           "screen_summary": "OpenClaw chat discussing SelfTrack dashboard sheet/dummy-row updates and image cell formatting.",
-          "webcam": "present",
           "captures": [
             {
               "start": "18:00",
@@ -188,8 +191,9 @@
             "https://i.imgur.com/FcFb9TO.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "present",
+          "sensitive": false
         },
         {
           "start": "19:45",
@@ -199,7 +203,6 @@
           "activity": "playing a fantasy game",
           "project": "leisure",
           "screen_summary": "Fantasy game loading/title screen showing an armored warrior with axe in a snowy landscape under a stormy sky.",
-          "webcam": "present",
           "captures": [
             {
               "start": "19:45",
@@ -212,8 +215,9 @@
             "https://i.imgur.com/VhlG1pl.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "present",
+          "sensitive": false
         },
         {
           "start": "20:00",
@@ -223,7 +227,6 @@
           "activity": "researching games to download",
           "project": "leisure",
           "screen_summary": "OpenClaw chat discussing PC specs and which Total War / strategy games to download to play.",
-          "webcam": "present",
           "captures": [
             {
               "start": "20:00",
@@ -236,8 +239,9 @@
             "https://i.imgur.com/qBPiOWm.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "present",
+          "sensitive": false
         },
         {
           "start": "20:15",
@@ -247,7 +251,6 @@
           "activity": "screen off / loading",
           "project": "leisure",
           "screen_summary": "Black screen — display off or a game loading screen with no rendered content.",
-          "webcam": "away",
           "captures": [
             {
               "start": "20:15",
@@ -260,8 +263,9 @@
             "https://i.imgur.com/91y0skV.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "away",
+          "sensitive": false
         },
         {
           "start": "20:30",
@@ -271,7 +275,6 @@
           "activity": "playing Total War",
           "project": "leisure",
           "screen_summary": "Total War battle tutorial screen with friendly and enemy units lined up on a snowy battlefield.",
-          "webcam": "present",
           "captures": [
             {
               "start": "20:30",
@@ -291,8 +294,9 @@
             "https://i.imgur.com/8qe9W5O.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "present",
+          "sensitive": false
         },
         {
           "start": "21:00",
@@ -302,7 +306,6 @@
           "activity": "watching Korean webtoon on YouTube",
           "project": "leisure",
           "screen_summary": "YouTube short '253. 남자의 착각' (Korean webtoon)",
-          "webcam": "Sun smiling at camera, white backwards cap, in bedroom",
           "captures": [
             {
               "start": "21:00",
@@ -315,8 +318,9 @@
             "https://i.imgur.com/dIrNKBx.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "Sun smiling at camera, white backwards cap, in bedroom",
+          "sensitive": false
         },
         {
           "start": "21:15",
@@ -326,7 +330,6 @@
           "activity": "reviewing OpenClaw chat about MBTI cookie collector + permissions table",
           "project": "MBTI Oracle",
           "screen_summary": "OpenClaw Control chat discussing MBTI Oracle/cookie collector work; permissions table visible",
-          "webcam": "away — empty bedroom view, MacBook on bed",
           "captures": [
             {
               "start": "21:15",
@@ -339,8 +342,9 @@
             "https://i.imgur.com/cNqycZj.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "away — empty bedroom view, MacBook on bed",
+          "sensitive": false
         },
         {
           "start": "21:30",
@@ -350,7 +354,6 @@
           "activity": "watching '$1M+ Solo AI Agent Business' course on YouTube — Offer mindmap",
           "project": "learning",
           "screen_summary": "YouTube video by Greg Isenberg, course mindmap node 'The Offer' with sub-branches",
-          "webcam": "Sun in white cap (backwards), looking down",
           "captures": [
             {
               "start": "21:30",
@@ -363,8 +366,9 @@
             "https://i.imgur.com/4L1dJ8Y.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "Sun in white cap (backwards), looking down",
+          "sensitive": false
         },
         {
           "start": "21:46",
@@ -374,7 +378,6 @@
           "activity": "taking a bath (notepad note left on screen)",
           "project": "personal",
           "screen_summary": "Windows Notepad with single line 'taking a bath'; taskbar clock 9:45 PM",
-          "webcam": "away — empty bed, dark jeans on edge",
           "captures": [
             {
               "start": "21:46",
@@ -394,8 +397,9 @@
             "https://i.imgur.com/JrMjcKz.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "away — empty bed, dark jeans on edge",
+          "sensitive": false
         },
         {
           "start": "22:16",
@@ -405,7 +409,6 @@
           "activity": "watching '$1M+ Solo AI Agent Business' (Greg Isenberg) — startup ideas section",
           "project": "learning",
           "screen_summary": "YouTube video, network graph of startup ideas with sidebar of topics",
-          "webcam": "Sun resting hand on cheek, contemplative",
           "captures": [
             {
               "start": "22:16",
@@ -418,8 +421,9 @@
             "https://i.imgur.com/Yy8ptNt.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "Sun resting hand on cheek, contemplative",
+          "sensitive": false
         },
         {
           "start": "22:31",
@@ -429,7 +433,6 @@
           "activity": "browsing YouTube homepage",
           "project": "leisure",
           "screen_summary": "YouTube home, recommendations including 'Claude Cowork for marketing' and 'Don't Stay in Old Tbilisi'",
-          "webcam": "Sun looking down, beige t-shirt",
           "captures": [
             {
               "start": "22:31",
@@ -442,8 +445,9 @@
             "https://i.imgur.com/L0cO2Zf.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "Sun looking down, beige t-shirt",
+          "sensitive": false
         },
         {
           "start": "22:46",
@@ -453,7 +457,6 @@
           "activity": "scrolling X/Twitter timeline",
           "project": "leisure",
           "screen_summary": "X (Twitter) For You feed; Shay Boloor post about Jeff Bezos wealth in America (CNBC clip)",
-          "webcam": "Sun facing camera, neutral expression",
           "captures": [
             {
               "start": "22:46",
@@ -466,8 +469,9 @@
             "https://i.imgur.com/N62aZLu.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "Sun facing camera, neutral expression",
+          "sensitive": false
         },
         {
           "start": "23:01",
@@ -477,7 +481,6 @@
           "activity": "watching David Shapiro YouTube video",
           "project": "leisure",
           "screen_summary": "YouTube video by David Shapiro 'I'm worried about where things are going' — painting of figures by a river",
-          "webcam": "Sun facing camera, neutral, beige t-shirt",
           "captures": [
             {
               "start": "23:01",
@@ -490,10 +493,55 @@
             "https://i.imgur.com/yaqSrz2.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "Sun facing camera, neutral, beige t-shirt",
+          "sensitive": false
+        },
+        {
+          "start": "23:16",
+          "end": "00:03",
+          "min": 45,
+          "category": "Productivity",
+          "activity": "working on SelfTrack",
+          "project": "SelfTrack build",
+          "screen_summary": "OpenClaw chat thread refining SelfTrack analyze-hourly pipeline (capture/labeling, sheet schema)",
+          "captures": [
+            {
+              "start": "23:16",
+              "image": "https://i.imgur.com/1sTj9hf.jpeg",
+              "summary": "OpenClaw chat thread refining SelfTrack analyze-hourly pipeline (capture/labeling, sheet schema)",
+              "sensitive": false
+            },
+            {
+              "start": "23:33",
+              "image": "https://i.imgur.com/zgh9z84.jpeg",
+              "summary": "Google new tab — likely transitioning between SelfTrack work tabs",
+              "sensitive": false
+            },
+            {
+              "start": "23:48",
+              "image": "https://i.imgur.com/kXaOWE1.jpeg",
+              "summary": "OpenClaw chat planning Daily Summary cron with 'Note from Sun' column + dashboard backfill UI",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/1sTj9hf.jpeg",
+            "https://i.imgur.com/zgh9z84.jpeg",
+            "https://i.imgur.com/kXaOWE1.jpeg"
+          ],
+          "sensitive_count": 0,
+          "notes": "",
+          "webcam": "Sun resting hands on face, contemplative",
+          "sensitive": false
         }
-      ]
+      ],
+      "dailySummary": {
+        "top_activities": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
+        "takeaway": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
+        "first_last": "15:58 / 00:03",
+        "note": ""
+      }
     }
   ]
 }
