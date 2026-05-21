@@ -279,6 +279,10 @@ function ChronoClock({ day, summary }: { day: Day; summary?: DailySummary | null
             <div className="font-serif text-lg leading-snug">{active.activity}</div>
             {(() => {
               const caps = blockCaptures(active)
+              const isSleep = (active.activity || '').toLowerCase() === 'sleeping'
+              const allWithheld = caps.length > 0 && caps.every(c => !isUrl(c.image || undefined))
+              if (isSleep) return <div className="mt-2 text-sm text-gray-500 italic">🛏️ {fmtH(active.min)} — PC was off, no captures</div>
+              if (allWithheld) return <div className="mt-2 text-sm text-gray-500 italic">🔒 {caps.length} capture{caps.length === 1 ? '' : 's'} withheld (sensitive content)</div>
               if (caps.length > 0) return <ImageStrip captures={caps} fallbackSummary={active.screen_summary} />
               if (active.screen_summary) return <div className="text-sm text-gray-600 mt-1">{active.screen_summary}</div>
               if (active.sensitive || active.image?.includes('🔒')) return <div className="mt-3 text-xs text-gray-500 italic">🔒 image withheld (sensitive content)</div>
@@ -487,6 +491,9 @@ function Timeline({ day }: { day: Day }) {
     <ol className="space-y-3">
       {day.blocks.map((b, i) => {
         const caps = blockCaptures(b)
+        const isSleep = (b.activity || '').toLowerCase() === 'sleeping'
+        const allWithheld = caps.length > 0 && caps.every(c => !isUrl(c.image || undefined))
+        const showStrip = caps.length > 0 && !allWithheld
         const fullySensitive = b.sensitive === true || (caps.length === 0 && (b.image?.includes('🔒') ?? false))
         const partialSensitive = !!b.sensitive_count && caps.some(c => isUrl(c.image || undefined))
         return (
@@ -499,16 +506,20 @@ function Timeline({ day }: { day: Day }) {
                 <span className="text-xs text-gray-400">·</span>
                 <span className="text-xs text-gray-500">{fmtH(b.min)}</span>
                 {b.project && b.project !== '(unclassified)' && (<><span className="text-xs text-gray-400">·</span><span className="text-xs font-semibold">{b.project}</span></>)}
-                {caps.length > 1 && (<><span className="text-xs text-gray-400">·</span><span className="text-xs text-gray-500">{caps.length} captures</span></>)}
+                {showStrip && caps.length > 1 && (<><span className="text-xs text-gray-400">·</span><span className="text-xs text-gray-500">{caps.length} captures</span></>)}
               </div>
               <div className="font-serif text-lg leading-snug">{b.activity}</div>
-              {caps.length > 0 ? (
+              {showStrip ? (
                 <ImageStrip captures={caps} fallbackSummary={b.screen_summary} />
+              ) : isSleep ? (
+                <div className="mt-2 text-sm text-gray-500 italic">🛏️ {fmtH(b.min)} — PC was off, no captures</div>
+              ) : allWithheld ? (
+                <div className="mt-2 text-sm text-gray-500 italic">🔒 {caps.length} capture{caps.length === 1 ? '' : 's'} withheld (sensitive content)</div>
               ) : (
                 b.screen_summary && <div className="text-sm text-gray-600 mt-1">{b.screen_summary}</div>
               )}
-              {fullySensitive && <div className="mt-3 text-xs text-gray-500 italic">🔒 image withheld (sensitive content)</div>}
-              {partialSensitive && <div className="mt-2 text-xs text-gray-500 italic">🔒 {b.sensitive_count} sensitive capture(s) withheld</div>}
+              {!isSleep && !allWithheld && fullySensitive && <div className="mt-3 text-xs text-gray-500 italic">🔒 image withheld (sensitive content)</div>}
+              {!isSleep && partialSensitive && <div className="mt-2 text-xs text-gray-500 italic">🔒 {b.sensitive_count} sensitive capture(s) withheld</div>}
             </div>
           </li>
         )
