@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T21:04:55.827325+09:00",
+  "generatedAt": "2026-05-21T22:05:46+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -33,6 +33,7 @@
           "captures": [
             {
               "start": "15:58",
+              "end": "16:13",
               "image": "https://i.imgur.com/3y7nVn1.jpeg",
               "summary": "Pixabay free sound effects page showing computer mouse click sounds for download.",
               "sensitive": false
@@ -43,7 +44,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "16:15",
@@ -57,36 +58,42 @@
           "captures": [
             {
               "start": "16:15",
+              "end": "16:30",
               "image": "https://i.imgur.com/Ob4YaSP.jpeg",
               "summary": "OpenClaw chat thread discussing SelfTrack capture loop, watcher fixes, and posture-alert behavior.",
               "sensitive": false
             },
             {
               "start": "16:30",
+              "end": "16:45",
               "image": "https://i.imgur.com/8li81FN.jpeg",
               "summary": "OpenClaw chat showing SelfTrack capture/labeling spec and sheet schema discussion.",
               "sensitive": false
             },
             {
               "start": "16:45",
+              "end": "17:00",
               "image": "https://i.imgur.com/5lJGXFb.jpeg",
               "summary": "OpenClaw chat refining SelfTrack dashboard/dummy-data spec for Sheet1 and Daily Summary tabs.",
               "sensitive": false
             },
             {
               "start": "17:00",
+              "end": "17:15",
               "image": "https://i.imgur.com/ybibpDA.jpeg",
               "summary": "SelfTrack activity dashboard page rendering today's blocks with thumbnails.",
               "sensitive": false
             },
             {
               "start": "17:15",
+              "end": "17:30",
               "image": "https://i.imgur.com/7n2HTd8.jpeg",
               "summary": "OpenClaw chat discussing SelfTrack timeline rendering and dashboard layout improvements.",
               "sensitive": false
             },
             {
               "start": "17:30",
+              "end": "17:45",
               "image": "https://i.imgur.com/yx8tkDu.jpeg",
               "summary": "OpenClaw chat discussing SelfTrack backfill flow and per-capture row architecture.",
               "sensitive": false
@@ -102,7 +109,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "17:45",
@@ -116,6 +123,7 @@
           "captures": [
             {
               "start": "17:45",
+              "end": "18:00",
               "image": "https://i.imgur.com/mRZY38S.jpeg",
               "summary": "X (Twitter) For You feed with a watch video post and trending sidebar.",
               "sensitive": false
@@ -126,7 +134,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "18:00",
@@ -140,42 +148,49 @@
           "captures": [
             {
               "start": "18:00",
+              "end": "18:15",
               "image": "https://i.imgur.com/65NPwed.jpeg",
               "summary": "OpenClaw chat discussing SelfTrack dashboard sheet/dummy-row updates and image cell formatting.",
               "sensitive": false
             },
             {
               "start": "18:15",
+              "end": "18:30",
               "image": "https://i.imgur.com/nlnEAHc.jpeg",
               "summary": "Google Sheets viewing the SelfTrack Daily Activity Log tab with today's rows.",
               "sensitive": false
             },
             {
               "start": "18:30",
+              "end": "18:45",
               "image": "https://i.imgur.com/NfX9sp0.png",
               "summary": "OpenClaw chat refining SelfTrack cron schedule and analyze-hourly behavior.",
               "sensitive": false
             },
             {
               "start": "18:45",
+              "end": "19:00",
               "image": "https://i.imgur.com/5qs24AM.jpeg",
               "summary": "OpenClaw chat reviewing the X post and Vercel timeline URL test.",
               "sensitive": false
             },
             {
               "start": "19:00",
+              "end": "19:15",
               "image": "https://i.imgur.com/xJlU0lp.jpeg",
               "summary": "OpenClaw chat refining SelfTrack dashboard description text and layout details.",
               "sensitive": false
             },
             {
               "start": "19:15",
+              "end": "19:30",
               "image": "https://i.imgur.com/h2ZSyPh.jpeg",
               "summary": "OpenClaw chat planning SelfTrack dashboard language selector and Flash endpoint for header.",
               "sensitive": false
             },
             {
               "start": "19:30",
+              "end": "19:45",
               "image": "https://i.imgur.com/FcFb9TO.jpeg",
               "summary": "OpenClaw chat detailing SelfTrack dashboard backend and category-badge color implementation.",
               "sensitive": false
@@ -192,7 +207,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "19:45",
@@ -206,6 +221,7 @@
           "captures": [
             {
               "start": "19:45",
+              "end": "20:00",
               "image": "https://i.imgur.com/VhlG1pl.jpeg",
               "summary": "Fantasy game loading/title screen showing an armored warrior with axe in a snowy landscape under a stormy sky.",
               "sensitive": false
@@ -216,7 +232,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "20:00",
@@ -230,6 +246,7 @@
           "captures": [
             {
               "start": "20:00",
+              "end": "20:15",
               "image": "https://i.imgur.com/qBPiOWm.jpeg",
               "summary": "OpenClaw chat discussing PC specs and which Total War / strategy games to download to play.",
               "sensitive": false
@@ -240,7 +257,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "20:15",
@@ -254,6 +271,7 @@
           "captures": [
             {
               "start": "20:15",
+              "end": "20:30",
               "image": "https://i.imgur.com/91y0skV.jpeg",
               "summary": "Black screen — display off or a game loading screen with no rendered content.",
               "sensitive": false
@@ -264,7 +282,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "20:30",
@@ -278,12 +296,14 @@
           "captures": [
             {
               "start": "20:30",
+              "end": "20:45",
               "image": "https://i.imgur.com/H9UIqN8.jpeg",
               "summary": "Total War battle tutorial screen with friendly and enemy units lined up on a snowy battlefield.",
               "sensitive": false
             },
             {
               "start": "20:45",
+              "end": "21:00",
               "image": "https://i.imgur.com/8qe9W5O.jpeg",
               "summary": "Total War mid-battle scene with Empire spear infantry engaging enemy forces on snowy terrain.",
               "sensitive": false
@@ -295,7 +315,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "21:00",
@@ -309,6 +329,7 @@
           "captures": [
             {
               "start": "21:00",
+              "end": "21:15",
               "image": "https://i.imgur.com/dIrNKBx.jpeg",
               "summary": "YouTube short '253. 남자의 착각' (Korean webtoon)",
               "sensitive": false
@@ -319,7 +340,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "21:15",
@@ -333,6 +354,7 @@
           "captures": [
             {
               "start": "21:15",
+              "end": "21:30",
               "image": "https://i.imgur.com/cNqycZj.jpeg",
               "summary": "OpenClaw Control chat discussing MBTI Oracle/cookie collector work; permissions table visible",
               "sensitive": false
@@ -343,7 +365,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "21:30",
@@ -357,6 +379,7 @@
           "captures": [
             {
               "start": "21:30",
+              "end": "21:45",
               "image": "https://i.imgur.com/4L1dJ8Y.jpeg",
               "summary": "YouTube video by Greg Isenberg, course mindmap node 'The Offer' with sub-branches",
               "sensitive": false
@@ -367,7 +390,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "21:46",
@@ -381,12 +404,14 @@
           "captures": [
             {
               "start": "21:46",
+              "end": "22:01",
               "image": "https://i.imgur.com/E8isnQL.jpeg",
               "summary": "Windows Notepad with single line 'taking a bath'; taskbar clock 9:45 PM",
               "sensitive": false
             },
             {
               "start": "22:01",
+              "end": "22:16",
               "image": "https://i.imgur.com/JrMjcKz.jpeg",
               "summary": "Windows Notepad with single line 'taking a bath'; taskbar clock 10:00 PM",
               "sensitive": false
@@ -398,7 +423,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "22:16",
@@ -412,6 +437,7 @@
           "captures": [
             {
               "start": "22:16",
+              "end": "22:31",
               "image": "https://i.imgur.com/Yy8ptNt.jpeg",
               "summary": "YouTube video, network graph of startup ideas with sidebar of topics",
               "sensitive": false
@@ -422,7 +448,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "22:31",
@@ -436,6 +462,7 @@
           "captures": [
             {
               "start": "22:31",
+              "end": "22:46",
               "image": "https://i.imgur.com/L0cO2Zf.jpeg",
               "summary": "YouTube home, recommendations including 'Claude Cowork for marketing' and 'Don't Stay in Old Tbilisi'",
               "sensitive": false
@@ -446,7 +473,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "22:46",
@@ -460,6 +487,7 @@
           "captures": [
             {
               "start": "22:46",
+              "end": "23:01",
               "image": "https://i.imgur.com/N62aZLu.jpeg",
               "summary": "X (Twitter) For You feed; Shay Boloor post about Jeff Bezos wealth in America (CNBC clip)",
               "sensitive": false
@@ -470,7 +498,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "23:01",
@@ -484,6 +512,7 @@
           "captures": [
             {
               "start": "23:01",
+              "end": "23:16",
               "image": "https://i.imgur.com/yaqSrz2.jpeg",
               "summary": "YouTube video by David Shapiro 'I'm worried about where things are going' — painting of figures by a river",
               "sensitive": false
@@ -494,7 +523,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "23:16",
@@ -508,24 +537,28 @@
           "captures": [
             {
               "start": "23:16",
+              "end": "23:31",
               "image": "https://i.imgur.com/1sTj9hf.jpeg",
               "summary": "OpenClaw chat thread refining SelfTrack analyze-hourly pipeline (capture/labeling, sheet schema)",
               "sensitive": false
             },
             {
               "start": "23:33",
+              "end": "23:48",
               "image": "https://i.imgur.com/zgh9z84.jpeg",
               "summary": "Google new tab — likely transitioning between SelfTrack work tabs",
               "sensitive": false
             },
             {
               "start": "23:48",
+              "end": "00:03",
               "image": "https://i.imgur.com/kXaOWE1.jpeg",
               "summary": "OpenClaw chat planning Daily Summary cron with 'Note from Sun' column + dashboard backfill UI",
               "sensitive": false
             },
             {
               "start": "00:03",
+              "end": "00:18",
               "image": "https://i.imgur.com/qnBPRpG.jpeg",
               "summary": "Multi-window: imgur composite preview + OpenClaw chat planning SelfTrack daily summary cron",
               "sensitive": false
@@ -539,7 +572,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "00:18",
@@ -553,6 +586,7 @@
           "captures": [
             {
               "start": "00:18",
+              "end": "00:33",
               "image": "https://i.imgur.com/lRa7YAv.jpeg",
               "summary": "X post with a mythological painting (Gustave Moreau style) — thread about favorite paintings of goddesses from Greek mythology",
               "sensitive": false
@@ -563,7 +597,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "00:33",
@@ -577,6 +611,7 @@
           "captures": [
             {
               "start": "00:33",
+              "end": "00:48",
               "image": "https://i.imgur.com/TsgwMjc.jpeg",
               "summary": "seunghochoi.com 'Life of Sun' timeline page for 2026-05-20, showing captured blocks with composite thumbnails",
               "sensitive": false
@@ -587,7 +622,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "00:48",
@@ -601,6 +636,7 @@
           "captures": [
             {
               "start": "00:48",
+              "end": "01:03",
               "image": "https://i.imgur.com/f3FINHj.jpeg",
               "summary": "X (Twitter) Following feed; posts about DEA/marijuana, 10-Guy meme, and a Korean creator",
               "sensitive": false
@@ -611,7 +647,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "01:03",
@@ -625,6 +661,7 @@
           "captures": [
             {
               "start": "01:03",
+              "end": "01:18",
               "image": "https://i.imgur.com/cPKj7F4.jpeg",
               "summary": "SelfTrack Daily Activity Log Google Sheet open, reviewing rows",
               "sensitive": false
@@ -635,7 +672,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "01:18",
@@ -649,30 +686,35 @@
           "captures": [
             {
               "start": "01:18",
+              "end": "01:33",
               "image": "https://i.imgur.com/TnfYeSA.jpeg",
               "summary": "Sci-fi corridor scene, character carrying box through green-lit ship hallway",
               "sensitive": false
             },
             {
               "start": "01:33",
+              "end": "01:48",
               "image": "https://i.imgur.com/ro4GuFD.jpeg",
               "summary": "Group watching video message on large screen, subtitle 'Which puts me at 29 days'",
               "sensitive": false
             },
             {
               "start": "01:48",
+              "end": "02:03",
               "image": "https://i.imgur.com/rVMTyie.jpeg",
               "summary": "Two characters in conversation, subtitle 'Of course. If that's what you want.'",
               "sensitive": false
             },
             {
               "start": "02:03",
+              "end": "02:18",
               "image": "https://i.imgur.com/jbqhwZu.jpeg",
               "summary": "Detective in fedora talking, subtitle 'Well, whatever he brokered,'",
               "sensitive": false
             },
             {
               "start": "02:18",
+              "end": "02:33",
               "image": "https://i.imgur.com/AorhyLP.jpeg",
               "summary": "Patient on med-bay bed surrounded by diagnostic screens, subtitle 'You put your hands on her again'",
               "sensitive": false
@@ -687,7 +729,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "02:33",
@@ -701,174 +743,203 @@
           "captures": [
             {
               "start": "02:33",
+              "end": "02:48",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "02:48",
+              "end": "03:03",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "03:03",
+              "end": "03:18",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "03:18",
+              "end": "03:33",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "03:33",
+              "end": "03:48",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "03:48",
+              "end": "04:03",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "04:03",
+              "end": "04:18",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "04:18",
+              "end": "04:33",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "04:33",
+              "end": "04:48",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "04:48",
+              "end": "05:03",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "05:03",
+              "end": "05:18",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "05:18",
+              "end": "05:33",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "05:33",
+              "end": "05:48",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "05:48",
+              "end": "06:03",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "06:03",
+              "end": "06:18",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "06:18",
+              "end": "06:33",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "06:33",
+              "end": "06:48",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "06:48",
+              "end": "07:03",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "07:03",
+              "end": "07:18",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "07:18",
+              "end": "07:33",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "07:33",
+              "end": "07:48",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "07:48",
+              "end": "08:03",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "08:03",
+              "end": "08:18",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "08:18",
+              "end": "08:33",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "08:33",
+              "end": "08:48",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "08:48",
+              "end": "09:03",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "09:03",
+              "end": "09:18",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "09:18",
+              "end": "09:33",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "09:33",
+              "end": "09:48",
               "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
@@ -877,31 +948,31 @@
           "images": [],
           "sensitive_count": 29,
           "sensitive": true,
-          "notes": ""
+          "notes": null
         }
       ],
       "dailySummary": {
         "tracked_min": 480,
-        "productivity_min": 255,
-        "learning_min": 0,
-        "admin_min": 0,
+        "productive_min": 255,
+        "deep_work_min": 0,
+        "shipping_min": 0,
         "leisure_min": 150,
-        "afk_min": 30,
-        "sleep_min": 0,
-        "mbti_min": 45,
-        "tiktok_min": 0,
+        "admin_min": 30,
+        "learning_min": 0,
+        "afk_min": 45,
+        "exercise_min": 0,
         "top_activities": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
-        "ai_takeaway": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
+        "reflection": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
         "first_last_capture": "15:58 / 00:03",
         "note_from_sun": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
       }
     },
     {
       "date": "2026-05-21",
-      "tracked_min": 660,
+      "tracked_min": 720,
       "by_category": {
         "Admin/Errands": 15,
-        "AFK/Idle": 555,
+        "AFK/Idle": 615,
         "Learning": 45,
         "Leisure": 30,
         "Productivity": 15
@@ -913,7 +984,7 @@
         "Leisure": 30,
         "AI Research": 30,
         "SelfTrack": 15,
-        "Haircut": 465
+        "Haircut": 525
       },
       "blocks": [
         {
@@ -928,6 +999,7 @@
           "captures": [
             {
               "start": "10:06",
+              "end": "10:21",
               "image": "https://i.imgur.com/1py712S.jpeg",
               "summary": "uTorrent Web dashboard open over scenic desktop wallpaper, 38GB downloaded / 9.5GB uploaded",
               "sensitive": false
@@ -938,7 +1010,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "10:21",
@@ -952,36 +1024,42 @@
           "captures": [
             {
               "start": "10:21",
+              "end": "10:36",
               "image": "https://i.imgur.com/lGd1iYU.jpeg",
               "summary": "Notepad open with single word 'Gym' typed; user not at desk",
               "sensitive": false
             },
             {
               "start": "10:36",
+              "end": "10:51",
               "image": "https://i.imgur.com/cvN3z5n.jpeg",
               "summary": "Notepad open with single word 'Gym' typed; user not at desk",
               "sensitive": false
             },
             {
               "start": "10:51",
+              "end": "11:06",
               "image": "https://i.imgur.com/jS0uqA6.jpeg",
               "summary": "Notepad open with single word 'Gym' typed; user not at desk",
               "sensitive": false
             },
             {
               "start": "11:06",
+              "end": "11:21",
               "image": "https://i.imgur.com/2ts8blb.jpeg",
               "summary": "Notepad open with single word 'Gym' typed; user not at desk",
               "sensitive": false
             },
             {
               "start": "11:21",
+              "end": "11:36",
               "image": "https://i.imgur.com/Gx4q82i.jpeg",
               "summary": "Notepad open with single word 'Gym' typed; user not at desk",
               "sensitive": false
             },
             {
               "start": "11:36",
+              "end": "11:51",
               "image": "https://i.imgur.com/xfarIWq.jpeg",
               "summary": "Notepad open with single word 'Gym' typed; user not at desk",
               "sensitive": false
@@ -997,7 +1075,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "11:51",
@@ -1011,6 +1089,7 @@
           "captures": [
             {
               "start": "11:51",
+              "end": "12:06",
               "image": "https://i.imgur.com/wXIUyjp.jpeg",
               "summary": "YouTube search for 'erdos math problems' — Numberphile Erdős Numbers thumbnail visible",
               "sensitive": false
@@ -1021,7 +1100,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "12:07",
@@ -1035,12 +1114,14 @@
           "captures": [
             {
               "start": "12:07",
+              "end": "12:22",
               "image": "https://i.imgur.com/ykBVomS.jpeg",
               "summary": "YouTube article-card style video about Apple AirPods Ultra with cameras (Bloomberg)",
               "sensitive": false
             },
             {
               "start": "12:22",
+              "end": "12:37",
               "image": "https://i.imgur.com/TWVp4xs.jpeg",
               "summary": "YouTube video player loading; tabs include OpenClaw Control, Activity Dashboard, Discord",
               "sensitive": false
@@ -1052,7 +1133,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "12:37",
@@ -1066,6 +1147,7 @@
           "captures": [
             {
               "start": "12:37",
+              "end": "12:52",
               "image": "https://i.imgur.com/7ypa5uD.jpeg",
               "summary": "NetworkChuck YouTube 'can you run hermes locally' — Codex provider list (Nous Portal, OpenRouter, LM Studio)",
               "sensitive": false
@@ -1076,7 +1158,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "12:52",
@@ -1090,6 +1172,7 @@
           "captures": [
             {
               "start": "12:52",
+              "end": "13:07",
               "image": "https://i.imgur.com/R0ig3aH.jpeg",
               "summary": "SelfTrack daily activity dashboard open in Chrome, browsing recent rows, DevTools panel visible",
               "sensitive": false
@@ -1100,7 +1183,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "13:07",
@@ -1114,6 +1197,7 @@
           "captures": [
             {
               "start": "13:07",
+              "end": "13:22",
               "image": "https://i.imgur.com/AgzwyGi.jpeg",
               "summary": "Hermes Benchmark thread on X: GPT-5.5 vs Opus 4.7 (3/3 each, Opus 1.9x faster, GPT-5.5 12% cheaper)",
               "sensitive": false
@@ -1124,7 +1208,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "13:22",
@@ -1138,6 +1222,7 @@
           "captures": [
             {
               "start": "13:22",
+              "end": "13:37",
               "image": "https://i.imgur.com/A98Y1Bc.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'",
               "sensitive": false
@@ -1148,12 +1233,12 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "13:37",
-          "end": "21:07",
-          "min": 450,
+          "end": "22:07",
+          "min": 510,
           "category": "AFK/Idle",
           "activity": "haircut errand",
           "project": "Haircut",
@@ -1162,181 +1247,239 @@
           "captures": [
             {
               "start": "13:37",
+              "end": "13:52",
               "image": "https://i.imgur.com/avueBxo.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "13:52",
+              "end": "14:07",
               "image": "https://i.imgur.com/dyTQoj5.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "14:07",
+              "end": "14:22",
               "image": "https://i.imgur.com/Kq2i7Qq.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "14:22",
+              "end": "14:37",
               "image": "https://i.imgur.com/bftt03C.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "14:37",
+              "end": "14:52",
               "image": "https://i.imgur.com/rJogfYS.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "14:52",
+              "end": "15:07",
               "image": "https://i.imgur.com/eWBACwS.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "15:07",
+              "end": "15:22",
               "image": "https://i.imgur.com/HtdM1wP.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "15:22",
+              "end": "15:37",
               "image": "https://i.imgur.com/T1psl9g.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "15:37",
+              "end": "15:52",
               "image": "https://i.imgur.com/9fTp8gQ.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "15:52",
+              "end": "16:07",
               "image": "https://i.imgur.com/UPxEgdE.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "16:07",
+              "end": "16:22",
               "image": "https://i.imgur.com/3Bar4gD.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "16:22",
+              "end": "16:37",
               "image": "https://i.imgur.com/0LHSBoD.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "16:37",
+              "end": "16:52",
               "image": "https://i.imgur.com/qQGgYdP.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "16:52",
+              "end": "17:07",
               "image": "https://i.imgur.com/0Q6EtVZ.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "17:07",
+              "end": "17:22",
               "image": "https://i.imgur.com/um9BPu5.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "17:22",
+              "end": "17:37",
               "image": "https://i.imgur.com/EokkeZh.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "17:37",
+              "end": "17:52",
               "image": "https://i.imgur.com/DCNJJZO.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "17:52",
+              "end": "18:07",
               "image": "https://i.imgur.com/kk7YOlh.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "18:07",
+              "end": "18:22",
               "image": "https://i.imgur.com/nuoeRWc.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "18:22",
+              "end": "18:37",
               "image": "https://i.imgur.com/7dqE8Us.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "18:37",
+              "end": "18:52",
               "image": "https://i.imgur.com/VbgpLNs.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "18:52",
+              "end": "19:07",
               "image": "https://i.imgur.com/NKYBupX.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "19:07",
+              "end": "19:22",
               "image": "https://i.imgur.com/PhuOfWV.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "19:22",
+              "end": "19:37",
               "image": "https://i.imgur.com/I1Gs4LV.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "19:37",
+              "end": "19:52",
               "image": "https://i.imgur.com/DygszYt.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "19:52",
+              "end": "20:07",
               "image": "https://i.imgur.com/X13rjik.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "20:07",
+              "end": "20:22",
               "image": "https://i.imgur.com/rWDzw9f.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "20:22",
+              "end": "20:37",
               "image": "https://i.imgur.com/Chhmn1H.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "20:37",
+              "end": "20:52",
               "image": "https://i.imgur.com/4JtQfhH.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "20:52",
+              "end": "21:07",
               "image": "https://i.imgur.com/vZCgSHX.jpeg",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
+              "sensitive": false
+            },
+            {
+              "start": "21:07",
+              "end": "21:22",
+              "image": "https://i.imgur.com/JIGwoeq.jpeg",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
+              "sensitive": false
+            },
+            {
+              "start": "21:22",
+              "end": "21:37",
+              "image": "https://i.imgur.com/6F2xHPB.jpeg",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
+              "sensitive": false
+            },
+            {
+              "start": "21:37",
+              "end": "21:52",
+              "image": "https://i.imgur.com/bD2jNJL.jpeg",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
+              "sensitive": false
+            },
+            {
+              "start": "21:52",
+              "end": "22:07",
+              "image": "https://i.imgur.com/J1tfrnK.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             }
@@ -1371,11 +1514,15 @@
             "https://i.imgur.com/rWDzw9f.jpeg",
             "https://i.imgur.com/Chhmn1H.jpeg",
             "https://i.imgur.com/4JtQfhH.jpeg",
-            "https://i.imgur.com/vZCgSHX.jpeg"
+            "https://i.imgur.com/vZCgSHX.jpeg",
+            "https://i.imgur.com/JIGwoeq.jpeg",
+            "https://i.imgur.com/6F2xHPB.jpeg",
+            "https://i.imgur.com/bD2jNJL.jpeg",
+            "https://i.imgur.com/J1tfrnK.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         }
       ]
     }
