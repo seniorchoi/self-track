@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T18:05:00.635Z",
+  "generatedAt": "2026-05-22T04:08:15.491255+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -43,7 +43,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "16:15",
@@ -102,7 +102,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "17:45",
@@ -126,7 +126,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "18:00",
@@ -192,7 +192,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "19:45",
@@ -216,7 +216,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "20:00",
@@ -240,7 +240,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "20:15",
@@ -264,7 +264,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "20:30",
@@ -295,7 +295,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "21:00",
@@ -319,7 +319,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "21:15",
@@ -343,7 +343,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "21:30",
@@ -367,7 +367,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "21:46",
@@ -398,7 +398,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "22:16",
@@ -422,7 +422,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "22:31",
@@ -446,7 +446,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "22:46",
@@ -470,7 +470,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "23:01",
@@ -494,7 +494,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "23:16",
@@ -539,7 +539,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "00:18",
@@ -563,7 +563,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "00:33",
@@ -587,7 +587,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "00:48",
@@ -611,7 +611,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "01:03",
@@ -635,7 +635,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "01:18",
@@ -687,7 +687,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "02:33",
@@ -863,46 +863,46 @@
             },
             {
               "start": "09:18",
-              "image": "https://i.imgur.com/1py712S.jpeg",
+              "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "09:33",
-              "image": "https://i.imgur.com/lGd1iYU.jpeg",
+              "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             }
           ],
-          "images": [
-            "https://i.imgur.com/1py712S.jpeg",
-            "https://i.imgur.com/lGd1iYU.jpeg"
-          ],
+          "images": [],
           "sensitive_count": 29,
           "sensitive": true,
-          "notes": null
+          "notes": ""
         }
       ],
       "dailySummary": {
         "date": "2026-05-20",
-        "total_min": 480,
-        "productivity_min": 255,
-        "learning_min": 150,
-        "leisure_min": 30,
-        "admin_min": 0,
-        "afk_min": 45,
+        "tracked_min": "480",
+        "productivity": "255",
+        "focused": "0",
+        "exercise": "0",
+        "leisure": "150",
+        "learning": "30",
+        "mbti_oracle": "0",
+        "afk_idle": "45",
+        "other": "0",
         "top_activities": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
-        "coach_note": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
-        "span": "15:58 / 00:03",
+        "reflection": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
+        "first_last_active": "15:58 / 00:03",
         "note_from_sun": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
       }
     },
     {
       "date": "2026-05-21",
-      "tracked_min": 1020,
+      "tracked_min": 1080,
       "by_category": {
         "Admin/Errands": 15,
-        "AFK/Idle": 915,
+        "AFK/Idle": 975,
         "Learning": 45,
         "Leisure": 30,
         "Productivity": 15
@@ -914,7 +914,7 @@
         "Leisure": 30,
         "AI Research": 30,
         "SelfTrack": 15,
-        "Haircut": 825
+        "Haircut": 885
       },
       "blocks": [
         {
@@ -929,17 +929,17 @@
           "captures": [
             {
               "start": "10:06",
-              "image": "https://i.imgur.com/cvN3z5n.jpeg",
+              "image": "https://i.imgur.com/1py712S.jpeg",
               "summary": "uTorrent Web dashboard open over scenic desktop wallpaper, 38GB downloaded / 9.5GB uploaded",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/cvN3z5n.jpeg"
+            "https://i.imgur.com/1py712S.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "10:21",
@@ -953,52 +953,52 @@
           "captures": [
             {
               "start": "10:21",
-              "image": "https://i.imgur.com/jS0uqA6.jpeg",
+              "image": "https://i.imgur.com/lGd1iYU.jpeg",
               "summary": "Notepad open with single word 'Gym' typed; user not at desk",
               "sensitive": false
             },
             {
               "start": "10:36",
-              "image": "https://i.imgur.com/2ts8blb.jpeg",
+              "image": "https://i.imgur.com/cvN3z5n.jpeg",
               "summary": "Notepad open with single word 'Gym' typed; user not at desk",
               "sensitive": false
             },
             {
               "start": "10:51",
-              "image": "https://i.imgur.com/Gx4q82i.jpeg",
+              "image": "https://i.imgur.com/jS0uqA6.jpeg",
               "summary": "Notepad open with single word 'Gym' typed; user not at desk",
               "sensitive": false
             },
             {
               "start": "11:06",
-              "image": "https://i.imgur.com/xfarIWq.jpeg",
+              "image": "https://i.imgur.com/2ts8blb.jpeg",
               "summary": "Notepad open with single word 'Gym' typed; user not at desk",
               "sensitive": false
             },
             {
               "start": "11:21",
-              "image": "https://i.imgur.com/wXIUyjp.jpeg",
+              "image": "https://i.imgur.com/Gx4q82i.jpeg",
               "summary": "Notepad open with single word 'Gym' typed; user not at desk",
               "sensitive": false
             },
             {
               "start": "11:36",
-              "image": "https://i.imgur.com/ykBVomS.jpeg",
+              "image": "https://i.imgur.com/xfarIWq.jpeg",
               "summary": "Notepad open with single word 'Gym' typed; user not at desk",
               "sensitive": false
             }
           ],
           "images": [
+            "https://i.imgur.com/lGd1iYU.jpeg",
+            "https://i.imgur.com/cvN3z5n.jpeg",
             "https://i.imgur.com/jS0uqA6.jpeg",
             "https://i.imgur.com/2ts8blb.jpeg",
             "https://i.imgur.com/Gx4q82i.jpeg",
-            "https://i.imgur.com/xfarIWq.jpeg",
-            "https://i.imgur.com/wXIUyjp.jpeg",
-            "https://i.imgur.com/ykBVomS.jpeg"
+            "https://i.imgur.com/xfarIWq.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "11:51",
@@ -1012,17 +1012,17 @@
           "captures": [
             {
               "start": "11:51",
-              "image": "https://i.imgur.com/TWVp4xs.jpeg",
+              "image": "https://i.imgur.com/wXIUyjp.jpeg",
               "summary": "YouTube search for 'erdos math problems' — Numberphile Erdős Numbers thumbnail visible",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/TWVp4xs.jpeg"
+            "https://i.imgur.com/wXIUyjp.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "12:07",
@@ -1036,24 +1036,24 @@
           "captures": [
             {
               "start": "12:07",
-              "image": "https://i.imgur.com/7ypa5uD.jpeg",
+              "image": "https://i.imgur.com/ykBVomS.jpeg",
               "summary": "YouTube article-card style video about Apple AirPods Ultra with cameras (Bloomberg)",
               "sensitive": false
             },
             {
               "start": "12:22",
-              "image": "https://i.imgur.com/R0ig3aH.jpeg",
+              "image": "https://i.imgur.com/TWVp4xs.jpeg",
               "summary": "YouTube video player loading; tabs include OpenClaw Control, Activity Dashboard, Discord",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/7ypa5uD.jpeg",
-            "https://i.imgur.com/R0ig3aH.jpeg"
+            "https://i.imgur.com/ykBVomS.jpeg",
+            "https://i.imgur.com/TWVp4xs.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "12:37",
@@ -1067,17 +1067,17 @@
           "captures": [
             {
               "start": "12:37",
-              "image": "https://i.imgur.com/AgzwyGi.jpeg",
+              "image": "https://i.imgur.com/7ypa5uD.jpeg",
               "summary": "NetworkChuck YouTube 'can you run hermes locally' — Codex provider list (Nous Portal, OpenRouter, LM Studio)",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/AgzwyGi.jpeg"
+            "https://i.imgur.com/7ypa5uD.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "12:52",
@@ -1091,17 +1091,17 @@
           "captures": [
             {
               "start": "12:52",
-              "image": "https://i.imgur.com/A98Y1Bc.jpeg",
+              "image": "https://i.imgur.com/R0ig3aH.jpeg",
               "summary": "SelfTrack daily activity dashboard open in Chrome, browsing recent rows, DevTools panel visible",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/A98Y1Bc.jpeg"
+            "https://i.imgur.com/R0ig3aH.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "13:07",
@@ -1115,17 +1115,17 @@
           "captures": [
             {
               "start": "13:07",
-              "image": "https://i.imgur.com/avueBxo.jpeg",
+              "image": "https://i.imgur.com/AgzwyGi.jpeg",
               "summary": "Hermes Benchmark thread on X: GPT-5.5 vs Opus 4.7 (3/3 each, Opus 1.9x faster, GPT-5.5 12% cheaper)",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/avueBxo.jpeg"
+            "https://i.imgur.com/AgzwyGi.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "13:22",
@@ -1139,22 +1139,22 @@
           "captures": [
             {
               "start": "13:22",
-              "image": "https://i.imgur.com/dyTQoj5.jpeg",
+              "image": "https://i.imgur.com/A98Y1Bc.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/dyTQoj5.jpeg"
+            "https://i.imgur.com/A98Y1Bc.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         },
         {
           "start": "13:37",
-          "end": "03:08",
-          "min": 810,
+          "end": "04:08",
+          "min": 870,
           "category": "AFK/Idle",
           "activity": "haircut errand",
           "project": "Haircut",
@@ -1163,328 +1163,356 @@
           "captures": [
             {
               "start": "13:37",
-              "image": "https://i.imgur.com/Kq2i7Qq.jpeg",
+              "image": "https://i.imgur.com/avueBxo.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; webcam dark",
               "sensitive": false
             },
             {
               "start": "13:52",
-              "image": "https://i.imgur.com/bftt03C.jpeg",
+              "image": "https://i.imgur.com/dyTQoj5.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; webcam dark",
               "sensitive": false
             },
             {
               "start": "14:07",
-              "image": "https://i.imgur.com/rJogfYS.jpeg",
+              "image": "https://i.imgur.com/Kq2i7Qq.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "14:22",
-              "image": "https://i.imgur.com/eWBACwS.jpeg",
+              "image": "https://i.imgur.com/bftt03C.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "14:37",
-              "image": "https://i.imgur.com/HtdM1wP.jpeg",
+              "image": "https://i.imgur.com/rJogfYS.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "14:52",
-              "image": "https://i.imgur.com/T1psl9g.jpeg",
+              "image": "https://i.imgur.com/eWBACwS.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "15:07",
-              "image": "https://i.imgur.com/9fTp8gQ.jpeg",
+              "image": "https://i.imgur.com/HtdM1wP.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "15:22",
-              "image": "https://i.imgur.com/UPxEgdE.jpeg",
+              "image": "https://i.imgur.com/T1psl9g.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "15:37",
-              "image": "https://i.imgur.com/3Bar4gD.jpeg",
+              "image": "https://i.imgur.com/9fTp8gQ.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "15:52",
-              "image": "https://i.imgur.com/0LHSBoD.jpeg",
+              "image": "https://i.imgur.com/UPxEgdE.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "16:07",
-              "image": "https://i.imgur.com/qQGgYdP.jpeg",
+              "image": "https://i.imgur.com/3Bar4gD.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "16:22",
-              "image": "https://i.imgur.com/0Q6EtVZ.jpeg",
+              "image": "https://i.imgur.com/0LHSBoD.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "16:37",
-              "image": "https://i.imgur.com/um9BPu5.jpeg",
+              "image": "https://i.imgur.com/qQGgYdP.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "16:52",
-              "image": "https://i.imgur.com/EokkeZh.jpeg",
+              "image": "https://i.imgur.com/0Q6EtVZ.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "17:07",
-              "image": "https://i.imgur.com/DCNJJZO.jpeg",
+              "image": "https://i.imgur.com/um9BPu5.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "17:22",
-              "image": "https://i.imgur.com/kk7YOlh.jpeg",
+              "image": "https://i.imgur.com/EokkeZh.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "17:37",
-              "image": "https://i.imgur.com/nuoeRWc.jpeg",
+              "image": "https://i.imgur.com/DCNJJZO.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "17:52",
-              "image": "https://i.imgur.com/7dqE8Us.jpeg",
+              "image": "https://i.imgur.com/kk7YOlh.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "18:07",
-              "image": "https://i.imgur.com/VbgpLNs.jpeg",
+              "image": "https://i.imgur.com/nuoeRWc.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "18:22",
-              "image": "https://i.imgur.com/NKYBupX.jpeg",
+              "image": "https://i.imgur.com/7dqE8Us.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "18:37",
-              "image": "https://i.imgur.com/PhuOfWV.jpeg",
+              "image": "https://i.imgur.com/VbgpLNs.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "18:52",
-              "image": "https://i.imgur.com/I1Gs4LV.jpeg",
+              "image": "https://i.imgur.com/NKYBupX.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "19:07",
-              "image": "https://i.imgur.com/DygszYt.jpeg",
+              "image": "https://i.imgur.com/PhuOfWV.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away, room dark",
               "sensitive": false
             },
             {
               "start": "19:22",
-              "image": "https://i.imgur.com/X13rjik.jpeg",
+              "image": "https://i.imgur.com/I1Gs4LV.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away, room dark",
               "sensitive": false
             },
             {
               "start": "19:37",
-              "image": "https://i.imgur.com/rWDzw9f.jpeg",
+              "image": "https://i.imgur.com/DygszYt.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away, room dark",
               "sensitive": false
             },
             {
               "start": "19:52",
-              "image": "https://i.imgur.com/Chhmn1H.jpeg",
+              "image": "https://i.imgur.com/X13rjik.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away, room dark",
               "sensitive": false
             },
             {
               "start": "20:07",
-              "image": "https://i.imgur.com/4JtQfhH.jpeg",
+              "image": "https://i.imgur.com/rWDzw9f.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "20:22",
-              "image": "https://i.imgur.com/vZCgSHX.jpeg",
+              "image": "https://i.imgur.com/Chhmn1H.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "20:37",
-              "image": "https://i.imgur.com/JIGwoeq.jpeg",
+              "image": "https://i.imgur.com/4JtQfhH.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "20:52",
-              "image": "https://i.imgur.com/6F2xHPB.jpeg",
+              "image": "https://i.imgur.com/vZCgSHX.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "21:07",
-              "image": "https://i.imgur.com/bD2jNJL.jpeg",
+              "image": "https://i.imgur.com/JIGwoeq.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "21:22",
-              "image": "https://i.imgur.com/J1tfrnK.jpeg",
+              "image": "https://i.imgur.com/6F2xHPB.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "21:37",
-              "image": "https://i.imgur.com/TfXb2zg.jpeg",
+              "image": "https://i.imgur.com/bD2jNJL.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "21:52",
-              "image": "https://i.imgur.com/sLMEtSZ.jpeg",
+              "image": "https://i.imgur.com/J1tfrnK.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "22:08",
-              "image": "https://i.imgur.com/OSqZ2oM.jpeg",
+              "image": "https://i.imgur.com/TfXb2zg.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "22:23",
-              "image": "https://i.imgur.com/pQL4CV0.jpeg",
+              "image": "https://i.imgur.com/sLMEtSZ.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "22:38",
-              "image": "https://i.imgur.com/OvnJCJg.jpeg",
+              "image": "https://i.imgur.com/OSqZ2oM.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "22:53",
-              "image": "https://i.imgur.com/T4iWaaQ.jpeg",
+              "image": "https://i.imgur.com/pQL4CV0.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "23:08",
-              "image": "https://i.imgur.com/dcFiIGc.jpeg",
+              "image": "https://i.imgur.com/OvnJCJg.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "23:23",
-              "image": "https://i.imgur.com/9I1mxGo.jpeg",
+              "image": "https://i.imgur.com/T4iWaaQ.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "23:38",
-              "image": "https://i.imgur.com/2JDWXio.jpeg",
+              "image": "https://i.imgur.com/dcFiIGc.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "23:53",
-              "image": "https://i.imgur.com/Vq471hl.jpeg",
+              "image": "https://i.imgur.com/9I1mxGo.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "00:08",
-              "image": "https://i.imgur.com/4F5ZicE.jpeg",
+              "image": "https://i.imgur.com/2JDWXio.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "00:23",
-              "image": "https://i.imgur.com/G5bOKy9.jpeg",
+              "image": "https://i.imgur.com/Vq471hl.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "00:38",
-              "image": "https://i.imgur.com/JLxsIKf.jpeg",
+              "image": "https://i.imgur.com/4F5ZicE.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "00:53",
-              "image": "https://i.imgur.com/T7pc0kh.jpeg",
+              "image": "https://i.imgur.com/G5bOKy9.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "01:08",
-              "image": "https://i.imgur.com/drQtuu2.jpeg",
+              "image": "https://i.imgur.com/JLxsIKf.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "01:23",
-              "image": "https://i.imgur.com/kw9kVqK.jpeg",
+              "image": "https://i.imgur.com/T7pc0kh.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "01:38",
-              "image": "https://i.imgur.com/0PGsg8b.jpeg",
+              "image": "https://i.imgur.com/drQtuu2.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "01:53",
-              "image": "https://i.imgur.com/x2PQNBt.jpeg",
+              "image": "https://i.imgur.com/kw9kVqK.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "02:08",
-              "image": "https://i.imgur.com/JjH47Nx.jpeg",
+              "image": "https://i.imgur.com/0PGsg8b.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "02:23",
-              "image": "https://i.imgur.com/0D7KRrx.jpeg",
+              "image": "https://i.imgur.com/x2PQNBt.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "02:38",
+              "image": "https://i.imgur.com/JjH47Nx.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "02:53",
+              "image": "https://i.imgur.com/0D7KRrx.jpeg",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "sensitive": false
+            },
+            {
+              "start": "03:08",
+              "image": "https://i.imgur.com/lNBjmVJ.jpeg",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "sensitive": false
+            },
+            {
+              "start": "03:23",
+              "image": "https://i.imgur.com/crAx7sb.jpeg",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "sensitive": false
+            },
+            {
+              "start": "03:38",
+              "image": "https://i.imgur.com/HjJOniK.jpeg",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "sensitive": false
+            },
+            {
+              "start": "03:53",
+              "image": "https://i.imgur.com/8BhPNq6.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             }
           ],
           "images": [
+            "https://i.imgur.com/avueBxo.jpeg",
+            "https://i.imgur.com/dyTQoj5.jpeg",
             "https://i.imgur.com/Kq2i7Qq.jpeg",
             "https://i.imgur.com/bftt03C.jpeg",
             "https://i.imgur.com/rJogfYS.jpeg",
@@ -1536,24 +1564,31 @@
             "https://i.imgur.com/0PGsg8b.jpeg",
             "https://i.imgur.com/x2PQNBt.jpeg",
             "https://i.imgur.com/JjH47Nx.jpeg",
-            "https://i.imgur.com/0D7KRrx.jpeg"
+            "https://i.imgur.com/0D7KRrx.jpeg",
+            "https://i.imgur.com/lNBjmVJ.jpeg",
+            "https://i.imgur.com/crAx7sb.jpeg",
+            "https://i.imgur.com/HjJOniK.jpeg",
+            "https://i.imgur.com/8BhPNq6.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": null
+          "notes": ""
         }
       ],
       "dailySummary": {
         "date": "2026-05-21",
-        "total_min": 1440,
-        "productivity_min": 60,
-        "learning_min": 150,
-        "leisure_min": 45,
-        "admin_min": 15,
-        "afk_min": 1170,
+        "tracked_min": "1440",
+        "productivity": "60",
+        "focused": "0",
+        "exercise": "0",
+        "leisure": "150",
+        "learning": "45",
+        "mbti_oracle": "15",
+        "afk_idle": "1170",
+        "other": "0",
         "top_activities": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
-        "coach_note": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
-        "span": "",
+        "reflection": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
+        "first_last_active": "00:03 / 23:53",
         "note_from_sun": ""
       }
     }
