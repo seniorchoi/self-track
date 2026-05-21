@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T12:22:24+09:00",
+  "generatedAt": "2026-05-21T13:05:15.545418+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -504,7 +504,7 @@
           "activity": "working on SelfTrack",
           "project": "SelfTrack build",
           "screen_summary": "OpenClaw chat thread refining SelfTrack analyze-hourly pipeline (capture/labeling, sheet schema)",
-          "webcam": "present",
+          "webcam": "Sun resting hands on face, contemplative",
           "captures": [
             {
               "start": "23:16",
@@ -597,7 +597,7 @@
           "activity": "scrolling X/Twitter timeline",
           "project": "leisure",
           "screen_summary": "X (Twitter) Following feed; posts about DEA/marijuana, 10-Guy meme, and a Korean creator",
-          "webcam": "Sun facing camera, neutral expression",
+          "webcam": "Sun playful with object near mouth (toothpick/floss), shoulders centered",
           "captures": [
             {
               "start": "00:48",
@@ -863,21 +863,18 @@
             },
             {
               "start": "09:18",
-              "image": "https://i.imgur.com/1py712S.jpeg",
+              "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             },
             {
               "start": "09:33",
-              "image": "https://i.imgur.com/lGd1iYU.jpeg",
+              "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             }
           ],
-          "images": [
-            "https://i.imgur.com/1py712S.jpeg",
-            "https://i.imgur.com/lGd1iYU.jpeg"
-          ],
+          "images": [],
           "sensitive_count": 29,
           "sensitive": true,
           "notes": ""
@@ -885,33 +882,38 @@
       ],
       "dailySummary": {
         "date": "2026-05-20",
-        "tracked_min": 480,
-        "productivity_min": 255,
-        "learning_min": 0,
-        "admin_min": 0,
+        "productivity_min": 480,
+        "selftrack_min": 255,
+        "mbti_oracle_min": 0,
+        "q_rizz_min": 0,
         "leisure_min": 150,
         "afk_min": 30,
-        "sleep_min": 0,
-        "personal_min": 45,
-        "other_min": 0,
+        "tiktok_min": 0,
+        "learning_min": 45,
+        "admin_min": 0,
         "top_activities": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
         "summary": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
-        "first_last_capture": "15:58 / 00:03",
-        "note_from_sun": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
+        "active_hours": "15:58 / 00:03",
+        "note": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
       }
     },
     {
       "date": "2026-05-21",
-      "tracked_min": 120,
+      "tracked_min": 180,
       "by_category": {
         "Admin/Errands": 15,
         "AFK/Idle": 90,
-        "Learning": 15
+        "Learning": 30,
+        "Leisure": 30,
+        "Productivity": 15
       },
       "by_project": {
         "Personal": 15,
         "Gym": 90,
-        "Math/Learning": 15
+        "Math/Learning": 15,
+        "Leisure": 30,
+        "AI Research": 15,
+        "SelfTrack": 15
       },
       "blocks": [
         {
@@ -926,13 +928,13 @@
           "captures": [
             {
               "start": "10:06",
-              "image": "https://i.imgur.com/cvN3z5n.jpeg",
+              "image": "https://i.imgur.com/1py712S.jpeg",
               "summary": "uTorrent Web dashboard open over scenic desktop wallpaper, 38GB downloaded / 9.5GB uploaded",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/cvN3z5n.jpeg"
+            "https://i.imgur.com/1py712S.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -950,47 +952,48 @@
           "captures": [
             {
               "start": "10:21",
-              "image": "https://i.imgur.com/jS0uqA6.jpeg",
+              "image": "https://i.imgur.com/lGd1iYU.jpeg",
               "summary": "Notepad open with single word 'Gym' typed; user not at desk",
               "sensitive": false
             },
             {
               "start": "10:36",
-              "image": "https://i.imgur.com/2ts8blb.jpeg",
+              "image": "https://i.imgur.com/cvN3z5n.jpeg",
               "summary": "Notepad open with single word 'Gym' typed; user not at desk",
               "sensitive": false
             },
             {
               "start": "10:51",
-              "image": "https://i.imgur.com/Gx4q82i.jpeg",
+              "image": "https://i.imgur.com/jS0uqA6.jpeg",
               "summary": "Notepad open with single word 'Gym' typed; user not at desk",
               "sensitive": false
             },
             {
               "start": "11:06",
-              "image": "https://i.imgur.com/xfarIWq.jpeg",
+              "image": "https://i.imgur.com/2ts8blb.jpeg",
               "summary": "Notepad open with single word 'Gym' typed; user not at desk",
               "sensitive": false
             },
             {
               "start": "11:21",
-              "image": "https://i.imgur.com/wXIUyjp.jpeg",
+              "image": "https://i.imgur.com/Gx4q82i.jpeg",
               "summary": "Notepad open with single word 'Gym' typed; user not at desk",
               "sensitive": false
             },
             {
               "start": "11:36",
-              "image": null,
+              "image": "https://i.imgur.com/xfarIWq.jpeg",
               "summary": "Notepad open with single word 'Gym' typed; user not at desk",
               "sensitive": false
             }
           ],
           "images": [
+            "https://i.imgur.com/lGd1iYU.jpeg",
+            "https://i.imgur.com/cvN3z5n.jpeg",
             "https://i.imgur.com/jS0uqA6.jpeg",
             "https://i.imgur.com/2ts8blb.jpeg",
             "https://i.imgur.com/Gx4q82i.jpeg",
-            "https://i.imgur.com/xfarIWq.jpeg",
-            "https://i.imgur.com/wXIUyjp.jpeg"
+            "https://i.imgur.com/xfarIWq.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -1008,12 +1011,93 @@
           "captures": [
             {
               "start": "11:51",
-              "image": null,
+              "image": "https://i.imgur.com/wXIUyjp.jpeg",
               "summary": "YouTube search for 'erdos math problems' — Numberphile Erdős Numbers thumbnail visible",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/wXIUyjp.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "12:07",
+          "end": "12:37",
+          "min": 30,
+          "category": "Leisure",
+          "activity": "watching YouTube",
+          "project": "Leisure",
+          "screen_summary": "YouTube article-card style video about Apple AirPods Ultra with cameras (Bloomberg)",
+          "webcam": "present",
+          "captures": [
+            {
+              "start": "12:07",
+              "image": "https://i.imgur.com/ykBVomS.jpeg",
+              "summary": "YouTube article-card style video about Apple AirPods Ultra with cameras (Bloomberg)",
+              "sensitive": false
+            },
+            {
+              "start": "12:22",
+              "image": "https://i.imgur.com/TWVp4xs.jpeg",
+              "summary": "YouTube video player loading; tabs include OpenClaw Control, Activity Dashboard, Discord",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/ykBVomS.jpeg",
+            "https://i.imgur.com/TWVp4xs.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "12:37",
+          "end": "12:52",
+          "min": 15,
+          "category": "Learning",
+          "activity": "watching AI tutorial",
+          "project": "AI Research",
+          "screen_summary": "NetworkChuck YouTube 'can you run hermes locally' — Codex provider list (Nous Portal, OpenRouter, LM Studio)",
+          "webcam": "present",
+          "captures": [
+            {
+              "start": "12:37",
+              "image": "https://i.imgur.com/7ypa5uD.jpeg",
+              "summary": "NetworkChuck YouTube 'can you run hermes locally' — Codex provider list (Nous Portal, OpenRouter, LM Studio)",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/7ypa5uD.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "12:52",
+          "end": "13:07",
+          "min": 15,
+          "category": "Productivity",
+          "activity": "reviewing SelfTrack dashboard",
+          "project": "SelfTrack",
+          "screen_summary": "SelfTrack daily activity dashboard open in Chrome, browsing recent rows, DevTools panel visible",
+          "webcam": "present",
+          "captures": [
+            {
+              "start": "12:52",
+              "image": "https://i.imgur.com/R0ig3aH.jpeg",
+              "summary": "SelfTrack daily activity dashboard open in Chrome, browsing recent rows, DevTools panel visible",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/R0ig3aH.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
