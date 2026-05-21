@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T18:05:44+09:00",
+  "generatedAt": "2026-05-21T10:06:17.628Z",
   "days": [
     {
       "date": "2026-05-20",
@@ -29,7 +29,6 @@
           "activity": "browsing Pixabay sound effects",
           "project": "SelfTrack build",
           "screen_summary": "Pixabay free sound effects page showing computer mouse click sounds for download.",
-          "webcam": "present",
           "captures": [
             {
               "start": "15:58",
@@ -42,8 +41,9 @@
             "https://i.imgur.com/3y7nVn1.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "present",
+          "sensitive": false
         },
         {
           "start": "16:15",
@@ -53,7 +53,6 @@
           "activity": "working on SelfTrack",
           "project": "SelfTrack build",
           "screen_summary": "OpenClaw chat thread discussing SelfTrack capture loop, watcher fixes, and posture-alert behavior.",
-          "webcam": "present",
           "captures": [
             {
               "start": "16:15",
@@ -101,8 +100,9 @@
             "https://i.imgur.com/yx8tkDu.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "present",
+          "sensitive": false
         },
         {
           "start": "17:45",
@@ -112,7 +112,6 @@
           "activity": "browsing X (Twitter)",
           "project": "leisure",
           "screen_summary": "X (Twitter) For You feed with a watch video post and trending sidebar.",
-          "webcam": "present",
           "captures": [
             {
               "start": "17:45",
@@ -125,8 +124,9 @@
             "https://i.imgur.com/mRZY38S.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "present",
+          "sensitive": false
         },
         {
           "start": "18:00",
@@ -136,7 +136,6 @@
           "activity": "working on SelfTrack",
           "project": "SelfTrack build",
           "screen_summary": "OpenClaw chat discussing SelfTrack dashboard sheet/dummy-row updates and image cell formatting.",
-          "webcam": "present",
           "captures": [
             {
               "start": "18:00",
@@ -191,8 +190,9 @@
             "https://i.imgur.com/FcFb9TO.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "present",
+          "sensitive": false
         },
         {
           "start": "19:45",
@@ -202,7 +202,6 @@
           "activity": "playing a fantasy game",
           "project": "leisure",
           "screen_summary": "Fantasy game loading/title screen showing an armored warrior with axe in a snowy landscape under a stormy sky.",
-          "webcam": "present",
           "captures": [
             {
               "start": "19:45",
@@ -215,8 +214,9 @@
             "https://i.imgur.com/VhlG1pl.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "present",
+          "sensitive": false
         },
         {
           "start": "20:00",
@@ -226,7 +226,6 @@
           "activity": "researching games to download",
           "project": "leisure",
           "screen_summary": "OpenClaw chat discussing PC specs and which Total War / strategy games to download to play.",
-          "webcam": "present",
           "captures": [
             {
               "start": "20:00",
@@ -239,8 +238,9 @@
             "https://i.imgur.com/qBPiOWm.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "present",
+          "sensitive": false
         },
         {
           "start": "20:15",
@@ -250,7 +250,6 @@
           "activity": "screen off / loading",
           "project": "leisure",
           "screen_summary": "Black screen — display off or a game loading screen with no rendered content.",
-          "webcam": "away",
           "captures": [
             {
               "start": "20:15",
@@ -263,8 +262,9 @@
             "https://i.imgur.com/91y0skV.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "away",
+          "sensitive": false
         },
         {
           "start": "20:30",
@@ -274,7 +274,6 @@
           "activity": "playing Total War",
           "project": "leisure",
           "screen_summary": "Total War battle tutorial screen with friendly and enemy units lined up on a snowy battlefield.",
-          "webcam": "present",
           "captures": [
             {
               "start": "20:30",
@@ -294,8 +293,9 @@
             "https://i.imgur.com/8qe9W5O.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "present",
+          "sensitive": false
         },
         {
           "start": "21:00",
@@ -304,13 +304,12 @@
           "category": "Leisure",
           "activity": "watching Korean webtoon on YouTube",
           "project": "leisure",
-          "screen_summary": "YouTube short '253. namjaui chakgak' (Korean webtoon)",
-          "webcam": "Sun smiling at camera, white backwards cap, in bedroom",
+          "screen_summary": "YouTube short '253. 남자의 착각' (Korean webtoon)",
           "captures": [
             {
               "start": "21:00",
               "image": "https://i.imgur.com/dIrNKBx.jpeg",
-              "summary": "YouTube short '253. namjaui chakgak' (Korean webtoon)",
+              "summary": "YouTube short '253. 남자의 착각' (Korean webtoon)",
               "sensitive": false
             }
           ],
@@ -318,8 +317,9 @@
             "https://i.imgur.com/dIrNKBx.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "Sun smiling at camera, white backwards cap, in bedroom",
+          "sensitive": false
         },
         {
           "start": "21:15",
@@ -329,7 +329,6 @@
           "activity": "reviewing OpenClaw chat about MBTI cookie collector + permissions table",
           "project": "MBTI Oracle",
           "screen_summary": "OpenClaw Control chat discussing MBTI Oracle/cookie collector work; permissions table visible",
-          "webcam": "away - empty bedroom view, MacBook on bed",
           "captures": [
             {
               "start": "21:15",
@@ -342,18 +341,18 @@
             "https://i.imgur.com/cNqycZj.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "away — empty bedroom view, MacBook on bed",
+          "sensitive": false
         },
         {
           "start": "21:30",
           "end": "21:45",
           "min": 15,
           "category": "Learning",
-          "activity": "watching '$1M+ Solo AI Agent Business' course on YouTube - Offer mindmap",
+          "activity": "watching '$1M+ Solo AI Agent Business' course on YouTube — Offer mindmap",
           "project": "learning",
           "screen_summary": "YouTube video by Greg Isenberg, course mindmap node 'The Offer' with sub-branches",
-          "webcam": "Sun in white cap (backwards), looking down",
           "captures": [
             {
               "start": "21:30",
@@ -366,8 +365,9 @@
             "https://i.imgur.com/4L1dJ8Y.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "Sun in white cap (backwards), looking down",
+          "sensitive": false
         },
         {
           "start": "21:46",
@@ -377,7 +377,6 @@
           "activity": "taking a bath (notepad note left on screen)",
           "project": "personal",
           "screen_summary": "Windows Notepad with single line 'taking a bath'; taskbar clock 9:45 PM",
-          "webcam": "away - empty bed, dark jeans on edge",
           "captures": [
             {
               "start": "21:46",
@@ -397,18 +396,18 @@
             "https://i.imgur.com/JrMjcKz.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "away — empty bed, dark jeans on edge",
+          "sensitive": false
         },
         {
           "start": "22:16",
           "end": "22:31",
           "min": 15,
           "category": "Learning",
-          "activity": "watching '$1M+ Solo AI Agent Business' (Greg Isenberg) - startup ideas section",
+          "activity": "watching '$1M+ Solo AI Agent Business' (Greg Isenberg) — startup ideas section",
           "project": "learning",
           "screen_summary": "YouTube video, network graph of startup ideas with sidebar of topics",
-          "webcam": "Sun resting hand on cheek, contemplative",
           "captures": [
             {
               "start": "22:16",
@@ -421,8 +420,9 @@
             "https://i.imgur.com/Yy8ptNt.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "Sun resting hand on cheek, contemplative",
+          "sensitive": false
         },
         {
           "start": "22:31",
@@ -432,7 +432,6 @@
           "activity": "browsing YouTube homepage",
           "project": "leisure",
           "screen_summary": "YouTube home, recommendations including 'Claude Cowork for marketing' and 'Don't Stay in Old Tbilisi'",
-          "webcam": "Sun looking down, beige t-shirt",
           "captures": [
             {
               "start": "22:31",
@@ -445,8 +444,9 @@
             "https://i.imgur.com/L0cO2Zf.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "Sun looking down, beige t-shirt",
+          "sensitive": false
         },
         {
           "start": "22:46",
@@ -456,7 +456,6 @@
           "activity": "scrolling X/Twitter timeline",
           "project": "leisure",
           "screen_summary": "X (Twitter) For You feed; Shay Boloor post about Jeff Bezos wealth in America (CNBC clip)",
-          "webcam": "Sun facing camera, neutral expression",
           "captures": [
             {
               "start": "22:46",
@@ -469,8 +468,9 @@
             "https://i.imgur.com/N62aZLu.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "Sun facing camera, neutral expression",
+          "sensitive": false
         },
         {
           "start": "23:01",
@@ -479,13 +479,12 @@
           "category": "Leisure",
           "activity": "watching David Shapiro YouTube video",
           "project": "leisure",
-          "screen_summary": "YouTube video by David Shapiro 'I'm worried about where things are going' - painting of figures by a river",
-          "webcam": "Sun facing camera, neutral, beige t-shirt",
+          "screen_summary": "YouTube video by David Shapiro 'I'm worried about where things are going' — painting of figures by a river",
           "captures": [
             {
               "start": "23:01",
               "image": "https://i.imgur.com/yaqSrz2.jpeg",
-              "summary": "YouTube video by David Shapiro 'I'm worried about where things are going' - painting of figures by a river",
+              "summary": "YouTube video by David Shapiro 'I'm worried about where things are going' — painting of figures by a river",
               "sensitive": false
             }
           ],
@@ -493,8 +492,9 @@
             "https://i.imgur.com/yaqSrz2.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "Sun facing camera, neutral, beige t-shirt",
+          "sensitive": false
         },
         {
           "start": "23:16",
@@ -504,7 +504,6 @@
           "activity": "working on SelfTrack",
           "project": "SelfTrack build",
           "screen_summary": "OpenClaw chat thread refining SelfTrack analyze-hourly pipeline (capture/labeling, sheet schema)",
-          "webcam": "Sun resting hands on face, contemplative",
           "captures": [
             {
               "start": "23:16",
@@ -515,7 +514,7 @@
             {
               "start": "23:33",
               "image": "https://i.imgur.com/zgh9z84.jpeg",
-              "summary": "Google new tab - likely transitioning between SelfTrack work tabs",
+              "summary": "Google new tab — likely transitioning between SelfTrack work tabs",
               "sensitive": false
             },
             {
@@ -538,8 +537,9 @@
             "https://i.imgur.com/qnBPRpG.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "Sun resting hands on face, contemplative",
+          "sensitive": false
         },
         {
           "start": "00:18",
@@ -548,13 +548,12 @@
           "category": "Leisure",
           "activity": "scrolling X/Twitter timeline",
           "project": "leisure",
-          "screen_summary": "X post with a mythological painting (Gustave Moreau style) - thread about favorite paintings of goddesses from Greek mythology",
-          "webcam": "Sun facing camera, neutral expression",
+          "screen_summary": "X post with a mythological painting (Gustave Moreau style) — thread about favorite paintings of goddesses from Greek mythology",
           "captures": [
             {
               "start": "00:18",
               "image": "https://i.imgur.com/lRa7YAv.jpeg",
-              "summary": "X post with a mythological painting (Gustave Moreau style) - thread about favorite paintings of goddesses from Greek mythology",
+              "summary": "X post with a mythological painting (Gustave Moreau style) — thread about favorite paintings of goddesses from Greek mythology",
               "sensitive": false
             }
           ],
@@ -562,8 +561,9 @@
             "https://i.imgur.com/lRa7YAv.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "Sun facing camera, neutral expression",
+          "sensitive": false
         },
         {
           "start": "00:33",
@@ -573,7 +573,6 @@
           "activity": "reviewing Life of Sun timeline dashboard",
           "project": "SelfTrack build",
           "screen_summary": "seunghochoi.com 'Life of Sun' timeline page for 2026-05-20, showing captured blocks with composite thumbnails",
-          "webcam": "Sun facing camera, neutral, beige t-shirt",
           "captures": [
             {
               "start": "00:33",
@@ -586,8 +585,9 @@
             "https://i.imgur.com/TsgwMjc.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "Sun facing camera, neutral, beige t-shirt",
+          "sensitive": false
         },
         {
           "start": "00:48",
@@ -597,7 +597,6 @@
           "activity": "scrolling X/Twitter timeline",
           "project": "leisure",
           "screen_summary": "X (Twitter) Following feed; posts about DEA/marijuana, 10-Guy meme, and a Korean creator",
-          "webcam": "Sun playful with object near mouth (toothpick/floss), shoulders centered",
           "captures": [
             {
               "start": "00:48",
@@ -610,8 +609,9 @@
             "https://i.imgur.com/f3FINHj.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "Sun playful with object near mouth (toothpick/floss), shoulders centered",
+          "sensitive": false
         },
         {
           "start": "01:03",
@@ -621,7 +621,6 @@
           "activity": "working on SelfTrack",
           "project": "SelfTrack",
           "screen_summary": "SelfTrack Daily Activity Log Google Sheet open, reviewing rows",
-          "webcam": "present",
           "captures": [
             {
               "start": "01:03",
@@ -634,8 +633,9 @@
             "https://i.imgur.com/cPKj7F4.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "present",
+          "sensitive": false
         },
         {
           "start": "01:18",
@@ -645,7 +645,6 @@
           "activity": "watching The Expanse",
           "project": "The Expanse",
           "screen_summary": "Sci-fi corridor scene, character carrying box through green-lit ship hallway",
-          "webcam": "present",
           "captures": [
             {
               "start": "01:18",
@@ -686,8 +685,9 @@
             "https://i.imgur.com/AorhyLP.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "present",
+          "sensitive": false
         },
         {
           "start": "02:33",
@@ -697,7 +697,6 @@
           "activity": "sleeping",
           "project": "Sleep",
           "screen_summary": "overnight sleep gap autofill",
-          "webcam": "absent",
           "captures": [
             {
               "start": "02:33",
@@ -876,33 +875,33 @@
           ],
           "images": [],
           "sensitive_count": 29,
-          "sensitive": true,
-          "notes": ""
+          "notes": "",
+          "webcam": "absent",
+          "sensitive": true
         }
       ],
       "dailySummary": {
-        "date": "2026-05-20",
-        "tracked_min": 480,
+        "total_min": 480,
         "productivity_min": 255,
         "deep_work_min": 0,
-        "learning_min": 0,
+        "meetings_min": 0,
         "leisure_min": 150,
-        "afk_min": 30,
-        "exercise_min": 0,
-        "admin_min": 45,
-        "social_min": 0,
-        "top_blocks": "working on SelfTrack (4h 0m) - playing Total War (30m) - taking a bath (notepad note left on screen) (30m)",
-        "reflection": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped - zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
+        "learning_min": 30,
+        "admin_min": 0,
+        "afk_min": 45,
+        "sleep_min": 0,
+        "top_activities": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
+        "insight": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
         "first_last": "15:58 / 00:03",
         "note_from_sun": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
       }
     },
     {
       "date": "2026-05-21",
-      "tracked_min": 480,
+      "tracked_min": 540,
       "by_category": {
         "Admin/Errands": 15,
-        "AFK/Idle": 375,
+        "AFK/Idle": 435,
         "Learning": 45,
         "Leisure": 30,
         "Productivity": 15
@@ -914,7 +913,7 @@
         "Leisure": 30,
         "AI Research": 30,
         "SelfTrack": 15,
-        "Haircut": 285
+        "Haircut": 345
       },
       "blocks": [
         {
@@ -925,7 +924,6 @@
           "activity": "managing torrent downloads",
           "project": "Personal",
           "screen_summary": "uTorrent Web dashboard open over scenic desktop wallpaper, 38GB downloaded / 9.5GB uploaded",
-          "webcam": "present",
           "captures": [
             {
               "start": "10:06",
@@ -938,8 +936,9 @@
             "https://i.imgur.com/1py712S.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "present",
+          "sensitive": false
         },
         {
           "start": "10:21",
@@ -949,7 +948,6 @@
           "activity": "away from desk",
           "project": "Gym",
           "screen_summary": "Notepad open with single word 'Gym' typed; user not at desk",
-          "webcam": "absent",
           "captures": [
             {
               "start": "10:21",
@@ -997,8 +995,9 @@
             "https://i.imgur.com/xfarIWq.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "absent",
+          "sensitive": false
         },
         {
           "start": "11:51",
@@ -1007,13 +1006,12 @@
           "category": "Learning",
           "activity": "watching math YouTube",
           "project": "Math/Learning",
-          "screen_summary": "YouTube search for 'erdos math problems' - Numberphile Erdos Numbers thumbnail visible",
-          "webcam": "present",
+          "screen_summary": "YouTube search for 'erdos math problems' — Numberphile Erdős Numbers thumbnail visible",
           "captures": [
             {
               "start": "11:51",
               "image": "https://i.imgur.com/wXIUyjp.jpeg",
-              "summary": "YouTube search for 'erdos math problems' - Numberphile Erdos Numbers thumbnail visible",
+              "summary": "YouTube search for 'erdos math problems' — Numberphile Erdős Numbers thumbnail visible",
               "sensitive": false
             }
           ],
@@ -1021,8 +1019,9 @@
             "https://i.imgur.com/wXIUyjp.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "present",
+          "sensitive": false
         },
         {
           "start": "12:07",
@@ -1032,7 +1031,6 @@
           "activity": "watching YouTube",
           "project": "Leisure",
           "screen_summary": "YouTube article-card style video about Apple AirPods Ultra with cameras (Bloomberg)",
-          "webcam": "present",
           "captures": [
             {
               "start": "12:07",
@@ -1052,8 +1050,9 @@
             "https://i.imgur.com/TWVp4xs.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "present",
+          "sensitive": false
         },
         {
           "start": "12:37",
@@ -1062,13 +1061,12 @@
           "category": "Learning",
           "activity": "watching AI tutorial",
           "project": "AI Research",
-          "screen_summary": "NetworkChuck YouTube 'can you run hermes locally' - Codex provider list (Nous Portal, OpenRouter, LM Studio)",
-          "webcam": "present",
+          "screen_summary": "NetworkChuck YouTube 'can you run hermes locally' — Codex provider list (Nous Portal, OpenRouter, LM Studio)",
           "captures": [
             {
               "start": "12:37",
               "image": "https://i.imgur.com/7ypa5uD.jpeg",
-              "summary": "NetworkChuck YouTube 'can you run hermes locally' - Codex provider list (Nous Portal, OpenRouter, LM Studio)",
+              "summary": "NetworkChuck YouTube 'can you run hermes locally' — Codex provider list (Nous Portal, OpenRouter, LM Studio)",
               "sensitive": false
             }
           ],
@@ -1076,8 +1074,9 @@
             "https://i.imgur.com/7ypa5uD.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "present",
+          "sensitive": false
         },
         {
           "start": "12:52",
@@ -1087,7 +1086,6 @@
           "activity": "reviewing SelfTrack dashboard",
           "project": "SelfTrack",
           "screen_summary": "SelfTrack daily activity dashboard open in Chrome, browsing recent rows, DevTools panel visible",
-          "webcam": "present",
           "captures": [
             {
               "start": "12:52",
@@ -1100,8 +1098,9 @@
             "https://i.imgur.com/R0ig3aH.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "present",
+          "sensitive": false
         },
         {
           "start": "13:07",
@@ -1111,7 +1110,6 @@
           "activity": "reading AI benchmark",
           "project": "AI Research",
           "screen_summary": "Hermes Benchmark thread on X: GPT-5.5 vs Opus 4.7 (3/3 each, Opus 1.9x faster, GPT-5.5 12% cheaper)",
-          "webcam": "present",
           "captures": [
             {
               "start": "13:07",
@@ -1124,8 +1122,9 @@
             "https://i.imgur.com/AgzwyGi.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "present",
+          "sensitive": false
         },
         {
           "start": "13:22",
@@ -1135,7 +1134,6 @@
           "activity": "away from desk",
           "project": "Haircut",
           "screen_summary": "PROMPTs.txt open with note 'Going to get haircut'",
-          "webcam": "absent",
           "captures": [
             {
               "start": "13:22",
@@ -1148,18 +1146,18 @@
             "https://i.imgur.com/A98Y1Bc.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "absent",
+          "sensitive": false
         },
         {
           "start": "13:37",
-          "end": "18:07",
-          "min": 270,
+          "end": "19:07",
+          "min": 330,
           "category": "AFK/Idle",
           "activity": "haircut errand",
           "project": "Haircut",
           "screen_summary": "PROMPTs.txt open with note 'Going to get haircut'; webcam dark",
-          "webcam": "absent",
           "captures": [
             {
               "start": "13:37",
@@ -1268,6 +1266,30 @@
               "image": "https://i.imgur.com/kk7YOlh.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
+            },
+            {
+              "start": "18:07",
+              "image": "https://i.imgur.com/nuoeRWc.jpeg",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
+              "sensitive": false
+            },
+            {
+              "start": "18:22",
+              "image": "https://i.imgur.com/7dqE8Us.jpeg",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
+              "sensitive": false
+            },
+            {
+              "start": "18:37",
+              "image": "https://i.imgur.com/VbgpLNs.jpeg",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
+              "sensitive": false
+            },
+            {
+              "start": "18:52",
+              "image": "https://i.imgur.com/NKYBupX.jpeg",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
+              "sensitive": false
             }
           ],
           "images": [
@@ -1288,11 +1310,16 @@
             "https://i.imgur.com/um9BPu5.jpeg",
             "https://i.imgur.com/EokkeZh.jpeg",
             "https://i.imgur.com/DCNJJZO.jpeg",
-            "https://i.imgur.com/kk7YOlh.jpeg"
+            "https://i.imgur.com/kk7YOlh.jpeg",
+            "https://i.imgur.com/nuoeRWc.jpeg",
+            "https://i.imgur.com/7dqE8Us.jpeg",
+            "https://i.imgur.com/VbgpLNs.jpeg",
+            "https://i.imgur.com/NKYBupX.jpeg"
           ],
           "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": "",
+          "webcam": "absent",
+          "sensitive": false
         }
       ]
     }
