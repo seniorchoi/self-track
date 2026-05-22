@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T21:04:55.007Z",
+  "generatedAt": "2026-05-22T07:15:44.268Z",
   "days": [
     {
       "date": "2026-05-20",
@@ -499,7 +499,7 @@
         {
           "start": "23:16",
           "end": "00:18",
-          "min": 60,
+          "min": 62,
           "category": "Productivity",
           "activity": "working on SelfTrack",
           "project": "SelfTrack build",
@@ -881,20 +881,19 @@
         }
       ],
       "dailySummary": {
-        "date": "2026-05-20",
-        "total_min": 480,
-        "productivity_min": 255,
-        "deep_work_min": 0,
-        "meetings_min": 0,
-        "learning_min": 150,
-        "leisure_min": 30,
-        "admin_min": 0,
-        "afk_min": 45,
-        "other_min": 0,
-        "top_activities": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
+        "tracked_min": 480,
+        "productivity": 255,
+        "mbti_oracle": 0,
+        "tiktok": 0,
+        "learning": 150,
+        "leisure": 30,
+        "admin": 0,
+        "sleep": 45,
+        "gym": 0,
+        "top": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
         "reflection": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
         "first_last": "15:58 / 00:03",
-        "note_from_sun": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
+        "note": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
       }
     },
     {
@@ -1154,7 +1153,7 @@
         {
           "start": "13:37",
           "end": "04:08",
-          "min": 870,
+          "min": 871,
           "category": "AFK/Idle",
           "activity": "haircut errand",
           "project": "Haircut",
@@ -1576,36 +1575,37 @@
         }
       ],
       "dailySummary": {
-        "date": "2026-05-21",
-        "total_min": 1440,
-        "productivity_min": 60,
-        "deep_work_min": 0,
-        "meetings_min": 0,
-        "learning_min": 150,
-        "leisure_min": 45,
-        "admin_min": 15,
-        "afk_min": 1170,
-        "other_min": 0,
-        "top_activities": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
+        "tracked_min": 1440,
+        "productivity": 60,
+        "mbti_oracle": 0,
+        "tiktok": 0,
+        "learning": 150,
+        "leisure": 45,
+        "admin": 15,
+        "sleep": 1170,
+        "gym": 0,
+        "top": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
         "reflection": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
         "first_last": "00:03 / 23:53",
-        "note_from_sun": ""
+        "note": ""
       }
     },
     {
       "date": "2026-05-22",
-      "tracked_min": 120,
+      "tracked_min": 165,
       "by_category": {
-        "AFK/Idle": 120
+        "AFK/Idle": 150,
+        "Leisure": 15
       },
       "by_project": {
-        "Haircut": 120
+        "Haircut": 150,
+        "Media/Leisure": 15
       },
       "blocks": [
         {
           "start": "04:08",
-          "end": "06:08",
-          "min": 120,
+          "end": "06:38",
+          "min": 150,
           "category": "AFK/Idle",
           "activity": "haircut errand",
           "project": "Haircut",
@@ -1659,6 +1659,18 @@
               "image": "https://i.imgur.com/gNYabpX.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
+            },
+            {
+              "start": "06:08",
+              "image": "https://i.imgur.com/mPSj4If.jpeg",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
+              "sensitive": false
+            },
+            {
+              "start": "06:23",
+              "image": "https://i.imgur.com/Bo8nBoe.jpeg",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
+              "sensitive": false
             }
           ],
           "notes": "",
@@ -1670,7 +1682,33 @@
             "https://i.imgur.com/tHOoJXQ.jpeg",
             "https://i.imgur.com/Y1299qM.jpeg",
             "https://i.imgur.com/hVIPXpJ.jpeg",
-            "https://i.imgur.com/gNYabpX.jpeg"
+            "https://i.imgur.com/gNYabpX.jpeg",
+            "https://i.imgur.com/mPSj4If.jpeg",
+            "https://i.imgur.com/Bo8nBoe.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false
+        },
+        {
+          "start": "16:01",
+          "end": "16:16",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "streaming via uTorrent Web",
+          "project": "Media/Leisure",
+          "screen_summary": "uTorrent Web dashboard open with media player streaming a video clip; desktop with file folders visible",
+          "webcam": "present, head centered, neutral expression",
+          "captures": [
+            {
+              "start": "16:01",
+              "image": "https://i.imgur.com/OzhtDKo.jpeg",
+              "summary": "uTorrent Web dashboard open with media player streaming a video clip; desktop with file folders visible",
+              "sensitive": false
+            }
+          ],
+          "notes": "",
+          "images": [
+            "https://i.imgur.com/OzhtDKo.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false
