@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T18:04:34.523123+09:00",
+  "generatedAt": "2026-05-22T19:07:19.712431+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -881,19 +881,20 @@
         }
       ],
       "dailySummary": {
-        "tracked_min": 480,
-        "productivity": 255,
-        "mbti_oracle": 0,
-        "tiktok": 0,
-        "learning": 150,
-        "leisure": 30,
-        "admin": 0,
-        "sleep": 45,
-        "gym": 0,
-        "top": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
-        "reflection": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
-        "first_last": "15:58 / 00:03",
-        "note": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
+        "date": "2026-05-20",
+        "tracked_min": "480",
+        "productivity_min": "255",
+        "learning_min": "0",
+        "admin_min": "0",
+        "leisure_min": "150",
+        "afk_min": "30",
+        "unclassified_min": "0",
+        "sleep_min": "45",
+        "social_min": "0",
+        "top_activities": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
+        "critique": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
+        "first_last_capture": "15:58 / 00:03",
+        "note_from_sun": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
       }
     },
     {
@@ -1157,163 +1158,163 @@
           "category": "AFK/Idle",
           "activity": "haircut errand",
           "project": "Haircut",
-          "screen_summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+          "screen_summary": "PROMPTs.txt open with note 'Going to get haircut'; webcam dark",
           "webcam": "absent",
           "captures": [
             {
               "start": "13:37",
               "image": "https://i.imgur.com/avueBxo.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; webcam dark",
               "sensitive": false
             },
             {
               "start": "13:52",
               "image": "https://i.imgur.com/dyTQoj5.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; webcam dark",
               "sensitive": false
             },
             {
               "start": "14:07",
               "image": "https://i.imgur.com/Kq2i7Qq.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "14:22",
               "image": "https://i.imgur.com/bftt03C.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "14:37",
               "image": "https://i.imgur.com/rJogfYS.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "14:52",
               "image": "https://i.imgur.com/eWBACwS.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "15:07",
               "image": "https://i.imgur.com/HtdM1wP.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "15:22",
               "image": "https://i.imgur.com/T1psl9g.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "15:37",
               "image": "https://i.imgur.com/9fTp8gQ.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "15:52",
               "image": "https://i.imgur.com/UPxEgdE.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "16:07",
               "image": "https://i.imgur.com/3Bar4gD.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "16:22",
               "image": "https://i.imgur.com/0LHSBoD.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "16:37",
               "image": "https://i.imgur.com/qQGgYdP.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "16:52",
               "image": "https://i.imgur.com/0Q6EtVZ.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "17:07",
               "image": "https://i.imgur.com/um9BPu5.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "17:22",
               "image": "https://i.imgur.com/EokkeZh.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "17:37",
               "image": "https://i.imgur.com/DCNJJZO.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "17:52",
               "image": "https://i.imgur.com/kk7YOlh.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "18:07",
               "image": "https://i.imgur.com/nuoeRWc.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "18:22",
               "image": "https://i.imgur.com/7dqE8Us.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "18:37",
               "image": "https://i.imgur.com/VbgpLNs.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "18:52",
               "image": "https://i.imgur.com/NKYBupX.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "19:07",
               "image": "https://i.imgur.com/PhuOfWV.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away, room dark",
               "sensitive": false
             },
             {
               "start": "19:22",
               "image": "https://i.imgur.com/I1Gs4LV.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away, room dark",
               "sensitive": false
             },
             {
               "start": "19:37",
               "image": "https://i.imgur.com/DygszYt.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away, room dark",
               "sensitive": false
             },
             {
               "start": "19:52",
               "image": "https://i.imgur.com/X13rjik.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away, room dark",
               "sensitive": false
             },
             {
@@ -1575,27 +1576,28 @@
         }
       ],
       "dailySummary": {
-        "tracked_min": 1440,
-        "productivity": 60,
-        "mbti_oracle": 0,
-        "tiktok": 0,
-        "learning": 150,
-        "leisure": 45,
-        "admin": 15,
-        "sleep": 1170,
-        "gym": 0,
-        "top": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
-        "reflection": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
-        "first_last": "00:03 / 23:53",
-        "note": ""
+        "date": "2026-05-21",
+        "tracked_min": "1440",
+        "productivity_min": "60",
+        "learning_min": "0",
+        "admin_min": "0",
+        "leisure_min": "150",
+        "afk_min": "45",
+        "unclassified_min": "15",
+        "sleep_min": "1170",
+        "social_min": "0",
+        "top_activities": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
+        "critique": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
+        "first_last_capture": "00:03 / 23:53",
+        "note_from_sun": null
       }
     },
     {
       "date": "2026-05-22",
-      "tracked_min": 270,
+      "tracked_min": 330,
       "by_category": {
         "AFK/Idle": 150,
-        "Leisure": 90,
+        "Leisure": 150,
         "Productivity": 30
       },
       "by_project": {
@@ -1603,7 +1605,7 @@
         "Media/Leisure": 15,
         "SelfTrack": 30,
         "LoL/Leisure": 45,
-        "Warhammer/Leisure": 30
+        "Warhammer/Leisure": 90
       },
       "blocks": [
         {
@@ -1643,37 +1645,37 @@
             {
               "start": "05:08",
               "image": "https://i.imgur.com/tHOoJXQ.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "05:23",
               "image": "https://i.imgur.com/Y1299qM.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "05:38",
               "image": "https://i.imgur.com/hVIPXpJ.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "05:53",
               "image": "https://i.imgur.com/gNYabpX.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "06:08",
               "image": "https://i.imgur.com/mPSj4If.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "06:23",
               "image": "https://i.imgur.com/Bo8nBoe.jpeg",
-              "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+              "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             }
           ],
@@ -1805,8 +1807,8 @@
         },
         {
           "start": "17:31",
-          "end": "18:01",
-          "min": 30,
+          "end": "19:01",
+          "min": 90,
           "category": "Leisure",
           "activity": "playing Total War: Warhammer",
           "project": "Warhammer/Leisure",
@@ -1824,11 +1826,39 @@
               "image": "https://i.imgur.com/paNa6qB.jpeg",
               "summary": "Total War: Warhammer battle in progress on snowy battlefield, multiple unit banners deployed",
               "sensitive": false
+            },
+            {
+              "start": "18:01",
+              "image": "https://i.imgur.com/I3kwKPd.jpeg",
+              "summary": "Total War: Warhammer campaign/battle screen with unit roster, lord portrait, and event messages",
+              "sensitive": false
+            },
+            {
+              "start": "18:16",
+              "image": "https://i.imgur.com/28V1Xbm.jpeg",
+              "summary": "Total War: Warhammer campaign/battle screen with unit roster, lord portrait, and event messages",
+              "sensitive": false
+            },
+            {
+              "start": "18:31",
+              "image": "https://i.imgur.com/drrWKf5.jpeg",
+              "summary": "Total War: Warhammer campaign/battle screen with unit roster, lord portrait, and event messages",
+              "sensitive": false
+            },
+            {
+              "start": "18:46",
+              "image": "https://i.imgur.com/v5QuByO.jpeg",
+              "summary": "Total War: Warhammer campaign/battle screen with unit roster, lord portrait, and event messages",
+              "sensitive": false
             }
           ],
           "images": [
             "https://i.imgur.com/rTBJGyR.jpeg",
-            "https://i.imgur.com/paNa6qB.jpeg"
+            "https://i.imgur.com/paNa6qB.jpeg",
+            "https://i.imgur.com/I3kwKPd.jpeg",
+            "https://i.imgur.com/28V1Xbm.jpeg",
+            "https://i.imgur.com/drrWKf5.jpeg",
+            "https://i.imgur.com/v5QuByO.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
