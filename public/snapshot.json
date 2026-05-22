@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T19:07:19.712431+09:00",
+  "generatedAt": "2026-05-22T20:48:48+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -53,7 +53,7 @@
           "activity": "working on SelfTrack",
           "project": "SelfTrack build",
           "screen_summary": "OpenClaw chat thread discussing SelfTrack capture loop, watcher fixes, and posture-alert behavior.",
-          "webcam": "away",
+          "webcam": "present",
           "captures": [
             {
               "start": "16:15",
@@ -883,17 +883,17 @@
       "dailySummary": {
         "date": "2026-05-20",
         "tracked_min": "480",
-        "productivity_min": "255",
-        "learning_min": "0",
-        "admin_min": "0",
-        "leisure_min": "150",
-        "afk_min": "30",
-        "unclassified_min": "0",
-        "sleep_min": "45",
-        "social_min": "0",
+        "col_c": "255",
+        "col_d": "0",
+        "col_e": "0",
+        "col_f": "150",
+        "col_g": "30",
+        "col_h": "0",
+        "col_i": "45",
+        "col_j": "0",
         "top_activities": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
-        "critique": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
-        "first_last_capture": "15:58 / 00:03",
+        "commentary": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
+        "window": "15:58 / 00:03",
         "note_from_sun": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
       }
     },
@@ -1578,26 +1578,26 @@
       "dailySummary": {
         "date": "2026-05-21",
         "tracked_min": "1440",
-        "productivity_min": "60",
-        "learning_min": "0",
-        "admin_min": "0",
-        "leisure_min": "150",
-        "afk_min": "45",
-        "unclassified_min": "15",
-        "sleep_min": "1170",
-        "social_min": "0",
+        "col_c": "60",
+        "col_d": "0",
+        "col_e": "0",
+        "col_f": "150",
+        "col_g": "45",
+        "col_h": "15",
+        "col_i": "1170",
+        "col_j": "0",
         "top_activities": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
-        "critique": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
-        "first_last_capture": "00:03 / 23:53",
-        "note_from_sun": null
+        "commentary": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
+        "window": "00:03 / 23:53",
+        "note_from_sun": ""
       }
     },
     {
       "date": "2026-05-22",
-      "tracked_min": 330,
+      "tracked_min": 375,
       "by_category": {
-        "AFK/Idle": 150,
-        "Leisure": 150,
+        "AFK/Idle": 165,
+        "Leisure": 180,
         "Productivity": 30
       },
       "by_project": {
@@ -1605,7 +1605,10 @@
         "Media/Leisure": 15,
         "SelfTrack": 30,
         "LoL/Leisure": 45,
-        "Warhammer/Leisure": 90
+        "Warhammer/Leisure": 90,
+        "X/Leisure": 15,
+        "YouTube/Leisure": 15,
+        "Idle": 15
       },
       "blocks": [
         {
@@ -1813,7 +1816,7 @@
           "activity": "playing Total War: Warhammer",
           "project": "Warhammer/Leisure",
           "screen_summary": "Total War: Warhammer battle scene on a snowy map; lord portrait and unit roster visible",
-          "webcam": "absent",
+          "webcam": "present, wearing headphones",
           "captures": [
             {
               "start": "17:31",
@@ -1859,6 +1862,78 @@
             "https://i.imgur.com/28V1Xbm.jpeg",
             "https://i.imgur.com/drrWKf5.jpeg",
             "https://i.imgur.com/v5QuByO.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "19:01",
+          "end": "19:16",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "browsing X/Twitter",
+          "project": "X/Leisure",
+          "screen_summary": "X/Twitter post from @Wisdom_HQ — image of person holding sign 'I need a movie where the villain actually won'",
+          "webcam": "present, head centered, looking down",
+          "captures": [
+            {
+              "start": "19:01",
+              "image": "https://i.imgur.com/Lccb9u7.jpeg",
+              "summary": "X/Twitter post from @Wisdom_HQ — image of person holding sign 'I need a movie where the villain actually won'",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/Lccb9u7.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "19:16",
+          "end": "19:31",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "watching AI/sci-fi YouTube",
+          "project": "YouTube/Leisure",
+          "screen_summary": "YouTube playing 'The First 48 Hours of an AI Civil War - A Realistic Scenario' by Species (Documenting AGI), with growth chart visualization",
+          "webcam": "absent, empty bedroom visible",
+          "captures": [
+            {
+              "start": "19:16",
+              "image": "https://i.imgur.com/9W2RTcy.jpeg",
+              "summary": "YouTube playing 'The First 48 Hours of an AI Civil War - A Realistic Scenario' by Species (Documenting AGI), with growth chart visualization",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/9W2RTcy.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "20:36",
+          "end": "20:51",
+          "min": 15,
+          "category": "AFK/Idle",
+          "activity": "desktop idle (VPN running)",
+          "project": "Idle",
+          "screen_summary": "Windows desktop with Windscribe VPN panel connected to Montreal node 6.7; no active app windows",
+          "webcam": "absent, empty bedroom visible",
+          "captures": [
+            {
+              "start": "20:36",
+              "image": "https://i.imgur.com/YEALPcf.jpeg",
+              "summary": "Windows desktop with Windscribe VPN panel connected to Montreal node 6.7; no active app windows",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/YEALPcf.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
