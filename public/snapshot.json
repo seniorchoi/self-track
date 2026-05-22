@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T20:48:48+09:00",
+  "generatedAt": "2026-05-22T21:05:31.181333+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -881,19 +881,10 @@
         }
       ],
       "dailySummary": {
-        "date": "2026-05-20",
-        "tracked_min": "480",
-        "col_c": "255",
-        "col_d": "0",
-        "col_e": "0",
-        "col_f": "150",
-        "col_g": "30",
-        "col_h": "0",
-        "col_i": "45",
-        "col_j": "0",
-        "top_activities": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
-        "commentary": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
-        "window": "15:58 / 00:03",
+        "total_min": "480",
+        "activity_breakdown": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
+        "reflection": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
+        "times": "15:58 / 00:03",
         "note_from_sun": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
       }
     },
@@ -1576,28 +1567,19 @@
         }
       ],
       "dailySummary": {
-        "date": "2026-05-21",
-        "tracked_min": "1440",
-        "col_c": "60",
-        "col_d": "0",
-        "col_e": "0",
-        "col_f": "150",
-        "col_g": "45",
-        "col_h": "15",
-        "col_i": "1170",
-        "col_j": "0",
-        "top_activities": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
-        "commentary": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
-        "window": "00:03 / 23:53",
+        "total_min": "1440",
+        "activity_breakdown": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
+        "reflection": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
+        "times": "00:03 / 23:53",
         "note_from_sun": ""
       }
     },
     {
       "date": "2026-05-22",
-      "tracked_min": 375,
+      "tracked_min": 390,
       "by_category": {
         "AFK/Idle": 165,
-        "Leisure": 180,
+        "Leisure": 195,
         "Productivity": 30
       },
       "by_project": {
@@ -1606,7 +1588,7 @@
         "SelfTrack": 30,
         "LoL/Leisure": 45,
         "Warhammer/Leisure": 90,
-        "X/Leisure": 15,
+        "X/Leisure": 30,
         "YouTube/Leisure": 15,
         "Idle": 15
       },
@@ -1934,6 +1916,30 @@
           ],
           "images": [
             "https://i.imgur.com/YEALPcf.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "20:51",
+          "end": "21:06",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "browsing X/Twitter",
+          "project": "X/Leisure",
+          "screen_summary": "X/Twitter For You feed with tech/news posts (Hermes Agent, Vibe Coding, AI startup news) and a tennis video",
+          "webcam": "present, head bent forward leaning down",
+          "captures": [
+            {
+              "start": "20:51",
+              "image": "https://i.imgur.com/Ux9oDig.jpeg",
+              "summary": "X/Twitter For You feed with tech/news posts (Hermes Agent, Vibe Coding, AI startup news) and a tennis video",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/Ux9oDig.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
