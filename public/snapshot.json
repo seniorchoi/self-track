@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T18:03:40+09:00",
+  "generatedAt": "2026-05-23T19:03:30+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -23,7 +23,7 @@
       "blocks": [
         {
           "start": "15:58",
-          "end": "16:28",
+          "end": "16:13",
           "min": 15,
           "category": "Productivity",
           "activity": "browsing Pixabay sound effects",
@@ -47,7 +47,7 @@
         },
         {
           "start": "16:15",
-          "end": "18:00",
+          "end": "17:45",
           "min": 90,
           "category": "Productivity",
           "activity": "working on SelfTrack",
@@ -106,7 +106,7 @@
         },
         {
           "start": "17:45",
-          "end": "18:15",
+          "end": "18:00",
           "min": 15,
           "category": "Leisure",
           "activity": "browsing X (Twitter)",
@@ -130,7 +130,7 @@
         },
         {
           "start": "18:00",
-          "end": "20:00",
+          "end": "19:45",
           "min": 105,
           "category": "Productivity",
           "activity": "working on SelfTrack",
@@ -196,7 +196,7 @@
         },
         {
           "start": "19:45",
-          "end": "20:15",
+          "end": "20:00",
           "min": 15,
           "category": "Leisure",
           "activity": "playing a fantasy game",
@@ -220,7 +220,7 @@
         },
         {
           "start": "20:00",
-          "end": "20:30",
+          "end": "20:15",
           "min": 15,
           "category": "Leisure",
           "activity": "researching games to download",
@@ -244,7 +244,7 @@
         },
         {
           "start": "20:15",
-          "end": "20:45",
+          "end": "20:30",
           "min": 15,
           "category": "AFK/Idle",
           "activity": "screen off / loading",
@@ -268,7 +268,7 @@
         },
         {
           "start": "20:30",
-          "end": "21:15",
+          "end": "21:00",
           "min": 30,
           "category": "Leisure",
           "activity": "playing Total War",
@@ -299,7 +299,7 @@
         },
         {
           "start": "21:00",
-          "end": "21:30",
+          "end": "21:15",
           "min": 15,
           "category": "Leisure",
           "activity": "watching Korean webtoon on YouTube",
@@ -323,7 +323,7 @@
         },
         {
           "start": "21:15",
-          "end": "21:45",
+          "end": "21:30",
           "min": 15,
           "category": "Productivity",
           "activity": "reviewing OpenClaw chat about MBTI cookie collector + permissions table",
@@ -347,7 +347,7 @@
         },
         {
           "start": "21:30",
-          "end": "22:00",
+          "end": "21:45",
           "min": 15,
           "category": "Learning",
           "activity": "watching '$1M+ Solo AI Agent Business' course on YouTube — Offer mindmap",
@@ -371,7 +371,7 @@
         },
         {
           "start": "21:46",
-          "end": "22:31",
+          "end": "22:16",
           "min": 30,
           "category": "AFK/Idle",
           "activity": "taking a bath (notepad note left on screen)",
@@ -402,7 +402,7 @@
         },
         {
           "start": "22:16",
-          "end": "22:46",
+          "end": "22:31",
           "min": 15,
           "category": "Learning",
           "activity": "watching '$1M+ Solo AI Agent Business' (Greg Isenberg) — startup ideas section",
@@ -426,7 +426,7 @@
         },
         {
           "start": "22:31",
-          "end": "23:01",
+          "end": "22:46",
           "min": 15,
           "category": "Leisure",
           "activity": "browsing YouTube homepage",
@@ -450,7 +450,7 @@
         },
         {
           "start": "22:46",
-          "end": "23:16",
+          "end": "23:01",
           "min": 15,
           "category": "Leisure",
           "activity": "scrolling X/Twitter timeline",
@@ -474,7 +474,7 @@
         },
         {
           "start": "23:01",
-          "end": "23:31",
+          "end": "23:16",
           "min": 15,
           "category": "Leisure",
           "activity": "watching David Shapiro YouTube video",
@@ -498,7 +498,7 @@
         },
         {
           "start": "23:16",
-          "end": "00:33",
+          "end": "00:18",
           "min": 60,
           "category": "Productivity",
           "activity": "working on SelfTrack",
@@ -543,7 +543,7 @@
         },
         {
           "start": "00:18",
-          "end": "00:48",
+          "end": "00:33",
           "min": 15,
           "category": "Leisure",
           "activity": "scrolling X/Twitter timeline",
@@ -567,7 +567,7 @@
         },
         {
           "start": "00:33",
-          "end": "01:03",
+          "end": "00:48",
           "min": 15,
           "category": "Productivity",
           "activity": "reviewing Life of Sun timeline dashboard",
@@ -591,7 +591,7 @@
         },
         {
           "start": "00:48",
-          "end": "01:18",
+          "end": "01:03",
           "min": 15,
           "category": "Leisure",
           "activity": "scrolling X/Twitter timeline",
@@ -615,7 +615,7 @@
         },
         {
           "start": "01:03",
-          "end": "01:33",
+          "end": "01:18",
           "min": 15,
           "category": "Productivity",
           "activity": "working on SelfTrack",
@@ -639,7 +639,7 @@
         },
         {
           "start": "01:18",
-          "end": "02:48",
+          "end": "02:33",
           "min": 75,
           "category": "Leisure",
           "activity": "watching The Expanse",
@@ -691,7 +691,7 @@
         },
         {
           "start": "02:33",
-          "end": "10:03",
+          "end": "09:48",
           "min": 435,
           "category": "AFK/Idle",
           "activity": "sleeping",
@@ -877,15 +877,15 @@
           "images": [],
           "sensitive_count": 29,
           "sensitive": true,
-          "notes": ""
+          "notes": "🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture)"
         }
       ],
       "dailySummary": {
-        "tracked_min": 480,
-        "afk_idle_min": 75,
+        "tracked_min": 1065,
+        "afk_idle_min": 30,
         "productivity_min": 255,
-        "learning_min": 0,
-        "leisure_min": 150,
+        "learning_min": 150,
+        "leisure_min": 45,
         "top_activities": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
         "insight": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
         "span": "15:58 / 00:03",
@@ -914,7 +914,7 @@
       "blocks": [
         {
           "start": "10:06",
-          "end": "10:36",
+          "end": "10:21",
           "min": 15,
           "category": "Admin/Errands",
           "activity": "managing torrent downloads",
@@ -938,7 +938,7 @@
         },
         {
           "start": "10:21",
-          "end": "12:06",
+          "end": "11:51",
           "min": 90,
           "category": "AFK/Idle",
           "activity": "away from desk",
@@ -997,7 +997,7 @@
         },
         {
           "start": "11:51",
-          "end": "12:21",
+          "end": "12:06",
           "min": 15,
           "category": "Learning",
           "activity": "watching math YouTube",
@@ -1021,7 +1021,7 @@
         },
         {
           "start": "12:07",
-          "end": "12:52",
+          "end": "12:37",
           "min": 30,
           "category": "Leisure",
           "activity": "watching YouTube",
@@ -1052,7 +1052,7 @@
         },
         {
           "start": "12:37",
-          "end": "13:07",
+          "end": "12:52",
           "min": 15,
           "category": "Learning",
           "activity": "watching AI tutorial",
@@ -1076,7 +1076,7 @@
         },
         {
           "start": "12:52",
-          "end": "13:22",
+          "end": "13:07",
           "min": 15,
           "category": "Productivity",
           "activity": "reviewing SelfTrack dashboard",
@@ -1100,7 +1100,7 @@
         },
         {
           "start": "13:07",
-          "end": "13:37",
+          "end": "13:22",
           "min": 15,
           "category": "Learning",
           "activity": "reading AI benchmark",
@@ -1124,7 +1124,7 @@
         },
         {
           "start": "13:22",
-          "end": "13:52",
+          "end": "13:37",
           "min": 15,
           "category": "AFK/Idle",
           "activity": "away from desk",
@@ -1148,7 +1148,7 @@
         },
         {
           "start": "13:37",
-          "end": "04:23",
+          "end": "04:08",
           "min": 870,
           "category": "AFK/Idle",
           "activity": "haircut errand",
@@ -1571,11 +1571,11 @@
         }
       ],
       "dailySummary": {
-        "tracked_min": 1440,
-        "afk_idle_min": 1230,
+        "tracked_min": 1080,
+        "afk_idle_min": 60,
         "productivity_min": 60,
-        "learning_min": 0,
-        "leisure_min": 150,
+        "learning_min": 150,
+        "leisure_min": 1170,
         "top_activities": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
         "insight": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
         "span": "00:03 / 23:53",
@@ -1607,7 +1607,7 @@
       "blocks": [
         {
           "start": "04:08",
-          "end": "06:53",
+          "end": "06:38",
           "min": 150,
           "category": "AFK/Idle",
           "activity": "haircut errand",
@@ -1694,7 +1694,7 @@
         },
         {
           "start": "16:01",
-          "end": "16:31",
+          "end": "16:16",
           "min": 15,
           "category": "Leisure",
           "activity": "streaming via uTorrent Web",
@@ -1718,7 +1718,7 @@
         },
         {
           "start": "16:16",
-          "end": "17:01",
+          "end": "16:46",
           "min": 30,
           "category": "Productivity",
           "activity": "OpenClaw agent control",
@@ -1749,7 +1749,7 @@
         },
         {
           "start": "16:46",
-          "end": "17:31",
+          "end": "17:16",
           "min": 30,
           "category": "Leisure",
           "activity": "watching LoL YouTube",
@@ -1780,7 +1780,7 @@
         },
         {
           "start": "17:16",
-          "end": "17:46",
+          "end": "17:31",
           "min": 15,
           "category": "Leisure",
           "activity": "watching Game Theory YouTube",
@@ -1804,7 +1804,7 @@
         },
         {
           "start": "17:31",
-          "end": "19:16",
+          "end": "19:01",
           "min": 90,
           "category": "Leisure",
           "activity": "playing Total War: Warhammer",
@@ -1863,7 +1863,7 @@
         },
         {
           "start": "19:01",
-          "end": "19:31",
+          "end": "19:16",
           "min": 15,
           "category": "Leisure",
           "activity": "browsing X/Twitter",
@@ -1887,7 +1887,7 @@
         },
         {
           "start": "19:16",
-          "end": "19:46",
+          "end": "19:31",
           "min": 15,
           "category": "Leisure",
           "activity": "watching AI/sci-fi YouTube",
@@ -1911,7 +1911,7 @@
         },
         {
           "start": "20:36",
-          "end": "21:06",
+          "end": "20:51",
           "min": 15,
           "category": "AFK/Idle",
           "activity": "desktop idle (VPN running)",
@@ -1935,7 +1935,7 @@
         },
         {
           "start": "20:51",
-          "end": "21:21",
+          "end": "21:06",
           "min": 15,
           "category": "Leisure",
           "activity": "browsing X/Twitter",
@@ -1959,7 +1959,7 @@
         },
         {
           "start": "21:06",
-          "end": "21:36",
+          "end": "21:21",
           "min": 15,
           "category": "Leisure",
           "activity": "watching Game Theory YouTube",
@@ -1983,7 +1983,7 @@
         },
         {
           "start": "21:21",
-          "end": "21:51",
+          "end": "21:36",
           "min": 15,
           "category": "Leisure",
           "activity": "browsing YouTube",
@@ -2007,7 +2007,7 @@
         },
         {
           "start": "21:36",
-          "end": "22:06",
+          "end": "21:51",
           "min": 15,
           "category": "Leisure",
           "activity": "watching Game Theory YouTube",
@@ -2031,7 +2031,7 @@
         },
         {
           "start": "21:51",
-          "end": "23:21",
+          "end": "23:06",
           "min": 75,
           "category": "Leisure",
           "activity": "watching movie/TV",
@@ -2083,7 +2083,7 @@
         },
         {
           "start": "23:06",
-          "end": "00:06",
+          "end": "23:51",
           "min": 45,
           "category": "Leisure",
           "activity": "watching AoE2 stream",
@@ -2121,7 +2121,7 @@
         },
         {
           "start": "23:51",
-          "end": "00:21",
+          "end": "00:06",
           "min": 15,
           "category": "Leisure",
           "activity": "browsing YouTube",
@@ -2145,7 +2145,7 @@
         },
         {
           "start": "00:06",
-          "end": "00:36",
+          "end": "00:21",
           "min": 15,
           "category": "Leisure",
           "activity": "Watching YouTube",
@@ -2169,7 +2169,7 @@
         },
         {
           "start": "00:21",
-          "end": "12:21",
+          "end": "12:06",
           "min": 705,
           "category": "AFK/Idle",
           "activity": "Sleeping",
@@ -2463,15 +2463,15 @@
           "images": [],
           "sensitive_count": 47,
           "sensitive": true,
-          "notes": ""
+          "notes": "🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping"
         }
       ],
       "dailySummary": {
-        "tracked_min": 810,
-        "afk_idle_min": 405,
+        "tracked_min": 1290,
+        "afk_idle_min": 0,
         "productivity_min": 30,
-        "learning_min": 0,
-        "leisure_min": 375,
+        "learning_min": 375,
+        "leisure_min": 405,
         "top_activities": "haircut errand (6h 30m) · playing Total War: Warhammer (1h 30m) · watching movie/TV (1h 15m)",
         "insight": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
         "span": "00:08 / 23:51",
@@ -2480,25 +2480,25 @@
     },
     {
       "date": "2026-05-23",
-      "tracked_min": 345,
+      "tracked_min": 405,
       "by_category": {
         "Leisure": 75,
         "Productivity": 90,
         "Learning": 120,
-        "AFK/Idle": 60
+        "AFK/Idle": 120
       },
       "by_project": {
         "Personal/Leisure": 45,
         "Productivity/Tom-infra": 30,
         "Simple Rizz": 60,
         "Learning/Reading": 120,
-        "Personal/Break": 60,
+        "Personal/Break": 120,
         "Gaming/Warhammer": 30
       },
       "blocks": [
         {
           "start": "12:15",
-          "end": "12:45",
+          "end": "12:30",
           "min": 15,
           "category": "Leisure",
           "activity": "Watching YouTube",
@@ -2522,7 +2522,7 @@
         },
         {
           "start": "12:30",
-          "end": "13:00",
+          "end": "12:45",
           "min": 15,
           "category": "Productivity",
           "activity": "Configuring Q-Admin agent",
@@ -2546,7 +2546,7 @@
         },
         {
           "start": "12:45",
-          "end": "13:15",
+          "end": "13:00",
           "min": 15,
           "category": "Productivity",
           "activity": "Configuring OpenClaw agent",
@@ -2570,7 +2570,7 @@
         },
         {
           "start": "13:00",
-          "end": "13:30",
+          "end": "13:15",
           "min": 15,
           "category": "Productivity",
           "activity": "Reviewing Simple Rizz analytics",
@@ -2594,7 +2594,7 @@
         },
         {
           "start": "13:15",
-          "end": "13:45",
+          "end": "13:30",
           "min": 15,
           "category": "Productivity",
           "activity": "Drafting Simple Rizz content with agent",
@@ -2618,7 +2618,7 @@
         },
         {
           "start": "13:30",
-          "end": "14:00",
+          "end": "13:45",
           "min": 15,
           "category": "Productivity",
           "activity": "Reviewing Simple Rizz analytics",
@@ -2642,7 +2642,7 @@
         },
         {
           "start": "13:45",
-          "end": "14:15",
+          "end": "14:00",
           "min": 15,
           "category": "Leisure",
           "activity": "Watching YouTube Shorts",
@@ -2666,7 +2666,7 @@
         },
         {
           "start": "14:00",
-          "end": "14:30",
+          "end": "14:15",
           "min": 15,
           "category": "Productivity",
           "activity": "Drafting Simple Rizz content with agent",
@@ -2690,7 +2690,7 @@
         },
         {
           "start": "14:15",
-          "end": "15:00",
+          "end": "14:45",
           "min": 30,
           "category": "Learning",
           "activity": "Reading essay on Claude.ai",
@@ -2721,7 +2721,7 @@
         },
         {
           "start": "14:45",
-          "end": "15:15",
+          "end": "15:00",
           "min": 15,
           "category": "AFK/Idle",
           "activity": "Away from desk",
@@ -2745,7 +2745,7 @@
         },
         {
           "start": "15:00",
-          "end": "15:45",
+          "end": "15:30",
           "min": 30,
           "category": "Learning",
           "activity": "Reading essay on Claude.ai",
@@ -2776,7 +2776,7 @@
         },
         {
           "start": "15:30",
-          "end": "16:15",
+          "end": "16:00",
           "min": 30,
           "category": "Leisure",
           "activity": "Playing Total War: Warhammer",
@@ -2807,7 +2807,7 @@
         },
         {
           "start": "16:00",
-          "end": "16:30",
+          "end": "16:15",
           "min": 15,
           "category": "Leisure",
           "activity": "Watching YouTube Shorts",
@@ -2831,7 +2831,7 @@
         },
         {
           "start": "16:15",
-          "end": "17:30",
+          "end": "17:15",
           "min": 60,
           "category": "Learning",
           "activity": "Reading essay on Claude.ai",
@@ -2876,8 +2876,8 @@
         },
         {
           "start": "17:15",
-          "end": "18:15",
-          "min": 45,
+          "end": "18:30",
+          "min": 75,
           "category": "AFK/Idle",
           "activity": "Away from desk",
           "project": "Personal/Break",
@@ -2901,12 +2901,57 @@
               "image": "https://i.imgur.com/pYI1CSH.jpeg",
               "summary": "Claude.ai still parked on the same essay 'The takeaway' page — no interaction.",
               "sensitive": false
+            },
+            {
+              "start": "18:00",
+              "image": "https://i.imgur.com/46bSM8d.jpeg",
+              "summary": "Claude.ai still parked on the same 'The takeaway' page — no interaction.",
+              "sensitive": false
+            },
+            {
+              "start": "18:15",
+              "image": "https://i.imgur.com/FPAU1bl.jpeg",
+              "summary": "Claude.ai still parked on the same 'The takeaway' page — no interaction.",
+              "sensitive": false
             }
           ],
           "images": [
             "https://i.imgur.com/avczwHh.jpeg",
             "https://i.imgur.com/coM8S6c.jpeg",
-            "https://i.imgur.com/pYI1CSH.jpeg"
+            "https://i.imgur.com/pYI1CSH.jpeg",
+            "https://i.imgur.com/46bSM8d.jpeg",
+            "https://i.imgur.com/FPAU1bl.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "18:30",
+          "end": "19:00",
+          "min": 30,
+          "category": "AFK/Idle",
+          "activity": "On phone, away from desktop",
+          "project": "Personal/Break",
+          "screen_summary": "Claude.ai still parked on the same 'The takeaway' page — no desktop interaction.",
+          "webcam": "Sun seated on bed using phone, upright, head over shoulders.",
+          "captures": [
+            {
+              "start": "18:30",
+              "image": "https://i.imgur.com/7I2csFb.jpeg",
+              "summary": "Claude.ai still parked on the same 'The takeaway' page — no desktop interaction.",
+              "sensitive": false
+            },
+            {
+              "start": "18:45",
+              "image": "https://i.imgur.com/QvRdYWE.jpeg",
+              "summary": "Claude.ai still parked on the same 'The takeaway' page — no desktop interaction.",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/7I2csFb.jpeg",
+            "https://i.imgur.com/QvRdYWE.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
