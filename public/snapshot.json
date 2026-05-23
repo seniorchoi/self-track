@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T19:03:30+09:00",
+  "generatedAt": "2026-05-23T20:00:52+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -877,19 +877,25 @@
           "images": [],
           "sensitive_count": 29,
           "sensitive": true,
-          "notes": "🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture) | 🔒 sleeping (no capture)"
+          "notes": ""
         }
       ],
       "dailySummary": {
-        "tracked_min": 1065,
-        "afk_idle_min": 30,
-        "productivity_min": 255,
-        "learning_min": 150,
-        "leisure_min": 45,
-        "top_activities": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
-        "insight": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
+        "tracked_min": 480,
+        "cats": [
+          255,
+          0,
+          0,
+          150,
+          30,
+          0,
+          45,
+          0
+        ],
+        "headline": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
+        "reflection": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
         "span": "15:58 / 00:03",
-        "note_from_sun": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
+        "note": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
       }
     },
     {
@@ -1571,15 +1577,21 @@
         }
       ],
       "dailySummary": {
-        "tracked_min": 1080,
-        "afk_idle_min": 60,
-        "productivity_min": 60,
-        "learning_min": 150,
-        "leisure_min": 1170,
-        "top_activities": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
-        "insight": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
+        "tracked_min": 1440,
+        "cats": [
+          60,
+          0,
+          0,
+          150,
+          45,
+          15,
+          1170,
+          0
+        ],
+        "headline": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
+        "reflection": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
         "span": "00:03 / 23:53",
-        "note_from_sun": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
+        "note": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
       }
     },
     {
@@ -2463,35 +2475,41 @@
           "images": [],
           "sensitive_count": 47,
           "sensitive": true,
-          "notes": "🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping | 🌙 sleeping"
+          "notes": ""
         }
       ],
       "dailySummary": {
-        "tracked_min": 1290,
-        "afk_idle_min": 0,
-        "productivity_min": 30,
-        "learning_min": 375,
-        "leisure_min": 405,
-        "top_activities": "haircut errand (6h 30m) · playing Total War: Warhammer (1h 30m) · watching movie/TV (1h 15m)",
-        "insight": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
+        "tracked_min": 810,
+        "cats": [
+          30,
+          0,
+          0,
+          375,
+          0,
+          0,
+          405,
+          0
+        ],
+        "headline": "haircut errand (6h 30m) · playing Total War: Warhammer (1h 30m) · watching movie/TV (1h 15m)",
+        "reflection": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
         "span": "00:08 / 23:51",
-        "note_from_sun": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
+        "note": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
       }
     },
     {
       "date": "2026-05-23",
-      "tracked_min": 405,
+      "tracked_min": 465,
       "by_category": {
-        "Leisure": 75,
-        "Productivity": 90,
-        "Learning": 120,
+        "Leisure": 90,
+        "Productivity": 105,
+        "Learning": 150,
         "AFK/Idle": 120
       },
       "by_project": {
-        "Personal/Leisure": 45,
+        "Personal/Leisure": 60,
         "Productivity/Tom-infra": 30,
-        "Simple Rizz": 60,
-        "Learning/Reading": 120,
+        "Simple Rizz": 75,
+        "Learning/Reading": 150,
         "Personal/Break": 120,
         "Gaming/Warhammer": 30
       },
@@ -2952,6 +2970,85 @@
           "images": [
             "https://i.imgur.com/7I2csFb.jpeg",
             "https://i.imgur.com/QvRdYWE.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "19:00",
+          "end": "19:30",
+          "min": 30,
+          "category": "Learning",
+          "activity": "Reading essay on Claude.ai",
+          "project": "Learning/Reading",
+          "screen_summary": "Claude.ai — same 'Exit, civilization, enlightenment' essay 'The takeaway' page.",
+          "webcam": "Sun centered, head slightly forward but body upright.",
+          "captures": [
+            {
+              "start": "19:00",
+              "image": "https://i.imgur.com/dmxeyjC.jpeg",
+              "summary": "Claude.ai — same 'Exit, civilization, enlightenment' essay 'The takeaway' page.",
+              "sensitive": false
+            },
+            {
+              "start": "19:15",
+              "image": "https://i.imgur.com/KUZhKSK.jpeg",
+              "summary": "Claude.ai — same essay 'The takeaway', 'Reply' tooltip visible (active reading).",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/dmxeyjC.jpeg",
+            "https://i.imgur.com/KUZhKSK.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "19:30",
+          "end": "19:45",
+          "min": 15,
+          "category": "Productivity",
+          "activity": "Drafting Simple Rizz content with agent",
+          "project": "Simple Rizz",
+          "screen_summary": "OpenClaw Console agent chat — back on the rejection challenge Day 1/Day 2 content plan.",
+          "webcam": "Sun close to camera, head jutting forward, looking down — slouched.",
+          "captures": [
+            {
+              "start": "19:30",
+              "image": "https://i.imgur.com/RVaSY6z.jpeg",
+              "summary": "OpenClaw Console agent chat — back on the rejection challenge Day 1/Day 2 content plan.",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/RVaSY6z.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "19:45",
+          "end": "20:00",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Browsing streaming site",
+          "project": "Personal/Leisure",
+          "screen_summary": "Soap2Day-like 'Watch Free DVDs 2025-2026' browser tab — grid of movie thumbnails (Outcome, War Machine, Yeti, Den Brother, etc.).",
+          "webcam": "Sun centered, upright, looking down.",
+          "captures": [
+            {
+              "start": "19:45",
+              "image": "https://i.imgur.com/gXp6qc9.jpeg",
+              "summary": "Soap2Day-like 'Watch Free DVDs 2025-2026' browser tab — grid of movie thumbnails (Outcome, War Machine, Yeti, Den Brother, etc.).",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/gXp6qc9.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
