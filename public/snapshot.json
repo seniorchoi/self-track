@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T15:02:56+09:00",
+  "generatedAt": "2026-05-23T16:00:50+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -881,20 +881,21 @@
         }
       ],
       "dailySummary": {
-        "date": "2026-05-20",
         "tracked_min": 480,
-        "sleep_min": 255,
-        "workout_min": 0,
-        "meal_min": 0,
-        "productivity_min": 150,
-        "leisure_min": 30,
-        "errand_min": 0,
-        "afk_min": 45,
-        "other_min": 0,
-        "top": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
-        "feedback": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
-        "awake_range": "15:58 / 00:03",
-        "note_from_sun": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
+        "cats": [
+          255,
+          0,
+          0,
+          150,
+          30,
+          0,
+          45,
+          0
+        ],
+        "headline": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
+        "reflection": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
+        "span": "15:58 / 00:03",
+        "note": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
       }
     },
     {
@@ -1576,20 +1577,21 @@
         }
       ],
       "dailySummary": {
-        "date": "2026-05-21",
         "tracked_min": 1440,
-        "sleep_min": 60,
-        "workout_min": 0,
-        "meal_min": 0,
-        "productivity_min": 150,
-        "leisure_min": 45,
-        "errand_min": 15,
-        "afk_min": 1170,
-        "other_min": 0,
-        "top": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
-        "feedback": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
-        "awake_range": "00:03 / 23:53",
-        "note_from_sun": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
+        "cats": [
+          60,
+          0,
+          0,
+          150,
+          45,
+          15,
+          1170,
+          0
+        ],
+        "headline": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
+        "reflection": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
+        "span": "00:03 / 23:53",
+        "note": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
       }
     },
     {
@@ -2477,37 +2479,39 @@
         }
       ],
       "dailySummary": {
-        "date": "2026-05-22",
         "tracked_min": 810,
-        "sleep_min": 30,
-        "workout_min": 0,
-        "meal_min": 0,
-        "productivity_min": 375,
-        "leisure_min": 0,
-        "errand_min": 0,
-        "afk_min": 405,
-        "other_min": 0,
-        "top": "haircut errand (6h 30m) · playing Total War: Warhammer (1h 30m) · watching movie/TV (1h 15m)",
-        "feedback": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
-        "awake_range": "00:08 / 23:51",
-        "note_from_sun": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
+        "cats": [
+          30,
+          0,
+          0,
+          375,
+          0,
+          0,
+          405,
+          0
+        ],
+        "headline": "haircut errand (6h 30m) · playing Total War: Warhammer (1h 30m) · watching movie/TV (1h 15m)",
+        "reflection": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
+        "span": "00:08 / 23:51",
+        "note": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
       }
     },
     {
       "date": "2026-05-23",
-      "tracked_min": 165,
+      "tracked_min": 225,
       "by_category": {
-        "Leisure": 30,
+        "Leisure": 60,
         "Productivity": 90,
-        "Learning": 30,
+        "Learning": 60,
         "AFK/Idle": 15
       },
       "by_project": {
         "Personal/Leisure": 30,
         "Productivity/Tom-infra": 30,
         "Simple Rizz": 60,
-        "Learning/Reading": 30,
-        "Personal/Break": 15
+        "Learning/Reading": 60,
+        "Personal/Break": 15,
+        "Gaming/Warhammer": 30
       },
       "blocks": [
         {
@@ -2752,6 +2756,68 @@
           ],
           "images": [
             "https://i.imgur.com/EGI9l9O.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "15:00",
+          "end": "15:30",
+          "min": 30,
+          "category": "Learning",
+          "activity": "Reading essay on Claude.ai",
+          "project": "Learning/Reading",
+          "screen_summary": "Claude.ai — Napoleon/Schopenhauer essay, 'The scrap: Rétimeau's challenge' and 'His sharp reaction' sections.",
+          "webcam": "Sun upright, centered, head over shoulders.",
+          "captures": [
+            {
+              "start": "15:00",
+              "image": "https://i.imgur.com/V5gVWiO.jpeg",
+              "summary": "Claude.ai — Napoleon/Schopenhauer essay, 'The scrap: Rétimeau's challenge' and 'His sharp reaction' sections.",
+              "sensitive": false
+            },
+            {
+              "start": "15:15",
+              "image": "https://i.imgur.com/s4fObCw.jpeg",
+              "summary": "Claude.ai — same essay, highlighted passage 'what happens beneath his words' on Rétimeau, Madame de Rémusat.",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/V5gVWiO.jpeg",
+            "https://i.imgur.com/s4fObCw.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "15:30",
+          "end": "16:00",
+          "min": 30,
+          "category": "Leisure",
+          "activity": "Playing Total War: Warhammer",
+          "project": "Gaming/Warhammer",
+          "screen_summary": "Total War: Warhammer — 'Start Lucent Maze Battle' Khidev Expedition vs Apostles of Change; Decisive Victory screen with rewards panel.",
+          "webcam": "Sun upright but offset to viewer left, head over shoulders.",
+          "captures": [
+            {
+              "start": "15:30",
+              "image": "https://i.imgur.com/CKj8qYT.jpeg",
+              "summary": "Total War: Warhammer — 'Start Lucent Maze Battle' Khidev Expedition vs Apostles of Change; Decisive Victory screen with rewards panel.",
+              "sensitive": false
+            },
+            {
+              "start": "15:45",
+              "image": "https://i.imgur.com/0kFHb5q.jpeg",
+              "summary": "Total War: Warhammer in-battle — winter terrain, blue and red flag armies engaging, unit info card 'Spear & Axe Infantry'.",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/CKj8qYT.jpeg",
+            "https://i.imgur.com/0kFHb5q.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
