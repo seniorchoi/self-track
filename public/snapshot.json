@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T16:00:50+09:00",
+  "generatedAt": "2026-05-23T17:02:14+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -882,20 +882,14 @@
       ],
       "dailySummary": {
         "tracked_min": 480,
-        "cats": [
-          255,
-          0,
-          0,
-          150,
-          30,
-          0,
-          45,
-          0
-        ],
-        "headline": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
-        "reflection": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
+        "afk_idle_min": 255,
+        "productivity_min": 150,
+        "learning_min": 30,
+        "leisure_min": 45,
+        "top_activities": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
+        "insight": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
         "span": "15:58 / 00:03",
-        "note": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
+        "note_from_sun": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
       }
     },
     {
@@ -1578,20 +1572,14 @@
       ],
       "dailySummary": {
         "tracked_min": 1440,
-        "cats": [
-          60,
-          0,
-          0,
-          150,
-          45,
-          15,
-          1170,
-          0
-        ],
-        "headline": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
-        "reflection": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
+        "afk_idle_min": 60,
+        "productivity_min": 150,
+        "learning_min": 45,
+        "leisure_min": 1170,
+        "top_activities": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
+        "insight": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
         "span": "00:03 / 23:53",
-        "note": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
+        "note_from_sun": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
       }
     },
     {
@@ -2480,36 +2468,30 @@
       ],
       "dailySummary": {
         "tracked_min": 810,
-        "cats": [
-          30,
-          0,
-          0,
-          375,
-          0,
-          0,
-          405,
-          0
-        ],
-        "headline": "haircut errand (6h 30m) · playing Total War: Warhammer (1h 30m) · watching movie/TV (1h 15m)",
-        "reflection": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
+        "afk_idle_min": 30,
+        "productivity_min": 375,
+        "learning_min": 0,
+        "leisure_min": 405,
+        "top_activities": "haircut errand (6h 30m) · playing Total War: Warhammer (1h 30m) · watching movie/TV (1h 15m)",
+        "insight": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
         "span": "00:08 / 23:51",
-        "note": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
+        "note_from_sun": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
       }
     },
     {
       "date": "2026-05-23",
-      "tracked_min": 225,
+      "tracked_min": 285,
       "by_category": {
-        "Leisure": 60,
+        "Leisure": 75,
         "Productivity": 90,
-        "Learning": 60,
+        "Learning": 105,
         "AFK/Idle": 15
       },
       "by_project": {
-        "Personal/Leisure": 30,
+        "Personal/Leisure": 45,
         "Productivity/Tom-infra": 30,
         "Simple Rizz": 60,
-        "Learning/Reading": 60,
+        "Learning/Reading": 105,
         "Personal/Break": 15,
         "Gaming/Warhammer": 30
       },
@@ -2818,6 +2800,68 @@
           "images": [
             "https://i.imgur.com/CKj8qYT.jpeg",
             "https://i.imgur.com/0kFHb5q.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "16:00",
+          "end": "16:15",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Watching YouTube Shorts",
+          "project": "Personal/Leisure",
+          "screen_summary": "YouTube Shorts — 'How Brad Pitt BROKE Every Guy's Brain in Troy' by The Story Smarts.",
+          "webcam": "Sun head close to camera, head jutting forward — slouched.",
+          "captures": [
+            {
+              "start": "16:00",
+              "image": "https://i.imgur.com/P37Yp7j.jpeg",
+              "summary": "YouTube Shorts — 'How Brad Pitt BROKE Every Guy's Brain in Troy' by The Story Smarts.",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/P37Yp7j.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "16:15",
+          "end": "17:00",
+          "min": 45,
+          "category": "Learning",
+          "activity": "Reading essay on Claude.ai",
+          "project": "Learning/Reading",
+          "screen_summary": "Claude.ai — 'Exit, civilization, and the rise of enlightenment', 'The takeaway' section on Madame de Rémusat, Napoleon's wounded vanity, La Rochefoucauld.",
+          "webcam": "Sun upright, head over shoulders, shoulders level.",
+          "captures": [
+            {
+              "start": "16:15",
+              "image": "https://i.imgur.com/skXhZnv.jpeg",
+              "summary": "Claude.ai — 'Exit, civilization, and the rise of enlightenment', 'The takeaway' section on Madame de Rémusat, Napoleon's wounded vanity, La Rochefoucauld.",
+              "sensitive": false
+            },
+            {
+              "start": "16:30",
+              "image": "https://i.imgur.com/HUHHQVO.jpeg",
+              "summary": "Claude.ai — same 'The takeaway' essay, scrolled slightly, on Madame de Rémusat as a source compared to La Casas.",
+              "sensitive": false
+            },
+            {
+              "start": "16:45",
+              "image": "https://i.imgur.com/84YJGsa.jpeg",
+              "summary": "Claude.ai — same essay, end of 'The takeaway' section.",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/skXhZnv.jpeg",
+            "https://i.imgur.com/HUHHQVO.jpeg",
+            "https://i.imgur.com/84YJGsa.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
