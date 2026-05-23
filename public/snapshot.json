@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T13:02:29.672234+09:00",
+  "generatedAt": "2026-05-23T14:02:59+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -881,20 +881,21 @@
         }
       ],
       "dailySummary": {
-        "date": "2026-05-20",
         "tracked_min": 480,
-        "productivity_min": 255,
-        "work_min": 0,
-        "study_min": 0,
-        "leisure_min": 150,
-        "afk_min": 30,
-        "learning_min": 0,
-        "sleep_min": 45,
-        "other_min": 0,
-        "top_activities": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
-        "analysis": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
-        "first_last": "15:58 / 00:03",
-        "note_from_sun": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
+        "cats": [
+          255,
+          0,
+          0,
+          150,
+          30,
+          0,
+          45,
+          0
+        ],
+        "headline": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
+        "reflection": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
+        "span": "15:58 / 00:03",
+        "note": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
       }
     },
     {
@@ -1576,20 +1577,21 @@
         }
       ],
       "dailySummary": {
-        "date": "2026-05-21",
         "tracked_min": 1440,
-        "productivity_min": 60,
-        "work_min": 0,
-        "study_min": 0,
-        "leisure_min": 150,
-        "afk_min": 45,
-        "learning_min": 15,
-        "sleep_min": 1170,
-        "other_min": 0,
-        "top_activities": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
-        "analysis": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
-        "first_last": "00:03 / 23:53",
-        "note_from_sun": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
+        "cats": [
+          60,
+          0,
+          0,
+          150,
+          45,
+          15,
+          1170,
+          0
+        ],
+        "headline": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
+        "reflection": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
+        "span": "00:03 / 23:53",
+        "note": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
       }
     },
     {
@@ -2477,32 +2479,34 @@
         }
       ],
       "dailySummary": {
-        "date": "2026-05-22",
         "tracked_min": 810,
-        "productivity_min": 30,
-        "work_min": 0,
-        "study_min": 0,
-        "leisure_min": 375,
-        "afk_min": 0,
-        "learning_min": 0,
-        "sleep_min": 405,
-        "other_min": 0,
-        "top_activities": "haircut errand (6h 30m) · playing Total War: Warhammer (1h 30m) · watching movie/TV (1h 15m)",
-        "analysis": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
-        "first_last": "00:08 / 23:51",
-        "note_from_sun": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
+        "cats": [
+          30,
+          0,
+          0,
+          375,
+          0,
+          0,
+          405,
+          0
+        ],
+        "headline": "haircut errand (6h 30m) · playing Total War: Warhammer (1h 30m) · watching movie/TV (1h 15m)",
+        "reflection": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
+        "span": "00:08 / 23:51",
+        "note": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
       }
     },
     {
       "date": "2026-05-23",
-      "tracked_min": 45,
+      "tracked_min": 105,
       "by_category": {
-        "Leisure": 15,
-        "Productivity": 30
+        "Leisure": 30,
+        "Productivity": 75
       },
       "by_project": {
-        "Personal/Leisure": 15,
-        "Productivity/Tom-infra": 30
+        "Personal/Leisure": 30,
+        "Productivity/Tom-infra": 30,
+        "Simple Rizz": 45
       },
       "blocks": [
         {
@@ -2572,6 +2576,102 @@
           ],
           "images": [
             "https://i.imgur.com/ifgsodV.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "13:00",
+          "end": "13:15",
+          "min": 15,
+          "category": "Productivity",
+          "activity": "Reviewing Simple Rizz analytics",
+          "project": "Simple Rizz",
+          "screen_summary": "Google Sheets 'simple_rizz TikTok analytics — IN-FIELD ONLY' — table of TikTok posts (date, posted time, views, likes, link, description, transcript, screenshot frames).",
+          "webcam": "Sun upright, head over shoulders, looking down at screen — composed.",
+          "captures": [
+            {
+              "start": "13:00",
+              "image": "https://i.imgur.com/ZlCu8nX.jpeg",
+              "summary": "Google Sheets 'simple_rizz TikTok analytics — IN-FIELD ONLY' — table of TikTok posts (date, posted time, views, likes, link, description, transcript, screenshot frames).",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/ZlCu8nX.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "13:15",
+          "end": "13:30",
+          "min": 15,
+          "category": "Productivity",
+          "activity": "Drafting Simple Rizz content with agent",
+          "project": "Simple Rizz",
+          "screen_summary": "OpenClaw Console agent chat — discussing a 30-day rejection challenge content plan ('Day 1 of getting rejected on purpose', day-by-day plan).",
+          "webcam": "No person in frame — Sun briefly away from desk.",
+          "captures": [
+            {
+              "start": "13:15",
+              "image": "https://i.imgur.com/eQ8GNy6.jpeg",
+              "summary": "OpenClaw Console agent chat — discussing a 30-day rejection challenge content plan ('Day 1 of getting rejected on purpose', day-by-day plan).",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/eQ8GNy6.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "13:30",
+          "end": "13:45",
+          "min": 15,
+          "category": "Productivity",
+          "activity": "Reviewing Simple Rizz analytics",
+          "project": "Simple Rizz",
+          "screen_summary": "Google Sheets 'simple_rizz TikTok analytics — IN-FIELD ONLY' — focused on individual TikTok rows with screenshot thumbnails.",
+          "webcam": "Sun centered, slight downward gaze, blurred but upright torso.",
+          "captures": [
+            {
+              "start": "13:30",
+              "image": "https://i.imgur.com/w24etOX.jpeg",
+              "summary": "Google Sheets 'simple_rizz TikTok analytics — IN-FIELD ONLY' — focused on individual TikTok rows with screenshot thumbnails.",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/w24etOX.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "13:45",
+          "end": "14:00",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Watching YouTube Shorts",
+          "project": "Personal/Leisure",
+          "screen_summary": "YouTube Shorts — Korean short '지구종말 12시간 전 함께 해야 할 사람' (who you'd want with you 12 hours before the world ends), channel @rinx.0.",
+          "webcam": "Sun upright, head slightly tilted, looking down at screen.",
+          "captures": [
+            {
+              "start": "13:45",
+              "image": "https://i.imgur.com/XbaNQvo.jpeg",
+              "summary": "YouTube Shorts — Korean short '지구종말 12시간 전 함께 해야 할 사람' (who you'd want with you 12 hours before the world ends), channel @rinx.0.",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/XbaNQvo.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
