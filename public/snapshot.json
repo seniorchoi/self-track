@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T21:01:11+09:00",
+  "generatedAt": "2026-05-24T22:04:39+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -2509,6 +2509,7 @@
         "Learning/Reading": 150,
         "Personal/Break": 120,
         "Gaming/Warhammer": 30,
+        "": 15,
         "Leisure": 165,
         "Leisure/History": 90,
         "Sleep": 750
@@ -2526,14 +2527,12 @@
           "captures": [
             {
               "start": "12:15",
-              "image": "https://i.imgur.com/uiyWrLF.jpeg",
+              "image": null,
               "summary": "YouTube video 'I Tried the World's Simplest Productivity Trick (it worked)' by Simple Lucas, loading.",
               "sensitive": false
             }
           ],
-          "images": [
-            "https://i.imgur.com/uiyWrLF.jpeg"
-          ],
+          "images": [],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -2550,13 +2549,13 @@
           "captures": [
             {
               "start": "12:30",
-              "image": "https://i.imgur.com/mmWU351.jpeg",
+              "image": "https://i.imgur.com/uiyWrLF.jpeg",
               "summary": "Discord 'Q.Admin' server, #ai-channel — chatting with the Q-Admin agent ('What I can do for you'): scheduling, jobs, follow-ups, Docs & Sheets, web search, messaging, code & files.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/mmWU351.jpeg"
+            "https://i.imgur.com/uiyWrLF.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -2574,13 +2573,13 @@
           "captures": [
             {
               "start": "12:45",
-              "image": "https://i.imgur.com/ifgsodV.jpeg",
+              "image": "https://i.imgur.com/mmWU351.jpeg",
               "summary": "OpenClaw Console, agent Chat tab — reviewing tool-output threads about Mon-Sat normal-days digest, Sunday consolidated weekly summary, any-day-with-critical-issues handling. Iterating on Telegram digest agent.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/ifgsodV.jpeg"
+            "https://i.imgur.com/mmWU351.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -2598,13 +2597,13 @@
           "captures": [
             {
               "start": "13:00",
-              "image": "https://i.imgur.com/ZlCu8nX.jpeg",
+              "image": "https://i.imgur.com/ifgsodV.jpeg",
               "summary": "Google Sheets 'simple_rizz TikTok analytics — IN-FIELD ONLY' — table of TikTok posts (date, posted time, views, likes, link, description, transcript, screenshot frames).",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/ZlCu8nX.jpeg"
+            "https://i.imgur.com/ifgsodV.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -2622,13 +2621,13 @@
           "captures": [
             {
               "start": "13:15",
-              "image": "https://i.imgur.com/eQ8GNy6.jpeg",
+              "image": "https://i.imgur.com/ZlCu8nX.jpeg",
               "summary": "OpenClaw Console agent chat — discussing a 30-day rejection challenge content plan ('Day 1 of getting rejected on purpose', day-by-day plan).",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/eQ8GNy6.jpeg"
+            "https://i.imgur.com/ZlCu8nX.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -2646,13 +2645,13 @@
           "captures": [
             {
               "start": "13:30",
-              "image": "https://i.imgur.com/w24etOX.jpeg",
+              "image": "https://i.imgur.com/eQ8GNy6.jpeg",
               "summary": "Google Sheets 'simple_rizz TikTok analytics — IN-FIELD ONLY' — focused on individual TikTok rows with screenshot thumbnails.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/w24etOX.jpeg"
+            "https://i.imgur.com/eQ8GNy6.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -2670,13 +2669,13 @@
           "captures": [
             {
               "start": "13:45",
-              "image": "https://i.imgur.com/XbaNQvo.jpeg",
+              "image": "https://i.imgur.com/w24etOX.jpeg",
               "summary": "YouTube Shorts — Korean short '지구종말 12시간 전 함께 해야 할 사람' (who you'd want with you 12 hours before the world ends), channel @rinx.0.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/XbaNQvo.jpeg"
+            "https://i.imgur.com/w24etOX.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -2694,13 +2693,13 @@
           "captures": [
             {
               "start": "14:00",
-              "image": "https://i.imgur.com/AUCv08M.jpeg",
+              "image": "https://i.imgur.com/XbaNQvo.jpeg",
               "summary": "OpenClaw Console agent chat — Day 1/Day 2 rejection-challenge content plan, refining steps and avoiding visible 'getting rejected' framing.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/AUCv08M.jpeg"
+            "https://i.imgur.com/XbaNQvo.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -2718,20 +2717,20 @@
           "captures": [
             {
               "start": "14:15",
-              "image": "https://i.imgur.com/TuBLCfE.jpeg",
+              "image": "https://i.imgur.com/AUCv08M.jpeg",
               "summary": "Claude.ai conversation 'Exit, civilization, and the rise of enlightenment (through disposition)' — 'The takeaway' on Napoleon, essentialist vs situationalist view of human nature, Schopenhauer, La Rochefoucauld.",
               "sensitive": false
             },
             {
               "start": "14:30",
-              "image": "https://i.imgur.com/VbjznAG.jpeg",
+              "image": "https://i.imgur.com/TuBLCfE.jpeg",
               "summary": "Claude.ai — same 'Exit, civilization, enlightenment' takeaway essay, still on the Napoleon/Schopenhauer passage.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/TuBLCfE.jpeg",
-            "https://i.imgur.com/VbjznAG.jpeg"
+            "https://i.imgur.com/AUCv08M.jpeg",
+            "https://i.imgur.com/TuBLCfE.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -2749,13 +2748,13 @@
           "captures": [
             {
               "start": "14:45",
-              "image": "https://i.imgur.com/EGI9l9O.jpeg",
+              "image": "https://i.imgur.com/VbjznAG.jpeg",
               "summary": "Claude.ai still on the 'Exit, civilization, enlightenment' takeaway page — no interaction.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/EGI9l9O.jpeg"
+            "https://i.imgur.com/VbjznAG.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -2773,20 +2772,20 @@
           "captures": [
             {
               "start": "15:00",
-              "image": "https://i.imgur.com/V5gVWiO.jpeg",
+              "image": "https://i.imgur.com/EGI9l9O.jpeg",
               "summary": "Claude.ai — Napoleon/Schopenhauer essay, 'The scrap: Rétimeau's challenge' and 'His sharp reaction' sections.",
               "sensitive": false
             },
             {
               "start": "15:15",
-              "image": "https://i.imgur.com/s4fObCw.jpeg",
+              "image": "https://i.imgur.com/V5gVWiO.jpeg",
               "summary": "Claude.ai — same essay, highlighted passage 'what happens beneath his words' on Rétimeau, Madame de Rémusat.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/V5gVWiO.jpeg",
-            "https://i.imgur.com/s4fObCw.jpeg"
+            "https://i.imgur.com/EGI9l9O.jpeg",
+            "https://i.imgur.com/V5gVWiO.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -2804,20 +2803,20 @@
           "captures": [
             {
               "start": "15:30",
-              "image": "https://i.imgur.com/CKj8qYT.jpeg",
+              "image": "https://i.imgur.com/s4fObCw.jpeg",
               "summary": "Total War: Warhammer — 'Start Lucent Maze Battle' Khidev Expedition vs Apostles of Change; Decisive Victory screen with rewards panel.",
               "sensitive": false
             },
             {
               "start": "15:45",
-              "image": "https://i.imgur.com/0kFHb5q.jpeg",
+              "image": "https://i.imgur.com/CKj8qYT.jpeg",
               "summary": "Total War: Warhammer in-battle — winter terrain, blue and red flag armies engaging, unit info card 'Spear & Axe Infantry'.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/CKj8qYT.jpeg",
-            "https://i.imgur.com/0kFHb5q.jpeg"
+            "https://i.imgur.com/s4fObCw.jpeg",
+            "https://i.imgur.com/CKj8qYT.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -2835,13 +2834,13 @@
           "captures": [
             {
               "start": "16:00",
-              "image": "https://i.imgur.com/P37Yp7j.jpeg",
+              "image": "https://i.imgur.com/0kFHb5q.jpeg",
               "summary": "YouTube Shorts — 'How Brad Pitt BROKE Every Guy's Brain in Troy' by The Story Smarts.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/P37Yp7j.jpeg"
+            "https://i.imgur.com/0kFHb5q.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -2859,34 +2858,34 @@
           "captures": [
             {
               "start": "16:15",
-              "image": "https://i.imgur.com/skXhZnv.jpeg",
+              "image": "https://i.imgur.com/P37Yp7j.jpeg",
               "summary": "Claude.ai — 'Exit, civilization, and the rise of enlightenment', 'The takeaway' section on Madame de Rémusat, Napoleon's wounded vanity, La Rochefoucauld.",
               "sensitive": false
             },
             {
               "start": "16:30",
-              "image": "https://i.imgur.com/HUHHQVO.jpeg",
+              "image": "https://i.imgur.com/skXhZnv.jpeg",
               "summary": "Claude.ai — same 'The takeaway' essay, scrolled slightly, on Madame de Rémusat as a source compared to La Casas.",
               "sensitive": false
             },
             {
               "start": "16:45",
-              "image": "https://i.imgur.com/84YJGsa.jpeg",
+              "image": "https://i.imgur.com/HUHHQVO.jpeg",
               "summary": "Claude.ai — same essay, end of 'The takeaway' section.",
               "sensitive": false
             },
             {
               "start": "17:00",
-              "image": "https://i.imgur.com/X7ozTae.jpeg",
+              "image": "https://i.imgur.com/84YJGsa.jpeg",
               "summary": "Claude.ai — same 'Exit, civilization, enlightenment' essay 'The takeaway' section, unchanged from prior captures.",
               "sensitive": false
             }
           ],
           "images": [
+            "https://i.imgur.com/P37Yp7j.jpeg",
             "https://i.imgur.com/skXhZnv.jpeg",
             "https://i.imgur.com/HUHHQVO.jpeg",
-            "https://i.imgur.com/84YJGsa.jpeg",
-            "https://i.imgur.com/X7ozTae.jpeg"
+            "https://i.imgur.com/84YJGsa.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -2904,41 +2903,41 @@
           "captures": [
             {
               "start": "17:15",
-              "image": "https://i.imgur.com/avczwHh.jpeg",
+              "image": "https://i.imgur.com/X7ozTae.jpeg",
               "summary": "Claude.ai still parked on the same essay 'The takeaway' page — no interaction.",
               "sensitive": false
             },
             {
               "start": "17:30",
-              "image": "https://i.imgur.com/coM8S6c.jpeg",
+              "image": "https://i.imgur.com/avczwHh.jpeg",
               "summary": "Claude.ai still parked on the same essay 'The takeaway' page — no interaction.",
               "sensitive": false
             },
             {
               "start": "17:45",
-              "image": "https://i.imgur.com/pYI1CSH.jpeg",
+              "image": "https://i.imgur.com/coM8S6c.jpeg",
               "summary": "Claude.ai still parked on the same essay 'The takeaway' page — no interaction.",
               "sensitive": false
             },
             {
               "start": "18:00",
-              "image": "https://i.imgur.com/46bSM8d.jpeg",
+              "image": "https://i.imgur.com/pYI1CSH.jpeg",
               "summary": "Claude.ai still parked on the same 'The takeaway' page — no interaction.",
               "sensitive": false
             },
             {
               "start": "18:15",
-              "image": "https://i.imgur.com/FPAU1bl.jpeg",
+              "image": "https://i.imgur.com/46bSM8d.jpeg",
               "summary": "Claude.ai still parked on the same 'The takeaway' page — no interaction.",
               "sensitive": false
             }
           ],
           "images": [
+            "https://i.imgur.com/X7ozTae.jpeg",
             "https://i.imgur.com/avczwHh.jpeg",
             "https://i.imgur.com/coM8S6c.jpeg",
             "https://i.imgur.com/pYI1CSH.jpeg",
-            "https://i.imgur.com/46bSM8d.jpeg",
-            "https://i.imgur.com/FPAU1bl.jpeg"
+            "https://i.imgur.com/46bSM8d.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -2956,20 +2955,20 @@
           "captures": [
             {
               "start": "18:30",
-              "image": "https://i.imgur.com/7I2csFb.jpeg",
+              "image": "https://i.imgur.com/FPAU1bl.jpeg",
               "summary": "Claude.ai still parked on the same 'The takeaway' page — no desktop interaction.",
               "sensitive": false
             },
             {
               "start": "18:45",
-              "image": "https://i.imgur.com/QvRdYWE.jpeg",
+              "image": "https://i.imgur.com/7I2csFb.jpeg",
               "summary": "Claude.ai still parked on the same 'The takeaway' page — no desktop interaction.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/7I2csFb.jpeg",
-            "https://i.imgur.com/QvRdYWE.jpeg"
+            "https://i.imgur.com/FPAU1bl.jpeg",
+            "https://i.imgur.com/7I2csFb.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -2987,20 +2986,20 @@
           "captures": [
             {
               "start": "19:00",
-              "image": "https://i.imgur.com/dmxeyjC.jpeg",
+              "image": "https://i.imgur.com/QvRdYWE.jpeg",
               "summary": "Claude.ai — same 'Exit, civilization, enlightenment' essay 'The takeaway' page.",
               "sensitive": false
             },
             {
               "start": "19:15",
-              "image": "https://i.imgur.com/KUZhKSK.jpeg",
+              "image": "https://i.imgur.com/dmxeyjC.jpeg",
               "summary": "Claude.ai — same essay 'The takeaway', 'Reply' tooltip visible (active reading).",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/dmxeyjC.jpeg",
-            "https://i.imgur.com/KUZhKSK.jpeg"
+            "https://i.imgur.com/QvRdYWE.jpeg",
+            "https://i.imgur.com/dmxeyjC.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -3018,13 +3017,13 @@
           "captures": [
             {
               "start": "19:30",
-              "image": "https://i.imgur.com/RVaSY6z.jpeg",
+              "image": "https://i.imgur.com/KUZhKSK.jpeg",
               "summary": "OpenClaw Console agent chat — back on the rejection challenge Day 1/Day 2 content plan.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/RVaSY6z.jpeg"
+            "https://i.imgur.com/KUZhKSK.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -3042,13 +3041,13 @@
           "captures": [
             {
               "start": "19:45",
-              "image": "https://i.imgur.com/gXp6qc9.jpeg",
+              "image": "https://i.imgur.com/RVaSY6z.jpeg",
               "summary": "Soap2Day-like 'Watch Free DVDs 2025-2026' browser tab — grid of movie thumbnails (Outcome, War Machine, Yeti, Den Brother, etc.).",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/gXp6qc9.jpeg"
+            "https://i.imgur.com/RVaSY6z.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -3066,13 +3065,13 @@
           "captures": [
             {
               "start": "20:00",
-              "image": "https://i.imgur.com/Hq7PDqa.jpeg",
+              "image": "https://i.imgur.com/gXp6qc9.jpeg",
               "summary": "Claude.ai still parked on the same essay 'The takeaway' page — no interaction.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/Hq7PDqa.jpeg"
+            "https://i.imgur.com/gXp6qc9.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -3090,66 +3089,67 @@
           "captures": [
             {
               "start": "20:15",
-              "image": "https://i.imgur.com/38TTq6x.jpeg",
+              "image": "https://i.imgur.com/Hq7PDqa.jpeg",
               "summary": "Full-screen movie scene — bearded man in space-suit / lab-tech rig, industrial setting.",
               "sensitive": false
             },
             {
               "start": "20:30",
-              "image": "https://i.imgur.com/H0cNWTi.jpeg",
+              "image": "https://i.imgur.com/38TTq6x.jpeg",
               "summary": "Full-screen movie scene — man in suit and glasses (looks like Michael Peña) in an office.",
               "sensitive": false
             },
             {
               "start": "20:46",
-              "image": "https://i.imgur.com/rym7lcl.jpeg",
+              "image": "https://i.imgur.com/H0cNWTi.jpeg",
               "summary": "Movie title/chapter card — text 'susan' on black background.",
               "sensitive": false
             },
             {
               "start": "21:01",
-              "image": "https://i.imgur.com/9KN0Joi.jpeg",
+              "image": "https://i.imgur.com/rym7lcl.jpeg",
               "summary": "Movie scene — hands holding a tablet/Etch-A-Sketch-like keypad, subtitle 'Okay, you know, I'm just gonna put down sports.'",
               "sensitive": false
             },
             {
               "start": "21:16",
-              "image": "https://i.imgur.com/qXDjYYS.jpeg",
+              "image": "https://i.imgur.com/9KN0Joi.jpeg",
               "summary": "Movie scene — middle-aged woman, subtitle 'God, it's like being allergic to the air.'",
               "sensitive": false
             },
             {
               "start": "21:31",
-              "image": "https://i.imgur.com/wBNEq86.jpeg",
+              "image": "https://i.imgur.com/qXDjYYS.jpeg",
               "summary": "Movie scene — blond shirtless young man in a room with paintings, subtitle 'I know, but I mean, you're going to work, right?'",
               "sensitive": false
             },
             {
               "start": "21:46",
-              "image": "https://i.imgur.com/6373b1u.jpeg",
+              "image": "https://i.imgur.com/wBNEq86.jpeg",
               "summary": "Movie scene — close-up of hand turning pages of a 'BEAUTY' brochure with introduction, subtitle 'I won't be bringing anything. I... I don't...'",
               "sensitive": false
             },
             {
               "start": "22:01",
-              "image": "https://i.imgur.com/owsZIeZ.jpeg",
+              "image": "https://i.imgur.com/6373b1u.jpeg",
               "summary": "Movie scene — armed crowd in helmets, subtitle 'Get off of her!'",
               "sensitive": false
             },
             {
               "start": "22:16",
-              "image": "https://i.imgur.com/IZSINm4.jpeg",
+              "image": "https://i.imgur.com/owsZIeZ.jpeg",
               "summary": "Movie scene — figure atop a cable-ball machine against a glitchy screen-wall, subtitle 'This kid's made out of plutonium.'",
               "sensitive": false
             },
             {
               "start": "22:31",
-              "image": "https://i.imgur.com/Fyi4S7I.jpeg",
+              "image": "https://i.imgur.com/IZSINm4.jpeg",
               "summary": "Movie scene — bare feet on a tangle of black cables in an underwater-looking blue environment.",
               "sensitive": false
             }
           ],
           "images": [
+            "https://i.imgur.com/Hq7PDqa.jpeg",
             "https://i.imgur.com/38TTq6x.jpeg",
             "https://i.imgur.com/H0cNWTi.jpeg",
             "https://i.imgur.com/rym7lcl.jpeg",
@@ -3158,8 +3158,7 @@
             "https://i.imgur.com/wBNEq86.jpeg",
             "https://i.imgur.com/6373b1u.jpeg",
             "https://i.imgur.com/owsZIeZ.jpeg",
-            "https://i.imgur.com/IZSINm4.jpeg",
-            "https://i.imgur.com/Fyi4S7I.jpeg"
+            "https://i.imgur.com/IZSINm4.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -3177,13 +3176,13 @@
           "captures": [
             {
               "start": "22:46",
-              "image": "https://i.imgur.com/zXf5FYn.jpeg",
+              "image": "https://i.imgur.com/Fyi4S7I.jpeg",
               "summary": "X/Twitter For-you feed — BRICS News post about Taiwan/China territorial waters, 'NO CONTEXT HUMANS' post about machine learning, trending sidebar.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/zXf5FYn.jpeg"
+            "https://i.imgur.com/Fyi4S7I.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -3201,13 +3200,13 @@
           "captures": [
             {
               "start": "23:01",
-              "image": "https://i.imgur.com/7J07cru.jpeg",
+              "image": "https://i.imgur.com/zXf5FYn.jpeg",
               "summary": "Browser article — Napoleon Bonaparte topic with embedded BBC video and Drama documentaries on Toulon (1793) and Samurai general Tokugawa Ieyasu.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/7J07cru.jpeg"
+            "https://i.imgur.com/zXf5FYn.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -3225,27 +3224,27 @@
           "captures": [
             {
               "start": "23:16",
-              "image": "https://i.imgur.com/NV7BDTN.jpeg",
+              "image": "https://i.imgur.com/7J07cru.jpeg",
               "summary": "Cosmos channel — Napoleon docudrama scene with older man with white moustache and a young woman, Greek subtitles ('Πήρα την Αβινιόν και τη Μασσαλία...').",
               "sensitive": false
             },
             {
               "start": "23:31",
-              "image": "https://i.imgur.com/k6qfseP.jpeg",
+              "image": "https://i.imgur.com/NV7BDTN.jpeg",
               "summary": "Cosmos channel — Napoleon docudrama, close-up of a thin man with curled hair in 18th-century cravat (likely Robespierre or similar figure).",
               "sensitive": false
             },
             {
               "start": "23:46",
-              "image": "https://i.imgur.com/nRO6iPG.jpeg",
+              "image": "https://i.imgur.com/k6qfseP.jpeg",
               "summary": "Cosmos channel — Napoleon docudrama, close-up of young Napoleon in bicorne hat, Greek subtitle ('Πήγαινε τώρα. Φύγε!').",
               "sensitive": false
             }
           ],
           "images": [
+            "https://i.imgur.com/7J07cru.jpeg",
             "https://i.imgur.com/NV7BDTN.jpeg",
-            "https://i.imgur.com/k6qfseP.jpeg",
-            "https://i.imgur.com/nRO6iPG.jpeg"
+            "https://i.imgur.com/k6qfseP.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -3263,13 +3262,13 @@
           "captures": [
             {
               "start": "00:01",
-              "image": "https://i.imgur.com/JgaRc3b.jpeg",
+              "image": "https://i.imgur.com/nRO6iPG.jpeg",
               "summary": "Streaming a Napoleon-era period drama (Cosmos overlay/site UI), dim historical interior scene",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/JgaRc3b.jpeg"
+            "https://i.imgur.com/nRO6iPG.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -3287,13 +3286,13 @@
           "captures": [
             {
               "start": "00:16",
-              "image": "https://i.imgur.com/QifZHTT.jpeg",
+              "image": "https://i.imgur.com/JgaRc3b.jpeg",
               "summary": "YouTube search 'terror and villains napoleon' showing War & Peace Battle of Borodino and Napoleon battle scene thumbnails",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/QifZHTT.jpeg"
+            "https://i.imgur.com/JgaRc3b.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -3311,7 +3310,7 @@
           "captures": [
             {
               "start": "00:31",
-              "image": null,
+              "image": "https://i.imgur.com/QifZHTT.jpeg",
               "summary": "(autofilled — overnight gap)",
               "sensitive": true
             },
@@ -3610,7 +3609,9 @@
               "sensitive": true
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/QifZHTT.jpeg"
+          ],
           "sensitive_count": 50,
           "sensitive": true,
           "notes": ""
@@ -3619,10 +3620,10 @@
     },
     {
       "date": "2026-05-24",
-      "tracked_min": 480,
+      "tracked_min": 540,
       "by_category": {
         "Admin/Errands": 15,
-        "Leisure": 90,
+        "Leisure": 150,
         "Communications": 15,
         "Learning": 195,
         "Productivity": 45,
@@ -3633,8 +3634,9 @@
         "Learning/Business": 15,
         "Reddit ops": 15,
         "Health": 195,
+        "": 120,
         "SelfTrack": 30,
-        "Leisure": 75,
+        "Leisure": 135,
         "Learning": 15
       },
       "blocks": [
@@ -3650,14 +3652,12 @@
           "captures": [
             {
               "start": "13:08",
-              "image": "https://i.imgur.com/oGlo89F.jpeg",
+              "image": null,
               "summary": "Chrome new tab (Google) with Windscribe VPN popup showing Montreal Expo 67 server selection",
               "sensitive": false
             }
           ],
-          "images": [
-            "https://i.imgur.com/oGlo89F.jpeg"
-          ],
+          "images": [],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -3674,13 +3674,13 @@
           "captures": [
             {
               "start": "13:23",
-              "image": "https://i.imgur.com/5qufrq0.jpeg",
+              "image": "https://i.imgur.com/oGlo89F.jpeg",
               "summary": "YouTube Moonshots episode 'SpaceX Files Biggest IPO in History' with Peter Diamandis and Mark Cuban",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/5qufrq0.jpeg"
+            "https://i.imgur.com/oGlo89F.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -3698,14 +3698,16 @@
           "captures": [
             {
               "start": "13:38",
-              "image": null,
+              "image": "https://i.imgur.com/5qufrq0.jpeg",
               "summary": "Reddit login modal open with email autofill suggestions visible",
-              "sensitive": true
+              "sensitive": false
             }
           ],
-          "images": [],
-          "sensitive_count": 1,
-          "sensitive": true,
+          "images": [
+            "https://i.imgur.com/5qufrq0.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
           "notes": ""
         },
         {
@@ -3720,16 +3722,14 @@
           "captures": [
             {
               "start": "13:53",
-              "image": "https://i.imgur.com/ozu78sj.jpeg",
+              "image": null,
               "summary": "YouTube search 'walking and fascia' showing fix-walking, plantar fascia, tight calves video results",
-              "sensitive": false
+              "sensitive": true
             }
           ],
-          "images": [
-            "https://i.imgur.com/ozu78sj.jpeg"
-          ],
-          "sensitive_count": 0,
-          "sensitive": false,
+          "images": [],
+          "sensitive_count": 1,
+          "sensitive": true,
           "notes": ""
         },
         {
@@ -3744,13 +3744,13 @@
           "captures": [
             {
               "start": "14:08",
-              "image": "https://i.imgur.com/qVBR80b.jpeg",
+              "image": "https://i.imgur.com/ozu78sj.jpeg",
               "summary": "Claude chat titled 'Fixing walking posture and foot pain' — highlighted section about clicking hip and ankle pain",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/qVBR80b.jpeg"
+            "https://i.imgur.com/ozu78sj.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -3768,13 +3768,13 @@
           "captures": [
             {
               "start": "14:23",
-              "image": "https://i.imgur.com/PCFuBid.jpeg",
+              "image": "https://i.imgur.com/qVBR80b.jpeg",
               "summary": "YouTube Orthoinfo video 'Walking/Pronation' showing barefoot walking gait on grid floor",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/PCFuBid.jpeg"
+            "https://i.imgur.com/qVBR80b.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -3792,13 +3792,13 @@
           "captures": [
             {
               "start": "14:38",
-              "image": "https://i.imgur.com/ZDtouun.jpeg",
+              "image": "https://i.imgur.com/PCFuBid.jpeg",
               "summary": "YouTube 'walking biomechanics' search — Stanford lecture by Scott Delp on running gait cycle and energetics",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/ZDtouun.jpeg"
+            "https://i.imgur.com/PCFuBid.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -3816,13 +3816,13 @@
           "captures": [
             {
               "start": "14:53",
-              "image": "https://i.imgur.com/faD0Kbo.jpeg",
+              "image": "https://i.imgur.com/ZDtouun.jpeg",
               "summary": "YouTube 'how to walk properly' search — Grown.Healthy. response to Bob and Brad on walking technique",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/faD0Kbo.jpeg"
+            "https://i.imgur.com/ZDtouun.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -3840,13 +3840,13 @@
           "captures": [
             {
               "start": "15:08",
-              "image": "https://i.imgur.com/yPKHK7c.jpeg",
+              "image": "https://i.imgur.com/faD0Kbo.jpeg",
               "summary": "YouTube Bob & Brad video 'Physical Therapist Shows How to Walk Correctly' — two physical therapists demonstrating walking",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/yPKHK7c.jpeg"
+            "https://i.imgur.com/faD0Kbo.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -3864,13 +3864,13 @@
           "captures": [
             {
               "start": "15:23",
-              "image": "https://i.imgur.com/p3kRBTw.jpeg",
+              "image": "https://i.imgur.com/yPKHK7c.jpeg",
               "summary": "YouTube Grown.Healthy. 'How to Walk' response to Bob and Brad with skeleton model demonstration on tennis court backdrop",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/p3kRBTw.jpeg"
+            "https://i.imgur.com/yPKHK7c.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -3888,13 +3888,13 @@
           "captures": [
             {
               "start": "15:38",
-              "image": "https://i.imgur.com/82mhM9H.jpeg",
+              "image": "https://i.imgur.com/p3kRBTw.jpeg",
               "summary": "Claude chat 'Fixing walking posture and foot pain' — Sun composed long message about reverse-engineering walking from first principles",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/82mhM9H.jpeg"
+            "https://i.imgur.com/p3kRBTw.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -3912,55 +3912,55 @@
           "captures": [
             {
               "start": "15:53",
-              "image": "https://i.imgur.com/PQJ176R.jpeg",
+              "image": "https://i.imgur.com/82mhM9H.jpeg",
               "summary": "Claude chat 'Fixing walking posture and foot pain' idle — same long message draft still on screen",
               "sensitive": false
             },
             {
               "start": "16:09",
-              "image": "https://i.imgur.com/iMp0gsQ.jpeg",
+              "image": "https://i.imgur.com/PQJ176R.jpeg",
               "summary": "Claude chat 'Fixing walking posture and foot pain' idle — same long unsent draft message on screen",
               "sensitive": false
             },
             {
               "start": "16:24",
-              "image": "https://i.imgur.com/ycmpVN8.jpeg",
+              "image": "https://i.imgur.com/iMp0gsQ.jpeg",
               "summary": "Claude chat 'Fixing walking posture and foot pain' idle — same long unsent draft message on screen",
               "sensitive": false
             },
             {
               "start": "16:39",
-              "image": "https://i.imgur.com/3sCSeaM.jpeg",
+              "image": "https://i.imgur.com/ycmpVN8.jpeg",
               "summary": "Claude chat 'Fixing walking posture and foot pain' idle — same long unsent draft message on screen",
               "sensitive": false
             },
             {
               "start": "16:54",
-              "image": "https://i.imgur.com/Te7jiV6.jpeg",
+              "image": "https://i.imgur.com/3sCSeaM.jpeg",
               "summary": "Claude chat 'Fixing walking posture and foot pain' idle — same long unsent draft message on screen",
               "sensitive": false
             },
             {
               "start": "17:09",
-              "image": "https://i.imgur.com/bJO0RyE.jpeg",
+              "image": "https://i.imgur.com/Te7jiV6.jpeg",
               "summary": "Claude chat 'Fixing walking posture and foot pain' idle — same unsent draft on screen",
               "sensitive": false
             },
             {
               "start": "17:24",
-              "image": "https://i.imgur.com/uUcELwC.jpeg",
+              "image": "https://i.imgur.com/bJO0RyE.jpeg",
               "summary": "Claude chat 'Fixing walking posture and foot pain' idle — same unsent draft on screen",
               "sensitive": false
             }
           ],
           "images": [
+            "https://i.imgur.com/82mhM9H.jpeg",
             "https://i.imgur.com/PQJ176R.jpeg",
             "https://i.imgur.com/iMp0gsQ.jpeg",
             "https://i.imgur.com/ycmpVN8.jpeg",
             "https://i.imgur.com/3sCSeaM.jpeg",
             "https://i.imgur.com/Te7jiV6.jpeg",
-            "https://i.imgur.com/bJO0RyE.jpeg",
-            "https://i.imgur.com/uUcELwC.jpeg"
+            "https://i.imgur.com/bJO0RyE.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -3978,13 +3978,13 @@
           "captures": [
             {
               "start": "17:39",
-              "image": "https://i.imgur.com/TPbSklE.jpeg",
+              "image": "https://i.imgur.com/uUcELwC.jpeg",
               "summary": "Claude chat 'Fixing walking posture and foot pain' — Sun's long message now submitted with Claude's reply visible",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/TPbSklE.jpeg"
+            "https://i.imgur.com/uUcELwC.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -4002,13 +4002,13 @@
           "captures": [
             {
               "start": "17:54",
-              "image": "https://i.imgur.com/ktShCDo.jpeg",
+              "image": "https://i.imgur.com/TPbSklE.jpeg",
               "summary": "YouTube Grown & Healthy 'How to Walk (forefoot/midfoot)' video — outdoor walking demonstration on a path",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/ktShCDo.jpeg"
+            "https://i.imgur.com/TPbSklE.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -4026,13 +4026,13 @@
           "captures": [
             {
               "start": "18:09",
-              "image": "https://i.imgur.com/XIa4kbu.jpeg",
+              "image": "https://i.imgur.com/ktShCDo.jpeg",
               "summary": "Life of Sun' Activity Dashboard showing chronological clock for 2026-05-23 with category breakdown and YouTube Shorts capture entry visible",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/XIa4kbu.jpeg"
+            "https://i.imgur.com/ktShCDo.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -4050,13 +4050,13 @@
           "captures": [
             {
               "start": "18:24",
-              "image": "https://i.imgur.com/dShn7QQ.jpeg",
+              "image": "https://i.imgur.com/XIa4kbu.jpeg",
               "summary": "YouTube home with 'How To Walk - Don't do this!' Natural Way to Walk video and SpaceX IPO podcast plus barefoot shorts",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/dShn7QQ.jpeg"
+            "https://i.imgur.com/XIa4kbu.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -4074,13 +4074,13 @@
           "captures": [
             {
               "start": "18:39",
-              "image": "https://i.imgur.com/h7EwlI3.jpeg",
+              "image": "https://i.imgur.com/dShn7QQ.jpeg",
               "summary": "OpenClaw web chat with claude-opus-4-7 discussing alignment between screen.png and snapshot.jpg captures in SelfTrack",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/h7EwlI3.jpeg"
+            "https://i.imgur.com/dShn7QQ.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -4098,13 +4098,13 @@
           "captures": [
             {
               "start": "18:54",
-              "image": "https://i.imgur.com/IbYO6rt.jpeg",
+              "image": "https://i.imgur.com/h7EwlI3.jpeg",
               "summary": "YouTube Brotherofmuug video 'How To Optimize Your Fascia To Grow Taller' — woman demonstrating stretching concept with rubber band",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/IbYO6rt.jpeg"
+            "https://i.imgur.com/h7EwlI3.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -4122,13 +4122,13 @@
           "captures": [
             {
               "start": "19:09",
-              "image": "https://i.imgur.com/tzDsvCR.jpeg",
+              "image": "https://i.imgur.com/IbYO6rt.jpeg",
               "summary": "YouTube Brotherofmuug video 'How To Optimize Your Fascia To Grow Taller' — segment titled 'INTRINSIC FOOT MUSCLES'",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/tzDsvCR.jpeg"
+            "https://i.imgur.com/IbYO6rt.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -4146,13 +4146,13 @@
           "captures": [
             {
               "start": "19:24",
-              "image": "https://i.imgur.com/D3Dx2sd.jpeg",
+              "image": "https://i.imgur.com/tzDsvCR.jpeg",
               "summary": "YouTube MMHealth and SlimLand video 'Beating Bryan Johnson: How I Lowered my Age by 21 Years' — black playback frame",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/D3Dx2sd.jpeg"
+            "https://i.imgur.com/tzDsvCR.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -4170,13 +4170,13 @@
           "captures": [
             {
               "start": "19:39",
-              "image": "https://i.imgur.com/XgGfruq.jpeg",
+              "image": "https://i.imgur.com/D3Dx2sd.jpeg",
               "summary": "YouTube 'Beating Bryan Johnson: How I Lowered my Age by 21 Years' — two men in interview discussing aging and smoking",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/XgGfruq.jpeg"
+            "https://i.imgur.com/D3Dx2sd.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -4194,13 +4194,13 @@
           "captures": [
             {
               "start": "19:54",
-              "image": "https://i.imgur.com/fDv7v1V.jpeg",
+              "image": "https://i.imgur.com/XgGfruq.jpeg",
               "summary": "YouTube Cormac Taylor 'I Tried the World's Simplest Productivity Hack for 1 Year (it worked)' — running through forest, marathon training context",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/fDv7v1V.jpeg"
+            "https://i.imgur.com/XgGfruq.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -4218,13 +4218,13 @@
           "captures": [
             {
               "start": "20:09",
-              "image": "https://i.imgur.com/fmI1uVp.jpeg",
+              "image": "https://i.imgur.com/fDv7v1V.jpeg",
               "summary": "YouTube Patrick H Willems video 'The Daniel Craig James Bond Era Is The Weirdest Franchise Ever' — host on couch in front of bookshelf",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/fmI1uVp.jpeg"
+            "https://i.imgur.com/fDv7v1V.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -4232,8 +4232,8 @@
         },
         {
           "start": "20:24",
-          "end": "21:09",
-          "min": 45,
+          "end": "22:09",
+          "min": 105,
           "category": "Leisure",
           "activity": "Watching F1 movie",
           "project": "Leisure",
@@ -4242,27 +4242,55 @@
           "captures": [
             {
               "start": "20:24",
-              "image": "https://i.imgur.com/lrcShOD.jpeg",
+              "image": "https://i.imgur.com/fmI1uVp.jpeg",
               "summary": "F1 movie scene — racing scoreboard showing AMR, Porsche, McLaren team standings at positions 6/7/8",
               "sensitive": false
             },
             {
               "start": "20:39",
-              "image": "https://i.imgur.com/iZFPrWh.jpeg",
+              "image": "https://i.imgur.com/lrcShOD.jpeg",
               "summary": "F1 movie scene — APXGP team driver in white racing suit talking with team member in pit garage, subtitle 'Oh, great. Yeah.'",
               "sensitive": false
             },
             {
               "start": "20:54",
-              "image": "https://i.imgur.com/2YP1iVa.jpeg",
+              "image": "https://i.imgur.com/iZFPrWh.jpeg",
               "summary": "F1 movie scene — Brad Pitt's character speaking to two men, subtitle 'With respect, Ruben, I cannot condone we spend our only test day'",
+              "sensitive": false
+            },
+            {
+              "start": "21:09",
+              "image": "https://i.imgur.com/2YP1iVa.jpeg",
+              "summary": "F1 movie scene — close-up of person lying in bed at night, dim blue lighting",
+              "sensitive": false
+            },
+            {
+              "start": "21:24",
+              "image": "https://i.imgur.com/M83KjXZ.jpeg",
+              "summary": "F1 movie pit-stop scene — APXGP Expensify-sponsored crew running, subtitle 'Front jacks! Front jacks!'",
+              "sensitive": false
+            },
+            {
+              "start": "21:39",
+              "image": "https://i.imgur.com/qAbt2yF.jpeg",
+              "summary": "F1 movie scene — young driver doing pull-up/training exercise in gym, side profile silhouette",
+              "sensitive": false
+            },
+            {
+              "start": "21:54",
+              "image": "https://i.imgur.com/NxDKxe8.jpeg",
+              "summary": "F1 movie scene — Brad Pitt's character sitting on a bed in stone-walled room with bedside lamp",
               "sensitive": false
             }
           ],
           "images": [
+            "https://i.imgur.com/fmI1uVp.jpeg",
             "https://i.imgur.com/lrcShOD.jpeg",
             "https://i.imgur.com/iZFPrWh.jpeg",
-            "https://i.imgur.com/2YP1iVa.jpeg"
+            "https://i.imgur.com/2YP1iVa.jpeg",
+            "https://i.imgur.com/M83KjXZ.jpeg",
+            "https://i.imgur.com/qAbt2yF.jpeg",
+            "https://i.imgur.com/NxDKxe8.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
