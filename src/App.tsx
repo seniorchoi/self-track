@@ -281,6 +281,7 @@ function ChronoClock({ day, summary }: { day: Day; summary?: DailySummary | null
               const caps = blockCaptures(active)
               const isSleep = (active.activity || '').toLowerCase() === 'sleeping'
               const allWithheld = caps.length > 0 && caps.every(c => !isUrl(c.image || undefined))
+              // Sleep blocks ALWAYS collapse — short-circuit before any strip logic.
               if (isSleep) return <div className="mt-2 text-sm text-gray-500 italic">🛏️ {fmtH(active.min)} — PC was off, no captures</div>
               if (allWithheld) return <div className="mt-2 text-sm text-gray-500 italic">🔒 {caps.length} capture{caps.length === 1 ? '' : 's'} withheld (sensitive content)</div>
               if (caps.length > 0) return <ImageStrip captures={caps} fallbackSummary={active.screen_summary} />
@@ -493,13 +494,14 @@ function Timeline({ day }: { day: Day }) {
         const caps = blockCaptures(b)
         const isSleep = (b.activity || '').toLowerCase() === 'sleeping'
         const allWithheld = caps.length > 0 && caps.every(c => !isUrl(c.image || undefined))
-        const showStrip = caps.length > 0 && !allWithheld
+        // Sleep blocks ALWAYS collapse — even if one stray capture has an image (cron grouping artifact)
+        const showStrip = caps.length > 0 && !allWithheld && !isSleep
         const fullySensitive = b.sensitive === true || (caps.length === 0 && (b.image?.includes('🔒') ?? false))
         const partialSensitive = !!b.sensitive_count && caps.some(c => isUrl(c.image || undefined))
         return (
-          <li key={i} className="grid grid-cols-[56px_1fr] sm:grid-cols-[80px_1fr] gap-2 sm:gap-4 items-start">
+          <li key={i} className="grid grid-cols-[56px_1fr] sm:grid-cols-[80px_1fr] gap-2 sm:gap-4 items-start min-w-0">
             <div className="font-mono text-xs text-gray-500 pt-1 tabular-nums">{b.start}<br/>↓<br/>{b.end}</div>
-            <div className="border border-[var(--line)] rounded-lg p-3 bg-white">
+            <div className="border border-[var(--line)] rounded-lg p-3 bg-white overflow-hidden min-w-0">
               <div className="flex items-center gap-2 mb-1 flex-wrap">
                 <span className="inline-block w-2 h-2 rounded-full" style={{ background: colorFor(b.category) }} />
                 <span className="text-xs uppercase tracking-wide text-gray-500">{b.category}</span>
