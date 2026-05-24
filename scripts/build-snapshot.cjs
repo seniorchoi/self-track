@@ -3,8 +3,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const FORMATTED = process.argv[2] || '/home/ksngh/.claude/projects/-home-ksngh--openclaw-workspace/7e4954c6-aec8-45da-bde1-d423a01c7766/tool-results/mcp-google-docs-readSpreadsheet-1779512428021.txt';
-const FORMULA   = process.argv[3] || '/home/ksngh/.claude/projects/-home-ksngh--openclaw-workspace/7e4954c6-aec8-45da-bde1-d423a01c7766/tool-results/mcp-google-docs-readSpreadsheet-1779512428660.txt';
+const FORMATTED = process.argv[2] || '/home/ksngh/.claude/projects/-home-ksngh--openclaw-workspace/9f057b96-e378-4602-ae73-a4221417d5ea/tool-results/mcp-google-docs-readSpreadsheet-1779620424931.txt';
+const FORMULA   = process.argv[3] || '/home/ksngh/.claude/projects/-home-ksngh--openclaw-workspace/9f057b96-e378-4602-ae73-a4221417d5ea/tool-results/mcp-google-docs-readSpreadsheet-1779620425757.txt';
 const OUT = '/home/ksngh/projects/selftrack-dashboard/public/snapshot.json';
 
 const DAILY_SUMMARIES = {
@@ -195,7 +195,25 @@ for (const date of dates) {
     if (r.project) by_project[r.project] = (by_project[r.project] || 0) + r.dur;
   }
   const day = { date, tracked_min, by_category, by_project, blocks };
-  if (DAILY_SUMMARIES[date]) day.dailySummary = DAILY_SUMMARIES[date];
+  if (DAILY_SUMMARIES[date]) {
+    const s = DAILY_SUMMARIES[date];
+    day.dailySummary = {
+      date,
+      tracked_min: s.tracked_min,
+      productivity_min: s.cats[0],
+      learning_min:     s.cats[1],
+      health_min:       s.cats[2],
+      leisure_min:      s.cats[3],
+      chores_min:       s.cats[4],
+      social_min:       s.cats[5],
+      afk_min:          s.cats[6],
+      unknown_min:      s.cats[7],
+      top_activities: s.headline,
+      notes: s.reflection,
+      bookends: s.span,
+      note_from_sun: s.note,
+    };
+  }
   days.push(day);
 }
 
