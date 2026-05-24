@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T20:00:52+09:00",
+  "generatedAt": "2026-05-24T14:02:58+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -881,20 +881,19 @@
         }
       ],
       "dailySummary": {
-        "tracked_min": 480,
-        "cats": [
-          255,
-          0,
-          0,
-          150,
-          30,
-          0,
-          45,
-          0
-        ],
-        "headline": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
-        "reflection": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
-        "span": "15:58 / 00:03",
+        "date": "2026-05-20",
+        "tracked_min": "480",
+        "prod_min": "255",
+        "comm_min": "0",
+        "learning_min": "0",
+        "leisure_min": "150",
+        "health_min": "30",
+        "errands_min": "0",
+        "afk_min": "45",
+        "other_min": "0",
+        "top_activities": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
+        "summary": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
+        "window": "15:58 / 00:03",
         "note": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
       }
     },
@@ -1577,20 +1576,19 @@
         }
       ],
       "dailySummary": {
-        "tracked_min": 1440,
-        "cats": [
-          60,
-          0,
-          0,
-          150,
-          45,
-          15,
-          1170,
-          0
-        ],
-        "headline": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
-        "reflection": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
-        "span": "00:03 / 23:53",
+        "date": "2026-05-21",
+        "tracked_min": "1440",
+        "prod_min": "60",
+        "comm_min": "0",
+        "learning_min": "0",
+        "leisure_min": "150",
+        "health_min": "45",
+        "errands_min": "15",
+        "afk_min": "1170",
+        "other_min": "0",
+        "top_activities": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
+        "summary": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
+        "window": "00:03 / 23:53",
         "note": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
       }
     },
@@ -2479,31 +2477,30 @@
         }
       ],
       "dailySummary": {
-        "tracked_min": 810,
-        "cats": [
-          30,
-          0,
-          0,
-          375,
-          0,
-          0,
-          405,
-          0
-        ],
-        "headline": "haircut errand (6h 30m) · playing Total War: Warhammer (1h 30m) · watching movie/TV (1h 15m)",
-        "reflection": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
-        "span": "00:08 / 23:51",
-        "note": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
+        "date": "2026-05-22",
+        "tracked_min": "810",
+        "prod_min": "30",
+        "comm_min": "0",
+        "learning_min": "0",
+        "leisure_min": "375",
+        "health_min": "0",
+        "errands_min": "0",
+        "afk_min": "405",
+        "other_min": "0",
+        "top_activities": "haircut errand (6h 30m) · playing Total War: Warhammer (1h 30m) · watching movie/TV (1h 15m)",
+        "summary": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
+        "window": "00:08 / 23:51",
+        "note": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
       }
     },
     {
       "date": "2026-05-23",
-      "tracked_min": 465,
+      "tracked_min": 1485,
       "by_category": {
-        "Leisure": 90,
+        "Leisure": 285,
         "Productivity": 105,
-        "Learning": 150,
-        "AFK/Idle": 120
+        "Learning": 210,
+        "AFK/Idle": 885
       },
       "by_project": {
         "Personal/Leisure": 60,
@@ -2511,7 +2508,11 @@
         "Simple Rizz": 75,
         "Learning/Reading": 150,
         "Personal/Break": 120,
-        "Gaming/Warhammer": 30
+        "Gaming/Warhammer": 30,
+        "": 15,
+        "Leisure": 165,
+        "Leisure/History": 90,
+        "Sleep": 750
       },
       "blocks": [
         {
@@ -3049,6 +3050,679 @@
           ],
           "images": [
             "https://i.imgur.com/gXp6qc9.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "20:00",
+          "end": "20:15",
+          "min": 15,
+          "category": "AFK/Idle",
+          "activity": "Away from desk",
+          "project": "",
+          "screen_summary": "Claude.ai still parked on the same essay 'The takeaway' page — no interaction.",
+          "webcam": "Empty room — Sun away from desk.",
+          "captures": [
+            {
+              "start": "20:00",
+              "image": "https://i.imgur.com/Hq7PDqa.jpeg",
+              "summary": "Claude.ai still parked on the same essay 'The takeaway' page — no interaction.",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/Hq7PDqa.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "20:15",
+          "end": "22:46",
+          "min": 150,
+          "category": "Leisure",
+          "activity": "Watching movie",
+          "project": "Leisure",
+          "screen_summary": "Full-screen movie scene — bearded man in space-suit / lab-tech rig, industrial setting.",
+          "webcam": "Sun upright with headphones, drinking water — body upright.",
+          "captures": [
+            {
+              "start": "20:15",
+              "image": "https://i.imgur.com/38TTq6x.jpeg",
+              "summary": "Full-screen movie scene — bearded man in space-suit / lab-tech rig, industrial setting.",
+              "sensitive": false
+            },
+            {
+              "start": "20:30",
+              "image": "https://i.imgur.com/H0cNWTi.jpeg",
+              "summary": "Full-screen movie scene — man in suit and glasses (looks like Michael Peña) in an office.",
+              "sensitive": false
+            },
+            {
+              "start": "20:46",
+              "image": "https://i.imgur.com/rym7lcl.jpeg",
+              "summary": "Movie title/chapter card — text 'susan' on black background.",
+              "sensitive": false
+            },
+            {
+              "start": "21:01",
+              "image": "https://i.imgur.com/9KN0Joi.jpeg",
+              "summary": "Movie scene — hands holding a tablet/Etch-A-Sketch-like keypad, subtitle 'Okay, you know, I'm just gonna put down sports.'",
+              "sensitive": false
+            },
+            {
+              "start": "21:16",
+              "image": "https://i.imgur.com/qXDjYYS.jpeg",
+              "summary": "Movie scene — middle-aged woman, subtitle 'God, it's like being allergic to the air.'",
+              "sensitive": false
+            },
+            {
+              "start": "21:31",
+              "image": "https://i.imgur.com/wBNEq86.jpeg",
+              "summary": "Movie scene — blond shirtless young man in a room with paintings, subtitle 'I know, but I mean, you're going to work, right?'",
+              "sensitive": false
+            },
+            {
+              "start": "21:46",
+              "image": "https://i.imgur.com/6373b1u.jpeg",
+              "summary": "Movie scene — close-up of hand turning pages of a 'BEAUTY' brochure with introduction, subtitle 'I won't be bringing anything. I... I don't...'",
+              "sensitive": false
+            },
+            {
+              "start": "22:01",
+              "image": "https://i.imgur.com/owsZIeZ.jpeg",
+              "summary": "Movie scene — armed crowd in helmets, subtitle 'Get off of her!'",
+              "sensitive": false
+            },
+            {
+              "start": "22:16",
+              "image": "https://i.imgur.com/IZSINm4.jpeg",
+              "summary": "Movie scene — figure atop a cable-ball machine against a glitchy screen-wall, subtitle 'This kid's made out of plutonium.'",
+              "sensitive": false
+            },
+            {
+              "start": "22:31",
+              "image": "https://i.imgur.com/Fyi4S7I.jpeg",
+              "summary": "Movie scene — bare feet on a tangle of black cables in an underwater-looking blue environment.",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/38TTq6x.jpeg",
+            "https://i.imgur.com/H0cNWTi.jpeg",
+            "https://i.imgur.com/rym7lcl.jpeg",
+            "https://i.imgur.com/9KN0Joi.jpeg",
+            "https://i.imgur.com/qXDjYYS.jpeg",
+            "https://i.imgur.com/wBNEq86.jpeg",
+            "https://i.imgur.com/6373b1u.jpeg",
+            "https://i.imgur.com/owsZIeZ.jpeg",
+            "https://i.imgur.com/IZSINm4.jpeg",
+            "https://i.imgur.com/Fyi4S7I.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "22:46",
+          "end": "23:01",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Browsing X/Twitter",
+          "project": "Leisure",
+          "screen_summary": "X/Twitter For-you feed — BRICS News post about Taiwan/China territorial waters, 'NO CONTEXT HUMANS' post about machine learning, trending sidebar.",
+          "webcam": "Sun upright, hand on face, centered, dim lighting.",
+          "captures": [
+            {
+              "start": "22:46",
+              "image": "https://i.imgur.com/zXf5FYn.jpeg",
+              "summary": "X/Twitter For-you feed — BRICS News post about Taiwan/China territorial waters, 'NO CONTEXT HUMANS' post about machine learning, trending sidebar.",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/zXf5FYn.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "23:01",
+          "end": "23:16",
+          "min": 15,
+          "category": "Learning",
+          "activity": "Researching Napoleon",
+          "project": "Leisure/History",
+          "screen_summary": "Browser article — Napoleon Bonaparte topic with embedded BBC video and Drama documentaries on Toulon (1793) and Samurai general Tokugawa Ieyasu.",
+          "webcam": "Sun lying on bed in dark — phone screen lights his arm.",
+          "captures": [
+            {
+              "start": "23:01",
+              "image": "https://i.imgur.com/7J07cru.jpeg",
+              "summary": "Browser article — Napoleon Bonaparte topic with embedded BBC video and Drama documentaries on Toulon (1793) and Samurai general Tokugawa Ieyasu.",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/7J07cru.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "23:16",
+          "end": "00:01",
+          "min": 45,
+          "category": "Learning",
+          "activity": "Watching Napoleon docudrama",
+          "project": "Leisure/History",
+          "screen_summary": "Cosmos channel — Napoleon docudrama scene with older man with white moustache and a young woman, Greek subtitles ('Πήρα την Αβινιόν και τη Μασσαλία...').",
+          "webcam": "Dark frame, faint face silhouette looking down — Sun watching from bed.",
+          "captures": [
+            {
+              "start": "23:16",
+              "image": "https://i.imgur.com/NV7BDTN.jpeg",
+              "summary": "Cosmos channel — Napoleon docudrama scene with older man with white moustache and a young woman, Greek subtitles ('Πήρα την Αβινιόν και τη Μασσαλία...').",
+              "sensitive": false
+            },
+            {
+              "start": "23:31",
+              "image": "https://i.imgur.com/k6qfseP.jpeg",
+              "summary": "Cosmos channel — Napoleon docudrama, close-up of a thin man with curled hair in 18th-century cravat (likely Robespierre or similar figure).",
+              "sensitive": false
+            },
+            {
+              "start": "23:46",
+              "image": "https://i.imgur.com/nRO6iPG.jpeg",
+              "summary": "Cosmos channel — Napoleon docudrama, close-up of young Napoleon in bicorne hat, Greek subtitle ('Πήγαινε τώρα. Φύγε!').",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/NV7BDTN.jpeg",
+            "https://i.imgur.com/k6qfseP.jpeg",
+            "https://i.imgur.com/nRO6iPG.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "00:01",
+          "end": "00:16",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Watching period drama film",
+          "project": "Leisure/History",
+          "screen_summary": "Streaming a Napoleon-era period drama (Cosmos overlay/site UI), dim historical interior scene",
+          "webcam": "Dim room, person facing screen, hands near face",
+          "captures": [
+            {
+              "start": "00:01",
+              "image": "https://i.imgur.com/JgaRc3b.jpeg",
+              "summary": "Streaming a Napoleon-era period drama (Cosmos overlay/site UI), dim historical interior scene",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/JgaRc3b.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "00:16",
+          "end": "00:31",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Watching YouTube Napoleon videos",
+          "project": "Leisure/History",
+          "screen_summary": "YouTube search 'terror and villains napoleon' showing War & Peace Battle of Borodino and Napoleon battle scene thumbnails",
+          "webcam": "Dim room, person looking at screen, neutral expression",
+          "captures": [
+            {
+              "start": "00:16",
+              "image": "https://i.imgur.com/QifZHTT.jpeg",
+              "summary": "YouTube search 'terror and villains napoleon' showing War & Peace Battle of Borodino and Napoleon battle scene thumbnails",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/QifZHTT.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "00:31",
+          "end": "13:01",
+          "min": 750,
+          "category": "AFK/Idle",
+          "activity": "sleeping",
+          "project": "Sleep",
+          "screen_summary": "(autofilled — overnight gap)",
+          "webcam": "",
+          "captures": [
+            {
+              "start": "00:31",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "00:46",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "01:01",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "01:16",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "01:31",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "01:46",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "02:01",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "02:16",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "02:31",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "02:46",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "03:01",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "03:16",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "03:31",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "03:46",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "04:01",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "04:16",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "04:31",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "04:46",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "05:01",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "05:16",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "05:31",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "05:46",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "06:01",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "06:16",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "06:31",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "06:46",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "07:01",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "07:16",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "07:31",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "07:46",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "08:01",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "08:16",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "08:31",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "08:46",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "09:01",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "09:16",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "09:31",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "09:46",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "10:01",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "10:16",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "10:31",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "10:46",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "11:01",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "11:16",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "11:31",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "11:46",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "12:01",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "12:16",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "12:31",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            },
+            {
+              "start": "12:46",
+              "image": null,
+              "summary": "(autofilled — overnight gap)",
+              "sensitive": true
+            }
+          ],
+          "images": [],
+          "sensitive_count": 50,
+          "sensitive": true,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-05-24",
+      "tracked_min": 60,
+      "by_category": {
+        "Admin/Errands": 15,
+        "Leisure": 15,
+        "Communications": 15,
+        "Learning": 15
+      },
+      "by_project": {
+        "Admin": 15,
+        "Learning/Business": 15,
+        "Reddit ops": 15,
+        "Health": 15
+      },
+      "blocks": [
+        {
+          "start": "13:08",
+          "end": "13:23",
+          "min": 15,
+          "category": "Admin/Errands",
+          "activity": "Configuring Windscribe VPN",
+          "project": "Admin",
+          "screen_summary": "Chrome new tab (Google) with Windscribe VPN popup showing Montreal Expo 67 server selection",
+          "webcam": "Bright room, person hunched forward with head down, slouching posture",
+          "captures": [
+            {
+              "start": "13:08",
+              "image": "https://i.imgur.com/oGlo89F.jpeg",
+              "summary": "Chrome new tab (Google) with Windscribe VPN popup showing Montreal Expo 67 server selection",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/oGlo89F.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "13:23",
+          "end": "13:38",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Watching SpaceX IPO podcast",
+          "project": "Learning/Business",
+          "screen_summary": "YouTube Moonshots episode 'SpaceX Files Biggest IPO in History' with Peter Diamandis and Mark Cuban",
+          "webcam": "Person off-center right, head turned slightly, shoulders level",
+          "captures": [
+            {
+              "start": "13:23",
+              "image": "https://i.imgur.com/5qufrq0.jpeg",
+              "summary": "YouTube Moonshots episode 'SpaceX Files Biggest IPO in History' with Peter Diamandis and Mark Cuban",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/5qufrq0.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "13:38",
+          "end": "13:53",
+          "min": 15,
+          "category": "Communications",
+          "activity": "Logging in to Reddit",
+          "project": "Reddit ops",
+          "screen_summary": "Reddit login modal open with email autofill suggestions visible",
+          "webcam": "Person centered, looking down at screen, shoulders level",
+          "captures": [
+            {
+              "start": "13:38",
+              "image": null,
+              "summary": "Reddit login modal open with email autofill suggestions visible",
+              "sensitive": true
+            }
+          ],
+          "images": [],
+          "sensitive_count": 1,
+          "sensitive": true,
+          "notes": ""
+        },
+        {
+          "start": "13:53",
+          "end": "14:08",
+          "min": 15,
+          "category": "Learning",
+          "activity": "Researching walking and fascia",
+          "project": "Health",
+          "screen_summary": "YouTube search 'walking and fascia' showing fix-walking, plantar fascia, tight calves video results",
+          "webcam": "Person centered, head tilted down, neutral expression",
+          "captures": [
+            {
+              "start": "13:53",
+              "image": "https://i.imgur.com/ozu78sj.jpeg",
+              "summary": "YouTube search 'walking and fascia' showing fix-walking, plantar fascia, tight calves video results",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/ozu78sj.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
