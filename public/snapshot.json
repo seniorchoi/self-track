@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T18:04:13+09:00",
+  "generatedAt": "2026-05-24T19:04:23+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -3620,21 +3620,23 @@
     },
     {
       "date": "2026-05-24",
-      "tracked_min": 300,
+      "tracked_min": 360,
       "by_category": {
         "Admin/Errands": 15,
-        "Leisure": 15,
+        "Leisure": 30,
         "Communications": 15,
-        "Learning": 120,
-        "Productivity": 15,
+        "Learning": 135,
+        "Productivity": 45,
         "AFK/Idle": 120
       },
       "by_project": {
         "Admin": 15,
         "Learning/Business": 15,
         "Reddit ops": 15,
-        "Health": 135,
-        "": 120
+        "Health": 150,
+        "": 120,
+        "SelfTrack": 30,
+        "Leisure": 15
       },
       "blocks": [
         {
@@ -4010,6 +4012,102 @@
           ],
           "sensitive_count": 0,
           "webcam": "Sun back at desk, head tilted down slightly, shoulders level",
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "18:09",
+          "end": "18:24",
+          "min": 15,
+          "category": "Productivity",
+          "activity": "Reviewing SelfTrack dashboard",
+          "project": "SelfTrack",
+          "screen_summary": "Life of Sun' Activity Dashboard showing chronological clock for 2026-05-23 with category breakdown and YouTube Shorts capture entry visible",
+          "captures": [
+            {
+              "start": "18:09",
+              "image": "https://i.imgur.com/XIa4kbu.jpeg",
+              "summary": "Life of Sun' Activity Dashboard showing chronological clock for 2026-05-23 with category breakdown and YouTube Shorts capture entry visible",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/XIa4kbu.jpeg"
+          ],
+          "sensitive_count": 0,
+          "webcam": "Person centered, looking forward, shoulders level",
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "18:24",
+          "end": "18:39",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Browsing YouTube home feed",
+          "project": "Leisure",
+          "screen_summary": "YouTube home with 'How To Walk - Don't do this!' Natural Way to Walk video and SpaceX IPO podcast plus barefoot shorts",
+          "captures": [
+            {
+              "start": "18:24",
+              "image": "https://i.imgur.com/dShn7QQ.jpeg",
+              "summary": "YouTube home with 'How To Walk - Don't do this!' Natural Way to Walk video and SpaceX IPO podcast plus barefoot shorts",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/dShn7QQ.jpeg"
+          ],
+          "sensitive_count": 0,
+          "webcam": "Close-up of face, hand to chin, leaning toward screen",
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "18:39",
+          "end": "18:54",
+          "min": 15,
+          "category": "Productivity",
+          "activity": "OpenClaw chat about SelfTrack capture alignment",
+          "project": "SelfTrack",
+          "screen_summary": "OpenClaw web chat with claude-opus-4-7 discussing alignment between screen.png and snapshot.jpg captures in SelfTrack",
+          "captures": [
+            {
+              "start": "18:39",
+              "image": "https://i.imgur.com/h7EwlI3.jpeg",
+              "summary": "OpenClaw web chat with claude-opus-4-7 discussing alignment between screen.png and snapshot.jpg captures in SelfTrack",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/h7EwlI3.jpeg"
+          ],
+          "sensitive_count": 0,
+          "webcam": "Empty room — Sun away from desk",
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "18:54",
+          "end": "19:09",
+          "min": 15,
+          "category": "Learning",
+          "activity": "Watching fascia stretching video",
+          "project": "Health",
+          "screen_summary": "YouTube Brotherofmuug video 'How To Optimize Your Fascia To Grow Taller' — woman demonstrating stretching concept with rubber band",
+          "captures": [
+            {
+              "start": "18:54",
+              "image": "https://i.imgur.com/IbYO6rt.jpeg",
+              "summary": "YouTube Brotherofmuug video 'How To Optimize Your Fascia To Grow Taller' — woman demonstrating stretching concept with rubber band",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/IbYO6rt.jpeg"
+          ],
+          "sensitive_count": 0,
+          "webcam": "Person drinking from water bottle, head and torso visible, shoulders level",
           "sensitive": false,
           "notes": ""
         }
