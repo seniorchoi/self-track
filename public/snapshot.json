@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T17:05:35.484791+09:00",
+  "generatedAt": "2026-05-24T18:04:13+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -868,14 +868,12 @@
             },
             {
               "start": "09:33",
-              "image": "https://i.imgur.com/1py712S.jpeg",
+              "image": null,
               "summary": "overnight sleep gap autofill",
               "sensitive": true
             }
           ],
-          "images": [
-            "https://i.imgur.com/1py712S.jpeg"
-          ],
+          "images": [],
           "sensitive_count": 29,
           "webcam": "absent",
           "sensitive": true,
@@ -886,17 +884,17 @@
         "date": "2026-05-20",
         "tracked_min": 480,
         "productivity_min": 255,
-        "work_min": 0,
         "learning_min": 0,
+        "health_min": 0,
         "leisure_min": 150,
-        "exercise_min": 30,
-        "chores_min": 0,
-        "afk_idle_min": 45,
-        "other_min": 0,
-        "activity_breakdown": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
-        "feedback": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
-        "span": "15:58 / 00:03",
-        "note": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
+        "chores_min": 30,
+        "social_min": 0,
+        "afk_min": 45,
+        "unknown_min": 0,
+        "top_activities": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
+        "notes": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
+        "bookends": "15:58 / 00:03",
+        "note_from_sun": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
       }
     },
     {
@@ -930,13 +928,13 @@
           "captures": [
             {
               "start": "10:06",
-              "image": "https://i.imgur.com/lGd1iYU.jpeg",
+              "image": "https://i.imgur.com/1py712S.jpeg",
               "summary": "uTorrent Web dashboard open over scenic desktop wallpaper, 38GB downloaded / 9.5GB uploaded",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/lGd1iYU.jpeg"
+            "https://i.imgur.com/1py712S.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "present",
@@ -954,48 +952,48 @@
           "captures": [
             {
               "start": "10:21",
-              "image": "https://i.imgur.com/cvN3z5n.jpeg",
+              "image": "https://i.imgur.com/lGd1iYU.jpeg",
               "summary": "Notepad open with single word 'Gym' typed; user not at desk",
               "sensitive": false
             },
             {
               "start": "10:36",
-              "image": "https://i.imgur.com/jS0uqA6.jpeg",
+              "image": "https://i.imgur.com/cvN3z5n.jpeg",
               "summary": "Notepad open with single word 'Gym' typed; user not at desk",
               "sensitive": false
             },
             {
               "start": "10:51",
-              "image": "https://i.imgur.com/2ts8blb.jpeg",
+              "image": "https://i.imgur.com/jS0uqA6.jpeg",
               "summary": "Notepad open with single word 'Gym' typed; user not at desk",
               "sensitive": false
             },
             {
               "start": "11:06",
-              "image": "https://i.imgur.com/Gx4q82i.jpeg",
+              "image": "https://i.imgur.com/2ts8blb.jpeg",
               "summary": "Notepad open with single word 'Gym' typed; user not at desk",
               "sensitive": false
             },
             {
               "start": "11:21",
-              "image": "https://i.imgur.com/xfarIWq.jpeg",
+              "image": "https://i.imgur.com/Gx4q82i.jpeg",
               "summary": "Notepad open with single word 'Gym' typed; user not at desk",
               "sensitive": false
             },
             {
               "start": "11:36",
-              "image": "https://i.imgur.com/wXIUyjp.jpeg",
+              "image": "https://i.imgur.com/xfarIWq.jpeg",
               "summary": "Notepad open with single word 'Gym' typed; user not at desk",
               "sensitive": false
             }
           ],
           "images": [
+            "https://i.imgur.com/lGd1iYU.jpeg",
             "https://i.imgur.com/cvN3z5n.jpeg",
             "https://i.imgur.com/jS0uqA6.jpeg",
             "https://i.imgur.com/2ts8blb.jpeg",
             "https://i.imgur.com/Gx4q82i.jpeg",
-            "https://i.imgur.com/xfarIWq.jpeg",
-            "https://i.imgur.com/wXIUyjp.jpeg"
+            "https://i.imgur.com/xfarIWq.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "absent",
@@ -1013,13 +1011,13 @@
           "captures": [
             {
               "start": "11:51",
-              "image": "https://i.imgur.com/ykBVomS.jpeg",
+              "image": "https://i.imgur.com/wXIUyjp.jpeg",
               "summary": "YouTube search for 'erdos math problems' — Numberphile Erdős Numbers thumbnail visible",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/ykBVomS.jpeg"
+            "https://i.imgur.com/wXIUyjp.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "present",
@@ -1037,20 +1035,20 @@
           "captures": [
             {
               "start": "12:07",
-              "image": "https://i.imgur.com/TWVp4xs.jpeg",
+              "image": "https://i.imgur.com/ykBVomS.jpeg",
               "summary": "YouTube article-card style video about Apple AirPods Ultra with cameras (Bloomberg)",
               "sensitive": false
             },
             {
               "start": "12:22",
-              "image": "https://i.imgur.com/7ypa5uD.jpeg",
+              "image": "https://i.imgur.com/TWVp4xs.jpeg",
               "summary": "YouTube video player loading; tabs include OpenClaw Control, Activity Dashboard, Discord",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/TWVp4xs.jpeg",
-            "https://i.imgur.com/7ypa5uD.jpeg"
+            "https://i.imgur.com/ykBVomS.jpeg",
+            "https://i.imgur.com/TWVp4xs.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "present",
@@ -1068,13 +1066,13 @@
           "captures": [
             {
               "start": "12:37",
-              "image": "https://i.imgur.com/R0ig3aH.jpeg",
+              "image": "https://i.imgur.com/7ypa5uD.jpeg",
               "summary": "NetworkChuck YouTube 'can you run hermes locally' — Codex provider list (Nous Portal, OpenRouter, LM Studio)",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/R0ig3aH.jpeg"
+            "https://i.imgur.com/7ypa5uD.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "present",
@@ -1092,13 +1090,13 @@
           "captures": [
             {
               "start": "12:52",
-              "image": "https://i.imgur.com/AgzwyGi.jpeg",
+              "image": "https://i.imgur.com/R0ig3aH.jpeg",
               "summary": "SelfTrack daily activity dashboard open in Chrome, browsing recent rows, DevTools panel visible",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/AgzwyGi.jpeg"
+            "https://i.imgur.com/R0ig3aH.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "present",
@@ -1116,13 +1114,13 @@
           "captures": [
             {
               "start": "13:07",
-              "image": "https://i.imgur.com/A98Y1Bc.jpeg",
+              "image": "https://i.imgur.com/AgzwyGi.jpeg",
               "summary": "Hermes Benchmark thread on X: GPT-5.5 vs Opus 4.7 (3/3 each, Opus 1.9x faster, GPT-5.5 12% cheaper)",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/A98Y1Bc.jpeg"
+            "https://i.imgur.com/AgzwyGi.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "present",
@@ -1140,13 +1138,13 @@
           "captures": [
             {
               "start": "13:22",
-              "image": "https://i.imgur.com/avueBxo.jpeg",
+              "image": "https://i.imgur.com/A98Y1Bc.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/avueBxo.jpeg"
+            "https://i.imgur.com/A98Y1Bc.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "absent",
@@ -1164,354 +1162,355 @@
           "captures": [
             {
               "start": "13:37",
-              "image": "https://i.imgur.com/dyTQoj5.jpeg",
+              "image": "https://i.imgur.com/avueBxo.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; webcam dark",
               "sensitive": false
             },
             {
               "start": "13:52",
-              "image": "https://i.imgur.com/Kq2i7Qq.jpeg",
+              "image": "https://i.imgur.com/dyTQoj5.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; webcam dark",
               "sensitive": false
             },
             {
               "start": "14:07",
-              "image": "https://i.imgur.com/bftt03C.jpeg",
+              "image": "https://i.imgur.com/Kq2i7Qq.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "14:22",
-              "image": "https://i.imgur.com/rJogfYS.jpeg",
+              "image": "https://i.imgur.com/bftt03C.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "14:37",
-              "image": "https://i.imgur.com/eWBACwS.jpeg",
+              "image": "https://i.imgur.com/rJogfYS.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "14:52",
-              "image": "https://i.imgur.com/HtdM1wP.jpeg",
+              "image": "https://i.imgur.com/eWBACwS.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "15:07",
-              "image": "https://i.imgur.com/T1psl9g.jpeg",
+              "image": "https://i.imgur.com/HtdM1wP.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "15:22",
-              "image": "https://i.imgur.com/9fTp8gQ.jpeg",
+              "image": "https://i.imgur.com/T1psl9g.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "15:37",
-              "image": "https://i.imgur.com/UPxEgdE.jpeg",
+              "image": "https://i.imgur.com/9fTp8gQ.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "15:52",
-              "image": "https://i.imgur.com/3Bar4gD.jpeg",
+              "image": "https://i.imgur.com/UPxEgdE.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "16:07",
-              "image": "https://i.imgur.com/0LHSBoD.jpeg",
+              "image": "https://i.imgur.com/3Bar4gD.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "16:22",
-              "image": "https://i.imgur.com/qQGgYdP.jpeg",
+              "image": "https://i.imgur.com/0LHSBoD.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "16:37",
-              "image": "https://i.imgur.com/0Q6EtVZ.jpeg",
+              "image": "https://i.imgur.com/qQGgYdP.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "16:52",
-              "image": "https://i.imgur.com/um9BPu5.jpeg",
+              "image": "https://i.imgur.com/0Q6EtVZ.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "17:07",
-              "image": "https://i.imgur.com/EokkeZh.jpeg",
+              "image": "https://i.imgur.com/um9BPu5.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "17:22",
-              "image": "https://i.imgur.com/DCNJJZO.jpeg",
+              "image": "https://i.imgur.com/EokkeZh.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "17:37",
-              "image": "https://i.imgur.com/kk7YOlh.jpeg",
+              "image": "https://i.imgur.com/DCNJJZO.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "17:52",
-              "image": "https://i.imgur.com/nuoeRWc.jpeg",
+              "image": "https://i.imgur.com/kk7YOlh.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "18:07",
-              "image": "https://i.imgur.com/7dqE8Us.jpeg",
+              "image": "https://i.imgur.com/nuoeRWc.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "18:22",
-              "image": "https://i.imgur.com/VbgpLNs.jpeg",
+              "image": "https://i.imgur.com/7dqE8Us.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "18:37",
-              "image": "https://i.imgur.com/NKYBupX.jpeg",
+              "image": "https://i.imgur.com/VbgpLNs.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "18:52",
-              "image": "https://i.imgur.com/PhuOfWV.jpeg",
+              "image": "https://i.imgur.com/NKYBupX.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "19:07",
-              "image": "https://i.imgur.com/I1Gs4LV.jpeg",
+              "image": "https://i.imgur.com/PhuOfWV.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away, room dark",
               "sensitive": false
             },
             {
               "start": "19:22",
-              "image": "https://i.imgur.com/DygszYt.jpeg",
+              "image": "https://i.imgur.com/I1Gs4LV.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away, room dark",
               "sensitive": false
             },
             {
               "start": "19:37",
-              "image": "https://i.imgur.com/X13rjik.jpeg",
+              "image": "https://i.imgur.com/DygszYt.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away, room dark",
               "sensitive": false
             },
             {
               "start": "19:52",
-              "image": "https://i.imgur.com/rWDzw9f.jpeg",
+              "image": "https://i.imgur.com/X13rjik.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away, room dark",
               "sensitive": false
             },
             {
               "start": "20:07",
-              "image": "https://i.imgur.com/Chhmn1H.jpeg",
+              "image": "https://i.imgur.com/rWDzw9f.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "20:22",
-              "image": "https://i.imgur.com/4JtQfhH.jpeg",
+              "image": "https://i.imgur.com/Chhmn1H.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "20:37",
-              "image": "https://i.imgur.com/vZCgSHX.jpeg",
+              "image": "https://i.imgur.com/4JtQfhH.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "20:52",
-              "image": "https://i.imgur.com/JIGwoeq.jpeg",
+              "image": "https://i.imgur.com/vZCgSHX.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "21:07",
-              "image": "https://i.imgur.com/6F2xHPB.jpeg",
+              "image": "https://i.imgur.com/JIGwoeq.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "21:22",
-              "image": "https://i.imgur.com/bD2jNJL.jpeg",
+              "image": "https://i.imgur.com/6F2xHPB.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "21:37",
-              "image": "https://i.imgur.com/J1tfrnK.jpeg",
+              "image": "https://i.imgur.com/bD2jNJL.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "21:52",
-              "image": "https://i.imgur.com/TfXb2zg.jpeg",
+              "image": "https://i.imgur.com/J1tfrnK.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "22:08",
-              "image": "https://i.imgur.com/sLMEtSZ.jpeg",
+              "image": "https://i.imgur.com/TfXb2zg.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "22:23",
-              "image": "https://i.imgur.com/OSqZ2oM.jpeg",
+              "image": "https://i.imgur.com/sLMEtSZ.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "22:38",
-              "image": "https://i.imgur.com/pQL4CV0.jpeg",
+              "image": "https://i.imgur.com/OSqZ2oM.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "22:53",
-              "image": "https://i.imgur.com/OvnJCJg.jpeg",
+              "image": "https://i.imgur.com/pQL4CV0.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "23:08",
-              "image": "https://i.imgur.com/T4iWaaQ.jpeg",
+              "image": "https://i.imgur.com/OvnJCJg.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "23:23",
-              "image": "https://i.imgur.com/dcFiIGc.jpeg",
+              "image": "https://i.imgur.com/T4iWaaQ.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "23:38",
-              "image": "https://i.imgur.com/9I1mxGo.jpeg",
+              "image": "https://i.imgur.com/dcFiIGc.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "23:53",
-              "image": "https://i.imgur.com/2JDWXio.jpeg",
+              "image": "https://i.imgur.com/9I1mxGo.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "00:08",
-              "image": "https://i.imgur.com/Vq471hl.jpeg",
+              "image": "https://i.imgur.com/2JDWXio.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "00:23",
-              "image": "https://i.imgur.com/4F5ZicE.jpeg",
+              "image": "https://i.imgur.com/Vq471hl.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "00:38",
-              "image": "https://i.imgur.com/G5bOKy9.jpeg",
+              "image": "https://i.imgur.com/4F5ZicE.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "00:53",
-              "image": "https://i.imgur.com/JLxsIKf.jpeg",
+              "image": "https://i.imgur.com/G5bOKy9.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "01:08",
-              "image": "https://i.imgur.com/T7pc0kh.jpeg",
+              "image": "https://i.imgur.com/JLxsIKf.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "01:23",
-              "image": "https://i.imgur.com/drQtuu2.jpeg",
+              "image": "https://i.imgur.com/T7pc0kh.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "01:38",
-              "image": "https://i.imgur.com/kw9kVqK.jpeg",
+              "image": "https://i.imgur.com/drQtuu2.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "01:53",
-              "image": "https://i.imgur.com/0PGsg8b.jpeg",
+              "image": "https://i.imgur.com/kw9kVqK.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "02:08",
-              "image": "https://i.imgur.com/x2PQNBt.jpeg",
+              "image": "https://i.imgur.com/0PGsg8b.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "02:23",
-              "image": "https://i.imgur.com/JjH47Nx.jpeg",
+              "image": "https://i.imgur.com/x2PQNBt.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "02:38",
-              "image": "https://i.imgur.com/0D7KRrx.jpeg",
+              "image": "https://i.imgur.com/JjH47Nx.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "02:53",
-              "image": "https://i.imgur.com/lNBjmVJ.jpeg",
+              "image": "https://i.imgur.com/0D7KRrx.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "03:08",
-              "image": "https://i.imgur.com/crAx7sb.jpeg",
+              "image": "https://i.imgur.com/lNBjmVJ.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "03:23",
-              "image": "https://i.imgur.com/HjJOniK.jpeg",
+              "image": "https://i.imgur.com/crAx7sb.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "03:38",
-              "image": "https://i.imgur.com/8BhPNq6.jpeg",
+              "image": "https://i.imgur.com/HjJOniK.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "03:53",
-              "image": "https://i.imgur.com/cmMk3fG.jpeg",
+              "image": "https://i.imgur.com/8BhPNq6.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             }
           ],
           "images": [
+            "https://i.imgur.com/avueBxo.jpeg",
             "https://i.imgur.com/dyTQoj5.jpeg",
             "https://i.imgur.com/Kq2i7Qq.jpeg",
             "https://i.imgur.com/bftt03C.jpeg",
@@ -1568,8 +1567,7 @@
             "https://i.imgur.com/lNBjmVJ.jpeg",
             "https://i.imgur.com/crAx7sb.jpeg",
             "https://i.imgur.com/HjJOniK.jpeg",
-            "https://i.imgur.com/8BhPNq6.jpeg",
-            "https://i.imgur.com/cmMk3fG.jpeg"
+            "https://i.imgur.com/8BhPNq6.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "absent",
@@ -1581,17 +1579,17 @@
         "date": "2026-05-21",
         "tracked_min": 1440,
         "productivity_min": 60,
-        "work_min": 0,
         "learning_min": 0,
+        "health_min": 0,
         "leisure_min": 150,
-        "exercise_min": 45,
-        "chores_min": 15,
-        "afk_idle_min": 1170,
-        "other_min": 0,
-        "activity_breakdown": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
-        "feedback": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
-        "span": "00:03 / 23:53",
-        "note": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
+        "chores_min": 45,
+        "social_min": 15,
+        "afk_min": 1170,
+        "unknown_min": 0,
+        "top_activities": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
+        "notes": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
+        "bookends": "00:03 / 23:53",
+        "note_from_sun": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
       }
     },
     {
@@ -1628,66 +1626,67 @@
           "captures": [
             {
               "start": "04:08",
-              "image": "https://i.imgur.com/L5NM2k3.jpeg",
+              "image": "https://i.imgur.com/cmMk3fG.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "04:23",
-              "image": "https://i.imgur.com/MSVN5jX.jpeg",
+              "image": "https://i.imgur.com/L5NM2k3.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "04:38",
-              "image": "https://i.imgur.com/6b4yszA.jpeg",
+              "image": "https://i.imgur.com/MSVN5jX.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "04:53",
-              "image": "https://i.imgur.com/tHOoJXQ.jpeg",
+              "image": "https://i.imgur.com/6b4yszA.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
               "sensitive": false
             },
             {
               "start": "05:08",
-              "image": "https://i.imgur.com/Y1299qM.jpeg",
+              "image": "https://i.imgur.com/tHOoJXQ.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "05:23",
-              "image": "https://i.imgur.com/hVIPXpJ.jpeg",
+              "image": "https://i.imgur.com/Y1299qM.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "05:38",
-              "image": "https://i.imgur.com/gNYabpX.jpeg",
+              "image": "https://i.imgur.com/hVIPXpJ.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "05:53",
-              "image": "https://i.imgur.com/mPSj4If.jpeg",
+              "image": "https://i.imgur.com/gNYabpX.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "06:08",
-              "image": "https://i.imgur.com/Bo8nBoe.jpeg",
+              "image": "https://i.imgur.com/mPSj4If.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             },
             {
               "start": "06:23",
-              "image": "https://i.imgur.com/OzhtDKo.jpeg",
+              "image": "https://i.imgur.com/Bo8nBoe.jpeg",
               "summary": "PROMPTs.txt open with note 'Going to get haircut'; user away",
               "sensitive": false
             }
           ],
           "images": [
+            "https://i.imgur.com/cmMk3fG.jpeg",
             "https://i.imgur.com/L5NM2k3.jpeg",
             "https://i.imgur.com/MSVN5jX.jpeg",
             "https://i.imgur.com/6b4yszA.jpeg",
@@ -1696,8 +1695,7 @@
             "https://i.imgur.com/hVIPXpJ.jpeg",
             "https://i.imgur.com/gNYabpX.jpeg",
             "https://i.imgur.com/mPSj4If.jpeg",
-            "https://i.imgur.com/Bo8nBoe.jpeg",
-            "https://i.imgur.com/OzhtDKo.jpeg"
+            "https://i.imgur.com/Bo8nBoe.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "absent",
@@ -1715,13 +1713,13 @@
           "captures": [
             {
               "start": "16:01",
-              "image": "https://i.imgur.com/QLZN1vC.jpeg",
+              "image": "https://i.imgur.com/OzhtDKo.jpeg",
               "summary": "uTorrent Web dashboard open with media player streaming a video clip; desktop with file folders visible",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/QLZN1vC.jpeg"
+            "https://i.imgur.com/OzhtDKo.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "present, head centered, neutral expression",
@@ -1739,20 +1737,20 @@
           "captures": [
             {
               "start": "16:16",
-              "image": "https://i.imgur.com/CQdgtrX.jpeg",
+              "image": "https://i.imgur.com/QLZN1vC.jpeg",
               "summary": "OpenClaw Control web app in browser — Chat tab open with Tom agent session, viewing assistant outputs and config",
               "sensitive": false
             },
             {
               "start": "16:31",
-              "image": "https://i.imgur.com/wSID9n6.jpeg",
+              "image": "https://i.imgur.com/CQdgtrX.jpeg",
               "summary": "OpenClaw Control web app in browser — Chat tab open with Tom agent session, viewing assistant outputs and config",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/CQdgtrX.jpeg",
-            "https://i.imgur.com/wSID9n6.jpeg"
+            "https://i.imgur.com/QLZN1vC.jpeg",
+            "https://i.imgur.com/CQdgtrX.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "absent, empty bedroom visible",
@@ -1770,20 +1768,20 @@
           "captures": [
             {
               "start": "16:46",
-              "image": "https://i.imgur.com/PfKkMxc.jpeg",
+              "image": "https://i.imgur.com/wSID9n6.jpeg",
               "summary": "YouTube playing a Korean League of Legends coaching video titled '2강 피지컬 훈련'",
               "sensitive": false
             },
             {
               "start": "17:01",
-              "image": "https://i.imgur.com/JyfDBBd.jpeg",
+              "image": "https://i.imgur.com/PfKkMxc.jpeg",
               "summary": "YouTube playing a Korean League of Legends champion-tier/coaching video with an in-video commentator overlay",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/PfKkMxc.jpeg",
-            "https://i.imgur.com/JyfDBBd.jpeg"
+            "https://i.imgur.com/wSID9n6.jpeg",
+            "https://i.imgur.com/PfKkMxc.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "present, head forward looking down at desk",
@@ -1801,13 +1799,13 @@
           "captures": [
             {
               "start": "17:16",
-              "image": "https://i.imgur.com/rTBJGyR.jpeg",
+              "image": "https://i.imgur.com/JyfDBBd.jpeg",
               "summary": "YouTube playing 'Game Theory #27: Putin Enters the Chat' (Predictive History channel), a geopolitics explainer",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/rTBJGyR.jpeg"
+            "https://i.imgur.com/JyfDBBd.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "absent",
@@ -1825,48 +1823,48 @@
           "captures": [
             {
               "start": "17:31",
-              "image": "https://i.imgur.com/paNa6qB.jpeg",
+              "image": "https://i.imgur.com/rTBJGyR.jpeg",
               "summary": "Total War: Warhammer battle scene on a snowy map; lord portrait and unit roster visible",
               "sensitive": false
             },
             {
               "start": "17:46",
-              "image": "https://i.imgur.com/I3kwKPd.jpeg",
+              "image": "https://i.imgur.com/paNa6qB.jpeg",
               "summary": "Total War: Warhammer battle in progress on snowy battlefield, multiple unit banners deployed",
               "sensitive": false
             },
             {
               "start": "18:01",
-              "image": "https://i.imgur.com/28V1Xbm.jpeg",
+              "image": "https://i.imgur.com/I3kwKPd.jpeg",
               "summary": "Total War: Warhammer campaign/battle screen with unit roster, lord portrait, and event messages",
               "sensitive": false
             },
             {
               "start": "18:16",
-              "image": "https://i.imgur.com/drrWKf5.jpeg",
+              "image": "https://i.imgur.com/28V1Xbm.jpeg",
               "summary": "Total War: Warhammer campaign/battle screen with unit roster, lord portrait, and event messages",
               "sensitive": false
             },
             {
               "start": "18:31",
-              "image": "https://i.imgur.com/v5QuByO.jpeg",
+              "image": "https://i.imgur.com/drrWKf5.jpeg",
               "summary": "Total War: Warhammer campaign/battle screen with unit roster, lord portrait, and event messages",
               "sensitive": false
             },
             {
               "start": "18:46",
-              "image": "https://i.imgur.com/Lccb9u7.jpeg",
+              "image": "https://i.imgur.com/v5QuByO.jpeg",
               "summary": "Total War: Warhammer campaign/battle screen with unit roster, lord portrait, and event messages",
               "sensitive": false
             }
           ],
           "images": [
+            "https://i.imgur.com/rTBJGyR.jpeg",
             "https://i.imgur.com/paNa6qB.jpeg",
             "https://i.imgur.com/I3kwKPd.jpeg",
             "https://i.imgur.com/28V1Xbm.jpeg",
             "https://i.imgur.com/drrWKf5.jpeg",
-            "https://i.imgur.com/v5QuByO.jpeg",
-            "https://i.imgur.com/Lccb9u7.jpeg"
+            "https://i.imgur.com/v5QuByO.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "present, wearing headphones",
@@ -1884,13 +1882,13 @@
           "captures": [
             {
               "start": "19:01",
-              "image": "https://i.imgur.com/9W2RTcy.jpeg",
+              "image": "https://i.imgur.com/Lccb9u7.jpeg",
               "summary": "X/Twitter post from @Wisdom_HQ — image of person holding sign 'I need a movie where the villain actually won'",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/9W2RTcy.jpeg"
+            "https://i.imgur.com/Lccb9u7.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "present, head centered, looking down",
@@ -1908,13 +1906,13 @@
           "captures": [
             {
               "start": "19:16",
-              "image": "https://i.imgur.com/YEALPcf.jpeg",
+              "image": "https://i.imgur.com/9W2RTcy.jpeg",
               "summary": "YouTube playing 'The First 48 Hours of an AI Civil War - A Realistic Scenario' by Species (Documenting AGI), with growth chart visualization",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/YEALPcf.jpeg"
+            "https://i.imgur.com/9W2RTcy.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "absent, empty bedroom visible",
@@ -1932,13 +1930,13 @@
           "captures": [
             {
               "start": "20:36",
-              "image": "https://i.imgur.com/Ux9oDig.jpeg",
+              "image": "https://i.imgur.com/YEALPcf.jpeg",
               "summary": "Windows desktop with Windscribe VPN panel connected to Montreal node 6.7; no active app windows",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/Ux9oDig.jpeg"
+            "https://i.imgur.com/YEALPcf.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "absent, empty bedroom visible",
@@ -1956,13 +1954,13 @@
           "captures": [
             {
               "start": "20:51",
-              "image": "https://i.imgur.com/wvuLmAg.jpeg",
+              "image": "https://i.imgur.com/Ux9oDig.jpeg",
               "summary": "X/Twitter For You feed with tech/news posts (Hermes Agent, Vibe Coding, AI startup news) and a tennis video",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/wvuLmAg.jpeg"
+            "https://i.imgur.com/Ux9oDig.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "present, head bent forward leaning down",
@@ -1980,13 +1978,13 @@
           "captures": [
             {
               "start": "21:06",
-              "image": "https://i.imgur.com/woXRI5r.jpeg",
+              "image": "https://i.imgur.com/wvuLmAg.jpeg",
               "summary": "YouTube playing 'Game Theory #27: Putin Enters the Chat' — geopolitics explainer with whiteboard diagram (USA, dollar, Saudi Arabia)",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/woXRI5r.jpeg"
+            "https://i.imgur.com/wvuLmAg.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "present, head centered",
@@ -2004,13 +2002,13 @@
           "captures": [
             {
               "start": "21:21",
-              "image": "https://i.imgur.com/seKA3UK.jpeg",
+              "image": "https://i.imgur.com/woXRI5r.jpeg",
               "summary": "YouTube home feed with 'Roof Korean' shooting video and other recommended shorts/clips",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/seKA3UK.jpeg"
+            "https://i.imgur.com/woXRI5r.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "present, head centered",
@@ -2028,13 +2026,13 @@
           "captures": [
             {
               "start": "21:36",
-              "image": "https://i.imgur.com/Qfmrr1R.jpeg",
+              "image": "https://i.imgur.com/seKA3UK.jpeg",
               "summary": "YouTube playing 'Game Theory #27: Putin Enters the Chat' — geopolitics explainer showing International North-South Transport Corridor map",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/Qfmrr1R.jpeg"
+            "https://i.imgur.com/seKA3UK.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "present, head centered",
@@ -2052,41 +2050,41 @@
           "captures": [
             {
               "start": "21:51",
-              "image": "https://i.imgur.com/TGPB4de.jpeg",
+              "image": "https://i.imgur.com/Qfmrr1R.jpeg",
               "summary": "Movie/TV scene of a couple with subtitle 'I lucked out when I arrange-married you.'",
               "sensitive": false
             },
             {
               "start": "22:06",
-              "image": "https://i.imgur.com/CSo4A9M.jpeg",
+              "image": "https://i.imgur.com/TGPB4de.jpeg",
               "summary": "Movie scene of a dimly lit porch with a figure in a doorway at night",
               "sensitive": false
             },
             {
               "start": "22:21",
-              "image": "https://i.imgur.com/IalPcpc.jpeg",
+              "image": "https://i.imgur.com/CSo4A9M.jpeg",
               "summary": "Movie scene with woman in audience reacting; subtitle 'I shall remain...'",
               "sensitive": false
             },
             {
               "start": "22:36",
-              "image": "https://i.imgur.com/8dQW8i4.jpeg",
+              "image": "https://i.imgur.com/IalPcpc.jpeg",
               "summary": "Movie scene with dog/animal being petted; cinematic close-up",
               "sensitive": false
             },
             {
               "start": "22:51",
-              "image": "https://i.imgur.com/yybGREL.jpeg",
+              "image": "https://i.imgur.com/8dQW8i4.jpeg",
               "summary": "Movie scene at a store counter; subtitle 'Give me the saltines.'",
               "sensitive": false
             }
           ],
           "images": [
+            "https://i.imgur.com/Qfmrr1R.jpeg",
             "https://i.imgur.com/TGPB4de.jpeg",
             "https://i.imgur.com/CSo4A9M.jpeg",
             "https://i.imgur.com/IalPcpc.jpeg",
-            "https://i.imgur.com/8dQW8i4.jpeg",
-            "https://i.imgur.com/yybGREL.jpeg"
+            "https://i.imgur.com/8dQW8i4.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "absent (dark room)",
@@ -2104,27 +2102,27 @@
           "captures": [
             {
               "start": "23:06",
-              "image": "https://i.imgur.com/9Osxwas.jpeg",
+              "image": "https://i.imgur.com/yybGREL.jpeg",
               "summary": "Age of Empires 2 tournament/stream broadcast with caster face-cam overlay and chat",
               "sensitive": false
             },
             {
               "start": "23:21",
-              "image": "https://i.imgur.com/dMU3eLu.jpeg",
+              "image": "https://i.imgur.com/9Osxwas.jpeg",
               "summary": "Age of Empires 2 tournament/stream broadcast with caster face-cam overlay and chat",
               "sensitive": false
             },
             {
               "start": "23:36",
-              "image": "https://i.imgur.com/S11aW9G.jpeg",
+              "image": "https://i.imgur.com/dMU3eLu.jpeg",
               "summary": "Age of Empires 2 tournament/stream broadcast with caster face-cam overlay and chat",
               "sensitive": false
             }
           ],
           "images": [
+            "https://i.imgur.com/yybGREL.jpeg",
             "https://i.imgur.com/9Osxwas.jpeg",
-            "https://i.imgur.com/dMU3eLu.jpeg",
-            "https://i.imgur.com/S11aW9G.jpeg"
+            "https://i.imgur.com/dMU3eLu.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "present, head centered",
@@ -2142,13 +2140,13 @@
           "captures": [
             {
               "start": "23:51",
-              "image": "https://i.imgur.com/Ij6AbRF.jpeg",
+              "image": "https://i.imgur.com/S11aW9G.jpeg",
               "summary": "YouTube home feed with mixed recommendations (How to Build an MVP, 1100 Player For All OpenFront, Korean drama clip)",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/Ij6AbRF.jpeg"
+            "https://i.imgur.com/S11aW9G.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "present, head centered",
@@ -2166,12 +2164,14 @@
           "captures": [
             {
               "start": "00:06",
-              "image": null,
+              "image": "https://i.imgur.com/Ij6AbRF.jpeg",
               "summary": "YouTube video 'The SpaceX IPO... It's Worse Than You Think' by Casual Finance — chart of AI valuations vs revenue (OpenAI, Anthropic, xAI).",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/Ij6AbRF.jpeg"
+          ],
           "sensitive_count": 0,
           "webcam": "Dim room, Sun lying on bed in white shirt, looking at phone/screen — winding down.",
           "sensitive": false,
@@ -2464,14 +2464,12 @@
             },
             {
               "start": "11:51",
-              "image": "https://i.imgur.com/uiyWrLF.jpeg",
+              "image": null,
               "summary": "(no capture — sleep autofill)",
               "sensitive": true
             }
           ],
-          "images": [
-            "https://i.imgur.com/uiyWrLF.jpeg"
-          ],
+          "images": [],
           "sensitive_count": 47,
           "webcam": "(no capture)",
           "sensitive": true,
@@ -2482,17 +2480,17 @@
         "date": "2026-05-22",
         "tracked_min": 810,
         "productivity_min": 30,
-        "work_min": 0,
         "learning_min": 0,
+        "health_min": 0,
         "leisure_min": 375,
-        "exercise_min": 0,
         "chores_min": 0,
-        "afk_idle_min": 405,
-        "other_min": 0,
-        "activity_breakdown": "haircut errand (6h 30m) · playing Total War: Warhammer (1h 30m) · watching movie/TV (1h 15m)",
-        "feedback": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
-        "span": "00:08 / 23:51",
-        "note": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
+        "social_min": 0,
+        "afk_min": 405,
+        "unknown_min": 0,
+        "top_activities": "haircut errand (6h 30m) · playing Total War: Warhammer (1h 30m) · watching movie/TV (1h 15m)",
+        "notes": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
+        "bookends": "00:08 / 23:51",
+        "note_from_sun": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
       }
     },
     {
@@ -2511,6 +2509,7 @@
         "Learning/Reading": 150,
         "Personal/Break": 120,
         "Gaming/Warhammer": 30,
+        "": 15,
         "Leisure": 165,
         "Leisure/History": 90,
         "Sleep": 750
@@ -2527,13 +2526,13 @@
           "captures": [
             {
               "start": "12:15",
-              "image": "https://i.imgur.com/mmWU351.jpeg",
+              "image": "https://i.imgur.com/uiyWrLF.jpeg",
               "summary": "YouTube video 'I Tried the World's Simplest Productivity Trick (it worked)' by Simple Lucas, loading.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/mmWU351.jpeg"
+            "https://i.imgur.com/uiyWrLF.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Sun facing forward, head dropped down looking at lap/phone, slouched posture.",
@@ -2551,13 +2550,13 @@
           "captures": [
             {
               "start": "12:30",
-              "image": "https://i.imgur.com/ifgsodV.jpeg",
+              "image": "https://i.imgur.com/mmWU351.jpeg",
               "summary": "Discord 'Q.Admin' server, #ai-channel — chatting with the Q-Admin agent ('What I can do for you'): scheduling, jobs, follow-ups, Docs & Sheets, web search, messaging, code & files.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/ifgsodV.jpeg"
+            "https://i.imgur.com/mmWU351.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Sun seated upright at desk, head facing camera, slight downward gaze.",
@@ -2575,13 +2574,13 @@
           "captures": [
             {
               "start": "12:45",
-              "image": "https://i.imgur.com/ZlCu8nX.jpeg",
+              "image": "https://i.imgur.com/ifgsodV.jpeg",
               "summary": "OpenClaw Console, agent Chat tab — reviewing tool-output threads about Mon-Sat normal-days digest, Sunday consolidated weekly summary, any-day-with-critical-issues handling. Iterating on Telegram digest agent.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/ZlCu8nX.jpeg"
+            "https://i.imgur.com/ifgsodV.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Sun upright, centered, looking down at keyboard — focused.",
@@ -2599,13 +2598,13 @@
           "captures": [
             {
               "start": "13:00",
-              "image": "https://i.imgur.com/eQ8GNy6.jpeg",
+              "image": "https://i.imgur.com/ZlCu8nX.jpeg",
               "summary": "Google Sheets 'simple_rizz TikTok analytics — IN-FIELD ONLY' — table of TikTok posts (date, posted time, views, likes, link, description, transcript, screenshot frames).",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/eQ8GNy6.jpeg"
+            "https://i.imgur.com/ZlCu8nX.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Sun upright, head over shoulders, looking down at screen — composed.",
@@ -2623,13 +2622,13 @@
           "captures": [
             {
               "start": "13:15",
-              "image": "https://i.imgur.com/w24etOX.jpeg",
+              "image": "https://i.imgur.com/eQ8GNy6.jpeg",
               "summary": "OpenClaw Console agent chat — discussing a 30-day rejection challenge content plan ('Day 1 of getting rejected on purpose', day-by-day plan).",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/w24etOX.jpeg"
+            "https://i.imgur.com/eQ8GNy6.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "No person in frame — Sun briefly away from desk.",
@@ -2647,13 +2646,13 @@
           "captures": [
             {
               "start": "13:30",
-              "image": "https://i.imgur.com/XbaNQvo.jpeg",
+              "image": "https://i.imgur.com/w24etOX.jpeg",
               "summary": "Google Sheets 'simple_rizz TikTok analytics — IN-FIELD ONLY' — focused on individual TikTok rows with screenshot thumbnails.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/XbaNQvo.jpeg"
+            "https://i.imgur.com/w24etOX.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Sun centered, slight downward gaze, blurred but upright torso.",
@@ -2671,13 +2670,13 @@
           "captures": [
             {
               "start": "13:45",
-              "image": "https://i.imgur.com/AUCv08M.jpeg",
+              "image": "https://i.imgur.com/XbaNQvo.jpeg",
               "summary": "YouTube Shorts — Korean short '지구종말 12시간 전 함께 해야 할 사람' (who you'd want with you 12 hours before the world ends), channel @rinx.0.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/AUCv08M.jpeg"
+            "https://i.imgur.com/XbaNQvo.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Sun upright, head slightly tilted, looking down at screen.",
@@ -2695,13 +2694,13 @@
           "captures": [
             {
               "start": "14:00",
-              "image": "https://i.imgur.com/TuBLCfE.jpeg",
+              "image": "https://i.imgur.com/AUCv08M.jpeg",
               "summary": "OpenClaw Console agent chat — Day 1/Day 2 rejection-challenge content plan, refining steps and avoiding visible 'getting rejected' framing.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/TuBLCfE.jpeg"
+            "https://i.imgur.com/AUCv08M.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Sun centered upright, eyes closed/relaxed, head straight.",
@@ -2719,20 +2718,20 @@
           "captures": [
             {
               "start": "14:15",
-              "image": "https://i.imgur.com/VbjznAG.jpeg",
+              "image": "https://i.imgur.com/TuBLCfE.jpeg",
               "summary": "Claude.ai conversation 'Exit, civilization, and the rise of enlightenment (through disposition)' — 'The takeaway' on Napoleon, essentialist vs situationalist view of human nature, Schopenhauer, La Rochefoucauld.",
               "sensitive": false
             },
             {
               "start": "14:30",
-              "image": "https://i.imgur.com/EGI9l9O.jpeg",
+              "image": "https://i.imgur.com/VbjznAG.jpeg",
               "summary": "Claude.ai — same 'Exit, civilization, enlightenment' takeaway essay, still on the Napoleon/Schopenhauer passage.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/VbjznAG.jpeg",
-            "https://i.imgur.com/EGI9l9O.jpeg"
+            "https://i.imgur.com/TuBLCfE.jpeg",
+            "https://i.imgur.com/VbjznAG.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Sun upright, head leaning slightly forward, looking down — reading.",
@@ -2750,13 +2749,13 @@
           "captures": [
             {
               "start": "14:45",
-              "image": "https://i.imgur.com/V5gVWiO.jpeg",
+              "image": "https://i.imgur.com/EGI9l9O.jpeg",
               "summary": "Claude.ai still on the 'Exit, civilization, enlightenment' takeaway page — no interaction.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/V5gVWiO.jpeg"
+            "https://i.imgur.com/EGI9l9O.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "No person in frame — empty bed/room, Sun away from desk.",
@@ -2774,20 +2773,20 @@
           "captures": [
             {
               "start": "15:00",
-              "image": "https://i.imgur.com/s4fObCw.jpeg",
+              "image": "https://i.imgur.com/V5gVWiO.jpeg",
               "summary": "Claude.ai — Napoleon/Schopenhauer essay, 'The scrap: Rétimeau's challenge' and 'His sharp reaction' sections.",
               "sensitive": false
             },
             {
               "start": "15:15",
-              "image": "https://i.imgur.com/CKj8qYT.jpeg",
+              "image": "https://i.imgur.com/s4fObCw.jpeg",
               "summary": "Claude.ai — same essay, highlighted passage 'what happens beneath his words' on Rétimeau, Madame de Rémusat.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/s4fObCw.jpeg",
-            "https://i.imgur.com/CKj8qYT.jpeg"
+            "https://i.imgur.com/V5gVWiO.jpeg",
+            "https://i.imgur.com/s4fObCw.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Sun upright, centered, head over shoulders.",
@@ -2805,20 +2804,20 @@
           "captures": [
             {
               "start": "15:30",
-              "image": "https://i.imgur.com/0kFHb5q.jpeg",
+              "image": "https://i.imgur.com/CKj8qYT.jpeg",
               "summary": "Total War: Warhammer — 'Start Lucent Maze Battle' Khidev Expedition vs Apostles of Change; Decisive Victory screen with rewards panel.",
               "sensitive": false
             },
             {
               "start": "15:45",
-              "image": "https://i.imgur.com/P37Yp7j.jpeg",
+              "image": "https://i.imgur.com/0kFHb5q.jpeg",
               "summary": "Total War: Warhammer in-battle — winter terrain, blue and red flag armies engaging, unit info card 'Spear & Axe Infantry'.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/0kFHb5q.jpeg",
-            "https://i.imgur.com/P37Yp7j.jpeg"
+            "https://i.imgur.com/CKj8qYT.jpeg",
+            "https://i.imgur.com/0kFHb5q.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Sun upright but offset to viewer left, head over shoulders.",
@@ -2836,13 +2835,13 @@
           "captures": [
             {
               "start": "16:00",
-              "image": "https://i.imgur.com/skXhZnv.jpeg",
+              "image": "https://i.imgur.com/P37Yp7j.jpeg",
               "summary": "YouTube Shorts — 'How Brad Pitt BROKE Every Guy's Brain in Troy' by The Story Smarts.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/skXhZnv.jpeg"
+            "https://i.imgur.com/P37Yp7j.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Sun head close to camera, head jutting forward — slouched.",
@@ -2860,34 +2859,34 @@
           "captures": [
             {
               "start": "16:15",
-              "image": "https://i.imgur.com/HUHHQVO.jpeg",
+              "image": "https://i.imgur.com/skXhZnv.jpeg",
               "summary": "Claude.ai — 'Exit, civilization, and the rise of enlightenment', 'The takeaway' section on Madame de Rémusat, Napoleon's wounded vanity, La Rochefoucauld.",
               "sensitive": false
             },
             {
               "start": "16:30",
-              "image": "https://i.imgur.com/84YJGsa.jpeg",
+              "image": "https://i.imgur.com/HUHHQVO.jpeg",
               "summary": "Claude.ai — same 'The takeaway' essay, scrolled slightly, on Madame de Rémusat as a source compared to La Casas.",
               "sensitive": false
             },
             {
               "start": "16:45",
-              "image": "https://i.imgur.com/X7ozTae.jpeg",
+              "image": "https://i.imgur.com/84YJGsa.jpeg",
               "summary": "Claude.ai — same essay, end of 'The takeaway' section.",
               "sensitive": false
             },
             {
               "start": "17:00",
-              "image": "https://i.imgur.com/avczwHh.jpeg",
+              "image": "https://i.imgur.com/X7ozTae.jpeg",
               "summary": "Claude.ai — same 'Exit, civilization, enlightenment' essay 'The takeaway' section, unchanged from prior captures.",
               "sensitive": false
             }
           ],
           "images": [
+            "https://i.imgur.com/skXhZnv.jpeg",
             "https://i.imgur.com/HUHHQVO.jpeg",
             "https://i.imgur.com/84YJGsa.jpeg",
-            "https://i.imgur.com/X7ozTae.jpeg",
-            "https://i.imgur.com/avczwHh.jpeg"
+            "https://i.imgur.com/X7ozTae.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Sun upright, head over shoulders, shoulders level.",
@@ -2905,41 +2904,41 @@
           "captures": [
             {
               "start": "17:15",
-              "image": "https://i.imgur.com/coM8S6c.jpeg",
+              "image": "https://i.imgur.com/avczwHh.jpeg",
               "summary": "Claude.ai still parked on the same essay 'The takeaway' page — no interaction.",
               "sensitive": false
             },
             {
               "start": "17:30",
-              "image": "https://i.imgur.com/pYI1CSH.jpeg",
+              "image": "https://i.imgur.com/coM8S6c.jpeg",
               "summary": "Claude.ai still parked on the same essay 'The takeaway' page — no interaction.",
               "sensitive": false
             },
             {
               "start": "17:45",
-              "image": "https://i.imgur.com/46bSM8d.jpeg",
+              "image": "https://i.imgur.com/pYI1CSH.jpeg",
               "summary": "Claude.ai still parked on the same essay 'The takeaway' page — no interaction.",
               "sensitive": false
             },
             {
               "start": "18:00",
-              "image": "https://i.imgur.com/FPAU1bl.jpeg",
+              "image": "https://i.imgur.com/46bSM8d.jpeg",
               "summary": "Claude.ai still parked on the same 'The takeaway' page — no interaction.",
               "sensitive": false
             },
             {
               "start": "18:15",
-              "image": "https://i.imgur.com/7I2csFb.jpeg",
+              "image": "https://i.imgur.com/FPAU1bl.jpeg",
               "summary": "Claude.ai still parked on the same 'The takeaway' page — no interaction.",
               "sensitive": false
             }
           ],
           "images": [
+            "https://i.imgur.com/avczwHh.jpeg",
             "https://i.imgur.com/coM8S6c.jpeg",
             "https://i.imgur.com/pYI1CSH.jpeg",
             "https://i.imgur.com/46bSM8d.jpeg",
-            "https://i.imgur.com/FPAU1bl.jpeg",
-            "https://i.imgur.com/7I2csFb.jpeg"
+            "https://i.imgur.com/FPAU1bl.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Empty room — Sun away from desk.",
@@ -2957,20 +2956,20 @@
           "captures": [
             {
               "start": "18:30",
-              "image": "https://i.imgur.com/QvRdYWE.jpeg",
+              "image": "https://i.imgur.com/7I2csFb.jpeg",
               "summary": "Claude.ai still parked on the same 'The takeaway' page — no desktop interaction.",
               "sensitive": false
             },
             {
               "start": "18:45",
-              "image": "https://i.imgur.com/dmxeyjC.jpeg",
+              "image": "https://i.imgur.com/QvRdYWE.jpeg",
               "summary": "Claude.ai still parked on the same 'The takeaway' page — no desktop interaction.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/QvRdYWE.jpeg",
-            "https://i.imgur.com/dmxeyjC.jpeg"
+            "https://i.imgur.com/7I2csFb.jpeg",
+            "https://i.imgur.com/QvRdYWE.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Sun seated on bed using phone, upright, head over shoulders.",
@@ -2988,20 +2987,20 @@
           "captures": [
             {
               "start": "19:00",
-              "image": "https://i.imgur.com/KUZhKSK.jpeg",
+              "image": "https://i.imgur.com/dmxeyjC.jpeg",
               "summary": "Claude.ai — same 'Exit, civilization, enlightenment' essay 'The takeaway' page.",
               "sensitive": false
             },
             {
               "start": "19:15",
-              "image": "https://i.imgur.com/RVaSY6z.jpeg",
+              "image": "https://i.imgur.com/KUZhKSK.jpeg",
               "summary": "Claude.ai — same essay 'The takeaway', 'Reply' tooltip visible (active reading).",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/KUZhKSK.jpeg",
-            "https://i.imgur.com/RVaSY6z.jpeg"
+            "https://i.imgur.com/dmxeyjC.jpeg",
+            "https://i.imgur.com/KUZhKSK.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Sun centered, head slightly forward but body upright.",
@@ -3019,13 +3018,13 @@
           "captures": [
             {
               "start": "19:30",
-              "image": "https://i.imgur.com/gXp6qc9.jpeg",
+              "image": "https://i.imgur.com/RVaSY6z.jpeg",
               "summary": "OpenClaw Console agent chat — back on the rejection challenge Day 1/Day 2 content plan.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/gXp6qc9.jpeg"
+            "https://i.imgur.com/RVaSY6z.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Sun close to camera, head jutting forward, looking down — slouched.",
@@ -3043,13 +3042,13 @@
           "captures": [
             {
               "start": "19:45",
-              "image": "https://i.imgur.com/Hq7PDqa.jpeg",
+              "image": "https://i.imgur.com/gXp6qc9.jpeg",
               "summary": "Soap2Day-like 'Watch Free DVDs 2025-2026' browser tab — grid of movie thumbnails (Outcome, War Machine, Yeti, Den Brother, etc.).",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/Hq7PDqa.jpeg"
+            "https://i.imgur.com/gXp6qc9.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Sun centered, upright, looking down.",
@@ -3067,13 +3066,13 @@
           "captures": [
             {
               "start": "20:00",
-              "image": "https://i.imgur.com/38TTq6x.jpeg",
+              "image": "https://i.imgur.com/Hq7PDqa.jpeg",
               "summary": "Claude.ai still parked on the same essay 'The takeaway' page — no interaction.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/38TTq6x.jpeg"
+            "https://i.imgur.com/Hq7PDqa.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Empty room — Sun away from desk.",
@@ -3091,66 +3090,67 @@
           "captures": [
             {
               "start": "20:15",
-              "image": "https://i.imgur.com/H0cNWTi.jpeg",
+              "image": "https://i.imgur.com/38TTq6x.jpeg",
               "summary": "Full-screen movie scene — bearded man in space-suit / lab-tech rig, industrial setting.",
               "sensitive": false
             },
             {
               "start": "20:30",
-              "image": "https://i.imgur.com/rym7lcl.jpeg",
+              "image": "https://i.imgur.com/H0cNWTi.jpeg",
               "summary": "Full-screen movie scene — man in suit and glasses (looks like Michael Peña) in an office.",
               "sensitive": false
             },
             {
               "start": "20:46",
-              "image": "https://i.imgur.com/9KN0Joi.jpeg",
+              "image": "https://i.imgur.com/rym7lcl.jpeg",
               "summary": "Movie title/chapter card — text 'susan' on black background.",
               "sensitive": false
             },
             {
               "start": "21:01",
-              "image": "https://i.imgur.com/qXDjYYS.jpeg",
+              "image": "https://i.imgur.com/9KN0Joi.jpeg",
               "summary": "Movie scene — hands holding a tablet/Etch-A-Sketch-like keypad, subtitle 'Okay, you know, I'm just gonna put down sports.'",
               "sensitive": false
             },
             {
               "start": "21:16",
-              "image": "https://i.imgur.com/wBNEq86.jpeg",
+              "image": "https://i.imgur.com/qXDjYYS.jpeg",
               "summary": "Movie scene — middle-aged woman, subtitle 'God, it's like being allergic to the air.'",
               "sensitive": false
             },
             {
               "start": "21:31",
-              "image": "https://i.imgur.com/6373b1u.jpeg",
+              "image": "https://i.imgur.com/wBNEq86.jpeg",
               "summary": "Movie scene — blond shirtless young man in a room with paintings, subtitle 'I know, but I mean, you're going to work, right?'",
               "sensitive": false
             },
             {
               "start": "21:46",
-              "image": "https://i.imgur.com/owsZIeZ.jpeg",
+              "image": "https://i.imgur.com/6373b1u.jpeg",
               "summary": "Movie scene — close-up of hand turning pages of a 'BEAUTY' brochure with introduction, subtitle 'I won't be bringing anything. I... I don't...'",
               "sensitive": false
             },
             {
               "start": "22:01",
-              "image": "https://i.imgur.com/IZSINm4.jpeg",
+              "image": "https://i.imgur.com/owsZIeZ.jpeg",
               "summary": "Movie scene — armed crowd in helmets, subtitle 'Get off of her!'",
               "sensitive": false
             },
             {
               "start": "22:16",
-              "image": "https://i.imgur.com/Fyi4S7I.jpeg",
+              "image": "https://i.imgur.com/IZSINm4.jpeg",
               "summary": "Movie scene — figure atop a cable-ball machine against a glitchy screen-wall, subtitle 'This kid's made out of plutonium.'",
               "sensitive": false
             },
             {
               "start": "22:31",
-              "image": "https://i.imgur.com/zXf5FYn.jpeg",
+              "image": "https://i.imgur.com/Fyi4S7I.jpeg",
               "summary": "Movie scene — bare feet on a tangle of black cables in an underwater-looking blue environment.",
               "sensitive": false
             }
           ],
           "images": [
+            "https://i.imgur.com/38TTq6x.jpeg",
             "https://i.imgur.com/H0cNWTi.jpeg",
             "https://i.imgur.com/rym7lcl.jpeg",
             "https://i.imgur.com/9KN0Joi.jpeg",
@@ -3159,8 +3159,7 @@
             "https://i.imgur.com/6373b1u.jpeg",
             "https://i.imgur.com/owsZIeZ.jpeg",
             "https://i.imgur.com/IZSINm4.jpeg",
-            "https://i.imgur.com/Fyi4S7I.jpeg",
-            "https://i.imgur.com/zXf5FYn.jpeg"
+            "https://i.imgur.com/Fyi4S7I.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Sun upright with headphones, drinking water — body upright.",
@@ -3178,13 +3177,13 @@
           "captures": [
             {
               "start": "22:46",
-              "image": "https://i.imgur.com/7J07cru.jpeg",
+              "image": "https://i.imgur.com/zXf5FYn.jpeg",
               "summary": "X/Twitter For-you feed — BRICS News post about Taiwan/China territorial waters, 'NO CONTEXT HUMANS' post about machine learning, trending sidebar.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/7J07cru.jpeg"
+            "https://i.imgur.com/zXf5FYn.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Sun upright, hand on face, centered, dim lighting.",
@@ -3202,13 +3201,13 @@
           "captures": [
             {
               "start": "23:01",
-              "image": "https://i.imgur.com/NV7BDTN.jpeg",
+              "image": "https://i.imgur.com/7J07cru.jpeg",
               "summary": "Browser article — Napoleon Bonaparte topic with embedded BBC video and Drama documentaries on Toulon (1793) and Samurai general Tokugawa Ieyasu.",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/NV7BDTN.jpeg"
+            "https://i.imgur.com/7J07cru.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Sun lying on bed in dark — phone screen lights his arm.",
@@ -3226,27 +3225,27 @@
           "captures": [
             {
               "start": "23:16",
-              "image": "https://i.imgur.com/k6qfseP.jpeg",
+              "image": "https://i.imgur.com/NV7BDTN.jpeg",
               "summary": "Cosmos channel — Napoleon docudrama scene with older man with white moustache and a young woman, Greek subtitles ('Πήρα την Αβινιόν και τη Μασσαλία...').",
               "sensitive": false
             },
             {
               "start": "23:31",
-              "image": "https://i.imgur.com/nRO6iPG.jpeg",
+              "image": "https://i.imgur.com/k6qfseP.jpeg",
               "summary": "Cosmos channel — Napoleon docudrama, close-up of a thin man with curled hair in 18th-century cravat (likely Robespierre or similar figure).",
               "sensitive": false
             },
             {
               "start": "23:46",
-              "image": "https://i.imgur.com/JgaRc3b.jpeg",
+              "image": "https://i.imgur.com/nRO6iPG.jpeg",
               "summary": "Cosmos channel — Napoleon docudrama, close-up of young Napoleon in bicorne hat, Greek subtitle ('Πήγαινε τώρα. Φύγε!').",
               "sensitive": false
             }
           ],
           "images": [
+            "https://i.imgur.com/NV7BDTN.jpeg",
             "https://i.imgur.com/k6qfseP.jpeg",
-            "https://i.imgur.com/nRO6iPG.jpeg",
-            "https://i.imgur.com/JgaRc3b.jpeg"
+            "https://i.imgur.com/nRO6iPG.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Dark frame, faint face silhouette looking down — Sun watching from bed.",
@@ -3264,13 +3263,13 @@
           "captures": [
             {
               "start": "00:01",
-              "image": "https://i.imgur.com/QifZHTT.jpeg",
+              "image": "https://i.imgur.com/JgaRc3b.jpeg",
               "summary": "Streaming a Napoleon-era period drama (Cosmos overlay/site UI), dim historical interior scene",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/QifZHTT.jpeg"
+            "https://i.imgur.com/JgaRc3b.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Dim room, person facing screen, hands near face",
@@ -3288,12 +3287,14 @@
           "captures": [
             {
               "start": "00:16",
-              "image": null,
+              "image": "https://i.imgur.com/QifZHTT.jpeg",
               "summary": "YouTube search 'terror and villains napoleon' showing War & Peace Battle of Borodino and Napoleon battle scene thumbnails",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/QifZHTT.jpeg"
+          ],
           "sensitive_count": 0,
           "webcam": "Dim room, person looking at screen, neutral expression",
           "sensitive": false,
@@ -3604,14 +3605,12 @@
             },
             {
               "start": "12:46",
-              "image": "https://i.imgur.com/oGlo89F.jpeg",
+              "image": null,
               "summary": "(autofilled — overnight gap)",
               "sensitive": true
             }
           ],
-          "images": [
-            "https://i.imgur.com/oGlo89F.jpeg"
-          ],
+          "images": [],
           "sensitive_count": 50,
           "webcam": "",
           "sensitive": true,
@@ -3621,20 +3620,21 @@
     },
     {
       "date": "2026-05-24",
-      "tracked_min": 240,
+      "tracked_min": 300,
       "by_category": {
         "Admin/Errands": 15,
         "Leisure": 15,
         "Communications": 15,
-        "Learning": 105,
+        "Learning": 120,
         "Productivity": 15,
-        "AFK/Idle": 75
+        "AFK/Idle": 120
       },
       "by_project": {
         "Admin": 15,
         "Learning/Business": 15,
         "Reddit ops": 15,
-        "Health": 120
+        "Health": 135,
+        "": 120
       },
       "blocks": [
         {
@@ -3648,13 +3648,13 @@
           "captures": [
             {
               "start": "13:08",
-              "image": "https://i.imgur.com/5qufrq0.jpeg",
+              "image": "https://i.imgur.com/oGlo89F.jpeg",
               "summary": "Chrome new tab (Google) with Windscribe VPN popup showing Montreal Expo 67 server selection",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/5qufrq0.jpeg"
+            "https://i.imgur.com/oGlo89F.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Bright room, person hunched forward with head down, slouching posture",
@@ -3672,15 +3672,17 @@
           "captures": [
             {
               "start": "13:23",
-              "image": null,
+              "image": "https://i.imgur.com/5qufrq0.jpeg",
               "summary": "YouTube Moonshots episode 'SpaceX Files Biggest IPO in History' with Peter Diamandis and Mark Cuban",
-              "sensitive": true
+              "sensitive": false
             }
           ],
-          "images": [],
-          "sensitive_count": 1,
+          "images": [
+            "https://i.imgur.com/5qufrq0.jpeg"
+          ],
+          "sensitive_count": 0,
           "webcam": "Person off-center right, head turned slightly, shoulders level",
-          "sensitive": true,
+          "sensitive": false,
           "notes": ""
         },
         {
@@ -3694,17 +3696,15 @@
           "captures": [
             {
               "start": "13:38",
-              "image": "https://i.imgur.com/ozu78sj.jpeg",
+              "image": null,
               "summary": "Reddit login modal open with email autofill suggestions visible",
-              "sensitive": false
+              "sensitive": true
             }
           ],
-          "images": [
-            "https://i.imgur.com/ozu78sj.jpeg"
-          ],
-          "sensitive_count": 0,
+          "images": [],
+          "sensitive_count": 1,
           "webcam": "Person centered, looking down at screen, shoulders level",
-          "sensitive": false,
+          "sensitive": true,
           "notes": ""
         },
         {
@@ -3718,13 +3718,13 @@
           "captures": [
             {
               "start": "13:53",
-              "image": "https://i.imgur.com/qVBR80b.jpeg",
+              "image": "https://i.imgur.com/ozu78sj.jpeg",
               "summary": "YouTube search 'walking and fascia' showing fix-walking, plantar fascia, tight calves video results",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/qVBR80b.jpeg"
+            "https://i.imgur.com/ozu78sj.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Person centered, head tilted down, neutral expression",
@@ -3742,13 +3742,13 @@
           "captures": [
             {
               "start": "14:08",
-              "image": "https://i.imgur.com/PCFuBid.jpeg",
+              "image": "https://i.imgur.com/qVBR80b.jpeg",
               "summary": "Claude chat titled 'Fixing walking posture and foot pain' — highlighted section about clicking hip and ankle pain",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/PCFuBid.jpeg"
+            "https://i.imgur.com/qVBR80b.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Person centered, looking forward, shoulders level",
@@ -3766,13 +3766,13 @@
           "captures": [
             {
               "start": "14:23",
-              "image": "https://i.imgur.com/ZDtouun.jpeg",
+              "image": "https://i.imgur.com/PCFuBid.jpeg",
               "summary": "YouTube Orthoinfo video 'Walking/Pronation' showing barefoot walking gait on grid floor",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/ZDtouun.jpeg"
+            "https://i.imgur.com/PCFuBid.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Person centered, slight downward gaze, shoulders level",
@@ -3790,13 +3790,13 @@
           "captures": [
             {
               "start": "14:38",
-              "image": "https://i.imgur.com/faD0Kbo.jpeg",
+              "image": "https://i.imgur.com/ZDtouun.jpeg",
               "summary": "YouTube 'walking biomechanics' search — Stanford lecture by Scott Delp on running gait cycle and energetics",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/faD0Kbo.jpeg"
+            "https://i.imgur.com/ZDtouun.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Person centered, looking slightly down, shoulders level",
@@ -3814,13 +3814,13 @@
           "captures": [
             {
               "start": "14:53",
-              "image": "https://i.imgur.com/yPKHK7c.jpeg",
+              "image": "https://i.imgur.com/faD0Kbo.jpeg",
               "summary": "YouTube 'how to walk properly' search — Grown.Healthy. response to Bob and Brad on walking technique",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/yPKHK7c.jpeg"
+            "https://i.imgur.com/faD0Kbo.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Person looking down-right, slight head turn, shoulders level",
@@ -3838,13 +3838,13 @@
           "captures": [
             {
               "start": "15:08",
-              "image": "https://i.imgur.com/p3kRBTw.jpeg",
+              "image": "https://i.imgur.com/yPKHK7c.jpeg",
               "summary": "YouTube Bob & Brad video 'Physical Therapist Shows How to Walk Correctly' — two physical therapists demonstrating walking",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/p3kRBTw.jpeg"
+            "https://i.imgur.com/yPKHK7c.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Person hunched forward, head clearly down",
@@ -3862,13 +3862,13 @@
           "captures": [
             {
               "start": "15:23",
-              "image": "https://i.imgur.com/82mhM9H.jpeg",
+              "image": "https://i.imgur.com/p3kRBTw.jpeg",
               "summary": "YouTube Grown.Healthy. 'How to Walk' response to Bob and Brad with skeleton model demonstration on tennis court backdrop",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/82mhM9H.jpeg"
+            "https://i.imgur.com/p3kRBTw.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Empty room — Sun away from desk",
@@ -3886,13 +3886,13 @@
           "captures": [
             {
               "start": "15:38",
-              "image": "https://i.imgur.com/PQJ176R.jpeg",
+              "image": "https://i.imgur.com/82mhM9H.jpeg",
               "summary": "Claude chat 'Fixing walking posture and foot pain' — Sun composed long message about reverse-engineering walking from first principles",
               "sensitive": false
             }
           ],
           "images": [
-            "https://i.imgur.com/PQJ176R.jpeg"
+            "https://i.imgur.com/82mhM9H.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Person centered, looking forward, shoulders level",
@@ -3901,8 +3901,8 @@
         },
         {
           "start": "15:53",
-          "end": "17:09",
-          "min": 75,
+          "end": "17:39",
+          "min": 105,
           "category": "AFK/Idle",
           "activity": "Away from desk",
           "project": "",
@@ -3910,43 +3910,106 @@
           "captures": [
             {
               "start": "15:53",
-              "image": "https://i.imgur.com/iMp0gsQ.jpeg",
+              "image": "https://i.imgur.com/PQJ176R.jpeg",
               "summary": "Claude chat 'Fixing walking posture and foot pain' idle — same long message draft still on screen",
               "sensitive": false
             },
             {
               "start": "16:09",
-              "image": "https://i.imgur.com/ycmpVN8.jpeg",
+              "image": "https://i.imgur.com/iMp0gsQ.jpeg",
               "summary": "Claude chat 'Fixing walking posture and foot pain' idle — same long unsent draft message on screen",
               "sensitive": false
             },
             {
               "start": "16:24",
-              "image": "https://i.imgur.com/3sCSeaM.jpeg",
+              "image": "https://i.imgur.com/ycmpVN8.jpeg",
               "summary": "Claude chat 'Fixing walking posture and foot pain' idle — same long unsent draft message on screen",
               "sensitive": false
             },
             {
               "start": "16:39",
-              "image": "https://i.imgur.com/Te7jiV6.jpeg",
+              "image": "https://i.imgur.com/3sCSeaM.jpeg",
               "summary": "Claude chat 'Fixing walking posture and foot pain' idle — same long unsent draft message on screen",
               "sensitive": false
             },
             {
               "start": "16:54",
-              "image": null,
+              "image": "https://i.imgur.com/Te7jiV6.jpeg",
               "summary": "Claude chat 'Fixing walking posture and foot pain' idle — same long unsent draft message on screen",
+              "sensitive": false
+            },
+            {
+              "start": "17:09",
+              "image": "https://i.imgur.com/bJO0RyE.jpeg",
+              "summary": "Claude chat 'Fixing walking posture and foot pain' idle — same unsent draft on screen",
+              "sensitive": false
+            },
+            {
+              "start": "17:24",
+              "image": "https://i.imgur.com/uUcELwC.jpeg",
+              "summary": "Claude chat 'Fixing walking posture and foot pain' idle — same unsent draft on screen",
               "sensitive": false
             }
           ],
           "images": [
+            "https://i.imgur.com/PQJ176R.jpeg",
             "https://i.imgur.com/iMp0gsQ.jpeg",
             "https://i.imgur.com/ycmpVN8.jpeg",
             "https://i.imgur.com/3sCSeaM.jpeg",
-            "https://i.imgur.com/Te7jiV6.jpeg"
+            "https://i.imgur.com/Te7jiV6.jpeg",
+            "https://i.imgur.com/bJO0RyE.jpeg",
+            "https://i.imgur.com/uUcELwC.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Empty room — Sun away from desk",
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "17:39",
+          "end": "17:54",
+          "min": 15,
+          "category": "AFK/Idle",
+          "activity": "Standing/moving near desk",
+          "project": "",
+          "screen_summary": "Claude chat 'Fixing walking posture and foot pain' — Sun's long message now submitted with Claude's reply visible",
+          "captures": [
+            {
+              "start": "17:39",
+              "image": "https://i.imgur.com/TPbSklE.jpeg",
+              "summary": "Claude chat 'Fixing walking posture and foot pain' — Sun's long message now submitted with Claude's reply visible",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/TPbSklE.jpeg"
+          ],
+          "sensitive_count": 0,
+          "webcam": "Sun standing with water bottle, side view, moving",
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "17:54",
+          "end": "18:09",
+          "min": 15,
+          "category": "Learning",
+          "activity": "Watching 'How to Walk (forefoot/midfoot)' video",
+          "project": "Health",
+          "screen_summary": "YouTube Grown & Healthy 'How to Walk (forefoot/midfoot)' video — outdoor walking demonstration on a path",
+          "captures": [
+            {
+              "start": "17:54",
+              "image": "https://i.imgur.com/ktShCDo.jpeg",
+              "summary": "YouTube Grown & Healthy 'How to Walk (forefoot/midfoot)' video — outdoor walking demonstration on a path",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/ktShCDo.jpeg"
+          ],
+          "sensitive_count": 0,
+          "webcam": "Sun back at desk, head tilted down slightly, shoulders level",
           "sensitive": false,
           "notes": ""
         }
