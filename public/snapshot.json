@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T14:02:58+09:00",
+  "generatedAt": "2026-05-24T15:02:50+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -2490,7 +2490,7 @@
         "top_activities": "haircut errand (6h 30m) · playing Total War: Warhammer (1h 30m) · watching movie/TV (1h 15m)",
         "summary": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
         "window": "00:08 / 23:51",
-        "note": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
+        "note": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
       }
     },
     {
@@ -2509,7 +2509,6 @@
         "Learning/Reading": 150,
         "Personal/Break": 120,
         "Gaming/Warhammer": 30,
-        "": 15,
         "Leisure": 165,
         "Leisure/History": 90,
         "Sleep": 750
@@ -3620,18 +3619,18 @@
     },
     {
       "date": "2026-05-24",
-      "tracked_min": 60,
+      "tracked_min": 120,
       "by_category": {
         "Admin/Errands": 15,
         "Leisure": 15,
         "Communications": 15,
-        "Learning": 15
+        "Learning": 75
       },
       "by_project": {
         "Admin": 15,
         "Learning/Business": 15,
         "Reddit ops": 15,
-        "Health": 15
+        "Health": 75
       },
       "blocks": [
         {
@@ -3723,6 +3722,102 @@
           ],
           "images": [
             "https://i.imgur.com/ozu78sj.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "14:08",
+          "end": "14:23",
+          "min": 15,
+          "category": "Learning",
+          "activity": "Researching walking posture with Claude",
+          "project": "Health",
+          "screen_summary": "Claude chat titled 'Fixing walking posture and foot pain' — highlighted section about clicking hip and ankle pain",
+          "webcam": "Person centered, looking forward, shoulders level",
+          "captures": [
+            {
+              "start": "14:08",
+              "image": "https://i.imgur.com/qVBR80b.jpeg",
+              "summary": "Claude chat titled 'Fixing walking posture and foot pain' — highlighted section about clicking hip and ankle pain",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/qVBR80b.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "14:23",
+          "end": "14:38",
+          "min": 15,
+          "category": "Learning",
+          "activity": "Watching walking pronation video",
+          "project": "Health",
+          "screen_summary": "YouTube Orthoinfo video 'Walking/Pronation' showing barefoot walking gait on grid floor",
+          "webcam": "Person centered, slight downward gaze, shoulders level",
+          "captures": [
+            {
+              "start": "14:23",
+              "image": "https://i.imgur.com/PCFuBid.jpeg",
+              "summary": "YouTube Orthoinfo video 'Walking/Pronation' showing barefoot walking gait on grid floor",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/PCFuBid.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "14:38",
+          "end": "14:53",
+          "min": 15,
+          "category": "Learning",
+          "activity": "Watching walking biomechanics lecture",
+          "project": "Health",
+          "screen_summary": "YouTube 'walking biomechanics' search — Stanford lecture by Scott Delp on running gait cycle and energetics",
+          "webcam": "Person centered, looking slightly down, shoulders level",
+          "captures": [
+            {
+              "start": "14:38",
+              "image": "https://i.imgur.com/ZDtouun.jpeg",
+              "summary": "YouTube 'walking biomechanics' search — Stanford lecture by Scott Delp on running gait cycle and energetics",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/ZDtouun.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "14:53",
+          "end": "15:08",
+          "min": 15,
+          "category": "Learning",
+          "activity": "Watching 'How to Walk' tutorial",
+          "project": "Health",
+          "screen_summary": "YouTube 'how to walk properly' search — Grown.Healthy. response to Bob and Brad on walking technique",
+          "webcam": "Person looking down-right, slight head turn, shoulders level",
+          "captures": [
+            {
+              "start": "14:53",
+              "image": "https://i.imgur.com/faD0Kbo.jpeg",
+              "summary": "YouTube 'how to walk properly' search — Grown.Healthy. response to Bob and Brad on walking technique",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/faD0Kbo.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
