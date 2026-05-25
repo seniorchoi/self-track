@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T12:01:28.529983+09:00",
+  "generatedAt": "2026-05-26T07:04:58+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -53,7 +53,7 @@
           "activity": "working on SelfTrack",
           "project": "SelfTrack build",
           "screen_summary": "OpenClaw chat thread discussing SelfTrack capture loop, watcher fixes, and posture-alert behavior.",
-          "webcam": "present",
+          "webcam": "away",
           "captures": [
             {
               "start": "16:15",
@@ -882,19 +882,19 @@
       ],
       "dailySummary": {
         "date": "2026-05-20",
-        "tracked_min": 480,
-        "productivity_min": 255,
-        "learning_min": 0,
-        "exercise_min": 0,
-        "leisure_min": 150,
-        "errand_min": 30,
-        "afk_min": 0,
-        "sleep_min": 45,
-        "other_min": 0,
+        "tracked_min": "480",
+        "productivity_min": "255",
+        "exercise_min": "0",
+        "social_min": "0",
+        "leisure_min": "150",
+        "meals_min": "30",
+        "learning_min": "0",
+        "sleep_min": "45",
+        "afk_min": "0",
         "top_activities": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
-        "tom_takeaway": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
-        "window": "15:58 / 00:03",
-        "note_from_sun": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
+        "reflection": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
+        "first_last": "15:58 / 00:03",
+        "note": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
       }
     },
     {
@@ -1577,19 +1577,19 @@
       ],
       "dailySummary": {
         "date": "2026-05-21",
-        "tracked_min": 1440,
-        "productivity_min": 60,
-        "learning_min": 0,
-        "exercise_min": 0,
-        "leisure_min": 150,
-        "errand_min": 45,
-        "afk_min": 15,
-        "sleep_min": 1170,
-        "other_min": 0,
+        "tracked_min": "1440",
+        "productivity_min": "60",
+        "exercise_min": "0",
+        "social_min": "0",
+        "leisure_min": "150",
+        "meals_min": "45",
+        "learning_min": "15",
+        "sleep_min": "1170",
+        "afk_min": "0",
         "top_activities": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
-        "tom_takeaway": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
-        "window": "00:03 / 23:53",
-        "note_from_sun": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
+        "reflection": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
+        "first_last": "00:03 / 23:53",
+        "note": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
       }
     },
     {
@@ -1820,7 +1820,7 @@
           "activity": "playing Total War: Warhammer",
           "project": "Warhammer/Leisure",
           "screen_summary": "Total War: Warhammer battle scene on a snowy map; lord portrait and unit roster visible",
-          "webcam": "present, wearing headphones",
+          "webcam": "absent",
           "captures": [
             {
               "start": "17:31",
@@ -2047,7 +2047,7 @@
           "activity": "watching movie/TV",
           "project": "Movie/Leisure",
           "screen_summary": "Movie/TV scene of a couple with subtitle 'I lucked out when I arrange-married you.'",
-          "webcam": "absent (dark room)",
+          "webcam": "absent or fullscreen player",
           "captures": [
             {
               "start": "21:51",
@@ -2478,19 +2478,19 @@
       ],
       "dailySummary": {
         "date": "2026-05-22",
-        "tracked_min": 810,
-        "productivity_min": 30,
-        "learning_min": 0,
-        "exercise_min": 0,
-        "leisure_min": 375,
-        "errand_min": 0,
-        "afk_min": 0,
-        "sleep_min": 405,
-        "other_min": 0,
+        "tracked_min": "810",
+        "productivity_min": "30",
+        "exercise_min": "0",
+        "social_min": "0",
+        "leisure_min": "375",
+        "meals_min": "0",
+        "learning_min": "0",
+        "sleep_min": "405",
+        "afk_min": "0",
         "top_activities": "haircut errand (6h 30m) · playing Total War: Warhammer (1h 30m) · watching movie/TV (1h 15m)",
-        "tom_takeaway": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
-        "window": "00:08 / 23:51",
-        "note_from_sun": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
+        "reflection": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
+        "first_last": "00:08 / 23:51",
+        "note": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
       }
     },
     {
@@ -2509,7 +2509,7 @@
         "Learning/Reading": 150,
         "Personal/Break": 120,
         "Gaming/Warhammer": 30,
-        "": 15,
+        "(none)": 15,
         "Leisure": 165,
         "Leisure/History": 90,
         "Sleep": 750
@@ -3634,7 +3634,7 @@
         "Learning/Business": 15,
         "Reddit ops": 15,
         "Health": 195,
-        "": 120,
+        "(none)": 120,
         "SelfTrack": 30,
         "Leisure": 195,
         "Learning": 15,
@@ -4242,7 +4242,7 @@
           "activity": "Watching F1 movie",
           "project": "Leisure",
           "screen_summary": "F1 movie scene — racing scoreboard showing AMR, Porsche, McLaren team standings at positions 6/7/8",
-          "webcam": "Pitch black, person not visible",
+          "webcam": "Dark room, person centered with hand on chin, headphones on",
           "captures": [
             {
               "start": "20:24",
@@ -4667,12 +4667,14 @@
     },
     {
       "date": "2026-05-25",
-      "tracked_min": 15,
+      "tracked_min": 75,
       "by_category": {
-        "Leisure": 15
+        "Leisure": 15,
+        "Learning": 60
       },
       "by_project": {
-        "Morning X/Twitter scroll": 15
+        "Morning X/Twitter scroll": 15,
+        "Hermes Agent research": 60
       },
       "blocks": [
         {
@@ -4694,6 +4696,51 @@
           ],
           "images": [
             "https://i.imgur.com/RzjfeYJ.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "12:05",
+          "end": "13:05",
+          "min": 60,
+          "category": "Learning",
+          "activity": "Reading Hermes Agent setup notes",
+          "project": "Hermes Agent research",
+          "screen_summary": "Terminal/article about Hermes Agent CLI — config check, OpenAI codex login confirmation, troubleshooting notes for a 'reply with HERMES_SMOKE_TEST_OK' test",
+          "webcam": "Person not in frame; bedroom wall and made bed visible, dark laptop edge in foreground",
+          "captures": [
+            {
+              "start": "12:05",
+              "image": "https://i.imgur.com/ou347AJ.jpeg",
+              "summary": "Terminal/article about Hermes Agent CLI — config check, OpenAI codex login confirmation, troubleshooting notes for a 'reply with HERMES_SMOKE_TEST_OK' test",
+              "sensitive": false
+            },
+            {
+              "start": "12:20",
+              "image": "https://i.imgur.com/51CvCsU.jpeg",
+              "summary": "Terminal/article about Hermes Agent CLI — config check, OpenAI codex login confirmation, troubleshooting notes for a 'reply with HERMES_SMOKE_TEST_OK' test",
+              "sensitive": false
+            },
+            {
+              "start": "12:35",
+              "image": "https://i.imgur.com/cjVOkau.jpeg",
+              "summary": "Terminal/article about Hermes Agent CLI — config check, OpenAI codex login confirmation, troubleshooting notes for a 'reply with HERMES_SMOKE_TEST_OK' test",
+              "sensitive": false
+            },
+            {
+              "start": "12:50",
+              "image": "https://i.imgur.com/1zyFNR1.jpeg",
+              "summary": "Terminal/article about Hermes Agent CLI — config check, OpenAI codex login confirmation, troubleshooting notes for a 'reply with HERMES_SMOKE_TEST_OK' test",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/ou347AJ.jpeg",
+            "https://i.imgur.com/51CvCsU.jpeg",
+            "https://i.imgur.com/cjVOkau.jpeg",
+            "https://i.imgur.com/1zyFNR1.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
