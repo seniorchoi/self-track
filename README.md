@@ -20,7 +20,10 @@ Vercel auto-deploys on push to `main`. Set Project Root to repo root; framework:
 ## Mixpanel
 - Client tracking is installed with project token `6fb13bbb32220de30c42899af1533003`.
 - The app tracks `page_viewed` with `{ path, tab, site: "life_of_sun" }`.
-- Public visitor cards read `public/mixpanel.json` and appear at the bottom of Timeline and Crons.
+- The app sends `visitor_heartbeat` every 45 seconds while a page is open.
+- `/api/live` stores recent visitor heartbeats for ~2 minutes and returns `activeNow` for the live visitor card.
+- `support_clicked` tracks Lemon Squeezy coffee button clicks with product id `1088516`.
+- Public visitor cards read `public/mixpanel.json` for historical rollups and poll `/api/live` for active-now.
 - To publish visitor rollups, provide Mixpanel API credentials in the environment and run:
 
 ```bash

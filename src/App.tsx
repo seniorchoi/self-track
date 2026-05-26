@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { trackEvent, trackPageView } from './mixpanel'
+import { startVisitorHeartbeat, trackEvent, trackPageView } from './mixpanel'
 import { BrowserRouter, Routes, Route, Link, useNavigate, useParams, Navigate, useLocation } from 'react-router-dom'
 
 // ── Types ──────────────────────────────────────────────────────────────
@@ -70,8 +70,28 @@ function useVisitorPulse() {
   }, [])
   return pulse
 }
+
+function useLiveNow(fallback: number) {
+  const [activeNow, setActiveNow] = useState(fallback)
+  useEffect(() => setActiveNow(fallback), [fallback])
+  useEffect(() => {
+    let stopped = false
+    const load = () => {
+      fetch('/api/live?t=' + Date.now(), { cache: 'no-store' })
+        .then(r => r.json())
+        .then(j => { if (!stopped && typeof j.activeNow === 'number') setActiveNow(j.activeNow) })
+        .catch(() => {})
+    }
+    load()
+    const id = window.setInterval(load, 15_000)
+    return () => { stopped = true; window.clearInterval(id) }
+  }, [])
+  return activeNow
+}
+
 function VisitorPulseCard({ compact = false }: { compact?: boolean }) {
   const pulse = useVisitorPulse()
+  const activeNow = useLiveNow(pulse?.activeNow ?? 0)
   const daily = pulse?.dailyVisitors || []
   const week = pulse?.weeklyVisitors || { visitors: 0, visits: 0 }
   const maxDaily = Math.max(1, ...daily.map(d => d.visitors))
@@ -87,17 +107,17 @@ function VisitorPulseCard({ compact = false }: { compact?: boolean }) {
       <div className="flex items-start justify-between gap-3">
         <div>
           <h3 className="font-serif text-lg">Visitor pulse</h3>
-          <p className="text-xs text-gray-500">Live-ish Mixpanel rollup for people reading Life of Sun.</p>
+          <p className="text-xs text-gray-500">Live visitors plus Mixpanel rollups for people reading Life of Sun.</p>
         </div>
         <div className="text-right">
-          <div className="text-2xl font-serif tabular-nums">{pulse?.activeNow ?? 0}</div>
+          <div className="text-2xl font-serif tabular-nums">{activeNow}</div>
           <div className="text-[11px] text-gray-500">active now</div>
         </div>
       </div>
 
       {collecting ? (
         <div className="rounded-lg bg-[#f5f1e8] border border-[var(--line)] px-3 py-2 text-sm text-gray-600">
-          Tracking is installed. Public Mixpanel rollups will appear here after the snapshot job has API credentials and enough traffic.
+          Live-now is active. Historical Mixpanel rollups will appear here after the snapshot job has API credentials and enough traffic.
         </div>
       ) : (
         <>
@@ -146,7 +166,7 @@ function MiniList({ title, rows, empty }: { title: string; rows: PublicMetric[];
 }
 function MixpanelRouteTracker() {
   const loc = useLocation()
-  useEffect(() => { trackPageView(loc.pathname) }, [loc.pathname])
+  useEffect(() => { trackPageView(loc.pathname); startVisitorHeartbeat(loc.pathname) }, [loc.pathname])
   return null
 }
 
@@ -680,10 +700,10 @@ function SupportCard() {
         <p className="text-sm text-white/75 mt-1 max-w-xl">Life of Sun is part productivity lab, part public accountability experiment. Buy me a coffee if you want to keep the machine caffeinated.</p>
       </div>
       <a
-        href="https://mbtioracle.lemonsqueezy.com/checkout/buy/24e9325b-13cd-49e4-8292-9e65266feac2"
+        href="https://mbtioracle.lemonsqueezy.com/checkout/buy/0d438a17-d121-4957-a2f6-e8694e163f5c"
         target="_blank"
         rel="noopener noreferrer"
-        onClick={() => trackEvent('support_clicked', { product_id: '1064063', price_usd: 4.99 })}
+        onClick={() => trackEvent('support_clicked', { product_id: '1088516', price_usd: 4.99 })}
         className="inline-flex items-center justify-center rounded-lg bg-white text-[#1f3b2a] px-4 py-2 text-sm font-semibold hover:bg-[#f5f1e8] whitespace-nowrap"
       >
         Buy me a coffee · $4.99

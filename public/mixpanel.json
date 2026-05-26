@@ -1,43 +1,13 @@
 {
-  "generatedAt": "2026-05-26T14:44:00+09:00",
+  "generatedAt": "",
   "source": "mixpanel",
-  "status": "ok",
-  "reason": "dummy preview data for UI check",
-  "dailyVisitors": [
-    { "date": "2026-05-19", "visitors": 3 },
-    { "date": "2026-05-20", "visitors": 8 },
-    { "date": "2026-05-21", "visitors": 5 },
-    { "date": "2026-05-22", "visitors": 13 },
-    { "date": "2026-05-23", "visitors": 9 },
-    { "date": "2026-05-24", "visitors": 21 },
-    { "date": "2026-05-25", "visitors": 17 }
-  ],
-  "weeklyVisitors": {
-    "visitors": 54,
-    "visits": 91
-  },
-  "activeNow": 2,
-  "topCities": [
-    { "name": "Seoul", "count": 19 },
-    { "name": "San Francisco", "count": 11 },
-    { "name": "New York", "count": 7 },
-    { "name": "Tokyo", "count": 5 }
-  ],
-  "topCountries": [
-    { "name": "KR", "count": 24 },
-    { "name": "US", "count": 20 },
-    { "name": "JP", "count": 5 },
-    { "name": "GB", "count": 3 }
-  ],
-  "topPages": [
-    { "name": "/timeline/2026-05-25", "count": 31 },
-    { "name": "/crons", "count": 18 },
-    { "name": "/chrono/2026-05-25", "count": 12 },
-    { "name": "/pie/week/2026-05-25", "count": 9 }
-  ],
-  "topReferrers": [
-    { "name": "x.com", "count": 15 },
-    { "name": "discord.com", "count": 8 },
-    { "name": "google.com", "count": 6 }
-  ]
+  "status": "needs_credentials",
+  "reason": "Mixpanel tracking and live heartbeats are installed. Add Mixpanel API credentials and run npm run mixpanel:snapshot to publish historical visitor rollups.",
+  "dailyVisitors": [],
+  "weeklyVisitors": { "visitors": 0, "visits": 0 },
+  "activeNow": 0,
+  "topCities": [],
+  "topCountries": [],
+  "topPages": [],
+  "topReferrers": []
 }
