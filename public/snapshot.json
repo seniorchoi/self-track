@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-26T07:04:58+09:00",
+  "generatedAt": "2026-05-26T12:25:11+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -53,7 +53,7 @@
           "activity": "working on SelfTrack",
           "project": "SelfTrack build",
           "screen_summary": "OpenClaw chat thread discussing SelfTrack capture loop, watcher fixes, and posture-alert behavior.",
-          "webcam": "away",
+          "webcam": "present",
           "captures": [
             {
               "start": "16:15",
@@ -882,19 +882,19 @@
       ],
       "dailySummary": {
         "date": "2026-05-20",
-        "tracked_min": "480",
-        "productivity_min": "255",
-        "exercise_min": "0",
-        "social_min": "0",
-        "leisure_min": "150",
-        "meals_min": "30",
-        "learning_min": "0",
-        "sleep_min": "45",
-        "afk_min": "0",
+        "tracked_min": 480,
+        "productivity_min": 255,
+        "learning_min": 0,
+        "health_min": 0,
+        "leisure_min": 150,
+        "chores_min": 30,
+        "social_min": 0,
+        "afk_min": 45,
+        "unknown_min": 0,
         "top_activities": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
-        "reflection": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
-        "first_last": "15:58 / 00:03",
-        "note": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
+        "notes": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
+        "bookends": "15:58 / 00:03",
+        "note_from_sun": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
       }
     },
     {
@@ -1577,19 +1577,19 @@
       ],
       "dailySummary": {
         "date": "2026-05-21",
-        "tracked_min": "1440",
-        "productivity_min": "60",
-        "exercise_min": "0",
-        "social_min": "0",
-        "leisure_min": "150",
-        "meals_min": "45",
-        "learning_min": "15",
-        "sleep_min": "1170",
-        "afk_min": "0",
+        "tracked_min": 1440,
+        "productivity_min": 60,
+        "learning_min": 0,
+        "health_min": 0,
+        "leisure_min": 150,
+        "chores_min": 45,
+        "social_min": 15,
+        "afk_min": 1170,
+        "unknown_min": 0,
         "top_activities": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
-        "reflection": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
-        "first_last": "00:03 / 23:53",
-        "note": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
+        "notes": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
+        "bookends": "00:03 / 23:53",
+        "note_from_sun": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
       }
     },
     {
@@ -1820,7 +1820,7 @@
           "activity": "playing Total War: Warhammer",
           "project": "Warhammer/Leisure",
           "screen_summary": "Total War: Warhammer battle scene on a snowy map; lord portrait and unit roster visible",
-          "webcam": "absent",
+          "webcam": "present, wearing headphones",
           "captures": [
             {
               "start": "17:31",
@@ -2047,7 +2047,7 @@
           "activity": "watching movie/TV",
           "project": "Movie/Leisure",
           "screen_summary": "Movie/TV scene of a couple with subtitle 'I lucked out when I arrange-married you.'",
-          "webcam": "absent or fullscreen player",
+          "webcam": "absent (dark room)",
           "captures": [
             {
               "start": "21:51",
@@ -2478,19 +2478,19 @@
       ],
       "dailySummary": {
         "date": "2026-05-22",
-        "tracked_min": "810",
-        "productivity_min": "30",
-        "exercise_min": "0",
-        "social_min": "0",
-        "leisure_min": "375",
-        "meals_min": "0",
-        "learning_min": "0",
-        "sleep_min": "405",
-        "afk_min": "0",
+        "tracked_min": 810,
+        "productivity_min": 30,
+        "learning_min": 0,
+        "health_min": 0,
+        "leisure_min": 375,
+        "chores_min": 0,
+        "social_min": 0,
+        "afk_min": 405,
+        "unknown_min": 0,
         "top_activities": "haircut errand (6h 30m) · playing Total War: Warhammer (1h 30m) · watching movie/TV (1h 15m)",
-        "reflection": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
-        "first_last": "00:08 / 23:51",
-        "note": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
+        "notes": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
+        "bookends": "00:08 / 23:51",
+        "note_from_sun": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
       }
     },
     {
@@ -2509,7 +2509,6 @@
         "Learning/Reading": 150,
         "Personal/Break": 120,
         "Gaming/Warhammer": 30,
-        "(none)": 15,
         "Leisure": 165,
         "Leisure/History": 90,
         "Sleep": 750
@@ -3620,26 +3619,24 @@
     },
     {
       "date": "2026-05-24",
-      "tracked_min": 1350,
+      "tracked_min": 630,
       "by_category": {
         "Admin/Errands": 15,
         "Leisure": 240,
         "Communications": 15,
         "Learning": 195,
         "Productivity": 45,
-        "AFK/Idle": 840
+        "AFK/Idle": 120
       },
       "by_project": {
         "Admin": 15,
         "Learning/Business": 15,
         "Reddit ops": 15,
         "Health": 195,
-        "(none)": 120,
         "SelfTrack": 30,
         "Leisure": 195,
         "Learning": 15,
-        "F1 movie": 30,
-        "Sleep": 720
+        "F1 movie": 30
       },
       "blocks": [
         {
@@ -4242,7 +4239,7 @@
           "activity": "Watching F1 movie",
           "project": "Leisure",
           "screen_summary": "F1 movie scene — racing scoreboard showing AMR, Porsche, McLaren team standings at positions 6/7/8",
-          "webcam": "Dark room, person centered with hand on chin, headphones on",
+          "webcam": "Pitch black, person not visible",
           "captures": [
             {
               "start": "20:24",
@@ -4354,6 +4351,52 @@
           "images": [
             "https://i.imgur.com/Dl7gXnp.jpeg",
             "https://i.imgur.com/Q9SKzla.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-05-25",
+      "tracked_min": 1080,
+      "by_category": {
+        "Leisure": 195,
+        "AFK/Idle": 720,
+        "Learning": 60,
+        "Productivity": 105
+      },
+      "by_project": {
+        "Morning X/Twitter scroll": 15,
+        "Sleep": 720,
+        "Hermes Agent research": 60,
+        "SelfTrack": 30,
+        "OpenClaw infra": 45,
+        "Q Rizz": 15,
+        "Simple Rizz": 15,
+        "Personal": 180
+      },
+      "blocks": [
+        {
+          "start": "11:50",
+          "end": "12:05",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Browsing X/Twitter",
+          "project": "Morning X/Twitter scroll",
+          "screen_summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
+          "webcam": "Sun on bed with grey t-shirt, slightly groggy but upright, just woke up look",
+          "captures": [
+            {
+              "start": "11:50",
+              "image": "https://i.imgur.com/RzjfeYJ.jpeg",
+              "summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/RzjfeYJ.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -4662,44 +4705,6 @@
           "sensitive_count": 48,
           "sensitive": true,
           "notes": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-05-25",
-      "tracked_min": 75,
-      "by_category": {
-        "Leisure": 15,
-        "Learning": 60
-      },
-      "by_project": {
-        "Morning X/Twitter scroll": 15,
-        "Hermes Agent research": 60
-      },
-      "blocks": [
-        {
-          "start": "11:50",
-          "end": "12:05",
-          "min": 15,
-          "category": "Leisure",
-          "activity": "Browsing X/Twitter",
-          "project": "Morning X/Twitter scroll",
-          "screen_summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
-          "webcam": "Sun on bed with grey t-shirt, slightly groggy but upright, just woke up look",
-          "captures": [
-            {
-              "start": "11:50",
-              "image": "https://i.imgur.com/RzjfeYJ.jpeg",
-              "summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
-              "sensitive": false
-            }
-          ],
-          "images": [
-            "https://i.imgur.com/RzjfeYJ.jpeg"
-          ],
-          "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
         },
         {
           "start": "12:05",
@@ -4741,6 +4746,390 @@
             "https://i.imgur.com/51CvCsU.jpeg",
             "https://i.imgur.com/cjVOkau.jpeg",
             "https://i.imgur.com/1zyFNR1.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "13:05",
+          "end": "13:20",
+          "min": 15,
+          "category": "Productivity",
+          "activity": "SelfTrack dashboard review",
+          "project": "SelfTrack",
+          "screen_summary": "SelfTrack 'Life of Sun' activity-timeline dashboard open in browser, reviewing a tracked X/Twitter capture entry",
+          "webcam": "Sun present, seated, holding phone, smiling at camera",
+          "captures": [
+            {
+              "start": "13:05",
+              "image": "https://i.imgur.com/JIgw2eF.jpeg",
+              "summary": "SelfTrack 'Life of Sun' activity-timeline dashboard open in browser, reviewing a tracked X/Twitter capture entry",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/JIgw2eF.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "13:20",
+          "end": "13:35",
+          "min": 15,
+          "category": "Productivity",
+          "activity": "Terminal — skill migration",
+          "project": "OpenClaw infra",
+          "screen_summary": "Terminal running hermes/openclaw skill-migration script (openclaw-to-hermes migrate), dev tooling work",
+          "webcam": "Sun present, hand on chin, looking down at screen, focused",
+          "captures": [
+            {
+              "start": "13:20",
+              "image": "https://i.imgur.com/P4W2jbZ.jpeg",
+              "summary": "Terminal running hermes/openclaw skill-migration script (openclaw-to-hermes migrate), dev tooling work",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/P4W2jbZ.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "13:35",
+          "end": "13:50",
+          "min": 15,
+          "category": "Productivity",
+          "activity": "OpenClaw Control chat",
+          "project": "SelfTrack",
+          "screen_summary": "OpenClaw Control web chat panel open, reviewing agent tool output about SelfTrack posture captures",
+          "webcam": "Sun present, looking down at screen, focused",
+          "captures": [
+            {
+              "start": "13:35",
+              "image": "https://i.imgur.com/upvm5kb.jpeg",
+              "summary": "OpenClaw Control web chat panel open, reviewing agent tool output about SelfTrack posture captures",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/upvm5kb.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "13:50",
+          "end": "14:05",
+          "min": 15,
+          "category": "Productivity",
+          "activity": "Hermes Agent dashboard",
+          "project": "OpenClaw infra",
+          "screen_summary": "Hermes/OpenClaw Agent web dashboard open on RECENT SESSIONS list, reviewing agent session history",
+          "webcam": "Sun present, leaning in close to screen, focused",
+          "captures": [
+            {
+              "start": "13:50",
+              "image": "https://i.imgur.com/xEr9nil.jpeg",
+              "summary": "Hermes/OpenClaw Agent web dashboard open on RECENT SESSIONS list, reviewing agent session history",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/xEr9nil.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "14:05",
+          "end": "14:20",
+          "min": 15,
+          "category": "Productivity",
+          "activity": "Sensor Tower app research",
+          "project": "Q Rizz",
+          "screen_summary": "Sensor Tower app-analysis page showing in-app purchase tiers and market data, competitor/market research",
+          "webcam": "Sun present, holding phone, talking, relaxed",
+          "captures": [
+            {
+              "start": "14:05",
+              "image": "https://i.imgur.com/zxirUlD.jpeg",
+              "summary": "Sensor Tower app-analysis page showing in-app purchase tiers and market data, competitor/market research",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/zxirUlD.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "14:20",
+          "end": "14:35",
+          "min": 15,
+          "category": "Productivity",
+          "activity": "Rizz IG reels review",
+          "project": "Simple Rizz",
+          "screen_summary": "Instagram profile reels grid of 'POV RIZZ' short videos, reviewing Simple Rizz social content/marketing",
+          "webcam": "Sun present, laughing, looking off to the side",
+          "captures": [
+            {
+              "start": "14:20",
+              "image": "https://i.imgur.com/MvvEoJb.jpeg",
+              "summary": "Instagram profile reels grid of 'POV RIZZ' short videos, reviewing Simple Rizz social content/marketing",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/MvvEoJb.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "14:35",
+          "end": "14:50",
+          "min": 15,
+          "category": "Productivity",
+          "activity": "Terminal — Chromium/Playwright debug",
+          "project": "OpenClaw infra",
+          "screen_summary": "Terminal session debugging Chromium/Playwright cache and library paths (chrome-linux64), dev tooling",
+          "webcam": "Sun present in profile, looking at phone in hand",
+          "captures": [
+            {
+              "start": "14:35",
+              "image": "https://i.imgur.com/imA1tAP.jpeg",
+              "summary": "Terminal session debugging Chromium/Playwright cache and library paths (chrome-linux64), dev tooling",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/imA1tAP.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "14:50",
+          "end": "15:05",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "YouTube browsing",
+          "project": "Personal",
+          "screen_summary": "YouTube home feed open (posture/mewing tips, Total War strategy, shorts), casual browsing",
+          "webcam": "No person visible — empty bed, away from desk",
+          "captures": [
+            {
+              "start": "14:50",
+              "image": "https://i.imgur.com/5fLYGnn.jpeg",
+              "summary": "YouTube home feed open (posture/mewing tips, Total War strategy, shorts), casual browsing",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/5fLYGnn.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "15:05",
+          "end": "17:51",
+          "min": 165,
+          "category": "Leisure",
+          "activity": "Watching movie/show",
+          "project": "Personal",
+          "screen_summary": "Fullscreen video playing — dark period-drama scene of men playing cards around a table",
+          "webcam": "No person visible — empty bed, away from frame",
+          "captures": [
+            {
+              "start": "15:05",
+              "image": "https://i.imgur.com/dC3ebfd.jpeg",
+              "summary": "Fullscreen video playing — dark period-drama scene of men playing cards around a table",
+              "sensitive": false
+            },
+            {
+              "start": "15:20",
+              "image": "https://i.imgur.com/qTbqbaI.jpeg",
+              "summary": "Fullscreen film playing — office scene, subtitle 'The Director wants to know if there's any shred of truth'",
+              "sensitive": false
+            },
+            {
+              "start": "15:35",
+              "image": "https://i.imgur.com/dMi5zKL.jpeg",
+              "summary": "Fullscreen film playing — overhead snowy-rooftop shot",
+              "sensitive": false
+            },
+            {
+              "start": "15:51",
+              "image": "https://i.imgur.com/BMJFA8G.jpeg",
+              "summary": "Fullscreen film playing — European street scene with parked cars, subtitle 'Okay.'",
+              "sensitive": false
+            },
+            {
+              "start": "16:06",
+              "image": "https://i.imgur.com/ZvjPrm0.jpeg",
+              "summary": "Fullscreen film playing — dim interior, red-haired character, subtitle 'Who are you?'",
+              "sensitive": false
+            },
+            {
+              "start": "16:21",
+              "image": "https://i.imgur.com/CDtYXUI.jpeg",
+              "summary": "Fullscreen film playing — close-up of two characters (Bourne-style thriller)",
+              "sensitive": false
+            },
+            {
+              "start": "16:36",
+              "image": "https://i.imgur.com/sqq10V9.jpeg",
+              "summary": "Fullscreen film playing — woman speaking, subtitle 'People call, they make an appointment, follow the rules.'",
+              "sensitive": false
+            },
+            {
+              "start": "16:51",
+              "image": "https://i.imgur.com/vTgIfBe.jpeg",
+              "summary": "Fullscreen film playing — dim close-up of two characters talking (Bourne-style thriller)",
+              "sensitive": false
+            },
+            {
+              "start": "17:06",
+              "image": "https://i.imgur.com/ZqJJIdt.jpeg",
+              "summary": "Film paused on a night airport scene — private jet on wet tarmac (screen capture frozen on this frame through 17:36)",
+              "sensitive": false
+            },
+            {
+              "start": "17:21",
+              "image": "https://i.imgur.com/Gl3WO52.jpeg",
+              "summary": "Film still paused on the night airport / private-jet frame (display static)",
+              "sensitive": false
+            },
+            {
+              "start": "17:36",
+              "image": "https://i.imgur.com/zyYpp4g.jpeg",
+              "summary": "Film still paused on the night airport / private-jet frame (display static)",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/dC3ebfd.jpeg",
+            "https://i.imgur.com/qTbqbaI.jpeg",
+            "https://i.imgur.com/dMi5zKL.jpeg",
+            "https://i.imgur.com/BMJFA8G.jpeg",
+            "https://i.imgur.com/ZvjPrm0.jpeg",
+            "https://i.imgur.com/CDtYXUI.jpeg",
+            "https://i.imgur.com/sqq10V9.jpeg",
+            "https://i.imgur.com/vTgIfBe.jpeg",
+            "https://i.imgur.com/ZqJJIdt.jpeg",
+            "https://i.imgur.com/Gl3WO52.jpeg",
+            "https://i.imgur.com/zyYpp4g.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-05-26",
+      "tracked_min": 75,
+      "by_category": {
+        "Productivity": 75
+      },
+      "by_project": {
+        "OpenClaw infra": 15,
+        "Q Rizz": 15,
+        "SelfTrack": 45
+      },
+      "blocks": [
+        {
+          "start": "11:13",
+          "end": "11:28",
+          "min": 15,
+          "category": "Productivity",
+          "activity": "OpenClaw Gateway setup",
+          "project": "OpenClaw infra",
+          "screen_summary": "OpenClaw Gateway Dashboard connect screen — WebSocket URL and optional gateway-token/password fields (placeholders only, no values entered)",
+          "webcam": "Sun present, sitting upright in blue polo, good posture, facing camera",
+          "captures": [
+            {
+              "start": "11:13",
+              "image": "https://i.imgur.com/0L165TM.jpeg",
+              "summary": "OpenClaw Gateway Dashboard connect screen — WebSocket URL and optional gateway-token/password fields (placeholders only, no values entered)",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/0L165TM.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "11:28",
+          "end": "11:43",
+          "min": 15,
+          "category": "Productivity",
+          "activity": "OpenClaw Control chat — Q Rizz / App Store Connect",
+          "project": "Q Rizz",
+          "screen_summary": "OpenClaw Control chat discussing Q Rizz App Store Connect API setup; chat thread references a private-key/credential block",
+          "webcam": "Sun present, looking down at phone in hand",
+          "captures": [
+            {
+              "start": "11:28",
+              "image": null,
+              "summary": "OpenClaw Control chat discussing Q Rizz App Store Connect API setup; chat thread references a private-key/credential block",
+              "sensitive": true
+            }
+          ],
+          "images": [],
+          "sensitive_count": 1,
+          "sensitive": true,
+          "notes": ""
+        },
+        {
+          "start": "11:43",
+          "end": "12:28",
+          "min": 45,
+          "category": "Productivity",
+          "activity": "OpenClaw Control chat — SelfTrack/Telegram",
+          "project": "SelfTrack",
+          "screen_summary": "OpenClaw Control chat reviewing agent tool output: Telegram summary send + housekeeping notes (creds persisted chmod 600/gitignored, resume-summary download killed on reconnect)",
+          "webcam": "No person visible — empty bed, away from desk",
+          "captures": [
+            {
+              "start": "11:43",
+              "image": "https://i.imgur.com/3xX1BzM.jpeg",
+              "summary": "OpenClaw Control chat reviewing agent tool output: Telegram summary send + housekeeping notes (creds persisted chmod 600/gitignored, resume-summary download killed on reconnect)",
+              "sensitive": false
+            },
+            {
+              "start": "11:58",
+              "image": "https://i.imgur.com/rQEGmzM.jpeg",
+              "summary": "OpenClaw Control chat (static, same thread) reviewing agent tool output: Telegram summary + housekeeping notes",
+              "sensitive": false
+            },
+            {
+              "start": "12:13",
+              "image": "https://i.imgur.com/LVsxk0i.jpeg",
+              "summary": "OpenClaw Control chat (static, same thread) reviewing agent tool output: Telegram summary + housekeeping notes",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/3xX1BzM.jpeg",
+            "https://i.imgur.com/rQEGmzM.jpeg",
+            "https://i.imgur.com/LVsxk0i.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
