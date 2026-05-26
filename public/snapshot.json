@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-05-26T18:01:33+09:00",
+ "generatedAt": "2026-05-26T19:02:39+09:00",
  "days": [
   {
    "date": "2026-05-20",
@@ -5042,20 +5042,22 @@
   },
   {
    "date": "2026-05-26",
-   "tracked_min": 345,
+   "tracked_min": 450,
    "by_category": {
     "Productivity": 165,
-    "AFK/Idle": 90,
+    "AFK/Idle": 105,
     "Learning": 15,
     "Communications": 15,
-    "Leisure": 60
+    "Leisure": 120,
+    "Other": 30
    },
    "by_project": {
     "OpenClaw infra": 60,
     "Q Rizz": 15,
     "SelfTrack": 90,
     "—": 90,
-    "Personal": 90
+    "Personal": 105,
+    "Mindcraft": 90
    },
    "blocks": [
     {
@@ -5431,6 +5433,140 @@
      ],
      "images": [
       "https://i.imgur.com/y0ifvfB.jpeg"
+     ],
+     "sensitive_count": 0,
+     "sensitive": false,
+     "notes": ""
+    },
+    {
+     "start": "16:58",
+     "end": "17:13",
+     "min": 15,
+     "category": "Other",
+     "activity": "Mindcraft AI agent — setup",
+     "project": "Mindcraft",
+     "screen_summary": "Mindcraft web dashboard open — agent inventory panel showing gamemode, health, hunger, pos fields; agent idle",
+     "webcam": "No person visible — empty bed, away from desk",
+     "captures": [
+      {
+       "start": "16:58",
+       "image": "https://i.imgur.com/6UXcwUS.jpeg",
+       "summary": "Mindcraft web dashboard open — agent inventory panel showing gamemode, health, hunger, pos fields; agent idle",
+       "sensitive": false
+      }
+     ],
+     "images": [
+      "https://i.imgur.com/6UXcwUS.jpeg"
+     ],
+     "sensitive_count": 0,
+     "sensitive": false,
+     "notes": ""
+    },
+    {
+     "start": "17:13",
+     "end": "17:28",
+     "min": 15,
+     "category": "Other",
+     "activity": "Mindcraft AI agent — running",
+     "project": "Mindcraft",
+     "screen_summary": "Mindcraft dashboard static — same inventory panel with expanded conversation log on left sidebar; agent idle in background",
+     "webcam": "No person visible — empty bed, away from desk",
+     "captures": [
+      {
+       "start": "17:13",
+       "image": "https://i.imgur.com/wpcxSyJ.jpeg",
+       "summary": "Mindcraft dashboard static — same inventory panel with expanded conversation log on left sidebar; agent idle in background",
+       "sensitive": false
+      }
+     ],
+     "images": [
+      "https://i.imgur.com/wpcxSyJ.jpeg"
+     ],
+     "sensitive_count": 0,
+     "sensitive": false,
+     "notes": ""
+    },
+    {
+     "start": "17:28",
+     "end": "17:43",
+     "min": 15,
+     "category": "AFK/Idle",
+     "activity": "Away from desk",
+     "project": "Personal",
+     "screen_summary": "Mindcraft dashboard visible in background — static, no new activity; dark room",
+     "webcam": "No person visible — dark frame, empty room",
+     "captures": [
+      {
+       "start": "17:28",
+       "image": "https://i.imgur.com/xXr3ILM.jpeg",
+       "summary": "Mindcraft dashboard visible in background — static, no new activity; dark room",
+       "sensitive": false
+      }
+     ],
+     "images": [
+      "https://i.imgur.com/xXr3ILM.jpeg"
+     ],
+     "sensitive_count": 0,
+     "sensitive": false,
+     "notes": ""
+    },
+    {
+     "start": "17:43",
+     "end": "17:58",
+     "min": 15,
+     "category": "Leisure",
+     "activity": "Minecraft Launcher — Dungeons II",
+     "project": "Mindcraft",
+     "screen_summary": "Minecraft Launcher open showing Minecraft Dungeons II release announcement; Mindcraft tab also visible in browser",
+     "webcam": "Sun present, hand on chin, looking sideways, thoughtful expression",
+     "captures": [
+      {
+       "start": "17:43",
+       "image": "https://i.imgur.com/pvEE7WB.jpeg",
+       "summary": "Minecraft Launcher open showing Minecraft Dungeons II release announcement; Mindcraft tab also visible in browser",
+       "sensitive": false
+      }
+     ],
+     "images": [
+      "https://i.imgur.com/pvEE7WB.jpeg"
+     ],
+     "sensitive_count": 0,
+     "sensitive": false,
+     "notes": ""
+    },
+    {
+     "start": "17:58",
+     "end": "18:58",
+     "min": 45,
+     "category": "Leisure",
+     "activity": "Mindcraft — Andy bot in Minecraft",
+     "project": "Mindcraft",
+     "screen_summary": "Minecraft Java Edition open; Andy AI bot spamming 'Set the time to 1000!' in game chat; WSL terminal on left with script output",
+     "webcam": "Sun present, sitting upright in blue polo, focused, looking down at screen",
+     "captures": [
+      {
+       "start": "17:58",
+       "image": "https://i.imgur.com/n26nyZT.jpeg",
+       "summary": "Minecraft Java Edition open; Andy AI bot spamming 'Set the time to 1000!' in game chat; WSL terminal on left with script output",
+       "sensitive": false
+      },
+      {
+       "start": "18:13",
+       "image": "https://i.imgur.com/2dwy60r.jpeg",
+       "summary": "Minecraft Java Edition survival world — green plains and acacia trees; Andy AI agent exploring; terminal showing script execution on left",
+       "sensitive": false
+      },
+      {
+       "start": "18:43",
+       "image": "https://i.imgur.com/S9z3y1d.jpeg",
+       "summary": "Minecraft Java Edition survival world with Andy AI agent character visible; terminal shows self-prompting loop execution; game chat visible at bottom",
+       "sensitive": false
+      }
+     ],
+     "images": [
+      "https://i.imgur.com/n26nyZT.jpeg",
+      "https://i.imgur.com/2dwy60r.jpeg",
+      "https://i.imgur.com/S9z3y1d.jpeg"
      ],
      "sensitive_count": 0,
      "sensitive": false,
