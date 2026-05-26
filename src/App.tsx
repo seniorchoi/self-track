@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import { trackPageView } from './mixpanel'
 import { BrowserRouter, Routes, Route, Link, useNavigate, useParams, Navigate, useLocation } from 'react-router-dom'
 
 // ── Types ──────────────────────────────────────────────────────────────
@@ -43,6 +44,111 @@ const CAT_COLOR: Record<string, string> = {
   Other:           '#cdbf9a',
 }
 const colorFor = (c: string) => CAT_COLOR[c] ?? '#cdbf9a'
+
+
+// ── Public visitor pulse (Mixpanel rollup) ─────────────────────────────
+type PublicMetric = { name: string; count: number }
+type VisitorPulse = {
+  generatedAt: string
+  status?: 'ok' | 'needs_credentials' | 'error'
+  reason?: string
+  dailyVisitors?: { date: string; visitors: number }[]
+  weeklyVisitors?: { visitors: number; visits: number }
+  activeNow?: number
+  topCities?: PublicMetric[]
+  topCountries?: PublicMetric[]
+  topPages?: PublicMetric[]
+  topReferrers?: PublicMetric[]
+}
+function useVisitorPulse() {
+  const [pulse, setPulse] = useState<VisitorPulse | null>(null)
+  useEffect(() => {
+    fetch('/mixpanel.json?t=' + Date.now(), { cache: 'no-store' })
+      .then(r => r.json())
+      .then(setPulse)
+      .catch(() => setPulse(null))
+  }, [])
+  return pulse
+}
+function VisitorPulseCard({ compact = false }: { compact?: boolean }) {
+  const pulse = useVisitorPulse()
+  const daily = pulse?.dailyVisitors || []
+  const week = pulse?.weeklyVisitors || { visitors: 0, visits: 0 }
+  const maxDaily = Math.max(1, ...daily.map(d => d.visitors))
+  const places = [
+    ...(pulse?.topCities || []).slice(0, 4).map(x => ({ ...x, kind: 'city' })),
+    ...(pulse?.topCountries || []).slice(0, 3).map(x => ({ ...x, kind: 'country' })),
+  ].slice(0, compact ? 5 : 7)
+  const pages = pulse?.topPages || []
+  const collecting = !pulse || pulse.status !== 'ok'
+
+  return (
+    <section className="bg-white border border-[var(--line)] rounded-xl p-4 sm:p-5 space-y-4">
+      <div className="flex items-start justify-between gap-3">
+        <div>
+          <h3 className="font-serif text-lg">Visitor pulse</h3>
+          <p className="text-xs text-gray-500">Live-ish Mixpanel rollup for people reading Life of Sun.</p>
+        </div>
+        <div className="text-right">
+          <div className="text-2xl font-serif tabular-nums">{pulse?.activeNow ?? 0}</div>
+          <div className="text-[11px] text-gray-500">active now</div>
+        </div>
+      </div>
+
+      {collecting ? (
+        <div className="rounded-lg bg-[#f5f1e8] border border-[var(--line)] px-3 py-2 text-sm text-gray-600">
+          Tracking is installed. Public Mixpanel rollups will appear here after the snapshot job has API credentials and enough traffic.
+        </div>
+      ) : (
+        <>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <Metric label="7d visitors" value={week.visitors} />
+            <Metric label="7d visits" value={week.visits} />
+            <Metric label="today" value={daily[daily.length - 1]?.visitors || 0} />
+            <Metric label="cities" value={(pulse?.topCities || []).length} />
+          </div>
+
+          {daily.length > 0 && (
+            <div>
+              <div className="text-[11px] uppercase tracking-wider text-gray-500 mb-2">Daily visitors</div>
+              <div className="flex items-end gap-1 h-16">
+                {daily.slice(-7).map(d => (
+                  <div key={d.date} className="flex-1 flex flex-col items-center gap-1">
+                    <div className="w-full rounded-t bg-[var(--ink)] opacity-80" style={{ height: `${Math.max(5, (d.visitors / maxDaily) * 56)}px` }} title={`${d.date}: ${d.visitors}`} />
+                    <div className="text-[10px] text-gray-400">{d.date.slice(5)}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          <div className="grid md:grid-cols-2 gap-4">
+            <MiniList title="Where readers are" rows={places} empty="No geo yet" />
+            <MiniList title="What they open" rows={pages.slice(0, compact ? 4 : 5)} empty="No pages yet" />
+          </div>
+        </>
+      )}
+    </section>
+  )
+}
+function Metric({ label, value }: { label: string; value: number }) {
+  return <div className="rounded-lg border border-[var(--line)] bg-[#faf9f6] px-3 py-2"><div className="font-serif text-xl tabular-nums">{value}</div><div className="text-[11px] text-gray-500">{label}</div></div>
+}
+function MiniList({ title, rows, empty }: { title: string; rows: PublicMetric[]; empty: string }) {
+  return (
+    <div>
+      <div className="text-[11px] uppercase tracking-wider text-gray-500 mb-2">{title}</div>
+      {rows.length ? <ul className="space-y-1 text-sm">{rows.map(r => (
+        <li key={r.name} className="flex justify-between gap-3 border-b border-dashed border-[var(--line)] py-1"><span className="truncate">{r.name}</span><span className="text-gray-500 tabular-nums">{r.count}</span></li>
+      ))}</ul> : <div className="text-sm text-gray-400 italic">{empty}</div>}
+    </div>
+  )
+}
+function MixpanelRouteTracker() {
+  const loc = useLocation()
+  useEffect(() => { trackPageView(loc.pathname) }, [loc.pathname])
+  return null
+}
 
 // ── Date helpers ───────────────────────────────────────────────────────
 // Accept BOTH ISO (2026-05-19) AND short M-D-YY (5-19-26 or 05-19-26).
@@ -746,6 +852,7 @@ function TimelineRoute() {
         <section>
           <h2 className="font-serif text-xl mb-4">Timeline — {iso}</h2>
           <Timeline day={day} />
+          <div className="mt-6"><VisitorPulseCard /></div>
         </section>
       ) : <p className="text-gray-500">No data for {iso}.</p>}
     </Shell>
@@ -911,6 +1018,7 @@ function CronsRoute() {
           </ul>
         </div>
       </section>
+      <VisitorPulseCard compact />
     </Shell>
   )
 }
@@ -925,6 +1033,7 @@ function HomeRedirect() {
 export default function App() {
   return (
     <BrowserRouter>
+      <MixpanelRouteTracker />
       <Routes>
         <Route path="/" element={<HomeRedirect />} />
         <Route path="/pie/:range/:date" element={<PieRoute />} />

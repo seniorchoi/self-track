@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-05-26T05:38:52.002Z",
+  "source": "mixpanel",
+  "status": "needs_credentials",
+  "reason": "Set MIXPANEL_SERVICE_ACCOUNT_USERNAME/PASSWORD or MIXPANEL_API_SECRET to publish visitor rollups.",
+  "dailyVisitors": [],
+  "weeklyVisitors": {
+    "visitors": 0,
+    "visits": 0
+  },
+  "activeNow": 0,
+  "topCities": [],
+  "topCountries": [],
+  "topPages": [],
+  "topReferrers": []
+}
