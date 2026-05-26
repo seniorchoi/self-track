@@ -22,3 +22,8 @@ export function trackPageView(pathname: string) {
     site: 'life_of_sun',
   })
 }
+
+export function trackEvent(name: string, props: Record<string, unknown> = {}) {
+  initMixpanel()
+  mixpanel.track(name, { site: 'life_of_sun', ...props })
+}

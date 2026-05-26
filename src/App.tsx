@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { trackPageView } from './mixpanel'
+import { trackEvent, trackPageView } from './mixpanel'
 import { BrowserRouter, Routes, Route, Link, useNavigate, useParams, Navigate, useLocation } from 'react-router-dom'
 
 // ── Types ──────────────────────────────────────────────────────────────
@@ -671,6 +671,27 @@ function ImageStrip({ captures, fallbackSummary }: { captures: Capture[]; fallba
   )
 }
 
+
+function SupportCard() {
+  return (
+    <section className="bg-[#1f3b2a] text-white rounded-xl p-4 sm:p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 shadow-sm">
+      <div>
+        <div className="font-serif text-xl">Support the grind</div>
+        <p className="text-sm text-white/75 mt-1 max-w-xl">Life of Sun is part productivity lab, part public accountability experiment. Buy me a coffee if you want to keep the machine caffeinated.</p>
+      </div>
+      <a
+        href="https://mbtioracle.lemonsqueezy.com/checkout/buy/24e9325b-13cd-49e4-8292-9e65266feac2"
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={() => trackEvent('support_clicked', { product_id: '1064063', price_usd: 4.99 })}
+        className="inline-flex items-center justify-center rounded-lg bg-white text-[#1f3b2a] px-4 py-2 text-sm font-semibold hover:bg-[#f5f1e8] whitespace-nowrap"
+      >
+        Buy me a coffee · $4.99
+      </a>
+    </section>
+  )
+}
+
 // ── Shell + nav (router-aware) ────────────────────────────────────────
 function Shell({ children }: { children: React.ReactNode }) {
   const snap = useSnapshot()
@@ -705,7 +726,10 @@ function Shell({ children }: { children: React.ReactNode }) {
           </nav>
         </div>
       </header>
-      <main className="max-w-5xl mx-auto px-4 sm:px-6 py-5 sm:py-6 space-y-5 sm:space-y-6">{children}</main>
+      <main className="max-w-5xl mx-auto px-4 sm:px-6 py-5 sm:py-6 space-y-5 sm:space-y-6">
+        {children}
+        <SupportCard />
+      </main>
     </div>
   )
 }
