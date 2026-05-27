@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T21:05:04+09:00",
+  "generatedAt": "2026-05-28T02:11:36+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -3615,19 +3615,18 @@
           "sensitive": true,
           "notes": ""
         }
-      ],
-      "dailySummary": null
+      ]
     },
     {
       "date": "2026-05-24",
-      "tracked_min": 1350,
+      "tracked_min": 630,
       "by_category": {
         "Admin/Errands": 15,
         "Leisure": 240,
         "Communications": 15,
         "Learning": 195,
         "Productivity": 45,
-        "AFK/Idle": 840
+        "AFK/Idle": 120
       },
       "by_project": {
         "Admin": 15,
@@ -3637,8 +3636,7 @@
         "SelfTrack": 30,
         "Leisure": 195,
         "Learning": 15,
-        "F1 movie": 30,
-        "Sleep": 720
+        "F1 movie": 30
       },
       "blocks": [
         {
@@ -4357,6 +4355,52 @@
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-05-25",
+      "tracked_min": 1080,
+      "by_category": {
+        "Leisure": 195,
+        "AFK/Idle": 720,
+        "Learning": 60,
+        "Productivity": 105
+      },
+      "by_project": {
+        "Morning X/Twitter scroll": 15,
+        "Sleep": 720,
+        "Hermes Agent research": 60,
+        "SelfTrack": 30,
+        "OpenClaw infra": 45,
+        "Q Rizz": 15,
+        "Simple Rizz": 15,
+        "Personal": 180
+      },
+      "blocks": [
+        {
+          "start": "11:50",
+          "end": "12:05",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Browsing X/Twitter",
+          "project": "Morning X/Twitter scroll",
+          "screen_summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
+          "webcam": "Sun on bed with grey t-shirt, slightly groggy but upright, just woke up look",
+          "captures": [
+            {
+              "start": "11:50",
+              "image": "https://i.imgur.com/RzjfeYJ.jpeg",
+              "summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/RzjfeYJ.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "23:39",
@@ -4660,51 +4704,6 @@
           "images": [],
           "sensitive_count": 48,
           "sensitive": true,
-          "notes": ""
-        }
-      ],
-      "dailySummary": null
-    },
-    {
-      "date": "2026-05-25",
-      "tracked_min": 360,
-      "by_category": {
-        "Leisure": 195,
-        "Learning": 60,
-        "Productivity": 105
-      },
-      "by_project": {
-        "Morning X/Twitter scroll": 15,
-        "Hermes Agent research": 60,
-        "SelfTrack": 30,
-        "OpenClaw infra": 45,
-        "Q Rizz": 15,
-        "Simple Rizz": 15,
-        "Personal": 180
-      },
-      "blocks": [
-        {
-          "start": "11:50",
-          "end": "12:05",
-          "min": 15,
-          "category": "Leisure",
-          "activity": "Browsing X/Twitter",
-          "project": "Morning X/Twitter scroll",
-          "screen_summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
-          "webcam": "Sun on bed with grey t-shirt, slightly groggy but upright, just woke up look",
-          "captures": [
-            {
-              "start": "11:50",
-              "image": "https://i.imgur.com/RzjfeYJ.jpeg",
-              "summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
-              "sensitive": false
-            }
-          ],
-          "images": [
-            "https://i.imgur.com/RzjfeYJ.jpeg"
-          ],
-          "sensitive_count": 0,
-          "sensitive": false,
           "notes": ""
         },
         {
@@ -5038,15 +5037,14 @@
           "sensitive": false,
           "notes": ""
         }
-      ],
-      "dailySummary": null
+      ]
     },
     {
       "date": "2026-05-26",
-      "tracked_min": 1470,
+      "tracked_min": 825,
       "by_category": {
         "Productivity": 330,
-        "AFK/Idle": 765,
+        "AFK/Idle": 120,
         "Learning": 30,
         "Communications": 60,
         "Leisure": 240,
@@ -5058,7 +5056,7 @@
         "Q Rizz": 15,
         "SelfTrack": 105,
         "—": 90,
-        "Personal": 900,
+        "Personal": 255,
         "Mindcraft": 135,
         "X Derby": 135,
         "MBTI Oracle": 15,
@@ -5541,8 +5539,8 @@
         },
         {
           "start": "17:58",
-          "end": "18:28",
-          "min": 30,
+          "end": "18:58",
+          "min": 45,
           "category": "Leisure",
           "activity": "Mindcraft — Andy bot in Minecraft",
           "project": "Mindcraft",
@@ -5560,11 +5558,18 @@
               "image": "https://i.imgur.com/2dwy60r.jpeg",
               "summary": "Minecraft Java Edition survival world — green plains and acacia trees; Andy AI agent exploring; terminal showing script execution on left",
               "sensitive": false
+            },
+            {
+              "start": "18:43",
+              "image": "https://i.imgur.com/S9z3y1d.jpeg",
+              "summary": "Minecraft Java Edition survival world with Andy AI agent character visible; terminal shows self-prompting loop execution; game chat visible at bottom",
+              "sensitive": false
             }
           ],
           "images": [
             "https://i.imgur.com/n26nyZT.jpeg",
-            "https://i.imgur.com/2dwy60r.jpeg"
+            "https://i.imgur.com/2dwy60r.jpeg",
+            "https://i.imgur.com/S9z3y1d.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -5572,8 +5577,8 @@
         },
         {
           "start": "18:28",
-          "end": "18:43",
-          "min": 15,
+          "end": "19:13",
+          "min": 30,
           "category": "Leisure",
           "activity": "Mindcraft AI - Minecraft",
           "project": "Mindcraft",
@@ -5585,49 +5590,7 @@
               "image": "https://i.imgur.com/DRkqjAG.jpeg",
               "summary": "Minecraft game with Mindcraft AI agent (cleo) requesting wood; OpenClaw control panel open in background",
               "sensitive": false
-            }
-          ],
-          "images": [
-            "https://i.imgur.com/DRkqjAG.jpeg"
-          ],
-          "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
-        },
-        {
-          "start": "18:43",
-          "end": "18:58",
-          "min": 15,
-          "category": "Leisure",
-          "activity": "Mindcraft — Andy bot in Minecraft",
-          "project": "Mindcraft",
-          "screen_summary": "Minecraft Java Edition survival world with Andy AI agent character visible; terminal shows self-prompting loop execution; game chat visible at bottom",
-          "webcam": "Sun present, smiling, looking down, shoulders level",
-          "captures": [
-            {
-              "start": "18:43",
-              "image": "https://i.imgur.com/S9z3y1d.jpeg",
-              "summary": "Minecraft Java Edition survival world with Andy AI agent character visible; terminal shows self-prompting loop execution; game chat visible at bottom",
-              "sensitive": false
-            }
-          ],
-          "images": [
-            "https://i.imgur.com/S9z3y1d.jpeg"
-          ],
-          "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
-        },
-        {
-          "start": "18:58",
-          "end": "19:13",
-          "min": 15,
-          "category": "Leisure",
-          "activity": "Mindcraft AI - Minecraft",
-          "project": "Mindcraft",
-          "screen_summary": "Minecraft multi-agent session (andy, bob, cleo) coordinating house repair with oak planks",
-          "webcam": "person at desk",
-          "captures": [
+            },
             {
               "start": "18:58",
               "image": "https://i.imgur.com/N0Y4GxU.jpeg",
@@ -5636,6 +5599,7 @@
             }
           ],
           "images": [
+            "https://i.imgur.com/DRkqjAG.jpeg",
             "https://i.imgur.com/N0Y4GxU.jpeg"
           ],
           "sensitive_count": 0,
@@ -6157,6 +6121,53 @@
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-05-27",
+      "tracked_min": 1185,
+      "by_category": {
+        "AFK/Idle": 885,
+        "Learning": 90,
+        "Leisure": 135,
+        "Productivity": 60,
+        "Admin/Errands": 15
+      },
+      "by_project": {
+        "N/A": 15,
+        "Personal": 645,
+        "Learning": 210,
+        "YouTube": 30,
+        "Q Rizz": 60,
+        "SelfTrack": 15,
+        "Gaming": 15,
+        "Movie": 90
+      },
+      "blocks": [
+        {
+          "start": "11:56",
+          "end": "12:11",
+          "min": 15,
+          "category": "AFK/Idle",
+          "activity": "Idle - browser new tab",
+          "project": "N/A",
+          "screen_summary": "Chrome new tab / Google homepage, bookmarks: OpenClaw Control, Claude, Discord, MBTI Loop, Rizz, SelfTrack",
+          "webcam": "dark, no visible occupant",
+          "captures": [
+            {
+              "start": "11:56",
+              "image": "https://i.imgur.com/d8iPIH9.jpeg",
+              "summary": "Chrome new tab / Google homepage, bookmarks: OpenClaw Control, Claude, Discord, MBTI Loop, Rizz, SelfTrack",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/d8iPIH9.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "00:59",
@@ -6430,53 +6441,6 @@
           "images": [],
           "sensitive_count": 43,
           "sensitive": true,
-          "notes": ""
-        }
-      ],
-      "dailySummary": null
-    },
-    {
-      "date": "2026-05-27",
-      "tracked_min": 540,
-      "by_category": {
-        "AFK/Idle": 240,
-        "Learning": 90,
-        "Leisure": 135,
-        "Productivity": 60,
-        "Admin/Errands": 15
-      },
-      "by_project": {
-        "N/A": 15,
-        "Learning": 210,
-        "YouTube": 30,
-        "Q Rizz": 60,
-        "SelfTrack": 15,
-        "Gaming": 15,
-        "Movie": 90
-      },
-      "blocks": [
-        {
-          "start": "11:56",
-          "end": "12:11",
-          "min": 15,
-          "category": "AFK/Idle",
-          "activity": "Idle - browser new tab",
-          "project": "N/A",
-          "screen_summary": "Chrome new tab / Google homepage, bookmarks: OpenClaw Control, Claude, Discord, MBTI Loop, Rizz, SelfTrack",
-          "webcam": "dark, no visible occupant",
-          "captures": [
-            {
-              "start": "11:56",
-              "image": "https://i.imgur.com/d8iPIH9.jpeg",
-              "summary": "Chrome new tab / Google homepage, bookmarks: OpenClaw Control, Claude, Discord, MBTI Loop, Rizz, SelfTrack",
-              "sensitive": false
-            }
-          ],
-          "images": [
-            "https://i.imgur.com/d8iPIH9.jpeg"
-          ],
-          "sensitive_count": 0,
-          "sensitive": false,
           "notes": ""
         },
         {
@@ -6911,8 +6875,7 @@
           "sensitive": false,
           "notes": ""
         }
-      ],
-      "dailySummary": null
+      ]
     }
   ]
 }
