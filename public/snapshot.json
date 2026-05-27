@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-05-27T20:04:56+09:00",
+ "generatedAt": "2026-05-27T20:06:53+09:00",
  "days": [
   {
    "date": "2026-05-20",
@@ -2509,7 +2509,6 @@
     "Learning/Reading": 150,
     "Personal/Break": 120,
     "Gaming/Warhammer": 30,
-    "": 15,
     "Leisure": 165,
     "Leisure/History": 90,
     "Sleep": 750
@@ -3634,7 +3633,6 @@
     "Learning/Business": 15,
     "Reddit ops": 15,
     "Health": 195,
-    "": 120,
     "SelfTrack": 30,
     "Leisure": 195,
     "Learning": 15,
@@ -6446,7 +6444,6 @@
    "by_project": {
     "N/A": 15,
     "Learning": 210,
-    "": 105,
     "YouTube": 15,
     "Q Rizz": 60,
     "SelfTrack": 15
