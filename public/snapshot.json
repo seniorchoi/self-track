@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T14:01:43+09:00",
+  "generatedAt": "2026-05-27T15:04:38+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -2509,6 +2509,7 @@
         "Learning/Reading": 150,
         "Personal/Break": 120,
         "Gaming/Warhammer": 30,
+        "": 15,
         "Leisure": 165,
         "Leisure/History": 90,
         "Sleep": 750
@@ -3615,28 +3616,31 @@
           "sensitive": true,
           "notes": ""
         }
-      ]
+      ],
+      "dailySummary": null
     },
     {
       "date": "2026-05-24",
-      "tracked_min": 630,
+      "tracked_min": 1350,
       "by_category": {
         "Admin/Errands": 15,
         "Leisure": 240,
         "Communications": 15,
         "Learning": 195,
         "Productivity": 45,
-        "AFK/Idle": 120
+        "AFK/Idle": 840
       },
       "by_project": {
         "Admin": 15,
         "Learning/Business": 15,
         "Reddit ops": 15,
         "Health": 195,
+        "": 120,
         "SelfTrack": 30,
         "Leisure": 195,
         "Learning": 15,
-        "F1 movie": 30
+        "F1 movie": 30,
+        "Sleep": 720
       },
       "blocks": [
         {
@@ -4355,52 +4359,6 @@
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-05-25",
-      "tracked_min": 1080,
-      "by_category": {
-        "Leisure": 195,
-        "AFK/Idle": 720,
-        "Learning": 60,
-        "Productivity": 105
-      },
-      "by_project": {
-        "Morning X/Twitter scroll": 15,
-        "Sleep": 720,
-        "Hermes Agent research": 60,
-        "SelfTrack": 30,
-        "OpenClaw infra": 45,
-        "Q Rizz": 15,
-        "Simple Rizz": 15,
-        "Personal": 180
-      },
-      "blocks": [
-        {
-          "start": "11:50",
-          "end": "12:05",
-          "min": 15,
-          "category": "Leisure",
-          "activity": "Browsing X/Twitter",
-          "project": "Morning X/Twitter scroll",
-          "screen_summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
-          "webcam": "Sun on bed with grey t-shirt, slightly groggy but upright, just woke up look",
-          "captures": [
-            {
-              "start": "11:50",
-              "image": "https://i.imgur.com/RzjfeYJ.jpeg",
-              "summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
-              "sensitive": false
-            }
-          ],
-          "images": [
-            "https://i.imgur.com/RzjfeYJ.jpeg"
-          ],
-          "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
         },
         {
           "start": "23:39",
@@ -4704,6 +4662,51 @@
           "images": [],
           "sensitive_count": 48,
           "sensitive": true,
+          "notes": ""
+        }
+      ],
+      "dailySummary": null
+    },
+    {
+      "date": "2026-05-25",
+      "tracked_min": 360,
+      "by_category": {
+        "Leisure": 195,
+        "Learning": 60,
+        "Productivity": 105
+      },
+      "by_project": {
+        "Morning X/Twitter scroll": 15,
+        "Hermes Agent research": 60,
+        "SelfTrack": 30,
+        "OpenClaw infra": 45,
+        "Q Rizz": 15,
+        "Simple Rizz": 15,
+        "Personal": 180
+      },
+      "blocks": [
+        {
+          "start": "11:50",
+          "end": "12:05",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Browsing X/Twitter",
+          "project": "Morning X/Twitter scroll",
+          "screen_summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
+          "webcam": "Sun on bed with grey t-shirt, slightly groggy but upright, just woke up look",
+          "captures": [
+            {
+              "start": "11:50",
+              "image": "https://i.imgur.com/RzjfeYJ.jpeg",
+              "summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/RzjfeYJ.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
           "notes": ""
         },
         {
@@ -5037,14 +5040,15 @@
           "sensitive": false,
           "notes": ""
         }
-      ]
+      ],
+      "dailySummary": null
     },
     {
       "date": "2026-05-26",
-      "tracked_min": 825,
+      "tracked_min": 1470,
       "by_category": {
         "Productivity": 330,
-        "AFK/Idle": 120,
+        "AFK/Idle": 765,
         "Learning": 30,
         "Communications": 60,
         "Leisure": 240,
@@ -5056,7 +5060,7 @@
         "Q Rizz": 15,
         "SelfTrack": 105,
         "—": 90,
-        "Personal": 255,
+        "Personal": 900,
         "Mindcraft": 135,
         "X Derby": 135,
         "MBTI Oracle": 15,
@@ -5539,8 +5543,8 @@
         },
         {
           "start": "17:58",
-          "end": "18:58",
-          "min": 45,
+          "end": "18:28",
+          "min": 30,
           "category": "Leisure",
           "activity": "Mindcraft — Andy bot in Minecraft",
           "project": "Mindcraft",
@@ -5558,18 +5562,11 @@
               "image": "https://i.imgur.com/2dwy60r.jpeg",
               "summary": "Minecraft Java Edition survival world — green plains and acacia trees; Andy AI agent exploring; terminal showing script execution on left",
               "sensitive": false
-            },
-            {
-              "start": "18:43",
-              "image": "https://i.imgur.com/S9z3y1d.jpeg",
-              "summary": "Minecraft Java Edition survival world with Andy AI agent character visible; terminal shows self-prompting loop execution; game chat visible at bottom",
-              "sensitive": false
             }
           ],
           "images": [
             "https://i.imgur.com/n26nyZT.jpeg",
-            "https://i.imgur.com/2dwy60r.jpeg",
-            "https://i.imgur.com/S9z3y1d.jpeg"
+            "https://i.imgur.com/2dwy60r.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -5577,8 +5574,8 @@
         },
         {
           "start": "18:28",
-          "end": "19:13",
-          "min": 30,
+          "end": "18:43",
+          "min": 15,
           "category": "Leisure",
           "activity": "Mindcraft AI - Minecraft",
           "project": "Mindcraft",
@@ -5590,7 +5587,49 @@
               "image": "https://i.imgur.com/DRkqjAG.jpeg",
               "summary": "Minecraft game with Mindcraft AI agent (cleo) requesting wood; OpenClaw control panel open in background",
               "sensitive": false
-            },
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/DRkqjAG.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "18:43",
+          "end": "18:58",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Mindcraft — Andy bot in Minecraft",
+          "project": "Mindcraft",
+          "screen_summary": "Minecraft Java Edition survival world with Andy AI agent character visible; terminal shows self-prompting loop execution; game chat visible at bottom",
+          "webcam": "Sun present, smiling, looking down, shoulders level",
+          "captures": [
+            {
+              "start": "18:43",
+              "image": "https://i.imgur.com/S9z3y1d.jpeg",
+              "summary": "Minecraft Java Edition survival world with Andy AI agent character visible; terminal shows self-prompting loop execution; game chat visible at bottom",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/S9z3y1d.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "18:58",
+          "end": "19:13",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Mindcraft AI - Minecraft",
+          "project": "Mindcraft",
+          "screen_summary": "Minecraft multi-agent session (andy, bob, cleo) coordinating house repair with oak planks",
+          "webcam": "person at desk",
+          "captures": [
             {
               "start": "18:58",
               "image": "https://i.imgur.com/N0Y4GxU.jpeg",
@@ -5599,7 +5638,6 @@
             }
           ],
           "images": [
-            "https://i.imgur.com/DRkqjAG.jpeg",
             "https://i.imgur.com/N0Y4GxU.jpeg"
           ],
           "sensitive_count": 0,
@@ -6121,45 +6159,6 @@
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-05-27",
-      "tracked_min": 705,
-      "by_category": {
-        "AFK/Idle": 660,
-        "Learning": 45
-      },
-      "by_project": {
-        "N/A": 15,
-        "Personal": 645,
-        "Learning": 45
-      },
-      "blocks": [
-        {
-          "start": "11:56",
-          "end": "12:11",
-          "min": 15,
-          "category": "AFK/Idle",
-          "activity": "Idle - browser new tab",
-          "project": "N/A",
-          "screen_summary": "Chrome new tab / Google homepage, bookmarks: OpenClaw Control, Claude, Discord, MBTI Loop, Rizz, SelfTrack",
-          "webcam": "dark, no visible occupant",
-          "captures": [
-            {
-              "start": "11:56",
-              "image": "https://i.imgur.com/d8iPIH9.jpeg",
-              "summary": "Chrome new tab / Google homepage, bookmarks: OpenClaw Control, Claude, Discord, MBTI Loop, Rizz, SelfTrack",
-              "sensitive": false
-            }
-          ],
-          "images": [
-            "https://i.imgur.com/d8iPIH9.jpeg"
-          ],
-          "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
         },
         {
           "start": "00:59",
@@ -6434,6 +6433,45 @@
           "sensitive_count": 43,
           "sensitive": true,
           "notes": ""
+        }
+      ],
+      "dailySummary": null
+    },
+    {
+      "date": "2026-05-27",
+      "tracked_min": 180,
+      "by_category": {
+        "AFK/Idle": 135,
+        "Learning": 45
+      },
+      "by_project": {
+        "N/A": 15,
+        "Learning": 165
+      },
+      "blocks": [
+        {
+          "start": "11:56",
+          "end": "12:11",
+          "min": 15,
+          "category": "AFK/Idle",
+          "activity": "Idle - browser new tab",
+          "project": "N/A",
+          "screen_summary": "Chrome new tab / Google homepage, bookmarks: OpenClaw Control, Claude, Discord, MBTI Loop, Rizz, SelfTrack",
+          "webcam": "dark, no visible occupant",
+          "captures": [
+            {
+              "start": "11:56",
+              "image": "https://i.imgur.com/d8iPIH9.jpeg",
+              "summary": "Chrome new tab / Google homepage, bookmarks: OpenClaw Control, Claude, Discord, MBTI Loop, Rizz, SelfTrack",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/d8iPIH9.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "12:11",
@@ -6472,8 +6510,82 @@
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
+        },
+        {
+          "start": "12:56",
+          "end": "14:56",
+          "min": 120,
+          "category": "AFK/Idle",
+          "activity": "YouTube paused - idle",
+          "project": "Learning",
+          "screen_summary": "YouTube: 'Game Theory #28: Predictive History' paused, dark frame, subtitle 'is really just an understanding of'",
+          "webcam": "dark, no visible occupant",
+          "captures": [
+            {
+              "start": "12:56",
+              "image": "https://i.imgur.com/yfO1H2L.jpeg",
+              "summary": "YouTube: 'Game Theory #28: Predictive History' paused, dark frame, subtitle 'is really just an understanding of'",
+              "sensitive": false
+            },
+            {
+              "start": "13:11",
+              "image": "https://i.imgur.com/SQU9jmE.jpeg",
+              "summary": "YouTube: 'Game Theory #28: Predictive History' paused, dark frame, same subtitle",
+              "sensitive": false
+            },
+            {
+              "start": "13:26",
+              "image": "https://i.imgur.com/YLebZBS.jpeg",
+              "summary": "YouTube: 'Game Theory #28: Predictive History' paused, dark frame, same subtitle",
+              "sensitive": false
+            },
+            {
+              "start": "13:41",
+              "image": "https://i.imgur.com/hETLhUq.jpeg",
+              "summary": "YouTube: 'Game Theory #28: Predictive History' paused, dark frame, same subtitle",
+              "sensitive": false
+            },
+            {
+              "start": "13:56",
+              "image": "https://i.imgur.com/CUYwMH2.jpeg",
+              "summary": "YouTube: 'Game Theory #28: Predictive History' paused, dark frame, same subtitle",
+              "sensitive": false
+            },
+            {
+              "start": "14:11",
+              "image": "https://i.imgur.com/NKidyJk.jpeg",
+              "summary": "YouTube: 'Game Theory #28: Predictive History' paused, dark frame, same subtitle",
+              "sensitive": false
+            },
+            {
+              "start": "14:26",
+              "image": "https://i.imgur.com/x7GEiBH.jpeg",
+              "summary": "YouTube: 'Game Theory #28: Predictive History' paused, dark frame, same subtitle",
+              "sensitive": false
+            },
+            {
+              "start": "14:41",
+              "image": "https://i.imgur.com/pZOS1xJ.jpeg",
+              "summary": "YouTube: 'Game Theory #28: Predictive History' paused, dark frame, same subtitle",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/yfO1H2L.jpeg",
+            "https://i.imgur.com/SQU9jmE.jpeg",
+            "https://i.imgur.com/YLebZBS.jpeg",
+            "https://i.imgur.com/hETLhUq.jpeg",
+            "https://i.imgur.com/CUYwMH2.jpeg",
+            "https://i.imgur.com/NKidyJk.jpeg",
+            "https://i.imgur.com/x7GEiBH.jpeg",
+            "https://i.imgur.com/pZOS1xJ.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
         }
-      ]
+      ],
+      "dailySummary": null
     }
   ]
 }
