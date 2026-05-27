@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T15:04:38+09:00",
+  "generatedAt": "2026-05-27T16:02:38+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -2856,7 +2856,7 @@
           "activity": "Reading essay on Claude.ai",
           "project": "Learning/Reading",
           "screen_summary": "Claude.ai — 'Exit, civilization, and the rise of enlightenment', 'The takeaway' section on Madame de Rémusat, Napoleon's wounded vanity, La Rochefoucauld.",
-          "webcam": "Sun upright, head over shoulders, shoulders level.",
+          "webcam": "Sun upright, head over shoulders, looking down at screen.",
           "captures": [
             {
               "start": "16:15",
@@ -2953,7 +2953,7 @@
           "activity": "On phone, away from desktop",
           "project": "Personal/Break",
           "screen_summary": "Claude.ai still parked on the same 'The takeaway' page — no desktop interaction.",
-          "webcam": "Sun seated on bed using phone, upright, head over shoulders.",
+          "webcam": "Sun seated on bed using phone, phone covering face, upright.",
           "captures": [
             {
               "start": "18:30",
@@ -2984,7 +2984,7 @@
           "activity": "Reading essay on Claude.ai",
           "project": "Learning/Reading",
           "screen_summary": "Claude.ai — same 'Exit, civilization, enlightenment' essay 'The takeaway' page.",
-          "webcam": "Sun centered, head slightly forward but body upright.",
+          "webcam": "Sun centered, upright, head over shoulders.",
           "captures": [
             {
               "start": "19:00",
@@ -3087,7 +3087,7 @@
           "activity": "Watching movie",
           "project": "Leisure",
           "screen_summary": "Full-screen movie scene — bearded man in space-suit / lab-tech rig, industrial setting.",
-          "webcam": "Sun upright with headphones, drinking water — body upright.",
+          "webcam": "Dark frame, faint silhouette — Sun watching.",
           "captures": [
             {
               "start": "20:15",
@@ -3222,7 +3222,7 @@
           "activity": "Watching Napoleon docudrama",
           "project": "Leisure/History",
           "screen_summary": "Cosmos channel — Napoleon docudrama scene with older man with white moustache and a young woman, Greek subtitles ('Πήρα την Αβινιόν και τη Μασσαλία...').",
-          "webcam": "Dark frame, faint face silhouette looking down — Sun watching from bed.",
+          "webcam": "Sun face centered, dim, calm expression.",
           "captures": [
             {
               "start": "23:16",
@@ -3616,8 +3616,7 @@
           "sensitive": true,
           "notes": ""
         }
-      ],
-      "dailySummary": null
+      ]
     },
     {
       "date": "2026-05-24",
@@ -4337,7 +4336,7 @@
           "activity": "Watching F1 movie",
           "project": "F1 movie",
           "screen_summary": "F1 movie scene — Ferrari pit lane crew working on the Ferrari F1 car at night, Etihad signage visible",
-          "webcam": "Pitch dark room, dim outline of head, person upright",
+          "webcam": "Pitch dark, faint outline of face, small reflected light visible",
           "captures": [
             {
               "start": "23:09",
@@ -4664,8 +4663,7 @@
           "sensitive": true,
           "notes": ""
         }
-      ],
-      "dailySummary": null
+      ]
     },
     {
       "date": "2026-05-25",
@@ -5040,8 +5038,7 @@
           "sensitive": false,
           "notes": ""
         }
-      ],
-      "dailySummary": null
+      ]
     },
     {
       "date": "2026-05-26",
@@ -5360,7 +5357,7 @@
           "activity": "YouTube — AI commentary",
           "project": "Personal",
           "screen_summary": "YouTube: Wes Roth \"The REAL Reason Andrej Karpathy Joined Anthropic\" — AI industry commentary",
-          "webcam": "Sun present, holding phone, smiling, watching",
+          "webcam": "No person visible — empty bed, away from desk",
           "captures": [
             {
               "start": "15:28",
@@ -6434,8 +6431,7 @@
           "sensitive": true,
           "notes": ""
         }
-      ],
-      "dailySummary": null
+      ]
     },
     {
       "date": "2026-05-27",
@@ -6584,8 +6580,7 @@
           "sensitive": false,
           "notes": ""
         }
-      ],
-      "dailySummary": null
+      ]
     }
   ]
 }
