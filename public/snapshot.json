@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T02:11:36+09:00",
+  "generatedAt": "2026-05-28T10:40:15+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -881,19 +881,20 @@
         }
       ],
       "dailySummary": {
-        "date": "2026-05-20",
-        "tracked_min": 480,
-        "productivity_min": 255,
-        "learning_min": 0,
-        "health_min": 0,
-        "leisure_min": 150,
-        "chores_min": 30,
-        "social_min": 0,
-        "afk_min": 45,
-        "unknown_min": 0,
+        "tracked_min": "480",
+        "by_category": {
+          "Productivity": "255",
+          "Learning": "0",
+          "Health": "0",
+          "Errands": "150",
+          "Leisure": "30",
+          "Social": "0",
+          "AFK/Idle": "45",
+          "Sleep": "0"
+        },
         "top_activities": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
-        "notes": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
-        "bookends": "15:58 / 00:03",
+        "coach_note": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
+        "first_last": "15:58 / 00:03",
         "note_from_sun": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
       }
     },
@@ -1576,19 +1577,20 @@
         }
       ],
       "dailySummary": {
-        "date": "2026-05-21",
-        "tracked_min": 1440,
-        "productivity_min": 60,
-        "learning_min": 0,
-        "health_min": 0,
-        "leisure_min": 150,
-        "chores_min": 45,
-        "social_min": 15,
-        "afk_min": 1170,
-        "unknown_min": 0,
+        "tracked_min": "1440",
+        "by_category": {
+          "Productivity": "60",
+          "Learning": "0",
+          "Health": "0",
+          "Errands": "150",
+          "Leisure": "45",
+          "Social": "15",
+          "AFK/Idle": "1170",
+          "Sleep": "0"
+        },
         "top_activities": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
-        "notes": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
-        "bookends": "00:03 / 23:53",
+        "coach_note": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
+        "first_last": "00:03 / 23:53",
         "note_from_sun": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
       }
     },
@@ -2477,19 +2479,20 @@
         }
       ],
       "dailySummary": {
-        "date": "2026-05-22",
-        "tracked_min": 810,
-        "productivity_min": 30,
-        "learning_min": 0,
-        "health_min": 0,
-        "leisure_min": 375,
-        "chores_min": 0,
-        "social_min": 0,
-        "afk_min": 405,
-        "unknown_min": 0,
+        "tracked_min": "810",
+        "by_category": {
+          "Productivity": "30",
+          "Learning": "0",
+          "Health": "0",
+          "Errands": "375",
+          "Leisure": "0",
+          "Social": "0",
+          "AFK/Idle": "405",
+          "Sleep": "0"
+        },
         "top_activities": "haircut errand (6h 30m) · playing Total War: Warhammer (1h 30m) · watching movie/TV (1h 15m)",
-        "notes": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
-        "bookends": "00:08 / 23:51",
+        "coach_note": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
+        "first_last": "00:08 / 23:51",
         "note_from_sun": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
       }
     },
@@ -2509,6 +2512,7 @@
         "Learning/Reading": 150,
         "Personal/Break": 120,
         "Gaming/Warhammer": 30,
+        "": 15,
         "Leisure": 165,
         "Leisure/History": 90,
         "Sleep": 750
@@ -3619,24 +3623,26 @@
     },
     {
       "date": "2026-05-24",
-      "tracked_min": 630,
+      "tracked_min": 1350,
       "by_category": {
         "Admin/Errands": 15,
         "Leisure": 240,
         "Communications": 15,
         "Learning": 195,
         "Productivity": 45,
-        "AFK/Idle": 120
+        "AFK/Idle": 840
       },
       "by_project": {
         "Admin": 15,
         "Learning/Business": 15,
         "Reddit ops": 15,
         "Health": 195,
+        "": 120,
         "SelfTrack": 30,
         "Leisure": 195,
         "Learning": 15,
-        "F1 movie": 30
+        "F1 movie": 30,
+        "Sleep": 720
       },
       "blocks": [
         {
@@ -4355,52 +4361,6 @@
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-05-25",
-      "tracked_min": 1080,
-      "by_category": {
-        "Leisure": 195,
-        "AFK/Idle": 720,
-        "Learning": 60,
-        "Productivity": 105
-      },
-      "by_project": {
-        "Morning X/Twitter scroll": 15,
-        "Sleep": 720,
-        "Hermes Agent research": 60,
-        "SelfTrack": 30,
-        "OpenClaw infra": 45,
-        "Q Rizz": 15,
-        "Simple Rizz": 15,
-        "Personal": 180
-      },
-      "blocks": [
-        {
-          "start": "11:50",
-          "end": "12:05",
-          "min": 15,
-          "category": "Leisure",
-          "activity": "Browsing X/Twitter",
-          "project": "Morning X/Twitter scroll",
-          "screen_summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
-          "webcam": "Sun on bed with grey t-shirt, slightly groggy but upright, just woke up look",
-          "captures": [
-            {
-              "start": "11:50",
-              "image": "https://i.imgur.com/RzjfeYJ.jpeg",
-              "summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
-              "sensitive": false
-            }
-          ],
-          "images": [
-            "https://i.imgur.com/RzjfeYJ.jpeg"
-          ],
-          "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
         },
         {
           "start": "23:39",
@@ -4704,6 +4664,50 @@
           "images": [],
           "sensitive_count": 48,
           "sensitive": true,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-05-25",
+      "tracked_min": 360,
+      "by_category": {
+        "Leisure": 195,
+        "Learning": 60,
+        "Productivity": 105
+      },
+      "by_project": {
+        "Morning X/Twitter scroll": 15,
+        "Hermes Agent research": 60,
+        "SelfTrack": 30,
+        "OpenClaw infra": 45,
+        "Q Rizz": 15,
+        "Simple Rizz": 15,
+        "Personal": 180
+      },
+      "blocks": [
+        {
+          "start": "11:50",
+          "end": "12:05",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Browsing X/Twitter",
+          "project": "Morning X/Twitter scroll",
+          "screen_summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
+          "webcam": "Sun on bed with grey t-shirt, slightly groggy but upright, just woke up look",
+          "captures": [
+            {
+              "start": "11:50",
+              "image": "https://i.imgur.com/RzjfeYJ.jpeg",
+              "summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/RzjfeYJ.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
           "notes": ""
         },
         {
@@ -5041,10 +5045,10 @@
     },
     {
       "date": "2026-05-26",
-      "tracked_min": 825,
+      "tracked_min": 1470,
       "by_category": {
         "Productivity": 330,
-        "AFK/Idle": 120,
+        "AFK/Idle": 765,
         "Learning": 30,
         "Communications": 60,
         "Leisure": 240,
@@ -5056,7 +5060,7 @@
         "Q Rizz": 15,
         "SelfTrack": 105,
         "—": 90,
-        "Personal": 255,
+        "Personal": 900,
         "Mindcraft": 135,
         "X Derby": 135,
         "MBTI Oracle": 15,
@@ -5539,8 +5543,8 @@
         },
         {
           "start": "17:58",
-          "end": "18:58",
-          "min": 45,
+          "end": "18:28",
+          "min": 30,
           "category": "Leisure",
           "activity": "Mindcraft — Andy bot in Minecraft",
           "project": "Mindcraft",
@@ -5558,18 +5562,11 @@
               "image": "https://i.imgur.com/2dwy60r.jpeg",
               "summary": "Minecraft Java Edition survival world — green plains and acacia trees; Andy AI agent exploring; terminal showing script execution on left",
               "sensitive": false
-            },
-            {
-              "start": "18:43",
-              "image": "https://i.imgur.com/S9z3y1d.jpeg",
-              "summary": "Minecraft Java Edition survival world with Andy AI agent character visible; terminal shows self-prompting loop execution; game chat visible at bottom",
-              "sensitive": false
             }
           ],
           "images": [
             "https://i.imgur.com/n26nyZT.jpeg",
-            "https://i.imgur.com/2dwy60r.jpeg",
-            "https://i.imgur.com/S9z3y1d.jpeg"
+            "https://i.imgur.com/2dwy60r.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -5577,8 +5574,8 @@
         },
         {
           "start": "18:28",
-          "end": "19:13",
-          "min": 30,
+          "end": "18:43",
+          "min": 15,
           "category": "Leisure",
           "activity": "Mindcraft AI - Minecraft",
           "project": "Mindcraft",
@@ -5590,7 +5587,49 @@
               "image": "https://i.imgur.com/DRkqjAG.jpeg",
               "summary": "Minecraft game with Mindcraft AI agent (cleo) requesting wood; OpenClaw control panel open in background",
               "sensitive": false
-            },
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/DRkqjAG.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "18:43",
+          "end": "18:58",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Mindcraft — Andy bot in Minecraft",
+          "project": "Mindcraft",
+          "screen_summary": "Minecraft Java Edition survival world with Andy AI agent character visible; terminal shows self-prompting loop execution; game chat visible at bottom",
+          "webcam": "Sun present, smiling, looking down, shoulders level",
+          "captures": [
+            {
+              "start": "18:43",
+              "image": "https://i.imgur.com/S9z3y1d.jpeg",
+              "summary": "Minecraft Java Edition survival world with Andy AI agent character visible; terminal shows self-prompting loop execution; game chat visible at bottom",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/S9z3y1d.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "18:58",
+          "end": "19:13",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Mindcraft AI - Minecraft",
+          "project": "Mindcraft",
+          "screen_summary": "Minecraft multi-agent session (andy, bob, cleo) coordinating house repair with oak planks",
+          "webcam": "person at desk",
+          "captures": [
             {
               "start": "18:58",
               "image": "https://i.imgur.com/N0Y4GxU.jpeg",
@@ -5599,7 +5638,6 @@
             }
           ],
           "images": [
-            "https://i.imgur.com/DRkqjAG.jpeg",
             "https://i.imgur.com/N0Y4GxU.jpeg"
           ],
           "sensitive_count": 0,
@@ -6121,53 +6159,6 @@
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
-        }
-      ]
-    },
-    {
-      "date": "2026-05-27",
-      "tracked_min": 1185,
-      "by_category": {
-        "AFK/Idle": 885,
-        "Learning": 90,
-        "Leisure": 135,
-        "Productivity": 60,
-        "Admin/Errands": 15
-      },
-      "by_project": {
-        "N/A": 15,
-        "Personal": 645,
-        "Learning": 210,
-        "YouTube": 30,
-        "Q Rizz": 60,
-        "SelfTrack": 15,
-        "Gaming": 15,
-        "Movie": 90
-      },
-      "blocks": [
-        {
-          "start": "11:56",
-          "end": "12:11",
-          "min": 15,
-          "category": "AFK/Idle",
-          "activity": "Idle - browser new tab",
-          "project": "N/A",
-          "screen_summary": "Chrome new tab / Google homepage, bookmarks: OpenClaw Control, Claude, Discord, MBTI Loop, Rizz, SelfTrack",
-          "webcam": "dark, no visible occupant",
-          "captures": [
-            {
-              "start": "11:56",
-              "image": "https://i.imgur.com/d8iPIH9.jpeg",
-              "summary": "Chrome new tab / Google homepage, bookmarks: OpenClaw Control, Claude, Discord, MBTI Loop, Rizz, SelfTrack",
-              "sensitive": false
-            }
-          ],
-          "images": [
-            "https://i.imgur.com/d8iPIH9.jpeg"
-          ],
-          "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
         },
         {
           "start": "00:59",
@@ -6441,6 +6432,55 @@
           "images": [],
           "sensitive_count": 43,
           "sensitive": true,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-05-27",
+      "tracked_min": 1110,
+      "by_category": {
+        "AFK/Idle": 690,
+        "Learning": 90,
+        "Leisure": 240,
+        "Productivity": 60,
+        "Admin/Errands": 30
+      },
+      "by_project": {
+        "N/A": 15,
+        "Learning": 210,
+        "": 105,
+        "YouTube": 30,
+        "Q Rizz": 60,
+        "SelfTrack": 15,
+        "Gaming": 15,
+        "Movie": 150,
+        "Admin": 15,
+        "Personal/Leisure": 495
+      },
+      "blocks": [
+        {
+          "start": "11:56",
+          "end": "12:11",
+          "min": 15,
+          "category": "AFK/Idle",
+          "activity": "Idle - browser new tab",
+          "project": "N/A",
+          "screen_summary": "Chrome new tab / Google homepage, bookmarks: OpenClaw Control, Claude, Discord, MBTI Loop, Rizz, SelfTrack",
+          "webcam": "dark, no visible occupant",
+          "captures": [
+            {
+              "start": "11:56",
+              "image": "https://i.imgur.com/d8iPIH9.jpeg",
+              "summary": "Chrome new tab / Google homepage, bookmarks: OpenClaw Control, Claude, Discord, MBTI Loop, Rizz, SelfTrack",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/d8iPIH9.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
           "notes": ""
         },
         {
@@ -6818,8 +6858,8 @@
         },
         {
           "start": "19:26",
-          "end": "20:56",
-          "min": 90,
+          "end": "21:57",
+          "min": 150,
           "category": "Leisure",
           "activity": "Movie - The Bourne Supremacy",
           "project": "Movie",
@@ -6861,6 +6901,30 @@
               "image": "https://i.imgur.com/kBptTSd.jpeg",
               "summary": "The Bourne Supremacy - animated title sequence, letters appearing one by one on dark background",
               "sensitive": false
+            },
+            {
+              "start": "20:57",
+              "image": "https://i.imgur.com/e6bw8tq.jpeg",
+              "summary": "The Bourne Supremacy - close-up of Bourne's face, dark/dim lighting, movie actively playing",
+              "sensitive": false
+            },
+            {
+              "start": "21:12",
+              "image": "https://i.imgur.com/nH0nYvV.jpeg",
+              "summary": "The Bourne Supremacy - Bourne in tuk-tuk/rickshaw with Indian street scene background, movie actively playing",
+              "sensitive": false
+            },
+            {
+              "start": "21:27",
+              "image": "https://i.imgur.com/QEC87dI.jpeg",
+              "summary": "The Bourne Supremacy - female CIA character close-up, subtitle 'So I think you better take this back to Marty...'",
+              "sensitive": false
+            },
+            {
+              "start": "21:42",
+              "image": "https://i.imgur.com/FC22zBE.jpeg",
+              "summary": "The Bourne Supremacy - dark interior scene, subtitle about Berlin assassination of two men including a field officer",
+              "sensitive": false
             }
           ],
           "images": [
@@ -6869,7 +6933,339 @@
             "https://i.imgur.com/dbT9Eer.jpeg",
             "https://i.imgur.com/rXAJz8k.jpeg",
             "https://i.imgur.com/El6UOCz.jpeg",
-            "https://i.imgur.com/kBptTSd.jpeg"
+            "https://i.imgur.com/kBptTSd.jpeg",
+            "https://i.imgur.com/e6bw8tq.jpeg",
+            "https://i.imgur.com/nH0nYvV.jpeg",
+            "https://i.imgur.com/QEC87dI.jpeg",
+            "https://i.imgur.com/FC22zBE.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "02:05",
+          "end": "02:20",
+          "min": 15,
+          "category": "Admin/Errands",
+          "activity": "Windscribe VPN - connecting to server",
+          "project": "Admin",
+          "screen_summary": "Windows desktop with Windscribe VPN popup open, connected to Montreal Expo 67 server, space nebula wallpaper, 2:05 AM",
+          "webcam": "dark, no visible occupant",
+          "captures": [
+            {
+              "start": "02:05",
+              "image": "https://i.imgur.com/BTka4hR.jpeg",
+              "summary": "Windows desktop with Windscribe VPN popup open, connected to Montreal Expo 67 server, space nebula wallpaper, 2:05 AM",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/BTka4hR.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "02:21",
+          "end": "02:51",
+          "min": 30,
+          "category": "Leisure",
+          "activity": "Watching YouTube - MBTI personality type video",
+          "project": "Personal/Leisure",
+          "screen_summary": "YouTube video 'The Sixteen Types: INTJ' by Michael Pierce playing, dark room at 2:21 AM",
+          "webcam": "person visible in dark room, face lit by screen glow, tired-looking",
+          "captures": [
+            {
+              "start": "02:21",
+              "image": "https://i.imgur.com/GKh9LhO.jpeg",
+              "summary": "YouTube video 'The Sixteen Types: INTJ' by Michael Pierce playing, dark room at 2:21 AM",
+              "sensitive": false
+            },
+            {
+              "start": "02:36",
+              "image": "https://i.imgur.com/nuhSqq5.jpeg",
+              "summary": "YouTube video 'The Sixteen Types: ENTJ' by Michael Pierce, colorful world map visual at 2:36 AM",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/GKh9LhO.jpeg",
+            "https://i.imgur.com/nuhSqq5.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "02:51",
+          "end": "03:06",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Watching YouTube - Napoleon philosophy video",
+          "project": "Personal/Leisure",
+          "screen_summary": "YouTube video 'Philosophy of Napoleon' by Napoleonism, Sphinx image at 2:51 AM",
+          "webcam": "dark, occupant shape visible in bed area",
+          "captures": [
+            {
+              "start": "02:51",
+              "image": "https://i.imgur.com/YtWED23.jpeg",
+              "summary": "YouTube video 'Philosophy of Napoleon' by Napoleonism, Sphinx image at 2:51 AM",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/YtWED23.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "03:06",
+          "end": "10:36",
+          "min": 450,
+          "category": "AFK/Idle",
+          "activity": "sleeping",
+          "project": "Personal/Leisure",
+          "screen_summary": "[sleep autofill]",
+          "webcam": "sleeping",
+          "captures": [
+            {
+              "start": "03:06",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "03:21",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "03:36",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "03:51",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "04:06",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "04:21",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "04:36",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "04:51",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "05:06",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "05:21",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "05:36",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "05:51",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "06:06",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "06:21",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "06:36",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "06:51",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "07:06",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "07:21",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "07:36",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "07:51",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "08:06",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "08:21",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "08:36",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "08:51",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "09:06",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "09:21",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "09:36",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "09:51",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "10:06",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            },
+            {
+              "start": "10:21",
+              "image": null,
+              "summary": "[sleep autofill]",
+              "sensitive": true
+            }
+          ],
+          "images": [],
+          "sensitive_count": 30,
+          "sensitive": true,
+          "notes": ""
+        }
+      ],
+      "dailySummary": {
+        "tracked_min": "1290",
+        "by_category": {
+          "Productivity": "60",
+          "Learning": "0",
+          "Health": "0",
+          "Errands": "240",
+          "Leisure": "90",
+          "Social": "15",
+          "AFK/Idle": "885",
+          "Sleep": "0"
+        },
+        "top_activities": "sleeping (10h 45m) · YouTube paused - idle (3h 45m) · Movie - The Bourne Supremacy (2h 30m)",
+        "coach_note": "• 1h Q Rizz analytics (good signal pull) but no content shipped — marketing 80% means output, not dashboards\n• MBTI Oracle: 0 min all day — traffic is the bottleneck and it got nothing; one Reddit post fixes today's gap\n• 4h Leisure from 19:00 ate the sharp evening hours — carve 30m for MBTI Oracle before the movie next time",
+        "first_last": "00:14 / 21:57",
+        "note_from_sun": "lot more focused on marketing these days. 80/20 rule.\nFocusing on the marketing will produce 80% of result."
+      }
+    },
+    {
+      "date": "2026-05-28",
+      "tracked_min": 15,
+      "by_category": {
+        "Leisure": 15
+      },
+      "by_project": {
+        "Personal/Leisure": 15
+      },
+      "blocks": [
+        {
+          "start": "10:28",
+          "end": "10:43",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Browsing YouTube homepage",
+          "project": "Personal/Leisure",
+          "screen_summary": "YouTube home feed with various video thumbnails, browsing at 10:28 AM",
+          "webcam": "person visible in bright daytime room, sitting up in/near bed",
+          "captures": [
+            {
+              "start": "10:28",
+              "image": "https://i.imgur.com/3ZO6BIM.jpeg",
+              "summary": "YouTube home feed with various video thumbnails, browsing at 10:28 AM",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/3ZO6BIM.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
