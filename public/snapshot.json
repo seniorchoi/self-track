@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T10:40:15+09:00",
+  "generatedAt": "2026-05-28T11:01:39+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -7239,12 +7239,12 @@
     },
     {
       "date": "2026-05-28",
-      "tracked_min": 15,
+      "tracked_min": 30,
       "by_category": {
-        "Leisure": 15
+        "Leisure": 30
       },
       "by_project": {
-        "Personal/Leisure": 15
+        "Personal/Leisure": 30
       },
       "blocks": [
         {
@@ -7266,6 +7266,30 @@
           ],
           "images": [
             "https://i.imgur.com/3ZO6BIM.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "10:43",
+          "end": "10:58",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Browsing X (Twitter) feed",
+          "project": "Personal/Leisure",
+          "screen_summary": "X/Twitter home feed, browsing AI/tech tweets (Anything AI, Game Theory posts), 10:43 AM",
+          "webcam": "person visible in bright daytime room, sitting upright in/near bed",
+          "captures": [
+            {
+              "start": "10:43",
+              "image": "https://i.imgur.com/Cf87F70.jpeg",
+              "summary": "X/Twitter home feed, browsing AI/tech tweets (Anything AI, Game Theory posts), 10:43 AM",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/Cf87F70.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
