@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T22:02:02+09:00",
+  "generatedAt": "2026-05-28T22:12:47+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -7291,12 +7291,14 @@
           "captures": [
             {
               "start": "10:58",
-              "image": null,
+              "image": "https://i.imgur.com/SQbjB09.jpeg",
               "summary": "Discord Q Admin general — crypto/ASML coin job discussions, mid-day digest task updates",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/SQbjB09.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7313,12 +7315,14 @@
           "captures": [
             {
               "start": "11:13",
-              "image": null,
+              "image": "https://i.imgur.com/XOyl1Bd.jpeg",
               "summary": "Discord Q Admin daily-stats — Q Rizz Revenue Digest: MRR $480.29, active subs, Superwall funnel metrics",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/XOyl1Bd.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7335,12 +7339,14 @@
           "captures": [
             {
               "start": "11:28",
-              "image": null,
+              "image": "https://i.imgur.com/dLnjPJf.jpeg",
               "summary": "Superwall dashboard — Active Subscriptions chart for Q Rizz, subscription trend May 27-28",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/dLnjPJf.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7357,12 +7363,14 @@
           "captures": [
             {
               "start": "11:43",
-              "image": null,
+              "image": "https://i.imgur.com/EBOX3yI.jpeg",
               "summary": "Chart: Q Rizz Installs vs TikTok App Mentions Apr-May 2026, install/trial correlation analysis",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/EBOX3yI.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7379,12 +7387,14 @@
           "captures": [
             {
               "start": "11:58",
-              "image": null,
+              "image": "https://i.imgur.com/llYCwBP.jpeg",
               "summary": "Discord Q Admin general — TikTok video data cross-check, corrected unique-user metrics, baseline analysis",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/llYCwBP.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7401,12 +7411,14 @@
           "captures": [
             {
               "start": "12:13",
-              "image": null,
+              "image": "https://i.imgur.com/Y1m9HpK.jpeg",
               "summary": "TikTok web — browsing rizz/dating creator profile, multiple dating advice/rizz videos, competitor research",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/Y1m9HpK.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7423,12 +7435,14 @@
           "captures": [
             {
               "start": "12:28",
-              "image": null,
+              "image": "https://i.imgur.com/LWZy2uw.jpeg",
               "summary": "Discord Q Admin general — 47 talking-head TikTok videos analysis, views data table, Apr-May trend",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/LWZy2uw.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7445,18 +7459,21 @@
           "captures": [
             {
               "start": "12:43",
-              "image": null,
+              "image": "https://i.imgur.com/K03Uxfx.jpeg",
               "summary": "Discord Q Admin creators — Apify influencer scrape setup, outreach criteria, DM template discussion",
               "sensitive": false
             },
             {
               "start": "12:58",
-              "image": null,
+              "image": "https://i.imgur.com/68VAicT.jpeg",
               "summary": "Discord Q Admin creators — influencer list criteria, creator types, Apify scrape continued",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/K03Uxfx.jpeg",
+            "https://i.imgur.com/68VAicT.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7473,18 +7490,21 @@
           "captures": [
             {
               "start": "13:13",
-              "image": null,
+              "image": "https://i.imgur.com/WXUvpmo.jpeg",
               "summary": "Linux desktop with terminal — OpenClaw/Claude Code session checking Apify API keys; OpenClaw Control Center in browser",
               "sensitive": false
             },
             {
               "start": "13:28",
-              "image": null,
+              "image": "https://i.imgur.com/uOok7vZ.jpeg",
               "summary": "Linux desktop with terminal — OpenClaw agent session running, Apify credentials check in Claude Code",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/WXUvpmo.jpeg",
+            "https://i.imgur.com/uOok7vZ.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7501,12 +7521,14 @@
           "captures": [
             {
               "start": "13:43",
-              "image": null,
+              "image": "https://i.imgur.com/oh4UBFT.jpeg",
               "summary": "YouTube — 'How A Self-Taught Genius Learns' by Nic Munoz playing",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/oh4UBFT.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7523,12 +7545,14 @@
           "captures": [
             {
               "start": "13:58",
-              "image": null,
+              "image": "https://i.imgur.com/y7vZaw8.jpeg",
               "summary": "X/Twitter — browsing Following feed, Historical Chronicles post, Korean trending topics",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/y7vZaw8.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7545,18 +7569,21 @@
           "captures": [
             {
               "start": "14:13",
-              "image": null,
+              "image": "https://i.imgur.com/XLT4FXc.jpeg",
               "summary": "YouTube — 'Why Modern Leaders lack Aura' by Agora, Xi Jinping clip",
               "sensitive": false
             },
             {
               "start": "14:28",
-              "image": null,
+              "image": "https://i.imgur.com/hJsQDD4.jpeg",
               "summary": "YouTube — 'Why Modern Leaders lack Aura' by Agora, Trump rally clip, emotional mobilization",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/XLT4FXc.jpeg",
+            "https://i.imgur.com/hJsQDD4.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7573,12 +7600,14 @@
           "captures": [
             {
               "start": "14:43",
-              "image": null,
+              "image": "https://i.imgur.com/FeTyKpU.jpeg",
               "summary": "YouTube — 'Gen Z and Hero Worship' by Agora, Japan street scene, significance/audience framing",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/FeTyKpU.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7595,24 +7624,28 @@
           "captures": [
             {
               "start": "14:58",
-              "image": null,
+              "image": "https://i.imgur.com/8mdjywY.jpeg",
               "summary": "Discord Q Admin creators — influencer outreach criteria, DM template, creators list instructions",
               "sensitive": false
             },
             {
               "start": "15:13",
-              "image": null,
+              "image": "https://i.imgur.com/ZAqgOVe.jpeg",
               "summary": "Discord Q Admin creators — same influencer outreach thread continuing",
               "sensitive": false
             },
             {
               "start": "15:28",
-              "image": null,
+              "image": "https://i.imgur.com/20OU4zh.jpeg",
               "summary": "Discord Q Admin creators — influencer criteria and DM message template finalization",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/8mdjywY.jpeg",
+            "https://i.imgur.com/ZAqgOVe.jpeg",
+            "https://i.imgur.com/20OU4zh.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7629,12 +7662,14 @@
           "captures": [
             {
               "start": "15:43",
-              "image": null,
+              "image": "https://i.imgur.com/tbv7ojC.jpeg",
               "summary": "YouTube — 'I Tried the World's Simplest Productivity Trick' by Simple Lucas; person stepped away",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/tbv7ojC.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7651,12 +7686,14 @@
           "captures": [
             {
               "start": "15:58",
-              "image": null,
+              "image": "https://i.imgur.com/YEfnjRX.jpeg",
               "summary": "Discord Q Admin ai-channel — n1dhaann requesting Superwall/Mixpanel/Sheets/Apify access, Sun granting broad data access",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/YEfnjRX.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7673,12 +7710,14 @@
           "captures": [
             {
               "start": "16:13",
-              "image": null,
+              "image": "https://i.imgur.com/o2NFIbD.jpeg",
               "summary": "Discord Q Admin creators — TikTok influencer stats list with follower counts, views, niches",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/o2NFIbD.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7695,12 +7734,14 @@
           "captures": [
             {
               "start": "16:28",
-              "image": null,
+              "image": "https://i.imgur.com/dYg3VYI.jpeg",
               "summary": "Google Sheets — Influencer Outreach TikTok spreadsheet with handles, follower counts, views, notes",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/dYg3VYI.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7717,18 +7758,21 @@
           "captures": [
             {
               "start": "16:43",
-              "image": null,
+              "image": "https://i.imgur.com/xK9AFBS.jpeg",
               "summary": "OpenClaw Chat — troubleshooting upload_screenshot endpoint suspension, reviewing composite/image pipeline",
               "sensitive": false
             },
             {
               "start": "16:58",
-              "image": null,
+              "image": "https://i.imgur.com/svEKAL4.jpeg",
               "summary": "OpenClaw Chat — SelfTrack upload debug: mbtioracle.com HTTP 503 suspended, discussing storage alternatives",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/xK9AFBS.jpeg",
+            "https://i.imgur.com/svEKAL4.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7745,18 +7789,21 @@
           "captures": [
             {
               "start": "17:13",
-              "image": null,
+              "image": "https://i.imgur.com/gWh1pfE.jpeg",
               "summary": "YouTube — 'Napoleon is Everything Wrong with Biopics' by Despot of Antrim, ship battle scene",
               "sensitive": false
             },
             {
               "start": "17:29",
-              "image": null,
+              "image": "https://i.imgur.com/5XqOA9L.jpeg",
               "summary": "YouTube — 'Napoleon is Everything Wrong with Biopics', same video fullscreen",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/gWh1pfE.jpeg",
+            "https://i.imgur.com/5XqOA9L.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7773,12 +7820,14 @@
           "captures": [
             {
               "start": "17:44",
-              "image": null,
+              "image": "https://i.imgur.com/MkVTjVq.jpeg",
               "summary": "OpenClaw Chat — SelfTrack upload debug thread continuing, storage/hosting alternatives",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/MkVTjVq.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7795,18 +7844,21 @@
           "captures": [
             {
               "start": "17:59",
-              "image": null,
+              "image": "https://i.imgur.com/PNaZWVK.jpeg",
               "summary": "YouTube — 'Napoleon is Everything Wrong with Biopics', Ridley Scott interview, historical integrity commentary",
               "sensitive": false
             },
             {
               "start": "18:14",
-              "image": null,
+              "image": "https://i.imgur.com/tmTwGBa.jpeg",
               "summary": "YouTube — 'Napoleon is Everything Wrong with Biopics', Napoleon actors scene, casting commentary",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/PNaZWVK.jpeg",
+            "https://i.imgur.com/tmTwGBa.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7823,12 +7875,14 @@
           "captures": [
             {
               "start": "18:29",
-              "image": null,
+              "image": "https://i.imgur.com/eI7Y859.jpeg",
               "summary": "Google AI Overview — 'is there another Napoleon movie', HBO/Spielberg Napoleon limited series mentioned",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/eI7Y859.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7845,12 +7899,14 @@
           "captures": [
             {
               "start": "18:44",
-              "image": null,
+              "image": "https://i.imgur.com/NDkGf9M.jpeg",
               "summary": "YouTube — 'Napoleon is Everything Wrong with Biopics', crowd/stadium scene, filmmakers' imagination commentary",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/NDkGf9M.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7867,12 +7923,14 @@
           "captures": [
             {
               "start": "18:59",
-              "image": null,
+              "image": "https://i.imgur.com/BSh3ZpK.jpeg",
               "summary": "YouTube — searching 'war and peace napoleon', Napoleon video browsing (Lifetime clips, 4K Russian Campaign)",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/BSh3ZpK.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7889,12 +7947,14 @@
           "captures": [
             {
               "start": "19:14",
-              "image": null,
+              "image": "https://i.imgur.com/4jwFl1O.jpeg",
               "summary": "Streaming site — watching 'Spider-Man: No Way Home' via online streaming server",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/4jwFl1O.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
@@ -7911,42 +7971,49 @@
           "captures": [
             {
               "start": "19:29",
-              "image": null,
+              "image": "https://i.imgur.com/BS747Sc.jpeg",
               "summary": "VLC Media Player fullscreen — British indie drama, young male protagonist in warm interior scene",
               "sensitive": false
             },
             {
               "start": "19:44",
-              "image": null,
+              "image": "https://i.imgur.com/5hORmZj.jpeg",
               "summary": "VLC Media Player fullscreen — British indie drama, close-up of young male protagonist in domestic interior",
               "sensitive": false
             },
             {
               "start": "19:59",
-              "image": null,
+              "image": "https://i.imgur.com/MhCSSSs.jpeg",
               "summary": "VLC Media Player fullscreen — British indie drama, protagonist in diner/café scene",
               "sensitive": false
             },
             {
               "start": "20:14",
-              "image": null,
+              "image": "https://i.imgur.com/bsegNDG.jpeg",
               "summary": "VLC Media Player fullscreen — British indie drama, man in dark elegant jacket at moody bar/event scene",
               "sensitive": false
             },
             {
               "start": "20:29",
-              "image": null,
+              "image": "https://i.imgur.com/GtngZdb.jpeg",
               "summary": "VLC Media Player fullscreen — British indie drama, protagonist in car at night, atmospheric scene",
               "sensitive": false
             },
             {
               "start": "20:44",
-              "image": null,
+              "image": "https://i.imgur.com/FdXAvFE.jpeg",
               "summary": "VLC Media Player fullscreen — British indie drama, young man in striped shirt, warm orange interior",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "https://i.imgur.com/BS747Sc.jpeg",
+            "https://i.imgur.com/5hORmZj.jpeg",
+            "https://i.imgur.com/MhCSSSs.jpeg",
+            "https://i.imgur.com/bsegNDG.jpeg",
+            "https://i.imgur.com/GtngZdb.jpeg",
+            "https://i.imgur.com/FdXAvFE.jpeg"
+          ],
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
