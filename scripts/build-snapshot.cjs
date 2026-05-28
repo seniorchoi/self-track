@@ -3,38 +3,29 @@
 const fs = require('fs');
 const path = require('path');
 
-const FORMATTED = process.argv[2] || '/home/ksngh/.claude/projects/-home-ksngh--openclaw-workspace/9f057b96-e378-4602-ae73-a4221417d5ea/tool-results/mcp-google-docs-readSpreadsheet-1779620424931.txt';
-const FORMULA   = process.argv[3] || '/home/ksngh/.claude/projects/-home-ksngh--openclaw-workspace/9f057b96-e378-4602-ae73-a4221417d5ea/tool-results/mcp-google-docs-readSpreadsheet-1779620425757.txt';
+const FORMATTED = process.argv[2] || '/home/ksngh/.claude/projects/-home-ksngh--openclaw-workspace/4e71242d-7881-494d-be9a-c0a67fb6560b/tool-results/mcp-google-docs-readSpreadsheet-1779958825662.txt';
+const FORMULA   = process.argv[3] || '/home/ksngh/.claude/projects/-home-ksngh--openclaw-workspace/4e71242d-7881-494d-be9a-c0a67fb6560b/tool-results/mcp-google-docs-readSpreadsheet-1779958945238.txt';
+const SUMMARY   = process.argv[4] || path.join(__dirname, 'daily-summary.json');
 const OUT = '/home/ksngh/projects/selftrack-dashboard/public/snapshot.json';
 
-const DAILY_SUMMARIES = {
-  '2026-05-20': {
-    tracked_min: 480,
-    cats: [255,0,0,150,30,0,45,0],
-    headline: 'working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)',
-    reflection: '4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.',
-    span: '15:58 / 00:03',
-    note: "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
-  },
-  '2026-05-21': {
-    tracked_min: 1440,
-    cats: [60,0,0,150,45,15,1170,0],
-    headline: 'haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)',
-    reflection: '• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn\'t move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that\'s 10h of dead clock\n• Set a hard return cutoff next time: if Sun\'s not back by 19:00, the day is the signal — pivot to mobile work',
-    span: '00:03 / 23:53',
-    note: 'I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!'
-  },
-  '2026-05-22': {
-    tracked_min: 810,
-    cats: [30,0,0,375,0,0,405,0],
-    headline: 'haircut errand (6h 30m) · playing Total War: Warhammer (1h 30m) · watching movie/TV (1h 15m)',
-    reflection: '• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing',
-    span: '00:08 / 23:51',
-    note: 'Hangover day. Was too hangover to do anything productive. Did workout in the morning though.'
-  },
-};
-
 function loadJSON(p) { return JSON.parse(fs.readFileSync(p, 'utf8')); }
+
+// Daily Summary tab: A=date B=tracked C..J=cat mins K=top_activities L=takeaway M=first_last N=note_from_sun
+const SUMMARY_CATS = ['Productivity','Learning','Health','Errands','Leisure','Social','AFK/Idle','Sleep'];
+const DAILY_SUMMARIES = {};
+for (const r of (loadJSON(SUMMARY).values || [])) {
+  if (!r || !r[0]) continue;
+  const cats = {};
+  SUMMARY_CATS.forEach((c, i) => { cats[c] = parseInt(r[2 + i], 10) || 0; });
+  DAILY_SUMMARIES[r[0]] = {
+    tracked_min: parseInt(r[1], 10) || 0,
+    by_category: cats,
+    top_activities: r[10] || '',
+    takeaway: r[11] || '',
+    first_last: r[12] || '',
+    note: r[13] || '',
+  };
+}
 function toMin(hhmm) { const [h,m]=hhmm.split(':').map(Number); return h*60+m; }
 function fromMin(t) { t=((t%1440)+1440)%1440; return String(Math.floor(t/60)).padStart(2,'0')+':'+String(t%60).padStart(2,'0'); }
 function addDays(date, n) { const d=new Date(date+'T00:00:00Z'); d.setUTCDate(d.getUTCDate()+n); return d.toISOString().slice(0,10); }
@@ -200,17 +191,12 @@ for (const date of dates) {
     day.dailySummary = {
       date,
       tracked_min: s.tracked_min,
-      productivity_min: s.cats[0],
-      learning_min:     s.cats[1],
-      health_min:       s.cats[2],
-      leisure_min:      s.cats[3],
-      chores_min:       s.cats[4],
-      social_min:       s.cats[5],
-      afk_min:          s.cats[6],
-      unknown_min:      s.cats[7],
-      top_activities: s.headline,
-      notes: s.reflection,
-      bookends: s.span,
+      by_category: s.by_category,
+      top_activities: s.top_activities,
+      takeaway: s.takeaway,
+      coach_note: s.takeaway,
+      first_last: s.first_last,
+      note: s.note,
       note_from_sun: s.note,
     };
   }
