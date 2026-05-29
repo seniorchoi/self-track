@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T17:03:17+09:00",
+  "generatedAt": "2026-05-29T18:03:27.797747+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -2521,6 +2521,7 @@
         "Learning/Reading": 150,
         "Personal/Break": 120,
         "Gaming/Warhammer": 30,
+        "": 15,
         "Leisure": 165,
         "Leisure/History": 90,
         "Sleep": 750
@@ -3651,24 +3652,26 @@
     },
     {
       "date": "2026-05-24",
-      "tracked_min": 630,
+      "tracked_min": 1350,
       "by_category": {
         "Admin/Errands": 15,
         "Leisure": 240,
         "Communications": 15,
         "Learning": 195,
         "Productivity": 45,
-        "AFK/Idle": 120
+        "AFK/Idle": 840
       },
       "by_project": {
         "Admin": 15,
         "Learning/Business": 15,
         "Reddit ops": 15,
         "Health": 195,
+        "": 120,
         "SelfTrack": 30,
         "Leisure": 195,
         "Learning": 15,
-        "F1 movie": 30
+        "F1 movie": 30,
+        "Sleep": 720
       },
       "blocks": [
         {
@@ -4387,72 +4390,6 @@
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
-        }
-      ],
-      "dailySummary": {
-        "date": "2026-05-24",
-        "tracked_min": 1440,
-        "by_category": {
-          "Productivity": 45,
-          "Learning": 15,
-          "Health": 0,
-          "Errands": 270,
-          "Leisure": 195,
-          "Social": 15,
-          "AFK/Idle": 900,
-          "Sleep": 0
-        },
-        "top_activities": "sleeping (13h 0m) · Watching F1 movie (3h 15m) · Away from desk (1h 45m)",
-        "takeaway": "Lowest-output day of the stretch: 45m productive, $0, nothing on any revenue product. 3h+ of posture/walking/fascia research and an F1 movie filled the waking hours — a rest day, not a build day.",
-        "coach_note": "Lowest-output day of the stretch: 45m productive, $0, nothing on any revenue product. 3h+ of posture/walking/fascia research and an F1 movie filled the waking hours — a rest day, not a build day.",
-        "first_last": "00:01 / 23:54",
-        "note": "",
-        "note_from_sun": ""
-      }
-    },
-    {
-      "date": "2026-05-25",
-      "tracked_min": 1080,
-      "by_category": {
-        "Leisure": 195,
-        "AFK/Idle": 720,
-        "Learning": 60,
-        "Productivity": 105
-      },
-      "by_project": {
-        "Morning X/Twitter scroll": 15,
-        "Sleep": 720,
-        "Hermes Agent research": 60,
-        "SelfTrack": 30,
-        "OpenClaw infra": 45,
-        "Q Rizz": 15,
-        "Simple Rizz": 15,
-        "Personal": 180
-      },
-      "blocks": [
-        {
-          "start": "11:50",
-          "end": "12:05",
-          "min": 15,
-          "category": "Leisure",
-          "activity": "Browsing X/Twitter",
-          "project": "Morning X/Twitter scroll",
-          "screen_summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
-          "webcam": "Sun on bed with grey t-shirt, slightly groggy but upright, just woke up look",
-          "captures": [
-            {
-              "start": "11:50",
-              "image": "https://i.imgur.com/RzjfeYJ.jpeg",
-              "summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
-              "sensitive": false
-            }
-          ],
-          "images": [
-            "https://i.imgur.com/RzjfeYJ.jpeg"
-          ],
-          "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
         },
         {
           "start": "23:39",
@@ -4756,6 +4693,70 @@
           "images": [],
           "sensitive_count": 48,
           "sensitive": true,
+          "notes": ""
+        }
+      ],
+      "dailySummary": {
+        "date": "2026-05-24",
+        "tracked_min": 1440,
+        "by_category": {
+          "Productivity": 45,
+          "Learning": 15,
+          "Health": 0,
+          "Errands": 270,
+          "Leisure": 195,
+          "Social": 15,
+          "AFK/Idle": 900,
+          "Sleep": 0
+        },
+        "top_activities": "sleeping (13h 0m) · Watching F1 movie (3h 15m) · Away from desk (1h 45m)",
+        "takeaway": "Lowest-output day of the stretch: 45m productive, $0, nothing on any revenue product. 3h+ of posture/walking/fascia research and an F1 movie filled the waking hours — a rest day, not a build day.",
+        "coach_note": "Lowest-output day of the stretch: 45m productive, $0, nothing on any revenue product. 3h+ of posture/walking/fascia research and an F1 movie filled the waking hours — a rest day, not a build day.",
+        "first_last": "00:01 / 23:54",
+        "note": "",
+        "note_from_sun": ""
+      }
+    },
+    {
+      "date": "2026-05-25",
+      "tracked_min": 360,
+      "by_category": {
+        "Leisure": 195,
+        "Learning": 60,
+        "Productivity": 105
+      },
+      "by_project": {
+        "Morning X/Twitter scroll": 15,
+        "Hermes Agent research": 60,
+        "SelfTrack": 30,
+        "OpenClaw infra": 45,
+        "Q Rizz": 15,
+        "Simple Rizz": 15,
+        "Personal": 180
+      },
+      "blocks": [
+        {
+          "start": "11:50",
+          "end": "12:05",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Browsing X/Twitter",
+          "project": "Morning X/Twitter scroll",
+          "screen_summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
+          "webcam": "Sun on bed with grey t-shirt, slightly groggy but upright, just woke up look",
+          "captures": [
+            {
+              "start": "11:50",
+              "image": "https://i.imgur.com/RzjfeYJ.jpeg",
+              "summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/RzjfeYJ.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
           "notes": ""
         },
         {
@@ -5113,10 +5114,10 @@
     },
     {
       "date": "2026-05-26",
-      "tracked_min": 825,
+      "tracked_min": 1470,
       "by_category": {
         "Productivity": 330,
-        "AFK/Idle": 120,
+        "AFK/Idle": 765,
         "Learning": 30,
         "Communications": 60,
         "Leisure": 240,
@@ -5128,7 +5129,7 @@
         "Q Rizz": 15,
         "SelfTrack": 105,
         "—": 90,
-        "Personal": 255,
+        "Personal": 900,
         "Mindcraft": 135,
         "X Derby": 135,
         "MBTI Oracle": 15,
@@ -5611,8 +5612,8 @@
         },
         {
           "start": "17:58",
-          "end": "18:58",
-          "min": 45,
+          "end": "18:28",
+          "min": 30,
           "category": "Leisure",
           "activity": "Mindcraft — Andy bot in Minecraft",
           "project": "Mindcraft",
@@ -5630,18 +5631,11 @@
               "image": "https://i.imgur.com/2dwy60r.jpeg",
               "summary": "Minecraft Java Edition survival world — green plains and acacia trees; Andy AI agent exploring; terminal showing script execution on left",
               "sensitive": false
-            },
-            {
-              "start": "18:43",
-              "image": "https://i.imgur.com/S9z3y1d.jpeg",
-              "summary": "Minecraft Java Edition survival world with Andy AI agent character visible; terminal shows self-prompting loop execution; game chat visible at bottom",
-              "sensitive": false
             }
           ],
           "images": [
             "https://i.imgur.com/n26nyZT.jpeg",
-            "https://i.imgur.com/2dwy60r.jpeg",
-            "https://i.imgur.com/S9z3y1d.jpeg"
+            "https://i.imgur.com/2dwy60r.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -5649,8 +5643,8 @@
         },
         {
           "start": "18:28",
-          "end": "19:13",
-          "min": 30,
+          "end": "18:43",
+          "min": 15,
           "category": "Leisure",
           "activity": "Mindcraft AI - Minecraft",
           "project": "Mindcraft",
@@ -5662,7 +5656,49 @@
               "image": "https://i.imgur.com/DRkqjAG.jpeg",
               "summary": "Minecraft game with Mindcraft AI agent (cleo) requesting wood; OpenClaw control panel open in background",
               "sensitive": false
-            },
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/DRkqjAG.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "18:43",
+          "end": "18:58",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Mindcraft — Andy bot in Minecraft",
+          "project": "Mindcraft",
+          "screen_summary": "Minecraft Java Edition survival world with Andy AI agent character visible; terminal shows self-prompting loop execution; game chat visible at bottom",
+          "webcam": "Sun present, smiling, looking down, shoulders level",
+          "captures": [
+            {
+              "start": "18:43",
+              "image": "https://i.imgur.com/S9z3y1d.jpeg",
+              "summary": "Minecraft Java Edition survival world with Andy AI agent character visible; terminal shows self-prompting loop execution; game chat visible at bottom",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/S9z3y1d.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "18:58",
+          "end": "19:13",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Mindcraft AI - Minecraft",
+          "project": "Mindcraft",
+          "screen_summary": "Minecraft multi-agent session (andy, bob, cleo) coordinating house repair with oak planks",
+          "webcam": "person at desk",
+          "captures": [
             {
               "start": "18:58",
               "image": "https://i.imgur.com/N0Y4GxU.jpeg",
@@ -5671,7 +5707,6 @@
             }
           ],
           "images": [
-            "https://i.imgur.com/DRkqjAG.jpeg",
             "https://i.imgur.com/N0Y4GxU.jpeg"
           ],
           "sensitive_count": 0,
@@ -6193,75 +6228,6 @@
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
-        }
-      ],
-      "dailySummary": {
-        "date": "2026-05-26",
-        "tracked_min": 780,
-        "by_category": {
-          "Productivity": 330,
-          "Learning": 60,
-          "Health": 0,
-          "Errands": 195,
-          "Leisure": 30,
-          "Social": 15,
-          "AFK/Idle": 120,
-          "Sleep": 30
-        },
-        "top_activities": "Away from desk (1h 45m) · YouTube — AI commentary (1h 0m) · Mindcraft — Andy bot in Minecraft (45m)",
-        "takeaway": "Strongest build day of the gap: 5h 30m productive — but it went to X Derby (Supabase, Clout Coins, MRR leaderboard) and Mindcraft setup, both side projects. The core revenue products (MBTI Oracle, Q Rizz) got only ~30m combined.",
-        "coach_note": "Strongest build day of the gap: 5h 30m productive — but it went to X Derby (Supabase, Clout Coins, MRR leaderboard) and Mindcraft setup, both side projects. The core revenue products (MBTI Oracle, Q Rizz) got only ~30m combined.",
-        "first_last": "11:13 / 23:59",
-        "note": "",
-        "note_from_sun": ""
-      }
-    },
-    {
-      "date": "2026-05-27",
-      "tracked_min": 1305,
-      "by_category": {
-        "AFK/Idle": 885,
-        "Learning": 90,
-        "Leisure": 240,
-        "Productivity": 60,
-        "Admin/Errands": 30
-      },
-      "by_project": {
-        "N/A": 15,
-        "Personal": 645,
-        "Learning": 210,
-        "YouTube": 30,
-        "Q Rizz": 60,
-        "SelfTrack": 15,
-        "Gaming": 15,
-        "Movie": 150,
-        "Admin": 15,
-        "Personal/Leisure": 45
-      },
-      "blocks": [
-        {
-          "start": "11:56",
-          "end": "12:11",
-          "min": 15,
-          "category": "AFK/Idle",
-          "activity": "Idle - browser new tab",
-          "project": "N/A",
-          "screen_summary": "Chrome new tab / Google homepage, bookmarks: OpenClaw Control, Claude, Discord, MBTI Loop, Rizz, SelfTrack",
-          "webcam": "dark, no visible occupant",
-          "captures": [
-            {
-              "start": "11:56",
-              "image": "https://i.imgur.com/d8iPIH9.jpeg",
-              "summary": "Chrome new tab / Google homepage, bookmarks: OpenClaw Control, Claude, Discord, MBTI Loop, Rizz, SelfTrack",
-              "sensitive": false
-            }
-          ],
-          "images": [
-            "https://i.imgur.com/d8iPIH9.jpeg"
-          ],
-          "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
         },
         {
           "start": "00:59",
@@ -6535,6 +6501,75 @@
           "images": [],
           "sensitive_count": 43,
           "sensitive": true,
+          "notes": ""
+        }
+      ],
+      "dailySummary": {
+        "date": "2026-05-26",
+        "tracked_min": 780,
+        "by_category": {
+          "Productivity": 330,
+          "Learning": 60,
+          "Health": 0,
+          "Errands": 195,
+          "Leisure": 30,
+          "Social": 15,
+          "AFK/Idle": 120,
+          "Sleep": 30
+        },
+        "top_activities": "Away from desk (1h 45m) · YouTube — AI commentary (1h 0m) · Mindcraft — Andy bot in Minecraft (45m)",
+        "takeaway": "Strongest build day of the gap: 5h 30m productive — but it went to X Derby (Supabase, Clout Coins, MRR leaderboard) and Mindcraft setup, both side projects. The core revenue products (MBTI Oracle, Q Rizz) got only ~30m combined.",
+        "coach_note": "Strongest build day of the gap: 5h 30m productive — but it went to X Derby (Supabase, Clout Coins, MRR leaderboard) and Mindcraft setup, both side projects. The core revenue products (MBTI Oracle, Q Rizz) got only ~30m combined.",
+        "first_last": "11:13 / 23:59",
+        "note": "",
+        "note_from_sun": ""
+      }
+    },
+    {
+      "date": "2026-05-27",
+      "tracked_min": 1110,
+      "by_category": {
+        "AFK/Idle": 690,
+        "Learning": 90,
+        "Leisure": 240,
+        "Productivity": 60,
+        "Admin/Errands": 30
+      },
+      "by_project": {
+        "N/A": 15,
+        "Learning": 210,
+        "": 105,
+        "YouTube": 30,
+        "Q Rizz": 60,
+        "SelfTrack": 15,
+        "Gaming": 15,
+        "Movie": 150,
+        "Admin": 15,
+        "Personal/Leisure": 495
+      },
+      "blocks": [
+        {
+          "start": "11:56",
+          "end": "12:11",
+          "min": 15,
+          "category": "AFK/Idle",
+          "activity": "Idle - browser new tab",
+          "project": "N/A",
+          "screen_summary": "Chrome new tab / Google homepage, bookmarks: OpenClaw Control, Claude, Discord, MBTI Loop, Rizz, SelfTrack",
+          "webcam": "dark, no visible occupant",
+          "captures": [
+            {
+              "start": "11:56",
+              "image": "https://i.imgur.com/d8iPIH9.jpeg",
+              "summary": "Chrome new tab / Google homepage, bookmarks: OpenClaw Control, Claude, Discord, MBTI Loop, Rizz, SelfTrack",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/d8iPIH9.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
           "notes": ""
         },
         {
@@ -7075,71 +7110,6 @@
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
-        }
-      ],
-      "dailySummary": {
-        "date": "2026-05-27",
-        "tracked_min": 1290,
-        "by_category": {
-          "Productivity": 60,
-          "Learning": 0,
-          "Health": 0,
-          "Errands": 240,
-          "Leisure": 90,
-          "Social": 15,
-          "AFK/Idle": 885,
-          "Sleep": 0
-        },
-        "top_activities": "sleeping (10h 45m) · YouTube paused - idle (3h 45m) · Movie - The Bourne Supremacy (2h 30m)",
-        "takeaway": "• 1h Q Rizz analytics (good signal pull) but no content shipped — marketing 80% means output, not dashboards\n• MBTI Oracle: 0 min all day — traffic is the bottleneck and it got nothing; one Reddit post fixes today's gap\n• 4h Leisure from 19:00 ate the sharp evening hours — carve 30m for MBTI Oracle before the movie next time",
-        "coach_note": "• 1h Q Rizz analytics (good signal pull) but no content shipped — marketing 80% means output, not dashboards\n• MBTI Oracle: 0 min all day — traffic is the bottleneck and it got nothing; one Reddit post fixes today's gap\n• 4h Leisure from 19:00 ate the sharp evening hours — carve 30m for MBTI Oracle before the movie next time",
-        "first_last": "00:14 / 21:57",
-        "note": "lot more focused on marketing these days. 80/20 rule.\nFocusing on the marketing will produce 80% of result.",
-        "note_from_sun": "lot more focused on marketing these days. 80/20 rule.\nFocusing on the marketing will produce 80% of result."
-      }
-    },
-    {
-      "date": "2026-05-28",
-      "tracked_min": 1170,
-      "by_category": {
-        "Leisure": 360,
-        "AFK/Idle": 450,
-        "Productivity": 285,
-        "Learning": 60,
-        "Communications": 15
-      },
-      "by_project": {
-        "Personal/Leisure": 720,
-        "Q Rizz": 255,
-        "Learning/Personal": 60,
-        "SelfTrack": 45,
-        "Personal leisure - watching movie \"Obsession\" (horror)": 75,
-        "Personal leisure - YouTube movie review \"Obsession\" ending explained": 15
-      },
-      "blocks": [
-        {
-          "start": "10:28",
-          "end": "10:43",
-          "min": 15,
-          "category": "Leisure",
-          "activity": "Browsing YouTube homepage",
-          "project": "Personal/Leisure",
-          "screen_summary": "YouTube home feed with various video thumbnails, browsing at 10:28 AM",
-          "webcam": "person visible in bright daytime room, sitting up in/near bed",
-          "captures": [
-            {
-              "start": "10:28",
-              "image": "https://i.imgur.com/3ZO6BIM.jpeg",
-              "summary": "YouTube home feed with various video thumbnails, browsing at 10:28 AM",
-              "sensitive": false
-            }
-          ],
-          "images": [
-            "https://i.imgur.com/3ZO6BIM.jpeg"
-          ],
-          "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
         },
         {
           "start": "03:06",
@@ -7335,6 +7305,72 @@
           "images": [],
           "sensitive_count": 30,
           "sensitive": true,
+          "notes": ""
+        }
+      ],
+      "dailySummary": {
+        "date": "2026-05-27",
+        "tracked_min": 1290,
+        "by_category": {
+          "Productivity": 60,
+          "Learning": 0,
+          "Health": 0,
+          "Errands": 240,
+          "Leisure": 90,
+          "Social": 15,
+          "AFK/Idle": 885,
+          "Sleep": 0
+        },
+        "top_activities": "sleeping (10h 45m) · YouTube paused - idle (3h 45m) · Movie - The Bourne Supremacy (2h 30m)",
+        "takeaway": "• 1h Q Rizz analytics (good signal pull) but no content shipped — marketing 80% means output, not dashboards\n• MBTI Oracle: 0 min all day — traffic is the bottleneck and it got nothing; one Reddit post fixes today's gap\n• 4h Leisure from 19:00 ate the sharp evening hours — carve 30m for MBTI Oracle before the movie next time",
+        "coach_note": "• 1h Q Rizz analytics (good signal pull) but no content shipped — marketing 80% means output, not dashboards\n• MBTI Oracle: 0 min all day — traffic is the bottleneck and it got nothing; one Reddit post fixes today's gap\n• 4h Leisure from 19:00 ate the sharp evening hours — carve 30m for MBTI Oracle before the movie next time",
+        "first_last": "00:14 / 21:57",
+        "note": "lot more focused on marketing these days. 80/20 rule.\nFocusing on the marketing will produce 80% of result.",
+        "note_from_sun": "lot more focused on marketing these days. 80/20 rule.\nFocusing on the marketing will produce 80% of result."
+      }
+    },
+    {
+      "date": "2026-05-28",
+      "tracked_min": 1350,
+      "by_category": {
+        "Leisure": 360,
+        "Productivity": 285,
+        "Learning": 60,
+        "Communications": 15,
+        "AFK/Idle": 630
+      },
+      "by_project": {
+        "Personal/Leisure": 270,
+        "Q Rizz": 255,
+        "Learning/Personal": 60,
+        "SelfTrack": 45,
+        "Personal leisure - watching movie \"Obsession\" (horror)": 75,
+        "Personal leisure - YouTube movie review \"Obsession\" ending explained": 15,
+        "Sleep": 630
+      },
+      "blocks": [
+        {
+          "start": "10:28",
+          "end": "10:43",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Browsing YouTube homepage",
+          "project": "Personal/Leisure",
+          "screen_summary": "YouTube home feed with various video thumbnails, browsing at 10:28 AM",
+          "webcam": "person visible in bright daytime room, sitting up in/near bed",
+          "captures": [
+            {
+              "start": "10:28",
+              "image": "https://i.imgur.com/3ZO6BIM.jpeg",
+              "summary": "YouTube home feed with various video thumbnails, browsing at 10:28 AM",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/3ZO6BIM.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
           "notes": ""
         },
         {
@@ -8175,88 +8211,6 @@
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
-        }
-      ],
-      "dailySummary": {
-        "date": "2026-05-28",
-        "tracked_min": 1335,
-        "by_category": {
-          "Productivity": 285,
-          "Learning": 15,
-          "Health": 0,
-          "Errands": 405,
-          "Leisure": 60,
-          "Social": 15,
-          "AFK/Idle": 555,
-          "Sleep": 0
-        },
-        "top_activities": "Sleeping (9h 15m) · Watching movie in VLC (1h 30m) · Q Rizz influencer outreach planning (1h 15m)",
-        "takeaway": "4h 45m productive and all of it on Q Rizz — influencer outreach pipeline, TikTok creator analysis, Superwall/revenue review. Good single-lever focus. Evening dissolved into 6h 45m of movies; MBTI Oracle got nothing.",
-        "coach_note": "4h 45m productive and all of it on Q Rizz — influencer outreach pipeline, TikTok creator analysis, Superwall/revenue review. Good single-lever focus. Evening dissolved into 6h 45m of movies; MBTI Oracle got nothing.",
-        "first_last": "02:05 / 23:59",
-        "note": "",
-        "note_from_sun": ""
-      }
-    },
-    {
-      "date": "2026-05-29",
-      "tracked_min": 1110,
-      "by_category": {
-        "AFK/Idle": 765,
-        "Learning": 75,
-        "Leisure": 150,
-        "Communications": 15,
-        "Productivity": 105
-      },
-      "by_project": {
-        "AFK/Idle - PC unattended at desktop": 15,
-        "Sleep": 630,
-        "Learning - YouTube AI news: Claude Opus 4.8 feature updates": 15,
-        "Learning - YouTube posture/exercise research": 15,
-        "Personal leisure - YouTube movie/psychology analysis": 15,
-        "Personal leisure - YouTube browsing": 15,
-        "Learning - YouTube posture/exercise: anterior pelvic tilt fix": 15,
-        "Personal leisure - Civilization VI gaming": 45,
-        "Personal leisure - background focus music while on phone": 15,
-        "Learning - War of Art audiobook (creativity/overcoming resistance)": 15,
-        "Learning - AI news: Claude Opus 4.8 analysis/critique": 15,
-        "Personal leisure - social skills/charisma YouTube content": 15,
-        "Personal leisure - motivational YouTube content": 15,
-        "Communications - Discord investing/AI server discussion (NVDA)": 15,
-        "Personal leisure - Dune audiobook": 30,
-        "Productivity - Gemini AI research (TikTok/app monetization analysis)": 15,
-        "MBTI Oracle - revenue analysis with n1dhaann via OpenClaw": 15,
-        "MBTI Oracle / Q Rizz - strategic planning session via OpenClaw": 15,
-        "MBTI Oracle - App Store Connect/Superwall API data retrieval": 15,
-        "MBTI Oracle - App Store Connect API key setup and revenue data": 15,
-        "MBTI Oracle / Q Rizz / Simple Rizz - weekly revenue analysis": 15,
-        "MBTI Oracle / Q Rizz - revenue trend review": 15,
-        "AFK/Idle - PC left on unattended while out": 120
-      },
-      "blocks": [
-        {
-          "start": "08:55",
-          "end": "09:10",
-          "min": 15,
-          "category": "AFK/Idle",
-          "activity": "AFK - desktop idle",
-          "project": "AFK/Idle - PC unattended at desktop",
-          "screen_summary": "Windows desktop with Windscribe VPN popup open (Montreal Expo 67 server), no active application",
-          "webcam": "Empty bed, no person visible",
-          "captures": [
-            {
-              "start": "08:55",
-              "image": "https://i.imgur.com/lluqIu5.jpeg",
-              "summary": "Windows desktop with Windscribe VPN popup open (Montreal Expo 67 server), no active application",
-              "sensitive": false
-            }
-          ],
-          "images": [
-            "https://i.imgur.com/lluqIu5.jpeg"
-          ],
-          "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
         },
         {
           "start": "22:29",
@@ -8524,6 +8478,87 @@
           "images": [],
           "sensitive_count": 42,
           "sensitive": true,
+          "notes": ""
+        }
+      ],
+      "dailySummary": {
+        "date": "2026-05-28",
+        "tracked_min": 1335,
+        "by_category": {
+          "Productivity": 285,
+          "Learning": 15,
+          "Health": 0,
+          "Errands": 405,
+          "Leisure": 60,
+          "Social": 15,
+          "AFK/Idle": 555,
+          "Sleep": 0
+        },
+        "top_activities": "Sleeping (9h 15m) · Watching movie in VLC (1h 30m) · Q Rizz influencer outreach planning (1h 15m)",
+        "takeaway": "4h 45m productive and all of it on Q Rizz — influencer outreach pipeline, TikTok creator analysis, Superwall/revenue review. Good single-lever focus. Evening dissolved into 6h 45m of movies; MBTI Oracle got nothing.",
+        "coach_note": "4h 45m productive and all of it on Q Rizz — influencer outreach pipeline, TikTok creator analysis, Superwall/revenue review. Good single-lever focus. Evening dissolved into 6h 45m of movies; MBTI Oracle got nothing.",
+        "first_last": "02:05 / 23:59",
+        "note": "",
+        "note_from_sun": ""
+      }
+    },
+    {
+      "date": "2026-05-29",
+      "tracked_min": 480,
+      "by_category": {
+        "AFK/Idle": 135,
+        "Learning": 75,
+        "Leisure": 150,
+        "Communications": 15,
+        "Productivity": 105
+      },
+      "by_project": {
+        "AFK/Idle - PC unattended at desktop": 15,
+        "Learning - YouTube AI news: Claude Opus 4.8 feature updates": 15,
+        "Learning - YouTube posture/exercise research": 15,
+        "Personal leisure - YouTube movie/psychology analysis": 15,
+        "Personal leisure - YouTube browsing": 15,
+        "Learning - YouTube posture/exercise: anterior pelvic tilt fix": 15,
+        "Personal leisure - Civilization VI gaming": 45,
+        "Personal leisure - background focus music while on phone": 15,
+        "Learning - War of Art audiobook (creativity/overcoming resistance)": 15,
+        "Learning - AI news: Claude Opus 4.8 analysis/critique": 15,
+        "Personal leisure - social skills/charisma YouTube content": 15,
+        "Personal leisure - motivational YouTube content": 15,
+        "Communications - Discord investing/AI server discussion (NVDA)": 15,
+        "Personal leisure - Dune audiobook": 30,
+        "Productivity - Gemini AI research (TikTok/app monetization analysis)": 15,
+        "MBTI Oracle - revenue analysis with n1dhaann via OpenClaw": 15,
+        "MBTI Oracle / Q Rizz - strategic planning session via OpenClaw": 15,
+        "MBTI Oracle - App Store Connect/Superwall API data retrieval": 15,
+        "MBTI Oracle - App Store Connect API key setup and revenue data": 15,
+        "MBTI Oracle / Q Rizz / Simple Rizz - weekly revenue analysis": 15,
+        "MBTI Oracle / Q Rizz - revenue trend review": 15,
+        "AFK/Idle - PC left on unattended while out": 120
+      },
+      "blocks": [
+        {
+          "start": "08:55",
+          "end": "09:10",
+          "min": 15,
+          "category": "AFK/Idle",
+          "activity": "AFK - desktop idle",
+          "project": "AFK/Idle - PC unattended at desktop",
+          "screen_summary": "Windows desktop with Windscribe VPN popup open (Montreal Expo 67 server), no active application",
+          "webcam": "Empty bed, no person visible",
+          "captures": [
+            {
+              "start": "08:55",
+              "image": "https://i.imgur.com/lluqIu5.jpeg",
+              "summary": "Windows desktop with Windscribe VPN popup open (Montreal Expo 67 server), no active application",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/lluqIu5.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
           "notes": ""
         },
         {
