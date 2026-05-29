@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-05-29T15:03:51+09:00",
+ "generatedAt": "2026-05-29T16:02:42+09:00",
  "days": [
   {
    "date": "2026-05-20",
@@ -23,10 +23,13 @@
    "blocks": [
     {
      "start": "15:58",
+     "end": "16:13",
+     "min": 15,
      "category": "Productivity",
      "activity": "browsing Pixabay sound effects",
      "project": "SelfTrack build",
      "screen_summary": "Pixabay free sound effects page showing computer mouse click sounds for download.",
+     "webcam": "present",
      "captures": [
       {
        "start": "15:58",
@@ -39,18 +42,18 @@
       "https://i.imgur.com/3y7nVn1.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "16:13",
-     "min": 15,
-     "webcam": "present",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "16:15",
+     "end": "17:45",
+     "min": 90,
      "category": "Productivity",
      "activity": "working on SelfTrack",
      "project": "SelfTrack build",
      "screen_summary": "OpenClaw chat thread discussing SelfTrack capture loop, watcher fixes, and posture-alert behavior.",
+     "webcam": "present",
      "captures": [
       {
        "start": "16:15",
@@ -98,18 +101,18 @@
       "https://i.imgur.com/yx8tkDu.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "17:45",
-     "min": 90,
-     "webcam": "present",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "17:45",
+     "end": "18:00",
+     "min": 15,
      "category": "Leisure",
      "activity": "browsing X (Twitter)",
      "project": "leisure",
      "screen_summary": "X (Twitter) For You feed with a watch video post and trending sidebar.",
+     "webcam": "present",
      "captures": [
       {
        "start": "17:45",
@@ -122,18 +125,18 @@
       "https://i.imgur.com/mRZY38S.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "18:00",
-     "min": 15,
-     "webcam": "present",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "18:00",
+     "end": "19:45",
+     "min": 105,
      "category": "Productivity",
      "activity": "working on SelfTrack",
      "project": "SelfTrack build",
      "screen_summary": "OpenClaw chat discussing SelfTrack dashboard sheet/dummy-row updates and image cell formatting.",
+     "webcam": "present",
      "captures": [
       {
        "start": "18:00",
@@ -188,18 +191,18 @@
       "https://i.imgur.com/FcFb9TO.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "19:45",
-     "min": 105,
-     "webcam": "present",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "19:45",
+     "end": "20:00",
+     "min": 15,
      "category": "Leisure",
      "activity": "playing a fantasy game",
      "project": "leisure",
      "screen_summary": "Fantasy game loading/title screen showing an armored warrior with axe in a snowy landscape under a stormy sky.",
+     "webcam": "present",
      "captures": [
       {
        "start": "19:45",
@@ -212,18 +215,18 @@
       "https://i.imgur.com/VhlG1pl.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "20:00",
-     "min": 15,
-     "webcam": "present",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "20:00",
+     "end": "20:15",
+     "min": 15,
      "category": "Leisure",
      "activity": "researching games to download",
      "project": "leisure",
      "screen_summary": "OpenClaw chat discussing PC specs and which Total War / strategy games to download to play.",
+     "webcam": "present",
      "captures": [
       {
        "start": "20:00",
@@ -236,18 +239,18 @@
       "https://i.imgur.com/qBPiOWm.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "20:15",
-     "min": 15,
-     "webcam": "present",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "20:15",
+     "end": "20:30",
+     "min": 15,
      "category": "AFK/Idle",
      "activity": "screen off / loading",
      "project": "leisure",
      "screen_summary": "Black screen — display off or a game loading screen with no rendered content.",
+     "webcam": "away",
      "captures": [
       {
        "start": "20:15",
@@ -260,18 +263,18 @@
       "https://i.imgur.com/91y0skV.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "20:30",
-     "min": 15,
-     "webcam": "away",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "20:30",
+     "end": "21:00",
+     "min": 30,
      "category": "Leisure",
      "activity": "playing Total War",
      "project": "leisure",
      "screen_summary": "Total War battle tutorial screen with friendly and enemy units lined up on a snowy battlefield.",
+     "webcam": "present",
      "captures": [
       {
        "start": "20:30",
@@ -291,18 +294,18 @@
       "https://i.imgur.com/8qe9W5O.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "21:00",
-     "min": 30,
-     "webcam": "present",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "21:00",
+     "end": "21:15",
+     "min": 15,
      "category": "Leisure",
      "activity": "watching Korean webtoon on YouTube",
      "project": "leisure",
      "screen_summary": "YouTube short '253. 남자의 착각' (Korean webtoon)",
+     "webcam": "Sun smiling at camera, white backwards cap, in bedroom",
      "captures": [
       {
        "start": "21:00",
@@ -315,18 +318,18 @@
       "https://i.imgur.com/dIrNKBx.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "21:15",
-     "min": 15,
-     "webcam": "Sun smiling at camera, white backwards cap, in bedroom",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "21:15",
+     "end": "21:30",
+     "min": 15,
      "category": "Productivity",
      "activity": "reviewing OpenClaw chat about MBTI cookie collector + permissions table",
      "project": "MBTI Oracle",
      "screen_summary": "OpenClaw Control chat discussing MBTI Oracle/cookie collector work; permissions table visible",
+     "webcam": "away — empty bedroom view, MacBook on bed",
      "captures": [
       {
        "start": "21:15",
@@ -339,18 +342,18 @@
       "https://i.imgur.com/cNqycZj.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "21:30",
-     "min": 15,
-     "webcam": "away — empty bedroom view, MacBook on bed",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "21:30",
+     "end": "21:45",
+     "min": 15,
      "category": "Learning",
      "activity": "watching '$1M+ Solo AI Agent Business' course on YouTube — Offer mindmap",
      "project": "learning",
      "screen_summary": "YouTube video by Greg Isenberg, course mindmap node 'The Offer' with sub-branches",
+     "webcam": "Sun in white cap (backwards), looking down",
      "captures": [
       {
        "start": "21:30",
@@ -363,18 +366,18 @@
       "https://i.imgur.com/4L1dJ8Y.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "21:45",
-     "min": 15,
-     "webcam": "Sun in white cap (backwards), looking down",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "21:46",
+     "end": "22:16",
+     "min": 30,
      "category": "AFK/Idle",
      "activity": "taking a bath (notepad note left on screen)",
      "project": "personal",
      "screen_summary": "Windows Notepad with single line 'taking a bath'; taskbar clock 9:45 PM",
+     "webcam": "away — empty bed, dark jeans on edge",
      "captures": [
       {
        "start": "21:46",
@@ -394,18 +397,18 @@
       "https://i.imgur.com/JrMjcKz.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "22:16",
-     "min": 30,
-     "webcam": "away — empty bed, dark jeans on edge",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "22:16",
+     "end": "22:31",
+     "min": 15,
      "category": "Learning",
      "activity": "watching '$1M+ Solo AI Agent Business' (Greg Isenberg) — startup ideas section",
      "project": "learning",
      "screen_summary": "YouTube video, network graph of startup ideas with sidebar of topics",
+     "webcam": "Sun resting hand on cheek, contemplative",
      "captures": [
       {
        "start": "22:16",
@@ -418,18 +421,18 @@
       "https://i.imgur.com/Yy8ptNt.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "22:31",
-     "min": 15,
-     "webcam": "Sun resting hand on cheek, contemplative",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "22:31",
+     "end": "22:46",
+     "min": 15,
      "category": "Leisure",
      "activity": "browsing YouTube homepage",
      "project": "leisure",
      "screen_summary": "YouTube home, recommendations including 'Claude Cowork for marketing' and 'Don't Stay in Old Tbilisi'",
+     "webcam": "Sun looking down, beige t-shirt",
      "captures": [
       {
        "start": "22:31",
@@ -442,18 +445,18 @@
       "https://i.imgur.com/L0cO2Zf.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "22:46",
-     "min": 15,
-     "webcam": "Sun looking down, beige t-shirt",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "22:46",
+     "end": "23:01",
+     "min": 15,
      "category": "Leisure",
      "activity": "scrolling X/Twitter timeline",
      "project": "leisure",
      "screen_summary": "X (Twitter) For You feed; Shay Boloor post about Jeff Bezos wealth in America (CNBC clip)",
+     "webcam": "Sun facing camera, neutral expression",
      "captures": [
       {
        "start": "22:46",
@@ -466,18 +469,18 @@
       "https://i.imgur.com/N62aZLu.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "23:01",
-     "min": 15,
-     "webcam": "Sun facing camera, neutral expression",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "23:01",
+     "end": "23:16",
+     "min": 15,
      "category": "Leisure",
      "activity": "watching David Shapiro YouTube video",
      "project": "leisure",
      "screen_summary": "YouTube video by David Shapiro 'I'm worried about where things are going' — painting of figures by a river",
+     "webcam": "Sun facing camera, neutral, beige t-shirt",
      "captures": [
       {
        "start": "23:01",
@@ -490,18 +493,18 @@
       "https://i.imgur.com/yaqSrz2.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "23:16",
-     "min": 15,
-     "webcam": "Sun facing camera, neutral, beige t-shirt",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "23:16",
+     "end": "00:18",
+     "min": 60,
      "category": "Productivity",
      "activity": "working on SelfTrack",
      "project": "SelfTrack build",
      "screen_summary": "OpenClaw chat thread refining SelfTrack analyze-hourly pipeline (capture/labeling, sheet schema)",
+     "webcam": "Sun resting hands on face, contemplative",
      "captures": [
       {
        "start": "23:16",
@@ -535,18 +538,18 @@
       "https://i.imgur.com/qnBPRpG.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "00:18",
-     "min": 60,
-     "webcam": "Sun resting hands on face, contemplative",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "00:18",
+     "end": "00:33",
+     "min": 15,
      "category": "Leisure",
      "activity": "scrolling X/Twitter timeline",
      "project": "leisure",
      "screen_summary": "X post with a mythological painting (Gustave Moreau style) — thread about favorite paintings of goddesses from Greek mythology",
+     "webcam": "Sun facing camera, neutral expression",
      "captures": [
       {
        "start": "00:18",
@@ -559,18 +562,18 @@
       "https://i.imgur.com/lRa7YAv.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "00:33",
-     "min": 15,
-     "webcam": "Sun facing camera, neutral expression",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "00:33",
+     "end": "00:48",
+     "min": 15,
      "category": "Productivity",
      "activity": "reviewing Life of Sun timeline dashboard",
      "project": "SelfTrack build",
      "screen_summary": "seunghochoi.com 'Life of Sun' timeline page for 2026-05-20, showing captured blocks with composite thumbnails",
+     "webcam": "Sun facing camera, neutral, beige t-shirt",
      "captures": [
       {
        "start": "00:33",
@@ -583,18 +586,18 @@
       "https://i.imgur.com/TsgwMjc.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "00:48",
-     "min": 15,
-     "webcam": "Sun facing camera, neutral, beige t-shirt",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "00:48",
+     "end": "01:03",
+     "min": 15,
      "category": "Leisure",
      "activity": "scrolling X/Twitter timeline",
      "project": "leisure",
      "screen_summary": "X (Twitter) Following feed; posts about DEA/marijuana, 10-Guy meme, and a Korean creator",
+     "webcam": "Sun playful with object near mouth (toothpick/floss), shoulders centered",
      "captures": [
       {
        "start": "00:48",
@@ -607,18 +610,18 @@
       "https://i.imgur.com/f3FINHj.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "01:03",
-     "min": 15,
-     "webcam": "Sun playful with object near mouth (toothpick/floss), shoulders centered",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "01:03",
+     "end": "01:18",
+     "min": 15,
      "category": "Productivity",
      "activity": "working on SelfTrack",
      "project": "SelfTrack",
      "screen_summary": "SelfTrack Daily Activity Log Google Sheet open, reviewing rows",
+     "webcam": "present",
      "captures": [
       {
        "start": "01:03",
@@ -631,18 +634,18 @@
       "https://i.imgur.com/cPKj7F4.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "01:18",
-     "min": 15,
-     "webcam": "present",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "01:18",
+     "end": "02:33",
+     "min": 75,
      "category": "Leisure",
      "activity": "watching The Expanse",
      "project": "The Expanse",
      "screen_summary": "Sci-fi corridor scene, character carrying box through green-lit ship hallway",
+     "webcam": "present",
      "captures": [
       {
        "start": "01:18",
@@ -683,18 +686,18 @@
       "https://i.imgur.com/AorhyLP.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "02:33",
-     "min": 75,
-     "webcam": "present",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "02:33",
+     "end": "09:48",
+     "min": 435,
      "category": "AFK/Idle",
      "activity": "sleeping",
      "project": "Sleep",
      "screen_summary": "overnight sleep gap autofill",
+     "webcam": "absent",
      "captures": [
       {
        "start": "02:33",
@@ -873,11 +876,8 @@
      ],
      "images": [],
      "sensitive_count": 29,
-     "notes": "",
-     "end": "09:48",
-     "min": 435,
-     "webcam": "absent",
-     "sensitive": true
+     "sensitive": true,
+     "notes": ""
     }
    ],
    "dailySummary": {
@@ -920,10 +920,13 @@
    "blocks": [
     {
      "start": "10:06",
+     "end": "10:21",
+     "min": 15,
      "category": "Admin/Errands",
      "activity": "managing torrent downloads",
      "project": "Personal",
      "screen_summary": "uTorrent Web dashboard open over scenic desktop wallpaper, 38GB downloaded / 9.5GB uploaded",
+     "webcam": "present",
      "captures": [
       {
        "start": "10:06",
@@ -936,18 +939,18 @@
       "https://i.imgur.com/1py712S.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "10:21",
-     "min": 15,
-     "webcam": "present",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "10:21",
+     "end": "11:51",
+     "min": 90,
      "category": "AFK/Idle",
      "activity": "away from desk",
      "project": "Gym",
      "screen_summary": "Notepad open with single word 'Gym' typed; user not at desk",
+     "webcam": "absent",
      "captures": [
       {
        "start": "10:21",
@@ -995,18 +998,18 @@
       "https://i.imgur.com/xfarIWq.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "11:51",
-     "min": 90,
-     "webcam": "absent",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "11:51",
+     "end": "12:06",
+     "min": 15,
      "category": "Learning",
      "activity": "watching math YouTube",
      "project": "Math/Learning",
      "screen_summary": "YouTube search for 'erdos math problems' — Numberphile Erdős Numbers thumbnail visible",
+     "webcam": "present",
      "captures": [
       {
        "start": "11:51",
@@ -1019,18 +1022,18 @@
       "https://i.imgur.com/wXIUyjp.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "12:06",
-     "min": 15,
-     "webcam": "present",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "12:07",
+     "end": "12:37",
+     "min": 30,
      "category": "Leisure",
      "activity": "watching YouTube",
      "project": "Leisure",
      "screen_summary": "YouTube article-card style video about Apple AirPods Ultra with cameras (Bloomberg)",
+     "webcam": "present",
      "captures": [
       {
        "start": "12:07",
@@ -1050,18 +1053,18 @@
       "https://i.imgur.com/TWVp4xs.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "12:37",
-     "min": 30,
-     "webcam": "present",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "12:37",
+     "end": "12:52",
+     "min": 15,
      "category": "Learning",
      "activity": "watching AI tutorial",
      "project": "AI Research",
      "screen_summary": "NetworkChuck YouTube 'can you run hermes locally' — Codex provider list (Nous Portal, OpenRouter, LM Studio)",
+     "webcam": "present",
      "captures": [
       {
        "start": "12:37",
@@ -1074,18 +1077,18 @@
       "https://i.imgur.com/7ypa5uD.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "12:52",
-     "min": 15,
-     "webcam": "present",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "12:52",
+     "end": "13:07",
+     "min": 15,
      "category": "Productivity",
      "activity": "reviewing SelfTrack dashboard",
      "project": "SelfTrack",
      "screen_summary": "SelfTrack daily activity dashboard open in Chrome, browsing recent rows, DevTools panel visible",
+     "webcam": "present",
      "captures": [
       {
        "start": "12:52",
@@ -1098,18 +1101,18 @@
       "https://i.imgur.com/R0ig3aH.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "13:07",
-     "min": 15,
-     "webcam": "present",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "13:07",
+     "end": "13:22",
+     "min": 15,
      "category": "Learning",
      "activity": "reading AI benchmark",
      "project": "AI Research",
      "screen_summary": "Hermes Benchmark thread on X: GPT-5.5 vs Opus 4.7 (3/3 each, Opus 1.9x faster, GPT-5.5 12% cheaper)",
+     "webcam": "present",
      "captures": [
       {
        "start": "13:07",
@@ -1122,18 +1125,18 @@
       "https://i.imgur.com/AgzwyGi.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "13:22",
-     "min": 15,
-     "webcam": "present",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "13:22",
+     "end": "13:37",
+     "min": 15,
      "category": "AFK/Idle",
      "activity": "away from desk",
      "project": "Haircut",
      "screen_summary": "PROMPTs.txt open with note 'Going to get haircut'",
+     "webcam": "absent",
      "captures": [
       {
        "start": "13:22",
@@ -1146,18 +1149,18 @@
       "https://i.imgur.com/A98Y1Bc.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "13:37",
-     "min": 15,
-     "webcam": "absent",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "13:37",
+     "end": "04:08",
+     "min": 870,
      "category": "AFK/Idle",
      "activity": "haircut errand",
      "project": "Haircut",
      "screen_summary": "PROMPTs.txt open with note 'Going to get haircut'; webcam dark",
+     "webcam": "absent",
      "captures": [
       {
        "start": "13:37",
@@ -1569,11 +1572,8 @@
       "https://i.imgur.com/8BhPNq6.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "04:08",
-     "min": 870,
-     "webcam": "absent",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     }
    ],
    "dailySummary": {
@@ -1619,10 +1619,13 @@
    "blocks": [
     {
      "start": "04:08",
+     "end": "06:38",
+     "min": 150,
      "category": "AFK/Idle",
      "activity": "haircut errand",
      "project": "Haircut",
      "screen_summary": "PROMPTs.txt open with note 'Going to get haircut'; room dark, user away",
+     "webcam": "absent",
      "captures": [
       {
        "start": "04:08",
@@ -1698,18 +1701,18 @@
       "https://i.imgur.com/Bo8nBoe.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "06:38",
-     "min": 150,
-     "webcam": "absent",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "16:01",
+     "end": "16:16",
+     "min": 15,
      "category": "Leisure",
      "activity": "streaming via uTorrent Web",
      "project": "Media/Leisure",
      "screen_summary": "uTorrent Web dashboard open with media player streaming a video clip; desktop with file folders visible",
+     "webcam": "present, head centered, neutral expression",
      "captures": [
       {
        "start": "16:01",
@@ -1722,18 +1725,18 @@
       "https://i.imgur.com/OzhtDKo.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "16:16",
-     "min": 15,
-     "webcam": "present, head centered, neutral expression",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "16:16",
+     "end": "16:46",
+     "min": 30,
      "category": "Productivity",
      "activity": "OpenClaw agent control",
      "project": "SelfTrack",
      "screen_summary": "OpenClaw Control web app in browser — Chat tab open with Tom agent session, viewing assistant outputs and config",
+     "webcam": "absent, empty bedroom visible",
      "captures": [
       {
        "start": "16:16",
@@ -1753,18 +1756,18 @@
       "https://i.imgur.com/CQdgtrX.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "16:46",
-     "min": 30,
-     "webcam": "absent, empty bedroom visible",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "16:46",
+     "end": "17:16",
+     "min": 30,
      "category": "Leisure",
      "activity": "watching LoL YouTube",
      "project": "LoL/Leisure",
      "screen_summary": "YouTube playing a Korean League of Legends coaching video titled '2강 피지컬 훈련'",
+     "webcam": "present, head forward looking down at desk",
      "captures": [
       {
        "start": "16:46",
@@ -1784,18 +1787,18 @@
       "https://i.imgur.com/PfKkMxc.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "17:16",
-     "min": 30,
-     "webcam": "present, head forward looking down at desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "17:16",
+     "end": "17:31",
+     "min": 15,
      "category": "Leisure",
      "activity": "watching Game Theory YouTube",
      "project": "LoL/Leisure",
      "screen_summary": "YouTube playing 'Game Theory #27: Putin Enters the Chat' (Predictive History channel), a geopolitics explainer",
+     "webcam": "absent",
      "captures": [
       {
        "start": "17:16",
@@ -1808,18 +1811,18 @@
       "https://i.imgur.com/JyfDBBd.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "17:31",
-     "min": 15,
-     "webcam": "absent",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "17:31",
+     "end": "19:01",
+     "min": 90,
      "category": "Leisure",
      "activity": "playing Total War: Warhammer",
      "project": "Warhammer/Leisure",
      "screen_summary": "Total War: Warhammer battle scene on a snowy map; lord portrait and unit roster visible",
+     "webcam": "present, wearing headphones",
      "captures": [
       {
        "start": "17:31",
@@ -1867,18 +1870,18 @@
       "https://i.imgur.com/v5QuByO.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "19:01",
-     "min": 90,
-     "webcam": "present, wearing headphones",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "19:01",
+     "end": "19:16",
+     "min": 15,
      "category": "Leisure",
      "activity": "browsing X/Twitter",
      "project": "X/Leisure",
      "screen_summary": "X/Twitter post from @Wisdom_HQ — image of person holding sign 'I need a movie where the villain actually won'",
+     "webcam": "present, head centered, looking down",
      "captures": [
       {
        "start": "19:01",
@@ -1891,18 +1894,18 @@
       "https://i.imgur.com/Lccb9u7.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "19:16",
-     "min": 15,
-     "webcam": "present, head centered, looking down",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "19:16",
+     "end": "19:31",
+     "min": 15,
      "category": "Leisure",
      "activity": "watching AI/sci-fi YouTube",
      "project": "YouTube/Leisure",
      "screen_summary": "YouTube playing 'The First 48 Hours of an AI Civil War - A Realistic Scenario' by Species (Documenting AGI), with growth chart visualization",
+     "webcam": "absent, empty bedroom visible",
      "captures": [
       {
        "start": "19:16",
@@ -1915,18 +1918,18 @@
       "https://i.imgur.com/9W2RTcy.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "19:31",
-     "min": 15,
-     "webcam": "absent, empty bedroom visible",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "20:36",
+     "end": "20:51",
+     "min": 15,
      "category": "AFK/Idle",
      "activity": "desktop idle (VPN running)",
      "project": "Idle",
      "screen_summary": "Windows desktop with Windscribe VPN panel connected to Montreal node 6.7; no active app windows",
+     "webcam": "absent, empty bedroom visible",
      "captures": [
       {
        "start": "20:36",
@@ -1939,18 +1942,18 @@
       "https://i.imgur.com/YEALPcf.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "20:51",
-     "min": 15,
-     "webcam": "absent, empty bedroom visible",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "20:51",
+     "end": "21:06",
+     "min": 15,
      "category": "Leisure",
      "activity": "browsing X/Twitter",
      "project": "X/Leisure",
      "screen_summary": "X/Twitter For You feed with tech/news posts (Hermes Agent, Vibe Coding, AI startup news) and a tennis video",
+     "webcam": "present, head bent forward leaning down",
      "captures": [
       {
        "start": "20:51",
@@ -1963,18 +1966,18 @@
       "https://i.imgur.com/Ux9oDig.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "21:06",
-     "min": 15,
-     "webcam": "present, head bent forward leaning down",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "21:06",
+     "end": "21:21",
+     "min": 15,
      "category": "Leisure",
      "activity": "watching Game Theory YouTube",
      "project": "YouTube/Leisure",
      "screen_summary": "YouTube playing 'Game Theory #27: Putin Enters the Chat' — geopolitics explainer with whiteboard diagram (USA, dollar, Saudi Arabia)",
+     "webcam": "present, head centered",
      "captures": [
       {
        "start": "21:06",
@@ -1987,18 +1990,18 @@
       "https://i.imgur.com/wvuLmAg.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "21:21",
-     "min": 15,
-     "webcam": "present, head centered",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "21:21",
+     "end": "21:36",
+     "min": 15,
      "category": "Leisure",
      "activity": "browsing YouTube",
      "project": "YouTube/Leisure",
      "screen_summary": "YouTube home feed with 'Roof Korean' shooting video and other recommended shorts/clips",
+     "webcam": "present, head centered",
      "captures": [
       {
        "start": "21:21",
@@ -2011,18 +2014,18 @@
       "https://i.imgur.com/woXRI5r.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "21:36",
-     "min": 15,
-     "webcam": "present, head centered",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "21:36",
+     "end": "21:51",
+     "min": 15,
      "category": "Leisure",
      "activity": "watching Game Theory YouTube",
      "project": "YouTube/Leisure",
      "screen_summary": "YouTube playing 'Game Theory #27: Putin Enters the Chat' — geopolitics explainer showing International North-South Transport Corridor map",
+     "webcam": "present, head centered",
      "captures": [
       {
        "start": "21:36",
@@ -2035,18 +2038,18 @@
       "https://i.imgur.com/seKA3UK.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "21:51",
-     "min": 15,
-     "webcam": "present, head centered",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "21:51",
+     "end": "23:06",
+     "min": 75,
      "category": "Leisure",
      "activity": "watching movie/TV",
      "project": "Movie/Leisure",
      "screen_summary": "Movie/TV scene of a couple with subtitle 'I lucked out when I arrange-married you.'",
+     "webcam": "absent (dark room)",
      "captures": [
       {
        "start": "21:51",
@@ -2087,18 +2090,18 @@
       "https://i.imgur.com/8dQW8i4.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "23:06",
-     "min": 75,
-     "webcam": "absent (dark room)",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "23:06",
+     "end": "23:51",
+     "min": 45,
      "category": "Leisure",
      "activity": "watching AoE2 stream",
      "project": "AoE2/Leisure",
      "screen_summary": "Age of Empires 2 tournament/stream broadcast with caster face-cam overlay and chat",
+     "webcam": "present, head centered",
      "captures": [
       {
        "start": "23:06",
@@ -2125,18 +2128,18 @@
       "https://i.imgur.com/dMU3eLu.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "23:51",
-     "min": 45,
-     "webcam": "present, head centered",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "23:51",
+     "end": "00:06",
+     "min": 15,
      "category": "Leisure",
      "activity": "browsing YouTube",
      "project": "YouTube/Leisure",
      "screen_summary": "YouTube home feed with mixed recommendations (How to Build an MVP, 1100 Player For All OpenFront, Korean drama clip)",
+     "webcam": "present, head centered",
      "captures": [
       {
        "start": "23:51",
@@ -2149,18 +2152,18 @@
       "https://i.imgur.com/S11aW9G.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "00:06",
-     "min": 15,
-     "webcam": "present, head centered",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "00:06",
+     "end": "00:21",
+     "min": 15,
      "category": "Leisure",
      "activity": "Watching YouTube",
      "project": "Personal/Leisure",
      "screen_summary": "YouTube video 'The SpaceX IPO... It's Worse Than You Think' by Casual Finance — chart of AI valuations vs revenue (OpenAI, Anthropic, xAI).",
+     "webcam": "Dim room, Sun lying on bed in white shirt, looking at phone/screen — winding down.",
      "captures": [
       {
        "start": "00:06",
@@ -2173,18 +2176,18 @@
       "https://i.imgur.com/Ij6AbRF.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "00:21",
-     "min": 15,
-     "webcam": "Dim room, Sun lying on bed in white shirt, looking at phone/screen — winding down.",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "00:21",
+     "end": "12:06",
+     "min": 705,
      "category": "AFK/Idle",
      "activity": "Sleeping",
      "project": "Sleep",
      "screen_summary": "(no capture — sleep autofill)",
+     "webcam": "(no capture)",
      "captures": [
       {
        "start": "00:21",
@@ -2471,11 +2474,8 @@
      ],
      "images": [],
      "sensitive_count": 47,
-     "notes": "",
-     "end": "12:06",
-     "min": 705,
-     "webcam": "(no capture)",
-     "sensitive": true
+     "sensitive": true,
+     "notes": ""
     }
    ],
    "dailySummary": {
@@ -2520,10 +2520,13 @@
    "blocks": [
     {
      "start": "12:15",
+     "end": "12:30",
+     "min": 15,
      "category": "Leisure",
      "activity": "Watching YouTube",
      "project": "Personal/Leisure",
      "screen_summary": "YouTube video 'I Tried the World's Simplest Productivity Trick (it worked)' by Simple Lucas, loading.",
+     "webcam": "Sun facing forward, head dropped down looking at lap/phone, slouched posture.",
      "captures": [
       {
        "start": "12:15",
@@ -2536,18 +2539,18 @@
       "https://i.imgur.com/uiyWrLF.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "12:30",
-     "min": 15,
-     "webcam": "Sun facing forward, head dropped down looking at lap/phone, slouched posture.",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "12:30",
+     "end": "12:45",
+     "min": 15,
      "category": "Productivity",
      "activity": "Configuring Q-Admin agent",
      "project": "Productivity/Tom-infra",
      "screen_summary": "Discord 'Q.Admin' server, #ai-channel — chatting with the Q-Admin agent ('What I can do for you'): scheduling, jobs, follow-ups, Docs & Sheets, web search, messaging, code & files.",
+     "webcam": "Sun seated upright at desk, head facing camera, slight downward gaze.",
      "captures": [
       {
        "start": "12:30",
@@ -2560,18 +2563,18 @@
       "https://i.imgur.com/mmWU351.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "12:45",
-     "min": 15,
-     "webcam": "Sun seated upright at desk, head facing camera, slight downward gaze.",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "12:45",
+     "end": "13:00",
+     "min": 15,
      "category": "Productivity",
      "activity": "Configuring OpenClaw agent",
      "project": "Productivity/Tom-infra",
      "screen_summary": "OpenClaw Console, agent Chat tab — reviewing tool-output threads about Mon-Sat normal-days digest, Sunday consolidated weekly summary, any-day-with-critical-issues handling. Iterating on Telegram digest agent.",
+     "webcam": "Sun upright, centered, looking down at keyboard — focused.",
      "captures": [
       {
        "start": "12:45",
@@ -2584,18 +2587,18 @@
       "https://i.imgur.com/ifgsodV.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "13:00",
-     "min": 15,
-     "webcam": "Sun upright, centered, looking down at keyboard — focused.",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "13:00",
+     "end": "13:15",
+     "min": 15,
      "category": "Productivity",
      "activity": "Reviewing Simple Rizz analytics",
      "project": "Simple Rizz",
      "screen_summary": "Google Sheets 'simple_rizz TikTok analytics — IN-FIELD ONLY' — table of TikTok posts (date, posted time, views, likes, link, description, transcript, screenshot frames).",
+     "webcam": "Sun upright, head over shoulders, looking down at screen — composed.",
      "captures": [
       {
        "start": "13:00",
@@ -2608,18 +2611,18 @@
       "https://i.imgur.com/ZlCu8nX.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "13:15",
-     "min": 15,
-     "webcam": "Sun upright, head over shoulders, looking down at screen — composed.",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "13:15",
+     "end": "13:30",
+     "min": 15,
      "category": "Productivity",
      "activity": "Drafting Simple Rizz content with agent",
      "project": "Simple Rizz",
      "screen_summary": "OpenClaw Console agent chat — discussing a 30-day rejection challenge content plan ('Day 1 of getting rejected on purpose', day-by-day plan).",
+     "webcam": "No person in frame — Sun briefly away from desk.",
      "captures": [
       {
        "start": "13:15",
@@ -2632,18 +2635,18 @@
       "https://i.imgur.com/eQ8GNy6.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "13:30",
-     "min": 15,
-     "webcam": "No person in frame — Sun briefly away from desk.",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "13:30",
+     "end": "13:45",
+     "min": 15,
      "category": "Productivity",
      "activity": "Reviewing Simple Rizz analytics",
      "project": "Simple Rizz",
      "screen_summary": "Google Sheets 'simple_rizz TikTok analytics — IN-FIELD ONLY' — focused on individual TikTok rows with screenshot thumbnails.",
+     "webcam": "Sun centered, slight downward gaze, blurred but upright torso.",
      "captures": [
       {
        "start": "13:30",
@@ -2656,18 +2659,18 @@
       "https://i.imgur.com/w24etOX.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "13:45",
-     "min": 15,
-     "webcam": "Sun centered, slight downward gaze, blurred but upright torso.",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "13:45",
+     "end": "14:00",
+     "min": 15,
      "category": "Leisure",
      "activity": "Watching YouTube Shorts",
      "project": "Personal/Leisure",
      "screen_summary": "YouTube Shorts — Korean short '지구종말 12시간 전 함께 해야 할 사람' (who you'd want with you 12 hours before the world ends), channel @rinx.0.",
+     "webcam": "Sun upright, head slightly tilted, looking down at screen.",
      "captures": [
       {
        "start": "13:45",
@@ -2680,18 +2683,18 @@
       "https://i.imgur.com/XbaNQvo.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "14:00",
-     "min": 15,
-     "webcam": "Sun upright, head slightly tilted, looking down at screen.",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "14:00",
+     "end": "14:15",
+     "min": 15,
      "category": "Productivity",
      "activity": "Drafting Simple Rizz content with agent",
      "project": "Simple Rizz",
      "screen_summary": "OpenClaw Console agent chat — Day 1/Day 2 rejection-challenge content plan, refining steps and avoiding visible 'getting rejected' framing.",
+     "webcam": "Sun centered upright, eyes closed/relaxed, head straight.",
      "captures": [
       {
        "start": "14:00",
@@ -2704,18 +2707,18 @@
       "https://i.imgur.com/AUCv08M.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "14:15",
-     "min": 15,
-     "webcam": "Sun centered upright, eyes closed/relaxed, head straight.",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "14:15",
+     "end": "14:45",
+     "min": 30,
      "category": "Learning",
      "activity": "Reading essay on Claude.ai",
      "project": "Learning/Reading",
      "screen_summary": "Claude.ai conversation 'Exit, civilization, and the rise of enlightenment (through disposition)' — 'The takeaway' on Napoleon, essentialist vs situationalist view of human nature, Schopenhauer, La Rochefoucauld.",
+     "webcam": "Sun upright, head leaning slightly forward, looking down — reading.",
      "captures": [
       {
        "start": "14:15",
@@ -2735,18 +2738,18 @@
       "https://i.imgur.com/VbjznAG.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "14:45",
-     "min": 30,
-     "webcam": "Sun upright, head leaning slightly forward, looking down — reading.",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "14:45",
+     "end": "15:00",
+     "min": 15,
      "category": "AFK/Idle",
      "activity": "Away from desk",
      "project": "Personal/Break",
      "screen_summary": "Claude.ai still on the 'Exit, civilization, enlightenment' takeaway page — no interaction.",
+     "webcam": "No person in frame — empty bed/room, Sun away from desk.",
      "captures": [
       {
        "start": "14:45",
@@ -2759,18 +2762,18 @@
       "https://i.imgur.com/EGI9l9O.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "15:00",
-     "min": 15,
-     "webcam": "No person in frame — empty bed/room, Sun away from desk.",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "15:00",
+     "end": "15:30",
+     "min": 30,
      "category": "Learning",
      "activity": "Reading essay on Claude.ai",
      "project": "Learning/Reading",
      "screen_summary": "Claude.ai — Napoleon/Schopenhauer essay, 'The scrap: Rétimeau's challenge' and 'His sharp reaction' sections.",
+     "webcam": "Sun upright, centered, head over shoulders.",
      "captures": [
       {
        "start": "15:00",
@@ -2790,18 +2793,18 @@
       "https://i.imgur.com/s4fObCw.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "15:30",
-     "min": 30,
-     "webcam": "Sun upright, centered, head over shoulders.",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "15:30",
+     "end": "16:00",
+     "min": 30,
      "category": "Leisure",
      "activity": "Playing Total War: Warhammer",
      "project": "Gaming/Warhammer",
      "screen_summary": "Total War: Warhammer — 'Start Lucent Maze Battle' Khidev Expedition vs Apostles of Change; Decisive Victory screen with rewards panel.",
+     "webcam": "Sun upright but offset to viewer left, head over shoulders.",
      "captures": [
       {
        "start": "15:30",
@@ -2821,18 +2824,18 @@
       "https://i.imgur.com/0kFHb5q.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "16:00",
-     "min": 30,
-     "webcam": "Sun upright but offset to viewer left, head over shoulders.",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "16:00",
+     "end": "16:15",
+     "min": 15,
      "category": "Leisure",
      "activity": "Watching YouTube Shorts",
      "project": "Personal/Leisure",
      "screen_summary": "YouTube Shorts — 'How Brad Pitt BROKE Every Guy's Brain in Troy' by The Story Smarts.",
+     "webcam": "Sun head close to camera, head jutting forward — slouched.",
      "captures": [
       {
        "start": "16:00",
@@ -2845,18 +2848,18 @@
       "https://i.imgur.com/P37Yp7j.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "16:15",
-     "min": 15,
-     "webcam": "Sun head close to camera, head jutting forward — slouched.",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "16:15",
+     "end": "17:15",
+     "min": 60,
      "category": "Learning",
      "activity": "Reading essay on Claude.ai",
      "project": "Learning/Reading",
      "screen_summary": "Claude.ai — 'Exit, civilization, and the rise of enlightenment', 'The takeaway' section on Madame de Rémusat, Napoleon's wounded vanity, La Rochefoucauld.",
+     "webcam": "Sun upright, head over shoulders, shoulders level.",
      "captures": [
       {
        "start": "16:15",
@@ -2890,18 +2893,18 @@
       "https://i.imgur.com/X7ozTae.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "17:15",
-     "min": 60,
-     "webcam": "Sun upright, head over shoulders, shoulders level.",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "17:15",
+     "end": "18:30",
+     "min": 75,
      "category": "AFK/Idle",
      "activity": "Away from desk",
      "project": "Personal/Break",
      "screen_summary": "Claude.ai still parked on the same essay 'The takeaway' page — no interaction.",
+     "webcam": "Empty room — Sun away from desk.",
      "captures": [
       {
        "start": "17:15",
@@ -2942,18 +2945,18 @@
       "https://i.imgur.com/FPAU1bl.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "18:30",
-     "min": 75,
-     "webcam": "Empty room — Sun away from desk.",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "18:30",
+     "end": "19:00",
+     "min": 30,
      "category": "AFK/Idle",
      "activity": "On phone, away from desktop",
      "project": "Personal/Break",
      "screen_summary": "Claude.ai still parked on the same 'The takeaway' page — no desktop interaction.",
+     "webcam": "Sun seated on bed using phone, upright, head over shoulders.",
      "captures": [
       {
        "start": "18:30",
@@ -2973,18 +2976,18 @@
       "https://i.imgur.com/QvRdYWE.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "19:00",
-     "min": 30,
-     "webcam": "Sun seated on bed using phone, upright, head over shoulders.",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "19:00",
+     "end": "19:30",
+     "min": 30,
      "category": "Learning",
      "activity": "Reading essay on Claude.ai",
      "project": "Learning/Reading",
      "screen_summary": "Claude.ai — same 'Exit, civilization, enlightenment' essay 'The takeaway' page.",
+     "webcam": "Sun centered, head slightly forward but body upright.",
      "captures": [
       {
        "start": "19:00",
@@ -3004,18 +3007,18 @@
       "https://i.imgur.com/KUZhKSK.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "19:30",
-     "min": 30,
-     "webcam": "Sun centered, head slightly forward but body upright.",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "19:30",
+     "end": "19:45",
+     "min": 15,
      "category": "Productivity",
      "activity": "Drafting Simple Rizz content with agent",
      "project": "Simple Rizz",
      "screen_summary": "OpenClaw Console agent chat — back on the rejection challenge Day 1/Day 2 content plan.",
+     "webcam": "Sun close to camera, head jutting forward, looking down — slouched.",
      "captures": [
       {
        "start": "19:30",
@@ -3028,18 +3031,18 @@
       "https://i.imgur.com/RVaSY6z.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "19:45",
-     "min": 15,
-     "webcam": "Sun close to camera, head jutting forward, looking down — slouched.",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "19:45",
+     "end": "20:00",
+     "min": 15,
      "category": "Leisure",
      "activity": "Browsing streaming site",
      "project": "Personal/Leisure",
      "screen_summary": "Soap2Day-like 'Watch Free DVDs 2025-2026' browser tab — grid of movie thumbnails (Outcome, War Machine, Yeti, Den Brother, etc.).",
+     "webcam": "Sun centered, upright, looking down.",
      "captures": [
       {
        "start": "19:45",
@@ -3052,18 +3055,18 @@
       "https://i.imgur.com/gXp6qc9.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "20:00",
-     "min": 15,
-     "webcam": "Sun centered, upright, looking down.",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "20:00",
+     "end": "20:15",
+     "min": 15,
      "category": "AFK/Idle",
      "activity": "Away from desk",
      "project": "",
      "screen_summary": "Claude.ai still parked on the same essay 'The takeaway' page — no interaction.",
+     "webcam": "Empty room — Sun away from desk.",
      "captures": [
       {
        "start": "20:00",
@@ -3076,18 +3079,18 @@
       "https://i.imgur.com/Hq7PDqa.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "20:15",
-     "min": 15,
-     "webcam": "Empty room — Sun away from desk.",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "20:15",
+     "end": "22:46",
+     "min": 150,
      "category": "Leisure",
      "activity": "Watching movie",
      "project": "Leisure",
      "screen_summary": "Full-screen movie scene — bearded man in space-suit / lab-tech rig, industrial setting.",
+     "webcam": "Sun upright with headphones, drinking water — body upright.",
      "captures": [
       {
        "start": "20:15",
@@ -3163,18 +3166,18 @@
       "https://i.imgur.com/Fyi4S7I.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "22:46",
-     "min": 150,
-     "webcam": "Sun upright with headphones, drinking water — body upright.",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "22:46",
+     "end": "23:01",
+     "min": 15,
      "category": "Leisure",
      "activity": "Browsing X/Twitter",
      "project": "Leisure",
      "screen_summary": "X/Twitter For-you feed — BRICS News post about Taiwan/China territorial waters, 'NO CONTEXT HUMANS' post about machine learning, trending sidebar.",
+     "webcam": "Sun upright, hand on face, centered, dim lighting.",
      "captures": [
       {
        "start": "22:46",
@@ -3187,18 +3190,18 @@
       "https://i.imgur.com/zXf5FYn.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "23:01",
-     "min": 15,
-     "webcam": "Sun upright, hand on face, centered, dim lighting.",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "23:01",
+     "end": "23:16",
+     "min": 15,
      "category": "Learning",
      "activity": "Researching Napoleon",
      "project": "Leisure/History",
      "screen_summary": "Browser article — Napoleon Bonaparte topic with embedded BBC video and Drama documentaries on Toulon (1793) and Samurai general Tokugawa Ieyasu.",
+     "webcam": "Sun lying on bed in dark — phone screen lights his arm.",
      "captures": [
       {
        "start": "23:01",
@@ -3211,18 +3214,18 @@
       "https://i.imgur.com/7J07cru.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "23:16",
-     "min": 15,
-     "webcam": "Sun lying on bed in dark — phone screen lights his arm.",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "23:16",
+     "end": "00:01",
+     "min": 45,
      "category": "Learning",
      "activity": "Watching Napoleon docudrama",
      "project": "Leisure/History",
      "screen_summary": "Cosmos channel — Napoleon docudrama scene with older man with white moustache and a young woman, Greek subtitles ('Πήρα την Αβινιόν και τη Μασσαλία...').",
+     "webcam": "Dark frame, faint face silhouette looking down — Sun watching from bed.",
      "captures": [
       {
        "start": "23:16",
@@ -3249,18 +3252,18 @@
       "https://i.imgur.com/nRO6iPG.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "00:01",
-     "min": 45,
-     "webcam": "Dark frame, faint face silhouette looking down — Sun watching from bed.",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "00:01",
+     "end": "00:16",
+     "min": 15,
      "category": "Leisure",
      "activity": "Watching period drama film",
      "project": "Leisure/History",
      "screen_summary": "Streaming a Napoleon-era period drama (Cosmos overlay/site UI), dim historical interior scene",
+     "webcam": "Dim room, person facing screen, hands near face",
      "captures": [
       {
        "start": "00:01",
@@ -3273,18 +3276,18 @@
       "https://i.imgur.com/JgaRc3b.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "00:16",
-     "min": 15,
-     "webcam": "Dim room, person facing screen, hands near face",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "00:16",
+     "end": "00:31",
+     "min": 15,
      "category": "Leisure",
      "activity": "Watching YouTube Napoleon videos",
      "project": "Leisure/History",
      "screen_summary": "YouTube search 'terror and villains napoleon' showing War & Peace Battle of Borodino and Napoleon battle scene thumbnails",
+     "webcam": "Dim room, person looking at screen, neutral expression",
      "captures": [
       {
        "start": "00:16",
@@ -3297,18 +3300,18 @@
       "https://i.imgur.com/QifZHTT.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "00:31",
-     "min": 15,
-     "webcam": "Dim room, person looking at screen, neutral expression",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "00:31",
+     "end": "13:01",
+     "min": 750,
      "category": "AFK/Idle",
      "activity": "sleeping",
      "project": "Sleep",
      "screen_summary": "(autofilled — overnight gap)",
+     "webcam": "",
      "captures": [
       {
        "start": "00:31",
@@ -3613,11 +3616,8 @@
      ],
      "images": [],
      "sensitive_count": 50,
-     "notes": "",
-     "end": "13:01",
-     "min": 750,
-     "webcam": "",
-     "sensitive": true
+     "sensitive": true,
+     "notes": ""
     }
    ],
    "dailySummary": {
@@ -3634,7 +3634,8 @@
     },
     "top3": "Sleeping (11h 45m) · Reading essay on Claude.ai (2h 30m) · Watching movie (2h 30m)",
     "ai_takeaway": "Only 1h 45m productive (Simple Rizz content drafting + analytics, a little agent config); the rest was sleep (11h 45m), a movie, and a long Claude essay read. Simple Rizz got a small real push; MBTI Oracle / Q Rizz got nothing.",
-    "first_last": "00:06 / 23:46"
+    "first_last": "00:06 / 23:46",
+    "note": ""
    }
   },
   {
@@ -3663,10 +3664,13 @@
    "blocks": [
     {
      "start": "13:08",
+     "end": "13:23",
+     "min": 15,
      "category": "Admin/Errands",
      "activity": "Configuring Windscribe VPN",
      "project": "Admin",
      "screen_summary": "Chrome new tab (Google) with Windscribe VPN popup showing Montreal Expo 67 server selection",
+     "webcam": "Bright room, person hunched forward with head down, slouching posture",
      "captures": [
       {
        "start": "13:08",
@@ -3679,18 +3683,18 @@
       "https://i.imgur.com/oGlo89F.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "13:23",
-     "min": 15,
-     "webcam": "Bright room, person hunched forward with head down, slouching posture",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "13:23",
+     "end": "13:38",
+     "min": 15,
      "category": "Leisure",
      "activity": "Watching SpaceX IPO podcast",
      "project": "Learning/Business",
      "screen_summary": "YouTube Moonshots episode 'SpaceX Files Biggest IPO in History' with Peter Diamandis and Mark Cuban",
+     "webcam": "Person off-center right, head turned slightly, shoulders level",
      "captures": [
       {
        "start": "13:23",
@@ -3703,18 +3707,18 @@
       "https://i.imgur.com/5qufrq0.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "13:38",
-     "min": 15,
-     "webcam": "Person off-center right, head turned slightly, shoulders level",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "13:38",
+     "end": "13:53",
+     "min": 15,
      "category": "Communications",
      "activity": "Logging in to Reddit",
      "project": "Reddit ops",
      "screen_summary": "Reddit login modal open with email autofill suggestions visible",
+     "webcam": "Person centered, looking down at screen, shoulders level",
      "captures": [
       {
        "start": "13:38",
@@ -3725,18 +3729,18 @@
      ],
      "images": [],
      "sensitive_count": 1,
-     "notes": "",
-     "end": "13:53",
-     "min": 15,
-     "webcam": "Person centered, looking down at screen, shoulders level",
-     "sensitive": true
+     "sensitive": true,
+     "notes": ""
     },
     {
      "start": "13:53",
+     "end": "14:08",
+     "min": 15,
      "category": "Learning",
      "activity": "Researching walking and fascia",
      "project": "Health",
      "screen_summary": "YouTube search 'walking and fascia' showing fix-walking, plantar fascia, tight calves video results",
+     "webcam": "Person centered, head tilted down, neutral expression",
      "captures": [
       {
        "start": "13:53",
@@ -3749,18 +3753,18 @@
       "https://i.imgur.com/ozu78sj.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "14:08",
-     "min": 15,
-     "webcam": "Person centered, head tilted down, neutral expression",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "14:08",
+     "end": "14:23",
+     "min": 15,
      "category": "Learning",
      "activity": "Researching walking posture with Claude",
      "project": "Health",
      "screen_summary": "Claude chat titled 'Fixing walking posture and foot pain' — highlighted section about clicking hip and ankle pain",
+     "webcam": "Person centered, looking forward, shoulders level",
      "captures": [
       {
        "start": "14:08",
@@ -3773,18 +3777,18 @@
       "https://i.imgur.com/qVBR80b.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "14:23",
-     "min": 15,
-     "webcam": "Person centered, looking forward, shoulders level",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "14:23",
+     "end": "14:38",
+     "min": 15,
      "category": "Learning",
      "activity": "Watching walking pronation video",
      "project": "Health",
      "screen_summary": "YouTube Orthoinfo video 'Walking/Pronation' showing barefoot walking gait on grid floor",
+     "webcam": "Person centered, slight downward gaze, shoulders level",
      "captures": [
       {
        "start": "14:23",
@@ -3797,18 +3801,18 @@
       "https://i.imgur.com/PCFuBid.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "14:38",
-     "min": 15,
-     "webcam": "Person centered, slight downward gaze, shoulders level",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "14:38",
+     "end": "14:53",
+     "min": 15,
      "category": "Learning",
      "activity": "Watching walking biomechanics lecture",
      "project": "Health",
      "screen_summary": "YouTube 'walking biomechanics' search — Stanford lecture by Scott Delp on running gait cycle and energetics",
+     "webcam": "Person centered, looking slightly down, shoulders level",
      "captures": [
       {
        "start": "14:38",
@@ -3821,18 +3825,18 @@
       "https://i.imgur.com/ZDtouun.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "14:53",
-     "min": 15,
-     "webcam": "Person centered, looking slightly down, shoulders level",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "14:53",
+     "end": "15:08",
+     "min": 15,
      "category": "Learning",
      "activity": "Watching 'How to Walk' tutorial",
      "project": "Health",
      "screen_summary": "YouTube 'how to walk properly' search — Grown.Healthy. response to Bob and Brad on walking technique",
+     "webcam": "Person looking down-right, slight head turn, shoulders level",
      "captures": [
       {
        "start": "14:53",
@@ -3845,18 +3849,18 @@
       "https://i.imgur.com/faD0Kbo.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "15:08",
-     "min": 15,
-     "webcam": "Person looking down-right, slight head turn, shoulders level",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "15:08",
+     "end": "15:23",
+     "min": 15,
      "category": "Learning",
      "activity": "Watching 'How to Walk Correctly' video",
      "project": "Health",
      "screen_summary": "YouTube Bob & Brad video 'Physical Therapist Shows How to Walk Correctly' — two physical therapists demonstrating walking",
+     "webcam": "Person hunched forward, head clearly down",
      "captures": [
       {
        "start": "15:08",
@@ -3869,18 +3873,18 @@
       "https://i.imgur.com/yPKHK7c.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "15:23",
-     "min": 15,
-     "webcam": "Person hunched forward, head clearly down",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "15:23",
+     "end": "15:38",
+     "min": 15,
      "category": "Learning",
      "activity": "Watching 'How to Walk' tutorial",
      "project": "Health",
      "screen_summary": "YouTube Grown.Healthy. 'How to Walk' response to Bob and Brad with skeleton model demonstration on tennis court backdrop",
+     "webcam": "Empty room — Sun away from desk",
      "captures": [
       {
        "start": "15:23",
@@ -3893,18 +3897,18 @@
       "https://i.imgur.com/p3kRBTw.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "15:38",
-     "min": 15,
-     "webcam": "Empty room — Sun away from desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "15:38",
+     "end": "15:53",
+     "min": 15,
      "category": "Productivity",
      "activity": "Discussing walking biomechanics with Claude",
      "project": "Health",
      "screen_summary": "Claude chat 'Fixing walking posture and foot pain' — Sun composed long message about reverse-engineering walking from first principles",
+     "webcam": "Person centered, looking forward, shoulders level",
      "captures": [
       {
        "start": "15:38",
@@ -3917,18 +3921,18 @@
       "https://i.imgur.com/82mhM9H.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "15:53",
-     "min": 15,
-     "webcam": "Person centered, looking forward, shoulders level",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "15:53",
+     "end": "17:39",
+     "min": 105,
      "category": "AFK/Idle",
      "activity": "Away from desk",
      "project": "",
      "screen_summary": "Claude chat 'Fixing walking posture and foot pain' idle — same long message draft still on screen",
+     "webcam": "Empty room — Sun away from desk",
      "captures": [
       {
        "start": "15:53",
@@ -3983,18 +3987,18 @@
       "https://i.imgur.com/uUcELwC.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "17:39",
-     "min": 105,
-     "webcam": "Empty room — Sun away from desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "17:39",
+     "end": "17:54",
+     "min": 15,
      "category": "AFK/Idle",
      "activity": "Standing/moving near desk",
      "project": "",
      "screen_summary": "Claude chat 'Fixing walking posture and foot pain' — Sun's long message now submitted with Claude's reply visible",
+     "webcam": "Sun standing with water bottle, side view, moving",
      "captures": [
       {
        "start": "17:39",
@@ -4007,18 +4011,18 @@
       "https://i.imgur.com/TPbSklE.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "17:54",
-     "min": 15,
-     "webcam": "Sun standing with water bottle, side view, moving",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "17:54",
+     "end": "18:09",
+     "min": 15,
      "category": "Learning",
      "activity": "Watching 'How to Walk (forefoot/midfoot)' video",
      "project": "Health",
      "screen_summary": "YouTube Grown & Healthy 'How to Walk (forefoot/midfoot)' video — outdoor walking demonstration on a path",
+     "webcam": "Sun back at desk, head tilted down slightly, shoulders level",
      "captures": [
       {
        "start": "17:54",
@@ -4031,18 +4035,18 @@
       "https://i.imgur.com/ktShCDo.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "18:09",
-     "min": 15,
-     "webcam": "Sun back at desk, head tilted down slightly, shoulders level",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "18:09",
+     "end": "18:24",
+     "min": 15,
      "category": "Productivity",
      "activity": "Reviewing SelfTrack dashboard",
      "project": "SelfTrack",
      "screen_summary": "Life of Sun' Activity Dashboard showing chronological clock for 2026-05-23 with category breakdown and YouTube Shorts capture entry visible",
+     "webcam": "Person centered, looking forward, shoulders level",
      "captures": [
       {
        "start": "18:09",
@@ -4055,18 +4059,18 @@
       "https://i.imgur.com/XIa4kbu.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "18:24",
-     "min": 15,
-     "webcam": "Person centered, looking forward, shoulders level",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "18:24",
+     "end": "18:39",
+     "min": 15,
      "category": "Leisure",
      "activity": "Browsing YouTube home feed",
      "project": "Leisure",
      "screen_summary": "YouTube home with 'How To Walk - Don't do this!' Natural Way to Walk video and SpaceX IPO podcast plus barefoot shorts",
+     "webcam": "Close-up of face, hand to chin, leaning toward screen",
      "captures": [
       {
        "start": "18:24",
@@ -4079,18 +4083,18 @@
       "https://i.imgur.com/dShn7QQ.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "18:39",
-     "min": 15,
-     "webcam": "Close-up of face, hand to chin, leaning toward screen",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "18:39",
+     "end": "18:54",
+     "min": 15,
      "category": "Productivity",
      "activity": "OpenClaw chat about SelfTrack capture alignment",
      "project": "SelfTrack",
      "screen_summary": "OpenClaw web chat with claude-opus-4-7 discussing alignment between screen.png and snapshot.jpg captures in SelfTrack",
+     "webcam": "Empty room — Sun away from desk",
      "captures": [
       {
        "start": "18:39",
@@ -4103,18 +4107,18 @@
       "https://i.imgur.com/h7EwlI3.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "18:54",
-     "min": 15,
-     "webcam": "Empty room — Sun away from desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "18:54",
+     "end": "19:09",
+     "min": 15,
      "category": "Learning",
      "activity": "Watching fascia stretching video",
      "project": "Health",
      "screen_summary": "YouTube Brotherofmuug video 'How To Optimize Your Fascia To Grow Taller' — woman demonstrating stretching concept with rubber band",
+     "webcam": "Person drinking from water bottle, head and torso visible, shoulders level",
      "captures": [
       {
        "start": "18:54",
@@ -4127,18 +4131,18 @@
       "https://i.imgur.com/IbYO6rt.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "19:09",
-     "min": 15,
-     "webcam": "Person drinking from water bottle, head and torso visible, shoulders level",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "19:09",
+     "end": "19:24",
+     "min": 15,
      "category": "Learning",
      "activity": "Watching fascia/foot health video",
      "project": "Health",
      "screen_summary": "YouTube Brotherofmuug video 'How To Optimize Your Fascia To Grow Taller' — segment titled 'INTRINSIC FOOT MUSCLES'",
+     "webcam": "Empty room — Sun away from desk",
      "captures": [
       {
        "start": "19:09",
@@ -4151,18 +4155,18 @@
       "https://i.imgur.com/tzDsvCR.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "19:24",
-     "min": 15,
-     "webcam": "Empty room — Sun away from desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "19:24",
+     "end": "19:39",
+     "min": 15,
      "category": "Learning",
      "activity": "Watching Bryan Johnson age-reversal video",
      "project": "Health",
      "screen_summary": "YouTube MMHealth and SlimLand video 'Beating Bryan Johnson: How I Lowered my Age by 21 Years' — black playback frame",
+     "webcam": "Person centered, looking slightly down, shoulders level",
      "captures": [
       {
        "start": "19:24",
@@ -4175,18 +4179,18 @@
       "https://i.imgur.com/D3Dx2sd.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "19:39",
-     "min": 15,
-     "webcam": "Person centered, looking slightly down, shoulders level",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "19:39",
+     "end": "19:54",
+     "min": 15,
      "category": "Learning",
      "activity": "Watching Bryan Johnson age-reversal interview",
      "project": "Health",
      "screen_summary": "YouTube 'Beating Bryan Johnson: How I Lowered my Age by 21 Years' — two men in interview discussing aging and smoking",
+     "webcam": "Partial torso visible bottom-right — Sun transitioning into/out of frame",
      "captures": [
       {
        "start": "19:39",
@@ -4199,18 +4203,18 @@
       "https://i.imgur.com/XgGfruq.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "19:54",
-     "min": 15,
-     "webcam": "Partial torso visible bottom-right — Sun transitioning into/out of frame",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "19:54",
+     "end": "20:09",
+     "min": 15,
      "category": "Learning",
      "activity": "Watching productivity hack video",
      "project": "Learning",
      "screen_summary": "YouTube Cormac Taylor 'I Tried the World's Simplest Productivity Hack for 1 Year (it worked)' — running through forest, marathon training context",
+     "webcam": "Person centered, head slightly forward, shoulders level",
      "captures": [
       {
        "start": "19:54",
@@ -4223,18 +4227,18 @@
       "https://i.imgur.com/fDv7v1V.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "20:09",
-     "min": 15,
-     "webcam": "Person centered, head slightly forward, shoulders level",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "20:09",
+     "end": "20:24",
+     "min": 15,
      "category": "Leisure",
      "activity": "Watching James Bond film analysis",
      "project": "Leisure",
      "screen_summary": "YouTube Patrick H Willems video 'The Daniel Craig James Bond Era Is The Weirdest Franchise Ever' — host on couch in front of bookshelf",
+     "webcam": "Person centered, looking forward, shoulders level",
      "captures": [
       {
        "start": "20:09",
@@ -4247,18 +4251,18 @@
       "https://i.imgur.com/fmI1uVp.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "20:24",
-     "min": 15,
-     "webcam": "Person centered, looking forward, shoulders level",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "20:24",
+     "end": "23:09",
+     "min": 165,
      "category": "Leisure",
      "activity": "Watching F1 movie",
      "project": "Leisure",
      "screen_summary": "F1 movie scene — racing scoreboard showing AMR, Porsche, McLaren team standings at positions 6/7/8",
+     "webcam": "Pitch black, person not visible",
      "captures": [
       {
        "start": "20:24",
@@ -4341,18 +4345,18 @@
       "https://i.imgur.com/BH8WUL9.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "23:09",
-     "min": 165,
-     "webcam": "Pitch black, person not visible",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "23:09",
+     "end": "23:39",
+     "min": 30,
      "category": "Leisure",
      "activity": "Watching F1 movie",
      "project": "F1 movie",
      "screen_summary": "F1 movie scene — Ferrari pit lane crew working on the Ferrari F1 car at night, Etihad signage visible",
+     "webcam": "Pitch dark room, dim outline of head, person upright",
      "captures": [
       {
        "start": "23:09",
@@ -4372,18 +4376,18 @@
       "https://i.imgur.com/Q9SKzla.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "23:39",
-     "min": 30,
-     "webcam": "Pitch dark room, dim outline of head, person upright",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "23:39",
+     "end": "11:39",
+     "min": 720,
      "category": "AFK/Idle",
      "activity": "sleeping",
      "project": "Sleep",
      "screen_summary": "screen off / locked",
+     "webcam": "person sleeping (no light)",
      "captures": [
       {
        "start": "23:39",
@@ -4676,11 +4680,8 @@
      ],
      "images": [],
      "sensitive_count": 48,
-     "notes": "",
-     "end": "11:39",
-     "min": 720,
-     "webcam": "person sleeping (no light)",
-     "sensitive": true
+     "sensitive": true,
+     "notes": ""
     }
    ],
    "dailySummary": {
@@ -4697,7 +4698,8 @@
     },
     "top3": "sleeping (13h 0m) · Watching F1 movie (3h 15m) · Away from desk (1h 45m)",
     "ai_takeaway": "Lowest-output day of the stretch: 45m productive, $0, nothing on any revenue product. 3h+ of posture/walking/fascia research and an F1 movie filled the waking hours — a rest day, not a build day.",
-    "first_last": "00:01 / 23:54"
+    "first_last": "00:01 / 23:54",
+    "note": ""
    }
   },
   {
@@ -4720,10 +4722,13 @@
    "blocks": [
     {
      "start": "11:50",
+     "end": "12:05",
+     "min": 15,
      "category": "Leisure",
      "activity": "Browsing X/Twitter",
      "project": "Morning X/Twitter scroll",
      "screen_summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
+     "webcam": "Sun on bed with grey t-shirt, slightly groggy but upright, just woke up look",
      "captures": [
       {
        "start": "11:50",
@@ -4736,18 +4741,18 @@
       "https://i.imgur.com/RzjfeYJ.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "12:05",
-     "min": 15,
-     "webcam": "Sun on bed with grey t-shirt, slightly groggy but upright, just woke up look",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "12:05",
+     "end": "13:05",
+     "min": 60,
      "category": "Learning",
      "activity": "Reading Hermes Agent setup notes",
      "project": "Hermes Agent research",
      "screen_summary": "Terminal/article about Hermes Agent CLI — config check, OpenAI codex login confirmation, troubleshooting notes for a 'reply with HERMES_SMOKE_TEST_OK' test",
+     "webcam": "Person not in frame; bedroom wall and made bed visible, dark laptop edge in foreground",
      "captures": [
       {
        "start": "12:05",
@@ -4781,18 +4786,18 @@
       "https://i.imgur.com/1zyFNR1.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "13:05",
-     "min": 60,
-     "webcam": "Person not in frame; bedroom wall and made bed visible, dark laptop edge in foreground",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "13:05",
+     "end": "13:20",
+     "min": 15,
      "category": "Productivity",
      "activity": "SelfTrack dashboard review",
      "project": "SelfTrack",
      "screen_summary": "SelfTrack 'Life of Sun' activity-timeline dashboard open in browser, reviewing a tracked X/Twitter capture entry",
+     "webcam": "Sun present, seated, holding phone, smiling at camera",
      "captures": [
       {
        "start": "13:05",
@@ -4805,18 +4810,18 @@
       "https://i.imgur.com/JIgw2eF.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "13:20",
-     "min": 15,
-     "webcam": "Sun present, seated, holding phone, smiling at camera",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "13:20",
+     "end": "13:35",
+     "min": 15,
      "category": "Productivity",
      "activity": "Terminal — skill migration",
      "project": "OpenClaw infra",
      "screen_summary": "Terminal running hermes/openclaw skill-migration script (openclaw-to-hermes migrate), dev tooling work",
+     "webcam": "Sun present, hand on chin, looking down at screen, focused",
      "captures": [
       {
        "start": "13:20",
@@ -4829,18 +4834,18 @@
       "https://i.imgur.com/P4W2jbZ.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "13:35",
-     "min": 15,
-     "webcam": "Sun present, hand on chin, looking down at screen, focused",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "13:35",
+     "end": "13:50",
+     "min": 15,
      "category": "Productivity",
      "activity": "OpenClaw Control chat",
      "project": "SelfTrack",
      "screen_summary": "OpenClaw Control web chat panel open, reviewing agent tool output about SelfTrack posture captures",
+     "webcam": "Sun present, looking down at screen, focused",
      "captures": [
       {
        "start": "13:35",
@@ -4853,18 +4858,18 @@
       "https://i.imgur.com/upvm5kb.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "13:50",
-     "min": 15,
-     "webcam": "Sun present, looking down at screen, focused",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "13:50",
+     "end": "14:05",
+     "min": 15,
      "category": "Productivity",
      "activity": "Hermes Agent dashboard",
      "project": "OpenClaw infra",
      "screen_summary": "Hermes/OpenClaw Agent web dashboard open on RECENT SESSIONS list, reviewing agent session history",
+     "webcam": "Sun present, leaning in close to screen, focused",
      "captures": [
       {
        "start": "13:50",
@@ -4877,18 +4882,18 @@
       "https://i.imgur.com/xEr9nil.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "14:05",
-     "min": 15,
-     "webcam": "Sun present, leaning in close to screen, focused",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "14:05",
+     "end": "14:20",
+     "min": 15,
      "category": "Productivity",
      "activity": "Sensor Tower app research",
      "project": "Q Rizz",
      "screen_summary": "Sensor Tower app-analysis page showing in-app purchase tiers and market data, competitor/market research",
+     "webcam": "Sun present, holding phone, talking, relaxed",
      "captures": [
       {
        "start": "14:05",
@@ -4901,18 +4906,18 @@
       "https://i.imgur.com/zxirUlD.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "14:20",
-     "min": 15,
-     "webcam": "Sun present, holding phone, talking, relaxed",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "14:20",
+     "end": "14:35",
+     "min": 15,
      "category": "Productivity",
      "activity": "Rizz IG reels review",
      "project": "Simple Rizz",
      "screen_summary": "Instagram profile reels grid of 'POV RIZZ' short videos, reviewing Simple Rizz social content/marketing",
+     "webcam": "Sun present, laughing, looking off to the side",
      "captures": [
       {
        "start": "14:20",
@@ -4925,18 +4930,18 @@
       "https://i.imgur.com/MvvEoJb.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "14:35",
-     "min": 15,
-     "webcam": "Sun present, laughing, looking off to the side",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "14:35",
+     "end": "14:50",
+     "min": 15,
      "category": "Productivity",
      "activity": "Terminal — Chromium/Playwright debug",
      "project": "OpenClaw infra",
      "screen_summary": "Terminal session debugging Chromium/Playwright cache and library paths (chrome-linux64), dev tooling",
+     "webcam": "Sun present in profile, looking at phone in hand",
      "captures": [
       {
        "start": "14:35",
@@ -4949,18 +4954,18 @@
       "https://i.imgur.com/imA1tAP.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "14:50",
-     "min": 15,
-     "webcam": "Sun present in profile, looking at phone in hand",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "14:50",
+     "end": "15:05",
+     "min": 15,
      "category": "Leisure",
      "activity": "YouTube browsing",
      "project": "Personal",
      "screen_summary": "YouTube home feed open (posture/mewing tips, Total War strategy, shorts), casual browsing",
+     "webcam": "No person visible — empty bed, away from desk",
      "captures": [
       {
        "start": "14:50",
@@ -4973,18 +4978,18 @@
       "https://i.imgur.com/5fLYGnn.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "15:05",
-     "min": 15,
-     "webcam": "No person visible — empty bed, away from desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "15:05",
+     "end": "17:51",
+     "min": 165,
      "category": "Leisure",
      "activity": "Watching movie/show",
      "project": "Personal",
      "screen_summary": "Fullscreen video playing — dark period-drama scene of men playing cards around a table",
+     "webcam": "No person visible — empty bed, away from frame",
      "captures": [
       {
        "start": "15:05",
@@ -5067,11 +5072,8 @@
       "https://i.imgur.com/zyYpp4g.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "17:51",
-     "min": 165,
-     "webcam": "No person visible — empty bed, away from frame",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     }
    ],
    "dailySummary": {
@@ -5088,7 +5090,8 @@
     },
     "top3": "sleeping (11h 30m) · Watching movie/show (2h 45m) · Reading Hermes Agent setup notes (1h 0m)",
     "ai_takeaway": "Short tracked day — PC went dark after 17:51. 1h 45m productive but spread thin across Hermes Agent setup, Q/Simple Rizz review, Sensor Tower research and skill migration. No single lever got real depth.",
-    "first_last": "00:09 / 17:51"
+    "first_last": "00:09 / 17:51",
+    "note": ""
    }
   },
   {
@@ -5117,10 +5120,13 @@
    "blocks": [
     {
      "start": "11:13",
+     "end": "11:28",
+     "min": 15,
      "category": "Productivity",
      "activity": "OpenClaw Gateway setup",
      "project": "OpenClaw infra",
      "screen_summary": "OpenClaw Gateway Dashboard connect screen — WebSocket URL and optional gateway-token/password fields (placeholders only, no values entered)",
+     "webcam": "Sun present, sitting upright in blue polo, good posture, facing camera",
      "captures": [
       {
        "start": "11:13",
@@ -5133,18 +5139,18 @@
       "https://i.imgur.com/0L165TM.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "11:28",
-     "min": 15,
-     "webcam": "Sun present, sitting upright in blue polo, good posture, facing camera",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "11:28",
+     "end": "11:43",
+     "min": 15,
      "category": "Productivity",
      "activity": "OpenClaw Control chat — Q Rizz / App Store Connect",
      "project": "Q Rizz",
      "screen_summary": "OpenClaw Control chat discussing Q Rizz App Store Connect API setup; chat thread references a private-key/credential block",
+     "webcam": "Sun present, looking down at phone in hand",
      "captures": [
       {
        "start": "11:28",
@@ -5155,18 +5161,18 @@
      ],
      "images": [],
      "sensitive_count": 1,
-     "notes": "",
-     "end": "11:43",
-     "min": 15,
-     "webcam": "Sun present, looking down at phone in hand",
-     "sensitive": true
+     "sensitive": true,
+     "notes": ""
     },
     {
      "start": "11:43",
+     "end": "12:28",
+     "min": 45,
      "category": "Productivity",
      "activity": "OpenClaw Control chat — SelfTrack/Telegram",
      "project": "SelfTrack",
      "screen_summary": "OpenClaw Control chat reviewing agent tool output: Telegram summary send + housekeeping notes (creds persisted chmod 600/gitignored, resume-summary download killed on reconnect)",
+     "webcam": "No person visible — empty bed, away from desk",
      "captures": [
       {
        "start": "11:43",
@@ -5193,18 +5199,18 @@
       "https://i.imgur.com/LVsxk0i.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "12:28",
-     "min": 45,
-     "webcam": "No person visible — empty bed, away from desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "12:28",
+     "end": "13:58",
+     "min": 90,
      "category": "AFK/Idle",
      "activity": "Away from desk",
      "project": "—",
      "screen_summary": "OpenClaw Control chat left open and static (same thread); no interaction",
+     "webcam": "No person visible — empty bed, away from desk",
      "captures": [
       {
        "start": "12:28",
@@ -5252,18 +5258,18 @@
       "https://i.imgur.com/j99gTVs.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "13:58",
-     "min": 90,
-     "webcam": "No person visible — empty bed, away from desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "13:58",
+     "end": "14:13",
+     "min": 15,
      "category": "Learning",
      "activity": "YouTube — Hermes Agent tutorial",
      "project": "OpenClaw infra",
      "screen_summary": "YouTube video playing: WorldofAI \"Hermes Agent + DeepSeek V4 (FREE) + GOD TIER\" — agent-framework tutorial with a terminal demo",
+     "webcam": "Sun present, back at desk, looking down at screen",
      "captures": [
       {
        "start": "13:58",
@@ -5276,18 +5282,18 @@
       "https://i.imgur.com/n7qVcnf.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "14:13",
-     "min": 15,
-     "webcam": "Sun present, back at desk, looking down at screen",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "14:13",
+     "end": "14:28",
+     "min": 15,
      "category": "Productivity",
      "activity": "Terminal — secrets/API-key migration audit",
      "project": "OpenClaw infra",
      "screen_summary": "Terminal auditing whether secrets/API keys migrated correctly into Hermes config; enumerates TOKEN/API_KEY env vars with set/empty status; analytics dashboard on right",
+     "webcam": "Sun present, focused on screen",
      "captures": [
       {
        "start": "14:13",
@@ -5298,18 +5304,18 @@
      ],
      "images": [],
      "sensitive_count": 1,
-     "notes": "",
-     "end": "14:28",
-     "min": 15,
-     "webcam": "Sun present, focused on screen",
-     "sensitive": true
+     "sensitive": true,
+     "notes": ""
     },
     {
      "start": "14:28",
+     "end": "14:43",
+     "min": 15,
      "category": "Communications",
      "activity": "X/Twitter reply",
      "project": "Personal",
      "screen_summary": "X/Twitter post open (dating-psychology account) with Sun composing a short reply; OpenClaw terminal in left split",
+     "webcam": "Sun present, looking down, relaxed",
      "captures": [
       {
        "start": "14:28",
@@ -5322,18 +5328,18 @@
       "https://i.imgur.com/asDRPWU.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "14:43",
-     "min": 15,
-     "webcam": "Sun present, looking down, relaxed",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "14:43",
+     "end": "14:58",
+     "min": 15,
      "category": "Productivity",
      "activity": "Mixpanel/analytics setup",
      "project": "SelfTrack",
      "screen_summary": "Analytics Set-Up Guide wizard on \"Verify Connection\" step — checking whether data is ingesting (no connection found yet)",
+     "webcam": "Sun present, leaning in, looking down at screen",
      "captures": [
       {
        "start": "14:43",
@@ -5346,18 +5352,18 @@
       "https://i.imgur.com/KFJDunL.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "14:58",
-     "min": 15,
-     "webcam": "Sun present, leaning in, looking down at screen",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "14:58",
+     "end": "15:13",
+     "min": 15,
      "category": "Productivity",
      "activity": "OpenClaw chat — dashboard/Mixpanel",
      "project": "SelfTrack",
      "screen_summary": "OpenClaw Control chat with tool calls/outputs; verifying Mixpanel events fire and dashboard reads real (not dummy) data",
+     "webcam": "Sun present, leaning forward into screen",
      "captures": [
       {
        "start": "14:58",
@@ -5370,18 +5376,18 @@
       "https://i.imgur.com/VWRrR81.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "15:13",
-     "min": 15,
-     "webcam": "Sun present, leaning forward into screen",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "15:13",
+     "end": "15:28",
+     "min": 15,
      "category": "Productivity",
      "activity": "OpenClaw chat — Mixpanel migration + checkout",
      "project": "SelfTrack",
      "screen_summary": "OpenClaw chat \"Done — fixed and pushed\": Buy-Me-a-Coffee checkout, updated tracked product id, removed dummy Mixpanel data, fast-event Mixpanel shortcut",
+     "webcam": "Sun present, holding phone, glancing at screen",
      "captures": [
       {
        "start": "15:13",
@@ -5394,18 +5400,18 @@
       "https://i.imgur.com/rQEAxwY.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "15:28",
-     "min": 15,
-     "webcam": "Sun present, holding phone, glancing at screen",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "15:28",
+     "end": "16:28",
+     "min": 60,
      "category": "Leisure",
      "activity": "YouTube — AI commentary",
      "project": "Personal",
      "screen_summary": "YouTube: Wes Roth \"The REAL Reason Andrej Karpathy Joined Anthropic\" — AI industry commentary",
+     "webcam": "Sun present, holding phone, smiling, watching",
      "captures": [
       {
        "start": "15:28",
@@ -5439,18 +5445,18 @@
       "https://i.imgur.com/3pl32Cw.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "16:28",
-     "min": 60,
-     "webcam": "Sun present, holding phone, smiling, watching",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "16:28",
+     "end": "16:43",
+     "min": 15,
      "category": "Productivity",
      "activity": "Google Gemini",
      "project": "Personal",
      "screen_summary": "Google Gemini app open on a fresh chat (\"What's the vibe, Seungho?\"), Flash model; OpenClaw terminal in left split",
+     "webcam": "Sun present, sitting upright, centered, good posture",
      "captures": [
       {
        "start": "16:28",
@@ -5463,18 +5469,18 @@
       "https://i.imgur.com/JLRe5z9.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "16:43",
-     "min": 15,
-     "webcam": "Sun present, sitting upright, centered, good posture",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "16:43",
+     "end": "16:58",
+     "min": 15,
      "category": "Productivity",
      "activity": "OpenClaw AI & Agents settings",
      "project": "OpenClaw infra",
      "screen_summary": "OpenClaw Control settings panel — AI & Agents page; Model Catalog, Model Pricing, and Model Provider configuration sections visible",
+     "webcam": "Sun present, sitting upright in blue polo, focused, looking down at screen",
      "captures": [
       {
        "start": "16:43",
@@ -5487,18 +5493,18 @@
       "https://i.imgur.com/y0ifvfB.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "16:58",
-     "min": 15,
-     "webcam": "Sun present, sitting upright in blue polo, focused, looking down at screen",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "16:58",
+     "end": "17:13",
+     "min": 15,
      "category": "Other",
      "activity": "Mindcraft AI agent — setup",
      "project": "Mindcraft",
      "screen_summary": "Mindcraft web dashboard open — agent inventory panel showing gamemode, health, hunger, pos fields; agent idle",
+     "webcam": "No person visible — empty bed, away from desk",
      "captures": [
       {
        "start": "16:58",
@@ -5511,18 +5517,18 @@
       "https://i.imgur.com/6UXcwUS.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "17:13",
-     "min": 15,
-     "webcam": "No person visible — empty bed, away from desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "17:13",
+     "end": "17:28",
+     "min": 15,
      "category": "Other",
      "activity": "Mindcraft AI agent — running",
      "project": "Mindcraft",
      "screen_summary": "Mindcraft dashboard static — same inventory panel with expanded conversation log on left sidebar; agent idle in background",
+     "webcam": "No person visible — empty bed, away from desk",
      "captures": [
       {
        "start": "17:13",
@@ -5535,18 +5541,18 @@
       "https://i.imgur.com/wpcxSyJ.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "17:28",
-     "min": 15,
-     "webcam": "No person visible — empty bed, away from desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "17:28",
+     "end": "17:43",
+     "min": 15,
      "category": "AFK/Idle",
      "activity": "Away from desk",
      "project": "Personal",
      "screen_summary": "Mindcraft dashboard visible in background — static, no new activity; dark room",
+     "webcam": "No person visible — dark frame, empty room",
      "captures": [
       {
        "start": "17:28",
@@ -5559,18 +5565,18 @@
       "https://i.imgur.com/xXr3ILM.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "17:43",
-     "min": 15,
-     "webcam": "No person visible — dark frame, empty room",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "17:43",
+     "end": "17:58",
+     "min": 15,
      "category": "Leisure",
      "activity": "Minecraft Launcher — Dungeons II",
      "project": "Mindcraft",
      "screen_summary": "Minecraft Launcher open showing Minecraft Dungeons II release announcement; Mindcraft tab also visible in browser",
+     "webcam": "Sun present, hand on chin, looking sideways, thoughtful expression",
      "captures": [
       {
        "start": "17:43",
@@ -5583,18 +5589,18 @@
       "https://i.imgur.com/pvEE7WB.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "17:58",
-     "min": 15,
-     "webcam": "Sun present, hand on chin, looking sideways, thoughtful expression",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "17:58",
+     "end": "18:28",
+     "min": 30,
      "category": "Leisure",
      "activity": "Mindcraft — Andy bot in Minecraft",
      "project": "Mindcraft",
      "screen_summary": "Minecraft Java Edition open; Andy AI bot spamming 'Set the time to 1000!' in game chat; WSL terminal on left with script output",
+     "webcam": "Sun present, sitting upright in blue polo, focused, looking down at screen",
      "captures": [
       {
        "start": "17:58",
@@ -5614,18 +5620,18 @@
       "https://i.imgur.com/2dwy60r.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "18:28",
-     "min": 30,
-     "webcam": "Sun present, sitting upright in blue polo, focused, looking down at screen",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "18:28",
+     "end": "18:43",
+     "min": 15,
      "category": "Leisure",
      "activity": "Mindcraft AI - Minecraft",
      "project": "Mindcraft",
      "screen_summary": "Minecraft game with Mindcraft AI agent (cleo) requesting wood; OpenClaw control panel open in background",
+     "webcam": "person at desk",
      "captures": [
       {
        "start": "18:28",
@@ -5638,18 +5644,18 @@
       "https://i.imgur.com/DRkqjAG.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "18:43",
-     "min": 15,
-     "webcam": "person at desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "18:43",
+     "end": "18:58",
+     "min": 15,
      "category": "Leisure",
      "activity": "Mindcraft — Andy bot in Minecraft",
      "project": "Mindcraft",
      "screen_summary": "Minecraft Java Edition survival world with Andy AI agent character visible; terminal shows self-prompting loop execution; game chat visible at bottom",
+     "webcam": "Sun present, smiling, looking down, shoulders level",
      "captures": [
       {
        "start": "18:43",
@@ -5662,18 +5668,18 @@
       "https://i.imgur.com/S9z3y1d.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "18:58",
-     "min": 15,
-     "webcam": "Sun present, smiling, looking down, shoulders level",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "18:58",
+     "end": "19:13",
+     "min": 15,
      "category": "Leisure",
      "activity": "Mindcraft AI - Minecraft",
      "project": "Mindcraft",
      "screen_summary": "Minecraft multi-agent session (andy, bob, cleo) coordinating house repair with oak planks",
+     "webcam": "person at desk",
      "captures": [
       {
        "start": "18:58",
@@ -5686,18 +5692,18 @@
       "https://i.imgur.com/N0Y4GxU.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "19:13",
-     "min": 15,
-     "webcam": "person at desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "19:13",
+     "end": "19:28",
+     "min": 15,
      "category": "Productivity",
      "activity": "Mindcraft setup review",
      "project": "Mindcraft",
      "screen_summary": "OpenClaw chat reviewing Mindcraft AI agent setup screenshots - dashboard, inventory, gamestate",
+     "webcam": "person at desk",
      "captures": [
       {
        "start": "19:13",
@@ -5710,18 +5716,18 @@
       "https://i.imgur.com/Hh8NZgy.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "19:28",
-     "min": 15,
-     "webcam": "person at desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "19:28",
+     "end": "19:43",
+     "min": 15,
      "category": "Communications",
      "activity": "OpenClaw chat - task planning",
      "project": "Personal",
      "screen_summary": "OpenClaw chat with Tom - personal task discussion and YouTube browsing tips",
+     "webcam": "person at desk",
      "captures": [
       {
        "start": "19:28",
@@ -5734,18 +5740,18 @@
       "https://i.imgur.com/IjIrcaR.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "19:43",
-     "min": 15,
-     "webcam": "person at desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "19:43",
+     "end": "19:58",
+     "min": 15,
      "category": "Leisure",
      "activity": "YouTube - Minecraft video",
      "project": "Personal",
      "screen_summary": "YouTube: '1500 Players Simulate Civilization in Minecraft' by MARCUSK - aerial colosseum view",
+     "webcam": "person at desk",
      "captures": [
       {
        "start": "19:43",
@@ -5758,18 +5764,18 @@
       "https://i.imgur.com/cb0tYrU.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "19:58",
-     "min": 15,
-     "webcam": "person at desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "19:59",
+     "end": "20:14",
+     "min": 15,
      "category": "Leisure",
      "activity": "X (Twitter) browsing",
      "project": "Personal",
      "screen_summary": "X Following feed with various posts; Jack Frika app post; Korean location sidebar",
+     "webcam": "person at desk",
      "captures": [
       {
        "start": "19:59",
@@ -5782,18 +5788,18 @@
       "https://i.imgur.com/lIggDli.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "20:14",
-     "min": 15,
-     "webcam": "person at desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "20:14",
+     "end": "20:29",
+     "min": 15,
      "category": "Communications",
      "activity": "X DMs",
      "project": "Personal",
      "screen_summary": "X DMs with Zac Thompson, Nathan Asher, HonestCode and others; active conversation open",
+     "webcam": "person at desk",
      "captures": [
       {
        "start": "20:14",
@@ -5806,18 +5812,18 @@
       "https://i.imgur.com/MjdVTdf.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "20:29",
-     "min": 15,
-     "webcam": "person at desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "20:29",
+     "end": "20:44",
+     "min": 15,
      "category": "Learning",
      "activity": "Researching horse betting",
      "project": "X Derby",
      "screen_summary": "Google Gemini explaining pari-mutuel wagering - pool, house take, payout mechanics for X Derby research",
+     "webcam": "person at desk",
      "captures": [
       {
        "start": "20:29",
@@ -5830,18 +5836,18 @@
       "https://i.imgur.com/UZllAe7.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "20:44",
-     "min": 15,
-     "webcam": "person at desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "20:44",
+     "end": "20:59",
+     "min": 15,
      "category": "Productivity",
      "activity": "MBTI Oracle analytics review",
      "project": "MBTI Oracle",
      "screen_summary": "Discord ai-channel with Mixpanel/revenue data - $40k vs $57k avg B2C test winner, conversion rates",
+     "webcam": "person at desk",
      "captures": [
       {
        "start": "20:44",
@@ -5854,18 +5860,18 @@
       "https://i.imgur.com/RbSO65o.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "20:59",
-     "min": 15,
-     "webcam": "person at desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "20:59",
+     "end": "21:14",
+     "min": 15,
      "category": "Productivity",
      "activity": "X Derby - GitHub assets",
      "project": "X Derby",
      "screen_summary": "GitHub flappy-bird-assets repo (sensamuel) - sprites, audio assets for X Derby Flappy Bird chart",
+     "webcam": "person at desk",
      "captures": [
       {
        "start": "20:59",
@@ -5878,18 +5884,18 @@
       "https://i.imgur.com/RuWRPKU.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "21:14",
-     "min": 15,
-     "webcam": "person at desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "21:14",
+     "end": "21:29",
+     "min": 15,
      "category": "Leisure",
      "activity": "Adult content browsing",
      "project": "Personal",
      "screen_summary": "dark website with adult content",
+     "webcam": "person at desk",
      "captures": [
       {
        "start": "21:14",
@@ -5900,18 +5906,18 @@
      ],
      "images": [],
      "sensitive_count": 1,
-     "notes": "",
-     "end": "21:29",
-     "min": 15,
-     "webcam": "person at desk",
-     "sensitive": true
+     "sensitive": true,
+     "notes": ""
     },
     {
      "start": "21:29",
+     "end": "21:44",
+     "min": 15,
      "category": "Productivity",
      "activity": "X Derby - Clout Coins app",
      "project": "X Derby",
      "screen_summary": "X Derby MRR Sky Race Flappy Bird chart - Marc Lou at $74k, @schowy1 bets and leaderboard visible",
+     "webcam": "person at desk",
      "captures": [
       {
        "start": "21:29",
@@ -5924,18 +5930,18 @@
       "https://i.imgur.com/FbxqOBs.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "21:44",
-     "min": 15,
-     "webcam": "person at desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "21:44",
+     "end": "21:59",
+     "min": 15,
      "category": "Productivity",
      "activity": "OpenClaw chat - SelfTrack analytics",
      "project": "SelfTrack",
      "screen_summary": "OpenClaw chat reviewing SelfTrack data - upload endpoints, backfill/note queue, screenshot format",
+     "webcam": "person at desk",
      "captures": [
       {
        "start": "21:44",
@@ -5948,18 +5954,18 @@
       "https://i.imgur.com/kOPX2vP.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "21:59",
-     "min": 15,
-     "webcam": "person at desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "21:59",
+     "end": "22:14",
+     "min": 15,
      "category": "Productivity",
      "activity": "OpenClaw chat - X Derby planning",
      "project": "X Derby",
      "screen_summary": "OpenClaw chat - X Derby bird physics, Supabase, Petra Levels removed, automation planning",
+     "webcam": "person at desk",
      "captures": [
       {
        "start": "21:59",
@@ -5972,18 +5978,18 @@
       "https://i.imgur.com/jNs4n7D.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "22:14",
-     "min": 15,
-     "webcam": "person at desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "22:14",
+     "end": "22:29",
+     "min": 15,
      "category": "Productivity",
      "activity": "X Derby - Supabase setup",
      "project": "X Derby",
      "screen_summary": "Supabase project dashboard schowy1@gmail.com - Postgres DB (US Oregon), X Derby backend database",
+     "webcam": "person at desk",
      "captures": [
       {
        "start": "22:14",
@@ -5996,18 +6002,18 @@
       "https://i.imgur.com/WQ2N7mx.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "22:29",
-     "min": 15,
-     "webcam": "person at desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "22:29",
+     "end": "22:44",
+     "min": 15,
      "category": "Admin/Errands",
      "activity": "File management",
      "project": "Personal",
      "screen_summary": "Windows Explorer with right-click context menu on video file - VLC/Media Player/Clipchamp options",
+     "webcam": "person at desk",
      "captures": [
       {
        "start": "22:29",
@@ -6020,18 +6026,18 @@
       "https://i.imgur.com/h2FwlWm.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "22:44",
-     "min": 15,
-     "webcam": "person at desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "22:44",
+     "end": "22:59",
+     "min": 15,
      "category": "Productivity",
      "activity": "OpenClaw chat - X Derby development",
      "project": "X Derby",
      "screen_summary": "OpenClaw chat - X Derby bird physics loop, Supabase data, Flappy Bird chart mechanics, monthly timer",
+     "webcam": "person at desk",
      "captures": [
       {
        "start": "22:44",
@@ -6044,18 +6050,18 @@
       "https://i.imgur.com/Vk7HG2Y.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "22:59",
-     "min": 15,
-     "webcam": "person at desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "22:59",
+     "end": "23:14",
+     "min": 15,
      "category": "Productivity",
      "activity": "X Derby app - reviewing bets",
      "project": "X Derby",
      "screen_summary": "X Derby app @schowy1 - 1000 Clout Coins, 2250 potential winnings, multiple Marc Lou Highest MRR bets",
+     "webcam": "person at desk",
      "captures": [
       {
        "start": "22:59",
@@ -6068,18 +6074,18 @@
       "https://i.imgur.com/kHnCMNR.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "23:14",
-     "min": 15,
-     "webcam": "person at desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "23:14",
+     "end": "23:29",
+     "min": 15,
      "category": "Productivity",
      "activity": "OpenClaw terminal setup",
      "project": "OpenClaw",
      "screen_summary": "Terminal - openclaw setup, gateway config (port 28700, localhost), CLI v2026.4.16, models list",
+     "webcam": "person at desk",
      "captures": [
       {
        "start": "23:14",
@@ -6092,18 +6098,18 @@
       "https://i.imgur.com/TawI1Mg.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "23:29",
-     "min": 15,
-     "webcam": "person at desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "23:29",
+     "end": "23:44",
+     "min": 15,
      "category": "Productivity",
      "activity": "X Derby - MRR leaderboard",
      "project": "X Derby",
      "screen_summary": "X Derby Highest MRR race leaderboard - Marc Lou leading at $74k, @schowy1 at 9500 coins",
+     "webcam": "person at desk",
      "captures": [
       {
        "start": "23:29",
@@ -6116,18 +6122,18 @@
       "https://i.imgur.com/I8Y8Oo1.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "23:44",
-     "min": 15,
-     "webcam": "person at desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "23:44",
+     "end": "23:59",
+     "min": 15,
      "category": "AFK/Idle",
      "activity": "Idle - browser new tab",
      "project": "Personal",
      "screen_summary": "Chrome new tab / Google homepage, tabs: Game Theory #2B, X, X Derby open in background",
+     "webcam": "person at desk",
      "captures": [
       {
        "start": "23:44",
@@ -6140,18 +6146,18 @@
       "https://i.imgur.com/s5GBdnI.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "23:59",
-     "min": 15,
-     "webcam": "person at desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "23:59",
+     "end": "00:14",
+     "min": 15,
      "category": "Communications",
      "activity": "X DMs - X Derby discussion",
      "project": "X Derby",
      "screen_summary": "X DMs with Zac Thompson discussing X Derby horse betting concept and pari-mutuel platform mechanics",
+     "webcam": "person at desk",
      "captures": [
       {
        "start": "23:59",
@@ -6164,18 +6170,18 @@
       "https://i.imgur.com/SbaiRHt.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "00:14",
-     "min": 15,
-     "webcam": "person at desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "00:14",
+     "end": "00:59",
+     "min": 45,
      "category": "Leisure",
      "activity": "Watching movie",
      "project": "Personal",
      "screen_summary": "Movie: city street scene subtitle 'Negative.' - spy/action film (likely Tenet), dark room late night",
+     "webcam": "dark room, no visible occupant",
      "captures": [
       {
        "start": "00:14",
@@ -6202,18 +6208,18 @@
       "https://i.imgur.com/tATPFOM.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "00:59",
-     "min": 45,
-     "webcam": "dark room, no visible occupant",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "00:59",
+     "end": "11:44",
+     "min": 645,
      "category": "AFK/Idle",
      "activity": "sleeping",
      "project": "Personal",
      "screen_summary": "",
+     "webcam": "dark, sleeping",
      "captures": [
       {
        "start": "00:59",
@@ -6476,11 +6482,8 @@
      ],
      "images": [],
      "sensitive_count": 43,
-     "notes": "",
-     "end": "11:44",
-     "min": 645,
-     "webcam": "dark, sleeping",
-     "sensitive": true
+     "sensitive": true,
+     "notes": ""
     }
    ],
    "dailySummary": {
@@ -6497,7 +6500,8 @@
     },
     "top3": "Away from desk (1h 45m) · YouTube — AI commentary (1h 0m) · Mindcraft — Andy bot in Minecraft (45m)",
     "ai_takeaway": "Strongest build day of the gap: 5h 30m productive — but it went to X Derby (Supabase, Clout Coins, MRR leaderboard) and Mindcraft setup, both side projects. The core revenue products (MBTI Oracle, Q Rizz) got only ~30m combined.",
-    "first_last": "11:13 / 23:59"
+    "first_last": "11:13 / 23:59",
+    "note": ""
    }
   },
   {
@@ -6525,10 +6529,13 @@
    "blocks": [
     {
      "start": "11:56",
+     "end": "12:11",
+     "min": 15,
      "category": "AFK/Idle",
      "activity": "Idle - browser new tab",
      "project": "N/A",
      "screen_summary": "Chrome new tab / Google homepage, bookmarks: OpenClaw Control, Claude, Discord, MBTI Loop, Rizz, SelfTrack",
+     "webcam": "dark, no visible occupant",
      "captures": [
       {
        "start": "11:56",
@@ -6541,18 +6548,18 @@
       "https://i.imgur.com/d8iPIH9.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "12:11",
-     "min": 15,
-     "webcam": "dark, no visible occupant",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "12:11",
+     "end": "12:56",
+     "min": 45,
      "category": "Learning",
      "activity": "YouTube - Game Theory lecture",
      "project": "Learning",
      "screen_summary": "YouTube: 'Game Theory #28: Predictive History' - lecturer at whiteboard, immigration/demographics, Peter Turchin",
+     "webcam": "dark, no visible occupant",
      "captures": [
       {
        "start": "12:11",
@@ -6579,18 +6586,18 @@
       "https://i.imgur.com/8mKLG2A.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "12:56",
-     "min": 45,
-     "webcam": "dark, no visible occupant",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "12:56",
+     "end": "14:56",
+     "min": 120,
      "category": "AFK/Idle",
      "activity": "YouTube paused - idle",
      "project": "Learning",
      "screen_summary": "YouTube: 'Game Theory #28: Predictive History' paused, dark frame, subtitle 'is really just an understanding of'",
+     "webcam": "dark, no visible occupant",
      "captures": [
       {
        "start": "12:56",
@@ -6652,18 +6659,18 @@
       "https://i.imgur.com/pZOS1xJ.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "14:56",
-     "min": 120,
-     "webcam": "dark, no visible occupant",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "14:56",
+     "end": "16:41",
+     "min": 105,
      "category": "AFK/Idle",
      "activity": "YouTube paused - idle",
      "project": "",
      "screen_summary": "YouTube: 'Game Theory #28: Predictive History' - video still paused, same frozen subtitle 'is really just an understanding of'",
+     "webcam": "dark, no visible occupant",
      "captures": [
       {
        "start": "14:56",
@@ -6718,18 +6725,18 @@
       "https://i.imgur.com/cmecnsZ.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "16:41",
-     "min": 105,
-     "webcam": "dark, no visible occupant",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "16:41",
+     "end": "16:56",
+     "min": 15,
      "category": "Leisure",
      "activity": "YouTube Shorts - entrepreneurship video",
      "project": "YouTube",
      "screen_summary": "YouTube Shorts: 'Day 334 of getting to $100k MRR' by @oaberon8 - creator showing app growth progress, mobile screen recording",
+     "webcam": "dark, no visible occupant",
      "captures": [
       {
        "start": "16:41",
@@ -6742,18 +6749,18 @@
       "https://i.imgur.com/JJyXKv4.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "16:56",
-     "min": 15,
-     "webcam": "dark, no visible occupant",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "16:56",
+     "end": "17:26",
+     "min": 30,
      "category": "Productivity",
      "activity": "Superwall - Q Rizz revenue analytics",
      "project": "Q Rizz",
      "screen_summary": "Superwall dashboard for 'Live Rizo Coach' (Q Rizz) - Sales chart showing revenue trend over last 90 days, monthly breakdown table visible",
+     "webcam": "dark, no visible occupant",
      "captures": [
       {
        "start": "16:56",
@@ -6773,18 +6780,18 @@
       "https://i.imgur.com/yRNJFQb.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "17:26",
-     "min": 30,
-     "webcam": "dark, no visible occupant",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "17:26",
+     "end": "18:11",
+     "min": 45,
      "category": "Learning",
      "activity": "YouTube - Game Theory lecture",
      "project": "Learning",
      "screen_summary": "YouTube: 'Game Theory #28: Predictive History' - video playing, lecturer on screen with globe/network graphic, subtitle 'important part of the world. Why? Because'",
+     "webcam": "dark, no visible occupant",
      "captures": [
       {
        "start": "17:26",
@@ -6811,18 +6818,18 @@
       "https://i.imgur.com/HR3cbid.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "18:11",
-     "min": 45,
-     "webcam": "dark, no visible occupant",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "18:11",
+     "end": "18:41",
+     "min": 30,
      "category": "Productivity",
      "activity": "OpenClaw chat - Q Rizz analytics review",
      "project": "Q Rizz",
      "screen_summary": "OpenClaw chat interface - AI conversation analyzing Q Rizz free trial stats, conversion metrics, Superwall data, App Store Connect revenue",
+     "webcam": "dark, no visible occupant",
      "captures": [
       {
        "start": "18:11",
@@ -6842,18 +6849,18 @@
       "https://i.imgur.com/4M0yXBp.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "18:41",
-     "min": 30,
-     "webcam": "dark, no visible occupant",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "18:41",
+     "end": "18:56",
+     "min": 15,
      "category": "Admin/Errands",
      "activity": "File Explorer - SelfTrack folder browsing",
      "project": "SelfTrack",
      "screen_summary": "Windows File Explorer browsing /SelfTrack/2026-05-26 folder, viewing capture thumbnails (cam+screen pairs), OpenClaw chat visible in taskbar",
+     "webcam": "dark, no visible occupant",
      "captures": [
       {
        "start": "18:41",
@@ -6866,18 +6873,18 @@
       "https://i.imgur.com/mD7QbZk.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "18:56",
-     "min": 15,
-     "webcam": "dark, no visible occupant",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "18:56",
+     "end": "19:11",
+     "min": 15,
      "category": "Leisure",
      "activity": "Gaming - dark fantasy game",
      "project": "Gaming",
      "screen_summary": "Dark fantasy game (Diablo IV or similar) - warrior character facing giant creature in stormy icy landscape, loading screen or cutscene",
+     "webcam": "dark, no visible occupant",
      "captures": [
       {
        "start": "18:56",
@@ -6890,18 +6897,18 @@
       "https://i.imgur.com/9YJUcZd.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "19:11",
-     "min": 15,
-     "webcam": "dark, no visible occupant",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "19:11",
+     "end": "19:26",
+     "min": 15,
      "category": "Leisure",
      "activity": "YouTube - Drake music video",
      "project": "YouTube",
      "screen_summary": "YouTube: Drake 'Plot Twist' official music video - pool scene with Drake in white outfit, 10.2M views, 0:05/3:15",
+     "webcam": "dark, no visible occupant",
      "captures": [
       {
        "start": "19:11",
@@ -6914,18 +6921,18 @@
       "https://i.imgur.com/rx3ER1R.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "19:26",
-     "min": 15,
-     "webcam": "dark, no visible occupant",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "19:26",
+     "end": "21:57",
+     "min": 150,
      "category": "Leisure",
      "activity": "Movie - The Bourne Supremacy",
      "project": "Movie",
      "screen_summary": "The Bourne Supremacy - movie playing, scene with dialogue 'This is a live project. You're a go.' - CIA operations sequence",
+     "webcam": "dark, no visible occupant",
      "captures": [
       {
        "start": "19:26",
@@ -7001,18 +7008,18 @@
       "https://i.imgur.com/FC22zBE.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "21:57",
-     "min": 150,
-     "webcam": "dark, no visible occupant",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "02:05",
+     "end": "02:20",
+     "min": 15,
      "category": "Admin/Errands",
      "activity": "Windscribe VPN - connecting to server",
      "project": "Admin",
      "screen_summary": "Windows desktop with Windscribe VPN popup open, connected to Montreal Expo 67 server, space nebula wallpaper, 2:05 AM",
+     "webcam": "dark, no visible occupant",
      "captures": [
       {
        "start": "02:05",
@@ -7025,18 +7032,18 @@
       "https://i.imgur.com/BTka4hR.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "02:20",
-     "min": 15,
-     "webcam": "dark, no visible occupant",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "02:21",
+     "end": "02:51",
+     "min": 30,
      "category": "Leisure",
      "activity": "Watching YouTube - MBTI personality type video",
      "project": "Personal/Leisure",
      "screen_summary": "YouTube video 'The Sixteen Types: INTJ' by Michael Pierce playing, dark room at 2:21 AM",
+     "webcam": "person visible in dark room, face lit by screen glow, tired-looking",
      "captures": [
       {
        "start": "02:21",
@@ -7056,18 +7063,18 @@
       "https://i.imgur.com/nuhSqq5.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "02:51",
-     "min": 30,
-     "webcam": "person visible in dark room, face lit by screen glow, tired-looking",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "02:51",
+     "end": "03:06",
+     "min": 15,
      "category": "Leisure",
      "activity": "Watching YouTube - Napoleon philosophy video",
      "project": "Personal/Leisure",
      "screen_summary": "YouTube video 'Philosophy of Napoleon' by Napoleonism, Sphinx image at 2:51 AM",
+     "webcam": "dark, occupant shape visible in bed area",
      "captures": [
       {
        "start": "02:51",
@@ -7080,18 +7087,18 @@
       "https://i.imgur.com/YtWED23.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "03:06",
-     "min": 15,
-     "webcam": "dark, occupant shape visible in bed area",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "03:06",
+     "end": "10:36",
+     "min": 450,
      "category": "AFK/Idle",
      "activity": "sleeping",
      "project": "Personal/Leisure",
      "screen_summary": "[sleep autofill]",
+     "webcam": "sleeping",
      "captures": [
       {
        "start": "03:06",
@@ -7276,11 +7283,8 @@
      ],
      "images": [],
      "sensitive_count": 30,
-     "notes": "",
-     "end": "10:36",
-     "min": 450,
-     "webcam": "sleeping",
-     "sensitive": true
+     "sensitive": true,
+     "notes": ""
     }
    ],
    "dailySummary": {
@@ -7323,10 +7327,13 @@
    "blocks": [
     {
      "start": "10:28",
+     "end": "10:43",
+     "min": 15,
      "category": "Leisure",
      "activity": "Browsing YouTube homepage",
      "project": "Personal/Leisure",
      "screen_summary": "YouTube home feed with various video thumbnails, browsing at 10:28 AM",
+     "webcam": "person visible in bright daytime room, sitting up in/near bed",
      "captures": [
       {
        "start": "10:28",
@@ -7339,18 +7346,18 @@
       "https://i.imgur.com/3ZO6BIM.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "10:43",
-     "min": 15,
-     "webcam": "person visible in bright daytime room, sitting up in/near bed",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "10:43",
+     "end": "10:58",
+     "min": 15,
      "category": "Leisure",
      "activity": "Browsing X (Twitter) feed",
      "project": "Personal/Leisure",
      "screen_summary": "X/Twitter home feed, browsing AI/tech tweets (Anything AI, Game Theory posts), 10:43 AM",
+     "webcam": "person visible in bright daytime room, sitting upright in/near bed",
      "captures": [
       {
        "start": "10:43",
@@ -7363,18 +7370,18 @@
       "https://i.imgur.com/Cf87F70.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "10:58",
-     "min": 15,
-     "webcam": "person visible in bright daytime room, sitting upright in/near bed",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "10:58",
+     "end": "11:13",
+     "min": 15,
      "category": "Productivity",
      "activity": "Reviewing Q Rizz Discord updates",
      "project": "Q Rizz",
      "screen_summary": "Discord Q Admin general — crypto/ASML coin job discussions, mid-day digest task updates",
+     "webcam": "person visible in daytime room, hand raised to face",
      "captures": [
       {
        "start": "10:58",
@@ -7387,18 +7394,18 @@
       "https://i.imgur.com/SQbjB09.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "11:13",
-     "min": 15,
-     "webcam": "person visible in daytime room, hand raised to face",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "11:13",
+     "end": "11:28",
+     "min": 15,
      "category": "Productivity",
      "activity": "Reviewing Q Rizz revenue stats",
      "project": "Q Rizz",
      "screen_summary": "Discord Q Admin daily-stats — Q Rizz Revenue Digest: MRR $480.29, active subs, Superwall funnel metrics",
+     "webcam": "person visible in daytime room, looking down",
      "captures": [
       {
        "start": "11:13",
@@ -7411,18 +7418,18 @@
       "https://i.imgur.com/XOyl1Bd.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "11:28",
-     "min": 15,
-     "webcam": "person visible in daytime room, looking down",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "11:28",
+     "end": "11:43",
+     "min": 15,
      "category": "Productivity",
      "activity": "Reviewing Q Rizz Superwall subscriptions",
      "project": "Q Rizz",
      "screen_summary": "Superwall dashboard — Active Subscriptions chart for Q Rizz, subscription trend May 27-28",
+     "webcam": "person mid-stretch/yawn, arms raised",
      "captures": [
       {
        "start": "11:28",
@@ -7435,18 +7442,18 @@
       "https://i.imgur.com/dLnjPJf.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "11:43",
-     "min": 15,
-     "webcam": "person mid-stretch/yawn, arms raised",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "11:43",
+     "end": "11:58",
+     "min": 15,
      "category": "Productivity",
      "activity": "Analyzing Q Rizz install vs TikTok data",
      "project": "Q Rizz",
      "screen_summary": "Chart: Q Rizz Installs vs TikTok App Mentions Apr-May 2026, install/trial correlation analysis",
+     "webcam": "person visible, hand on hair, daytime room",
      "captures": [
       {
        "start": "11:43",
@@ -7459,18 +7466,18 @@
       "https://i.imgur.com/EBOX3yI.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "11:58",
-     "min": 15,
-     "webcam": "person visible, hand on hair, daytime room",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "11:58",
+     "end": "12:13",
+     "min": 15,
      "category": "Productivity",
      "activity": "Q Rizz TikTok data analysis in Discord",
      "project": "Q Rizz",
      "screen_summary": "Discord Q Admin general — TikTok video data cross-check, corrected unique-user metrics, baseline analysis",
+     "webcam": "person head dropped forward, looking at screen",
      "captures": [
       {
        "start": "11:58",
@@ -7483,18 +7490,18 @@
       "https://i.imgur.com/llYCwBP.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "12:13",
-     "min": 15,
-     "webcam": "person head dropped forward, looking at screen",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "12:13",
+     "end": "12:28",
+     "min": 15,
      "category": "Productivity",
      "activity": "Researching rizz/dating TikTok creators",
      "project": "Q Rizz",
      "screen_summary": "TikTok web — browsing rizz/dating creator profile, multiple dating advice/rizz videos, competitor research",
+     "webcam": "person visible, looking down, daytime",
      "captures": [
       {
        "start": "12:13",
@@ -7507,18 +7514,18 @@
       "https://i.imgur.com/Y1m9HpK.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "12:28",
-     "min": 15,
-     "webcam": "person visible, looking down, daytime",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "12:28",
+     "end": "12:43",
+     "min": 15,
      "category": "Productivity",
      "activity": "Q Rizz TikTok video analysis in Discord",
      "project": "Q Rizz",
      "screen_summary": "Discord Q Admin general — 47 talking-head TikTok videos analysis, views data table, Apr-May trend",
+     "webcam": "person upright, daytime room",
      "captures": [
       {
        "start": "12:28",
@@ -7531,18 +7538,18 @@
       "https://i.imgur.com/LWZy2uw.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "12:43",
-     "min": 15,
-     "webcam": "person upright, daytime room",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "12:43",
+     "end": "13:13",
+     "min": 30,
      "category": "Productivity",
      "activity": "Q Rizz influencer outreach planning",
      "project": "Q Rizz",
      "screen_summary": "Discord Q Admin creators — Apify influencer scrape setup, outreach criteria, DM template discussion",
+     "webcam": "person visible in daytime room",
      "captures": [
       {
        "start": "12:43",
@@ -7562,18 +7569,18 @@
       "https://i.imgur.com/68VAicT.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "13:13",
-     "min": 30,
-     "webcam": "person visible in daytime room",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "13:13",
+     "end": "13:43",
+     "min": 30,
      "category": "Productivity",
      "activity": "Running Claude Code / OpenClaw agent",
      "project": "Q Rizz",
      "screen_summary": "Linux desktop with terminal — OpenClaw/Claude Code session checking Apify API keys; OpenClaw Control Center in browser",
+     "webcam": "person visible in daytime room",
      "captures": [
       {
        "start": "13:13",
@@ -7593,18 +7600,18 @@
       "https://i.imgur.com/uOok7vZ.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "13:43",
-     "min": 30,
-     "webcam": "person visible in daytime room",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "13:43",
+     "end": "13:58",
+     "min": 15,
      "category": "Learning",
      "activity": "Watching YouTube - self-improvement video",
      "project": "Learning/Personal",
      "screen_summary": "YouTube — 'How A Self-Taught Genius Learns' by Nic Munoz playing",
+     "webcam": "person visible in daytime room",
      "captures": [
       {
        "start": "13:43",
@@ -7617,18 +7624,18 @@
       "https://i.imgur.com/oh4UBFT.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "13:58",
-     "min": 15,
-     "webcam": "person visible in daytime room",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "13:58",
+     "end": "14:13",
+     "min": 15,
      "category": "Leisure",
      "activity": "Browsing X (Twitter) feed",
      "project": "Personal/Leisure",
      "screen_summary": "X/Twitter — browsing Following feed, Historical Chronicles post, Korean trending topics",
+     "webcam": "person visible in daytime room",
      "captures": [
       {
        "start": "13:58",
@@ -7641,18 +7648,18 @@
       "https://i.imgur.com/y7vZaw8.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "14:13",
-     "min": 15,
-     "webcam": "person visible in daytime room",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "14:13",
+     "end": "14:43",
+     "min": 30,
      "category": "Learning",
      "activity": "Watching YouTube - leadership/aura video",
      "project": "Learning/Personal",
      "screen_summary": "YouTube — 'Why Modern Leaders lack Aura' by Agora, Xi Jinping clip",
+     "webcam": "person visible in daytime room",
      "captures": [
       {
        "start": "14:13",
@@ -7672,18 +7679,18 @@
       "https://i.imgur.com/hJsQDD4.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "14:43",
-     "min": 30,
-     "webcam": "person visible in daytime room",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "14:43",
+     "end": "14:58",
+     "min": 15,
      "category": "Learning",
      "activity": "Watching YouTube - Gen Z and Hero Worship video",
      "project": "Learning/Personal",
      "screen_summary": "YouTube — 'Gen Z and Hero Worship' by Agora, Japan street scene, significance/audience framing",
+     "webcam": "person visible in daytime room",
      "captures": [
       {
        "start": "14:43",
@@ -7696,18 +7703,18 @@
       "https://i.imgur.com/FeTyKpU.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "14:58",
-     "min": 15,
-     "webcam": "person visible in daytime room",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "14:58",
+     "end": "15:43",
+     "min": 45,
      "category": "Productivity",
      "activity": "Q Rizz influencer outreach planning",
      "project": "Q Rizz",
      "screen_summary": "Discord Q Admin creators — influencer outreach criteria, DM template, creators list instructions",
+     "webcam": "person visible in daytime room",
      "captures": [
       {
        "start": "14:58",
@@ -7734,18 +7741,18 @@
       "https://i.imgur.com/20OU4zh.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "15:43",
-     "min": 45,
-     "webcam": "person visible in daytime room",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "15:43",
+     "end": "15:58",
+     "min": 15,
      "category": "Leisure",
      "activity": "Watching YouTube - productivity video",
      "project": "Personal/Leisure",
      "screen_summary": "YouTube — 'I Tried the World's Simplest Productivity Trick' by Simple Lucas; person stepped away",
+     "webcam": "empty room, laptop on bed",
      "captures": [
       {
        "start": "15:43",
@@ -7758,18 +7765,18 @@
       "https://i.imgur.com/tbv7ojC.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "15:58",
-     "min": 15,
-     "webcam": "empty room, laptop on bed",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "15:58",
+     "end": "16:13",
+     "min": 15,
      "category": "Communications",
      "activity": "Granting data access to team member in Discord",
      "project": "Q Rizz",
      "screen_summary": "Discord Q Admin ai-channel — n1dhaann requesting Superwall/Mixpanel/Sheets/Apify access, Sun granting broad data access",
+     "webcam": "person visible, phone in hand, daytime room",
      "captures": [
       {
        "start": "15:58",
@@ -7782,18 +7789,18 @@
       "https://i.imgur.com/YEfnjRX.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "16:13",
-     "min": 15,
-     "webcam": "person visible, phone in hand, daytime room",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "16:13",
+     "end": "16:28",
+     "min": 15,
      "category": "Productivity",
      "activity": "Q Rizz influencer outreach - reviewing creator list",
      "project": "Q Rizz",
      "screen_summary": "Discord Q Admin creators — TikTok influencer stats list with follower counts, views, niches",
+     "webcam": "person visible, head/torso leaning left, daytime",
      "captures": [
       {
        "start": "16:13",
@@ -7806,18 +7813,18 @@
       "https://i.imgur.com/o2NFIbD.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "16:28",
-     "min": 15,
-     "webcam": "person visible, head/torso leaning left, daytime",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "16:28",
+     "end": "16:43",
+     "min": 15,
      "category": "Productivity",
      "activity": "Q Rizz influencer outreach - spreadsheet work",
      "project": "Q Rizz",
      "screen_summary": "Google Sheets — Influencer Outreach TikTok spreadsheet with handles, follower counts, views, notes",
+     "webcam": "person visible in daytime room",
      "captures": [
       {
        "start": "16:28",
@@ -7830,18 +7837,18 @@
       "https://i.imgur.com/dYg3VYI.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "16:43",
-     "min": 15,
-     "webcam": "person visible in daytime room",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "16:43",
+     "end": "17:13",
+     "min": 30,
      "category": "Productivity",
      "activity": "Debugging SelfTrack upload issue in OpenClaw",
      "project": "SelfTrack",
      "screen_summary": "OpenClaw Chat — troubleshooting upload_screenshot endpoint suspension, reviewing composite/image pipeline",
+     "webcam": "person partially in frame, looking down, daytime room",
      "captures": [
       {
        "start": "16:43",
@@ -7861,18 +7868,18 @@
       "https://i.imgur.com/svEKAL4.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "17:13",
-     "min": 30,
-     "webcam": "person partially in frame, looking down, daytime room",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "17:13",
+     "end": "17:44",
+     "min": 30,
      "category": "Leisure",
      "activity": "Watching YouTube - Napoleon movie critique video",
      "project": "Personal/Leisure",
      "screen_summary": "YouTube — 'Napoleon is Everything Wrong with Biopics' by Despot of Antrim, ship battle scene",
+     "webcam": "empty room, laptop on bed",
      "captures": [
       {
        "start": "17:13",
@@ -7892,18 +7899,18 @@
       "https://i.imgur.com/5XqOA9L.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "17:44",
-     "min": 30,
-     "webcam": "empty room, laptop on bed",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "17:44",
+     "end": "17:59",
+     "min": 15,
      "category": "Productivity",
      "activity": "Debugging SelfTrack upload issue in OpenClaw",
      "project": "SelfTrack",
      "screen_summary": "OpenClaw Chat — SelfTrack upload debug thread continuing, storage/hosting alternatives",
+     "webcam": "empty room",
      "captures": [
       {
        "start": "17:44",
@@ -7916,18 +7923,18 @@
       "https://i.imgur.com/MkVTjVq.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "17:59",
-     "min": 15,
-     "webcam": "empty room",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "17:59",
+     "end": "18:29",
+     "min": 30,
      "category": "Leisure",
      "activity": "Watching YouTube - Napoleon movie critique video",
      "project": "Personal/Leisure",
      "screen_summary": "YouTube — 'Napoleon is Everything Wrong with Biopics', Ridley Scott interview, historical integrity commentary",
+     "webcam": "person in profile view, looking down at screen",
      "captures": [
       {
        "start": "17:59",
@@ -7947,18 +7954,18 @@
       "https://i.imgur.com/tmTwGBa.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "18:29",
-     "min": 30,
-     "webcam": "person in profile view, looking down at screen",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "18:29",
+     "end": "18:44",
+     "min": 15,
      "category": "Leisure",
      "activity": "Searching for Napoleon movie info",
      "project": "Personal/Leisure",
      "screen_summary": "Google AI Overview — 'is there another Napoleon movie', HBO/Spielberg Napoleon limited series mentioned",
+     "webcam": "person upright, looking slightly down",
      "captures": [
       {
        "start": "18:29",
@@ -7971,18 +7978,18 @@
       "https://i.imgur.com/eI7Y859.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "18:44",
-     "min": 15,
-     "webcam": "person upright, looking slightly down",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "18:44",
+     "end": "18:59",
+     "min": 15,
      "category": "Leisure",
      "activity": "Watching YouTube - Napoleon movie critique video",
      "project": "Personal/Leisure",
      "screen_summary": "YouTube — 'Napoleon is Everything Wrong with Biopics', crowd/stadium scene, filmmakers' imagination commentary",
+     "webcam": "person centered, looking down at screen",
      "captures": [
       {
        "start": "18:44",
@@ -7995,18 +8002,18 @@
       "https://i.imgur.com/NDkGf9M.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "18:59",
-     "min": 15,
-     "webcam": "person centered, looking down at screen",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "18:59",
+     "end": "19:14",
+     "min": 15,
      "category": "Leisure",
      "activity": "Searching Napoleon videos on YouTube",
      "project": "Personal/Leisure",
      "screen_summary": "YouTube — searching 'war and peace napoleon', Napoleon video browsing (Lifetime clips, 4K Russian Campaign)",
+     "webcam": "person centered, looking at screen, evening room",
      "captures": [
       {
        "start": "18:59",
@@ -8019,18 +8026,18 @@
       "https://i.imgur.com/BSh3ZpK.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "19:14",
-     "min": 15,
-     "webcam": "person centered, looking at screen, evening room",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "19:14",
+     "end": "19:29",
+     "min": 15,
      "category": "Leisure",
      "activity": "Streaming movie online",
      "project": "Personal/Leisure",
      "screen_summary": "Streaming site — watching 'Spider-Man: No Way Home' via online streaming server",
+     "webcam": "person upright, wearing headphones, dim room with screen glow",
      "captures": [
       {
        "start": "19:14",
@@ -8043,18 +8050,18 @@
       "https://i.imgur.com/4jwFl1O.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "19:29",
-     "min": 15,
-     "webcam": "person upright, wearing headphones, dim room with screen glow",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "19:29",
+     "end": "20:59",
+     "min": 90,
      "category": "Leisure",
      "activity": "Watching movie in VLC",
      "project": "Personal/Leisure",
      "screen_summary": "VLC Media Player fullscreen — British indie drama, young male protagonist in warm interior scene",
+     "webcam": "person upright, smiling, holding phone, dim room",
      "captures": [
       {
        "start": "19:29",
@@ -8102,18 +8109,18 @@
       "https://i.imgur.com/FdXAvFE.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "20:59",
-     "min": 90,
-     "webcam": "person upright, smiling, holding phone, dim room",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "20:59",
+     "end": "22:14",
+     "min": 75,
      "category": "Leisure",
      "activity": "Watching movie",
      "project": "Personal leisure - watching movie \"Obsession\" (horror)",
      "screen_summary": "Fullscreen movie scene - woman at restaurant/bar setting",
+     "webcam": "Dark room, person at desk watching screen",
      "captures": [
       {
        "start": "20:59",
@@ -8154,18 +8161,18 @@
       "https://i.imgur.com/JpMU9zU.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "22:14",
-     "min": 75,
-     "webcam": "Dark room, person at desk watching screen",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "22:14",
+     "end": "22:29",
+     "min": 15,
      "category": "Leisure",
      "activity": "YouTube watching",
      "project": "Personal leisure - YouTube movie review \"Obsession\" ending explained",
      "screen_summary": "YouTube - MadMorph Movie Club: OBSESSION Ending Explained - Is it the best horror movie ever?",
+     "webcam": "Sun in dark room, head tilted, watching YouTube on screen",
      "captures": [
       {
        "start": "22:14",
@@ -8178,18 +8185,18 @@
       "https://i.imgur.com/O917GDR.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "22:29",
-     "min": 15,
-     "webcam": "Sun in dark room, head tilted, watching YouTube on screen",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "22:29",
+     "end": "08:59",
+     "min": 630,
      "category": "AFK/Idle",
      "activity": "Sleeping",
      "project": "Sleep",
      "screen_summary": "Overnight sleep autofill",
+     "webcam": "Asleep",
      "captures": [
       {
        "start": "22:29",
@@ -8446,11 +8453,8 @@
      ],
      "images": [],
      "sensitive_count": 42,
-     "notes": "",
-     "end": "08:59",
-     "min": 630,
-     "webcam": "Asleep",
-     "sensitive": true
+     "sensitive": true,
+     "notes": ""
     }
    ],
    "dailySummary": {
@@ -8467,7 +8471,8 @@
     },
     "top3": "Sleeping (9h 15m) · Watching movie in VLC (1h 30m) · Q Rizz influencer outreach planning (1h 15m)",
     "ai_takeaway": "4h 45m productive and all of it on Q Rizz — influencer outreach pipeline, TikTok creator analysis, Superwall/revenue review. Good single-lever focus. Evening dissolved into 6h 45m of movies; MBTI Oracle got nothing.",
-    "first_last": "02:05 / 23:59"
+    "first_last": "02:05 / 23:59",
+    "note": ""
    }
   },
   {
@@ -8506,10 +8511,13 @@
    "blocks": [
     {
      "start": "08:55",
+     "end": "09:10",
+     "min": 15,
      "category": "AFK/Idle",
      "activity": "AFK - desktop idle",
      "project": "AFK/Idle - PC unattended at desktop",
      "screen_summary": "Windows desktop with Windscribe VPN popup open (Montreal Expo 67 server), no active application",
+     "webcam": "Empty bed, no person visible",
      "captures": [
       {
        "start": "08:55",
@@ -8522,18 +8530,18 @@
       "https://i.imgur.com/lluqIu5.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "09:10",
-     "min": 15,
-     "webcam": "Empty bed, no person visible",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "09:10",
+     "end": "09:25",
+     "min": 15,
      "category": "Learning",
      "activity": "YouTube watching",
      "project": "Learning - YouTube AI news: Claude Opus 4.8 feature updates",
      "screen_summary": "YouTube - Wes Roth: Claude Opus 4.8 feature announcement (dynamic workflows, parallel subagents, effort control)",
+     "webcam": "Sun at desk looking at screen, good posture",
      "captures": [
       {
        "start": "09:10",
@@ -8546,18 +8554,18 @@
       "https://i.imgur.com/j1xXaYy.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "09:25",
-     "min": 15,
-     "webcam": "Sun at desk looking at screen, good posture",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "09:25",
+     "end": "09:40",
+     "min": 15,
      "category": "Learning",
      "activity": "YouTube watching",
      "project": "Learning - YouTube posture/exercise research",
      "screen_summary": "YouTube - @cjnorharris: Stop Trying To Stand Tall - posture correction with resistance bands",
+     "webcam": "Person away from desk, arm visible at frame edge",
      "captures": [
       {
        "start": "09:25",
@@ -8570,18 +8578,18 @@
       "https://i.imgur.com/TOynpk9.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "09:40",
-     "min": 15,
-     "webcam": "Person away from desk, arm visible at frame edge",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "09:40",
+     "end": "09:55",
+     "min": 15,
      "category": "Leisure",
      "activity": "YouTube watching",
      "project": "Personal leisure - YouTube movie/psychology analysis",
      "screen_summary": "YouTube - Lucas Blue: ANALYZING BEAR - How Modern Male Insecurity Creates a Predator (Obsession movie analysis)",
+     "webcam": "Camera covered, black frame",
      "captures": [
       {
        "start": "09:40",
@@ -8594,18 +8602,18 @@
       "https://i.imgur.com/USktGoX.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "09:55",
-     "min": 15,
-     "webcam": "Camera covered, black frame",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "09:55",
+     "end": "10:10",
+     "min": 15,
      "category": "Leisure",
      "activity": "YouTube browsing",
      "project": "Personal leisure - YouTube browsing",
      "screen_summary": "YouTube home page - browsing recommended feed (South Korea, Obsession-related content, Shorts)",
+     "webcam": "Camera covered, black frame",
      "captures": [
       {
        "start": "09:55",
@@ -8618,18 +8626,18 @@
       "https://i.imgur.com/vXtNbX6.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "10:10",
-     "min": 15,
-     "webcam": "Camera covered, black frame",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "10:10",
+     "end": "10:25",
+     "min": 15,
      "category": "Learning",
      "activity": "YouTube watching",
      "project": "Learning - YouTube posture/exercise: anterior pelvic tilt fix",
      "screen_summary": "YouTube - @cjnorharris: How To Fix Anterior Pelvic Tilt - A New Method (gym exercise video)",
+     "webcam": "Empty bed, person away from desk",
      "captures": [
       {
        "start": "10:10",
@@ -8642,18 +8650,18 @@
       "https://i.imgur.com/AK5sIes.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "10:25",
-     "min": 15,
-     "webcam": "Empty bed, person away from desk",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "10:25",
+     "end": "11:10",
+     "min": 45,
      "category": "Leisure",
      "activity": "Playing Civ 6",
      "project": "Personal leisure - Civilization VI gaming",
      "screen_summary": "Civilization VI - early game desert map, Paris city, exploring with units, Next Turn button visible",
+     "webcam": "Sun at desk looking at screen, good posture",
      "captures": [
       {
        "start": "10:25",
@@ -8680,18 +8688,18 @@
       "https://i.imgur.com/iSjPYxp.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "11:10",
-     "min": 45,
-     "webcam": "Sun at desk looking at screen, good posture",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "11:10",
+     "end": "11:25",
+     "min": 15,
      "category": "Leisure",
      "activity": "YouTube watching",
      "project": "Personal leisure - background focus music while on phone",
      "screen_summary": "YouTube - deep work music [flow state playlist] by aeieu playing in background; Discord/Amazon CS tabs open",
+     "webcam": "Sun holding phone up toward camera",
      "captures": [
       {
        "start": "11:10",
@@ -8704,18 +8712,18 @@
       "https://i.imgur.com/WSvhQij.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "11:25",
-     "min": 15,
-     "webcam": "Sun holding phone up toward camera",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "11:25",
+     "end": "11:40",
+     "min": 15,
      "category": "Learning",
      "activity": "YouTube watching",
      "project": "Learning - War of Art audiobook (creativity/overcoming resistance)",
      "screen_summary": "YouTube - The War of Art by Steven Pressfield (Audiobook) - Self Improvement Audiobooks channel",
+     "webcam": "Sun head dropped forward, slouching - posture alert fired",
      "captures": [
       {
        "start": "11:25",
@@ -8728,18 +8736,18 @@
       "https://i.imgur.com/ei0VjMq.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "11:40",
-     "min": 15,
-     "webcam": "Sun head dropped forward, slouching - posture alert fired",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "11:40",
+     "end": "11:55",
+     "min": 15,
      "category": "Learning",
      "activity": "YouTube watching",
      "project": "Learning - AI news: Claude Opus 4.8 analysis/critique",
      "screen_summary": "YouTube - Jay E/RoboNuggets: Opus 4.8 is NOT Claude's biggest release (Ultracode and Dynamic Workflows)",
+     "webcam": "Sun at desk, head slightly down, borderline good posture",
      "captures": [
       {
        "start": "11:40",
@@ -8752,18 +8760,18 @@
       "https://i.imgur.com/Eu2Q9Iq.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "11:55",
-     "min": 15,
-     "webcam": "Sun at desk, head slightly down, borderline good posture",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "11:55",
+     "end": "12:10",
+     "min": 15,
      "category": "Leisure",
      "activity": "YouTube watching",
      "project": "Personal leisure - social skills/charisma YouTube content",
      "screen_summary": "YouTube - Charisma on Command: Trying to Get Respect Doesn't Work, This Does - Peaky Blinders clip",
+     "webcam": "Sun at desk, good posture",
      "captures": [
       {
        "start": "11:55",
@@ -8776,18 +8784,18 @@
       "https://i.imgur.com/HdVJhf5.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "12:10",
-     "min": 15,
-     "webcam": "Sun at desk, good posture",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "12:10",
+     "end": "12:25",
+     "min": 15,
      "category": "Leisure",
      "activity": "YouTube watching",
      "project": "Personal leisure - motivational YouTube content",
      "screen_summary": "YouTube - Iron Within: Do You Actually Want It? - motivational video with intense B&W thumbnail",
+     "webcam": "Sun at desk, hand near face, contemplative",
      "captures": [
       {
        "start": "12:10",
@@ -8800,18 +8808,18 @@
       "https://i.imgur.com/8aMaXXq.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "12:25",
-     "min": 15,
-     "webcam": "Sun at desk, hand near face, contemplative",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "12:25",
+     "end": "12:40",
+     "min": 15,
      "category": "Communications",
      "activity": "Discord chat",
      "project": "Communications - Discord investing/AI server discussion (NVDA)",
      "screen_summary": "Discord #general - reading NVDA/AI hardware stack investing discussion; deep work music playing in background tab",
+     "webcam": "Sun at desk, centered, good posture",
      "captures": [
       {
        "start": "12:25",
@@ -8824,18 +8832,18 @@
       "https://i.imgur.com/nPMuA69.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "12:40",
-     "min": 15,
-     "webcam": "Sun at desk, centered, good posture",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "12:40",
+     "end": "13:10",
+     "min": 30,
      "category": "Leisure",
      "activity": "YouTube watching",
      "project": "Personal leisure - Dune audiobook",
      "screen_summary": "YouTube - Dune audiobook playing; text visible: Arrakis, Kwisatz Haderach, Bene Gesserit, Paul",
+     "webcam": "Sun at desk, looking slightly down, good posture",
      "captures": [
       {
        "start": "12:40",
@@ -8855,18 +8863,18 @@
       "https://i.imgur.com/tcQ5Fa6.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "13:10",
-     "min": 30,
-     "webcam": "Sun at desk, looking slightly down, good posture",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "13:10",
+     "end": "13:25",
+     "min": 15,
      "category": "Productivity",
      "activity": "AI research",
      "project": "Productivity - Gemini AI research (TikTok/app monetization analysis)",
      "screen_summary": "Gemini Notebook - analyzing productivity and time usage; topics include TikTok Creator Payout Estimation, App monetization strategy, Cash Flow vs Investment Decisions",
+     "webcam": "Sun at desk, centered, facing camera",
      "captures": [
       {
        "start": "13:10",
@@ -8879,18 +8887,18 @@
       "https://i.imgur.com/u3RJDf0.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "13:25",
-     "min": 15,
-     "webcam": "Sun at desk, centered, facing camera",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "13:25",
+     "end": "13:40",
+     "min": 15,
      "category": "Productivity",
      "activity": "OpenClaw work session",
      "project": "MBTI Oracle - revenue analysis with n1dhaann via OpenClaw",
      "screen_summary": "OpenClaw Chat - n1dhaann requesting MBTI Oracle MRR/App Store Connect/Superwall data; Tom providing revenue breakdown and product analysis",
+     "webcam": "Sun at desk, good posture, looking at screen",
      "captures": [
       {
        "start": "13:25",
@@ -8903,18 +8911,18 @@
       "https://i.imgur.com/Mhfdp9k.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "13:40",
-     "min": 15,
-     "webcam": "Sun at desk, good posture, looking at screen",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "13:40",
+     "end": "13:55",
+     "min": 15,
      "category": "Productivity",
      "activity": "OpenClaw work session",
      "project": "MBTI Oracle / Q Rizz - strategic planning session via OpenClaw",
      "screen_summary": "OpenClaw Chat - strategic advice on time allocation: Q Rizz most profitable, MBTI Oracle traffic bottleneck, TikTok morning slot recommendation",
+     "webcam": "Person at desk working (cam not captured during posture check interval)",
      "captures": [
       {
        "start": "13:40",
@@ -8927,18 +8935,18 @@
       "https://i.imgur.com/8cCJDfC.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "13:55",
-     "min": 15,
-     "webcam": "Person at desk working (cam not captured during posture check interval)",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "13:55",
+     "end": "14:10",
+     "min": 15,
      "category": "Productivity",
      "activity": "OpenClaw work session",
      "project": "MBTI Oracle - App Store Connect/Superwall API data retrieval",
      "screen_summary": "OpenClaw Chat - n1dhaann requesting App Store Connect API data format; Tom explaining API key generation and Superwall financial report access",
+     "webcam": "Sun slightly off-center left, head dropped, borderline good posture",
      "captures": [
       {
        "start": "13:55",
@@ -8951,18 +8959,18 @@
       "https://i.imgur.com/F2M7YMS.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "14:10",
-     "min": 15,
-     "webcam": "Sun slightly off-center left, head dropped, borderline good posture",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "14:10",
+     "end": "14:25",
+     "min": 15,
      "category": "Productivity",
      "activity": "OpenClaw work session",
      "project": "MBTI Oracle - App Store Connect API key setup and revenue data",
      "screen_summary": "OpenClaw Chat - App Store Connect API key setup, Superwall financial reports integration, fetching MBTI Oracle revenue data",
+     "webcam": "Empty bed visible, Sun at desk but outside camera frame",
      "captures": [
       {
        "start": "14:10",
@@ -8975,18 +8983,18 @@
       "https://i.imgur.com/qlqxesj.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "14:25",
-     "min": 15,
-     "webcam": "Empty bed visible, Sun at desk but outside camera frame",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "14:25",
+     "end": "14:40",
+     "min": 15,
      "category": "Productivity",
      "activity": "OpenClaw work session",
      "project": "MBTI Oracle / Q Rizz / Simple Rizz - weekly revenue analysis",
      "screen_summary": "OpenClaw Chat - weekly revenue table for MBTI Oracle/Q Rizz/Simple Rizz (2025 data); MBTI bell curve noted, Q Rizz slowly rising, Simple Rizz pivoted",
+     "webcam": "Empty bed, Sun away from desk or outside frame",
      "captures": [
       {
        "start": "14:25",
@@ -8999,18 +9007,18 @@
       "https://i.imgur.com/nwxcjl9.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "14:40",
-     "min": 15,
-     "webcam": "Empty bed, Sun away from desk or outside frame",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     },
     {
      "start": "14:40",
+     "end": "14:55",
+     "min": 15,
      "category": "Productivity",
      "activity": "OpenClaw work session",
      "project": "MBTI Oracle / Q Rizz - revenue trend review",
      "screen_summary": "OpenClaw Chat - same revenue analysis table visible; reviewing product revenue trends before stepping out",
+     "webcam": "Sun at edge of frame handling bag/jacket, preparing to leave",
      "captures": [
       {
        "start": "14:40",
@@ -9023,11 +9031,8 @@
       "https://i.imgur.com/P1rlJgA.jpeg"
      ],
      "sensitive_count": 0,
-     "notes": "",
-     "end": "14:55",
-     "min": 15,
-     "webcam": "Sun at edge of frame handling bag/jacket, preparing to leave",
-     "sensitive": false
+     "sensitive": false,
+     "notes": ""
     }
    ]
   }
