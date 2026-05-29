@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-05-29T20:02:21.067305+09:00",
+ "generatedAt": "2026-05-29T21:04:08.071160+09:00",
  "days": [
   {
    "date": "2026-05-20",
@@ -397,7 +397,7 @@
      ],
      "sensitive_count": 0,
      "notes": "",
-     "webcam": "away — empty bed view",
+     "webcam": "away — empty bed, dark jeans on edge",
      "sensitive": false
     },
     {
@@ -538,7 +538,7 @@
      ],
      "sensitive_count": 0,
      "notes": "",
-     "webcam": "Sun facing camera, neutral",
+     "webcam": "Sun resting hands on face, contemplative",
      "sensitive": false
     },
     {
@@ -1793,7 +1793,7 @@
      ],
      "sensitive_count": 0,
      "notes": "",
-     "webcam": "present, head centered, level",
+     "webcam": "present, head forward looking down at desk",
      "sensitive": false
     },
     {
@@ -2521,6 +2521,7 @@
     "Learning/Reading": 150,
     "Personal/Break": 120,
     "Gaming/Warhammer": 30,
+    "": 15,
     "Leisure": 165,
     "Leisure/History": 90,
     "Sleep": 750
@@ -2746,7 +2747,7 @@
      ],
      "sensitive_count": 0,
      "notes": "",
-     "webcam": "Sun centered, head tilted slightly right, looking down at screen.",
+     "webcam": "Sun upright, head leaning slightly forward, looking down — reading.",
      "sensitive": false
     },
     {
@@ -2801,7 +2802,7 @@
      ],
      "sensitive_count": 0,
      "notes": "",
-     "webcam": "Webcam appears off/dark — frame essentially black.",
+     "webcam": "Sun upright, centered, head over shoulders.",
      "sensitive": false
     },
     {
@@ -2832,7 +2833,7 @@
      ],
      "sensitive_count": 0,
      "notes": "",
-     "webcam": "Sun upright, head over shoulders, looking down at screen.",
+     "webcam": "Sun upright but offset to viewer left, head over shoulders.",
      "sensitive": false
     },
     {
@@ -3174,7 +3175,7 @@
      ],
      "sensitive_count": 0,
      "notes": "",
-     "webcam": "Dark frame, faint silhouette — Sun watching in dim room.",
+     "webcam": "Sun upright with headphones, drinking water — body upright.",
      "sensitive": false
     },
     {
@@ -3665,6 +3666,7 @@
     "Learning/Business": 15,
     "Reddit ops": 15,
     "Health": 195,
+    "": 120,
     "SelfTrack": 30,
     "Leisure": 195,
     "Learning": 15,
@@ -4386,7 +4388,7 @@
      ],
      "sensitive_count": 0,
      "notes": "",
-     "webcam": "Pitch dark, faint outline of face, small reflected light visible",
+     "webcam": "Pitch dark room, dim outline of head, person upright",
      "sensitive": false
     },
     {
@@ -5461,7 +5463,7 @@
      ],
      "sensitive_count": 0,
      "notes": "",
-     "webcam": "Sun present, earphones in, looking down",
+     "webcam": "Sun present, holding phone, smiling, watching",
      "sensitive": false
     },
     {
@@ -5636,7 +5638,7 @@
      ],
      "sensitive_count": 0,
      "notes": "",
-     "webcam": "Sun present, centered, upright, shoulders level, looking at screen",
+     "webcam": "Sun present, sitting upright in blue polo, focused, looking down at screen",
      "sensitive": false
     },
     {
@@ -6536,6 +6538,7 @@
    "by_project": {
     "N/A": 15,
     "Learning": 210,
+    "": 105,
     "YouTube": 30,
     "Q Rizz": 60,
     "SelfTrack": 15,
@@ -7081,7 +7084,7 @@
      ],
      "sensitive_count": 0,
      "notes": "",
-     "webcam": "person visible lying/leaning in dark room",
+     "webcam": "person visible in dark room, face lit by screen glow, tired-looking",
      "sensitive": false
     },
     {
@@ -7889,7 +7892,7 @@
      ],
      "sensitive_count": 0,
      "notes": "",
-     "webcam": "empty room, person away from desk",
+     "webcam": "person partially in frame, looking down, daytime room",
      "sensitive": false
     },
     {
@@ -7975,7 +7978,7 @@
      ],
      "sensitive_count": 0,
      "notes": "",
-     "webcam": "person upright, centered, looking at screen",
+     "webcam": "person in profile view, looking down at screen",
      "sensitive": false
     },
     {
@@ -8130,7 +8133,7 @@
      ],
      "sensitive_count": 0,
      "notes": "",
-     "webcam": "person upright, centered, evening room",
+     "webcam": "person upright, smiling, holding phone, dim room",
      "sensitive": false
     },
     {
@@ -8501,9 +8504,9 @@
   },
   {
    "date": "2026-05-29",
-   "tracked_min": 600,
+   "tracked_min": 720,
    "by_category": {
-    "AFK/Idle": 255,
+    "AFK/Idle": 375,
     "Learning": 75,
     "Leisure": 150,
     "Communications": 15,
@@ -8531,7 +8534,7 @@
     "MBTI Oracle - App Store Connect API key setup and revenue data": 15,
     "MBTI Oracle / Q Rizz / Simple Rizz - weekly revenue analysis": 15,
     "MBTI Oracle / Q Rizz - revenue trend review": 15,
-    "AFK/Idle - PC left on unattended while out": 240
+    "AFK/Idle - PC left on unattended while out": 360
    },
    "blocks": [
     {
@@ -8713,7 +8716,7 @@
      ],
      "sensitive_count": 0,
      "notes": "",
-     "webcam": "Sun at desk, good posture",
+     "webcam": "Sun at desk looking at screen, good posture",
      "sensitive": false
     },
     {
@@ -9061,8 +9064,8 @@
     },
     {
      "start": "14:55",
-     "end": "18:56",
-     "min": 240,
+     "end": "20:56",
+     "min": 360,
      "category": "AFK/Idle",
      "activity": "AFK - PC left on",
      "project": "AFK/Idle - PC left on unattended while out",
@@ -9163,6 +9166,54 @@
        "image": "https://i.imgur.com/izIxXcW.jpeg",
        "summary": "OpenClaw Chat - revenue analysis table on screen; PC left unattended",
        "sensitive": false
+      },
+      {
+       "start": "18:56",
+       "image": "https://i.imgur.com/phJpfA8.jpeg",
+       "summary": "OpenClaw Chat - revenue analysis table visible on screen; PC left unattended",
+       "sensitive": false
+      },
+      {
+       "start": "19:11",
+       "image": "https://i.imgur.com/Ucydmry.jpeg",
+       "summary": "OpenClaw Chat - revenue analysis table visible on screen; PC left unattended",
+       "sensitive": false
+      },
+      {
+       "start": "19:26",
+       "image": "https://i.imgur.com/yWyn6Wn.jpeg",
+       "summary": "OpenClaw Chat - revenue analysis table visible on screen; PC left unattended",
+       "sensitive": false
+      },
+      {
+       "start": "19:41",
+       "image": "https://i.imgur.com/V0bAW4T.jpeg",
+       "summary": "OpenClaw Chat - revenue analysis table visible on screen; PC left unattended",
+       "sensitive": false
+      },
+      {
+       "start": "19:56",
+       "image": "https://i.imgur.com/gSNebm5.jpeg",
+       "summary": "OpenClaw Chat - revenue analysis table visible on screen; PC left unattended",
+       "sensitive": false
+      },
+      {
+       "start": "20:11",
+       "image": "https://i.imgur.com/WlwaZkB.jpeg",
+       "summary": "OpenClaw Chat - revenue analysis table visible on screen; PC left unattended",
+       "sensitive": false
+      },
+      {
+       "start": "20:26",
+       "image": "https://i.imgur.com/Lvle9yy.jpeg",
+       "summary": "OpenClaw Chat - revenue analysis table visible on screen; PC left unattended",
+       "sensitive": false
+      },
+      {
+       "start": "20:41",
+       "image": "https://i.imgur.com/A1t6CFj.jpeg",
+       "summary": "OpenClaw Chat - revenue analysis table visible on screen; PC left unattended",
+       "sensitive": false
       }
      ],
      "images": [
@@ -9181,7 +9232,15 @@
       "https://i.imgur.com/YZ3rpcy.jpeg",
       "https://i.imgur.com/7qGWplF.jpeg",
       "https://i.imgur.com/emoYDEx.jpeg",
-      "https://i.imgur.com/izIxXcW.jpeg"
+      "https://i.imgur.com/izIxXcW.jpeg",
+      "https://i.imgur.com/phJpfA8.jpeg",
+      "https://i.imgur.com/Ucydmry.jpeg",
+      "https://i.imgur.com/yWyn6Wn.jpeg",
+      "https://i.imgur.com/V0bAW4T.jpeg",
+      "https://i.imgur.com/gSNebm5.jpeg",
+      "https://i.imgur.com/WlwaZkB.jpeg",
+      "https://i.imgur.com/Lvle9yy.jpeg",
+      "https://i.imgur.com/A1t6CFj.jpeg"
      ],
      "sensitive_count": 0,
      "notes": "",
