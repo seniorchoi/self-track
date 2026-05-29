@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T12:03:03.940296+09:00",
+  "generatedAt": "2026-05-29T13:02:45.990799+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -2512,6 +2512,7 @@
         "Learning/Reading": 150,
         "Personal/Break": 120,
         "Gaming/Warhammer": 30,
+        "": 15,
         "Leisure": 165,
         "Leisure/History": 90,
         "Sleep": 750
@@ -3615,7 +3616,7 @@
           "sensitive_count": 50,
           "notes": "",
           "end": "13:01",
-          "webcam": null,
+          "webcam": "",
           "sensitive": true
         }
       ]
@@ -3636,6 +3637,7 @@
         "Learning/Business": 15,
         "Reddit ops": 15,
         "Health": 195,
+        "": 120,
         "SelfTrack": 30,
         "Leisure": 195,
         "Learning": 15,
@@ -6447,6 +6449,7 @@
       "by_project": {
         "N/A": 15,
         "Learning": 210,
+        "": 105,
         "YouTube": 30,
         "Q Rizz": 60,
         "SelfTrack": 15,
@@ -8389,11 +8392,12 @@
     },
     {
       "date": "2026-05-29",
-      "tracked_min": 120,
+      "tracked_min": 240,
       "by_category": {
         "AFK/Idle": 15,
-        "Learning": 45,
-        "Leisure": 60
+        "Learning": 75,
+        "Leisure": 135,
+        "Communications": 15
       },
       "by_project": {
         "AFK/Idle - PC unattended at desktop": 15,
@@ -8402,7 +8406,14 @@
         "Personal leisure - YouTube movie/psychology analysis": 15,
         "Personal leisure - YouTube browsing": 15,
         "Learning - YouTube posture/exercise: anterior pelvic tilt fix": 15,
-        "Personal leisure - Civilization VI gaming": 30
+        "Personal leisure - Civilization VI gaming": 45,
+        "Personal leisure - background focus music while on phone": 15,
+        "Learning - War of Art audiobook (creativity/overcoming resistance)": 15,
+        "Learning - AI news: Claude Opus 4.8 analysis/critique": 15,
+        "Personal leisure - social skills/charisma YouTube content": 15,
+        "Personal leisure - motivational YouTube content": 15,
+        "Communications - Discord investing/AI server discussion (NVDA)": 15,
+        "Personal leisure - Dune audiobook": 15
       },
       "blocks": [
         {
@@ -8551,7 +8562,7 @@
         },
         {
           "start": "10:25",
-          "min": 30,
+          "min": 45,
           "category": "Leisure",
           "activity": "Playing Civ 6",
           "project": "Personal leisure - Civilization VI gaming",
@@ -8568,16 +8579,191 @@
               "image": "https://i.imgur.com/v2NNLnH.jpeg",
               "summary": "Civilization VI - mid-game, Paris city developed, Foreign Trade policy screen open, Zanzibar city visible",
               "sensitive": false
+            },
+            {
+              "start": "10:55",
+              "image": "https://i.imgur.com/iSjPYxp.jpeg",
+              "summary": "Civilization VI - expanded map, Paris+Rouen+Jerusalem visible, Early Empire civic, multiple civs competing",
+              "sensitive": false
             }
           ],
           "images": [
             "https://i.imgur.com/YLYtcge.jpeg",
-            "https://i.imgur.com/v2NNLnH.jpeg"
+            "https://i.imgur.com/v2NNLnH.jpeg",
+            "https://i.imgur.com/iSjPYxp.jpeg"
           ],
           "sensitive_count": 0,
           "notes": "",
-          "end": "10:55",
+          "end": "11:10",
           "webcam": "Sun at desk looking at screen, good posture",
+          "sensitive": false
+        },
+        {
+          "start": "11:10",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "YouTube watching",
+          "project": "Personal leisure - background focus music while on phone",
+          "screen_summary": "YouTube - deep work music [flow state playlist] by aeieu playing in background; Discord/Amazon CS tabs open",
+          "captures": [
+            {
+              "start": "11:10",
+              "image": "https://i.imgur.com/WSvhQij.jpeg",
+              "summary": "YouTube - deep work music [flow state playlist] by aeieu playing in background; Discord/Amazon CS tabs open",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/WSvhQij.jpeg"
+          ],
+          "sensitive_count": 0,
+          "notes": "",
+          "end": "11:25",
+          "webcam": "Sun holding phone up toward camera",
+          "sensitive": false
+        },
+        {
+          "start": "11:25",
+          "min": 15,
+          "category": "Learning",
+          "activity": "YouTube watching",
+          "project": "Learning - War of Art audiobook (creativity/overcoming resistance)",
+          "screen_summary": "YouTube - The War of Art by Steven Pressfield (Audiobook) - Self Improvement Audiobooks channel",
+          "captures": [
+            {
+              "start": "11:25",
+              "image": "https://i.imgur.com/ei0VjMq.jpeg",
+              "summary": "YouTube - The War of Art by Steven Pressfield (Audiobook) - Self Improvement Audiobooks channel",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/ei0VjMq.jpeg"
+          ],
+          "sensitive_count": 0,
+          "notes": "",
+          "end": "11:40",
+          "webcam": "Sun head dropped forward, slouching - posture alert fired",
+          "sensitive": false
+        },
+        {
+          "start": "11:40",
+          "min": 15,
+          "category": "Learning",
+          "activity": "YouTube watching",
+          "project": "Learning - AI news: Claude Opus 4.8 analysis/critique",
+          "screen_summary": "YouTube - Jay E/RoboNuggets: Opus 4.8 is NOT Claude's biggest release (Ultracode and Dynamic Workflows)",
+          "captures": [
+            {
+              "start": "11:40",
+              "image": "https://i.imgur.com/Eu2Q9Iq.jpeg",
+              "summary": "YouTube - Jay E/RoboNuggets: Opus 4.8 is NOT Claude's biggest release (Ultracode and Dynamic Workflows)",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/Eu2Q9Iq.jpeg"
+          ],
+          "sensitive_count": 0,
+          "notes": "",
+          "end": "11:55",
+          "webcam": "Sun at desk, head slightly down, borderline good posture",
+          "sensitive": false
+        },
+        {
+          "start": "11:55",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "YouTube watching",
+          "project": "Personal leisure - social skills/charisma YouTube content",
+          "screen_summary": "YouTube - Charisma on Command: Trying to Get Respect Doesn't Work, This Does - Peaky Blinders clip",
+          "captures": [
+            {
+              "start": "11:55",
+              "image": "https://i.imgur.com/HdVJhf5.jpeg",
+              "summary": "YouTube - Charisma on Command: Trying to Get Respect Doesn't Work, This Does - Peaky Blinders clip",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/HdVJhf5.jpeg"
+          ],
+          "sensitive_count": 0,
+          "notes": "",
+          "end": "12:10",
+          "webcam": "Sun at desk, good posture",
+          "sensitive": false
+        },
+        {
+          "start": "12:10",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "YouTube watching",
+          "project": "Personal leisure - motivational YouTube content",
+          "screen_summary": "YouTube - Iron Within: Do You Actually Want It? - motivational video with intense B&W thumbnail",
+          "captures": [
+            {
+              "start": "12:10",
+              "image": "https://i.imgur.com/8aMaXXq.jpeg",
+              "summary": "YouTube - Iron Within: Do You Actually Want It? - motivational video with intense B&W thumbnail",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/8aMaXXq.jpeg"
+          ],
+          "sensitive_count": 0,
+          "notes": "",
+          "end": "12:25",
+          "webcam": "Sun at desk, hand near face, contemplative",
+          "sensitive": false
+        },
+        {
+          "start": "12:25",
+          "min": 15,
+          "category": "Communications",
+          "activity": "Discord chat",
+          "project": "Communications - Discord investing/AI server discussion (NVDA)",
+          "screen_summary": "Discord #general - reading NVDA/AI hardware stack investing discussion; deep work music playing in background tab",
+          "captures": [
+            {
+              "start": "12:25",
+              "image": "https://i.imgur.com/nPMuA69.jpeg",
+              "summary": "Discord #general - reading NVDA/AI hardware stack investing discussion; deep work music playing in background tab",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/nPMuA69.jpeg"
+          ],
+          "sensitive_count": 0,
+          "notes": "",
+          "end": "12:40",
+          "webcam": "Sun at desk, centered, good posture",
+          "sensitive": false
+        },
+        {
+          "start": "12:40",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "YouTube watching",
+          "project": "Personal leisure - Dune audiobook",
+          "screen_summary": "YouTube - Dune audiobook playing; text visible: Arrakis, Kwisatz Haderach, Bene Gesserit, Paul",
+          "captures": [
+            {
+              "start": "12:40",
+              "image": "https://i.imgur.com/91T9qXD.jpeg",
+              "summary": "YouTube - Dune audiobook playing; text visible: Arrakis, Kwisatz Haderach, Bene Gesserit, Paul",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/91T9qXD.jpeg"
+          ],
+          "sensitive_count": 0,
+          "notes": "",
+          "end": "12:55",
+          "webcam": "Sun at desk, looking slightly down, good posture",
           "sensitive": false
         }
       ]
