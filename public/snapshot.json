@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T22:12:47+09:00",
+  "generatedAt": "2026-05-29T10:01:17+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -7020,9 +7020,9 @@
     },
     {
       "date": "2026-05-28",
-      "tracked_min": 1080,
+      "tracked_min": 1170,
       "by_category": {
-        "Leisure": 270,
+        "Leisure": 360,
         "AFK/Idle": 450,
         "Productivity": 285,
         "Learning": 60,
@@ -7032,7 +7032,9 @@
         "Personal/Leisure": 720,
         "Q Rizz": 255,
         "Learning/Personal": 60,
-        "SelfTrack": 45
+        "SelfTrack": 45,
+        "Personal leisure - watching movie \"Obsession\" (horror)": 75,
+        "Personal leisure - YouTube movie review \"Obsession\" ending explained": 15
       },
       "blocks": [
         {
@@ -8013,6 +8015,118 @@
             "https://i.imgur.com/bsegNDG.jpeg",
             "https://i.imgur.com/GtngZdb.jpeg",
             "https://i.imgur.com/FdXAvFE.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "20:59",
+          "end": "22:14",
+          "min": 75,
+          "category": "Leisure",
+          "activity": "Watching movie",
+          "project": "Personal leisure - watching movie \"Obsession\" (horror)",
+          "screen_summary": "Fullscreen movie scene - woman at restaurant/bar setting",
+          "webcam": "Dark room, person at desk watching screen",
+          "captures": [
+            {
+              "start": "20:59",
+              "image": "https://i.imgur.com/AZ868Oc.jpeg",
+              "summary": "Fullscreen movie scene - woman at restaurant/bar setting",
+              "sensitive": false
+            },
+            {
+              "start": "21:14",
+              "image": "https://i.imgur.com/WJrsQbJ.jpeg",
+              "summary": "Fullscreen movie scene - man sitting at piano in cluttered room",
+              "sensitive": false
+            },
+            {
+              "start": "21:29",
+              "image": "https://i.imgur.com/4L9f2wz.jpeg",
+              "summary": "Fullscreen movie scene - couple in bar/social setting",
+              "sensitive": false
+            },
+            {
+              "start": "21:44",
+              "image": "https://i.imgur.com/hxKy77T.jpeg",
+              "summary": "Fullscreen movie scene - person sleeping in bed, media player controls visible",
+              "sensitive": false
+            },
+            {
+              "start": "21:59",
+              "image": "https://i.imgur.com/JpMU9zU.jpeg",
+              "summary": "Fullscreen movie scene - dramatic scene with two people on couch, one injured",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/AZ868Oc.jpeg",
+            "https://i.imgur.com/WJrsQbJ.jpeg",
+            "https://i.imgur.com/4L9f2wz.jpeg",
+            "https://i.imgur.com/hxKy77T.jpeg",
+            "https://i.imgur.com/JpMU9zU.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "22:14",
+          "end": "22:29",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "YouTube watching",
+          "project": "Personal leisure - YouTube movie review \"Obsession\" ending explained",
+          "screen_summary": "YouTube - MadMorph Movie Club: OBSESSION Ending Explained - Is it the best horror movie ever?",
+          "webcam": "Sun in dark room, head tilted, watching YouTube on screen",
+          "captures": [
+            {
+              "start": "22:14",
+              "image": "https://i.imgur.com/O917GDR.jpeg",
+              "summary": "YouTube - MadMorph Movie Club: OBSESSION Ending Explained - Is it the best horror movie ever?",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/O917GDR.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-05-29",
+      "tracked_min": 15,
+      "by_category": {
+        "AFK/Idle": 15
+      },
+      "by_project": {
+        "AFK/Idle - PC unattended at desktop": 15
+      },
+      "blocks": [
+        {
+          "start": "08:55",
+          "end": "09:10",
+          "min": 15,
+          "category": "AFK/Idle",
+          "activity": "AFK - desktop idle",
+          "project": "AFK/Idle - PC unattended at desktop",
+          "screen_summary": "Windows desktop with Windscribe VPN popup open (Montreal Expo 67 server), no active application",
+          "webcam": "Empty bed, no person visible",
+          "captures": [
+            {
+              "start": "08:55",
+              "image": "https://i.imgur.com/lluqIu5.jpeg",
+              "summary": "Windows desktop with Windscribe VPN popup open (Montreal Expo 67 server), no active application",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/lluqIu5.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
