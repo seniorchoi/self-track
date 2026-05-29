@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T10:01:17+09:00",
+  "generatedAt": "2026-05-29T11:04:49+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -2521,6 +2521,7 @@
         "Learning/Reading": 150,
         "Personal/Break": 120,
         "Gaming/Warhammer": 30,
+        "": 15,
         "Leisure": 165,
         "Leisure/History": 90,
         "Sleep": 750
@@ -3645,6 +3646,7 @@
         "Learning/Business": 15,
         "Reddit ops": 15,
         "Health": 195,
+        "": 120,
         "SelfTrack": 30,
         "Leisure": 195,
         "Learning": 15,
@@ -4374,14 +4376,14 @@
       "date": "2026-05-25",
       "tracked_min": 1080,
       "by_category": {
-        "Leisure": 195,
         "AFK/Idle": 720,
+        "Leisure": 195,
         "Learning": 60,
         "Productivity": 105
       },
       "by_project": {
-        "Morning X/Twitter scroll": 15,
         "Sleep": 720,
+        "Morning X/Twitter scroll": 15,
         "Hermes Agent research": 60,
         "SelfTrack": 30,
         "OpenClaw infra": 45,
@@ -4390,30 +4392,6 @@
         "Personal": 180
       },
       "blocks": [
-        {
-          "start": "11:50",
-          "end": "12:05",
-          "min": 15,
-          "category": "Leisure",
-          "activity": "Browsing X/Twitter",
-          "project": "Morning X/Twitter scroll",
-          "screen_summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
-          "webcam": "Sun on bed with grey t-shirt, slightly groggy but upright, just woke up look",
-          "captures": [
-            {
-              "start": "11:50",
-              "image": "https://i.imgur.com/RzjfeYJ.jpeg",
-              "summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
-              "sensitive": false
-            }
-          ],
-          "images": [
-            "https://i.imgur.com/RzjfeYJ.jpeg"
-          ],
-          "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
-        },
         {
           "start": "23:39",
           "end": "11:39",
@@ -4716,6 +4694,30 @@
           "images": [],
           "sensitive_count": 48,
           "sensitive": true,
+          "notes": ""
+        },
+        {
+          "start": "11:50",
+          "end": "12:05",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Browsing X/Twitter",
+          "project": "Morning X/Twitter scroll",
+          "screen_summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
+          "webcam": "Sun on bed with grey t-shirt, slightly groggy but upright, just woke up look",
+          "captures": [
+            {
+              "start": "11:50",
+              "image": "https://i.imgur.com/RzjfeYJ.jpeg",
+              "summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/RzjfeYJ.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
           "notes": ""
         },
         {
@@ -5551,8 +5553,8 @@
         },
         {
           "start": "17:58",
-          "end": "18:58",
-          "min": 45,
+          "end": "18:28",
+          "min": 30,
           "category": "Leisure",
           "activity": "Mindcraft — Andy bot in Minecraft",
           "project": "Mindcraft",
@@ -5570,18 +5572,11 @@
               "image": "https://i.imgur.com/2dwy60r.jpeg",
               "summary": "Minecraft Java Edition survival world — green plains and acacia trees; Andy AI agent exploring; terminal showing script execution on left",
               "sensitive": false
-            },
-            {
-              "start": "18:43",
-              "image": "https://i.imgur.com/S9z3y1d.jpeg",
-              "summary": "Minecraft Java Edition survival world with Andy AI agent character visible; terminal shows self-prompting loop execution; game chat visible at bottom",
-              "sensitive": false
             }
           ],
           "images": [
             "https://i.imgur.com/n26nyZT.jpeg",
-            "https://i.imgur.com/2dwy60r.jpeg",
-            "https://i.imgur.com/S9z3y1d.jpeg"
+            "https://i.imgur.com/2dwy60r.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
@@ -5589,8 +5584,8 @@
         },
         {
           "start": "18:28",
-          "end": "19:13",
-          "min": 30,
+          "end": "18:43",
+          "min": 15,
           "category": "Leisure",
           "activity": "Mindcraft AI - Minecraft",
           "project": "Mindcraft",
@@ -5602,7 +5597,49 @@
               "image": "https://i.imgur.com/DRkqjAG.jpeg",
               "summary": "Minecraft game with Mindcraft AI agent (cleo) requesting wood; OpenClaw control panel open in background",
               "sensitive": false
-            },
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/DRkqjAG.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "18:43",
+          "end": "18:58",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Mindcraft — Andy bot in Minecraft",
+          "project": "Mindcraft",
+          "screen_summary": "Minecraft Java Edition survival world with Andy AI agent character visible; terminal shows self-prompting loop execution; game chat visible at bottom",
+          "webcam": "Sun present, smiling, looking down, shoulders level",
+          "captures": [
+            {
+              "start": "18:43",
+              "image": "https://i.imgur.com/S9z3y1d.jpeg",
+              "summary": "Minecraft Java Edition survival world with Andy AI agent character visible; terminal shows self-prompting loop execution; game chat visible at bottom",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/S9z3y1d.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "18:58",
+          "end": "19:13",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Mindcraft AI - Minecraft",
+          "project": "Mindcraft",
+          "screen_summary": "Minecraft multi-agent session (andy, bob, cleo) coordinating house repair with oak planks",
+          "webcam": "person at desk",
+          "captures": [
             {
               "start": "18:58",
               "image": "https://i.imgur.com/N0Y4GxU.jpeg",
@@ -5611,7 +5648,6 @@
             }
           ],
           "images": [
-            "https://i.imgur.com/DRkqjAG.jpeg",
             "https://i.imgur.com/N0Y4GxU.jpeg"
           ],
           "sensitive_count": 0,
@@ -6147,9 +6183,10 @@
         "Admin/Errands": 30
       },
       "by_project": {
-        "N/A": 15,
         "Personal": 645,
+        "N/A": 15,
         "Learning": 210,
+        "": 105,
         "YouTube": 30,
         "Q Rizz": 60,
         "SelfTrack": 15,
@@ -6159,30 +6196,6 @@
         "Personal/Leisure": 45
       },
       "blocks": [
-        {
-          "start": "11:56",
-          "end": "12:11",
-          "min": 15,
-          "category": "AFK/Idle",
-          "activity": "Idle - browser new tab",
-          "project": "N/A",
-          "screen_summary": "Chrome new tab / Google homepage, bookmarks: OpenClaw Control, Claude, Discord, MBTI Loop, Rizz, SelfTrack",
-          "webcam": "dark, no visible occupant",
-          "captures": [
-            {
-              "start": "11:56",
-              "image": "https://i.imgur.com/d8iPIH9.jpeg",
-              "summary": "Chrome new tab / Google homepage, bookmarks: OpenClaw Control, Claude, Discord, MBTI Loop, Rizz, SelfTrack",
-              "sensitive": false
-            }
-          ],
-          "images": [
-            "https://i.imgur.com/d8iPIH9.jpeg"
-          ],
-          "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
-        },
         {
           "start": "00:59",
           "end": "11:44",
@@ -6455,6 +6468,30 @@
           "images": [],
           "sensitive_count": 43,
           "sensitive": true,
+          "notes": ""
+        },
+        {
+          "start": "11:56",
+          "end": "12:11",
+          "min": 15,
+          "category": "AFK/Idle",
+          "activity": "Idle - browser new tab",
+          "project": "N/A",
+          "screen_summary": "Chrome new tab / Google homepage, bookmarks: OpenClaw Control, Claude, Discord, MBTI Loop, Rizz, SelfTrack",
+          "webcam": "dark, no visible occupant",
+          "captures": [
+            {
+              "start": "11:56",
+              "image": "https://i.imgur.com/d8iPIH9.jpeg",
+              "summary": "Chrome new tab / Google homepage, bookmarks: OpenClaw Control, Claude, Discord, MBTI Loop, Rizz, SelfTrack",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/d8iPIH9.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
           "notes": ""
         },
         {
@@ -7022,8 +7059,8 @@
       "date": "2026-05-28",
       "tracked_min": 1170,
       "by_category": {
-        "Leisure": 360,
         "AFK/Idle": 450,
+        "Leisure": 360,
         "Productivity": 285,
         "Learning": 60,
         "Communications": 15
@@ -7037,30 +7074,6 @@
         "Personal leisure - YouTube movie review \"Obsession\" ending explained": 15
       },
       "blocks": [
-        {
-          "start": "10:28",
-          "end": "10:43",
-          "min": 15,
-          "category": "Leisure",
-          "activity": "Browsing YouTube homepage",
-          "project": "Personal/Leisure",
-          "screen_summary": "YouTube home feed with various video thumbnails, browsing at 10:28 AM",
-          "webcam": "person visible in bright daytime room, sitting up in/near bed",
-          "captures": [
-            {
-              "start": "10:28",
-              "image": "https://i.imgur.com/3ZO6BIM.jpeg",
-              "summary": "YouTube home feed with various video thumbnails, browsing at 10:28 AM",
-              "sensitive": false
-            }
-          ],
-          "images": [
-            "https://i.imgur.com/3ZO6BIM.jpeg"
-          ],
-          "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
-        },
         {
           "start": "03:06",
           "end": "10:36",
@@ -7255,6 +7268,30 @@
           "images": [],
           "sensitive_count": 30,
           "sensitive": true,
+          "notes": ""
+        },
+        {
+          "start": "10:28",
+          "end": "10:43",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Browsing YouTube homepage",
+          "project": "Personal/Leisure",
+          "screen_summary": "YouTube home feed with various video thumbnails, browsing at 10:28 AM",
+          "webcam": "person visible in bright daytime room, sitting up in/near bed",
+          "captures": [
+            {
+              "start": "10:28",
+              "image": "https://i.imgur.com/3ZO6BIM.jpeg",
+              "summary": "YouTube home feed with various video thumbnails, browsing at 10:28 AM",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/3ZO6BIM.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
           "notes": ""
         },
         {
@@ -8100,14 +8137,291 @@
     },
     {
       "date": "2026-05-29",
-      "tracked_min": 15,
+      "tracked_min": 750,
       "by_category": {
-        "AFK/Idle": 15
+        "AFK/Idle": 645,
+        "Learning": 45,
+        "Leisure": 60
       },
       "by_project": {
-        "AFK/Idle - PC unattended at desktop": 15
+        "Sleep": 630,
+        "AFK/Idle - PC unattended at desktop": 15,
+        "Learning - YouTube AI news: Claude Opus 4.8 feature updates": 15,
+        "Learning - YouTube posture/exercise research": 15,
+        "Personal leisure - YouTube movie/psychology analysis": 15,
+        "Personal leisure - YouTube browsing": 15,
+        "Learning - YouTube posture/exercise: anterior pelvic tilt fix": 15,
+        "Personal leisure - Civilization VI gaming": 30
       },
       "blocks": [
+        {
+          "start": "22:29",
+          "end": "08:59",
+          "min": 630,
+          "category": "AFK/Idle",
+          "activity": "Sleeping",
+          "project": "Sleep",
+          "screen_summary": "Overnight sleep autofill",
+          "webcam": "Asleep",
+          "captures": [
+            {
+              "start": "22:29",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "22:44",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "22:59",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "23:14",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "23:29",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "23:44",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "23:59",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "00:14",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "00:29",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "00:44",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "00:59",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "01:14",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "01:29",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "01:44",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "01:59",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "02:14",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "02:29",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "02:44",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "02:59",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "03:14",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "03:29",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "03:44",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "03:59",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "04:14",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "04:29",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "04:44",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "04:59",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "05:14",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "05:29",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "05:44",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "05:59",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "06:14",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "06:29",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "06:44",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "06:59",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "07:14",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "07:29",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "07:44",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "07:59",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "08:14",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "08:29",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            },
+            {
+              "start": "08:44",
+              "image": null,
+              "summary": "Overnight sleep autofill",
+              "sensitive": true
+            }
+          ],
+          "images": [],
+          "sensitive_count": 42,
+          "sensitive": true,
+          "notes": ""
+        },
         {
           "start": "08:55",
           "end": "09:10",
@@ -8127,6 +8441,157 @@
           ],
           "images": [
             "https://i.imgur.com/lluqIu5.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "09:10",
+          "end": "09:25",
+          "min": 15,
+          "category": "Learning",
+          "activity": "YouTube watching",
+          "project": "Learning - YouTube AI news: Claude Opus 4.8 feature updates",
+          "screen_summary": "YouTube - Wes Roth: Claude Opus 4.8 feature announcement (dynamic workflows, parallel subagents, effort control)",
+          "webcam": "Sun at desk looking at screen, good posture",
+          "captures": [
+            {
+              "start": "09:10",
+              "image": "https://i.imgur.com/j1xXaYy.jpeg",
+              "summary": "YouTube - Wes Roth: Claude Opus 4.8 feature announcement (dynamic workflows, parallel subagents, effort control)",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/j1xXaYy.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "09:25",
+          "end": "09:40",
+          "min": 15,
+          "category": "Learning",
+          "activity": "YouTube watching",
+          "project": "Learning - YouTube posture/exercise research",
+          "screen_summary": "YouTube - @cjnorharris: Stop Trying To Stand Tall - posture correction with resistance bands",
+          "webcam": "Person away from desk, arm visible at frame edge",
+          "captures": [
+            {
+              "start": "09:25",
+              "image": "https://i.imgur.com/TOynpk9.jpeg",
+              "summary": "YouTube - @cjnorharris: Stop Trying To Stand Tall - posture correction with resistance bands",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/TOynpk9.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "09:40",
+          "end": "09:55",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "YouTube watching",
+          "project": "Personal leisure - YouTube movie/psychology analysis",
+          "screen_summary": "YouTube - Lucas Blue: ANALYZING BEAR - How Modern Male Insecurity Creates a Predator (Obsession movie analysis)",
+          "webcam": "Camera covered, black frame",
+          "captures": [
+            {
+              "start": "09:40",
+              "image": "https://i.imgur.com/USktGoX.jpeg",
+              "summary": "YouTube - Lucas Blue: ANALYZING BEAR - How Modern Male Insecurity Creates a Predator (Obsession movie analysis)",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/USktGoX.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "09:55",
+          "end": "10:10",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "YouTube browsing",
+          "project": "Personal leisure - YouTube browsing",
+          "screen_summary": "YouTube home page - browsing recommended feed (South Korea, Obsession-related content, Shorts)",
+          "webcam": "Camera covered, black frame",
+          "captures": [
+            {
+              "start": "09:55",
+              "image": "https://i.imgur.com/vXtNbX6.jpeg",
+              "summary": "YouTube home page - browsing recommended feed (South Korea, Obsession-related content, Shorts)",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/vXtNbX6.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "10:10",
+          "end": "10:25",
+          "min": 15,
+          "category": "Learning",
+          "activity": "YouTube watching",
+          "project": "Learning - YouTube posture/exercise: anterior pelvic tilt fix",
+          "screen_summary": "YouTube - @cjnorharris: How To Fix Anterior Pelvic Tilt - A New Method (gym exercise video)",
+          "webcam": "Empty bed, person away from desk",
+          "captures": [
+            {
+              "start": "10:10",
+              "image": "https://i.imgur.com/AK5sIes.jpeg",
+              "summary": "YouTube - @cjnorharris: How To Fix Anterior Pelvic Tilt - A New Method (gym exercise video)",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/AK5sIes.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "10:25",
+          "end": "10:55",
+          "min": 30,
+          "category": "Leisure",
+          "activity": "Playing Civ 6",
+          "project": "Personal leisure - Civilization VI gaming",
+          "screen_summary": "Civilization VI - early game desert map, Paris city, exploring with units, Next Turn button visible",
+          "webcam": "Sun at desk looking at screen, good posture",
+          "captures": [
+            {
+              "start": "10:25",
+              "image": "https://i.imgur.com/YLYtcge.jpeg",
+              "summary": "Civilization VI - early game desert map, Paris city, exploring with units, Next Turn button visible",
+              "sensitive": false
+            },
+            {
+              "start": "10:40",
+              "image": "https://i.imgur.com/v2NNLnH.jpeg",
+              "summary": "Civilization VI - mid-game, Paris city developed, Foreign Trade policy screen open, Zanzibar city visible",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/YLYtcge.jpeg",
+            "https://i.imgur.com/v2NNLnH.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
