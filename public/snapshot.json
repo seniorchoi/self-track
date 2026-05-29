@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-05-29T14:02:39+09:00",
+ "generatedAt": "2026-05-29T15:03:51+09:00",
  "days": [
   {
    "date": "2026-05-20",
@@ -3634,8 +3634,7 @@
     },
     "top3": "Sleeping (11h 45m) · Reading essay on Claude.ai (2h 30m) · Watching movie (2h 30m)",
     "ai_takeaway": "Only 1h 45m productive (Simple Rizz content drafting + analytics, a little agent config); the rest was sleep (11h 45m), a movie, and a long Claude essay read. Simple Rizz got a small real push; MBTI Oracle / Q Rizz got nothing.",
-    "first_last": "00:06 / 23:46",
-    "note": ""
+    "first_last": "00:06 / 23:46"
    }
   },
   {
@@ -4698,8 +4697,7 @@
     },
     "top3": "sleeping (13h 0m) · Watching F1 movie (3h 15m) · Away from desk (1h 45m)",
     "ai_takeaway": "Lowest-output day of the stretch: 45m productive, $0, nothing on any revenue product. 3h+ of posture/walking/fascia research and an F1 movie filled the waking hours — a rest day, not a build day.",
-    "first_last": "00:01 / 23:54",
-    "note": ""
+    "first_last": "00:01 / 23:54"
    }
   },
   {
@@ -5090,8 +5088,7 @@
     },
     "top3": "sleeping (11h 30m) · Watching movie/show (2h 45m) · Reading Hermes Agent setup notes (1h 0m)",
     "ai_takeaway": "Short tracked day — PC went dark after 17:51. 1h 45m productive but spread thin across Hermes Agent setup, Q/Simple Rizz review, Sensor Tower research and skill migration. No single lever got real depth.",
-    "first_last": "00:09 / 17:51",
-    "note": ""
+    "first_last": "00:09 / 17:51"
    }
   },
   {
@@ -6500,8 +6497,7 @@
     },
     "top3": "Away from desk (1h 45m) · YouTube — AI commentary (1h 0m) · Mindcraft — Andy bot in Minecraft (45m)",
     "ai_takeaway": "Strongest build day of the gap: 5h 30m productive — but it went to X Derby (Supabase, Clout Coins, MRR leaderboard) and Mindcraft setup, both side projects. The core revenue products (MBTI Oracle, Q Rizz) got only ~30m combined.",
-    "first_last": "11:13 / 23:59",
-    "note": ""
+    "first_last": "11:13 / 23:59"
    }
   },
   {
@@ -8471,18 +8467,18 @@
     },
     "top3": "Sleeping (9h 15m) · Watching movie in VLC (1h 30m) · Q Rizz influencer outreach planning (1h 15m)",
     "ai_takeaway": "4h 45m productive and all of it on Q Rizz — influencer outreach pipeline, TikTok creator analysis, Superwall/revenue review. Good single-lever focus. Evening dissolved into 6h 45m of movies; MBTI Oracle got nothing.",
-    "first_last": "02:05 / 23:59",
-    "note": ""
+    "first_last": "02:05 / 23:59"
    }
   },
   {
    "date": "2026-05-29",
-   "tracked_min": 240,
+   "tracked_min": 360,
    "by_category": {
     "AFK/Idle": 15,
     "Learning": 75,
-    "Leisure": 135,
-    "Communications": 15
+    "Leisure": 150,
+    "Communications": 15,
+    "Productivity": 105
    },
    "by_project": {
     "AFK/Idle - PC unattended at desktop": 15,
@@ -8498,7 +8494,14 @@
     "Personal leisure - social skills/charisma YouTube content": 15,
     "Personal leisure - motivational YouTube content": 15,
     "Communications - Discord investing/AI server discussion (NVDA)": 15,
-    "Personal leisure - Dune audiobook": 15
+    "Personal leisure - Dune audiobook": 30,
+    "Productivity - Gemini AI research (TikTok/app monetization analysis)": 15,
+    "MBTI Oracle - revenue analysis with n1dhaann via OpenClaw": 15,
+    "MBTI Oracle / Q Rizz - strategic planning session via OpenClaw": 15,
+    "MBTI Oracle - App Store Connect/Superwall API data retrieval": 15,
+    "MBTI Oracle - App Store Connect API key setup and revenue data": 15,
+    "MBTI Oracle / Q Rizz / Simple Rizz - weekly revenue analysis": 15,
+    "MBTI Oracle / Q Rizz - revenue trend review": 15
    },
    "blocks": [
     {
@@ -8839,16 +8842,191 @@
        "image": "https://i.imgur.com/91T9qXD.jpeg",
        "summary": "YouTube - Dune audiobook playing; text visible: Arrakis, Kwisatz Haderach, Bene Gesserit, Paul",
        "sensitive": false
+      },
+      {
+       "start": "12:55",
+       "image": "https://i.imgur.com/tcQ5Fa6.jpeg",
+       "summary": "YouTube - Dune audiobook continuation; Arrakis/Bene Gesserit/Paul text visible; deep work music background tab",
+       "sensitive": false
       }
      ],
      "images": [
-      "https://i.imgur.com/91T9qXD.jpeg"
+      "https://i.imgur.com/91T9qXD.jpeg",
+      "https://i.imgur.com/tcQ5Fa6.jpeg"
      ],
      "sensitive_count": 0,
      "notes": "",
-     "end": "12:55",
-     "min": 15,
+     "end": "13:10",
+     "min": 30,
      "webcam": "Sun at desk, looking slightly down, good posture",
+     "sensitive": false
+    },
+    {
+     "start": "13:10",
+     "category": "Productivity",
+     "activity": "AI research",
+     "project": "Productivity - Gemini AI research (TikTok/app monetization analysis)",
+     "screen_summary": "Gemini Notebook - analyzing productivity and time usage; topics include TikTok Creator Payout Estimation, App monetization strategy, Cash Flow vs Investment Decisions",
+     "captures": [
+      {
+       "start": "13:10",
+       "image": "https://i.imgur.com/u3RJDf0.jpeg",
+       "summary": "Gemini Notebook - analyzing productivity and time usage; topics include TikTok Creator Payout Estimation, App monetization strategy, Cash Flow vs Investment Decisions",
+       "sensitive": false
+      }
+     ],
+     "images": [
+      "https://i.imgur.com/u3RJDf0.jpeg"
+     ],
+     "sensitive_count": 0,
+     "notes": "",
+     "end": "13:25",
+     "min": 15,
+     "webcam": "Sun at desk, centered, facing camera",
+     "sensitive": false
+    },
+    {
+     "start": "13:25",
+     "category": "Productivity",
+     "activity": "OpenClaw work session",
+     "project": "MBTI Oracle - revenue analysis with n1dhaann via OpenClaw",
+     "screen_summary": "OpenClaw Chat - n1dhaann requesting MBTI Oracle MRR/App Store Connect/Superwall data; Tom providing revenue breakdown and product analysis",
+     "captures": [
+      {
+       "start": "13:25",
+       "image": "https://i.imgur.com/Mhfdp9k.jpeg",
+       "summary": "OpenClaw Chat - n1dhaann requesting MBTI Oracle MRR/App Store Connect/Superwall data; Tom providing revenue breakdown and product analysis",
+       "sensitive": false
+      }
+     ],
+     "images": [
+      "https://i.imgur.com/Mhfdp9k.jpeg"
+     ],
+     "sensitive_count": 0,
+     "notes": "",
+     "end": "13:40",
+     "min": 15,
+     "webcam": "Sun at desk, good posture, looking at screen",
+     "sensitive": false
+    },
+    {
+     "start": "13:40",
+     "category": "Productivity",
+     "activity": "OpenClaw work session",
+     "project": "MBTI Oracle / Q Rizz - strategic planning session via OpenClaw",
+     "screen_summary": "OpenClaw Chat - strategic advice on time allocation: Q Rizz most profitable, MBTI Oracle traffic bottleneck, TikTok morning slot recommendation",
+     "captures": [
+      {
+       "start": "13:40",
+       "image": "https://i.imgur.com/8cCJDfC.jpeg",
+       "summary": "OpenClaw Chat - strategic advice on time allocation: Q Rizz most profitable, MBTI Oracle traffic bottleneck, TikTok morning slot recommendation",
+       "sensitive": false
+      }
+     ],
+     "images": [
+      "https://i.imgur.com/8cCJDfC.jpeg"
+     ],
+     "sensitive_count": 0,
+     "notes": "",
+     "end": "13:55",
+     "min": 15,
+     "webcam": "Person at desk working (cam not captured during posture check interval)",
+     "sensitive": false
+    },
+    {
+     "start": "13:55",
+     "category": "Productivity",
+     "activity": "OpenClaw work session",
+     "project": "MBTI Oracle - App Store Connect/Superwall API data retrieval",
+     "screen_summary": "OpenClaw Chat - n1dhaann requesting App Store Connect API data format; Tom explaining API key generation and Superwall financial report access",
+     "captures": [
+      {
+       "start": "13:55",
+       "image": "https://i.imgur.com/F2M7YMS.jpeg",
+       "summary": "OpenClaw Chat - n1dhaann requesting App Store Connect API data format; Tom explaining API key generation and Superwall financial report access",
+       "sensitive": false
+      }
+     ],
+     "images": [
+      "https://i.imgur.com/F2M7YMS.jpeg"
+     ],
+     "sensitive_count": 0,
+     "notes": "",
+     "end": "14:10",
+     "min": 15,
+     "webcam": "Sun slightly off-center left, head dropped, borderline good posture",
+     "sensitive": false
+    },
+    {
+     "start": "14:10",
+     "category": "Productivity",
+     "activity": "OpenClaw work session",
+     "project": "MBTI Oracle - App Store Connect API key setup and revenue data",
+     "screen_summary": "OpenClaw Chat - App Store Connect API key setup, Superwall financial reports integration, fetching MBTI Oracle revenue data",
+     "captures": [
+      {
+       "start": "14:10",
+       "image": "https://i.imgur.com/qlqxesj.jpeg",
+       "summary": "OpenClaw Chat - App Store Connect API key setup, Superwall financial reports integration, fetching MBTI Oracle revenue data",
+       "sensitive": false
+      }
+     ],
+     "images": [
+      "https://i.imgur.com/qlqxesj.jpeg"
+     ],
+     "sensitive_count": 0,
+     "notes": "",
+     "end": "14:25",
+     "min": 15,
+     "webcam": "Empty bed visible, Sun at desk but outside camera frame",
+     "sensitive": false
+    },
+    {
+     "start": "14:25",
+     "category": "Productivity",
+     "activity": "OpenClaw work session",
+     "project": "MBTI Oracle / Q Rizz / Simple Rizz - weekly revenue analysis",
+     "screen_summary": "OpenClaw Chat - weekly revenue table for MBTI Oracle/Q Rizz/Simple Rizz (2025 data); MBTI bell curve noted, Q Rizz slowly rising, Simple Rizz pivoted",
+     "captures": [
+      {
+       "start": "14:25",
+       "image": "https://i.imgur.com/nwxcjl9.jpeg",
+       "summary": "OpenClaw Chat - weekly revenue table for MBTI Oracle/Q Rizz/Simple Rizz (2025 data); MBTI bell curve noted, Q Rizz slowly rising, Simple Rizz pivoted",
+       "sensitive": false
+      }
+     ],
+     "images": [
+      "https://i.imgur.com/nwxcjl9.jpeg"
+     ],
+     "sensitive_count": 0,
+     "notes": "",
+     "end": "14:40",
+     "min": 15,
+     "webcam": "Empty bed, Sun away from desk or outside frame",
+     "sensitive": false
+    },
+    {
+     "start": "14:40",
+     "category": "Productivity",
+     "activity": "OpenClaw work session",
+     "project": "MBTI Oracle / Q Rizz - revenue trend review",
+     "screen_summary": "OpenClaw Chat - same revenue analysis table visible; reviewing product revenue trends before stepping out",
+     "captures": [
+      {
+       "start": "14:40",
+       "image": "https://i.imgur.com/P1rlJgA.jpeg",
+       "summary": "OpenClaw Chat - same revenue analysis table visible; reviewing product revenue trends before stepping out",
+       "sensitive": false
+      }
+     ],
+     "images": [
+      "https://i.imgur.com/P1rlJgA.jpeg"
+     ],
+     "sensitive_count": 0,
+     "notes": "",
+     "end": "14:55",
+     "min": 15,
+     "webcam": "Sun at edge of frame handling bag/jacket, preparing to leave",
      "sensitive": false
     }
    ]
