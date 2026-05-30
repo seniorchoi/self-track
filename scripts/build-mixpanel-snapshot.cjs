@@ -49,11 +49,13 @@ async function main() {
     return
   }
 
+  // NOTE: do NOT add `where: properties["token"]==…` — Mixpanel's JS client does
+  // NOT attach the project token as a per-event property, so that filter excludes
+  // every event and returns 0. The project is already scoped by the auth creds.
   const params = new URLSearchParams({
     from_date: isoDate(daysAgo(7)),
     to_date: isoDate(now),
     event: JSON.stringify(['page_viewed']),
-    where: `properties[\"token\"] == \"${PROJECT_TOKEN}\"`,
   })
   const url = `https://data.mixpanel.com/api/2.0/export?${params}`
   const auth = Buffer.from(`${username}:${password}`).toString('base64')

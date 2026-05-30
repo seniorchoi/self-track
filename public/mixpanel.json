@@ -1,13 +1,100 @@
 {
-  "generatedAt": "",
+  "generatedAt": "2026-05-30T04:14:09.157Z",
   "source": "mixpanel",
-  "status": "needs_credentials",
-  "reason": "Mixpanel tracking and live heartbeats are installed. Add Mixpanel API credentials and run npm run mixpanel:snapshot to publish historical visitor rollups.",
-  "dailyVisitors": [],
-  "weeklyVisitors": { "visitors": 0, "visits": 0 },
-  "activeNow": 0,
-  "topCities": [],
-  "topCountries": [],
-  "topPages": [],
-  "topReferrers": []
+  "status": "ok",
+  "dailyVisitors": [
+    {
+      "date": "2026-05-26",
+      "visitors": 4
+    },
+    {
+      "date": "2026-05-27",
+      "visitors": 4
+    },
+    {
+      "date": "2026-05-28",
+      "visitors": 6
+    },
+    {
+      "date": "2026-05-29",
+      "visitors": 1
+    },
+    {
+      "date": "2026-05-30",
+      "visitors": 1
+    }
+  ],
+  "weeklyVisitors": {
+    "visitors": 10,
+    "visits": 343
+  },
+  "activeNow": 1,
+  "topCities": [
+    {
+      "name": "Incheon",
+      "count": 275
+    },
+    {
+      "name": "Gimpo-si",
+      "count": 53
+    },
+    {
+      "name": "Agra",
+      "count": 5
+    },
+    {
+      "name": "Gyeyang-gu",
+      "count": 3
+    },
+    {
+      "name": "Seoul",
+      "count": 3
+    },
+    {
+      "name": "Ossingen",
+      "count": 2
+    }
+  ],
+  "topCountries": [
+    {
+      "name": "KR",
+      "count": 336
+    },
+    {
+      "name": "IN",
+      "count": 5
+    },
+    {
+      "name": "CH",
+      "count": 2
+    }
+  ],
+  "topPages": [
+    {
+      "name": "/",
+      "count": 57
+    },
+    {
+      "name": "/timeline/2026-05-26",
+      "count": 56
+    },
+    {
+      "name": "/timeline/2026-05-28",
+      "count": 43
+    },
+    {
+      "name": "/chrono/2026-05-26",
+      "count": 20
+    },
+    {
+      "name": "/timeline/2026-05-27",
+      "count": 13
+    }
+  ],
+  "topReferrers": [
+    {
+      "name": "t.co",
+      "count": 9
+    }
+  ]
 }
