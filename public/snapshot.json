@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T23:01:25+09:00",
+  "generatedAt": "2026-05-30T09:05:40.986191+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -43,7 +43,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "16:15",
@@ -102,7 +102,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "17:45",
@@ -126,7 +126,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "18:00",
@@ -192,7 +192,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "19:45",
@@ -216,7 +216,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "20:00",
@@ -240,7 +240,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "20:15",
@@ -264,7 +264,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "20:30",
@@ -295,7 +295,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "21:00",
@@ -319,7 +319,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "21:15",
@@ -343,7 +343,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "21:30",
@@ -367,7 +367,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "21:46",
@@ -398,7 +398,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "22:16",
@@ -422,7 +422,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "22:31",
@@ -446,7 +446,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "22:46",
@@ -470,7 +470,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "23:01",
@@ -494,7 +494,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "23:16",
@@ -539,7 +539,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "00:18",
@@ -563,7 +563,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "00:33",
@@ -587,7 +587,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "00:48",
@@ -611,7 +611,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "01:03",
@@ -635,7 +635,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "01:18",
@@ -687,7 +687,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "02:33",
@@ -877,28 +877,24 @@
           "images": [],
           "sensitive_count": 29,
           "sensitive": true,
-          "notes": ""
+          "notes": null
         }
       ],
       "dailySummary": {
         "date": "2026-05-20",
-        "tracked_min": 480,
-        "by_category": {
-          "Productivity": 255,
-          "Learning": 0,
-          "Health": 0,
-          "Errands": 150,
-          "Leisure": 30,
-          "Social": 0,
-          "AFK/Idle": 45,
-          "Sleep": 0
-        },
+        "tracked_min": "480",
+        "productivity_min": "255",
+        "health_min": "0",
+        "education_min": "0",
+        "leisure_min": "150",
+        "afk_idle_min": "30",
+        "other_min": "0",
+        "sleep_min": "45",
+        "unknown_min": "0",
         "top_activities": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
-        "takeaway": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
-        "coach_note": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
+        "analysis": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
         "first_last": "15:58 / 00:03",
-        "note": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time.",
-        "note_from_sun": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
+        "note": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
       }
     },
     {
@@ -943,7 +939,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "10:21",
@@ -1002,7 +998,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "11:51",
@@ -1026,7 +1022,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "12:07",
@@ -1057,7 +1053,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "12:37",
@@ -1081,7 +1077,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "12:52",
@@ -1105,7 +1101,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "13:07",
@@ -1129,7 +1125,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "13:22",
@@ -1153,7 +1149,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "13:37",
@@ -1576,28 +1572,24 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         }
       ],
       "dailySummary": {
         "date": "2026-05-21",
-        "tracked_min": 1440,
-        "by_category": {
-          "Productivity": 60,
-          "Learning": 0,
-          "Health": 0,
-          "Errands": 150,
-          "Leisure": 45,
-          "Social": 15,
-          "AFK/Idle": 1170,
-          "Sleep": 0
-        },
+        "tracked_min": "1440",
+        "productivity_min": "60",
+        "health_min": "0",
+        "education_min": "0",
+        "leisure_min": "150",
+        "afk_idle_min": "45",
+        "other_min": "15",
+        "sleep_min": "1170",
+        "unknown_min": "0",
         "top_activities": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
-        "takeaway": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
-        "coach_note": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
+        "analysis": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
         "first_last": "00:03 / 23:53",
-        "note": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!",
-        "note_from_sun": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
+        "note": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
       }
     },
     {
@@ -1708,7 +1700,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "16:01",
@@ -1732,7 +1724,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "16:16",
@@ -1763,7 +1755,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "16:46",
@@ -1794,7 +1786,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "17:16",
@@ -1818,7 +1810,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "17:31",
@@ -1877,7 +1869,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "19:01",
@@ -1901,7 +1893,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "19:16",
@@ -1925,7 +1917,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "20:36",
@@ -1949,7 +1941,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "20:51",
@@ -1973,7 +1965,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "21:06",
@@ -1997,7 +1989,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "21:21",
@@ -2021,7 +2013,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "21:36",
@@ -2045,7 +2037,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "21:51",
@@ -2097,7 +2089,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "23:06",
@@ -2135,7 +2127,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "23:51",
@@ -2159,7 +2151,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "00:06",
@@ -2183,7 +2175,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "00:21",
@@ -2481,28 +2473,24 @@
           "images": [],
           "sensitive_count": 47,
           "sensitive": true,
-          "notes": ""
+          "notes": null
         }
       ],
       "dailySummary": {
         "date": "2026-05-22",
-        "tracked_min": 810,
-        "by_category": {
-          "Productivity": 30,
-          "Learning": 0,
-          "Health": 0,
-          "Errands": 375,
-          "Leisure": 0,
-          "Social": 0,
-          "AFK/Idle": 405,
-          "Sleep": 0
-        },
+        "tracked_min": "810",
+        "productivity_min": "30",
+        "health_min": "0",
+        "education_min": "0",
+        "leisure_min": "375",
+        "afk_idle_min": "0",
+        "other_min": "0",
+        "sleep_min": "405",
+        "unknown_min": "0",
         "top_activities": "haircut errand (6h 30m) · playing Total War: Warhammer (1h 30m) · watching movie/TV (1h 15m)",
-        "takeaway": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
-        "coach_note": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
+        "analysis": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
         "first_last": "00:08 / 23:51",
-        "note": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though.",
-        "note_from_sun": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
+        "note": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
       }
     },
     {
@@ -2521,6 +2509,7 @@
         "Learning/Reading": 150,
         "Personal/Break": 120,
         "Gaming/Warhammer": 30,
+        "N/A": 15,
         "Leisure": 165,
         "Leisure/History": 90,
         "Sleep": 750
@@ -2548,7 +2537,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "12:30",
@@ -2572,7 +2561,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "12:45",
@@ -2596,7 +2585,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "13:00",
@@ -2620,7 +2609,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "13:15",
@@ -2644,7 +2633,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "13:30",
@@ -2668,7 +2657,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "13:45",
@@ -2692,7 +2681,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "14:00",
@@ -2716,7 +2705,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "14:15",
@@ -2747,7 +2736,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "14:45",
@@ -2771,7 +2760,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "15:00",
@@ -2802,7 +2791,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "15:30",
@@ -2833,7 +2822,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "16:00",
@@ -2857,7 +2846,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "16:15",
@@ -2902,7 +2891,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "17:15",
@@ -2954,7 +2943,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "18:30",
@@ -2985,7 +2974,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "19:00",
@@ -3016,7 +3005,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "19:30",
@@ -3040,7 +3029,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "19:45",
@@ -3064,7 +3053,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "20:00",
@@ -3088,7 +3077,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "20:15",
@@ -3175,7 +3164,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "22:46",
@@ -3199,7 +3188,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "23:01",
@@ -3223,7 +3212,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "23:16",
@@ -3261,7 +3250,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "00:01",
@@ -3285,7 +3274,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "00:16",
@@ -3309,7 +3298,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "00:31",
@@ -3625,50 +3614,47 @@
           "images": [],
           "sensitive_count": 50,
           "sensitive": true,
-          "notes": ""
+          "notes": null
         }
       ],
       "dailySummary": {
         "date": "2026-05-23",
-        "tracked_min": 1425,
-        "by_category": {
-          "Productivity": 105,
-          "Learning": 0,
-          "Health": 0,
-          "Errands": 270,
-          "Leisure": 210,
-          "Social": 0,
-          "AFK/Idle": 840,
-          "Sleep": 0
-        },
+        "tracked_min": "1425",
+        "productivity_min": "105",
+        "health_min": "0",
+        "education_min": "0",
+        "leisure_min": "270",
+        "afk_idle_min": "210",
+        "other_min": "0",
+        "sleep_min": "840",
+        "unknown_min": "0",
         "top_activities": "Sleeping (11h 45m) · Reading essay on Claude.ai (2h 30m) · Watching movie (2h 30m)",
-        "takeaway": "Only 1h 45m productive (Simple Rizz content drafting + analytics, a little agent config); the rest was sleep (11h 45m), a movie, and a long Claude essay read. Simple Rizz got a small real push; MBTI Oracle / Q Rizz got nothing.",
-        "coach_note": "Only 1h 45m productive (Simple Rizz content drafting + analytics, a little agent config); the rest was sleep (11h 45m), a movie, and a long Claude essay read. Simple Rizz got a small real push; MBTI Oracle / Q Rizz got nothing.",
-        "first_last": "00:06 / 23:46",
-        "note": "",
-        "note_from_sun": ""
+        "analysis": "Only 1h 45m productive (Simple Rizz content drafting + analytics, a little agent config); the rest was sleep (11h 45m), a movie, and a long Claude essay read. Simple Rizz got a small real push; MBTI Oracle / Q Rizz got nothing.",
+        "first_last": "00:06 / 23:46"
       }
     },
     {
       "date": "2026-05-24",
-      "tracked_min": 630,
+      "tracked_min": 1350,
       "by_category": {
         "Admin/Errands": 15,
         "Leisure": 240,
         "Communications": 15,
         "Learning": 195,
         "Productivity": 45,
-        "AFK/Idle": 120
+        "AFK/Idle": 840
       },
       "by_project": {
         "Admin": 15,
         "Learning/Business": 15,
         "Reddit ops": 15,
         "Health": 195,
+        "N/A": 120,
         "SelfTrack": 30,
         "Leisure": 195,
         "Learning": 15,
-        "F1 movie": 30
+        "F1 movie": 30,
+        "Sleep": 720
       },
       "blocks": [
         {
@@ -3693,7 +3679,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "13:23",
@@ -3717,7 +3703,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "13:38",
@@ -3739,7 +3725,7 @@
           "images": [],
           "sensitive_count": 1,
           "sensitive": true,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "13:53",
@@ -3763,7 +3749,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "14:08",
@@ -3787,7 +3773,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "14:23",
@@ -3811,7 +3797,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "14:38",
@@ -3835,7 +3821,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "14:53",
@@ -3859,7 +3845,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "15:08",
@@ -3883,7 +3869,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "15:23",
@@ -3907,7 +3893,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "15:38",
@@ -3931,7 +3917,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "15:53",
@@ -3997,7 +3983,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "17:39",
@@ -4021,7 +4007,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "17:54",
@@ -4045,7 +4031,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "18:09",
@@ -4069,7 +4055,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "18:24",
@@ -4093,7 +4079,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "18:39",
@@ -4117,7 +4103,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "18:54",
@@ -4141,7 +4127,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "19:09",
@@ -4165,7 +4151,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "19:24",
@@ -4189,7 +4175,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "19:39",
@@ -4213,7 +4199,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "19:54",
@@ -4237,7 +4223,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "20:09",
@@ -4261,7 +4247,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "20:24",
@@ -4355,7 +4341,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "23:09",
@@ -4386,73 +4372,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
-        }
-      ],
-      "dailySummary": {
-        "date": "2026-05-24",
-        "tracked_min": 1440,
-        "by_category": {
-          "Productivity": 45,
-          "Learning": 15,
-          "Health": 0,
-          "Errands": 270,
-          "Leisure": 195,
-          "Social": 15,
-          "AFK/Idle": 900,
-          "Sleep": 0
-        },
-        "top_activities": "sleeping (13h 0m) · Watching F1 movie (3h 15m) · Away from desk (1h 45m)",
-        "takeaway": "Lowest-output day of the stretch: 45m productive, $0, nothing on any revenue product. 3h+ of posture/walking/fascia research and an F1 movie filled the waking hours — a rest day, not a build day.",
-        "coach_note": "Lowest-output day of the stretch: 45m productive, $0, nothing on any revenue product. 3h+ of posture/walking/fascia research and an F1 movie filled the waking hours — a rest day, not a build day.",
-        "first_last": "00:01 / 23:54",
-        "note": "",
-        "note_from_sun": ""
-      }
-    },
-    {
-      "date": "2026-05-25",
-      "tracked_min": 1080,
-      "by_category": {
-        "Leisure": 195,
-        "AFK/Idle": 720,
-        "Learning": 60,
-        "Productivity": 105
-      },
-      "by_project": {
-        "Morning X/Twitter scroll": 15,
-        "Sleep": 720,
-        "Hermes Agent research": 60,
-        "SelfTrack": 30,
-        "OpenClaw infra": 45,
-        "Q Rizz": 15,
-        "Simple Rizz": 15,
-        "Personal": 180
-      },
-      "blocks": [
-        {
-          "start": "11:50",
-          "end": "12:05",
-          "min": 15,
-          "category": "Leisure",
-          "activity": "Browsing X/Twitter",
-          "project": "Morning X/Twitter scroll",
-          "screen_summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
-          "webcam": "Sun on bed with grey t-shirt, slightly groggy but upright, just woke up look",
-          "captures": [
-            {
-              "start": "11:50",
-              "image": "https://i.imgur.com/RzjfeYJ.jpeg",
-              "summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
-              "sensitive": false
-            }
-          ],
-          "images": [
-            "https://i.imgur.com/RzjfeYJ.jpeg"
-          ],
-          "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "23:39",
@@ -4756,7 +4676,66 @@
           "images": [],
           "sensitive_count": 48,
           "sensitive": true,
-          "notes": ""
+          "notes": null
+        }
+      ],
+      "dailySummary": {
+        "date": "2026-05-24",
+        "tracked_min": "1440",
+        "productivity_min": "45",
+        "health_min": "15",
+        "education_min": "0",
+        "leisure_min": "270",
+        "afk_idle_min": "195",
+        "other_min": "15",
+        "sleep_min": "900",
+        "unknown_min": "0",
+        "top_activities": "sleeping (13h 0m) · Watching F1 movie (3h 15m) · Away from desk (1h 45m)",
+        "analysis": "Lowest-output day of the stretch: 45m productive, $0, nothing on any revenue product. 3h+ of posture/walking/fascia research and an F1 movie filled the waking hours — a rest day, not a build day.",
+        "first_last": "00:01 / 23:54"
+      }
+    },
+    {
+      "date": "2026-05-25",
+      "tracked_min": 360,
+      "by_category": {
+        "Leisure": 195,
+        "Learning": 60,
+        "Productivity": 105
+      },
+      "by_project": {
+        "Morning X/Twitter scroll": 15,
+        "Hermes Agent research": 60,
+        "SelfTrack": 30,
+        "OpenClaw infra": 45,
+        "Q Rizz": 15,
+        "Simple Rizz": 15,
+        "Personal": 180
+      },
+      "blocks": [
+        {
+          "start": "11:50",
+          "end": "12:05",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Browsing X/Twitter",
+          "project": "Morning X/Twitter scroll",
+          "screen_summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
+          "webcam": "Sun on bed with grey t-shirt, slightly groggy but upright, just woke up look",
+          "captures": [
+            {
+              "start": "11:50",
+              "image": "https://i.imgur.com/RzjfeYJ.jpeg",
+              "summary": "X/Twitter Following feed with a Tokyo skyline post by Nikita Bier; Payment failed banner visible on right rail",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/RzjfeYJ.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": null
         },
         {
           "start": "12:05",
@@ -4801,7 +4780,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "13:05",
@@ -4825,7 +4804,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "13:20",
@@ -4849,7 +4828,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "13:35",
@@ -4873,7 +4852,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "13:50",
@@ -4897,7 +4876,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "14:05",
@@ -4921,7 +4900,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "14:20",
@@ -4945,7 +4924,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "14:35",
@@ -4969,7 +4948,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "14:50",
@@ -4993,7 +4972,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "15:05",
@@ -5087,36 +5066,31 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         }
       ],
       "dailySummary": {
         "date": "2026-05-25",
-        "tracked_min": 1050,
-        "by_category": {
-          "Productivity": 105,
-          "Learning": 0,
-          "Health": 0,
-          "Errands": 195,
-          "Leisure": 60,
-          "Social": 0,
-          "AFK/Idle": 690,
-          "Sleep": 0
-        },
+        "tracked_min": "1050",
+        "productivity_min": "105",
+        "health_min": "0",
+        "education_min": "0",
+        "leisure_min": "195",
+        "afk_idle_min": "60",
+        "other_min": "0",
+        "sleep_min": "690",
+        "unknown_min": "0",
         "top_activities": "sleeping (11h 30m) · Watching movie/show (2h 45m) · Reading Hermes Agent setup notes (1h 0m)",
-        "takeaway": "Short tracked day — PC went dark after 17:51. 1h 45m productive but spread thin across Hermes Agent setup, Q/Simple Rizz review, Sensor Tower research and skill migration. No single lever got real depth.",
-        "coach_note": "Short tracked day — PC went dark after 17:51. 1h 45m productive but spread thin across Hermes Agent setup, Q/Simple Rizz review, Sensor Tower research and skill migration. No single lever got real depth.",
-        "first_last": "00:09 / 17:51",
-        "note": "",
-        "note_from_sun": ""
+        "analysis": "Short tracked day — PC went dark after 17:51. 1h 45m productive but spread thin across Hermes Agent setup, Q/Simple Rizz review, Sensor Tower research and skill migration. No single lever got real depth.",
+        "first_last": "00:09 / 17:51"
       }
     },
     {
       "date": "2026-05-26",
-      "tracked_min": 825,
+      "tracked_min": 1470,
       "by_category": {
         "Productivity": 330,
-        "AFK/Idle": 120,
+        "AFK/Idle": 765,
         "Learning": 30,
         "Communications": 60,
         "Leisure": 240,
@@ -5128,7 +5102,7 @@
         "Q Rizz": 15,
         "SelfTrack": 105,
         "—": 90,
-        "Personal": 255,
+        "Personal": 900,
         "Mindcraft": 135,
         "X Derby": 135,
         "MBTI Oracle": 15,
@@ -5157,7 +5131,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "11:28",
@@ -5179,7 +5153,7 @@
           "images": [],
           "sensitive_count": 1,
           "sensitive": true,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "11:43",
@@ -5217,7 +5191,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "12:28",
@@ -5276,7 +5250,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "13:58",
@@ -5300,7 +5274,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "14:13",
@@ -5322,7 +5296,7 @@
           "images": [],
           "sensitive_count": 1,
           "sensitive": true,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "14:28",
@@ -5346,7 +5320,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "14:43",
@@ -5370,7 +5344,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "14:58",
@@ -5394,7 +5368,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "15:13",
@@ -5418,7 +5392,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "15:28",
@@ -5463,7 +5437,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "16:28",
@@ -5487,7 +5461,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "16:43",
@@ -5511,7 +5485,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "16:58",
@@ -5535,7 +5509,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "17:13",
@@ -5559,7 +5533,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "17:28",
@@ -5583,7 +5557,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "17:43",
@@ -5607,12 +5581,12 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "17:58",
-          "end": "18:58",
-          "min": 45,
+          "end": "18:28",
+          "min": 30,
           "category": "Leisure",
           "activity": "Mindcraft — Andy bot in Minecraft",
           "project": "Mindcraft",
@@ -5630,27 +5604,20 @@
               "image": "https://i.imgur.com/2dwy60r.jpeg",
               "summary": "Minecraft Java Edition survival world — green plains and acacia trees; Andy AI agent exploring; terminal showing script execution on left",
               "sensitive": false
-            },
-            {
-              "start": "18:43",
-              "image": "https://i.imgur.com/S9z3y1d.jpeg",
-              "summary": "Minecraft Java Edition survival world with Andy AI agent character visible; terminal shows self-prompting loop execution; game chat visible at bottom",
-              "sensitive": false
             }
           ],
           "images": [
             "https://i.imgur.com/n26nyZT.jpeg",
-            "https://i.imgur.com/2dwy60r.jpeg",
-            "https://i.imgur.com/S9z3y1d.jpeg"
+            "https://i.imgur.com/2dwy60r.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "18:28",
-          "end": "19:13",
-          "min": 30,
+          "end": "18:43",
+          "min": 15,
           "category": "Leisure",
           "activity": "Mindcraft AI - Minecraft",
           "project": "Mindcraft",
@@ -5662,7 +5629,49 @@
               "image": "https://i.imgur.com/DRkqjAG.jpeg",
               "summary": "Minecraft game with Mindcraft AI agent (cleo) requesting wood; OpenClaw control panel open in background",
               "sensitive": false
-            },
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/DRkqjAG.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": null
+        },
+        {
+          "start": "18:43",
+          "end": "18:58",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Mindcraft — Andy bot in Minecraft",
+          "project": "Mindcraft",
+          "screen_summary": "Minecraft Java Edition survival world with Andy AI agent character visible; terminal shows self-prompting loop execution; game chat visible at bottom",
+          "webcam": "Sun present, smiling, looking down, shoulders level",
+          "captures": [
+            {
+              "start": "18:43",
+              "image": "https://i.imgur.com/S9z3y1d.jpeg",
+              "summary": "Minecraft Java Edition survival world with Andy AI agent character visible; terminal shows self-prompting loop execution; game chat visible at bottom",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/S9z3y1d.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": null
+        },
+        {
+          "start": "18:58",
+          "end": "19:13",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Mindcraft AI - Minecraft",
+          "project": "Mindcraft",
+          "screen_summary": "Minecraft multi-agent session (andy, bob, cleo) coordinating house repair with oak planks",
+          "webcam": "person at desk",
+          "captures": [
             {
               "start": "18:58",
               "image": "https://i.imgur.com/N0Y4GxU.jpeg",
@@ -5671,12 +5680,11 @@
             }
           ],
           "images": [
-            "https://i.imgur.com/DRkqjAG.jpeg",
             "https://i.imgur.com/N0Y4GxU.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "19:13",
@@ -5700,7 +5708,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "19:28",
@@ -5724,7 +5732,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "19:43",
@@ -5748,7 +5756,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "19:59",
@@ -5772,7 +5780,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "20:14",
@@ -5796,7 +5804,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "20:29",
@@ -5820,7 +5828,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "20:44",
@@ -5844,7 +5852,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "20:59",
@@ -5868,7 +5876,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "21:14",
@@ -5890,7 +5898,7 @@
           "images": [],
           "sensitive_count": 1,
           "sensitive": true,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "21:29",
@@ -5914,7 +5922,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "21:44",
@@ -5938,7 +5946,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "21:59",
@@ -5962,7 +5970,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "22:14",
@@ -5986,7 +5994,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "22:29",
@@ -6010,7 +6018,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "22:44",
@@ -6034,7 +6042,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "22:59",
@@ -6058,7 +6066,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "23:14",
@@ -6082,7 +6090,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "23:29",
@@ -6106,7 +6114,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "23:44",
@@ -6130,7 +6138,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "23:59",
@@ -6154,7 +6162,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "00:14",
@@ -6192,76 +6200,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
-        }
-      ],
-      "dailySummary": {
-        "date": "2026-05-26",
-        "tracked_min": 780,
-        "by_category": {
-          "Productivity": 330,
-          "Learning": 60,
-          "Health": 0,
-          "Errands": 195,
-          "Leisure": 30,
-          "Social": 15,
-          "AFK/Idle": 120,
-          "Sleep": 30
-        },
-        "top_activities": "Away from desk (1h 45m) · YouTube — AI commentary (1h 0m) · Mindcraft — Andy bot in Minecraft (45m)",
-        "takeaway": "Strongest build day of the gap: 5h 30m productive — but it went to X Derby (Supabase, Clout Coins, MRR leaderboard) and Mindcraft setup, both side projects. The core revenue products (MBTI Oracle, Q Rizz) got only ~30m combined.",
-        "coach_note": "Strongest build day of the gap: 5h 30m productive — but it went to X Derby (Supabase, Clout Coins, MRR leaderboard) and Mindcraft setup, both side projects. The core revenue products (MBTI Oracle, Q Rizz) got only ~30m combined.",
-        "first_last": "11:13 / 23:59",
-        "note": "",
-        "note_from_sun": ""
-      }
-    },
-    {
-      "date": "2026-05-27",
-      "tracked_min": 1305,
-      "by_category": {
-        "AFK/Idle": 885,
-        "Learning": 90,
-        "Leisure": 240,
-        "Productivity": 60,
-        "Admin/Errands": 30
-      },
-      "by_project": {
-        "N/A": 15,
-        "Personal": 645,
-        "Learning": 210,
-        "YouTube": 30,
-        "Q Rizz": 60,
-        "SelfTrack": 15,
-        "Gaming": 15,
-        "Movie": 150,
-        "Admin": 15,
-        "Personal/Leisure": 45
-      },
-      "blocks": [
-        {
-          "start": "11:56",
-          "end": "12:11",
-          "min": 15,
-          "category": "AFK/Idle",
-          "activity": "Idle - browser new tab",
-          "project": "N/A",
-          "screen_summary": "Chrome new tab / Google homepage, bookmarks: OpenClaw Control, Claude, Discord, MBTI Loop, Rizz, SelfTrack",
-          "webcam": "dark, no visible occupant",
-          "captures": [
-            {
-              "start": "11:56",
-              "image": "https://i.imgur.com/d8iPIH9.jpeg",
-              "summary": "Chrome new tab / Google homepage, bookmarks: OpenClaw Control, Claude, Discord, MBTI Loop, Rizz, SelfTrack",
-              "sensitive": false
-            }
-          ],
-          "images": [
-            "https://i.imgur.com/d8iPIH9.jpeg"
-          ],
-          "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "00:59",
@@ -6535,7 +6474,70 @@
           "images": [],
           "sensitive_count": 43,
           "sensitive": true,
-          "notes": ""
+          "notes": null
+        }
+      ],
+      "dailySummary": {
+        "date": "2026-05-26",
+        "tracked_min": "780",
+        "productivity_min": "330",
+        "health_min": "60",
+        "education_min": "0",
+        "leisure_min": "195",
+        "afk_idle_min": "30",
+        "other_min": "15",
+        "sleep_min": "120",
+        "unknown_min": "30",
+        "top_activities": "Away from desk (1h 45m) · YouTube — AI commentary (1h 0m) · Mindcraft — Andy bot in Minecraft (45m)",
+        "analysis": "Strongest build day of the gap: 5h 30m productive — but it went to X Derby (Supabase, Clout Coins, MRR leaderboard) and Mindcraft setup, both side projects. The core revenue products (MBTI Oracle, Q Rizz) got only ~30m combined.",
+        "first_last": "11:13 / 23:59"
+      }
+    },
+    {
+      "date": "2026-05-27",
+      "tracked_min": 1110,
+      "by_category": {
+        "AFK/Idle": 690,
+        "Learning": 90,
+        "Leisure": 240,
+        "Productivity": 60,
+        "Admin/Errands": 30
+      },
+      "by_project": {
+        "N/A": 120,
+        "Learning": 210,
+        "YouTube": 30,
+        "Q Rizz": 60,
+        "SelfTrack": 15,
+        "Gaming": 15,
+        "Movie": 150,
+        "Admin": 15,
+        "Personal/Leisure": 495
+      },
+      "blocks": [
+        {
+          "start": "11:56",
+          "end": "12:11",
+          "min": 15,
+          "category": "AFK/Idle",
+          "activity": "Idle - browser new tab",
+          "project": "N/A",
+          "screen_summary": "Chrome new tab / Google homepage, bookmarks: OpenClaw Control, Claude, Discord, MBTI Loop, Rizz, SelfTrack",
+          "webcam": "dark, no visible occupant",
+          "captures": [
+            {
+              "start": "11:56",
+              "image": "https://i.imgur.com/d8iPIH9.jpeg",
+              "summary": "Chrome new tab / Google homepage, bookmarks: OpenClaw Control, Claude, Discord, MBTI Loop, Rizz, SelfTrack",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/d8iPIH9.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": null
         },
         {
           "start": "12:11",
@@ -6573,7 +6575,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "12:56",
@@ -6646,7 +6648,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "14:56",
@@ -6712,7 +6714,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "16:41",
@@ -6736,7 +6738,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "16:56",
@@ -6767,7 +6769,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "17:26",
@@ -6805,7 +6807,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "18:11",
@@ -6836,7 +6838,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "18:41",
@@ -6860,7 +6862,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "18:56",
@@ -6884,7 +6886,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "19:11",
@@ -6908,7 +6910,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "19:26",
@@ -6995,7 +6997,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "02:05",
@@ -7019,7 +7021,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "02:21",
@@ -7050,7 +7052,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "02:51",
@@ -7074,72 +7076,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
-        }
-      ],
-      "dailySummary": {
-        "date": "2026-05-27",
-        "tracked_min": 1290,
-        "by_category": {
-          "Productivity": 60,
-          "Learning": 0,
-          "Health": 0,
-          "Errands": 240,
-          "Leisure": 90,
-          "Social": 15,
-          "AFK/Idle": 885,
-          "Sleep": 0
-        },
-        "top_activities": "sleeping (10h 45m) · YouTube paused - idle (3h 45m) · Movie - The Bourne Supremacy (2h 30m)",
-        "takeaway": "• 1h Q Rizz analytics (good signal pull) but no content shipped — marketing 80% means output, not dashboards\n• MBTI Oracle: 0 min all day — traffic is the bottleneck and it got nothing; one Reddit post fixes today's gap\n• 4h Leisure from 19:00 ate the sharp evening hours — carve 30m for MBTI Oracle before the movie next time",
-        "coach_note": "• 1h Q Rizz analytics (good signal pull) but no content shipped — marketing 80% means output, not dashboards\n• MBTI Oracle: 0 min all day — traffic is the bottleneck and it got nothing; one Reddit post fixes today's gap\n• 4h Leisure from 19:00 ate the sharp evening hours — carve 30m for MBTI Oracle before the movie next time",
-        "first_last": "00:14 / 21:57",
-        "note": "lot more focused on marketing these days. 80/20 rule.\nFocusing on the marketing will produce 80% of result.",
-        "note_from_sun": "lot more focused on marketing these days. 80/20 rule.\nFocusing on the marketing will produce 80% of result."
-      }
-    },
-    {
-      "date": "2026-05-28",
-      "tracked_min": 1170,
-      "by_category": {
-        "Leisure": 360,
-        "AFK/Idle": 450,
-        "Productivity": 285,
-        "Learning": 60,
-        "Communications": 15
-      },
-      "by_project": {
-        "Personal/Leisure": 720,
-        "Q Rizz": 255,
-        "Learning/Personal": 60,
-        "SelfTrack": 45,
-        "Personal leisure - watching movie \"Obsession\" (horror)": 75,
-        "Personal leisure - YouTube movie review \"Obsession\" ending explained": 15
-      },
-      "blocks": [
-        {
-          "start": "10:28",
-          "end": "10:43",
-          "min": 15,
-          "category": "Leisure",
-          "activity": "Browsing YouTube homepage",
-          "project": "Personal/Leisure",
-          "screen_summary": "YouTube home feed with various video thumbnails, browsing at 10:28 AM",
-          "webcam": "person visible in bright daytime room, sitting up in/near bed",
-          "captures": [
-            {
-              "start": "10:28",
-              "image": "https://i.imgur.com/3ZO6BIM.jpeg",
-              "summary": "YouTube home feed with various video thumbnails, browsing at 10:28 AM",
-              "sensitive": false
-            }
-          ],
-          "images": [
-            "https://i.imgur.com/3ZO6BIM.jpeg"
-          ],
-          "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "03:06",
@@ -7335,7 +7272,69 @@
           "images": [],
           "sensitive_count": 30,
           "sensitive": true,
-          "notes": ""
+          "notes": null
+        }
+      ],
+      "dailySummary": {
+        "date": "2026-05-27",
+        "tracked_min": "1290",
+        "productivity_min": "60",
+        "health_min": "0",
+        "education_min": "0",
+        "leisure_min": "240",
+        "afk_idle_min": "90",
+        "other_min": "15",
+        "sleep_min": "885",
+        "unknown_min": "0",
+        "top_activities": "sleeping (10h 45m) · YouTube paused - idle (3h 45m) · Movie - The Bourne Supremacy (2h 30m)",
+        "analysis": "• 1h Q Rizz analytics (good signal pull) but no content shipped — marketing 80% means output, not dashboards\n• MBTI Oracle: 0 min all day — traffic is the bottleneck and it got nothing; one Reddit post fixes today's gap\n• 4h Leisure from 19:00 ate the sharp evening hours — carve 30m for MBTI Oracle before the movie next time",
+        "first_last": "00:14 / 21:57",
+        "note": "lot more focused on marketing these days. 80/20 rule.\nFocusing on the marketing will produce 80% of result."
+      }
+    },
+    {
+      "date": "2026-05-28",
+      "tracked_min": 1350,
+      "by_category": {
+        "Leisure": 360,
+        "Productivity": 285,
+        "Learning": 60,
+        "Communications": 15,
+        "AFK/Idle": 630
+      },
+      "by_project": {
+        "Personal/Leisure": 270,
+        "Q Rizz": 255,
+        "Learning/Personal": 60,
+        "SelfTrack": 45,
+        "Personal leisure - watching movie \"Obsession\" (horror)": 75,
+        "Personal leisure - YouTube movie review \"Obsession\" ending explained": 15,
+        "Sleep": 630
+      },
+      "blocks": [
+        {
+          "start": "10:28",
+          "end": "10:43",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Browsing YouTube homepage",
+          "project": "Personal/Leisure",
+          "screen_summary": "YouTube home feed with various video thumbnails, browsing at 10:28 AM",
+          "webcam": "person visible in bright daytime room, sitting up in/near bed",
+          "captures": [
+            {
+              "start": "10:28",
+              "image": "https://i.imgur.com/3ZO6BIM.jpeg",
+              "summary": "YouTube home feed with various video thumbnails, browsing at 10:28 AM",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/3ZO6BIM.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": null
         },
         {
           "start": "10:43",
@@ -7359,7 +7358,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "10:58",
@@ -7383,7 +7382,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "11:13",
@@ -7407,7 +7406,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "11:28",
@@ -7431,7 +7430,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "11:43",
@@ -7455,7 +7454,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "11:58",
@@ -7479,7 +7478,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "12:13",
@@ -7503,7 +7502,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "12:28",
@@ -7527,7 +7526,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "12:43",
@@ -7558,7 +7557,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "13:13",
@@ -7589,7 +7588,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "13:43",
@@ -7613,7 +7612,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "13:58",
@@ -7637,7 +7636,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "14:13",
@@ -7668,7 +7667,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "14:43",
@@ -7692,7 +7691,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "14:58",
@@ -7730,7 +7729,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "15:43",
@@ -7754,7 +7753,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "15:58",
@@ -7778,7 +7777,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "16:13",
@@ -7802,7 +7801,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "16:28",
@@ -7826,7 +7825,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "16:43",
@@ -7857,7 +7856,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "17:13",
@@ -7888,7 +7887,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "17:44",
@@ -7912,7 +7911,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "17:59",
@@ -7943,7 +7942,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "18:29",
@@ -7967,7 +7966,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "18:44",
@@ -7991,7 +7990,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "18:59",
@@ -8015,7 +8014,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "19:14",
@@ -8039,7 +8038,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "19:29",
@@ -8098,7 +8097,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "20:59",
@@ -8150,7 +8149,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "22:14",
@@ -8174,89 +8173,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
-        }
-      ],
-      "dailySummary": {
-        "date": "2026-05-28",
-        "tracked_min": 1335,
-        "by_category": {
-          "Productivity": 285,
-          "Learning": 15,
-          "Health": 0,
-          "Errands": 405,
-          "Leisure": 60,
-          "Social": 15,
-          "AFK/Idle": 555,
-          "Sleep": 0
-        },
-        "top_activities": "Sleeping (9h 15m) · Watching movie in VLC (1h 30m) · Q Rizz influencer outreach planning (1h 15m)",
-        "takeaway": "4h 45m productive and all of it on Q Rizz — influencer outreach pipeline, TikTok creator analysis, Superwall/revenue review. Good single-lever focus. Evening dissolved into 6h 45m of movies; MBTI Oracle got nothing.",
-        "coach_note": "4h 45m productive and all of it on Q Rizz — influencer outreach pipeline, TikTok creator analysis, Superwall/revenue review. Good single-lever focus. Evening dissolved into 6h 45m of movies; MBTI Oracle got nothing.",
-        "first_last": "02:05 / 23:59",
-        "note": "",
-        "note_from_sun": ""
-      }
-    },
-    {
-      "date": "2026-05-29",
-      "tracked_min": 1350,
-      "by_category": {
-        "AFK/Idle": 1005,
-        "Learning": 75,
-        "Leisure": 150,
-        "Communications": 15,
-        "Productivity": 105
-      },
-      "by_project": {
-        "AFK/Idle - PC unattended at desktop": 15,
-        "Sleep": 630,
-        "Learning - YouTube AI news: Claude Opus 4.8 feature updates": 15,
-        "Learning - YouTube posture/exercise research": 15,
-        "Personal leisure - YouTube movie/psychology analysis": 15,
-        "Personal leisure - YouTube browsing": 15,
-        "Learning - YouTube posture/exercise: anterior pelvic tilt fix": 15,
-        "Personal leisure - Civilization VI gaming": 45,
-        "Personal leisure - background focus music while on phone": 15,
-        "Learning - War of Art audiobook (creativity/overcoming resistance)": 15,
-        "Learning - AI news: Claude Opus 4.8 analysis/critique": 15,
-        "Personal leisure - social skills/charisma YouTube content": 15,
-        "Personal leisure - motivational YouTube content": 15,
-        "Communications - Discord investing/AI server discussion (NVDA)": 15,
-        "Personal leisure - Dune audiobook": 30,
-        "Productivity - Gemini AI research (TikTok/app monetization analysis)": 15,
-        "MBTI Oracle - revenue analysis with n1dhaann via OpenClaw": 15,
-        "MBTI Oracle / Q Rizz - strategic planning session via OpenClaw": 15,
-        "MBTI Oracle - App Store Connect/Superwall API data retrieval": 15,
-        "MBTI Oracle - App Store Connect API key setup and revenue data": 15,
-        "MBTI Oracle / Q Rizz / Simple Rizz - weekly revenue analysis": 15,
-        "MBTI Oracle / Q Rizz - revenue trend review": 15,
-        "AFK/Idle - PC left on unattended while out": 360
-      },
-      "blocks": [
-        {
-          "start": "08:55",
-          "end": "09:10",
-          "min": 15,
-          "category": "AFK/Idle",
-          "activity": "AFK - desktop idle",
-          "project": "AFK/Idle - PC unattended at desktop",
-          "screen_summary": "Windows desktop with Windscribe VPN popup open (Montreal Expo 67 server), no active application",
-          "webcam": "Empty bed, no person visible",
-          "captures": [
-            {
-              "start": "08:55",
-              "image": "https://i.imgur.com/lluqIu5.jpeg",
-              "summary": "Windows desktop with Windscribe VPN popup open (Montreal Expo 67 server), no active application",
-              "sensitive": false
-            }
-          ],
-          "images": [
-            "https://i.imgur.com/lluqIu5.jpeg"
-          ],
-          "sensitive_count": 0,
-          "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "22:29",
@@ -8524,7 +8441,86 @@
           "images": [],
           "sensitive_count": 42,
           "sensitive": true,
-          "notes": ""
+          "notes": null
+        }
+      ],
+      "dailySummary": {
+        "date": "2026-05-28",
+        "tracked_min": "1335",
+        "productivity_min": "285",
+        "health_min": "15",
+        "education_min": "0",
+        "leisure_min": "405",
+        "afk_idle_min": "60",
+        "other_min": "15",
+        "sleep_min": "555",
+        "unknown_min": "0",
+        "top_activities": "Sleeping (9h 15m) · Watching movie in VLC (1h 30m) · Q Rizz influencer outreach planning (1h 15m)",
+        "analysis": "4h 45m productive and all of it on Q Rizz — influencer outreach pipeline, TikTok creator analysis, Superwall/revenue review. Good single-lever focus. Evening dissolved into 6h 45m of movies; MBTI Oracle got nothing.",
+        "first_last": "02:05 / 23:59"
+      }
+    },
+    {
+      "date": "2026-05-29",
+      "tracked_min": 1440,
+      "by_category": {
+        "AFK/Idle": 930,
+        "Learning": 75,
+        "Leisure": 195,
+        "Communications": 15,
+        "Productivity": 225
+      },
+      "by_project": {
+        "AFK/Idle - PC unattended at desktop": 15,
+        "Learning - YouTube AI news: Claude Opus 4.8 feature updates": 15,
+        "Learning - YouTube posture/exercise research": 15,
+        "Personal leisure - YouTube movie/psychology analysis": 15,
+        "Personal leisure - YouTube browsing": 15,
+        "Learning - YouTube posture/exercise: anterior pelvic tilt fix": 15,
+        "Personal leisure - Civilization VI gaming": 45,
+        "Personal leisure - background focus music while on phone": 15,
+        "Learning - War of Art audiobook (creativity/overcoming resistance)": 15,
+        "Learning - AI news: Claude Opus 4.8 analysis/critique": 15,
+        "Personal leisure - social skills/charisma YouTube content": 15,
+        "Personal leisure - motivational YouTube content": 15,
+        "Communications - Discord investing/AI server discussion (NVDA)": 15,
+        "Personal leisure - Dune audiobook": 30,
+        "Productivity - Gemini AI research (TikTok/app monetization analysis)": 15,
+        "MBTI Oracle - revenue analysis with n1dhaann via OpenClaw": 15,
+        "MBTI Oracle / Q Rizz - strategic planning session via OpenClaw": 15,
+        "MBTI Oracle - App Store Connect/Superwall API data retrieval": 15,
+        "MBTI Oracle - App Store Connect API key setup and revenue data": 15,
+        "MBTI Oracle / Q Rizz / Simple Rizz - weekly revenue analysis": 15,
+        "MBTI Oracle / Q Rizz - revenue trend review": 15,
+        "AFK/Idle - PC left on unattended while out": 360,
+        "MBTI Oracle": 120,
+        "Leisure": 45,
+        "N/A": 555
+      },
+      "blocks": [
+        {
+          "start": "08:55",
+          "end": "09:10",
+          "min": 15,
+          "category": "AFK/Idle",
+          "activity": "AFK - desktop idle",
+          "project": "AFK/Idle - PC unattended at desktop",
+          "screen_summary": "Windows desktop with Windscribe VPN popup open (Montreal Expo 67 server), no active application",
+          "webcam": "Empty bed, no person visible",
+          "captures": [
+            {
+              "start": "08:55",
+              "image": "https://i.imgur.com/lluqIu5.jpeg",
+              "summary": "Windows desktop with Windscribe VPN popup open (Montreal Expo 67 server), no active application",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/lluqIu5.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": null
         },
         {
           "start": "09:10",
@@ -8548,7 +8544,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "09:25",
@@ -8572,7 +8568,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "09:40",
@@ -8596,7 +8592,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "09:55",
@@ -8620,7 +8616,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "10:10",
@@ -8644,7 +8640,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "10:25",
@@ -8682,7 +8678,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "11:10",
@@ -8706,7 +8702,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "11:25",
@@ -8730,7 +8726,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "11:40",
@@ -8754,7 +8750,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "11:55",
@@ -8778,7 +8774,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "12:10",
@@ -8802,7 +8798,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "12:25",
@@ -8826,7 +8822,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "12:40",
@@ -8857,7 +8853,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "13:10",
@@ -8881,7 +8877,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "13:25",
@@ -8905,7 +8901,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "13:40",
@@ -8929,7 +8925,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "13:55",
@@ -8953,7 +8949,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "14:10",
@@ -8977,7 +8973,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "14:25",
@@ -9001,7 +8997,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "14:40",
@@ -9025,7 +9021,7 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
         },
         {
           "start": "14:55",
@@ -9210,7 +9206,409 @@
           ],
           "sensitive_count": 0,
           "sensitive": false,
-          "notes": ""
+          "notes": null
+        },
+        {
+          "start": "20:56",
+          "end": "22:42",
+          "min": 105,
+          "category": "Productivity",
+          "activity": "MBTI Oracle product analysis",
+          "project": "MBTI Oracle",
+          "screen_summary": "OpenClaw Chat showing MRR/revenue analysis for MBTI Oracle — discussing growth metrics and daily data points",
+          "webcam": "dark, no person visible",
+          "captures": [
+            {
+              "start": "20:56",
+              "image": "https://i.imgur.com/PJMHkWv.jpeg",
+              "summary": "OpenClaw Chat showing MRR/revenue analysis for MBTI Oracle — discussing growth metrics and daily data points",
+              "sensitive": false
+            },
+            {
+              "start": "21:11",
+              "image": "https://i.imgur.com/MkTkAzR.jpeg",
+              "summary": "OpenClaw Chat — continued MRR data analysis and revenue discussion for MBTI Oracle",
+              "sensitive": false
+            },
+            {
+              "start": "21:26",
+              "image": "https://i.imgur.com/4IbIjDV.jpeg",
+              "summary": "OpenClaw Chat — MRR growth analysis, comparing app performance metrics over time",
+              "sensitive": false
+            },
+            {
+              "start": "21:41",
+              "image": "https://i.imgur.com/tEFKMYb.jpeg",
+              "summary": "OpenClaw Chat — product strategy discussion around MBTI Oracle acquisition and revenue",
+              "sensitive": false
+            },
+            {
+              "start": "21:56",
+              "image": "https://i.imgur.com/pUdAbW0.jpeg",
+              "summary": "OpenClaw Chat — ongoing revenue/metric review for MBTI Oracle with AI assistant",
+              "sensitive": false
+            },
+            {
+              "start": "22:12",
+              "image": "https://i.imgur.com/c6Qko6q.jpeg",
+              "summary": "OpenClaw Chat — continued MBTI Oracle metrics discussion",
+              "sensitive": false
+            },
+            {
+              "start": "22:27",
+              "image": "https://i.imgur.com/1GGtdfu.jpeg",
+              "summary": "OpenClaw Chat — MBTI Oracle MRR data review and strategy notes",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/PJMHkWv.jpeg",
+            "https://i.imgur.com/MkTkAzR.jpeg",
+            "https://i.imgur.com/4IbIjDV.jpeg",
+            "https://i.imgur.com/tEFKMYb.jpeg",
+            "https://i.imgur.com/pUdAbW0.jpeg",
+            "https://i.imgur.com/c6Qko6q.jpeg",
+            "https://i.imgur.com/1GGtdfu.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": null
+        },
+        {
+          "start": "22:42",
+          "end": "23:27",
+          "min": 45,
+          "category": "Leisure",
+          "activity": "Watching movie",
+          "project": "Leisure",
+          "screen_summary": "Movie scene — people in a parking lot near cars, spy/thriller genre film",
+          "webcam": "dark, no person visible",
+          "captures": [
+            {
+              "start": "22:42",
+              "image": "https://i.imgur.com/d3hFrtQ.jpeg",
+              "summary": "Movie scene — people in a parking lot near cars, spy/thriller genre film",
+              "sensitive": false
+            },
+            {
+              "start": "22:57",
+              "image": "https://i.imgur.com/1gwlP5i.jpeg",
+              "summary": "Movie scene — German city street with protest posters, spy/thriller film continuing",
+              "sensitive": false
+            },
+            {
+              "start": "23:12",
+              "image": "https://i.imgur.com/zmKgGwn.jpeg",
+              "summary": "Movie scene — same spy/thriller film, German street with protest posters",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/d3hFrtQ.jpeg",
+            "https://i.imgur.com/1gwlP5i.jpeg",
+            "https://i.imgur.com/zmKgGwn.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": null
+        },
+        {
+          "start": "23:27",
+          "end": "23:42",
+          "min": 15,
+          "category": "Productivity",
+          "activity": "MBTI Oracle product analysis",
+          "project": "MBTI Oracle",
+          "screen_summary": "OpenClaw Chat — MRR data table/chart showing monthly revenue figures and growth trend for MBTI Oracle",
+          "webcam": "dark, no person visible",
+          "captures": [
+            {
+              "start": "23:27",
+              "image": "https://i.imgur.com/owpKWQz.jpeg",
+              "summary": "OpenClaw Chat — MRR data table/chart showing monthly revenue figures and growth trend for MBTI Oracle",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/owpKWQz.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": null
+        },
+        {
+          "start": "23:42",
+          "end": "08:55",
+          "min": 555,
+          "category": "AFK/Idle",
+          "activity": "sleeping",
+          "project": "N/A",
+          "screen_summary": "overnight sleep gap (autofilled)",
+          "webcam": "not present",
+          "captures": [
+            {
+              "start": "23:42",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "23:57",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "00:12",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "00:27",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "00:42",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "00:57",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "01:12",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "01:27",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "01:42",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "01:57",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "02:12",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "02:27",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "02:42",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "02:57",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "03:12",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "03:27",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "03:42",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "03:57",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "04:12",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "04:27",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "04:42",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "04:57",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "05:12",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "05:27",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "05:42",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "05:57",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "06:12",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "06:27",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "06:42",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "06:57",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "07:12",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "07:27",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "07:42",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "07:57",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "08:12",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "08:27",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            },
+            {
+              "start": "08:42",
+              "image": null,
+              "summary": "overnight sleep gap (autofilled)",
+              "sensitive": true
+            }
+          ],
+          "images": [],
+          "sensitive_count": 37,
+          "sensitive": true,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "date": "2026-05-30",
+      "tracked_min": 15,
+      "by_category": {
+        "AFK/Idle": 15
+      },
+      "by_project": {
+        "N/A": 15
+      },
+      "blocks": [
+        {
+          "start": "08:55",
+          "end": "09:10",
+          "min": 15,
+          "category": "AFK/Idle",
+          "activity": "Idle — desktop",
+          "project": "N/A",
+          "screen_summary": "Windows desktop wallpaper only, no active applications open",
+          "webcam": "Sun visible, head tilted down looking at something off-screen",
+          "captures": [
+            {
+              "start": "08:55",
+              "image": "https://i.imgur.com/npSO8e9.jpeg",
+              "summary": "Windows desktop wallpaper only, no active applications open",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/npSO8e9.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": null
         }
       ]
     }
