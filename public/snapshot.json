@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T12:02:12.246848+09:00",
+  "generatedAt": "2026-05-30T13:06:35+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -377,7 +377,7 @@
           "activity": "taking a bath (notepad note left on screen)",
           "project": "personal",
           "screen_summary": "Windows Notepad with single line 'taking a bath'; taskbar clock 9:45 PM",
-          "webcam": "away — empty bed view",
+          "webcam": "away — empty bed, dark jeans on edge",
           "captures": [
             {
               "start": "21:46",
@@ -504,7 +504,7 @@
           "activity": "working on SelfTrack",
           "project": "SelfTrack build",
           "screen_summary": "OpenClaw chat thread refining SelfTrack analyze-hourly pipeline (capture/labeling, sheet schema)",
-          "webcam": "Sun facing camera, focused, looking down",
+          "webcam": "Sun resting hands on face, contemplative",
           "captures": [
             {
               "start": "23:16",
@@ -882,19 +882,22 @@
       ],
       "dailySummary": {
         "date": "2026-05-20",
-        "tracked_min": "480",
-        "sleep_min": "255",
-        "exercise_min": "0",
-        "food_min": "0",
-        "productivity_min": "150",
-        "errand_min": "30",
-        "social_min": "0",
-        "leisure_min": "45",
-        "other_min": "0",
+        "tracked_min": 480,
+        "by_category": {
+          "Productivity": 255,
+          "Meetings": 0,
+          "Communication": 0,
+          "Leisure": 150,
+          "Health": 30,
+          "Errands": 0,
+          "Sleeping": 45,
+          "Sensitive": 0
+        },
+        "by_project": {},
         "top_activities": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
-        "review": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
+        "summary": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
         "first_last": "15:58 / 00:03",
-        "note_from_sun": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
+        "note": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
       }
     },
     {
@@ -1577,19 +1580,22 @@
       ],
       "dailySummary": {
         "date": "2026-05-21",
-        "tracked_min": "1440",
-        "sleep_min": "60",
-        "exercise_min": "0",
-        "food_min": "0",
-        "productivity_min": "150",
-        "errand_min": "45",
-        "social_min": "15",
-        "leisure_min": "1170",
-        "other_min": "0",
+        "tracked_min": 1440,
+        "by_category": {
+          "Productivity": 60,
+          "Meetings": 0,
+          "Communication": 0,
+          "Leisure": 150,
+          "Health": 45,
+          "Errands": 15,
+          "Sleeping": 1170,
+          "Sensitive": 0
+        },
+        "by_project": {},
         "top_activities": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
-        "review": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
+        "summary": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
         "first_last": "00:03 / 23:53",
-        "note_from_sun": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
+        "note": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
       }
     },
     {
@@ -2478,19 +2484,22 @@
       ],
       "dailySummary": {
         "date": "2026-05-22",
-        "tracked_min": "810",
-        "sleep_min": "30",
-        "exercise_min": "0",
-        "food_min": "0",
-        "productivity_min": "375",
-        "errand_min": "0",
-        "social_min": "0",
-        "leisure_min": "405",
-        "other_min": "0",
+        "tracked_min": 810,
+        "by_category": {
+          "Productivity": 30,
+          "Meetings": 0,
+          "Communication": 0,
+          "Leisure": 375,
+          "Health": 0,
+          "Errands": 0,
+          "Sleeping": 405,
+          "Sensitive": 0
+        },
+        "by_project": {},
         "top_activities": "haircut errand (6h 30m) · playing Total War: Warhammer (1h 30m) · watching movie/TV (1h 15m)",
-        "review": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
+        "summary": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
         "first_last": "00:08 / 23:51",
-        "note_from_sun": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
+        "note": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
       }
     },
     {
@@ -2509,6 +2518,7 @@
         "Learning/Reading": 150,
         "Personal/Break": 120,
         "Gaming/Warhammer": 30,
+        "Other": 15,
         "Leisure": 165,
         "Leisure/History": 90,
         "Sleep": 750
@@ -2714,7 +2724,7 @@
           "activity": "Reading essay on Claude.ai",
           "project": "Learning/Reading",
           "screen_summary": "Claude.ai conversation 'Exit, civilization, and the rise of enlightenment (through disposition)' — 'The takeaway' on Napoleon, essentialist vs situationalist view of human nature, Schopenhauer, La Rochefoucauld.",
-          "webcam": "Sun centered, head tilted slightly right, looking down at screen.",
+          "webcam": "Sun upright, head leaning slightly forward, looking down — reading.",
           "captures": [
             {
               "start": "14:15",
@@ -2769,7 +2779,7 @@
           "activity": "Reading essay on Claude.ai",
           "project": "Learning/Reading",
           "screen_summary": "Claude.ai — Napoleon/Schopenhauer essay, 'The scrap: Rétimeau's challenge' and 'His sharp reaction' sections.",
-          "webcam": "Webcam appears off/dark — frame essentially black.",
+          "webcam": "Sun upright, centered, head over shoulders.",
           "captures": [
             {
               "start": "15:00",
@@ -2952,7 +2962,7 @@
           "activity": "On phone, away from desktop",
           "project": "Personal/Break",
           "screen_summary": "Claude.ai still parked on the same 'The takeaway' page — no desktop interaction.",
-          "webcam": "Sun seated on bed using phone, phone covering face, upright.",
+          "webcam": "Sun seated on bed using phone, upright, head over shoulders.",
           "captures": [
             {
               "start": "18:30",
@@ -2983,7 +2993,7 @@
           "activity": "Reading essay on Claude.ai",
           "project": "Learning/Reading",
           "screen_summary": "Claude.ai — same 'Exit, civilization, enlightenment' essay 'The takeaway' page.",
-          "webcam": "Sun centered, upright, head over shoulders.",
+          "webcam": "Sun centered, head slightly forward but body upright.",
           "captures": [
             {
               "start": "19:00",
@@ -3086,7 +3096,7 @@
           "activity": "Watching movie",
           "project": "Leisure",
           "screen_summary": "Full-screen movie scene — bearded man in space-suit / lab-tech rig, industrial setting.",
-          "webcam": "Very dark, faint silhouette of head/hand — Sun watching.",
+          "webcam": "Sun upright with headphones, drinking water — body upright.",
           "captures": [
             {
               "start": "20:15",
@@ -3221,7 +3231,7 @@
           "activity": "Watching Napoleon docudrama",
           "project": "Leisure/History",
           "screen_summary": "Cosmos channel — Napoleon docudrama scene with older man with white moustache and a young woman, Greek subtitles ('Πήρα την Αβινιόν και τη Μασσαλία...').",
-          "webcam": "Sun face centered, dim, looking forward — body upright.",
+          "webcam": "Dark frame, faint face silhouette looking down — Sun watching from bed.",
           "captures": [
             {
               "start": "23:16",
@@ -3618,19 +3628,22 @@
       ],
       "dailySummary": {
         "date": "2026-05-23",
-        "tracked_min": "1425",
-        "sleep_min": "105",
-        "exercise_min": "0",
-        "food_min": "0",
-        "productivity_min": "270",
-        "errand_min": "210",
-        "social_min": "0",
-        "leisure_min": "840",
-        "other_min": "0",
+        "tracked_min": 1425,
+        "by_category": {
+          "Productivity": 105,
+          "Meetings": 0,
+          "Communication": 0,
+          "Leisure": 270,
+          "Health": 210,
+          "Errands": 0,
+          "Sleeping": 840,
+          "Sensitive": 0
+        },
+        "by_project": {},
         "top_activities": "Sleeping (11h 45m) · Reading essay on Claude.ai (2h 30m) · Watching movie (2h 30m)",
-        "review": "Only 1h 45m productive (Simple Rizz content drafting + analytics, a little agent config); the rest was sleep (11h 45m), a movie, and a long Claude essay read. Simple Rizz got a small real push; MBTI Oracle / Q Rizz got nothing.",
+        "summary": "Only 1h 45m productive (Simple Rizz content drafting + analytics, a little agent config); the rest was sleep (11h 45m), a movie, and a long Claude essay read. Simple Rizz got a small real push; MBTI Oracle / Q Rizz got nothing.",
         "first_last": "00:06 / 23:46",
-        "note_from_sun": ""
+        "note": ""
       }
     },
     {
@@ -3649,6 +3662,7 @@
         "Learning/Business": 15,
         "Reddit ops": 15,
         "Health": 195,
+        "Other": 120,
         "SelfTrack": 30,
         "Leisure": 195,
         "Learning": 15,
@@ -4680,19 +4694,22 @@
       ],
       "dailySummary": {
         "date": "2026-05-24",
-        "tracked_min": "1440",
-        "sleep_min": "45",
-        "exercise_min": "15",
-        "food_min": "0",
-        "productivity_min": "270",
-        "errand_min": "195",
-        "social_min": "15",
-        "leisure_min": "900",
-        "other_min": "0",
+        "tracked_min": 1440,
+        "by_category": {
+          "Productivity": 45,
+          "Meetings": 15,
+          "Communication": 0,
+          "Leisure": 270,
+          "Health": 195,
+          "Errands": 15,
+          "Sleeping": 900,
+          "Sensitive": 0
+        },
+        "by_project": {},
         "top_activities": "sleeping (13h 0m) · Watching F1 movie (3h 15m) · Away from desk (1h 45m)",
-        "review": "Lowest-output day of the stretch: 45m productive, $0, nothing on any revenue product. 3h+ of posture/walking/fascia research and an F1 movie filled the waking hours — a rest day, not a build day.",
+        "summary": "Lowest-output day of the stretch: 45m productive, $0, nothing on any revenue product. 3h+ of posture/walking/fascia research and an F1 movie filled the waking hours — a rest day, not a build day.",
         "first_last": "00:01 / 23:54",
-        "note_from_sun": ""
+        "note": ""
       }
     },
     {
@@ -5071,19 +5088,22 @@
       ],
       "dailySummary": {
         "date": "2026-05-25",
-        "tracked_min": "1050",
-        "sleep_min": "105",
-        "exercise_min": "0",
-        "food_min": "0",
-        "productivity_min": "195",
-        "errand_min": "60",
-        "social_min": "0",
-        "leisure_min": "690",
-        "other_min": "0",
+        "tracked_min": 1050,
+        "by_category": {
+          "Productivity": 105,
+          "Meetings": 0,
+          "Communication": 0,
+          "Leisure": 195,
+          "Health": 60,
+          "Errands": 0,
+          "Sleeping": 690,
+          "Sensitive": 0
+        },
+        "by_project": {},
         "top_activities": "sleeping (11h 30m) · Watching movie/show (2h 45m) · Reading Hermes Agent setup notes (1h 0m)",
-        "review": "Short tracked day — PC went dark after 17:51. 1h 45m productive but spread thin across Hermes Agent setup, Q/Simple Rizz review, Sensor Tower research and skill migration. No single lever got real depth.",
+        "summary": "Short tracked day — PC went dark after 17:51. 1h 45m productive but spread thin across Hermes Agent setup, Q/Simple Rizz review, Sensor Tower research and skill migration. No single lever got real depth.",
         "first_last": "00:09 / 17:51",
-        "note_from_sun": ""
+        "note": ""
       }
     },
     {
@@ -6480,19 +6500,22 @@
       ],
       "dailySummary": {
         "date": "2026-05-26",
-        "tracked_min": "780",
-        "sleep_min": "330",
-        "exercise_min": "60",
-        "food_min": "0",
-        "productivity_min": "195",
-        "errand_min": "30",
-        "social_min": "15",
-        "leisure_min": "120",
-        "other_min": "30",
+        "tracked_min": 780,
+        "by_category": {
+          "Productivity": 330,
+          "Meetings": 60,
+          "Communication": 0,
+          "Leisure": 195,
+          "Health": 30,
+          "Errands": 15,
+          "Sleeping": 120,
+          "Sensitive": 30
+        },
+        "by_project": {},
         "top_activities": "Away from desk (1h 45m) · YouTube — AI commentary (1h 0m) · Mindcraft — Andy bot in Minecraft (45m)",
-        "review": "Strongest build day of the gap: 5h 30m productive — but it went to X Derby (Supabase, Clout Coins, MRR leaderboard) and Mindcraft setup, both side projects. The core revenue products (MBTI Oracle, Q Rizz) got only ~30m combined.",
+        "summary": "Strongest build day of the gap: 5h 30m productive — but it went to X Derby (Supabase, Clout Coins, MRR leaderboard) and Mindcraft setup, both side projects. The core revenue products (MBTI Oracle, Q Rizz) got only ~30m combined.",
         "first_last": "11:13 / 23:59",
-        "note_from_sun": ""
+        "note": ""
       }
     },
     {
@@ -6508,6 +6531,7 @@
       "by_project": {
         "N/A": 15,
         "Learning": 210,
+        "Other": 105,
         "YouTube": 30,
         "Q Rizz": 60,
         "SelfTrack": 15,
@@ -7033,7 +7057,7 @@
           "activity": "Watching YouTube - MBTI personality type video",
           "project": "Personal/Leisure",
           "screen_summary": "YouTube video 'The Sixteen Types: INTJ' by Michael Pierce playing, dark room at 2:21 AM",
-          "webcam": "person visible lying/leaning in dark room",
+          "webcam": "person visible in dark room, face lit by screen glow, tired-looking",
           "captures": [
             {
               "start": "02:21",
@@ -7279,19 +7303,22 @@
       ],
       "dailySummary": {
         "date": "2026-05-27",
-        "tracked_min": "1290",
-        "sleep_min": "60",
-        "exercise_min": "0",
-        "food_min": "0",
-        "productivity_min": "240",
-        "errand_min": "90",
-        "social_min": "15",
-        "leisure_min": "885",
-        "other_min": "0",
+        "tracked_min": 1290,
+        "by_category": {
+          "Productivity": 60,
+          "Meetings": 0,
+          "Communication": 0,
+          "Leisure": 240,
+          "Health": 90,
+          "Errands": 15,
+          "Sleeping": 885,
+          "Sensitive": 0
+        },
+        "by_project": {},
         "top_activities": "sleeping (10h 45m) · YouTube paused - idle (3h 45m) · Movie - The Bourne Supremacy (2h 30m)",
-        "review": "• 1h Q Rizz analytics (good signal pull) but no content shipped — marketing 80% means output, not dashboards\n• MBTI Oracle: 0 min all day — traffic is the bottleneck and it got nothing; one Reddit post fixes today's gap\n• 4h Leisure from 19:00 ate the sharp evening hours — carve 30m for MBTI Oracle before the movie next time",
+        "summary": "• 1h Q Rizz analytics (good signal pull) but no content shipped — marketing 80% means output, not dashboards\n• MBTI Oracle: 0 min all day — traffic is the bottleneck and it got nothing; one Reddit post fixes today's gap\n• 4h Leisure from 19:00 ate the sharp evening hours — carve 30m for MBTI Oracle before the movie next time",
         "first_last": "00:14 / 21:57",
-        "note_from_sun": "lot more focused on marketing these days. 80/20 rule.\nFocusing on the marketing will produce 80% of result."
+        "note": "lot more focused on marketing these days. 80/20 rule.\nFocusing on the marketing will produce 80% of result."
       }
     },
     {
@@ -7923,7 +7950,7 @@
           "activity": "Watching YouTube - Napoleon movie critique video",
           "project": "Personal/Leisure",
           "screen_summary": "YouTube — 'Napoleon is Everything Wrong with Biopics', Ridley Scott interview, historical integrity commentary",
-          "webcam": "person upright, centered, looking at screen",
+          "webcam": "person in profile view, looking down at screen",
           "captures": [
             {
               "start": "17:59",
@@ -8448,19 +8475,22 @@
       ],
       "dailySummary": {
         "date": "2026-05-28",
-        "tracked_min": "1335",
-        "sleep_min": "285",
-        "exercise_min": "15",
-        "food_min": "0",
-        "productivity_min": "405",
-        "errand_min": "60",
-        "social_min": "15",
-        "leisure_min": "555",
-        "other_min": "0",
+        "tracked_min": 1335,
+        "by_category": {
+          "Productivity": 285,
+          "Meetings": 15,
+          "Communication": 0,
+          "Leisure": 405,
+          "Health": 60,
+          "Errands": 15,
+          "Sleeping": 555,
+          "Sensitive": 0
+        },
+        "by_project": {},
         "top_activities": "Sleeping (9h 15m) · Watching movie in VLC (1h 30m) · Q Rizz influencer outreach planning (1h 15m)",
-        "review": "4h 45m productive and all of it on Q Rizz — influencer outreach pipeline, TikTok creator analysis, Superwall/revenue review. Good single-lever focus. Evening dissolved into 6h 45m of movies; MBTI Oracle got nothing.",
+        "summary": "4h 45m productive and all of it on Q Rizz — influencer outreach pipeline, TikTok creator analysis, Superwall/revenue review. Good single-lever focus. Evening dissolved into 6h 45m of movies; MBTI Oracle got nothing.",
         "first_last": "02:05 / 23:59",
-        "note_from_sun": ""
+        "note": ""
       }
     },
     {
@@ -9581,16 +9611,16 @@
     },
     {
       "date": "2026-05-30",
-      "tracked_min": 120,
+      "tracked_min": 240,
       "by_category": {
         "AFK/Idle": 15,
         "Communications": 15,
-        "Leisure": 90
+        "Leisure": 210
       },
       "by_project": {
         "N/A": 15,
         "Communications": 15,
-        "Leisure": 90
+        "Leisure": 210
       },
       "blocks": [
         {
@@ -9746,6 +9776,79 @@
           ],
           "images": [
             "https://i.imgur.com/U5Mdxly.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "10:55",
+          "end": "12:55",
+          "min": 120,
+          "category": "Leisure",
+          "activity": "Playing Civ 6",
+          "project": "Leisure",
+          "screen_summary": "Civilization VI — map view showing combat/units near river, Political Philosophy civic completing",
+          "webcam": "Sun visible, good posture",
+          "captures": [
+            {
+              "start": "10:55",
+              "image": "https://i.imgur.com/FIRYrC1.jpeg",
+              "summary": "Civilization VI — map view showing combat/units near river, Political Philosophy civic completing",
+              "sensitive": false
+            },
+            {
+              "start": "11:10",
+              "image": "https://i.imgur.com/2hMwriE.jpeg",
+              "summary": "Civilization VI — overview of empire, cities: Zanzibar, Paris, Teotihuacan, La Rochelle, Rouen; Celestial Navigation tech",
+              "sensitive": false
+            },
+            {
+              "start": "11:25",
+              "image": "https://i.imgur.com/D7ZSpjl.jpeg",
+              "summary": "Civilization VI — combat near Tezcapoteaclo city, warrior unit engaged, Military Training civic",
+              "sensitive": false
+            },
+            {
+              "start": "11:40",
+              "image": "https://i.imgur.com/1jw2DZM.jpeg",
+              "summary": "Civilization VI — Aztecapoteaclo city captured, Zanzibar visible, Apprenticeship tech, Defensive Tactics promotion",
+              "sensitive": false
+            },
+            {
+              "start": "11:55",
+              "image": "https://i.imgur.com/c6cnPbQ.jpeg",
+              "summary": "Civilization VI — empire overview with multiple cities (Pharaon, Teotihuacan, La Rochelle, Rouen, Jerusalem), combat unit selected",
+              "sensitive": false
+            },
+            {
+              "start": "12:10",
+              "image": "https://i.imgur.com/K6iaB5M.jpeg",
+              "summary": "Civilization VI — large empire map, crossbowman vs knight combat, cities: Aztecapoteaclo, Paris, Teotihuacan, Jerusalem",
+              "sensitive": false
+            },
+            {
+              "start": "12:25",
+              "image": "https://i.imgur.com/i7Kr73S.jpeg",
+              "summary": "Civilization VI — empire overview, Stonehenge wonder visible, Jerusalem city size 10, musket man unit selected",
+              "sensitive": false
+            },
+            {
+              "start": "12:40",
+              "image": "https://i.imgur.com/BKiGydp.jpeg",
+              "summary": "Civilization VI — Jerusalem captured (size 10), La Rochelle, Rouen, Buenos Aires visible, choosing production",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/FIRYrC1.jpeg",
+            "https://i.imgur.com/2hMwriE.jpeg",
+            "https://i.imgur.com/D7ZSpjl.jpeg",
+            "https://i.imgur.com/1jw2DZM.jpeg",
+            "https://i.imgur.com/c6cnPbQ.jpeg",
+            "https://i.imgur.com/K6iaB5M.jpeg",
+            "https://i.imgur.com/i7Kr73S.jpeg",
+            "https://i.imgur.com/BKiGydp.jpeg"
           ],
           "sensitive_count": 0,
           "sensitive": false,
