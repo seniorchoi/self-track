@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T06:03:54.063Z",
+  "generatedAt": "2026-05-30T08:02:03.849Z",
   "source": "mixpanel",
   "status": "ok",
   "dailyVisitors": [
@@ -26,13 +26,13 @@
   ],
   "weeklyVisitors": {
     "visitors": 11,
-    "visits": 466
+    "visits": 469
   },
   "activeNow": 0,
   "topCities": [
     {
       "name": "Incheon",
-      "count": 398
+      "count": 401
     },
     {
       "name": "Gimpo-si",
@@ -51,14 +51,14 @@
       "count": 3
     },
     {
-      "name": "Ossingen",
+      "name": "Bucheon-si",
       "count": 2
     }
   ],
   "topCountries": [
     {
       "name": "KR",
-      "count": 459
+      "count": 462
     },
     {
       "name": "IN",
@@ -72,7 +72,7 @@
   "topPages": [
     {
       "name": "/",
-      "count": 61
+      "count": 63
     },
     {
       "name": "/timeline/2026-05-26",
