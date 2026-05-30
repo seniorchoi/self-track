@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T13:06:35+09:00",
+  "generatedAt": "2026-05-30T13:11:10+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -885,19 +885,18 @@
         "tracked_min": 480,
         "by_category": {
           "Productivity": 255,
-          "Meetings": 0,
-          "Communication": 0,
+          "Exercise": 0,
+          "Learning": 0,
           "Leisure": 150,
-          "Health": 30,
-          "Errands": 0,
-          "Sleeping": 45,
-          "Sensitive": 0
+          "Errand": 30,
+          "Eating": 0,
+          "Sleep": 45,
+          "Other": 0
         },
-        "by_project": {},
         "top_activities": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
         "summary": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
         "first_last": "15:58 / 00:03",
-        "note": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
+        "note_from_sun": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
       }
     },
     {
@@ -1583,19 +1582,18 @@
         "tracked_min": 1440,
         "by_category": {
           "Productivity": 60,
-          "Meetings": 0,
-          "Communication": 0,
+          "Exercise": 0,
+          "Learning": 0,
           "Leisure": 150,
-          "Health": 45,
-          "Errands": 15,
-          "Sleeping": 1170,
-          "Sensitive": 0
+          "Errand": 45,
+          "Eating": 15,
+          "Sleep": 1170,
+          "Other": 0
         },
-        "by_project": {},
         "top_activities": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
         "summary": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
         "first_last": "00:03 / 23:53",
-        "note": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
+        "note_from_sun": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
       }
     },
     {
@@ -2487,19 +2485,18 @@
         "tracked_min": 810,
         "by_category": {
           "Productivity": 30,
-          "Meetings": 0,
-          "Communication": 0,
+          "Exercise": 0,
+          "Learning": 0,
           "Leisure": 375,
-          "Health": 0,
-          "Errands": 0,
-          "Sleeping": 405,
-          "Sensitive": 0
+          "Errand": 0,
+          "Eating": 0,
+          "Sleep": 405,
+          "Other": 0
         },
-        "by_project": {},
         "top_activities": "haircut errand (6h 30m) · playing Total War: Warhammer (1h 30m) · watching movie/TV (1h 15m)",
         "summary": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
         "first_last": "00:08 / 23:51",
-        "note": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
+        "note_from_sun": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
       }
     },
     {
@@ -2518,7 +2515,6 @@
         "Learning/Reading": 150,
         "Personal/Break": 120,
         "Gaming/Warhammer": 30,
-        "Other": 15,
         "Leisure": 165,
         "Leisure/History": 90,
         "Sleep": 750
@@ -3631,19 +3627,18 @@
         "tracked_min": 1425,
         "by_category": {
           "Productivity": 105,
-          "Meetings": 0,
-          "Communication": 0,
+          "Exercise": 0,
+          "Learning": 0,
           "Leisure": 270,
-          "Health": 210,
-          "Errands": 0,
-          "Sleeping": 840,
-          "Sensitive": 0
+          "Errand": 210,
+          "Eating": 0,
+          "Sleep": 840,
+          "Other": 0
         },
-        "by_project": {},
         "top_activities": "Sleeping (11h 45m) · Reading essay on Claude.ai (2h 30m) · Watching movie (2h 30m)",
         "summary": "Only 1h 45m productive (Simple Rizz content drafting + analytics, a little agent config); the rest was sleep (11h 45m), a movie, and a long Claude essay read. Simple Rizz got a small real push; MBTI Oracle / Q Rizz got nothing.",
         "first_last": "00:06 / 23:46",
-        "note": ""
+        "note_from_sun": ""
       }
     },
     {
@@ -3662,7 +3657,6 @@
         "Learning/Business": 15,
         "Reddit ops": 15,
         "Health": 195,
-        "Other": 120,
         "SelfTrack": 30,
         "Leisure": 195,
         "Learning": 15,
@@ -4697,19 +4691,18 @@
         "tracked_min": 1440,
         "by_category": {
           "Productivity": 45,
-          "Meetings": 15,
-          "Communication": 0,
+          "Exercise": 15,
+          "Learning": 0,
           "Leisure": 270,
-          "Health": 195,
-          "Errands": 15,
-          "Sleeping": 900,
-          "Sensitive": 0
+          "Errand": 195,
+          "Eating": 15,
+          "Sleep": 900,
+          "Other": 0
         },
-        "by_project": {},
         "top_activities": "sleeping (13h 0m) · Watching F1 movie (3h 15m) · Away from desk (1h 45m)",
         "summary": "Lowest-output day of the stretch: 45m productive, $0, nothing on any revenue product. 3h+ of posture/walking/fascia research and an F1 movie filled the waking hours — a rest day, not a build day.",
         "first_last": "00:01 / 23:54",
-        "note": ""
+        "note_from_sun": ""
       }
     },
     {
@@ -5091,19 +5084,18 @@
         "tracked_min": 1050,
         "by_category": {
           "Productivity": 105,
-          "Meetings": 0,
-          "Communication": 0,
+          "Exercise": 0,
+          "Learning": 0,
           "Leisure": 195,
-          "Health": 60,
-          "Errands": 0,
-          "Sleeping": 690,
-          "Sensitive": 0
+          "Errand": 60,
+          "Eating": 0,
+          "Sleep": 690,
+          "Other": 0
         },
-        "by_project": {},
         "top_activities": "sleeping (11h 30m) · Watching movie/show (2h 45m) · Reading Hermes Agent setup notes (1h 0m)",
         "summary": "Short tracked day — PC went dark after 17:51. 1h 45m productive but spread thin across Hermes Agent setup, Q/Simple Rizz review, Sensor Tower research and skill migration. No single lever got real depth.",
         "first_last": "00:09 / 17:51",
-        "note": ""
+        "note_from_sun": ""
       }
     },
     {
@@ -6503,19 +6495,18 @@
         "tracked_min": 780,
         "by_category": {
           "Productivity": 330,
-          "Meetings": 60,
-          "Communication": 0,
+          "Exercise": 60,
+          "Learning": 0,
           "Leisure": 195,
-          "Health": 30,
-          "Errands": 15,
-          "Sleeping": 120,
-          "Sensitive": 30
+          "Errand": 30,
+          "Eating": 15,
+          "Sleep": 120,
+          "Other": 30
         },
-        "by_project": {},
         "top_activities": "Away from desk (1h 45m) · YouTube — AI commentary (1h 0m) · Mindcraft — Andy bot in Minecraft (45m)",
         "summary": "Strongest build day of the gap: 5h 30m productive — but it went to X Derby (Supabase, Clout Coins, MRR leaderboard) and Mindcraft setup, both side projects. The core revenue products (MBTI Oracle, Q Rizz) got only ~30m combined.",
         "first_last": "11:13 / 23:59",
-        "note": ""
+        "note_from_sun": ""
       }
     },
     {
@@ -6531,7 +6522,6 @@
       "by_project": {
         "N/A": 15,
         "Learning": 210,
-        "Other": 105,
         "YouTube": 30,
         "Q Rizz": 60,
         "SelfTrack": 15,
@@ -7306,19 +7296,18 @@
         "tracked_min": 1290,
         "by_category": {
           "Productivity": 60,
-          "Meetings": 0,
-          "Communication": 0,
+          "Exercise": 0,
+          "Learning": 0,
           "Leisure": 240,
-          "Health": 90,
-          "Errands": 15,
-          "Sleeping": 885,
-          "Sensitive": 0
+          "Errand": 90,
+          "Eating": 15,
+          "Sleep": 885,
+          "Other": 0
         },
-        "by_project": {},
         "top_activities": "sleeping (10h 45m) · YouTube paused - idle (3h 45m) · Movie - The Bourne Supremacy (2h 30m)",
         "summary": "• 1h Q Rizz analytics (good signal pull) but no content shipped — marketing 80% means output, not dashboards\n• MBTI Oracle: 0 min all day — traffic is the bottleneck and it got nothing; one Reddit post fixes today's gap\n• 4h Leisure from 19:00 ate the sharp evening hours — carve 30m for MBTI Oracle before the movie next time",
         "first_last": "00:14 / 21:57",
-        "note": "lot more focused on marketing these days. 80/20 rule.\nFocusing on the marketing will produce 80% of result."
+        "note_from_sun": "lot more focused on marketing these days. 80/20 rule.\nFocusing on the marketing will produce 80% of result."
       }
     },
     {
@@ -8478,19 +8467,18 @@
         "tracked_min": 1335,
         "by_category": {
           "Productivity": 285,
-          "Meetings": 15,
-          "Communication": 0,
+          "Exercise": 15,
+          "Learning": 0,
           "Leisure": 405,
-          "Health": 60,
-          "Errands": 15,
-          "Sleeping": 555,
-          "Sensitive": 0
+          "Errand": 60,
+          "Eating": 15,
+          "Sleep": 555,
+          "Other": 0
         },
-        "by_project": {},
         "top_activities": "Sleeping (9h 15m) · Watching movie in VLC (1h 30m) · Q Rizz influencer outreach planning (1h 15m)",
         "summary": "4h 45m productive and all of it on Q Rizz — influencer outreach pipeline, TikTok creator analysis, Superwall/revenue review. Good single-lever focus. Evening dissolved into 6h 45m of movies; MBTI Oracle got nothing.",
         "first_last": "02:05 / 23:59",
-        "note": ""
+        "note_from_sun": ""
       }
     },
     {
@@ -9607,7 +9595,25 @@
           "sensitive": true,
           "notes": ""
         }
-      ]
+      ],
+      "dailySummary": {
+        "date": "2026-05-29",
+        "tracked_min": 1440,
+        "by_category": {
+          "Productivity": 225,
+          "Exercise": 15,
+          "Learning": 0,
+          "Leisure": 195,
+          "Errand": 75,
+          "Eating": 0,
+          "Sleep": 930,
+          "Other": 0
+        },
+        "top_activities": "YouTube watching (2h 45m) · MBTI Oracle product analysis (2h 0m) · OpenClaw work session (1h 30m)",
+        "summary": "3h 45m productive, almost all on MBTI Oracle — a real revenue audit that overturned the \"website is #1\" assumption and confirmed Q Rizz as the only app trending up. The 6h of \"AFK — PC left on\" likely reflects laptop work per your own caveat. Best MBTI focus day in weeks.",
+        "first_last": "00:14 / 23:57",
+        "note_from_sun": ""
+      }
     },
     {
       "date": "2026-05-30",
