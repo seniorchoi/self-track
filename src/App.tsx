@@ -18,8 +18,10 @@ type Block = {
 type DailySummary = {
   top_activities?: string
   takeaway?: string
+  summary?: string        // refresh cron historically emitted this name for the AI takeaway
   first_last?: string
   note?: string
+  note_from_sun?: string  // refresh cron historically emitted this name for Sun's note
 }
 type Day = {
   date: string
@@ -89,64 +91,24 @@ function useLiveNow(fallback: number) {
   return activeNow
 }
 
-function VisitorPulseCard({ compact = false }: { compact?: boolean }) {
+function VisitorPulseCard(_props: { compact?: boolean }) {
   const pulse = useVisitorPulse()
-  const activeNow = useLiveNow(pulse?.activeNow ?? 0)
-  const daily = pulse?.dailyVisitors || []
-  const week = pulse?.weeklyVisitors || { visitors: 0, visits: 0 }
-  const maxDaily = Math.max(1, ...daily.map(d => d.visitors))
-  const places = [
-    ...(pulse?.topCities || []).slice(0, 4).map(x => ({ ...x, kind: 'city' })),
-    ...(pulse?.topCountries || []).slice(0, 3).map(x => ({ ...x, kind: 'country' })),
-  ].slice(0, compact ? 5 : 7)
-  const pages = pulse?.topPages || []
+  const countries = (pulse?.topCountries || []).slice(0, 8)
   const collecting = !pulse || pulse.status !== 'ok'
 
   return (
-    <section className="bg-white border border-[var(--line)] rounded-xl p-4 sm:p-5 space-y-4">
-      <div className="flex items-start justify-between gap-3">
-        <div>
-          <h3 className="font-serif text-lg">Visitor pulse</h3>
-          <p className="text-xs text-gray-500">Live visitors plus Mixpanel rollups for people reading Life of Sun.</p>
-        </div>
-        <div className="text-right">
-          <div className="text-2xl font-serif tabular-nums">{activeNow}</div>
-          <div className="text-[11px] text-gray-500">active now</div>
-        </div>
+    <section className="bg-white border border-[var(--line)] rounded-xl p-4 sm:p-5 space-y-3">
+      <div>
+        <h3 className="font-serif text-lg">Where readers are reading from</h3>
+        <p className="text-xs text-gray-500">Last 7 days, by country.</p>
       </div>
 
       {collecting ? (
         <div className="rounded-lg bg-[#f5f1e8] border border-[var(--line)] px-3 py-2 text-sm text-gray-600">
-          Live-now is active. Historical Mixpanel rollups will appear here after the snapshot job has API credentials and enough traffic.
+          Collecting visitor data…
         </div>
       ) : (
-        <>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-            <Metric label="7d visitors" value={week.visitors} />
-            <Metric label="7d visits" value={week.visits} />
-            <Metric label="today" value={daily[daily.length - 1]?.visitors || 0} />
-            <Metric label="cities" value={(pulse?.topCities || []).length} />
-          </div>
-
-          {daily.length > 0 && (
-            <div>
-              <div className="text-[11px] uppercase tracking-wider text-gray-500 mb-2">Daily visitors</div>
-              <div className="flex items-end gap-1 h-16">
-                {daily.slice(-7).map(d => (
-                  <div key={d.date} className="flex-1 flex flex-col items-center gap-1">
-                    <div className="w-full rounded-t bg-[var(--ink)] opacity-80" style={{ height: `${Math.max(5, (d.visitors / maxDaily) * 56)}px` }} title={`${d.date}: ${d.visitors}`} />
-                    <div className="text-[10px] text-gray-400">{d.date.slice(5)}</div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-
-          <div className="grid md:grid-cols-2 gap-4">
-            <MiniList title="Where readers are" rows={places} empty="No geo yet" />
-            <MiniList title="What they open" rows={pages.slice(0, compact ? 4 : 5)} empty="No pages yet" />
-          </div>
-        </>
+        <MiniList title="Top countries" rows={countries} empty="No country data yet" />
       )}
     </section>
   )
@@ -432,8 +394,10 @@ function ChronoClock({ day, summary }: { day: Day; summary?: DailySummary | null
 
 function ClockSideSummary({ date, summary }: { date: string; summary?: DailySummary | null }) {
   const [editingNote, setEditingNote] = useState(false)
-  // Split takeaway into bullets — supports lines starting with '• ', '- ', or '* ', or just newline-separated.
-  const bullets = (summary?.takeaway || '')
+  // Read both naming conventions: refresh cron emits .summary/.note_from_sun, this UI was built for .takeaway/.note.
+  const takeawayText = summary?.takeaway || summary?.summary || ''
+  const noteText = summary?.note || summary?.note_from_sun || ''
+  const bullets = takeawayText
     .split(/\r?\n/)
     .map(l => l.replace(/^\s*[•\-*]\s*/, '').trim())
     .filter(Boolean)
@@ -457,12 +421,12 @@ function ClockSideSummary({ date, summary }: { date: string; summary?: DailySumm
       <div>
         <div className="flex items-baseline justify-between mb-1">
           <div className="text-[11px] uppercase tracking-wider text-gray-500">Note from Sun</div>
-          {!editingNote && <button onClick={() => setEditingNote(true)} className="text-xs text-gray-500 hover:text-gray-800 underline">{summary?.note ? 'edit' : 'add'}</button>}
+          {!editingNote && <button onClick={() => setEditingNote(true)} className="text-xs text-gray-500 hover:text-gray-800 underline">{noteText ? 'edit' : 'add'}</button>}
         </div>
         {editingNote ? (
-          <NoteEditor date={date} initial={summary?.note || ''} onClose={() => setEditingNote(false)} />
-        ) : summary?.note ? (
-          <p className="font-serif text-base leading-snug text-gray-700 whitespace-pre-wrap">"{summary.note}"</p>
+          <NoteEditor date={date} initial={noteText || ''} onClose={() => setEditingNote(false)} />
+        ) : noteText ? (
+          <p className="font-serif text-base leading-snug text-gray-700 whitespace-pre-wrap">"{noteText}"</p>
         ) : (
           <p className="text-xs text-gray-400 italic">no note yet — add a short reflection (max 500 chars).</p>
         )}
