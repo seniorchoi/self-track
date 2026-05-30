@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T17:01:59.990538+09:00",
+  "generatedAt": "2026-05-30T19:01:58.259120+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -397,7 +397,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "away — empty bed view",
+          "webcam": "away — empty bed, dark jeans on edge",
           "sensitive": false
         },
         {
@@ -1793,7 +1793,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "present, head forward looking down at desk",
+          "webcam": "present, head centered, level",
           "sensitive": false
         },
         {
@@ -2747,7 +2747,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Sun centered, head tilted slightly right, looking down at screen.",
+          "webcam": "Sun upright, head leaning slightly forward, looking down — reading.",
           "sensitive": false
         },
         {
@@ -2802,7 +2802,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Sun upright, centered, head over shoulders.",
+          "webcam": "Webcam appears off/dark — frame essentially black.",
           "sensitive": false
         },
         {
@@ -2833,7 +2833,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Sun upright, head over shoulders, looking down at screen.",
+          "webcam": "Sun upright but offset to viewer left, head over shoulders.",
           "sensitive": false
         },
         {
@@ -2902,7 +2902,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Sun upright, head over shoulders, looking down at screen.",
+          "webcam": "Sun upright, head over shoulders, shoulders level.",
           "sensitive": false
         },
         {
@@ -2985,7 +2985,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Sun seated on bed using phone, phone covering face, upright.",
+          "webcam": "Sun seated on bed using phone, upright, head over shoulders.",
           "sensitive": false
         },
         {
@@ -3175,7 +3175,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Frame essentially black — room dark or webcam covered.",
+          "webcam": "Very dark, faint silhouette of head/hand — Sun watching.",
           "sensitive": false
         },
         {
@@ -3261,7 +3261,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Sun face centered, dim, looking forward — body upright.",
+          "webcam": "Dark frame, faint face silhouette looking down — Sun watching from bed.",
           "sensitive": false
         },
         {
@@ -3646,8 +3646,8 @@
         "takeaway": "Only 1h 45m productive (Simple Rizz content drafting + analytics, a little agent config); the rest was sleep (11h 45m), a movie, and a long Claude essay read. Simple Rizz got a small real push; MBTI Oracle / Q Rizz got nothing.",
         "coach_note": "Only 1h 45m productive (Simple Rizz content drafting + analytics, a little agent config); the rest was sleep (11h 45m), a movie, and a long Claude essay read. Simple Rizz got a small real push; MBTI Oracle / Q Rizz got nothing.",
         "first_last": "00:06 / 23:46",
-        "note": "",
-        "note_from_sun": ""
+        "note": "I spent time in the morning trying to figure out the correlation between the TikTok views and the Q Rizz app download. And then I spent a lot of the day reading books on my laptop, which is not recorded here, and then in the evening I watched the lame time travel movie and then also my favorite Napoleon documentary.",
+        "note_from_sun": "I spent time in the morning trying to figure out the correlation between the TikTok views and the Q Rizz app download. And then I spent a lot of the day reading books on my laptop, which is not recorded here, and then in the evening I watched the lame time travel movie and then also my favorite Napoleon documentary."
       }
     },
     {
@@ -4388,7 +4388,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Pitch dark, faint outline of face, small reflected light visible",
+          "webcam": "Pitch dark room, dim outline of head, person upright",
           "sensitive": false
         },
         {
@@ -4713,8 +4713,8 @@
         "takeaway": "Lowest-output day of the stretch: 45m productive, $0, nothing on any revenue product. 3h+ of posture/walking/fascia research and an F1 movie filled the waking hours — a rest day, not a build day.",
         "coach_note": "Lowest-output day of the stretch: 45m productive, $0, nothing on any revenue product. 3h+ of posture/walking/fascia research and an F1 movie filled the waking hours — a rest day, not a build day.",
         "first_last": "00:01 / 23:54",
-        "note": "",
-        "note_from_sun": ""
+        "note": "Spent the whole day kind of obsessed over the proper walking posture.",
+        "note_from_sun": "Spent the whole day kind of obsessed over the proper walking posture."
       }
     },
     {
@@ -5108,8 +5108,8 @@
         "takeaway": "Short tracked day — PC went dark after 17:51. 1h 45m productive but spread thin across Hermes Agent setup, Q/Simple Rizz review, Sensor Tower research and skill migration. No single lever got real depth.",
         "coach_note": "Short tracked day — PC went dark after 17:51. 1h 45m productive but spread thin across Hermes Agent setup, Q/Simple Rizz review, Sensor Tower research and skill migration. No single lever got real depth.",
         "first_last": "00:09 / 17:51",
-        "note": "",
-        "note_from_sun": ""
+        "note": "I messed around with the Hermes AI agent and then spent the afternoon filming content for Q Rizz app.",
+        "note_from_sun": "I messed around with the Hermes AI agent and then spent the afternoon filming content for Q Rizz app."
       }
     },
     {
@@ -5463,7 +5463,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Sun present, holding a snack, watching",
+          "webcam": "Sun present, holding phone, smiling, watching",
           "sensitive": false
         },
         {
@@ -5638,7 +5638,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Sun present, sitting upright in blue polo, focused, looking down at screen",
+          "webcam": "Sun present, centered, upright, shoulders level, looking at screen",
           "sensitive": false
         },
         {
@@ -6521,8 +6521,8 @@
         "takeaway": "Strongest build day of the gap: 5h 30m productive — but it went to X Derby (Supabase, Clout Coins, MRR leaderboard) and Mindcraft setup, both side projects. The core revenue products (MBTI Oracle, Q Rizz) got only ~30m combined.",
         "coach_note": "Strongest build day of the gap: 5h 30m productive — but it went to X Derby (Supabase, Clout Coins, MRR leaderboard) and Mindcraft setup, both side projects. The core revenue products (MBTI Oracle, Q Rizz) got only ~30m combined.",
         "first_last": "11:13 / 23:59",
-        "note": "",
-        "note_from_sun": ""
+        "note": "More time messing around with AI agents and I created 2 small side projects out of whim.",
+        "note_from_sun": "More time messing around with AI agents and I created 2 small side projects out of whim."
       }
     },
     {
@@ -7084,7 +7084,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "person visible lying/leaning in dark room",
+          "webcam": "person visible in dark room, face lit by screen glow, tired-looking",
           "sensitive": false
         },
         {
@@ -7892,7 +7892,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "empty room, person away from desk",
+          "webcam": "person partially in frame, looking down, daytime room",
           "sensitive": false
         },
         {
@@ -8133,7 +8133,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "person visible, watching screen, dim room",
+          "webcam": "person upright, looking slightly down, evening",
           "sensitive": false
         },
         {
@@ -8498,8 +8498,8 @@
         "takeaway": "4h 45m productive and all of it on Q Rizz — influencer outreach pipeline, TikTok creator analysis, Superwall/revenue review. Good single-lever focus. Evening dissolved into 6h 45m of movies; MBTI Oracle got nothing.",
         "coach_note": "4h 45m productive and all of it on Q Rizz — influencer outreach pipeline, TikTok creator analysis, Superwall/revenue review. Good single-lever focus. Evening dissolved into 6h 45m of movies; MBTI Oracle got nothing.",
         "first_last": "02:05 / 23:59",
-        "note": "",
-        "note_from_sun": ""
+        "note": "Spent a lot of time in the morning analyzing the marketing data. I realized that talking head videos actually drive a lot of downloads as well. Also created systems around influence or reach out.",
+        "note_from_sun": "Spent a lot of time in the morning analyzing the marketing data. I realized that talking head videos actually drive a lot of downloads as well. Also created systems around influence or reach out."
       }
     },
     {
@@ -9616,18 +9616,39 @@
           "webcam": "not present",
           "sensitive": true
         }
-      ]
+      ],
+      "dailySummary": {
+        "date": "2026-05-29",
+        "tracked_min": 1440,
+        "by_category": {
+          "Productivity": 225,
+          "Learning": 15,
+          "Health": 0,
+          "Errands": 195,
+          "Leisure": 75,
+          "Social": 0,
+          "AFK/Idle": 930,
+          "Sleep": 0
+        },
+        "top_activities": "YouTube watching (2h 45m) · MBTI Oracle product analysis (2h 0m) · OpenClaw work session (1h 30m)",
+        "takeaway": "3h 45m productive, almost all on MBTI Oracle — a real revenue audit that overturned the \"website is #1\" assumption and confirmed Q Rizz as the only app trending up. The 6h of \"AFK — PC left on\" likely reflects laptop work per your own caveat. Best MBTI focus day in weeks.",
+        "coach_note": "3h 45m productive, almost all on MBTI Oracle — a real revenue audit that overturned the \"website is #1\" assumption and confirmed Q Rizz as the only app trending up. The 6h of \"AFK — PC left on\" likely reflects laptop work per your own caveat. Best MBTI focus day in weeks.",
+        "first_last": "00:14 / 23:57",
+        "note": "Spent some time analyzing my time. Went out filming. Decently productive day.",
+        "note_from_sun": "Spent some time analyzing my time. Went out filming. Decently productive day."
+      }
     },
     {
       "date": "2026-05-30",
-      "tracked_min": 480,
+      "tracked_min": 600,
       "by_category": {
         "AFK/Idle": 15,
         "Communications": 15,
         "Leisure": 240,
         "Productivity": 120,
-        "Admin/Errands": 45,
-        "Learning": 45
+        "Admin/Errands": 60,
+        "Learning": 135,
+        "Other": 15
       },
       "by_project": {
         "N/A": 15,
@@ -9635,7 +9656,8 @@
         "Leisure": 240,
         "MBTI Oracle": 15,
         "SelfTrack": 45,
-        "Q Rizz": 150
+        "Q Rizz": 255,
+        "Other": 15
       },
       "blocks": [
         {
@@ -10111,6 +10133,113 @@
           ],
           "images": [
             "https://i.imgur.com/J2qYCWC.jpeg"
+          ],
+          "sensitive_count": 0,
+          "notes": "",
+          "webcam": "Sun visible, good posture",
+          "sensitive": false
+        },
+        {
+          "start": "16:56",
+          "end": "18:26",
+          "min": 90,
+          "category": "Learning",
+          "activity": "Researching dating/rizz content",
+          "project": "Q Rizz",
+          "screen_summary": "Rizz University (WingMan Plus) — 'POV: You Get Rejected' video, 322 members community page",
+          "captures": [
+            {
+              "start": "16:56",
+              "image": "https://i.imgur.com/onaJkpe.jpeg",
+              "summary": "Rizz University (WingMan Plus) — 'POV: You Get Rejected' video, 322 members community page",
+              "sensitive": false
+            },
+            {
+              "start": "17:11",
+              "image": "https://i.imgur.com/HC88HOo.jpeg",
+              "summary": "Google Sheets — Project Go (Simple Pickup) video study spreadsheet with timestamps, technique breakdowns, AI conversation analysis",
+              "sensitive": false
+            },
+            {
+              "start": "17:26",
+              "image": "https://i.imgur.com/cIu73K4.jpeg",
+              "summary": "Google Sheets — same Project Go video study sheet continuing, technique notes and transcriptions",
+              "sensitive": false
+            },
+            {
+              "start": "17:41",
+              "image": "https://i.imgur.com/PzfV8LC.jpeg",
+              "summary": "Google Sheets — Project Go study sheet, same document with conversation techniques",
+              "sensitive": false
+            },
+            {
+              "start": "17:56",
+              "image": "https://i.imgur.com/2UtpNzq.jpeg",
+              "summary": "Rizz University (WingMan Plus) — 'POV: You Get Rejected' video still playing, same community page",
+              "sensitive": false
+            },
+            {
+              "start": "18:11",
+              "image": "https://i.imgur.com/47ZcgI9.jpeg",
+              "summary": "Rizz University (WingMan Plus) — different video playing with Hunter Lewis speaking, community intro content",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/onaJkpe.jpeg",
+            "https://i.imgur.com/HC88HOo.jpeg",
+            "https://i.imgur.com/cIu73K4.jpeg",
+            "https://i.imgur.com/PzfV8LC.jpeg",
+            "https://i.imgur.com/2UtpNzq.jpeg",
+            "https://i.imgur.com/47ZcgI9.jpeg"
+          ],
+          "sensitive_count": 0,
+          "notes": "",
+          "webcam": "no person visible, empty room",
+          "sensitive": false
+        },
+        {
+          "start": "18:26",
+          "end": "18:41",
+          "min": 15,
+          "category": "Admin/Errands",
+          "activity": "Simple Rizz community setup",
+          "project": "Q Rizz",
+          "screen_summary": "Simple Rizz (Skool community) — 'How I crack baddies as an average guy', 6 members, payment declined notice banner visible",
+          "captures": [
+            {
+              "start": "18:26",
+              "image": "https://i.imgur.com/zvbz35b.jpeg",
+              "summary": "Simple Rizz (Skool community) — 'How I crack baddies as an average guy', 6 members, payment declined notice banner visible",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/zvbz35b.jpeg"
+          ],
+          "sensitive_count": 0,
+          "notes": "",
+          "webcam": "Sun visible, good posture",
+          "sensitive": false
+        },
+        {
+          "start": "18:41",
+          "end": "18:56",
+          "min": 15,
+          "category": "Other",
+          "activity": "Canva design",
+          "project": "Other",
+          "screen_summary": "Canva — editing a design with a group photo (people at a party/bar), template options on left sidebar",
+          "captures": [
+            {
+              "start": "18:41",
+              "image": "https://i.imgur.com/gIkuH2N.jpeg",
+              "summary": "Canva — editing a design with a group photo (people at a party/bar), template options on left sidebar",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/gIkuH2N.jpeg"
           ],
           "sensitive_count": 0,
           "notes": "",
