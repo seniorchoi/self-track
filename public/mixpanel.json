@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T08:02:17.880Z",
+  "generatedAt": "2026-05-31T10:03:14.515Z",
   "source": "mixpanel",
   "status": "ok",
   "dailyVisitors": [
@@ -30,13 +30,13 @@
   ],
   "weeklyVisitors": {
     "visitors": 12,
-    "visits": 500
+    "visits": 492
   },
   "activeNow": 0,
   "topCities": [
     {
       "name": "Incheon",
-      "count": 429
+      "count": 421
     },
     {
       "name": "Gimpo-si",
@@ -62,7 +62,7 @@
   "topCountries": [
     {
       "name": "KR",
-      "count": 493
+      "count": 485
     },
     {
       "name": "IN",
