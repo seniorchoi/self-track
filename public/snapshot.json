@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-05-31T10:34:01.030043+09:00",
+  "generatedAt": "2026-05-31T11:01:59+09:00",
   "days": [
     {
       "date": "2026-05-20",
-      "tracked_min": 1065,
+      "tracked_min": 1067,
       "by_category": {
-        "Productivity": 315,
+        "Productivity": 317,
         "Leisure": 240,
         "AFK/Idle": 480,
         "Learning": 30
       },
       "by_project": {
-        "SelfTrack build": 285,
+        "SelfTrack build": 287,
         "leisure": 180,
         "MBTI Oracle": 15,
         "learning": 30,
@@ -42,8 +42,8 @@
             "https://i.imgur.com/3y7nVn1.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "16:15",
@@ -101,8 +101,8 @@
             "https://i.imgur.com/yx8tkDu.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "17:45",
@@ -125,8 +125,8 @@
             "https://i.imgur.com/mRZY38S.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "18:00",
@@ -191,8 +191,8 @@
             "https://i.imgur.com/FcFb9TO.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "19:45",
@@ -215,8 +215,8 @@
             "https://i.imgur.com/VhlG1pl.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "20:00",
@@ -239,8 +239,8 @@
             "https://i.imgur.com/qBPiOWm.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "20:15",
@@ -263,8 +263,8 @@
             "https://i.imgur.com/91y0skV.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "20:30",
@@ -294,8 +294,8 @@
             "https://i.imgur.com/8qe9W5O.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "21:00",
@@ -318,8 +318,8 @@
             "https://i.imgur.com/dIrNKBx.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "21:15",
@@ -342,8 +342,8 @@
             "https://i.imgur.com/cNqycZj.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "21:30",
@@ -366,8 +366,8 @@
             "https://i.imgur.com/4L1dJ8Y.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "21:46",
@@ -397,8 +397,8 @@
             "https://i.imgur.com/JrMjcKz.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "22:16",
@@ -421,8 +421,8 @@
             "https://i.imgur.com/Yy8ptNt.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "22:31",
@@ -445,8 +445,8 @@
             "https://i.imgur.com/L0cO2Zf.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "22:46",
@@ -469,8 +469,8 @@
             "https://i.imgur.com/N62aZLu.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "23:01",
@@ -493,13 +493,13 @@
             "https://i.imgur.com/yaqSrz2.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "23:16",
           "end": "00:18",
-          "min": 60,
+          "min": 62,
           "category": "Productivity",
           "activity": "working on SelfTrack",
           "project": "SelfTrack build",
@@ -538,8 +538,8 @@
             "https://i.imgur.com/qnBPRpG.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "00:18",
@@ -562,8 +562,8 @@
             "https://i.imgur.com/lRa7YAv.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "00:33",
@@ -586,8 +586,8 @@
             "https://i.imgur.com/TsgwMjc.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "00:48",
@@ -610,8 +610,8 @@
             "https://i.imgur.com/f3FINHj.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "01:03",
@@ -634,8 +634,8 @@
             "https://i.imgur.com/cPKj7F4.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "01:18",
@@ -686,8 +686,8 @@
             "https://i.imgur.com/AorhyLP.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "02:33",
@@ -876,32 +876,33 @@
           ],
           "images": [],
           "sensitive_count": 29,
-          "notes": "",
-          "sensitive": true
+          "sensitive": true,
+          "notes": ""
         }
       ],
       "dailySummary": {
+        "date": "2026-05-20",
         "tracked_min": "480",
         "productivity_min": "255",
         "exercise_min": "0",
-        "errand_min": "0",
+        "social_min": "0",
         "leisure_min": "150",
-        "afk_min": "30",
-        "meal_min": "0",
+        "errand_min": "30",
+        "health_min": "0",
         "sleep_min": "45",
         "other_min": "0",
-        "highlights": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
-        "coach_notes": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
-        "first_last_capture": "15:58 / 00:03",
-        "note_from_sun": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
+        "top_blocks": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
+        "insight": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
+        "window": "15:58 / 00:03",
+        "note": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
       }
     },
     {
       "date": "2026-05-21",
-      "tracked_min": 1080,
+      "tracked_min": 1081,
       "by_category": {
         "Admin/Errands": 15,
-        "AFK/Idle": 975,
+        "AFK/Idle": 976,
         "Learning": 45,
         "Leisure": 30,
         "Productivity": 15
@@ -913,7 +914,7 @@
         "Leisure": 30,
         "AI Research": 30,
         "SelfTrack": 15,
-        "Haircut": 885
+        "Haircut": 886
       },
       "blocks": [
         {
@@ -937,8 +938,8 @@
             "https://i.imgur.com/1py712S.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "10:21",
@@ -996,8 +997,8 @@
             "https://i.imgur.com/xfarIWq.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "11:51",
@@ -1020,8 +1021,8 @@
             "https://i.imgur.com/wXIUyjp.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "12:07",
@@ -1051,8 +1052,8 @@
             "https://i.imgur.com/TWVp4xs.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "12:37",
@@ -1075,8 +1076,8 @@
             "https://i.imgur.com/7ypa5uD.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "12:52",
@@ -1099,8 +1100,8 @@
             "https://i.imgur.com/R0ig3aH.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "13:07",
@@ -1123,8 +1124,8 @@
             "https://i.imgur.com/AgzwyGi.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "13:22",
@@ -1147,13 +1148,13 @@
             "https://i.imgur.com/A98Y1Bc.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "13:37",
           "end": "04:08",
-          "min": 870,
+          "min": 871,
           "category": "AFK/Idle",
           "activity": "haircut errand",
           "project": "Haircut",
@@ -1570,24 +1571,25 @@
             "https://i.imgur.com/8BhPNq6.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         }
       ],
       "dailySummary": {
+        "date": "2026-05-21",
         "tracked_min": "1440",
         "productivity_min": "60",
         "exercise_min": "0",
-        "errand_min": "0",
+        "social_min": "0",
         "leisure_min": "150",
-        "afk_min": "45",
-        "meal_min": "15",
+        "errand_min": "45",
+        "health_min": "15",
         "sleep_min": "1170",
         "other_min": "0",
-        "highlights": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
-        "coach_notes": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
-        "first_last_capture": "00:03 / 23:53",
-        "note_from_sun": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
+        "top_blocks": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
+        "insight": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
+        "window": "00:03 / 23:53",
+        "note": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
       }
     },
     {
@@ -1697,8 +1699,8 @@
             "https://i.imgur.com/Bo8nBoe.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "16:01",
@@ -1721,8 +1723,8 @@
             "https://i.imgur.com/OzhtDKo.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "16:16",
@@ -1752,8 +1754,8 @@
             "https://i.imgur.com/CQdgtrX.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "16:46",
@@ -1783,8 +1785,8 @@
             "https://i.imgur.com/PfKkMxc.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "17:16",
@@ -1807,8 +1809,8 @@
             "https://i.imgur.com/JyfDBBd.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "17:31",
@@ -1866,8 +1868,8 @@
             "https://i.imgur.com/v5QuByO.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "19:01",
@@ -1890,8 +1892,8 @@
             "https://i.imgur.com/Lccb9u7.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "19:16",
@@ -1914,8 +1916,8 @@
             "https://i.imgur.com/9W2RTcy.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "20:36",
@@ -1938,8 +1940,8 @@
             "https://i.imgur.com/YEALPcf.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "20:51",
@@ -1962,8 +1964,8 @@
             "https://i.imgur.com/Ux9oDig.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "21:06",
@@ -1986,8 +1988,8 @@
             "https://i.imgur.com/wvuLmAg.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "21:21",
@@ -2010,8 +2012,8 @@
             "https://i.imgur.com/woXRI5r.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "21:36",
@@ -2034,8 +2036,8 @@
             "https://i.imgur.com/seKA3UK.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "21:51",
@@ -2086,8 +2088,8 @@
             "https://i.imgur.com/8dQW8i4.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "23:06",
@@ -2124,8 +2126,8 @@
             "https://i.imgur.com/dMU3eLu.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "23:51",
@@ -2148,8 +2150,8 @@
             "https://i.imgur.com/S11aW9G.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "00:06",
@@ -2172,8 +2174,8 @@
             "https://i.imgur.com/Ij6AbRF.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "00:21",
@@ -2470,31 +2472,32 @@
           ],
           "images": [],
           "sensitive_count": 47,
-          "notes": "",
-          "sensitive": true
+          "sensitive": true,
+          "notes": ""
         }
       ],
       "dailySummary": {
+        "date": "2026-05-22",
         "tracked_min": "810",
         "productivity_min": "30",
         "exercise_min": "0",
-        "errand_min": "0",
+        "social_min": "0",
         "leisure_min": "375",
-        "afk_min": "0",
-        "meal_min": "0",
+        "errand_min": "0",
+        "health_min": "0",
         "sleep_min": "405",
         "other_min": "0",
-        "highlights": "haircut errand (6h 30m) · playing Total War: Warhammer (1h 30m) · watching movie/TV (1h 15m)",
-        "coach_notes": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
-        "first_last_capture": "00:08 / 23:51",
-        "note_from_sun": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
+        "top_blocks": "haircut errand (6h 30m) · playing Total War: Warhammer (1h 30m) · watching movie/TV (1h 15m)",
+        "insight": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
+        "window": "00:08 / 23:51",
+        "note": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
       }
     },
     {
       "date": "2026-05-23",
-      "tracked_min": 1485,
+      "tracked_min": 1486,
       "by_category": {
-        "Leisure": 285,
+        "Leisure": 286,
         "Productivity": 105,
         "Learning": 210,
         "AFK/Idle": 885
@@ -2506,7 +2509,7 @@
         "Learning/Reading": 150,
         "Personal/Break": 120,
         "Gaming/Warhammer": 30,
-        "Leisure": 165,
+        "Leisure": 166,
         "Leisure/History": 90,
         "Sleep": 750
       },
@@ -2532,8 +2535,8 @@
             "https://i.imgur.com/uiyWrLF.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "12:30",
@@ -2556,8 +2559,8 @@
             "https://i.imgur.com/mmWU351.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "12:45",
@@ -2580,8 +2583,8 @@
             "https://i.imgur.com/ifgsodV.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "13:00",
@@ -2604,8 +2607,8 @@
             "https://i.imgur.com/ZlCu8nX.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "13:15",
@@ -2628,8 +2631,8 @@
             "https://i.imgur.com/eQ8GNy6.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "13:30",
@@ -2652,8 +2655,8 @@
             "https://i.imgur.com/w24etOX.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "13:45",
@@ -2676,8 +2679,8 @@
             "https://i.imgur.com/XbaNQvo.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "14:00",
@@ -2700,8 +2703,8 @@
             "https://i.imgur.com/AUCv08M.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "14:15",
@@ -2731,8 +2734,8 @@
             "https://i.imgur.com/VbjznAG.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "14:45",
@@ -2755,8 +2758,8 @@
             "https://i.imgur.com/EGI9l9O.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "15:00",
@@ -2786,8 +2789,8 @@
             "https://i.imgur.com/s4fObCw.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "15:30",
@@ -2817,8 +2820,8 @@
             "https://i.imgur.com/0kFHb5q.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "16:00",
@@ -2841,8 +2844,8 @@
             "https://i.imgur.com/P37Yp7j.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "16:15",
@@ -2886,8 +2889,8 @@
             "https://i.imgur.com/X7ozTae.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "17:15",
@@ -2938,8 +2941,8 @@
             "https://i.imgur.com/FPAU1bl.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "18:30",
@@ -2969,8 +2972,8 @@
             "https://i.imgur.com/QvRdYWE.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "19:00",
@@ -3000,8 +3003,8 @@
             "https://i.imgur.com/KUZhKSK.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "19:30",
@@ -3024,8 +3027,8 @@
             "https://i.imgur.com/RVaSY6z.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "19:45",
@@ -3048,8 +3051,8 @@
             "https://i.imgur.com/gXp6qc9.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "20:00",
@@ -3072,13 +3075,13 @@
             "https://i.imgur.com/Hq7PDqa.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "20:15",
           "end": "22:46",
-          "min": 150,
+          "min": 151,
           "category": "Leisure",
           "activity": "Watching movie",
           "project": "Leisure",
@@ -3159,8 +3162,8 @@
             "https://i.imgur.com/Fyi4S7I.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "22:46",
@@ -3183,8 +3186,8 @@
             "https://i.imgur.com/zXf5FYn.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "23:01",
@@ -3207,8 +3210,8 @@
             "https://i.imgur.com/7J07cru.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "23:16",
@@ -3245,8 +3248,8 @@
             "https://i.imgur.com/nRO6iPG.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "00:01",
@@ -3269,8 +3272,8 @@
             "https://i.imgur.com/JgaRc3b.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "00:16",
@@ -3293,8 +3296,8 @@
             "https://i.imgur.com/QifZHTT.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "00:31",
@@ -3609,36 +3612,37 @@
           ],
           "images": [],
           "sensitive_count": 50,
-          "notes": "",
-          "sensitive": true
+          "sensitive": true,
+          "notes": ""
         }
       ],
       "dailySummary": {
+        "date": "2026-05-23",
         "tracked_min": "1425",
         "productivity_min": "105",
         "exercise_min": "0",
-        "errand_min": "0",
+        "social_min": "0",
         "leisure_min": "270",
-        "afk_min": "210",
-        "meal_min": "0",
+        "errand_min": "210",
+        "health_min": "0",
         "sleep_min": "840",
         "other_min": "0",
-        "highlights": "Sleeping (11h 45m) · Reading essay on Claude.ai (2h 30m) · Watching movie (2h 30m)",
-        "coach_notes": "Only 1h 45m productive (Simple Rizz content drafting + analytics, a little agent config); the rest was sleep (11h 45m), a movie, and a long Claude essay read. Simple Rizz got a small real push; MBTI Oracle / Q Rizz got nothing.",
-        "first_last_capture": "00:06 / 23:46",
-        "note_from_sun": "I spent time in the morning trying to figure out the correlation between the TikTok views and the Q Rizz app download. And then I spent a lot of the day reading books on my laptop, which is not recorded here, and then in the evening I watched the lame time travel movie and then also my favorite Napoleon documentary."
+        "top_blocks": "Sleeping (11h 45m) · Reading essay on Claude.ai (2h 30m) · Watching movie (2h 30m)",
+        "insight": "Only 1h 45m productive (Simple Rizz content drafting + analytics, a little agent config); the rest was sleep (11h 45m), a movie, and a long Claude essay read. Simple Rizz got a small real push; MBTI Oracle / Q Rizz got nothing.",
+        "window": "00:06 / 23:46",
+        "note": "I spent time in the morning trying to figure out the correlation between the TikTok views and the Q Rizz app download. And then I spent a lot of the day reading books on my laptop, which is not recorded here, and then in the evening I watched the lame time travel movie and then also my favorite Napoleon documentary."
       }
     },
     {
       "date": "2026-05-24",
-      "tracked_min": 1350,
+      "tracked_min": 1351,
       "by_category": {
         "Admin/Errands": 15,
         "Leisure": 240,
         "Communications": 15,
         "Learning": 195,
         "Productivity": 45,
-        "AFK/Idle": 840
+        "AFK/Idle": 841
       },
       "by_project": {
         "Admin": 15,
@@ -3673,8 +3677,8 @@
             "https://i.imgur.com/oGlo89F.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "13:23",
@@ -3697,8 +3701,8 @@
             "https://i.imgur.com/5qufrq0.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "13:38",
@@ -3719,8 +3723,8 @@
           ],
           "images": [],
           "sensitive_count": 1,
-          "notes": "",
-          "sensitive": true
+          "sensitive": true,
+          "notes": ""
         },
         {
           "start": "13:53",
@@ -3743,8 +3747,8 @@
             "https://i.imgur.com/ozu78sj.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "14:08",
@@ -3767,8 +3771,8 @@
             "https://i.imgur.com/qVBR80b.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "14:23",
@@ -3791,8 +3795,8 @@
             "https://i.imgur.com/PCFuBid.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "14:38",
@@ -3815,8 +3819,8 @@
             "https://i.imgur.com/ZDtouun.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "14:53",
@@ -3839,8 +3843,8 @@
             "https://i.imgur.com/faD0Kbo.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "15:08",
@@ -3863,8 +3867,8 @@
             "https://i.imgur.com/yPKHK7c.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "15:23",
@@ -3887,8 +3891,8 @@
             "https://i.imgur.com/p3kRBTw.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "15:38",
@@ -3911,13 +3915,13 @@
             "https://i.imgur.com/82mhM9H.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "15:53",
           "end": "17:39",
-          "min": 105,
+          "min": 106,
           "category": "AFK/Idle",
           "activity": "Away from desk",
           "project": "",
@@ -3977,8 +3981,8 @@
             "https://i.imgur.com/uUcELwC.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "17:39",
@@ -4001,8 +4005,8 @@
             "https://i.imgur.com/TPbSklE.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "17:54",
@@ -4025,8 +4029,8 @@
             "https://i.imgur.com/ktShCDo.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "18:09",
@@ -4049,8 +4053,8 @@
             "https://i.imgur.com/XIa4kbu.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "18:24",
@@ -4073,8 +4077,8 @@
             "https://i.imgur.com/dShn7QQ.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "18:39",
@@ -4097,8 +4101,8 @@
             "https://i.imgur.com/h7EwlI3.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "18:54",
@@ -4121,8 +4125,8 @@
             "https://i.imgur.com/IbYO6rt.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "19:09",
@@ -4145,8 +4149,8 @@
             "https://i.imgur.com/tzDsvCR.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "19:24",
@@ -4169,8 +4173,8 @@
             "https://i.imgur.com/D3Dx2sd.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "19:39",
@@ -4193,8 +4197,8 @@
             "https://i.imgur.com/XgGfruq.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "19:54",
@@ -4217,8 +4221,8 @@
             "https://i.imgur.com/fDv7v1V.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "20:09",
@@ -4241,8 +4245,8 @@
             "https://i.imgur.com/fmI1uVp.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "20:24",
@@ -4335,8 +4339,8 @@
             "https://i.imgur.com/BH8WUL9.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "23:09",
@@ -4366,8 +4370,8 @@
             "https://i.imgur.com/Q9SKzla.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "23:39",
@@ -4670,31 +4674,32 @@
           ],
           "images": [],
           "sensitive_count": 48,
-          "notes": "",
-          "sensitive": true
+          "sensitive": true,
+          "notes": ""
         }
       ],
       "dailySummary": {
+        "date": "2026-05-24",
         "tracked_min": "1440",
         "productivity_min": "45",
         "exercise_min": "15",
-        "errand_min": "0",
+        "social_min": "0",
         "leisure_min": "270",
-        "afk_min": "195",
-        "meal_min": "15",
+        "errand_min": "195",
+        "health_min": "15",
         "sleep_min": "900",
         "other_min": "0",
-        "highlights": "sleeping (13h 0m) · Watching F1 movie (3h 15m) · Away from desk (1h 45m)",
-        "coach_notes": "Lowest-output day of the stretch: 45m productive, $0, nothing on any revenue product. 3h+ of posture/walking/fascia research and an F1 movie filled the waking hours — a rest day, not a build day.",
-        "first_last_capture": "00:01 / 23:54",
-        "note_from_sun": "Spent the whole day kind of obsessed over the proper walking posture."
+        "top_blocks": "sleeping (13h 0m) · Watching F1 movie (3h 15m) · Away from desk (1h 45m)",
+        "insight": "Lowest-output day of the stretch: 45m productive, $0, nothing on any revenue product. 3h+ of posture/walking/fascia research and an F1 movie filled the waking hours — a rest day, not a build day.",
+        "window": "00:01 / 23:54",
+        "note": "Spent the whole day kind of obsessed over the proper walking posture."
       }
     },
     {
       "date": "2026-05-25",
-      "tracked_min": 360,
+      "tracked_min": 361,
       "by_category": {
-        "Leisure": 195,
+        "Leisure": 196,
         "Learning": 60,
         "Productivity": 105
       },
@@ -4705,7 +4710,7 @@
         "OpenClaw infra": 45,
         "Q Rizz": 15,
         "Simple Rizz": 15,
-        "Personal": 180
+        "Personal": 181
       },
       "blocks": [
         {
@@ -4729,8 +4734,8 @@
             "https://i.imgur.com/RzjfeYJ.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "12:05",
@@ -4774,8 +4779,8 @@
             "https://i.imgur.com/1zyFNR1.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "13:05",
@@ -4798,8 +4803,8 @@
             "https://i.imgur.com/JIgw2eF.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "13:20",
@@ -4822,8 +4827,8 @@
             "https://i.imgur.com/P4W2jbZ.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "13:35",
@@ -4846,8 +4851,8 @@
             "https://i.imgur.com/upvm5kb.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "13:50",
@@ -4870,8 +4875,8 @@
             "https://i.imgur.com/xEr9nil.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "14:05",
@@ -4894,8 +4899,8 @@
             "https://i.imgur.com/zxirUlD.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "14:20",
@@ -4918,8 +4923,8 @@
             "https://i.imgur.com/MvvEoJb.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "14:35",
@@ -4942,8 +4947,8 @@
             "https://i.imgur.com/imA1tAP.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "14:50",
@@ -4966,13 +4971,13 @@
             "https://i.imgur.com/5fLYGnn.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "15:05",
           "end": "17:51",
-          "min": 165,
+          "min": 166,
           "category": "Leisure",
           "activity": "Watching movie/show",
           "project": "Personal",
@@ -5060,24 +5065,25 @@
             "https://i.imgur.com/zyYpp4g.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         }
       ],
       "dailySummary": {
+        "date": "2026-05-25",
         "tracked_min": "1050",
         "productivity_min": "105",
         "exercise_min": "0",
-        "errand_min": "0",
+        "social_min": "0",
         "leisure_min": "195",
-        "afk_min": "60",
-        "meal_min": "0",
+        "errand_min": "60",
+        "health_min": "0",
         "sleep_min": "690",
         "other_min": "0",
-        "highlights": "sleeping (11h 30m) · Watching movie/show (2h 45m) · Reading Hermes Agent setup notes (1h 0m)",
-        "coach_notes": "Short tracked day — PC went dark after 17:51. 1h 45m productive but spread thin across Hermes Agent setup, Q/Simple Rizz review, Sensor Tower research and skill migration. No single lever got real depth.",
-        "first_last_capture": "00:09 / 17:51",
-        "note_from_sun": "I messed around with the Hermes AI agent and then spent the afternoon filming content for Q Rizz app."
+        "top_blocks": "sleeping (11h 30m) · Watching movie/show (2h 45m) · Reading Hermes Agent setup notes (1h 0m)",
+        "insight": "Short tracked day — PC went dark after 17:51. 1h 45m productive but spread thin across Hermes Agent setup, Q/Simple Rizz review, Sensor Tower research and skill migration. No single lever got real depth.",
+        "window": "00:09 / 17:51",
+        "note": "I messed around with the Hermes AI agent and then spent the afternoon filming content for Q Rizz app."
       }
     },
     {
@@ -5125,8 +5131,8 @@
             "https://i.imgur.com/0L165TM.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "11:28",
@@ -5147,8 +5153,8 @@
           ],
           "images": [],
           "sensitive_count": 1,
-          "notes": "",
-          "sensitive": true
+          "sensitive": true,
+          "notes": ""
         },
         {
           "start": "11:43",
@@ -5185,8 +5191,8 @@
             "https://i.imgur.com/LVsxk0i.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "12:28",
@@ -5244,8 +5250,8 @@
             "https://i.imgur.com/j99gTVs.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "13:58",
@@ -5268,8 +5274,8 @@
             "https://i.imgur.com/n7qVcnf.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "14:13",
@@ -5290,8 +5296,8 @@
           ],
           "images": [],
           "sensitive_count": 1,
-          "notes": "",
-          "sensitive": true
+          "sensitive": true,
+          "notes": ""
         },
         {
           "start": "14:28",
@@ -5314,8 +5320,8 @@
             "https://i.imgur.com/asDRPWU.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "14:43",
@@ -5338,8 +5344,8 @@
             "https://i.imgur.com/KFJDunL.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "14:58",
@@ -5362,8 +5368,8 @@
             "https://i.imgur.com/VWRrR81.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "15:13",
@@ -5386,8 +5392,8 @@
             "https://i.imgur.com/rQEAxwY.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "15:28",
@@ -5431,8 +5437,8 @@
             "https://i.imgur.com/3pl32Cw.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "16:28",
@@ -5455,8 +5461,8 @@
             "https://i.imgur.com/JLRe5z9.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "16:43",
@@ -5479,8 +5485,8 @@
             "https://i.imgur.com/y0ifvfB.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "16:58",
@@ -5503,8 +5509,8 @@
             "https://i.imgur.com/6UXcwUS.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "17:13",
@@ -5527,8 +5533,8 @@
             "https://i.imgur.com/wpcxSyJ.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "17:28",
@@ -5551,8 +5557,8 @@
             "https://i.imgur.com/xXr3ILM.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "17:43",
@@ -5575,8 +5581,8 @@
             "https://i.imgur.com/pvEE7WB.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "17:58",
@@ -5606,8 +5612,8 @@
             "https://i.imgur.com/2dwy60r.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "18:28",
@@ -5630,8 +5636,8 @@
             "https://i.imgur.com/DRkqjAG.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "18:43",
@@ -5654,8 +5660,8 @@
             "https://i.imgur.com/S9z3y1d.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "18:58",
@@ -5678,8 +5684,8 @@
             "https://i.imgur.com/N0Y4GxU.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "19:13",
@@ -5702,8 +5708,8 @@
             "https://i.imgur.com/Hh8NZgy.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "19:28",
@@ -5726,8 +5732,8 @@
             "https://i.imgur.com/IjIrcaR.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "19:43",
@@ -5750,8 +5756,8 @@
             "https://i.imgur.com/cb0tYrU.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "19:59",
@@ -5774,8 +5780,8 @@
             "https://i.imgur.com/lIggDli.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "20:14",
@@ -5798,8 +5804,8 @@
             "https://i.imgur.com/MjdVTdf.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "20:29",
@@ -5822,8 +5828,8 @@
             "https://i.imgur.com/UZllAe7.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "20:44",
@@ -5846,8 +5852,8 @@
             "https://i.imgur.com/RbSO65o.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "20:59",
@@ -5870,8 +5876,8 @@
             "https://i.imgur.com/RuWRPKU.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "21:14",
@@ -5892,8 +5898,8 @@
           ],
           "images": [],
           "sensitive_count": 1,
-          "notes": "",
-          "sensitive": true
+          "sensitive": true,
+          "notes": ""
         },
         {
           "start": "21:29",
@@ -5916,8 +5922,8 @@
             "https://i.imgur.com/FbxqOBs.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "21:44",
@@ -5940,8 +5946,8 @@
             "https://i.imgur.com/kOPX2vP.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "21:59",
@@ -5964,8 +5970,8 @@
             "https://i.imgur.com/jNs4n7D.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "22:14",
@@ -5988,8 +5994,8 @@
             "https://i.imgur.com/WQ2N7mx.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "22:29",
@@ -6012,8 +6018,8 @@
             "https://i.imgur.com/h2FwlWm.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "22:44",
@@ -6036,8 +6042,8 @@
             "https://i.imgur.com/Vk7HG2Y.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "22:59",
@@ -6060,8 +6066,8 @@
             "https://i.imgur.com/kHnCMNR.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "23:14",
@@ -6084,8 +6090,8 @@
             "https://i.imgur.com/TawI1Mg.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "23:29",
@@ -6108,8 +6114,8 @@
             "https://i.imgur.com/I8Y8Oo1.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "23:44",
@@ -6132,8 +6138,8 @@
             "https://i.imgur.com/s5GBdnI.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "23:59",
@@ -6156,8 +6162,8 @@
             "https://i.imgur.com/SbaiRHt.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "00:14",
@@ -6194,8 +6200,8 @@
             "https://i.imgur.com/tATPFOM.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "00:59",
@@ -6468,33 +6474,34 @@
           ],
           "images": [],
           "sensitive_count": 43,
-          "notes": "",
-          "sensitive": true
+          "sensitive": true,
+          "notes": ""
         }
       ],
       "dailySummary": {
+        "date": "2026-05-26",
         "tracked_min": "780",
         "productivity_min": "330",
         "exercise_min": "60",
-        "errand_min": "0",
+        "social_min": "0",
         "leisure_min": "195",
-        "afk_min": "30",
-        "meal_min": "15",
+        "errand_min": "30",
+        "health_min": "15",
         "sleep_min": "120",
         "other_min": "30",
-        "highlights": "Away from desk (1h 45m) · YouTube — AI commentary (1h 0m) · Mindcraft — Andy bot in Minecraft (45m)",
-        "coach_notes": "Strongest build day of the gap: 5h 30m productive — but it went to X Derby (Supabase, Clout Coins, MRR leaderboard) and Mindcraft setup, both side projects. The core revenue products (MBTI Oracle, Q Rizz) got only ~30m combined.",
-        "first_last_capture": "11:13 / 23:59",
-        "note_from_sun": "More time messing around with AI agents and I created 2 small side projects out of whim."
+        "top_blocks": "Away from desk (1h 45m) · YouTube — AI commentary (1h 0m) · Mindcraft — Andy bot in Minecraft (45m)",
+        "insight": "Strongest build day of the gap: 5h 30m productive — but it went to X Derby (Supabase, Clout Coins, MRR leaderboard) and Mindcraft setup, both side projects. The core revenue products (MBTI Oracle, Q Rizz) got only ~30m combined.",
+        "window": "11:13 / 23:59",
+        "note": "More time messing around with AI agents and I created 2 small side projects out of whim."
       }
     },
     {
       "date": "2026-05-27",
-      "tracked_min": 1110,
+      "tracked_min": 1111,
       "by_category": {
         "AFK/Idle": 690,
         "Learning": 90,
-        "Leisure": 240,
+        "Leisure": 241,
         "Productivity": 60,
         "Admin/Errands": 30
       },
@@ -6505,7 +6512,7 @@
         "Q Rizz": 60,
         "SelfTrack": 15,
         "Gaming": 15,
-        "Movie": 150,
+        "Movie": 151,
         "Admin": 15,
         "Personal/Leisure": 495
       },
@@ -6531,8 +6538,8 @@
             "https://i.imgur.com/d8iPIH9.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "12:11",
@@ -6569,8 +6576,8 @@
             "https://i.imgur.com/8mKLG2A.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "12:56",
@@ -6642,8 +6649,8 @@
             "https://i.imgur.com/pZOS1xJ.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "14:56",
@@ -6708,8 +6715,8 @@
             "https://i.imgur.com/cmecnsZ.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "16:41",
@@ -6732,8 +6739,8 @@
             "https://i.imgur.com/JJyXKv4.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "16:56",
@@ -6763,8 +6770,8 @@
             "https://i.imgur.com/yRNJFQb.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "17:26",
@@ -6801,8 +6808,8 @@
             "https://i.imgur.com/HR3cbid.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "18:11",
@@ -6832,8 +6839,8 @@
             "https://i.imgur.com/4M0yXBp.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "18:41",
@@ -6856,8 +6863,8 @@
             "https://i.imgur.com/mD7QbZk.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "18:56",
@@ -6880,8 +6887,8 @@
             "https://i.imgur.com/9YJUcZd.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "19:11",
@@ -6904,13 +6911,13 @@
             "https://i.imgur.com/rx3ER1R.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "19:26",
           "end": "21:57",
-          "min": 150,
+          "min": 151,
           "category": "Leisure",
           "activity": "Movie - The Bourne Supremacy",
           "project": "Movie",
@@ -6991,8 +6998,8 @@
             "https://i.imgur.com/FC22zBE.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "02:05",
@@ -7015,8 +7022,8 @@
             "https://i.imgur.com/BTka4hR.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "02:21",
@@ -7046,8 +7053,8 @@
             "https://i.imgur.com/nuhSqq5.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "02:51",
@@ -7070,8 +7077,8 @@
             "https://i.imgur.com/YtWED23.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "03:06",
@@ -7266,38 +7273,39 @@
           ],
           "images": [],
           "sensitive_count": 30,
-          "notes": "",
-          "sensitive": true
+          "sensitive": true,
+          "notes": ""
         }
       ],
       "dailySummary": {
+        "date": "2026-05-27",
         "tracked_min": "1290",
         "productivity_min": "60",
         "exercise_min": "0",
-        "errand_min": "0",
+        "social_min": "0",
         "leisure_min": "240",
-        "afk_min": "90",
-        "meal_min": "15",
+        "errand_min": "90",
+        "health_min": "15",
         "sleep_min": "885",
         "other_min": "0",
-        "highlights": "sleeping (10h 45m) · YouTube paused - idle (3h 45m) · Movie - The Bourne Supremacy (2h 30m)",
-        "coach_notes": "• 1h Q Rizz analytics (good signal pull) but no content shipped — marketing 80% means output, not dashboards\n• MBTI Oracle: 0 min all day — traffic is the bottleneck and it got nothing; one Reddit post fixes today's gap\n• 4h Leisure from 19:00 ate the sharp evening hours — carve 30m for MBTI Oracle before the movie next time",
-        "first_last_capture": "00:14 / 21:57",
-        "note_from_sun": "lot more focused on marketing these days. 80/20 rule.\nFocusing on the marketing will produce 80% of result."
+        "top_blocks": "sleeping (10h 45m) · YouTube paused - idle (3h 45m) · Movie - The Bourne Supremacy (2h 30m)",
+        "insight": "• 1h Q Rizz analytics (good signal pull) but no content shipped — marketing 80% means output, not dashboards\n• MBTI Oracle: 0 min all day — traffic is the bottleneck and it got nothing; one Reddit post fixes today's gap\n• 4h Leisure from 19:00 ate the sharp evening hours — carve 30m for MBTI Oracle before the movie next time",
+        "window": "00:14 / 21:57",
+        "note": "lot more focused on marketing these days. 80/20 rule.\nFocusing on the marketing will produce 80% of result."
       }
     },
     {
       "date": "2026-05-28",
-      "tracked_min": 1350,
+      "tracked_min": 1351,
       "by_category": {
-        "Leisure": 360,
+        "Leisure": 361,
         "Productivity": 285,
         "Learning": 60,
         "Communications": 15,
         "AFK/Idle": 630
       },
       "by_project": {
-        "Personal/Leisure": 270,
+        "Personal/Leisure": 271,
         "Q Rizz": 255,
         "Learning/Personal": 60,
         "SelfTrack": 45,
@@ -7327,8 +7335,8 @@
             "https://i.imgur.com/3ZO6BIM.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "10:43",
@@ -7351,8 +7359,8 @@
             "https://i.imgur.com/Cf87F70.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "10:58",
@@ -7375,8 +7383,8 @@
             "https://i.imgur.com/SQbjB09.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "11:13",
@@ -7399,8 +7407,8 @@
             "https://i.imgur.com/XOyl1Bd.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "11:28",
@@ -7423,8 +7431,8 @@
             "https://i.imgur.com/dLnjPJf.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "11:43",
@@ -7447,8 +7455,8 @@
             "https://i.imgur.com/EBOX3yI.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "11:58",
@@ -7471,8 +7479,8 @@
             "https://i.imgur.com/llYCwBP.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "12:13",
@@ -7495,8 +7503,8 @@
             "https://i.imgur.com/Y1m9HpK.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "12:28",
@@ -7519,8 +7527,8 @@
             "https://i.imgur.com/LWZy2uw.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "12:43",
@@ -7550,8 +7558,8 @@
             "https://i.imgur.com/68VAicT.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "13:13",
@@ -7581,8 +7589,8 @@
             "https://i.imgur.com/uOok7vZ.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "13:43",
@@ -7605,8 +7613,8 @@
             "https://i.imgur.com/oh4UBFT.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "13:58",
@@ -7629,8 +7637,8 @@
             "https://i.imgur.com/y7vZaw8.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "14:13",
@@ -7660,8 +7668,8 @@
             "https://i.imgur.com/hJsQDD4.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "14:43",
@@ -7684,8 +7692,8 @@
             "https://i.imgur.com/FeTyKpU.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "14:58",
@@ -7722,8 +7730,8 @@
             "https://i.imgur.com/20OU4zh.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "15:43",
@@ -7746,8 +7754,8 @@
             "https://i.imgur.com/tbv7ojC.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "15:58",
@@ -7770,8 +7778,8 @@
             "https://i.imgur.com/YEfnjRX.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "16:13",
@@ -7794,8 +7802,8 @@
             "https://i.imgur.com/o2NFIbD.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "16:28",
@@ -7818,8 +7826,8 @@
             "https://i.imgur.com/dYg3VYI.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "16:43",
@@ -7849,13 +7857,13 @@
             "https://i.imgur.com/svEKAL4.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "17:13",
           "end": "17:44",
-          "min": 30,
+          "min": 31,
           "category": "Leisure",
           "activity": "Watching YouTube - Napoleon movie critique video",
           "project": "Personal/Leisure",
@@ -7880,8 +7888,8 @@
             "https://i.imgur.com/5XqOA9L.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "17:44",
@@ -7904,8 +7912,8 @@
             "https://i.imgur.com/MkVTjVq.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "17:59",
@@ -7935,8 +7943,8 @@
             "https://i.imgur.com/tmTwGBa.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "18:29",
@@ -7959,8 +7967,8 @@
             "https://i.imgur.com/eI7Y859.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "18:44",
@@ -7983,8 +7991,8 @@
             "https://i.imgur.com/NDkGf9M.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "18:59",
@@ -8007,8 +8015,8 @@
             "https://i.imgur.com/BSh3ZpK.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "19:14",
@@ -8031,8 +8039,8 @@
             "https://i.imgur.com/4jwFl1O.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "19:29",
@@ -8090,8 +8098,8 @@
             "https://i.imgur.com/FdXAvFE.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "20:59",
@@ -8142,8 +8150,8 @@
             "https://i.imgur.com/JpMU9zU.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "22:14",
@@ -8166,8 +8174,8 @@
             "https://i.imgur.com/O917GDR.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "22:29",
@@ -8434,35 +8442,36 @@
           ],
           "images": [],
           "sensitive_count": 42,
-          "notes": "",
-          "sensitive": true
+          "sensitive": true,
+          "notes": ""
         }
       ],
       "dailySummary": {
+        "date": "2026-05-28",
         "tracked_min": "1335",
         "productivity_min": "285",
         "exercise_min": "15",
-        "errand_min": "0",
+        "social_min": "0",
         "leisure_min": "405",
-        "afk_min": "60",
-        "meal_min": "15",
+        "errand_min": "60",
+        "health_min": "15",
         "sleep_min": "555",
         "other_min": "0",
-        "highlights": "Sleeping (9h 15m) · Watching movie in VLC (1h 30m) · Q Rizz influencer outreach planning (1h 15m)",
-        "coach_notes": "4h 45m productive and all of it on Q Rizz — influencer outreach pipeline, TikTok creator analysis, Superwall/revenue review. Good single-lever focus. Evening dissolved into 6h 45m of movies; MBTI Oracle got nothing.",
-        "first_last_capture": "02:05 / 23:59",
-        "note_from_sun": "Spent a lot of time in the morning analyzing the marketing data. I realized that talking head videos actually drive a lot of downloads as well. Also created systems around influence or reach out."
+        "top_blocks": "Sleeping (9h 15m) · Watching movie in VLC (1h 30m) · Q Rizz influencer outreach planning (1h 15m)",
+        "insight": "4h 45m productive and all of it on Q Rizz — influencer outreach pipeline, TikTok creator analysis, Superwall/revenue review. Good single-lever focus. Evening dissolved into 6h 45m of movies; MBTI Oracle got nothing.",
+        "window": "02:05 / 23:59",
+        "note": "Spent a lot of time in the morning analyzing the marketing data. I realized that talking head videos actually drive a lot of downloads as well. Also created systems around influence or reach out."
       }
     },
     {
       "date": "2026-05-29",
-      "tracked_min": 1440,
+      "tracked_min": 1442,
       "by_category": {
-        "AFK/Idle": 930,
+        "AFK/Idle": 931,
         "Learning": 75,
         "Leisure": 195,
         "Communications": 15,
-        "Productivity": 225
+        "Productivity": 226
       },
       "by_project": {
         "AFK/Idle - PC unattended at desktop": 15,
@@ -8486,8 +8495,8 @@
         "MBTI Oracle - App Store Connect API key setup and revenue data": 15,
         "MBTI Oracle / Q Rizz / Simple Rizz - weekly revenue analysis": 15,
         "MBTI Oracle / Q Rizz - revenue trend review": 15,
-        "AFK/Idle - PC left on unattended while out": 360,
-        "MBTI Oracle": 120,
+        "AFK/Idle - PC left on unattended while out": 361,
+        "MBTI Oracle": 121,
         "Leisure": 45,
         "N/A": 555
       },
@@ -8513,8 +8522,8 @@
             "https://i.imgur.com/lluqIu5.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "09:10",
@@ -8537,8 +8546,8 @@
             "https://i.imgur.com/j1xXaYy.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "09:25",
@@ -8561,8 +8570,8 @@
             "https://i.imgur.com/TOynpk9.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "09:40",
@@ -8585,8 +8594,8 @@
             "https://i.imgur.com/USktGoX.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "09:55",
@@ -8609,8 +8618,8 @@
             "https://i.imgur.com/vXtNbX6.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "10:10",
@@ -8633,8 +8642,8 @@
             "https://i.imgur.com/AK5sIes.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "10:25",
@@ -8671,8 +8680,8 @@
             "https://i.imgur.com/iSjPYxp.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "11:10",
@@ -8695,8 +8704,8 @@
             "https://i.imgur.com/WSvhQij.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "11:25",
@@ -8719,8 +8728,8 @@
             "https://i.imgur.com/ei0VjMq.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "11:40",
@@ -8743,8 +8752,8 @@
             "https://i.imgur.com/Eu2Q9Iq.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "11:55",
@@ -8767,8 +8776,8 @@
             "https://i.imgur.com/HdVJhf5.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "12:10",
@@ -8791,8 +8800,8 @@
             "https://i.imgur.com/8aMaXXq.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "12:25",
@@ -8815,8 +8824,8 @@
             "https://i.imgur.com/nPMuA69.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "12:40",
@@ -8846,8 +8855,8 @@
             "https://i.imgur.com/tcQ5Fa6.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "13:10",
@@ -8870,8 +8879,8 @@
             "https://i.imgur.com/u3RJDf0.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "13:25",
@@ -8894,8 +8903,8 @@
             "https://i.imgur.com/Mhfdp9k.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "13:40",
@@ -8918,8 +8927,8 @@
             "https://i.imgur.com/8cCJDfC.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "13:55",
@@ -8942,8 +8951,8 @@
             "https://i.imgur.com/F2M7YMS.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "14:10",
@@ -8966,8 +8975,8 @@
             "https://i.imgur.com/qlqxesj.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "14:25",
@@ -8990,8 +8999,8 @@
             "https://i.imgur.com/nwxcjl9.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "14:40",
@@ -9014,13 +9023,13 @@
             "https://i.imgur.com/P1rlJgA.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "14:55",
           "end": "20:56",
-          "min": 360,
+          "min": 361,
           "category": "AFK/Idle",
           "activity": "AFK - PC left on",
           "project": "AFK/Idle - PC left on unattended while out",
@@ -9199,13 +9208,13 @@
             "https://i.imgur.com/A1t6CFj.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "20:56",
           "end": "22:42",
-          "min": 105,
+          "min": 106,
           "category": "Productivity",
           "activity": "MBTI Oracle product analysis",
           "project": "MBTI Oracle",
@@ -9265,8 +9274,8 @@
             "https://i.imgur.com/1GGtdfu.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "22:42",
@@ -9303,8 +9312,8 @@
             "https://i.imgur.com/zmKgGwn.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "23:27",
@@ -9327,8 +9336,8 @@
             "https://i.imgur.com/owpKWQz.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "23:42",
@@ -9565,36 +9574,37 @@
           ],
           "images": [],
           "sensitive_count": 37,
-          "notes": "",
-          "sensitive": true
+          "sensitive": true,
+          "notes": ""
         }
       ],
       "dailySummary": {
+        "date": "2026-05-29",
         "tracked_min": "1440",
         "productivity_min": "225",
         "exercise_min": "15",
-        "errand_min": "0",
+        "social_min": "0",
         "leisure_min": "195",
-        "afk_min": "75",
-        "meal_min": "0",
+        "errand_min": "75",
+        "health_min": "0",
         "sleep_min": "930",
         "other_min": "0",
-        "highlights": "YouTube watching (2h 45m) · MBTI Oracle product analysis (2h 0m) · OpenClaw work session (1h 30m)",
-        "coach_notes": "3h 45m productive, almost all on MBTI Oracle — a real revenue audit that overturned the \"website is #1\" assumption and confirmed Q Rizz as the only app trending up. The 6h of \"AFK — PC left on\" likely reflects laptop work per your own caveat. Best MBTI focus day in weeks.",
-        "first_last_capture": "00:14 / 23:57",
-        "note_from_sun": "Spent some time analyzing my time. Went out filming. Decently productive day."
+        "top_blocks": "YouTube watching (2h 45m) · MBTI Oracle product analysis (2h 0m) · OpenClaw work session (1h 30m)",
+        "insight": "3h 45m productive, almost all on MBTI Oracle — a real revenue audit that overturned the \"website is #1\" assumption and confirmed Q Rizz as the only app trending up. The 6h of \"AFK — PC left on\" likely reflects laptop work per your own caveat. Best MBTI focus day in weeks.",
+        "window": "00:14 / 23:57",
+        "note": "Spent some time analyzing my time. Went out filming. Decently productive day."
       }
     },
     {
       "date": "2026-05-30",
-      "tracked_min": 720,
+      "tracked_min": 1530,
       "by_category": {
-        "AFK/Idle": 15,
+        "AFK/Idle": 705,
         "Communications": 15,
-        "Leisure": 240,
-        "Productivity": 180,
+        "Leisure": 270,
+        "Productivity": 240,
         "Admin/Errands": 105,
-        "Learning": 150,
+        "Learning": 180,
         "Other": 15
       },
       "by_project": {
@@ -9602,9 +9612,11 @@
         "Communications": 15,
         "Leisure": 240,
         "MBTI Oracle": 15,
-        "SelfTrack": 45,
-        "Q Rizz": 375,
-        "Other": 15
+        "SelfTrack": 60,
+        "Q Rizz": 420,
+        "Other": 15,
+        "Research": 30,
+        "Personal": 720
       },
       "blocks": [
         {
@@ -9628,8 +9640,8 @@
             "https://i.imgur.com/npSO8e9.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "09:10",
@@ -9652,8 +9664,8 @@
             "https://i.imgur.com/qkEr51I.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "09:25",
@@ -9676,8 +9688,8 @@
             "https://i.imgur.com/KQZBct8.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "09:40",
@@ -9700,8 +9712,8 @@
             "https://i.imgur.com/bmcNDN9.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "09:55",
@@ -9738,8 +9750,8 @@
             "https://i.imgur.com/GuiilQ7.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "10:40",
@@ -9762,8 +9774,8 @@
             "https://i.imgur.com/U5Mdxly.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "10:55",
@@ -9835,8 +9847,8 @@
             "https://i.imgur.com/BKiGydp.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "12:55",
@@ -9859,8 +9871,8 @@
             "https://i.imgur.com/gA5BoTo.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "13:10",
@@ -9883,8 +9895,8 @@
             "https://i.imgur.com/x3JIS62.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "13:25",
@@ -9914,8 +9926,8 @@
             "https://i.imgur.com/LJ3Lqnv.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "13:55",
@@ -9938,8 +9950,8 @@
             "https://i.imgur.com/iFwWy63.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "14:10",
@@ -9997,8 +10009,8 @@
             "https://i.imgur.com/dWLm9AJ.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "15:40",
@@ -10021,8 +10033,8 @@
             "https://i.imgur.com/J3Gst9K.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "15:55",
@@ -10059,8 +10071,8 @@
             "https://i.imgur.com/0F7Qfbo.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "16:40",
@@ -10083,8 +10095,8 @@
             "https://i.imgur.com/J2qYCWC.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "16:56",
@@ -10142,8 +10154,8 @@
             "https://i.imgur.com/47ZcgI9.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "18:26",
@@ -10166,8 +10178,8 @@
             "https://i.imgur.com/zvbz35b.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "18:41",
@@ -10190,8 +10202,8 @@
             "https://i.imgur.com/gIkuH2N.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "18:56",
@@ -10214,8 +10226,8 @@
             "https://i.imgur.com/IH7XFwK.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "19:11",
@@ -10245,8 +10257,8 @@
             "https://i.imgur.com/81QZdvO.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "19:41",
@@ -10283,8 +10295,8 @@
             "https://i.imgur.com/jj28QyT.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "20:26",
@@ -10307,8 +10319,8 @@
             "https://i.imgur.com/a7bJutS.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
         },
         {
           "start": "20:41",
@@ -10331,8 +10343,501 @@
             "https://i.imgur.com/QTq8Hul.jpeg"
           ],
           "sensitive_count": 0,
-          "notes": "",
-          "sensitive": false
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "20:56",
+          "end": "21:41",
+          "min": 45,
+          "category": "Productivity",
+          "activity": "Reviewing Q Rizz product",
+          "project": "Q Rizz",
+          "screen_summary": "Simple Rizz product page - private community $19/month plan, payment declined notification",
+          "webcam": "Empty bedroom, unmade bed, no person visible",
+          "captures": [
+            {
+              "start": "20:56",
+              "image": "https://i.imgur.com/leVjLKg.jpeg",
+              "summary": "Simple Rizz product page - private community $19/month plan, payment declined notification",
+              "sensitive": false
+            },
+            {
+              "start": "21:11",
+              "image": "https://i.imgur.com/vWQvg5y.jpeg",
+              "summary": "Simple Rizz product page - same view, still on billing/product details",
+              "sensitive": false
+            },
+            {
+              "start": "21:26",
+              "image": "https://i.imgur.com/sCX8gTA.jpeg",
+              "summary": "Simple Rizz product page - private community plan, billing issue banner at bottom",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/leVjLKg.jpeg",
+            "https://i.imgur.com/vWQvg5y.jpeg",
+            "https://i.imgur.com/sCX8gTA.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "21:41",
+          "end": "21:56",
+          "min": 15,
+          "category": "Learning",
+          "activity": "Watching YouTube - Skool platform research",
+          "project": "Research",
+          "screen_summary": "YouTube: Skool Review 2026 - slide about who Skool is for, community platform research",
+          "webcam": "Sun visible in bedroom, looking down at screen",
+          "captures": [
+            {
+              "start": "21:41",
+              "image": "https://i.imgur.com/LoXyV7P.jpeg",
+              "summary": "YouTube: Skool Review 2026 - slide about who Skool is for, community platform research",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/LoXyV7P.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "21:56",
+          "end": "22:11",
+          "min": 15,
+          "category": "Learning",
+          "activity": "Watching YouTube - AI tools research",
+          "project": "Research",
+          "screen_summary": "YouTube comments for AI-generated 3D characters/Blender+Claude video, sidebar recommendations visible",
+          "webcam": "Person in bedroom",
+          "captures": [
+            {
+              "start": "21:56",
+              "image": "https://i.imgur.com/800EHyo.jpeg",
+              "summary": "YouTube comments for AI-generated 3D characters/Blender+Claude video, sidebar recommendations visible",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/800EHyo.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "22:11",
+          "end": "22:41",
+          "min": 30,
+          "category": "Leisure",
+          "activity": "Playing video game (DayZ/survival)",
+          "project": "Personal",
+          "screen_summary": "Post-apocalyptic survival game - players Dodo, kiezer, Sun in HUD; nighttime with flashlight equipped",
+          "webcam": "Not visible in frame",
+          "captures": [
+            {
+              "start": "22:11",
+              "image": "https://i.imgur.com/C4r2xPK.jpeg",
+              "summary": "Post-apocalyptic survival game - players Dodo, kiezer, Sun in HUD; nighttime with flashlight equipped",
+              "sensitive": false
+            },
+            {
+              "start": "22:26",
+              "image": "https://i.imgur.com/CCox3BR.jpeg",
+              "summary": "Game loading screen: 'Locked doors often guard the most valuable of treasures.' - Charles (Raider: Unpopular with Neighbors)",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/C4r2xPK.jpeg",
+            "https://i.imgur.com/CCox3BR.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "22:41",
+          "end": "22:56",
+          "min": 15,
+          "category": "Productivity",
+          "activity": "Reviewing SelfTrack dashboard",
+          "project": "SelfTrack",
+          "screen_summary": "Life of Sun selftrack dashboard - 06:30 tracked for 2026-05-30, chronological pie chart, activity breakdown",
+          "webcam": "Sun visible in dark room, hand on head, reviewing screen",
+          "captures": [
+            {
+              "start": "22:41",
+              "image": "https://i.imgur.com/GfWU16q.jpeg",
+              "summary": "Life of Sun selftrack dashboard - 06:30 tracked for 2026-05-30, chronological pie chart, activity breakdown",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/GfWU16q.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "22:56",
+          "end": "10:26",
+          "min": 690,
+          "category": "AFK/Idle",
+          "activity": "sleeping",
+          "project": "Personal",
+          "screen_summary": "Overnight sleep gap auto-filled",
+          "webcam": "Sleeping - no webcam",
+          "captures": [
+            {
+              "start": "22:56",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "23:11",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "23:26",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "23:41",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "23:56",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "00:11",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "00:26",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "00:41",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "00:56",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "01:11",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "01:26",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "01:41",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "01:56",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "02:11",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "02:26",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "02:41",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "02:56",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "03:11",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "03:26",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "03:41",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "03:56",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "04:11",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "04:26",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "04:41",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "04:56",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "05:11",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "05:26",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "05:41",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "05:56",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "06:11",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "06:26",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "06:41",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "06:56",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "07:11",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "07:26",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "07:41",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "07:56",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "08:11",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "08:26",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "08:41",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "08:56",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "09:11",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "09:26",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "09:41",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "09:56",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            },
+            {
+              "start": "10:11",
+              "image": null,
+              "summary": "Overnight sleep gap auto-filled",
+              "sensitive": true
+            }
+          ],
+          "images": [],
+          "sensitive_count": 46,
+          "sensitive": true,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-05-31",
+      "tracked_min": 30,
+      "by_category": {
+        "Leisure": 30
+      },
+      "by_project": {
+        "Personal": 30
+      },
+      "blocks": [
+        {
+          "start": "10:29",
+          "end": "10:44",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Listening to deep work music",
+          "project": "Personal",
+          "screen_summary": "YouTube: deep work music flow state playlist at 33:43/1:04:50, 760K views",
+          "webcam": "Sun visible, looking down at screen, morning in bedroom",
+          "captures": [
+            {
+              "start": "10:29",
+              "image": "https://i.imgur.com/10JcQcm.jpeg",
+              "summary": "YouTube: deep work music flow state playlist at 33:43/1:04:50, 760K views",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/10JcQcm.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "10:44",
+          "end": "10:59",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Watching YouTube - motivational content",
+          "project": "Personal",
+          "screen_summary": "YouTube: 'Be That Guy.' by Be Invictus - 7.3M views, motivational video playing",
+          "webcam": "Sun visible, head dropped forward looking down, slouching in bedroom",
+          "captures": [
+            {
+              "start": "10:44",
+              "image": "https://i.imgur.com/etLB2mm.jpeg",
+              "summary": "YouTube: 'Be That Guy.' by Be Invictus - 7.3M views, motivational video playing",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "https://i.imgur.com/etLB2mm.jpeg"
+          ],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
         }
       ]
     }
