@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T10:02:45.194Z",
+  "generatedAt": "2026-06-01T12:02:07.583Z",
   "source": "mixpanel",
   "status": "ok",
   "dailyVisitors": [
@@ -55,11 +55,11 @@
       "count": 5
     },
     {
-      "name": "Gyeyang-gu",
+      "name": "Seoul",
       "count": 3
     },
     {
-      "name": "Seoul",
+      "name": "Gyeyang-gu",
       "count": 3
     }
   ],
