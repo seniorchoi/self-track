@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T23:01:35+09:00",
+  "generatedAt": "2026-06-01T10:27:16+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -10498,9 +10498,9 @@
     },
     {
       "date": "2026-05-31",
-      "tracked_min": 1440,
+      "tracked_min": 1485,
       "by_category": {
-        "Leisure": 360,
+        "Leisure": 405,
         "AFK/Idle": 705,
         "Communications": 45,
         "Productivity": 240,
@@ -10509,7 +10509,8 @@
       "by_project": {
         "Personal": 1080,
         "SelfTrack": 210,
-        "Q Rizz": 150
+        "Q Rizz": 150,
+        "- (Leisure)": 45
       },
       "blocks": [
         {
@@ -11546,6 +11547,72 @@
           "sensitive_count": 0,
           "sensitive": false,
           "notes": ""
+        },
+        {
+          "start": "23:00",
+          "end": "23:15",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "YouTube browsing",
+          "project": "- (Leisure)",
+          "screen_summary": "YouTube home feed with entertainment and educational content (gaming history, music, memes, science)",
+          "webcam": "Person watching screen in dark room, lit by screen glow",
+          "captures": [
+            {
+              "start": "23:00",
+              "image": null,
+              "summary": "YouTube home feed with entertainment and educational content (gaming history, music, memes, science)",
+              "sensitive": false
+            }
+          ],
+          "images": [],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "23:15",
+          "end": "23:30",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "X/Twitter browsing",
+          "project": "- (Leisure)",
+          "screen_summary": "X/Twitter Following feed; fitness/bodybuilding post visible, Premium upgrade prompt shown",
+          "webcam": "Person in dark room, hand partially covering face, lit by screen",
+          "captures": [
+            {
+              "start": "23:15",
+              "image": null,
+              "summary": "X/Twitter Following feed; fitness/bodybuilding post visible, Premium upgrade prompt shown",
+              "sensitive": false
+            }
+          ],
+          "images": [],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "23:30",
+          "end": "23:45",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "YouTube watching",
+          "project": "- (Leisure)",
+          "screen_summary": "Watching David Shapiro YouTube video 'The last 300 days of work?' about entrepreneurship",
+          "webcam": "Very dark room, no person clearly visible — likely falling asleep",
+          "captures": [
+            {
+              "start": "23:30",
+              "image": null,
+              "summary": "Watching David Shapiro YouTube video 'The last 300 days of work?' about entrepreneurship",
+              "sensitive": false
+            }
+          ],
+          "images": [],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
         }
       ],
       "dailySummary": {
@@ -11568,6 +11635,309 @@
         "note": "",
         "note_from_sun": ""
       }
+    },
+    {
+      "date": "2026-06-01",
+      "tracked_min": 645,
+      "by_category": {
+        "AFK/Idle": 645
+      },
+      "by_project": {
+        "- (AFK)": 15,
+        "- (Sleep)": 630
+      },
+      "blocks": [
+        {
+          "start": "10:16",
+          "end": "10:31",
+          "min": 15,
+          "category": "AFK/Idle",
+          "activity": "AFK - Steam idle",
+          "project": "- (AFK)",
+          "screen_summary": "Windows desktop with Steam Hardware Survey popup; Steam client running, no active user",
+          "webcam": "No person visible, empty bedroom with unmade bed",
+          "captures": [
+            {
+              "start": "10:16",
+              "image": null,
+              "summary": "Windows desktop with Steam Hardware Survey popup; Steam client running, no active user",
+              "sensitive": false
+            }
+          ],
+          "images": [],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "23:45",
+          "end": "10:15",
+          "min": 630,
+          "category": "AFK/Idle",
+          "activity": "Sleeping",
+          "project": "- (Sleep)",
+          "screen_summary": "Overnight sleep",
+          "webcam": "Not at desk",
+          "captures": [
+            {
+              "start": "23:45",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "00:00",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "00:15",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "00:30",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "00:45",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "01:00",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "01:15",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "01:30",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "01:45",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "02:00",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "02:15",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "02:30",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "02:45",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "03:00",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "03:15",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "03:30",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "03:45",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "04:00",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "04:15",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "04:30",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "04:45",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "05:00",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "05:15",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "05:30",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "05:45",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "06:00",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "06:15",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "06:30",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "06:45",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "07:00",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "07:15",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "07:30",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "07:45",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "08:00",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "08:15",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "08:30",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "08:45",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "09:00",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "09:15",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "09:30",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "09:45",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            },
+            {
+              "start": "10:00",
+              "image": null,
+              "summary": "Overnight sleep",
+              "sensitive": true
+            }
+          ],
+          "images": [],
+          "sensitive_count": 42,
+          "sensitive": true,
+          "notes": ""
+        }
+      ]
     }
   ]
 }
