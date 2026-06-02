@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T10:04:04.154Z",
+  "generatedAt": "2026-06-02T12:02:19.791Z",
   "source": "mixpanel",
   "status": "ok",
   "dailyVisitors": [
@@ -38,13 +38,13 @@
   ],
   "weeklyVisitors": {
     "visitors": 14,
-    "visits": 518
+    "visits": 503
   },
   "activeNow": 0,
   "topCities": [
     {
       "name": "Incheon",
-      "count": 474
+      "count": 459
     },
     {
       "name": "Thrissur",
@@ -55,11 +55,11 @@
       "count": 9
     },
     {
-      "name": "Ansan-si",
+      "name": "Agra",
       "count": 5
     },
     {
-      "name": "Agra",
+      "name": "Ansan-si",
       "count": 5
     },
     {
@@ -70,7 +70,7 @@
   "topCountries": [
     {
       "name": "KR",
-      "count": 498
+      "count": 483
     },
     {
       "name": "IN",
@@ -84,7 +84,7 @@
   "topPages": [
     {
       "name": "/",
-      "count": 82
+      "count": 78
     },
     {
       "name": "/timeline/2026-05-28",
@@ -106,7 +106,7 @@
   "topReferrers": [
     {
       "name": "t.co",
-      "count": 23
+      "count": 21
     }
   ]
 }
