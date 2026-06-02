@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T00:55:27.611Z",
+  "generatedAt": "2026-06-02T02:02:07.568Z",
   "source": "mixpanel",
   "status": "ok",
   "dailyVisitors": [
@@ -38,9 +38,9 @@
   ],
   "weeklyVisitors": {
     "visitors": 16,
-    "visits": 619
+    "visits": 622
   },
-  "activeNow": 1,
+  "activeNow": 0,
   "topCities": [
     {
       "name": "Incheon",
@@ -59,18 +59,18 @@
       "count": 5
     },
     {
-      "name": "Gyeyang-gu",
-      "count": 3
+      "name": "Ansan-si",
+      "count": 5
     },
     {
-      "name": "Seoul",
+      "name": "Gyeyang-gu",
       "count": 3
     }
   ],
   "topCountries": [
     {
       "name": "KR",
-      "count": 599
+      "count": 602
     },
     {
       "name": "IN",
@@ -84,7 +84,7 @@
   "topPages": [
     {
       "name": "/",
-      "count": 93
+      "count": 94
     },
     {
       "name": "/timeline/2026-05-26",
