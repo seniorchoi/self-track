@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T11:02:04+09:00",
+  "generatedAt": "2026-06-02T13:03:36+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -2509,6 +2509,7 @@
         "Learning/Reading": 150,
         "Personal/Break": 120,
         "Gaming/Warhammer": 30,
+        "": 15,
         "Leisure": 165,
         "Leisure/History": 90,
         "Sleep": 750
@@ -3649,6 +3650,7 @@
         "Learning/Business": 15,
         "Reddit ops": 15,
         "Health": 195,
+        "": 120,
         "SelfTrack": 30,
         "Leisure": 195,
         "Learning": 15,
@@ -4338,7 +4340,7 @@
             "https://i.imgur.com/BH8WUL9.jpeg"
           ],
           "sensitive_count": 0,
-          "webcam": "Pitch black, person not visible",
+          "webcam": "Dark room, person centered with hand on chin, headphones on",
           "sensitive": false,
           "notes": ""
         },
@@ -5064,7 +5066,7 @@
             "https://i.imgur.com/zyYpp4g.jpeg"
           ],
           "sensitive_count": 0,
-          "webcam": "No person visible — empty bed, away from frame",
+          "webcam": "Sun standing beside desk, partially in frame, moving",
           "sensitive": false,
           "notes": ""
         }
@@ -6508,6 +6510,7 @@
       "by_project": {
         "N/A": 15,
         "Learning": 210,
+        "": 105,
         "YouTube": 30,
         "Q Rizz": 60,
         "SelfTrack": 15,
@@ -10958,14 +10961,12 @@
           "captures": [
             {
               "start": "12:44",
-              "image": "https://i.imgur.com/rtFFbuo.jpeg",
+              "image": null,
               "summary": "YouTube: 'Be That Guy.' by Be Invictus at 17:44 mark, different scene",
               "sensitive": false
             }
           ],
-          "images": [
-            "https://i.imgur.com/rtFFbuo.jpeg"
-          ],
+          "images": [],
           "sensitive_count": 0,
           "webcam": "Sun visible, looking to right side, hand holding item, good posture",
           "sensitive": false,
@@ -11057,7 +11058,7 @@
             "https://i.imgur.com/RUxIFmf.jpeg"
           ],
           "sensitive_count": 0,
-          "webcam": "Sun visible, seated in bedroom gaming",
+          "webcam": "Sun visible, fairly upright, adjusting shirt collar",
           "sensitive": false,
           "notes": ""
         },
@@ -11204,15 +11205,14 @@
             },
             {
               "start": "16:44",
-              "image": "https://i.imgur.com/eMx0YFq.jpeg",
+              "image": null,
               "summary": "YouTube: 'How to Pick Up a Group of Girls (Infield)' by Social Stoic - new video playing",
               "sensitive": false
             }
           ],
           "images": [
             "https://i.imgur.com/7zLm4xH.jpeg",
-            "https://i.imgur.com/93AcQyE.jpeg",
-            "https://i.imgur.com/eMx0YFq.jpeg"
+            "https://i.imgur.com/93AcQyE.jpeg"
           ],
           "sensitive_count": 0,
           "webcam": "Sun visible with earphones, head dropped forward, slouching",
@@ -13209,17 +13209,21 @@
     },
     {
       "date": "2026-06-02",
-      "tracked_min": 75,
+      "tracked_min": 195,
       "by_category": {
         "Other": 30,
-        "Learning": 30,
-        "AFK/Idle": 15
+        "Learning": 105,
+        "AFK/Idle": 30,
+        "Leisure": 30
       },
       "by_project": {
         "General - browsing/admin": 30,
-        "General learning - AI/startup content": 15,
+        "General learning - AI/startup content": 45,
         "General learning - health/fitness": 15,
-        "AFK/Idle - away from desk": 15
+        "AFK/Idle - away from desk": 30,
+        "General - social media browsing": 15,
+        "Leisure - entertainment": 15,
+        "General learning - motivational/self-improvement": 45
       },
       "blocks": [
         {
@@ -13312,8 +13316,8 @@
         },
         {
           "start": "10:52",
-          "end": "11:07",
-          "min": 15,
+          "end": "11:22",
+          "min": 30,
           "category": "AFK/Idle",
           "activity": "Away from desk",
           "project": "AFK/Idle - away from desk",
@@ -13324,11 +13328,123 @@
               "image": null,
               "summary": "Windows desktop wallpaper (tropical islands) with Windscribe VPN popup",
               "sensitive": false
+            },
+            {
+              "start": "11:07",
+              "image": null,
+              "summary": "Windows desktop with Windscribe 'Quit Windscribe?' dialog open",
+              "sensitive": false
             }
           ],
           "images": [],
           "sensitive_count": 0,
           "webcam": "Empty room, no person visible - bed with clothing item",
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "11:22",
+          "end": "11:53",
+          "min": 30,
+          "category": "Learning",
+          "activity": "Watching YouTube - AI/tech podcast",
+          "project": "General learning - AI/startup content",
+          "screen_summary": "YouTube: Moonshots with Peter Diamandis EP #260 - OpenAI $200B Non-Profit, Opus 4.8 (expanded view)",
+          "captures": [
+            {
+              "start": "11:22",
+              "image": null,
+              "summary": "YouTube: Moonshots with Peter Diamandis EP #260 - OpenAI $200B Non-Profit, Opus 4.8 (expanded view)",
+              "sensitive": false
+            },
+            {
+              "start": "11:38",
+              "image": null,
+              "summary": "YouTube: Moonshots with Peter Diamandis EP #260 - multi-panel 4-speaker view",
+              "sensitive": false
+            }
+          ],
+          "images": [],
+          "sensitive_count": 0,
+          "webcam": "Person visible, head jutted forward",
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "11:53",
+          "end": "12:08",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Browsing X/Twitter",
+          "project": "General - social media browsing",
+          "screen_summary": "X (Twitter) home feed Following tab - tech/startup content (Leading Report UK ban post)",
+          "captures": [
+            {
+              "start": "11:53",
+              "image": null,
+              "summary": "X (Twitter) home feed Following tab - tech/startup content (Leading Report UK ban post)",
+              "sensitive": false
+            }
+          ],
+          "images": [],
+          "sensitive_count": 0,
+          "webcam": "Person upright, looking forward",
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "12:08",
+          "end": "12:23",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Watching YouTube - TV trailer",
+          "project": "Leisure - entertainment",
+          "screen_summary": "YouTube: House of Dragon Season 3 Official Final Trailer by HBO Max",
+          "captures": [
+            {
+              "start": "12:08",
+              "image": null,
+              "summary": "YouTube: House of Dragon Season 3 Official Final Trailer by HBO Max",
+              "sensitive": false
+            }
+          ],
+          "images": [],
+          "sensitive_count": 0,
+          "webcam": "Person side-profile on bed using phone",
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "12:23",
+          "end": "13:08",
+          "min": 45,
+          "category": "Learning",
+          "activity": "Watching YouTube - motivational content",
+          "project": "General learning - motivational/self-improvement",
+          "screen_summary": "YouTube: 'Do You Actually Want It?' by Ron Within - motivational speech with b&w footage",
+          "captures": [
+            {
+              "start": "12:23",
+              "image": null,
+              "summary": "YouTube: 'Do You Actually Want It?' by Ron Within - motivational speech with b&w footage",
+              "sensitive": false
+            },
+            {
+              "start": "12:38",
+              "image": null,
+              "summary": "YouTube: 'Do You Actually Want It?' by Ron Within - b&w close-up frame continuing",
+              "sensitive": false
+            },
+            {
+              "start": "12:53",
+              "image": null,
+              "summary": "YouTube: 'Do You Actually Want It?' by Ron Within - 'work' text overlay, comments visible",
+              "sensitive": false
+            }
+          ],
+          "images": [],
+          "sensitive_count": 0,
+          "webcam": "Person looking down, arm extended",
           "sensitive": false,
           "notes": ""
         }
