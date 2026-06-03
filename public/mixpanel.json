@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-03T02:01:46.040Z",
+  "generatedAt": "2026-06-03T04:02:42.333Z",
   "source": "mixpanel",
   "status": "ok",
   "dailyVisitors": [
     {
       "date": "2026-05-27",
-      "visitors": 4
+      "visitors": 3
     },
     {
       "date": "2026-05-28",
@@ -33,14 +33,14 @@
     }
   ],
   "weeklyVisitors": {
-    "visitors": 14,
-    "visits": 495
+    "visitors": 13,
+    "visits": 486
   },
   "activeNow": 0,
   "topCities": [
     {
       "name": "Incheon",
-      "count": 450
+      "count": 444
     },
     {
       "name": "Thrissur",
@@ -66,7 +66,7 @@
   "topCountries": [
     {
       "name": "KR",
-      "count": 475
+      "count": 466
     },
     {
       "name": "IN",
@@ -80,23 +80,23 @@
   "topPages": [
     {
       "name": "/",
-      "count": 75
+      "count": 74
     },
     {
       "name": "/timeline/2026-05-28",
       "count": 41
     },
     {
-      "name": "/chrono/2026-05-30",
-      "count": 29
-    },
-    {
       "name": "/timeline/2026-05-30",
       "count": 28
     },
     {
+      "name": "/chrono/2026-05-30",
+      "count": 28
+    },
+    {
       "name": "/chrono/2026-05-29",
-      "count": 27
+      "count": 26
     }
   ],
   "topReferrers": [

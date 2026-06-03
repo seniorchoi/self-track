@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T11:01:43+09:00",
+  "generatedAt": "2026-06-03T13:02:38+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -13944,16 +13944,21 @@
     },
     {
       "date": "2026-06-03",
-      "tracked_min": 615,
+      "tracked_min": 735,
       "by_category": {
         "Admin/Errands": 15,
         "AFK/Idle": 480,
-        "Learning": 120
+        "Learning": 120,
+        "Communications": 15,
+        "Productivity": 15,
+        "Leisure": 90
       },
       "by_project": {
         "Personal/Admin": 15,
         "Personal/Sleep": 480,
-        "Personal/Learning": 120
+        "Personal/Learning": 120,
+        "Personal/Leisure": 105,
+        "Q Rizz": 15
       },
       "blocks": [
         {
@@ -14274,6 +14279,134 @@
               "start": "10:51",
               "image": null,
               "summary": "YouTube - Mensa Norway IQ Test Puzzles - Exercise 33 triangle pattern",
+              "sensitive": false
+            }
+          ],
+          "images": [],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "11:06",
+          "end": "11:21",
+          "min": 15,
+          "category": "Communications",
+          "activity": "Browsing Twitter/X",
+          "project": "Personal/Leisure",
+          "screen_summary": "X (Twitter) timeline - browsing tweets about AI/tech, Nexus Research Hermes Desktop App",
+          "webcam": "User in profile/side view, in bedroom",
+          "captures": [
+            {
+              "start": "11:06",
+              "image": null,
+              "summary": "X (Twitter) timeline - browsing tweets about AI/tech, Nexus Research Hermes Desktop App",
+              "sensitive": false
+            }
+          ],
+          "images": [],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "11:21",
+          "end": "11:36",
+          "min": 15,
+          "category": "Productivity",
+          "activity": "Discord admin / Q Rizz review",
+          "project": "Q Rizz",
+          "screen_summary": "Discord Q Admin channel - Q Rizz influencer cron TikTok handles added, Apify scrape notes",
+          "webcam": "Empty bedroom, user stepped away",
+          "captures": [
+            {
+              "start": "11:21",
+              "image": null,
+              "summary": "Discord Q Admin channel - Q Rizz influencer cron TikTok handles added, Apify scrape notes",
+              "sensitive": false
+            }
+          ],
+          "images": [],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "11:36",
+          "end": "11:51",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Browsing YouTube",
+          "project": "Personal/Leisure",
+          "screen_summary": "YouTube home page - AI/tech videos (GPT-5.6, productivity, Korean AI content)",
+          "webcam": "User front-facing in bedroom, looking at screen",
+          "captures": [
+            {
+              "start": "11:36",
+              "image": null,
+              "summary": "YouTube home page - AI/tech videos (GPT-5.6, productivity, Korean AI content)",
+              "sensitive": false
+            }
+          ],
+          "images": [],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "11:51",
+          "end": "12:36",
+          "min": 45,
+          "category": "Leisure",
+          "activity": "Watching YouTube",
+          "project": "Personal/Leisure",
+          "screen_summary": "YouTube - Moonshots EP #260 playing, wind/solar energy slide (22% of world electricity)",
+          "webcam": "User in bedroom, head jutted forward, slouching",
+          "captures": [
+            {
+              "start": "11:51",
+              "image": null,
+              "summary": "YouTube - Moonshots EP #260 playing, wind/solar energy slide (22% of world electricity)",
+              "sensitive": false
+            },
+            {
+              "start": "12:06",
+              "image": null,
+              "summary": "YouTube - Moonshots EP #260 panel discussion continuing",
+              "sensitive": false
+            },
+            {
+              "start": "12:21",
+              "image": null,
+              "summary": "YouTube - coding playlist video ('this playlist will change your life')",
+              "sensitive": false
+            }
+          ],
+          "images": [],
+          "sensitive_count": 0,
+          "sensitive": false,
+          "notes": ""
+        },
+        {
+          "start": "12:36",
+          "end": "13:06",
+          "min": 30,
+          "category": "Leisure",
+          "activity": "Listening to focus music",
+          "project": "Personal/Leisure",
+          "screen_summary": "YouTube - deep work music / flow state playlist playing",
+          "webcam": "Empty bedroom, user stepped away",
+          "captures": [
+            {
+              "start": "12:36",
+              "image": null,
+              "summary": "YouTube - deep work music / flow state playlist playing",
+              "sensitive": false
+            },
+            {
+              "start": "12:51",
+              "image": null,
+              "summary": "YouTube - deep work music / flow state playlist continuing",
               "sensitive": false
             }
           ],
