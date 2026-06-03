@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T00:00:53.377Z",
+  "generatedAt": "2026-06-03T02:01:46.040Z",
   "source": "mixpanel",
   "status": "ok",
   "dailyVisitors": [
@@ -34,7 +34,7 @@
   ],
   "weeklyVisitors": {
     "visitors": 14,
-    "visits": 497
+    "visits": 495
   },
   "activeNow": 0,
   "topCities": [
@@ -59,14 +59,14 @@
       "count": 5
     },
     {
-      "name": "Seoul",
+      "name": "Gyeyang-gu",
       "count": 3
     }
   ],
   "topCountries": [
     {
       "name": "KR",
-      "count": 477
+      "count": 475
     },
     {
       "name": "IN",
@@ -80,7 +80,7 @@
   "topPages": [
     {
       "name": "/",
-      "count": 76
+      "count": 75
     },
     {
       "name": "/timeline/2026-05-28",
