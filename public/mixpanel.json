@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-06-02T14:02:11.460Z",
+  "generatedAt": "2026-06-03T00:00:53.377Z",
   "source": "mixpanel",
   "status": "ok",
   "dailyVisitors": [
-    {
-      "date": "2026-05-26",
-      "visitors": 1
-    },
     {
       "date": "2026-05-27",
       "visitors": 4
@@ -44,7 +40,7 @@
   "topCities": [
     {
       "name": "Incheon",
-      "count": 453
+      "count": 450
     },
     {
       "name": "Thrissur",
@@ -56,7 +52,7 @@
     },
     {
       "name": "Ansan-si",
-      "count": 5
+      "count": 8
     },
     {
       "name": "Agra",
