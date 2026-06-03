@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T04:02:42.333Z",
+  "generatedAt": "2026-06-03T06:02:32.954Z",
   "source": "mixpanel",
   "status": "ok",
   "dailyVisitors": [
@@ -30,11 +30,15 @@
     {
       "date": "2026-06-02",
       "visitors": 1
+    },
+    {
+      "date": "2026-06-03",
+      "visitors": 1
     }
   ],
   "weeklyVisitors": {
     "visitors": 13,
-    "visits": 486
+    "visits": 500
   },
   "activeNow": 0,
   "topCities": [
@@ -43,16 +47,16 @@
       "count": 444
     },
     {
+      "name": "Ansan-si",
+      "count": 22
+    },
+    {
       "name": "Thrissur",
       "count": 13
     },
     {
       "name": "Gimpo-si",
       "count": 9
-    },
-    {
-      "name": "Ansan-si",
-      "count": 8
     },
     {
       "name": "Agra",
@@ -66,7 +70,7 @@
   "topCountries": [
     {
       "name": "KR",
-      "count": 466
+      "count": 480
     },
     {
       "name": "IN",
@@ -80,23 +84,23 @@
   "topPages": [
     {
       "name": "/",
-      "count": 74
+      "count": 75
     },
     {
       "name": "/timeline/2026-05-28",
       "count": 41
     },
     {
+      "name": "/chrono/2026-05-30",
+      "count": 30
+    },
+    {
       "name": "/timeline/2026-05-30",
       "count": 28
     },
     {
-      "name": "/chrono/2026-05-30",
-      "count": 28
-    },
-    {
       "name": "/chrono/2026-05-29",
-      "count": 26
+      "count": 27
     }
   ],
   "topReferrers": [
