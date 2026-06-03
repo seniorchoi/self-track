@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T06:02:32.954Z",
+  "generatedAt": "2026-06-03T08:03:18.007Z",
   "source": "mixpanel",
   "status": "ok",
   "dailyVisitors": [
@@ -38,17 +38,17 @@
   ],
   "weeklyVisitors": {
     "visitors": 13,
-    "visits": 500
+    "visits": 508
   },
   "activeNow": 0,
   "topCities": [
     {
       "name": "Incheon",
-      "count": 444
+      "count": 443
     },
     {
       "name": "Ansan-si",
-      "count": 22
+      "count": 31
     },
     {
       "name": "Thrissur",
@@ -70,7 +70,7 @@
   "topCountries": [
     {
       "name": "KR",
-      "count": 480
+      "count": 488
     },
     {
       "name": "IN",
@@ -92,7 +92,7 @@
     },
     {
       "name": "/chrono/2026-05-30",
-      "count": 30
+      "count": 31
     },
     {
       "name": "/timeline/2026-05-30",
