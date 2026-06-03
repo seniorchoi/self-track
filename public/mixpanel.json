@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-03T10:02:16.311Z",
+  "generatedAt": "2026-06-03T12:03:13.264Z",
   "source": "mixpanel",
   "status": "ok",
   "dailyVisitors": [
     {
       "date": "2026-05-27",
-      "visitors": 3
+      "visitors": 1
     },
     {
       "date": "2026-05-28",
@@ -37,14 +37,14 @@
     }
   ],
   "weeklyVisitors": {
-    "visitors": 13,
-    "visits": 500
+    "visitors": 12,
+    "visits": 493
   },
   "activeNow": 0,
   "topCities": [
     {
       "name": "Incheon",
-      "count": 435
+      "count": 432
     },
     {
       "name": "Ansan-si",
@@ -55,11 +55,11 @@
       "count": 13
     },
     {
-      "name": "Gimpo-si",
-      "count": 9
+      "name": "Agra",
+      "count": 5
     },
     {
-      "name": "Agra",
+      "name": "Gimpo-si",
       "count": 5
     },
     {
@@ -70,7 +70,7 @@
   "topCountries": [
     {
       "name": "KR",
-      "count": 480
+      "count": 473
     },
     {
       "name": "IN",
@@ -84,7 +84,7 @@
   "topPages": [
     {
       "name": "/",
-      "count": 73
+      "count": 70
     },
     {
       "name": "/timeline/2026-05-28",
@@ -106,7 +106,7 @@
   "topReferrers": [
     {
       "name": "t.co",
-      "count": 21
+      "count": 19
     }
   ]
 }
