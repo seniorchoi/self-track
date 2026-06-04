@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-04T12:02:40.946Z",
+  "generatedAt": "2026-06-04T14:02:19.230Z",
   "source": "mixpanel",
   "status": "ok",
   "dailyVisitors": [
     {
       "date": "2026-05-28",
-      "visitors": 3
+      "visitors": 1
     },
     {
       "date": "2026-05-29",
@@ -37,14 +37,14 @@
     }
   ],
   "weeklyVisitors": {
-    "visitors": 10,
-    "visits": 407
+    "visitors": 9,
+    "visits": 398
   },
   "activeNow": 0,
   "topCities": [
     {
       "name": "Incheon",
-      "count": 328
+      "count": 319
     },
     {
       "name": "Ansan-si",
@@ -66,7 +66,7 @@
   "topCountries": [
     {
       "name": "KR",
-      "count": 394
+      "count": 385
     },
     {
       "name": "IN",
