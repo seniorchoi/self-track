@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-06-04T14:02:19.230Z",
+  "generatedAt": "2026-06-04T23:09:46.188Z",
   "source": "mixpanel",
   "status": "ok",
   "dailyVisitors": [
-    {
-      "date": "2026-05-28",
-      "visitors": 1
-    },
     {
       "date": "2026-05-29",
       "visitors": 1
@@ -37,8 +33,8 @@
     }
   ],
   "weeklyVisitors": {
-    "visitors": 9,
-    "visits": 398
+    "visitors": 8,
+    "visits": 395
   },
   "activeNow": 0,
   "topCities": [
@@ -55,10 +51,6 @@
       "count": 13
     },
     {
-      "name": "Gyeyang-gu",
-      "count": 3
-    },
-    {
       "name": "Gimpo-si",
       "count": 3
     }
@@ -66,7 +58,7 @@
   "topCountries": [
     {
       "name": "KR",
-      "count": 385
+      "count": 382
     },
     {
       "name": "IN",
@@ -76,7 +68,7 @@
   "topPages": [
     {
       "name": "/",
-      "count": 61
+      "count": 60
     },
     {
       "name": "/chrono/2026-05-30",
