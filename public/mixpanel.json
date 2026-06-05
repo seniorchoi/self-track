@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T00:01:50.326Z",
+  "generatedAt": "2026-06-05T04:02:11.600Z",
   "source": "mixpanel",
   "status": "ok",
   "dailyVisitors": [
@@ -30,21 +30,25 @@
     {
       "date": "2026-06-04",
       "visitors": 2
+    },
+    {
+      "date": "2026-06-05",
+      "visitors": 1
     }
   ],
   "weeklyVisitors": {
     "visitors": 8,
-    "visits": 395
+    "visits": 400
   },
   "activeNow": 0,
   "topCities": [
     {
       "name": "Incheon",
-      "count": 319
+      "count": 294
     },
     {
       "name": "Ansan-si",
-      "count": 58
+      "count": 88
     },
     {
       "name": "Thrissur",
@@ -58,7 +62,7 @@
   "topCountries": [
     {
       "name": "KR",
-      "count": 382
+      "count": 387
     },
     {
       "name": "IN",
@@ -68,7 +72,7 @@
   "topPages": [
     {
       "name": "/",
-      "count": 60
+      "count": 54
     },
     {
       "name": "/chrono/2026-05-30",
@@ -91,6 +95,10 @@
     {
       "name": "t.co",
       "count": 14
+    },
+    {
+      "name": "self-track-zeta.vercel.app",
+      "count": 8
     }
   ]
 }
