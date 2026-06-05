@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T15:02:37.299271+09:00",
+  "generatedAt": "2026-06-05T17:03:59.938116+09:00",
   "days": [
     {
       "date": "2026-05-20",
@@ -397,7 +397,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "away — empty bed view",
+          "webcam": "away — empty bed, dark jeans on edge",
           "sensitive": false
         },
         {
@@ -538,7 +538,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Sun facing camera, neutral",
+          "webcam": "Sun resting hands on face, contemplative",
           "sensitive": false
         },
         {
@@ -882,22 +882,18 @@
       ],
       "dailySummary": {
         "date": "2026-05-20",
-        "tracked_min": 480,
-        "by_category": {
-          "Productivity": 255,
-          "Learning": 0,
-          "Health": 0,
-          "Errands": 150,
-          "Leisure": 30,
-          "Social": 0,
-          "AFK/Idle": 45,
-          "Sleep": 0
-        },
-        "top_activities": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
-        "takeaway": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
-        "coach_note": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
-        "first_last": "15:58 / 00:03",
-        "note": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time.",
+        "total": "480",
+        "work": "255",
+        "exercise": "0",
+        "social": "0",
+        "leisure": "150",
+        "meals": "30",
+        "misc": "0",
+        "sleep": "45",
+        "other": "0",
+        "top_three": "working on SelfTrack (4h 0m) · playing Total War (30m) · taking a bath (notepad note left on screen) (30m)",
+        "reflection": "4h on SelfTrack tooling but only 15m on MBTI Oracle and 0 TikTok shipped — zero motion on the actual revenue/acquisition levers. Tomorrow morning: film one Simple Rizz hook before opening the dashboard repo.",
+        "span": "15:58 / 00:03",
         "note_from_sun": "I made a new website today, which is this one. I called it self-track initially but changed it to Life of Sun.\nI'm trying to figure out how I can better optimize my time for max ROI. \nI was inspired by Mark Andreessen on a podcast. He had a similar setup to track his sleep.\nI hope this system gives me insight into how I can better spend my time."
       }
     },
@@ -1581,22 +1577,18 @@
       ],
       "dailySummary": {
         "date": "2026-05-21",
-        "tracked_min": 1440,
-        "by_category": {
-          "Productivity": 60,
-          "Learning": 0,
-          "Health": 0,
-          "Errands": 150,
-          "Leisure": 45,
-          "Social": 15,
-          "AFK/Idle": 1170,
-          "Sleep": 0
-        },
-        "top_activities": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
-        "takeaway": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
-        "coach_note": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
-        "first_last": "00:03 / 23:53",
-        "note": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!",
+        "total": "1440",
+        "work": "60",
+        "exercise": "0",
+        "social": "0",
+        "leisure": "150",
+        "meals": "45",
+        "misc": "15",
+        "sleep": "1170",
+        "other": "0",
+        "top_three": "haircut errand (10h 30m) · sleeping (7h 15m) · away from desk (1h 45m)",
+        "reflection": "• 0 minutes on MBTI Oracle, 0 TikTok hooks, 0 SelfTrack ships — the revenue levers didn't move\n• Left at 13:22 for a haircut and the desk sat idle until midnight — that's 10h of dead clock\n• Set a hard return cutoff next time: if Sun's not back by 19:00, the day is the signal — pivot to mobile work",
+        "span": "00:03 / 23:53",
         "note_from_sun": "I went out to get haircut, then met with friends and partied.\n\nBut did not have that much fun partying. I guess it felt pretty misaligned to my goals at the moment. Lock in!"
       }
     },
@@ -2486,22 +2478,18 @@
       ],
       "dailySummary": {
         "date": "2026-05-22",
-        "tracked_min": 810,
-        "by_category": {
-          "Productivity": 30,
-          "Learning": 0,
-          "Health": 0,
-          "Errands": 375,
-          "Leisure": 0,
-          "Social": 0,
-          "AFK/Idle": 405,
-          "Sleep": 0
-        },
-        "top_activities": "haircut errand (6h 30m) · playing Total War: Warhammer (1h 30m) · watching movie/TV (1h 15m)",
-        "takeaway": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
-        "coach_note": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
-        "first_last": "00:08 / 23:51",
-        "note": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though.",
+        "total": "810",
+        "work": "30",
+        "exercise": "0",
+        "social": "0",
+        "leisure": "375",
+        "meals": "0",
+        "misc": "0",
+        "sleep": "405",
+        "other": "0",
+        "top_three": "haircut errand (6h 30m) · playing Total War: Warhammer (1h 30m) · watching movie/TV (1h 15m)",
+        "reflection": "• 30m on SelfTrack, 0 on MBTI Oracle and 0 Simple Rizz hooks — the revenue stack got nothing today\n• 6h+ Leisure (Warhammer → movies → AoE2) on a hangover day — film one Rizz hook before any game tomorrow\n• Party last night felt misaligned per your own note — pre-commit a return-by time before the next outing",
+        "span": "00:08 / 23:51",
         "note_from_sun": "Hangover day. Was too hangover to do anything productive. Did workout in the morning though."
       }
     },
@@ -2802,7 +2790,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Webcam appears off/dark — frame essentially black.",
+          "webcam": "Sun upright, centered, head over shoulders.",
           "sensitive": false
         },
         {
@@ -2985,7 +2973,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Sun seated on bed using phone, phone covering face, upright.",
+          "webcam": "Sun seated on bed using phone, upright, head over shoulders.",
           "sensitive": false
         },
         {
@@ -3016,7 +3004,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Sun centered, upright, head over shoulders.",
+          "webcam": "Sun centered, head slightly forward but body upright.",
           "sensitive": false
         },
         {
@@ -3175,7 +3163,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Dark frame, faint silhouette of head/torso.",
+          "webcam": "Sun upright with headphones, drinking water — body upright.",
           "sensitive": false
         },
         {
@@ -3631,22 +3619,18 @@
       ],
       "dailySummary": {
         "date": "2026-05-23",
-        "tracked_min": 1425,
-        "by_category": {
-          "Productivity": 105,
-          "Learning": 0,
-          "Health": 0,
-          "Errands": 270,
-          "Leisure": 210,
-          "Social": 0,
-          "AFK/Idle": 840,
-          "Sleep": 0
-        },
-        "top_activities": "Sleeping (11h 45m) · Reading essay on Claude.ai (2h 30m) · Watching movie (2h 30m)",
-        "takeaway": "Only 1h 45m productive (Simple Rizz content drafting + analytics, a little agent config); the rest was sleep (11h 45m), a movie, and a long Claude essay read. Simple Rizz got a small real push; MBTI Oracle / Q Rizz got nothing.",
-        "coach_note": "Only 1h 45m productive (Simple Rizz content drafting + analytics, a little agent config); the rest was sleep (11h 45m), a movie, and a long Claude essay read. Simple Rizz got a small real push; MBTI Oracle / Q Rizz got nothing.",
-        "first_last": "00:06 / 23:46",
-        "note": "I spent time in the morning trying to figure out the correlation between the TikTok views and the Q Rizz app download. And then I spent a lot of the day reading books on my laptop, which is not recorded here, and then in the evening I watched the lame time travel movie and then also my favorite Napoleon documentary.",
+        "total": "1425",
+        "work": "105",
+        "exercise": "0",
+        "social": "0",
+        "leisure": "270",
+        "meals": "210",
+        "misc": "0",
+        "sleep": "840",
+        "other": "0",
+        "top_three": "Sleeping (11h 45m) · Reading essay on Claude.ai (2h 30m) · Watching movie (2h 30m)",
+        "reflection": "Only 1h 45m productive (Simple Rizz content drafting + analytics, a little agent config); the rest was sleep (11h 45m), a movie, and a long Claude essay read. Simple Rizz got a small real push; MBTI Oracle / Q Rizz got nothing.",
+        "span": "00:06 / 23:46",
         "note_from_sun": "I spent time in the morning trying to figure out the correlation between the TikTok views and the Q Rizz app download. And then I spent a lot of the day reading books on my laptop, which is not recorded here, and then in the evening I watched the lame time travel movie and then also my favorite Napoleon documentary."
       }
     },
@@ -3735,14 +3719,14 @@
               "start": "13:38",
               "image": null,
               "summary": "Reddit login modal open with email autofill suggestions visible",
-              "sensitive": true
+              "sensitive": false
             }
           ],
           "images": [],
-          "sensitive_count": 1,
+          "sensitive_count": 0,
           "notes": "",
           "webcam": "Person centered, looking down at screen, shoulders level",
-          "sensitive": true
+          "sensitive": false
         },
         {
           "start": "13:53",
@@ -4357,7 +4341,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Pitch black, person not visible",
+          "webcam": "Dark room, person centered with hand on chin, headphones on",
           "sensitive": false
         },
         {
@@ -4388,7 +4372,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Pitch dark, faint outline of face, small reflected light visible",
+          "webcam": "Pitch dark room, dim outline of head, person upright",
           "sensitive": false
         },
         {
@@ -4698,22 +4682,18 @@
       ],
       "dailySummary": {
         "date": "2026-05-24",
-        "tracked_min": 1440,
-        "by_category": {
-          "Productivity": 45,
-          "Learning": 15,
-          "Health": 0,
-          "Errands": 270,
-          "Leisure": 195,
-          "Social": 15,
-          "AFK/Idle": 900,
-          "Sleep": 0
-        },
-        "top_activities": "sleeping (13h 0m) · Watching F1 movie (3h 15m) · Away from desk (1h 45m)",
-        "takeaway": "Lowest-output day of the stretch: 45m productive, $0, nothing on any revenue product. 3h+ of posture/walking/fascia research and an F1 movie filled the waking hours — a rest day, not a build day.",
-        "coach_note": "Lowest-output day of the stretch: 45m productive, $0, nothing on any revenue product. 3h+ of posture/walking/fascia research and an F1 movie filled the waking hours — a rest day, not a build day.",
-        "first_last": "00:01 / 23:54",
-        "note": "Spent the whole day kind of obsessed over the proper walking posture.",
+        "total": "1440",
+        "work": "45",
+        "exercise": "15",
+        "social": "0",
+        "leisure": "270",
+        "meals": "195",
+        "misc": "15",
+        "sleep": "900",
+        "other": "0",
+        "top_three": "sleeping (13h 0m) · Watching F1 movie (3h 15m) · Away from desk (1h 45m)",
+        "reflection": "Lowest-output day of the stretch: 45m productive, $0, nothing on any revenue product. 3h+ of posture/walking/fascia research and an F1 movie filled the waking hours — a rest day, not a build day.",
+        "span": "00:01 / 23:54",
         "note_from_sun": "Spent the whole day kind of obsessed over the proper walking posture."
       }
     },
@@ -5087,28 +5067,24 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "No person visible — empty bed, away from frame",
+          "webcam": "Sun standing beside desk, partially in frame, moving",
           "sensitive": false
         }
       ],
       "dailySummary": {
         "date": "2026-05-25",
-        "tracked_min": 1050,
-        "by_category": {
-          "Productivity": 105,
-          "Learning": 0,
-          "Health": 0,
-          "Errands": 195,
-          "Leisure": 60,
-          "Social": 0,
-          "AFK/Idle": 690,
-          "Sleep": 0
-        },
-        "top_activities": "sleeping (11h 30m) · Watching movie/show (2h 45m) · Reading Hermes Agent setup notes (1h 0m)",
-        "takeaway": "Short tracked day — PC went dark after 17:51. 1h 45m productive but spread thin across Hermes Agent setup, Q/Simple Rizz review, Sensor Tower research and skill migration. No single lever got real depth.",
-        "coach_note": "Short tracked day — PC went dark after 17:51. 1h 45m productive but spread thin across Hermes Agent setup, Q/Simple Rizz review, Sensor Tower research and skill migration. No single lever got real depth.",
-        "first_last": "00:09 / 17:51",
-        "note": "I messed around with the Hermes AI agent and then spent the afternoon filming content for Q Rizz app.",
+        "total": "1050",
+        "work": "105",
+        "exercise": "0",
+        "social": "0",
+        "leisure": "195",
+        "meals": "60",
+        "misc": "0",
+        "sleep": "690",
+        "other": "0",
+        "top_three": "sleeping (11h 30m) · Watching movie/show (2h 45m) · Reading Hermes Agent setup notes (1h 0m)",
+        "reflection": "Short tracked day — PC went dark after 17:51. 1h 45m productive but spread thin across Hermes Agent setup, Q/Simple Rizz review, Sensor Tower research and skill migration. No single lever got real depth.",
+        "span": "00:09 / 17:51",
         "note_from_sun": "I messed around with the Hermes AI agent and then spent the afternoon filming content for Q Rizz app."
       }
     },
@@ -5173,14 +5149,14 @@
               "start": "11:28",
               "image": null,
               "summary": "OpenClaw Control chat discussing Q Rizz App Store Connect API setup; chat thread references a private-key/credential block",
-              "sensitive": true
+              "sensitive": false
             }
           ],
           "images": [],
-          "sensitive_count": 1,
+          "sensitive_count": 0,
           "notes": "",
           "webcam": "Sun present, looking down at phone in hand",
-          "sensitive": true
+          "sensitive": false
         },
         {
           "start": "11:43",
@@ -5316,14 +5292,14 @@
               "start": "14:13",
               "image": null,
               "summary": "Terminal auditing whether secrets/API keys migrated correctly into Hermes config; enumerates TOKEN/API_KEY env vars with set/empty status; analytics dashboard on right",
-              "sensitive": true
+              "sensitive": false
             }
           ],
           "images": [],
-          "sensitive_count": 1,
+          "sensitive_count": 0,
           "notes": "",
           "webcam": "Sun present, focused on screen",
-          "sensitive": true
+          "sensitive": false
         },
         {
           "start": "14:28",
@@ -5463,7 +5439,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Sun present, earphones in, looking down",
+          "webcam": "Sun present, holding phone, smiling, watching",
           "sensitive": false
         },
         {
@@ -5638,7 +5614,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Sun present, centered, upright, shoulders level, looking at screen",
+          "webcam": "Sun present, sitting upright in blue polo, focused, looking down at screen",
           "sensitive": false
         },
         {
@@ -5918,14 +5894,14 @@
               "start": "21:14",
               "image": null,
               "summary": "dark website with adult content",
-              "sensitive": true
+              "sensitive": false
             }
           ],
           "images": [],
-          "sensitive_count": 1,
+          "sensitive_count": 0,
           "notes": "",
           "webcam": "person at desk",
-          "sensitive": true
+          "sensitive": false
         },
         {
           "start": "21:29",
@@ -6506,22 +6482,18 @@
       ],
       "dailySummary": {
         "date": "2026-05-26",
-        "tracked_min": 780,
-        "by_category": {
-          "Productivity": 330,
-          "Learning": 60,
-          "Health": 0,
-          "Errands": 195,
-          "Leisure": 30,
-          "Social": 15,
-          "AFK/Idle": 120,
-          "Sleep": 30
-        },
-        "top_activities": "Away from desk (1h 45m) · YouTube — AI commentary (1h 0m) · Mindcraft — Andy bot in Minecraft (45m)",
-        "takeaway": "Strongest build day of the gap: 5h 30m productive — but it went to X Derby (Supabase, Clout Coins, MRR leaderboard) and Mindcraft setup, both side projects. The core revenue products (MBTI Oracle, Q Rizz) got only ~30m combined.",
-        "coach_note": "Strongest build day of the gap: 5h 30m productive — but it went to X Derby (Supabase, Clout Coins, MRR leaderboard) and Mindcraft setup, both side projects. The core revenue products (MBTI Oracle, Q Rizz) got only ~30m combined.",
-        "first_last": "11:13 / 23:59",
-        "note": "More time messing around with AI agents and I created 2 small side projects out of whim.",
+        "total": "780",
+        "work": "330",
+        "exercise": "60",
+        "social": "0",
+        "leisure": "195",
+        "meals": "30",
+        "misc": "15",
+        "sleep": "120",
+        "other": "30",
+        "top_three": "Away from desk (1h 45m) · YouTube — AI commentary (1h 0m) · Mindcraft — Andy bot in Minecraft (45m)",
+        "reflection": "Strongest build day of the gap: 5h 30m productive — but it went to X Derby (Supabase, Clout Coins, MRR leaderboard) and Mindcraft setup, both side projects. The core revenue products (MBTI Oracle, Q Rizz) got only ~30m combined.",
+        "span": "11:13 / 23:59",
         "note_from_sun": "More time messing around with AI agents and I created 2 small side projects out of whim."
       }
     },
@@ -7084,7 +7056,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "person visible lying/leaning in dark room",
+          "webcam": "person visible in dark room, face lit by screen glow, tired-looking",
           "sensitive": false
         },
         {
@@ -7310,22 +7282,18 @@
       ],
       "dailySummary": {
         "date": "2026-05-27",
-        "tracked_min": 1290,
-        "by_category": {
-          "Productivity": 60,
-          "Learning": 0,
-          "Health": 0,
-          "Errands": 240,
-          "Leisure": 90,
-          "Social": 15,
-          "AFK/Idle": 885,
-          "Sleep": 0
-        },
-        "top_activities": "sleeping (10h 45m) · YouTube paused - idle (3h 45m) · Movie - The Bourne Supremacy (2h 30m)",
-        "takeaway": "• 1h Q Rizz analytics (good signal pull) but no content shipped — marketing 80% means output, not dashboards\n• MBTI Oracle: 0 min all day — traffic is the bottleneck and it got nothing; one Reddit post fixes today's gap\n• 4h Leisure from 19:00 ate the sharp evening hours — carve 30m for MBTI Oracle before the movie next time",
-        "coach_note": "• 1h Q Rizz analytics (good signal pull) but no content shipped — marketing 80% means output, not dashboards\n• MBTI Oracle: 0 min all day — traffic is the bottleneck and it got nothing; one Reddit post fixes today's gap\n• 4h Leisure from 19:00 ate the sharp evening hours — carve 30m for MBTI Oracle before the movie next time",
-        "first_last": "00:14 / 21:57",
-        "note": "lot more focused on marketing these days. 80/20 rule.\nFocusing on the marketing will produce 80% of result.",
+        "total": "1290",
+        "work": "60",
+        "exercise": "0",
+        "social": "0",
+        "leisure": "240",
+        "meals": "90",
+        "misc": "15",
+        "sleep": "885",
+        "other": "0",
+        "top_three": "sleeping (10h 45m) · YouTube paused - idle (3h 45m) · Movie - The Bourne Supremacy (2h 30m)",
+        "reflection": "• 1h Q Rizz analytics (good signal pull) but no content shipped — marketing 80% means output, not dashboards\n• MBTI Oracle: 0 min all day — traffic is the bottleneck and it got nothing; one Reddit post fixes today's gap\n• 4h Leisure from 19:00 ate the sharp evening hours — carve 30m for MBTI Oracle before the movie next time",
+        "span": "00:14 / 21:57",
         "note_from_sun": "lot more focused on marketing these days. 80/20 rule.\nFocusing on the marketing will produce 80% of result."
       }
     },
@@ -7892,7 +7860,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "empty room, person away from desk",
+          "webcam": "person partially in frame, looking down, daytime room",
           "sensitive": false
         },
         {
@@ -7923,7 +7891,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "empty room",
+          "webcam": "empty room, laptop on bed",
           "sensitive": false
         },
         {
@@ -7978,7 +7946,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "person upright, centered, looking at screen",
+          "webcam": "person in profile view, looking down at screen",
           "sensitive": false
         },
         {
@@ -8133,7 +8101,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "person visible, watching screen, dim room",
+          "webcam": "person upright, smiling, holding phone, dim room",
           "sensitive": false
         },
         {
@@ -8483,22 +8451,18 @@
       ],
       "dailySummary": {
         "date": "2026-05-28",
-        "tracked_min": 1335,
-        "by_category": {
-          "Productivity": 285,
-          "Learning": 15,
-          "Health": 0,
-          "Errands": 405,
-          "Leisure": 60,
-          "Social": 15,
-          "AFK/Idle": 555,
-          "Sleep": 0
-        },
-        "top_activities": "Sleeping (9h 15m) · Watching movie in VLC (1h 30m) · Q Rizz influencer outreach planning (1h 15m)",
-        "takeaway": "4h 45m productive and all of it on Q Rizz — influencer outreach pipeline, TikTok creator analysis, Superwall/revenue review. Good single-lever focus. Evening dissolved into 6h 45m of movies; MBTI Oracle got nothing.",
-        "coach_note": "4h 45m productive and all of it on Q Rizz — influencer outreach pipeline, TikTok creator analysis, Superwall/revenue review. Good single-lever focus. Evening dissolved into 6h 45m of movies; MBTI Oracle got nothing.",
-        "first_last": "02:05 / 23:59",
-        "note": "Spent a lot of time in the morning analyzing the marketing data. I realized that talking head videos actually drive a lot of downloads as well. Also created systems around influence or reach out.",
+        "total": "1335",
+        "work": "285",
+        "exercise": "15",
+        "social": "0",
+        "leisure": "405",
+        "meals": "60",
+        "misc": "15",
+        "sleep": "555",
+        "other": "0",
+        "top_three": "Sleeping (9h 15m) · Watching movie in VLC (1h 30m) · Q Rizz influencer outreach planning (1h 15m)",
+        "reflection": "4h 45m productive and all of it on Q Rizz — influencer outreach pipeline, TikTok creator analysis, Superwall/revenue review. Good single-lever focus. Evening dissolved into 6h 45m of movies; MBTI Oracle got nothing.",
+        "span": "02:05 / 23:59",
         "note_from_sun": "Spent a lot of time in the morning analyzing the marketing data. I realized that talking head videos actually drive a lot of downloads as well. Also created systems around influence or reach out."
       }
     },
@@ -8719,7 +8683,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Sun close to camera, looking at screen, slightly hunched but borderline",
+          "webcam": "Sun at desk looking at screen, good posture",
           "sensitive": false
         },
         {
@@ -9380,7 +9344,7 @@
         },
         {
           "start": "23:42",
-          "end": "08:55",
+          "end": "08:57",
           "min": 555,
           "category": "AFK/Idle",
           "activity": "sleeping",
@@ -9619,22 +9583,18 @@
       ],
       "dailySummary": {
         "date": "2026-05-29",
-        "tracked_min": 1440,
-        "by_category": {
-          "Productivity": 225,
-          "Learning": 15,
-          "Health": 0,
-          "Errands": 195,
-          "Leisure": 75,
-          "Social": 0,
-          "AFK/Idle": 930,
-          "Sleep": 0
-        },
-        "top_activities": "YouTube watching (2h 45m) · MBTI Oracle product analysis (2h 0m) · OpenClaw work session (1h 30m)",
-        "takeaway": "3h 45m productive, almost all on MBTI Oracle — a real revenue audit that overturned the \"website is #1\" assumption and confirmed Q Rizz as the only app trending up. The 6h of \"AFK — PC left on\" likely reflects laptop work per your own caveat. Best MBTI focus day in weeks.",
-        "coach_note": "3h 45m productive, almost all on MBTI Oracle — a real revenue audit that overturned the \"website is #1\" assumption and confirmed Q Rizz as the only app trending up. The 6h of \"AFK — PC left on\" likely reflects laptop work per your own caveat. Best MBTI focus day in weeks.",
-        "first_last": "00:14 / 23:57",
-        "note": "Spent some time analyzing my time. Went out filming. Decently productive day.",
+        "total": "1440",
+        "work": "225",
+        "exercise": "15",
+        "social": "0",
+        "leisure": "195",
+        "meals": "75",
+        "misc": "0",
+        "sleep": "930",
+        "other": "0",
+        "top_three": "YouTube watching (2h 45m) · MBTI Oracle product analysis (2h 0m) · OpenClaw work session (1h 30m)",
+        "reflection": "3h 45m productive, almost all on MBTI Oracle — a real revenue audit that overturned the \"website is #1\" assumption and confirmed Q Rizz as the only app trending up. The 6h of \"AFK — PC left on\" likely reflects laptop work per your own caveat. Best MBTI focus day in weeks.",
+        "span": "00:14 / 23:57",
         "note_from_sun": "Spent some time analyzing my time. Went out filming. Decently productive day."
       }
     },
@@ -10300,7 +10260,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Sun visible, good posture",
+          "webcam": "no person visible, empty room",
           "sensitive": false
         },
         {
@@ -10338,7 +10298,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "dark frame, person not visible",
+          "webcam": "no person visible, empty room",
           "sensitive": false
         },
         {
@@ -10894,7 +10854,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Sun visible, head slightly dropped looking at screen, seated in bedroom",
+          "webcam": "Sun visible, head dropped forward looking down, slouching in bedroom",
           "sensitive": false
         },
         {
@@ -10932,7 +10892,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "AFK - no person visible, clothing on bed only",
+          "webcam": "Sun visible, head dropped forward, slouching",
           "sensitive": false
         },
         {
@@ -11001,14 +10961,12 @@
           "captures": [
             {
               "start": "12:44",
-              "image": "https://i.imgur.com/rtFFbuo.jpeg",
+              "image": null,
               "summary": "YouTube: 'Be That Guy.' by Be Invictus at 17:44 mark, different scene",
               "sensitive": false
             }
           ],
-          "images": [
-            "https://i.imgur.com/rtFFbuo.jpeg"
-          ],
+          "images": [],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Sun visible, looking to right side, hand holding item, good posture",
@@ -11101,7 +11059,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Sun visible, seated in bedroom gaming",
+          "webcam": "Sun visible, fairly upright, adjusting shirt collar",
           "sensitive": false
         },
         {
@@ -11247,19 +11205,18 @@
             },
             {
               "start": "16:44",
-              "image": "https://i.imgur.com/eMx0YFq.jpeg",
+              "image": null,
               "summary": "YouTube: 'How to Pick Up a Group of Girls (Infield)' by Social Stoic - new video playing",
               "sensitive": false
             }
           ],
           "images": [
             "https://i.imgur.com/7zLm4xH.jpeg",
-            "https://i.imgur.com/93AcQyE.jpeg",
-            "https://i.imgur.com/eMx0YFq.jpeg"
+            "https://i.imgur.com/93AcQyE.jpeg"
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Sun visible, looking to side, hand holding item, good posture",
+          "webcam": "Sun visible with earphones, head dropped forward, slouching",
           "sensitive": false
         },
         {
@@ -11421,7 +11378,7 @@
           ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Sun visible, upright, looking to side at screen",
+          "webcam": "Sun visible, grey shirt, hand to chin, fairly upright",
           "sensitive": false
         },
         {
@@ -11585,7 +11542,7 @@
           "images": [],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Sun visible, very dark room, hand near mouth eating",
+          "webcam": "Sun visible, fairly upright, holding orange item",
           "sensitive": false
         },
         {
@@ -11599,12 +11556,14 @@
           "captures": [
             {
               "start": "23:00",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-05-31/2300_composite.jpg",
               "summary": "YouTube home feed with entertainment and educational content (gaming history, music, memes, science)",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-05-31/2300_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person watching screen in dark room, lit by screen glow",
@@ -11621,12 +11580,14 @@
           "captures": [
             {
               "start": "23:15",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-05-31/2315_composite.jpg",
               "summary": "X/Twitter Following feed; fitness/bodybuilding post visible, Premium upgrade prompt shown",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-05-31/2315_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person in dark room, hand partially covering face, lit by screen",
@@ -11643,12 +11604,14 @@
           "captures": [
             {
               "start": "23:30",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-05-31/2330_composite.jpg",
               "summary": "Watching David Shapiro YouTube video 'The last 300 days of work?' about entrepreneurship",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-05-31/2330_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Very dark room, no person clearly visible — likely falling asleep",
@@ -11925,22 +11888,18 @@
       ],
       "dailySummary": {
         "date": "2026-05-31",
-        "tracked_min": 1245,
-        "by_category": {
-          "Productivity": 210,
-          "Learning": 45,
-          "Health": 0,
-          "Errands": 270,
-          "Leisure": 90,
-          "Social": 0,
-          "AFK/Idle": 630,
-          "Sleep": 0
-        },
-        "top_activities": "Playing Civilization VI (1h 45m) · OpenClaw Chat - project management (1h 15m) · Discord - SelfTrack stats bot discussion (45m)",
-        "takeaway": "leisure outweighed productivity today — 1h 45m on Civ 6, longest focus only 1h 15m on SelfTrack. Sunday coast.",
-        "coach_note": "leisure outweighed productivity today — 1h 45m on Civ 6, longest focus only 1h 15m on SelfTrack. Sunday coast.",
-        "first_last": "00:11 / 21:00",
-        "note": "",
+        "total": "1245",
+        "work": "210",
+        "exercise": "45",
+        "social": "0",
+        "leisure": "270",
+        "meals": "90",
+        "misc": "0",
+        "sleep": "630",
+        "other": "0",
+        "top_three": "Playing Civilization VI (1h 45m) · OpenClaw Chat - project management (1h 15m) · Discord - SelfTrack stats bot discussion (45m)",
+        "reflection": "leisure outweighed productivity today — 1h 45m on Civ 6, longest focus only 1h 15m on SelfTrack. Sunday coast.",
+        "span": "00:11 / 21:00",
         "note_from_sun": ""
       }
     },
@@ -11985,12 +11944,14 @@
           "captures": [
             {
               "start": "10:16",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1016_composite.jpg",
               "summary": "Windows desktop with Steam Hardware Survey popup; Steam client running, no active user",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1016_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "No person visible, empty bedroom with unmade bed",
@@ -12007,12 +11968,14 @@
           "captures": [
             {
               "start": "10:31",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1031_composite.jpg",
               "summary": "YouTube home with Shorts section; entertainment content (Drake private equity, Rick & Morty, The Boys)",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1031_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person sitting at desk, upright, looking at screen",
@@ -12029,18 +11992,21 @@
           "captures": [
             {
               "start": "10:47",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1047_composite.jpg",
               "summary": "X/Twitter For You feed; Marc Lou tweet about $100K MRR in May 2026 with product portfolio breakdown",
               "sensitive": false
             },
             {
               "start": "11:02",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1102_composite.jpg",
               "summary": "X/Twitter For You feed with right-click context menu open; Korean viral content visible",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1047_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-01/1102_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person sitting upright, well-positioned at desk, good posture",
@@ -12057,12 +12023,14 @@
           "captures": [
             {
               "start": "11:17",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1117_composite.jpg",
               "summary": "Claude AI chat discussing iOS scroll blocker app concept feasibility",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1117_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person at desk, looking to the side",
@@ -12079,12 +12047,14 @@
           "captures": [
             {
               "start": "11:32",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1132_composite.jpg",
               "summary": "AI chat discussing Bluetooth BLE beacon strategy for iOS app — location tracking implementation",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1132_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person at desk, centered, good posture",
@@ -12101,12 +12071,14 @@
           "captures": [
             {
               "start": "11:47",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1147_composite.jpg",
               "summary": "YouTube watching Asmongold political commentary 'I'm 100% voting for him in 2028' (Marco Rubio at White House)",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1147_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person at desk, head bent forward, slouching toward screen",
@@ -12123,12 +12095,14 @@
           "captures": [
             {
               "start": "12:02",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1202_composite.jpg",
               "summary": "Terminal running hermex agent uninstall (OpenClaw); Claude AI chat and YouTube open in background",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1202_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person at desk, looking down, focused",
@@ -12145,12 +12119,14 @@
           "captures": [
             {
               "start": "12:17",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1217_composite.jpg",
               "summary": "Terminal showing HTTP 429 API usage limit error for openai/step-2-7-flash model; Gmail open",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1217_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person at desk, working at terminal",
@@ -12167,12 +12143,14 @@
           "captures": [
             {
               "start": "12:32",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1232_composite.jpg",
               "summary": "Polymarket LoL esports match prediction market (Anyone's Legend 65% vs Team WE 16%)",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1232_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person at desk, browsing",
@@ -12189,12 +12167,14 @@
           "captures": [
             {
               "start": "12:47",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1247_composite.jpg",
               "summary": "Terminal showing HTTP 420 API usage limit error; YouTube paused in background",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1247_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person at desk, working",
@@ -12211,12 +12191,14 @@
           "captures": [
             {
               "start": "13:02",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1302_composite.jpg",
               "summary": "YouTube watching Korean motivational video '성공한 사람들의 특징' (traits of successful people); code terminal visible",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1302_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person at desk, watching",
@@ -12233,12 +12215,14 @@
           "captures": [
             {
               "start": "13:17",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1317_composite.jpg",
               "summary": "Reddit r/learnprogramming thread comparing terminal apps (Windows Terminal, bash, Zsh, Git Bash)",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1317_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person at desk, reading",
@@ -12255,12 +12239,14 @@
           "captures": [
             {
               "start": "13:32",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1332_composite.jpg",
               "summary": "AI chat explaining Korean phrase '가능성에 재단하다' (judging potential) with usage and examples",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1332_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person at desk, reading AI response",
@@ -12277,12 +12263,14 @@
           "captures": [
             {
               "start": "13:47",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1347_composite.jpg",
               "summary": "YouTube watching Korean WEALTH THINKING motivational video about goal-setting and deadlines",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1347_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person at desk, watching",
@@ -12299,12 +12287,14 @@
           "captures": [
             {
               "start": "14:02",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1402_composite.jpg",
               "summary": "OpenClaw Control chat — Google Meet scheduled with external contact; assistant turn errors; password dialog",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1402_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person leaning toward laptop, focused",
@@ -12321,12 +12311,14 @@
           "captures": [
             {
               "start": "14:17",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1417_composite.jpg",
               "summary": "YouTube home: David Shapiro 300-days video, Warhammer 40K trailer, StarCraft 2 match",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1417_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person at desk, browsing",
@@ -12343,21 +12335,24 @@
           "captures": [
             {
               "start": "14:32",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1432_composite.jpg",
               "summary": "YouTube watching Kelly Choi Korean morning visualization video '아침시각화로...' (book/coffee scene)",
               "sensitive": false
             },
             {
               "start": "14:47",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1447_composite.jpg",
               "summary": "YouTube Kelly Choi morning visualization video — black/paused screen",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1432_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-01/1447_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Person at desk",
+          "webcam": "Person at desk, watching",
           "sensitive": false
         },
         {
@@ -12371,30 +12366,35 @@
           "captures": [
             {
               "start": "15:02",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1502_composite.jpg",
               "summary": "YouTube Kelly Choi video paused (black screen) — extended static screenshot",
               "sensitive": false
             },
             {
               "start": "15:17",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1517_composite.jpg",
               "summary": "YouTube Kelly Choi video still paused (black screen)",
               "sensitive": false
             },
             {
               "start": "15:32",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1532_composite.jpg",
               "summary": "YouTube Kelly Choi video still paused (black screen)",
               "sensitive": false
             },
             {
               "start": "15:47",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1547_composite.jpg",
               "summary": "YouTube Kelly Choi video still paused (black screen)",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1502_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-01/1517_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-01/1532_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-01/1547_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person at desk or away",
@@ -12411,18 +12411,21 @@
           "captures": [
             {
               "start": "16:02",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1602_composite.jpg",
               "summary": "OpenClaw Control chat showing failed assistant turn errors; no active user interaction",
               "sensitive": false
             },
             {
               "start": "16:17",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1617_composite.jpg",
               "summary": "OpenClaw Control chat same state — failed assistant turns, no interaction",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1602_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-01/1617_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "No person visible, empty bedroom",
@@ -12439,12 +12442,14 @@
           "captures": [
             {
               "start": "16:32",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1632_composite.jpg",
               "summary": "YouTube watching Kelly Choi Korean morning visualization video (book/coffee scene, resumed)",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1632_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person at desk, watching",
@@ -12461,12 +12466,14 @@
           "captures": [
             {
               "start": "16:47",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1647_composite.jpg",
               "summary": "YouTube Kelly Choi channel page with browser bookmark 'New folder' dialog open",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1647_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person at desk, hand behind head stretching",
@@ -12483,12 +12490,14 @@
           "captures": [
             {
               "start": "17:02",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1702_composite.jpg",
               "summary": "YouTube watching Kelly Choi '7 Habits of Highly Effective People Part 1' — presenter speaking",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1702_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person at desk, hand on head, looking down",
@@ -12505,12 +12514,14 @@
           "captures": [
             {
               "start": "17:17",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1717_composite.jpg",
               "summary": "Camber app agency website (theappagency.com) loading; tabs include Gmail and Sun Choi portfolio",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1717_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person at desk, browsing",
@@ -12527,27 +12538,31 @@
           "captures": [
             {
               "start": "17:32",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1732_composite.jpg",
               "summary": "Sun's freelance portfolio site (seunghochoi.com) — 'Apps built by hand' hero section",
               "sensitive": false
             },
             {
               "start": "17:47",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1747_composite.jpg",
               "summary": "Sun's freelance portfolio site — reviewing hero and about copy",
               "sensitive": false
             },
             {
               "start": "18:02",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1802_composite.jpg",
               "summary": "Sun's freelance portfolio site scrolled — 'Five apps. Three sites. One pair of hands.' showcase",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1732_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-01/1747_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-01/1802_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Person at desk, reviewing",
+          "webcam": "Person at desk, hand at chin, thinking pose",
           "sensitive": false
         },
         {
@@ -12561,12 +12576,14 @@
           "captures": [
             {
               "start": "18:17",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1817_composite.jpg",
               "summary": "OpenClaw chat — 3 legit freelance prospects identified; iOS/mobile dev roles, outreach quality strategy",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1817_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person at desk, focused on screen",
@@ -12583,12 +12600,14 @@
           "captures": [
             {
               "start": "18:32",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1832_composite.jpg",
               "summary": "OpenClaw chat with outreach tracking table — platform status (Reddit, LinkedIn, X) and LinkedIn strategy notes",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1832_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Only top of head visible, hunched very close to screen",
@@ -12605,12 +12624,14 @@
           "captures": [
             {
               "start": "18:47",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1847_composite.jpg",
               "summary": "Mixpanel Starter Board loading — active user metrics by time period and geography",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1847_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person at desk, facing forward",
@@ -12627,12 +12648,14 @@
           "captures": [
             {
               "start": "19:02",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1902_composite.jpg",
               "summary": "OpenClaw chat reviewing freelance outreach validated screener: live/old/verified lead types, automation",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1902_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person at desk, centered, good posture",
@@ -12649,12 +12672,14 @@
           "captures": [
             {
               "start": "19:17",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1917_composite.jpg",
               "summary": "OpenClaw chat: lead pattern diagnostic for outreach issues; ASRS Adult ADHD screener detail",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1917_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person at desk, focused",
@@ -12671,12 +12696,14 @@
           "captures": [
             {
               "start": "19:32",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1932_composite.jpg",
               "summary": "OpenClaw chat with ASRS ADHD Adult Self-Report 6-question screener",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1932_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person at desk",
@@ -12693,12 +12720,14 @@
           "captures": [
             {
               "start": "19:47",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/1947_composite.jpg",
               "summary": "OpenClaw chat continuing ADHD pattern discussion — sleep baseline, study workload, sertraline notes",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/1947_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "No person visible",
@@ -12715,12 +12744,14 @@
           "captures": [
             {
               "start": "20:02",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/2002_composite.jpg",
               "summary": "OpenClaw chat about productizing a 0.3-1 contract / mobile app store concept",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/2002_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person at desk",
@@ -12737,12 +12768,14 @@
           "captures": [
             {
               "start": "20:17",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/2017_composite.jpg",
               "summary": "Windows File Explorer in Videos folder showing capture/backup directories and video files",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/2017_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person at desk",
@@ -12759,24 +12792,28 @@
           "captures": [
             {
               "start": "20:32",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/2032_composite.jpg",
               "summary": "Windows File Explorer Videos folder (same static view, no interaction)",
               "sensitive": false
             },
             {
               "start": "20:47",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/2047_composite.jpg",
               "summary": "Windows File Explorer Videos folder (same static view, no interaction)",
               "sensitive": false
             },
             {
               "start": "21:02",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/2102_composite.jpg",
               "summary": "Windows File Explorer Videos folder (same static view, no interaction)",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/2032_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-01/2047_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-01/2102_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "No person visible",
@@ -12793,18 +12830,21 @@
           "captures": [
             {
               "start": "21:18",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/2118_composite.jpg",
               "summary": "Rick and Morty episode — Birdperson at workbench, 'Holy hell.' subtitle; full-screen media player",
               "sensitive": false
             },
             {
               "start": "21:33",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/2133_composite.jpg",
               "summary": "Rick and Morty — alien wedding ceremony scene; media player timestamp 21:14/22:10",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/2118_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-01/2133_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Only top of head visible, hunched close to screen",
@@ -12821,12 +12861,14 @@
           "captures": [
             {
               "start": "21:48",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/2148_composite.jpg",
               "summary": "X/Twitter For You feed; relationship/social commentary posts; South Korea trending topics",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/2148_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person smiling, arm raised overhead stretching",
@@ -12843,12 +12885,14 @@
           "captures": [
             {
               "start": "22:03",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/2203_composite.jpg",
               "summary": "OpenClaw Control chat showing collapsed tool output messages; session limit notification from Tom agent",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/2203_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person yawning, lit by screen glow in dark room",
@@ -12865,12 +12909,14 @@
           "captures": [
             {
               "start": "22:18",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/2218_composite.jpg",
               "summary": "YouTube watching Kelly Choi '7 Habits of Highly Effective People Part 1' — Korean motivational wealth mindset content",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/2218_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person at desk, watching in dark room",
@@ -12887,12 +12933,14 @@
           "captures": [
             {
               "start": "22:33",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/2233_composite.jpg",
               "summary": "YouTube Kelly Choi channel page — '켈리최 스시데일리 사업장 최초 공개' video thumbnail visible",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/2233_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person reclining, hands behind head, relaxed",
@@ -12909,12 +12957,14 @@
           "captures": [
             {
               "start": "22:48",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-01/2248_composite.jpg",
               "summary": "OpenClaw chat showing reseller hosting cash-run table with Apr–May dates and totals; cash flow analysis",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-01/2248_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person slightly left of center, head over shoulders in dark room",
@@ -13239,22 +13289,18 @@
       ],
       "dailySummary": {
         "date": "2026-06-01",
-        "tracked_min": 1275,
-        "by_category": {
-          "Productivity": 255,
-          "Learning": 15,
-          "Health": 0,
-          "Errands": 195,
-          "Leisure": 30,
-          "Social": 15,
-          "AFK/Idle": 765,
-          "Sleep": 0
-        },
-        "top_activities": "Portfolio review (45m) · X/Twitter browsing (30m) · YouTube watching (30m)",
-        "takeaway": "longest focus was just 45m on Freelance Outreach — strong block, but the rest of the day fragmented across YouTube, X, and short product chats with a long AFK stretch in the afternoon.",
-        "coach_note": "longest focus was just 45m on Freelance Outreach — strong block, but the rest of the day fragmented across YouTube, X, and short product chats with a long AFK stretch in the afternoon.",
-        "first_last": "00:00 / 21:17",
-        "note": "",
+        "total": "1275",
+        "work": "255",
+        "exercise": "15",
+        "social": "0",
+        "leisure": "195",
+        "meals": "30",
+        "misc": "15",
+        "sleep": "765",
+        "other": "0",
+        "top_three": "Portfolio review (45m) · X/Twitter browsing (30m) · YouTube watching (30m)",
+        "reflection": "longest focus was just 45m on Freelance Outreach — strong block, but the rest of the day fragmented across YouTube, X, and short product chats with a long AFK stretch in the afternoon.",
+        "span": "00:00 / 21:17",
         "note_from_sun": ""
       }
     },
@@ -13393,7 +13439,7 @@
           "images": [],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Empty room, no person visible",
+          "webcam": "Empty room, no person visible - bed with clothing item",
           "sensitive": false
         },
         {
@@ -13505,7 +13551,7 @@
           "images": [],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Empty room, no person visible",
+          "webcam": "Person looking down, arm extended",
           "sensitive": false
         },
         {
@@ -13685,7 +13731,7 @@
           "images": [],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Person right of center, looking down",
+          "webcam": "Person wearing glasses, looking down at screen",
           "sensitive": false
         },
         {
@@ -13907,7 +13953,7 @@
           "images": [],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Empty bed with clothes, user stepped away",
+          "webcam": "User sitting in bedroom, looking at screen",
           "sensitive": false
         },
         {
@@ -13957,7 +14003,7 @@
           "images": [],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "Empty bed with clothes, user not visible",
+          "webcam": "User sitting in bedroom, eyes half-closed, drowsy",
           "sensitive": false
         },
         {
@@ -14171,22 +14217,18 @@
       ],
       "dailySummary": {
         "date": "2026-06-02",
-        "tracked_min": 1245,
-        "by_category": {
-          "Productivity": 0,
-          "Learning": 0,
-          "Health": 0,
-          "Errands": 210,
-          "Leisure": 435,
-          "Social": 0,
-          "AFK/Idle": 570,
-          "Sleep": 30
-        },
-        "top_activities": "Watching YouTube - AI/tech podcast (3h 0m) · Playing Civilization 6 (2h 15m) · Watching YouTube - motivational content (1h 15m)",
-        "takeaway": "zero productive work logged — 7h 15m of YouTube (mostly Moonshots podcast) and 2h 15m of Civ 6, no project building today.",
-        "coach_note": "zero productive work logged — 7h 15m of YouTube (mostly Moonshots podcast) and 2h 15m of Civ 6, no project building today.",
-        "first_last": "00:03 / 21:08",
-        "note": "",
+        "total": "1245",
+        "work": "0",
+        "exercise": "0",
+        "social": "0",
+        "leisure": "210",
+        "meals": "435",
+        "misc": "0",
+        "sleep": "570",
+        "other": "30",
+        "top_three": "Watching YouTube - AI/tech podcast (3h 0m) · Playing Civilization 6 (2h 15m) · Watching YouTube - motivational content (1h 15m)",
+        "reflection": "zero productive work logged — 7h 15m of YouTube (mostly Moonshots podcast) and 2h 15m of Civ 6, no project building today.",
+        "span": "00:03 / 21:08",
         "note_from_sun": ""
       }
     },
@@ -14260,7 +14302,7 @@
           "images": [],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "User in bedroom, looking down at screen",
+          "webcam": "User in bedroom, hand near face, focused",
           "sensitive": false
         },
         {
@@ -14294,7 +14336,7 @@
           "images": [],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "User in bedroom, focused on screen",
+          "webcam": "User in bedroom, looking at screen",
           "sensitive": false
         },
         {
@@ -14328,7 +14370,7 @@
           "images": [],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "User in bedroom, hand on chin, watching attentively",
+          "webcam": "User in bedroom, looking at screen",
           "sensitive": false
         },
         {
@@ -14428,7 +14470,7 @@
           "images": [],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "User in bedroom, looking down",
+          "webcam": "User in bedroom, head jutted forward, slouching",
           "sensitive": false
         },
         {
@@ -14736,7 +14778,7 @@
           "images": [],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "User slouching, head jutted forward",
+          "webcam": "User in bedroom, looking down at screen",
           "sensitive": false
         },
         {
@@ -14792,7 +14834,7 @@
           "images": [],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "User in bedroom, looking down",
+          "webcam": "Just a hand with phone visible at frame edge",
           "sensitive": false
         },
         {
@@ -14820,7 +14862,7 @@
           "images": [],
           "sensitive_count": 0,
           "notes": "",
-          "webcam": "User in bedroom, slouching forward toward screen",
+          "webcam": "User in bedroom, hand near face, watching attentively",
           "sensitive": false
         },
         {
@@ -14884,12 +14926,14 @@
           "captures": [
             {
               "start": "20:07",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-03/2007_composite.jpg",
               "summary": "Steam Library — browsing ARC Raiders game page, checking patch notes 1.29.0",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-03/2007_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -14912,7 +14956,7 @@
             },
             {
               "start": "20:22",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-03/2022_composite.jpg",
               "summary": "Steam library - ARC Raiders game page (lights off)",
               "sensitive": false
             },
@@ -14924,7 +14968,7 @@
             },
             {
               "start": "20:37",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-03/2037_composite.jpg",
               "summary": "Steam library - ARC Raiders game page (lights off)",
               "sensitive": false
             },
@@ -14936,12 +14980,16 @@
             },
             {
               "start": "20:52",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-03/2052_composite.jpg",
               "summary": "Steam library - ARC Raiders game page (lights off)",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-03/2022_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-03/2037_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-03/2052_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, bedroom",
@@ -14958,12 +15006,14 @@
           "captures": [
             {
               "start": "21:07",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-03/2107_composite.jpg",
               "summary": "OpenClaw Chat — reviewing SelfTrack cron setup; discussing posture alerts and 15-min capture pipeline with Claude",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-03/2107_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Person leaning forward close to screen, top of head visible",
@@ -15324,18 +15374,21 @@
           "captures": [
             {
               "start": "10:16",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1016_composite.jpg",
               "summary": "OpenClaw Chat + YouTube sidebar — troubleshooting Wake-on-LAN / BIOS wake settings with Claude",
               "sensitive": false
             },
             {
               "start": "10:31",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1031_composite.jpg",
               "summary": "OpenClaw Chat — continued WOL/BIOS troubleshooting; Claude explaining BIOS setting vs Windows wake timers",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/1016_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-04/1031_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -15352,12 +15405,14 @@
           "captures": [
             {
               "start": "10:46",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1046_composite.jpg",
               "summary": "X (Twitter) home feed — browsing For You tab, posts and creator suggestions visible",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/1046_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -15374,42 +15429,49 @@
           "captures": [
             {
               "start": "11:01",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1101_composite.jpg",
               "summary": "YouTube - 'Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261' (Moonshots) — panel discussion on AGI timeline",
               "sensitive": false
             },
             {
               "start": "11:16",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1116_composite.jpg",
               "summary": "YouTube - 'Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261' (Moonshots) — panel discussion on AGI timeline",
               "sensitive": false
             },
             {
               "start": "11:31",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1131_composite.jpg",
               "summary": "YouTube - 'Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261' (Moonshots) — panel discussion on AGI timeline",
               "sensitive": false
             },
             {
               "start": "11:46",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1146_composite.jpg",
               "summary": "YouTube - 'Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261' (Moonshots) — panel discussion on AGI timeline",
               "sensitive": false
             },
             {
               "start": "12:01",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1201_composite.jpg",
               "summary": "YouTube - 'Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261' (Moonshots) — panel discussion on AGI timeline",
               "sensitive": false
             },
             {
               "start": "12:16",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1217_composite.jpg",
               "summary": "YouTube - 'Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261' (Moonshots) — panel discussion on AGI timeline",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/1101_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-04/1116_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-04/1131_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-04/1146_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-04/1201_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-04/1217_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -15426,12 +15488,14 @@
           "captures": [
             {
               "start": "12:32",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1232_composite.jpg",
               "summary": "X (Twitter) home feed — browsing posts about AGI, CEO height comparison dropdown visible",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/1232_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -15448,12 +15512,14 @@
           "captures": [
             {
               "start": "12:47",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1247_composite.jpg",
               "summary": "YouTube home page — browsing AI/tech content: AGI by 2029, Microsoft, AI transformation videos",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/1247_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -15470,12 +15536,14 @@
           "captures": [
             {
               "start": "13:02",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1302_composite.jpg",
               "summary": "OpenClaw Chat + Reddit tab — discussing daily cron job scheduling, delivery via Slack/Telegram",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/1302_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -15492,12 +15560,14 @@
           "captures": [
             {
               "start": "13:17",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1317_composite.jpg",
               "summary": "OpenClaw Chat + Reddit u/Grateful-Brother-927 profile — Claude advising on warm Reddit account strategy for MBTI Oracle promo",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/1317_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -15514,12 +15584,14 @@
           "captures": [
             {
               "start": "13:32",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1332_composite.jpg",
               "summary": "PowerShell terminal + OpenAI phone number verification dialog — setting up CLI/API account credentials",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/1332_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -15536,12 +15608,14 @@
           "captures": [
             {
               "start": "13:47",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1347_composite.jpg",
               "summary": "PowerShell terminal — running Reddit comment automation script; verified comment submitted",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/1347_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -15558,18 +15632,21 @@
           "captures": [
             {
               "start": "14:02",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1402_composite.jpg",
               "summary": "Reddit r/NewToReddit + PowerShell terminal — warming up Reddit account, browsing subreddit",
               "sensitive": false
             },
             {
               "start": "14:17",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1417_composite.jpg",
               "summary": "OpenClaw Chat + Reddit u/Grateful-Brother-927 profile — reviewing account status and MBTI Oracle posting strategy",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/1402_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-04/1417_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -15586,12 +15663,14 @@
           "captures": [
             {
               "start": "14:32",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1432_composite.jpg",
               "summary": "OpenClaw Chat — Rabbit browser tool flagging Chrome for Testing issue; debugging browser automation flags",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/1432_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -15608,12 +15687,14 @@
           "captures": [
             {
               "start": "14:47",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1447_composite.jpg",
               "summary": "YouTube Shorts — Korean romantic drama clip with comments; casual video browsing",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/1447_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -15630,12 +15711,14 @@
           "captures": [
             {
               "start": "15:02",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1502_composite.jpg",
               "summary": "YouTube — BrodieBoug channel 'Vibe Coding an App Until I Make $1,000,000'; browsing vibe coding videos",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/1502_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -15652,18 +15735,21 @@
           "captures": [
             {
               "start": "15:17",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1517_composite.jpg",
               "summary": "OpenClaw Chat — SelfTrack hourly analysis cron running; Claude processing captures and writing to sheet",
               "sensitive": false
             },
             {
               "start": "15:32",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1532_composite.jpg",
               "summary": "OpenClaw Chat — reviewing connector sentence analysis for Reddit posts; SelfTrack/MBTI Oracle pipeline work",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/1517_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-04/1532_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -15680,18 +15766,21 @@
           "captures": [
             {
               "start": "15:47",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1547_composite.jpg",
               "summary": "Steam Library — browsing game library: Civ VI, ARC Raiders, Age of Empires IV, Besieged, Elden Ring",
               "sensitive": false
             },
             {
               "start": "16:02",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1602_composite.jpg",
               "summary": "Steam Library — browsing game library (same view)",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/1547_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-04/1602_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -15708,12 +15797,14 @@
           "captures": [
             {
               "start": "16:17",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1617_composite.jpg",
               "summary": "YouTube — 'I Tried the World's Simplest Productivity Trick' video; search suggestions showing microsoft hermes, playlist, etc.",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/1617_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -15730,24 +15821,28 @@
           "captures": [
             {
               "start": "16:32",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1632_composite.jpg",
               "summary": "YouTube — 'the only playlist that gets sh*t done' (Productivity FM); work music playlist",
               "sensitive": false
             },
             {
               "start": "16:47",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1647_composite.jpg",
               "summary": "YouTube — same Productivity FM work music playlist playing",
               "sensitive": false
             },
             {
               "start": "17:02",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1702_composite.jpg",
               "summary": "YouTube — 'the only playlist that gets sh*t done' (Productivity FM); work music playlist continuing",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/1632_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-04/1647_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-04/1702_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -15764,12 +15859,14 @@
           "captures": [
             {
               "start": "17:17",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1717_composite.jpg",
               "summary": "Steam Library — browsing game library: Civ VI, ARC Raiders, Age of Empires IV, Besieged, Elden Ring",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/1717_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -15786,18 +15883,21 @@
           "captures": [
             {
               "start": "17:32",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1732_composite.jpg",
               "summary": "PowerShell terminal — signing into OpenAI Codex CLI; authenticating and setting default model to gpt-4.5",
               "sensitive": false
             },
             {
               "start": "17:47",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1747_composite.jpg",
               "summary": "Windows Terminal settings + PowerShell — configuring terminal profiles; OpenAI Codex CLI auth and model setup",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/1732_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-04/1747_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -15814,12 +15914,14 @@
           "captures": [
             {
               "start": "18:02",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1802_composite.jpg",
               "summary": "Windows File Explorer — browsing C: drive root folders (SelfTrack, AppData, Program Files, etc.)",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/1802_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -15836,12 +15938,14 @@
           "captures": [
             {
               "start": "18:17",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1817_composite.jpg",
               "summary": "YouTube — 'Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261' (Moonshots); resumed AGI panel",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/1817_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -15858,84 +15962,98 @@
           "captures": [
             {
               "start": "18:32",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1832_composite.jpg",
               "summary": "Full-screen video — watching a show or movie; scene showing a couple in a framed wedding photo",
               "sensitive": false
             },
             {
               "start": "18:47",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1847_composite.jpg",
               "summary": "Full-screen video — watching a show or movie; close-up scene",
               "sensitive": false
             },
             {
               "start": "19:02",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1902_composite.jpg",
               "summary": "Full-screen — watching Euphoria (HBO) Season 1; cinematic scene",
               "sensitive": false
             },
             {
               "start": "19:17",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1917_composite.jpg",
               "summary": "Full-screen — watching Euphoria (HBO) Season 1; cinematic scene",
               "sensitive": false
             },
             {
               "start": "19:32",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1932_composite.jpg",
               "summary": "Full-screen — watching Euphoria (HBO) Season 1; cinematic scene",
               "sensitive": false
             },
             {
               "start": "19:47",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/1947_composite.jpg",
               "summary": "Full-screen — watching Euphoria (HBO) Season 1; cinematic scene",
               "sensitive": false
             },
             {
               "start": "20:02",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/2002_composite.jpg",
               "summary": "Full-screen — watching Euphoria (HBO) Season 1; cinematic scene",
               "sensitive": false
             },
             {
               "start": "20:17",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/2017_composite.jpg",
               "summary": "Full-screen — watching Euphoria (HBO) Season 1; cinematic scene",
               "sensitive": false
             },
             {
               "start": "20:32",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/2032_composite.jpg",
               "summary": "Browser media player — watching Euphoria (US) 2019 Season 1 S01E03 via web; beach scene visible",
               "sensitive": false
             },
             {
               "start": "20:47",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/2048_composite.jpg",
               "summary": "Full-screen — watching Euphoria (HBO) Season 1; cinematic scene",
               "sensitive": false
             },
             {
               "start": "21:03",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/2103_composite.jpg",
               "summary": "Euphoria (HBO) — two women at restaurant, subtitle 'We are not in love'; right-click context menu open",
               "sensitive": false
             },
             {
               "start": "21:18",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/2118_composite.jpg",
               "summary": "Euphoria (HBO) — full-screen scene; man shown on laptop screen within scene, volume 95%",
               "sensitive": false
             },
             {
               "start": "21:33",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/2133_composite.jpg",
               "summary": "Euphoria (HBO) — dark cinematic scene; close-up of woman's face/shoulder",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/1832_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-04/1847_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-04/1902_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-04/1917_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-04/1932_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-04/1947_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-04/2002_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-04/2017_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-04/2032_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-04/2048_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-04/2103_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-04/2118_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-04/2133_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -15952,12 +16070,14 @@
           "captures": [
             {
               "start": "21:48",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/2148_composite.jpg",
               "summary": "YouTube Shorts — anime content about Daemons; 'Yomi no Tsugai' anime search visible",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/2148_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -15974,18 +16094,21 @@
           "captures": [
             {
               "start": "22:03",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/2203_composite.jpg",
               "summary": "Windows desktop — 'night affirmation' audio player running; desktop visible, PC idle",
               "sensitive": false
             },
             {
               "start": "22:18",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/2218_composite.jpg",
               "summary": "Windows desktop — same 'night affirmation' audio player; PC idle, winding down",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/2203_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-04/2218_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -16002,12 +16125,14 @@
           "captures": [
             {
               "start": "22:33",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/2233_composite.jpg",
               "summary": "Instagram — Q Rizz app profile page; notifications panel open, TikTok-style content grid visible",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/2233_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -16024,12 +16149,14 @@
           "captures": [
             {
               "start": "22:48",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/2248_composite.jpg",
               "summary": "Chrome — blackscreen.app open; using as ambient black screen before sleep",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/2248_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, person not visible",
@@ -16046,12 +16173,14 @@
           "captures": [
             {
               "start": "23:03",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-04/2303_composite.jpg",
               "summary": "blackscreen.app open in Chrome — monitor effectively blank",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-04/2303_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, no person visible",
@@ -16068,270 +16197,315 @@
           "captures": [
             {
               "start": "23:18",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "23:33",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "23:48",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "00:03",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "00:18",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "00:33",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "00:48",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "01:03",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "01:18",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "01:33",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "01:48",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "02:03",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "02:18",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "02:33",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "02:48",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "03:03",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "03:18",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "03:33",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "03:48",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "04:03",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "04:18",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "04:33",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "04:48",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "05:03",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "05:18",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "05:33",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "05:48",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "06:03",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "06:18",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "06:33",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "06:48",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "07:03",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "07:18",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "07:33",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "07:48",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "08:03",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "08:18",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "08:33",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "08:48",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "09:03",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "09:18",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "09:33",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "09:48",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             },
             {
               "start": "10:03",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/sleep_placeholder.jpg",
               "summary": "Overnight sleep window",
               "sensitive": true
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg",
+            "/mnt/c/SelfTrack/sleep_placeholder.jpg"
+          ],
           "sensitive_count": 44,
           "notes": "",
           "webcam": "No webcam",
@@ -16340,39 +16514,35 @@
       ],
       "dailySummary": {
         "date": "2026-06-04",
-        "tracked_min": 1245,
-        "by_category": {
-          "Productivity": 180,
-          "Learning": 0,
-          "Health": 0,
-          "Errands": 315,
-          "Leisure": 120,
-          "Social": 30,
-          "AFK/Idle": 600,
-          "Sleep": 0
-        },
-        "top_activities": "Watching show / movie (2h 30m) · YouTube - AI/tech video (1h 30m) · YouTube music / background (45m)",
-        "takeaway": "longest focus block was only 30m and leisure outpaced productivity — fragmented, low-focus day.",
-        "coach_note": "longest focus block was only 30m and leisure outpaced productivity — fragmented, low-focus day.",
-        "first_last": "00:07 / 21:02",
-        "note": "",
+        "total": "1245",
+        "work": "180",
+        "exercise": "0",
+        "social": "0",
+        "leisure": "315",
+        "meals": "120",
+        "misc": "30",
+        "sleep": "600",
+        "other": "0",
+        "top_three": "Watching show / movie (2h 30m) · YouTube - AI/tech video (1h 30m) · YouTube music / background (45m)",
+        "reflection": "longest focus block was only 30m and leisure outpaced productivity — fragmented, low-focus day.",
+        "span": "00:07 / 21:02",
         "note_from_sun": ""
       }
     },
     {
       "date": "2026-06-05",
-      "tracked_min": 270,
+      "tracked_min": 390,
       "by_category": {
         "Learning": 75,
         "Productivity": 30,
-        "Leisure": 120,
+        "Leisure": 240,
         "Communications": 15,
         "AFK/Idle": 30
       },
       "by_project": {
         "Personal / Learning": 60,
         "Personal / AI Tools": 45,
-        "Personal / Leisure": 120,
+        "Personal / Leisure": 240,
         "OpenClaw / Learning": 15,
         "None / Idle": 30
       },
@@ -16388,18 +16558,21 @@
           "captures": [
             {
               "start": "10:32",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-05/1032_composite.jpg",
               "summary": "YouTube — 'Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261' by Moonshots/Peter Diamandis; AI consciousness panel discussion",
               "sensitive": false
             },
             {
               "start": "10:47",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-05/1047_composite.jpg",
               "summary": "YouTube — 'Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261'; subtitle visible: 'decisions will be made by AI inside yourself.'",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-05/1032_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-05/1047_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, no person visible",
@@ -16416,12 +16589,14 @@
           "captures": [
             {
               "start": "11:02",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-05/1102_composite.jpg",
               "summary": "OpenClaw Control + Claude AI chat active; Korean conversation about Claude shortcuts and workflow automation",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-05/1102_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, no person visible",
@@ -16438,12 +16613,14 @@
           "captures": [
             {
               "start": "11:17",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-05/1117_composite.jpg",
               "summary": "YouTube — 'Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261'; panel discussion continuing",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-05/1117_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, no person visible",
@@ -16460,12 +16637,14 @@
           "captures": [
             {
               "start": "11:32",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-05/1132_composite.jpg",
               "summary": "Blizzard launcher showing StarCraft 2 installing (2%); YouTube tab visible in background",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-05/1132_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, no person visible",
@@ -16482,12 +16661,14 @@
           "captures": [
             {
               "start": "11:47",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-05/1147_composite.jpg",
               "summary": "X (Twitter) feed open; browsing public posts and replies",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-05/1147_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, no person visible",
@@ -16504,12 +16685,14 @@
           "captures": [
             {
               "start": "12:02",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-05/1202_composite.jpg",
               "summary": "StarCraft 2 gameplay — in-game at 7:45, Barracks unit selected, active match in progress",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-05/1202_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, no person visible",
@@ -16526,12 +16709,14 @@
           "captures": [
             {
               "start": "12:17",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-05/1217_composite.jpg",
               "summary": "YouTube homepage — browsing recommended videos (Warhammer, gaming, study music, AI content)",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-05/1217_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, no person visible",
@@ -16548,12 +16733,14 @@
           "captures": [
             {
               "start": "12:32",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-05/1232_composite.jpg",
               "summary": "Claude.ai chat open ('Afternoon, Seungho'); recent conversation list visible in sidebar",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-05/1232_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, no person visible",
@@ -16570,12 +16757,14 @@
           "captures": [
             {
               "start": "12:47",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-05/1247_composite.jpg",
               "summary": "Steam library open (showing games incl. Age of Empires, StarCraft); Claude.ai visible on right half",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-05/1247_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, no person visible",
@@ -16592,12 +16781,14 @@
           "captures": [
             {
               "start": "13:02",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-05/1302_composite.jpg",
               "summary": "YouTube homepage — SpaceX/Elon Musk interview thumbnail, AI and gaming Shorts",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-05/1302_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, no person visible",
@@ -16614,12 +16805,14 @@
           "captures": [
             {
               "start": "13:17",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-05/1317_composite.jpg",
               "summary": "X (Twitter) feed — post about 'why some people never make a successful app'; browsing public content",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-05/1317_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, no person visible",
@@ -16636,12 +16829,14 @@
           "captures": [
             {
               "start": "13:32",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-05/1332_composite.jpg",
               "summary": "Discord #ai-channel — active conversation about AI data access and scheduled meetup event",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-05/1332_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, no person visible",
@@ -16658,12 +16853,14 @@
           "captures": [
             {
               "start": "13:47",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-05/1347_composite.jpg",
               "summary": "YouTube — 'How to Install OpenClaw on Android Without Root (Full Phone Control)'; terminal commands shown on phone",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-05/1347_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, no person visible",
@@ -16680,12 +16877,14 @@
           "captures": [
             {
               "start": "14:02",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-05/1402_composite.jpg",
               "summary": "X — viewing Anthropic post with chart of engineers' average ship rate per quarter 2019-2025",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-05/1402_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, no person visible",
@@ -16702,18 +16901,21 @@
           "captures": [
             {
               "start": "14:17",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-05/1417_composite.jpg",
               "summary": "blackscreen.app open in Chrome — monitor effectively blank; 2:17 PM timestamp",
               "sensitive": false
             },
             {
               "start": "14:32",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-05/1432_composite.jpg",
               "summary": "blackscreen.app open in Chrome — monitor effectively blank; 2:32 PM timestamp",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-05/1417_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-05/1432_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, no person visible",
@@ -16730,12 +16932,121 @@
           "captures": [
             {
               "start": "14:48",
-              "image": null,
+              "image": "/mnt/c/SelfTrack/2026-06-05/1448_composite.jpg",
               "summary": "YouTube — 'VibeOS - Fully Hallucinated Operating System' video; Microsoft Money 99 app demonstrated",
               "sensitive": false
             }
           ],
-          "images": [],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-05/1448_composite.jpg"
+          ],
+          "sensitive_count": 0,
+          "notes": "",
+          "webcam": "Dark frame, no person visible",
+          "sensitive": false
+        },
+        {
+          "start": "15:03",
+          "end": "15:18",
+          "min": 15,
+          "category": "Leisure",
+          "activity": "Watching YouTube interview",
+          "project": "Personal / Leisure",
+          "screen_summary": "YouTube — 'JUST RECORDED: Elon Musk Interviewed by JP Morgan's Jamie Dimon'; subtitle: \"the fundamental breakthrough of Starship is\"",
+          "captures": [
+            {
+              "start": "15:03",
+              "image": "/mnt/c/SelfTrack/2026-06-05/1503_composite.jpg",
+              "summary": "YouTube — 'JUST RECORDED: Elon Musk Interviewed by JP Morgan's Jamie Dimon'; subtitle: \"the fundamental breakthrough of Starship is\"",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-05/1503_composite.jpg"
+          ],
+          "sensitive_count": 0,
+          "notes": "",
+          "webcam": "Dark frame, no person visible",
+          "sensitive": false
+        },
+        {
+          "start": "15:18",
+          "end": "16:03",
+          "min": 45,
+          "category": "Leisure",
+          "activity": "Browsing YouTube",
+          "project": "Personal / Leisure",
+          "screen_summary": "YouTube recommendations page — same Elon Musk interview in title; browsing AI/tech content suggestions",
+          "captures": [
+            {
+              "start": "15:18",
+              "image": "/mnt/c/SelfTrack/2026-06-05/1518_composite.jpg",
+              "summary": "YouTube recommendations page — same Elon Musk interview in title; browsing AI/tech content suggestions",
+              "sensitive": false
+            },
+            {
+              "start": "15:33",
+              "image": "/mnt/c/SelfTrack/2026-06-05/1533_composite.jpg",
+              "summary": "YouTube recommendations page — AI/tech suggestions including Alex Karp TBPN interview and computer vision papers",
+              "sensitive": false
+            },
+            {
+              "start": "15:48",
+              "image": "/mnt/c/SelfTrack/2026-06-05/1548_composite.jpg",
+              "summary": "YouTube recommendations page — same layout as 1533, still browsing AI/tech content",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-05/1518_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-05/1533_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-05/1548_composite.jpg"
+          ],
+          "sensitive_count": 0,
+          "notes": "",
+          "webcam": "Dark frame, no person visible",
+          "sensitive": false
+        },
+        {
+          "start": "16:03",
+          "end": "17:03",
+          "min": 60,
+          "category": "Leisure",
+          "activity": "Playing Age of Empires 4",
+          "project": "Personal / Leisure",
+          "screen_summary": "Age of Empires 4 gameplay — Feudal Age advance prompt; Town Center selected, early game (~3:18 timer)",
+          "captures": [
+            {
+              "start": "16:03",
+              "image": "/mnt/c/SelfTrack/2026-06-05/1603_composite.jpg",
+              "summary": "Age of Empires 4 gameplay — Feudal Age advance prompt; Town Center selected, early game (~3:18 timer)",
+              "sensitive": false
+            },
+            {
+              "start": "16:18",
+              "image": "/mnt/c/SelfTrack/2026-06-05/1618_composite.jpg",
+              "summary": "Age of Empires 4 gameplay — School of Cavalry, Veteran Royal Knights upgrade; AI opponent reached Imperial Age",
+              "sensitive": false
+            },
+            {
+              "start": "16:33",
+              "image": "/mnt/c/SelfTrack/2026-06-05/1633_composite.jpg",
+              "summary": "Age of Empires 4 gameplay — Age IV match; castle under siege, ally under attack notification (~37:22 timer)",
+              "sensitive": false
+            },
+            {
+              "start": "16:48",
+              "image": "/mnt/c/SelfTrack/2026-06-05/1648_composite.jpg",
+              "summary": "Age of Empires 4 gameplay — large late-game army battle, siege weapons deployed (~46:24 timer)",
+              "sensitive": false
+            }
+          ],
+          "images": [
+            "/mnt/c/SelfTrack/2026-06-05/1603_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-05/1618_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-05/1633_composite.jpg",
+            "/mnt/c/SelfTrack/2026-06-05/1648_composite.jpg"
+          ],
           "sensitive_count": 0,
           "notes": "",
           "webcam": "Dark frame, no person visible",
